@@ -10,31 +10,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/27/2017
+ms.date: 08/09/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b5bb86fe4f76d5ebd12aba9279b1c1b6ef9e9d9b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 87a55a215f4db857d390033fb6954c06b210be8c
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="human-resources"></a><span data-ttu-id="193bd-103">Personeel</span><span class="sxs-lookup"><span data-stu-id="193bd-103">Human Resources</span></span>
-<span data-ttu-id="193bd-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u gedetailleerde records van uw werknemers bijhouden.</span><span class="sxs-lookup"><span data-stu-id="193bd-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="193bd-105">U kunt werknemergegevens vastleggen en onderhouden, waaronder gegevens over arbeidsovereenkomsten, contracten, vertrouwelijke informatie, kwalificaties en contactgegevens met betrekking tot werknemers.</span><span class="sxs-lookup"><span data-stu-id="193bd-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
+# <a name="manage-human-resources"></a><span data-ttu-id="c789d-103">Human Resources beheren</span><span class="sxs-lookup"><span data-stu-id="c789d-103">Manage Human Resources</span></span>
+<span data-ttu-id="c789d-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u gedetailleerde records van uw werknemers bijhouden.</span><span class="sxs-lookup"><span data-stu-id="c789d-104">In [!INCLUDE[d365fin](includes/d365fin_md.md)], you can keep detailed records of your employees.</span></span> <span data-ttu-id="c789d-105">U kunt werknemergegevens vastleggen en onderhouden, waaronder gegevens over arbeidsovereenkomsten, contracten, vertrouwelijke informatie, kwalificaties en contactgegevens met betrekking tot werknemers.</span><span class="sxs-lookup"><span data-stu-id="c789d-105">You can register and maintain employee information, such as employment contracts, confidential information, qualifications, and employee contacts.</span></span>
+
+<span data-ttu-id="c789d-106">U kunt bovendien afwezigheidsgegevens van werknemers registreren, zodat u deze gegevens wanneer nodig kunt analyseren.</span><span class="sxs-lookup"><span data-stu-id="c789d-106">You can also register employee absences, which allows you to analyze registered absences as necessary.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="193bd-106">Deze functionaliteit vereist dat uw ervaring is ingesteld op **Pakket**.</span><span class="sxs-lookup"><span data-stu-id="193bd-106">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="193bd-107">Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="193bd-107">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
+> <span data-ttu-id="c789d-107">Deze functionaliteit vereist dat uw ervaring is ingesteld op **Suite**.</span><span class="sxs-lookup"><span data-stu-id="c789d-107">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="c789d-108">Zie voor meer informatie [Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="c789d-108">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-<span data-ttu-id="193bd-108">Als u aan het werk wilt in Human Resources-functionaliteit, moet u eerst werknemers en overige basisgegevens instellen.</span><span class="sxs-lookup"><span data-stu-id="193bd-108">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="193bd-109">U kunt vervolgens ook verschillende codes aan een werknemer koppelen, zodat u informatie kunt filteren voor specifieke werknemers.</span><span class="sxs-lookup"><span data-stu-id="193bd-109">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
+<span data-ttu-id="c789d-109">Als u aan het werk wilt in Human Resources-functionaliteit, moet u eerst werknemers en overige basisgegevens instellen.</span><span class="sxs-lookup"><span data-stu-id="c789d-109">To start using the Human Resources functionality, you must set up employees and other basic information.</span></span> <span data-ttu-id="c789d-110">U kunt vervolgens ook verschillende codes aan een werknemer koppelen, zodat u informatie kunt filteren voor specifieke werknemers.</span><span class="sxs-lookup"><span data-stu-id="c789d-110">You can then associate various codes to an employee, which allows you to filter information for specific employees.</span></span>
 
-<span data-ttu-id="193bd-110">In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="193bd-110">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+<span data-ttu-id="c789d-111">In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="c789d-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| <span data-ttu-id="193bd-111">Als u dit wilt doen</span><span class="sxs-lookup"><span data-stu-id="193bd-111">To</span></span> | <span data-ttu-id="193bd-112">Zie</span><span class="sxs-lookup"><span data-stu-id="193bd-112">See</span></span> |
+| <span data-ttu-id="c789d-112">Als u dit wilt doen</span><span class="sxs-lookup"><span data-stu-id="c789d-112">To</span></span> | <span data-ttu-id="c789d-113">Zie</span><span class="sxs-lookup"><span data-stu-id="c789d-113">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="193bd-113">Registreer nieuwe werknemers of bewerk records voor bestaande werknemers, en koppel gerelateerde informatie, zoals contracten en artikelen.</span><span class="sxs-lookup"><span data-stu-id="193bd-113">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="193bd-114">Procedure: Werknemers registreren</span><span class="sxs-lookup"><span data-stu-id="193bd-114">How to: Register Employees</span></span>](hr-how-register-employees.md) |
+| <span data-ttu-id="c789d-114">Registreer nieuwe werknemers of bewerk records voor bestaande werknemers, en koppel gerelateerde informatie, zoals contracten en artikelen.</span><span class="sxs-lookup"><span data-stu-id="c789d-114">Register new employees or edit records for existing employees, and attach related information, such as contracts and articles.</span></span> |[<span data-ttu-id="c789d-115">Procedure: Werknemers registreren</span><span class="sxs-lookup"><span data-stu-id="c789d-115">How to: Register Employees</span></span>](hr-how-register-employees.md) |
+| <span data-ttu-id="c789d-116">Leg afwezigheid van werknemers vast en geef afwezigheidsstatistieken weer met verschillende filters.</span><span class="sxs-lookup"><span data-stu-id="c789d-116">Record employees' absence and view absence statistics by various filters.</span></span> |[<span data-ttu-id="c789d-117">Procedure: Werknemersafwezigheid beheren</span><span class="sxs-lookup"><span data-stu-id="c789d-117">How to: Manage Employee Absence</span></span>](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><span data-ttu-id="193bd-115">Zie ook</span><span class="sxs-lookup"><span data-stu-id="193bd-115">See Also</span></span>
-[<span data-ttu-id="193bd-116">Financiën</span><span class="sxs-lookup"><span data-stu-id="193bd-116">Finance</span></span>](finance.md)  
-<span data-ttu-id="193bd-117">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="193bd-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-<span data-ttu-id="193bd-118">[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="193bd-118">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>        
+## <a name="see-also"></a><span data-ttu-id="c789d-118">Zie ook</span><span class="sxs-lookup"><span data-stu-id="c789d-118">See Also</span></span>
+[<span data-ttu-id="c789d-119">Financiën</span><span class="sxs-lookup"><span data-stu-id="c789d-119">Finance</span></span>](finance.md)  
+<span data-ttu-id="c789d-120">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c789d-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="c789d-121">[Uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-ervaring aanpassen](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="c789d-121">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>        
 
