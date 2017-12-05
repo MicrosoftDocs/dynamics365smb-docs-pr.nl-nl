@@ -1,6 +1,6 @@
 ---
 title: Relatiebeheer | Microsoft Docs
-description: "De functies van het relatiebeheer in Financials ondersteunen uw verkoopinspanningen en u kunt gegevens over contacten en prospects openen zodat u klanten efficiënter kunt bedienen."
+description: "De functies voor relatiebeheer in Dynamics 365 ondersteunen uw verkoopinspanningen en bieden u toegang tot gegevens over contacten en prospects, zodat u klanten efficiënter kunt bedienen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,28 +13,28 @@ ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: cf1ba18fff8691fd6b197f83ddbe9a983fe1a340
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-relationships"></a><span data-ttu-id="135e7-103">Relaties beheren</span><span class="sxs-lookup"><span data-stu-id="135e7-103">Managing Relationships</span></span>
-<span data-ttu-id="135e7-104">De relatiebeheerfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten.</span><span class="sxs-lookup"><span data-stu-id="135e7-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="135e7-105">Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.</span><span class="sxs-lookup"><span data-stu-id="135e7-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
+# <a name="managing-relationships"></a><span data-ttu-id="cb59c-103">Relaties beheren</span><span class="sxs-lookup"><span data-stu-id="cb59c-103">Managing Relationships</span></span>
+<span data-ttu-id="cb59c-104">De relatiebeheerfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] helpen u bij het beheer en de ondersteuning van uw verkoopactiviteiten.</span><span class="sxs-lookup"><span data-stu-id="cb59c-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="cb59c-105">Met deze functies hebt u toegang tot volledige en nauwkeurige informatie, zodat u zich kunt richten op uw interacties met de klant/contact-segmenten van uw voorkeur.</span><span class="sxs-lookup"><span data-stu-id="cb59c-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-<span data-ttu-id="135e7-106">Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip.</span><span class="sxs-lookup"><span data-stu-id="135e7-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="135e7-107"> biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.</span><span class="sxs-lookup"><span data-stu-id="135e7-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
+<span data-ttu-id="cb59c-106">Goede verkoop- en marketingmethoden zijn gebaseerd op de juiste beslissingen op het juiste tijdstip.</span><span class="sxs-lookup"><span data-stu-id="cb59c-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="cb59c-107"> biedt nauwkeurige en tijdige overzichten van uw contactgegevens, zodat u uw potentiële klanten efficiënter kunt bedienen en de klanttevredenheid kunt verhogen.</span><span class="sxs-lookup"><span data-stu-id="cb59c-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
-<span data-ttu-id="135e7-108">Om aan de slag te gaan raadpleegt u de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="135e7-108">To get started, see the following topics:</span></span>
+<span data-ttu-id="cb59c-108">Om aan de slag te gaan raadpleegt u de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="cb59c-108">To get started, see the following topics:</span></span>
 
-[<span data-ttu-id="135e7-109">Contactpersonen beheren</span><span class="sxs-lookup"><span data-stu-id="135e7-109">Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="135e7-110">Segmenten beheren</span><span class="sxs-lookup"><span data-stu-id="135e7-110">Managing Segments</span></span>](marketing-segments.md)  
-[<span data-ttu-id="135e7-111">Interacties registreren</span><span class="sxs-lookup"><span data-stu-id="135e7-111">Recording Interactions</span></span>](marketing-interactions.md)  
-[<span data-ttu-id="135e7-112">Marketingcampagnes beheren</span><span class="sxs-lookup"><span data-stu-id="135e7-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
-[<span data-ttu-id="135e7-113">Verkoopopportunities beheren</span><span class="sxs-lookup"><span data-stu-id="135e7-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
+[<span data-ttu-id="cb59c-109">Contactpersonen beheren</span><span class="sxs-lookup"><span data-stu-id="cb59c-109">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="cb59c-110">Segmenten beheren</span><span class="sxs-lookup"><span data-stu-id="cb59c-110">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="cb59c-111">Interacties registreren</span><span class="sxs-lookup"><span data-stu-id="cb59c-111">Recording Interactions</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="cb59c-112">Marketingcampagnes beheren</span><span class="sxs-lookup"><span data-stu-id="cb59c-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
+[<span data-ttu-id="cb59c-113">Verkoopopportunities beheren</span><span class="sxs-lookup"><span data-stu-id="cb59c-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)
 
-## <a name="see-also"></a><span data-ttu-id="135e7-114">Zie ook</span><span class="sxs-lookup"><span data-stu-id="135e7-114">See Also</span></span>
-[<span data-ttu-id="135e7-115">Verkoop</span><span class="sxs-lookup"><span data-stu-id="135e7-115">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="135e7-116">CRM instellen</span><span class="sxs-lookup"><span data-stu-id="135e7-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
-<span data-ttu-id="135e7-117">[Uw klantrelaties beheren met Dynamics 365 for Sales vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span><span class="sxs-lookup"><span data-stu-id="135e7-117">[Managing your Customer Relationships Using Dynamics 365 for Sales from Inside [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)</span></span>  
-<span data-ttu-id="135e7-118">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="135e7-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="cb59c-114">Zie ook</span><span class="sxs-lookup"><span data-stu-id="cb59c-114">See Also</span></span>
+[<span data-ttu-id="cb59c-115">Verkoop</span><span class="sxs-lookup"><span data-stu-id="cb59c-115">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="cb59c-116">CRM instellen</span><span class="sxs-lookup"><span data-stu-id="cb59c-116">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="cb59c-117">Klanten en verkopen beheren die in Dynamics 365 for Sales zijn gemaakt</span><span class="sxs-lookup"><span data-stu-id="cb59c-117">Managing Customers and Sales Created in Dynamics 365 for Sales</span></span>](marketing-integrate-dynamicscrm.md)  
+<span data-ttu-id="cb59c-118">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="cb59c-118">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
