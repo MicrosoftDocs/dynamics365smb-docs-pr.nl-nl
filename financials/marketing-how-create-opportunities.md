@@ -1,6 +1,6 @@
 ---
 title: Verkoopopportunities maken | Microsoft Docs
-description: Hier wordt beschreven hoe u verkoopopportunities maakt vanuit een verkoper of contact in Dynamics 365 Business edition.
+description: Hier wordt beschreven hoe u opportunities maakt vanuit een verkoper of contact in Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,37 +13,37 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a><span data-ttu-id="ac826-103">Procedure: Verkoopopportunities maken</span><span class="sxs-lookup"><span data-stu-id="ac826-103">How to: Create Sales Opportunities</span></span>
-<span data-ttu-id="ac826-104">U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten.</span><span class="sxs-lookup"><span data-stu-id="ac826-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="ac826-105">Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.</span><span class="sxs-lookup"><span data-stu-id="ac826-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
+# <a name="create-sales-opportunities"></a><span data-ttu-id="bab5a-103">Verkoopopportunities maken</span><span class="sxs-lookup"><span data-stu-id="bab5a-103">Create Sales Opportunities</span></span>
+<span data-ttu-id="bab5a-104">U kunt opportunities maken voor de verkoopopportunities die van toepassing zijn op uw contacten.</span><span class="sxs-lookup"><span data-stu-id="bab5a-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="bab5a-105">Alle opportunities moeten worden toegewezen aan een verkoper of inkoper. Bovendien moet u altijd een contact opgeven.</span><span class="sxs-lookup"><span data-stu-id="bab5a-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
 
-<span data-ttu-id="ac826-106">U kunt opportunities maken in het venster **Opportunity-overzicht**.</span><span class="sxs-lookup"><span data-stu-id="ac826-106">You can create opportunities from the **Opportunity List** window.</span></span> <span data-ttu-id="ac826-107">Maar u maakt opportunities meestal van het desbetreffende contact of de desbetreffende verkoper.</span><span class="sxs-lookup"><span data-stu-id="ac826-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
+<span data-ttu-id="bab5a-106">U kunt opportunities maken in het venster **Opportunity-overzicht**.</span><span class="sxs-lookup"><span data-stu-id="bab5a-106">You can create opportunities from the **Opportunity List** window.</span></span> <span data-ttu-id="bab5a-107">Maar u maakt opportunities meestal van het desbetreffende contact of de desbetreffende verkoper.</span><span class="sxs-lookup"><span data-stu-id="bab5a-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
 
-<span data-ttu-id="ac826-108">Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen.</span><span class="sxs-lookup"><span data-stu-id="ac826-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="ac826-109">Zie voor meer informatie [Procedure: Opportunityverkoopcycli en -fasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="ac826-109">For more information see [How to: Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
+<span data-ttu-id="bab5a-108">Voordat u opportunities kunt maken, moet u opportunityverkoopcyclussen instellen.</span><span class="sxs-lookup"><span data-stu-id="bab5a-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="bab5a-109">Zie voor meer informatie [Opportunityverkoopcycli en cyclusfasen maken](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="bab5a-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="ac826-110">Een opportunity maken van een verkoper</span><span class="sxs-lookup"><span data-stu-id="ac826-110">To create an opportunity from a salesperson</span></span>
-1. <span data-ttu-id="ac826-111">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="ac826-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
-2. <span data-ttu-id="ac826-112">Selecteer de verkoper in de lijst voor wie u een opportunity wilt maken.</span><span class="sxs-lookup"><span data-stu-id="ac826-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="ac826-113">Kies de actie **Opportunities** en kies vervolgens **Overzicht**.</span><span class="sxs-lookup"><span data-stu-id="ac826-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="ac826-114">Kies de actie **Nieuw** en voer vervolgens de gewenste waarden in de velden in.</span><span class="sxs-lookup"><span data-stu-id="ac826-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="bab5a-110">Een opportunity maken van een verkoper</span><span class="sxs-lookup"><span data-stu-id="bab5a-110">To create an opportunity from a salesperson</span></span>
+1. <span data-ttu-id="bab5a-111">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Verkopers** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="bab5a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bab5a-112">Selecteer de verkoper in de lijst voor wie u een opportunity wilt maken.</span><span class="sxs-lookup"><span data-stu-id="bab5a-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="bab5a-113">Kies de actie **Opportunities** en kies vervolgens **Overzicht**.</span><span class="sxs-lookup"><span data-stu-id="bab5a-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
+4. <span data-ttu-id="bab5a-114">Kies de actie **Nieuw** en voer vervolgens de gewenste waarden in de velden in.</span><span class="sxs-lookup"><span data-stu-id="bab5a-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="ac826-115">Een opportunity maken van een contact</span><span class="sxs-lookup"><span data-stu-id="ac826-115">To create an opportunity from a contact</span></span>
-1. <span data-ttu-id="ac826-116">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="ac826-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.</span></span>
-2. <span data-ttu-id="ac826-117">Selecteer het contact in de lijst voor wie u een opportunity wilt maken.</span><span class="sxs-lookup"><span data-stu-id="ac826-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="ac826-118">Ga op een van de volgende manieren te werk:</span><span class="sxs-lookup"><span data-stu-id="ac826-118">Do one of the following:</span></span>
-   * <span data-ttu-id="ac826-119">Kies de actie **Opportunity maken**.</span><span class="sxs-lookup"><span data-stu-id="ac826-119">Choose the **Create Opportunity** action.</span></span>
-   * <span data-ttu-id="ac826-120">Kies de actie **Opportunities** en kies vervolgens **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="ac826-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
-4. <span data-ttu-id="ac826-121">Vul de betreffende velden in.</span><span class="sxs-lookup"><span data-stu-id="ac826-121">Fill in the relevant fields.</span></span>
+## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="bab5a-115">Een opportunity maken van een contact</span><span class="sxs-lookup"><span data-stu-id="bab5a-115">To create an opportunity from a contact</span></span>
+1. <span data-ttu-id="bab5a-116">Klik op het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Contacten** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="bab5a-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="bab5a-117">Selecteer het contact in de lijst voor wie u een opportunity wilt maken.</span><span class="sxs-lookup"><span data-stu-id="bab5a-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="bab5a-118">Ga op een van de volgende manieren te werk:</span><span class="sxs-lookup"><span data-stu-id="bab5a-118">Do one of the following:</span></span>
+   * <span data-ttu-id="bab5a-119">Kies de actie **Opportunity maken**.</span><span class="sxs-lookup"><span data-stu-id="bab5a-119">Choose the **Create Opportunity** action.</span></span>
+   * <span data-ttu-id="bab5a-120">Kies de actie **Opportunities** en kies vervolgens **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="bab5a-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
+4. <span data-ttu-id="bab5a-121">Vul de betreffende velden in.</span><span class="sxs-lookup"><span data-stu-id="bab5a-121">Fill in the relevant fields.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ac826-122">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ac826-122">See Also</span></span>
-[<span data-ttu-id="ac826-123">Verkoop</span><span class="sxs-lookup"><span data-stu-id="ac826-123">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="ac826-124">Contactpersonen maken en beheren</span><span class="sxs-lookup"><span data-stu-id="ac826-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="ac826-125">Werken met Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="ac826-125">Working with Dynamics 365</span></span>](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="bab5a-122">Zie ook</span><span class="sxs-lookup"><span data-stu-id="bab5a-122">See Also</span></span>
+[<span data-ttu-id="bab5a-123">Verkoop</span><span class="sxs-lookup"><span data-stu-id="bab5a-123">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="bab5a-124">Contactpersonen maken en beheren</span><span class="sxs-lookup"><span data-stu-id="bab5a-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="bab5a-125">Werken met Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="bab5a-125">Working with Finance and Operations, Business edition</span></span>](ui-work-product.md)
 
