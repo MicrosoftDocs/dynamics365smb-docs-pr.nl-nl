@@ -1,8 +1,6 @@
 ---
 title: Certificaten instellen voor gebruik met Digipoort
 description: Informatie over Digipoort-certificaten.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,22 +11,23 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fead9497c961a8cd2f201452bbea0d58b5690341
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 21f22fe25003b3255f429551e699143300535e37
 ms.contentlocale: nl-nl
 ms.lasthandoff: 03/22/2018
 
 ---
+
 # <a name="set-up-certificates-for-use-with-digipoort"></a>Certificaten instellen voor gebruik met Digipoort
 In de volgende procedure wordt ervan uitgegaan dat u de certificaten van de overheid hebt ontvangen. Als dat niet zo is, voert u de volgende stappen uit om de certificaten te krijgen.  
 
 - Verkrijg een PKIoverheid-certificaat voor het bedrijf als u er nog geen hebt. Een lijst met certificaatproviders vindt u hier: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
-- Verkrijg een **Digipoort Service-certificaat**, dat kan worden verkregen van de website van de Nederlandse belastingdienst: <[https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl)>.  
+- Verkrijg een **Digipoort Service-certificaat**, dat kan worden verkregen van de website van de Nederlandse belastingdienst: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).  
 
-- Registreer een gebruiker van Digipoort, wat u hier kunt doen: <[https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw)>.  
+- Registreer een gebruiker van Digipoort, wat u hier kunt doen: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).  
 
-Nadat u zich registreert en aanmeldt bij de officiële site, kunt u de Digiport-servercertificaten van deze website downloaden: <[https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten)>.  
+Nadat u zich registreert en aanmeldt bij de officiële site, kunt u de Digipoort-servercertificaten van deze website downloaden: [https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten](https://aansluiten.procesinfrastructuur.nl/site/documentatie/certificaten).  
 
 Vervolgens moet u de certificaten installeren. De certificaten moeten op de server worden geïnstalleerd. Later gebruikt u de algemene naam (CN) van de certificaten in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
