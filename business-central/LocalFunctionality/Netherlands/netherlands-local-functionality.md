@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/21/2018
+ms.date: 05/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ef75d71cd9ebd451d97d32b189527a065c76b7cb
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 30ab88371ec0a28ecb5da422ff76de26cd5ce487
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
@@ -25,6 +25,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 ## <a name="in-this-section"></a>In dit gedeelte  
   [CMR-verzendbonnen](cmr-notes.md)  
   [Elektronisch bankieren voor Nederland](dutch-electronic-banking.md)  
+  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
   [Elektronische belastingaangiften](electronic-tax-declarations.md)  
   [Grootboek](general-ledger.md)  
   [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  

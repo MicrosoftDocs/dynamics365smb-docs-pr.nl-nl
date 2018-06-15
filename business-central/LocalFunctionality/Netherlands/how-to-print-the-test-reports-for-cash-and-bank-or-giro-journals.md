@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8b4f62c3fba39a1d652363079ac7fd4ddc777a7c
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 60ce664d86932a112a23168cfca7ef58d5e0970b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a>De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
@@ -52,5 +52,5 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 
 ## <a name="see-also"></a>Zie ook  
  [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)   
- [Kas-Bank-Giro](cash-bank-giro.md)
+ [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 

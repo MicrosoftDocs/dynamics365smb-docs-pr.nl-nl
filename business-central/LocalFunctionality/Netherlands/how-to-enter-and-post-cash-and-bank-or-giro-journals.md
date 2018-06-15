@@ -13,18 +13,22 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 47411ec745ee3c0dae6614bda529e8081c4df002
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: dbffb4189b56a1af38b1f53f85c46276709a3cb9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
-# <a name="enter-and-post-cash-and-bank-or-giro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door **Kasboek** en **Bankboek** te gebruiken.  
+# <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
+Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
 
-U kunt een toenames of afnames op de kasrekening invoeren in de **Kasboeken**. U kunt dit dagboek bijvoorbeeld gebruiken voor het betalen van kleine kas of het ontvangen van transfers van een andere bankrekening.  
+Daarnaast kunt u in combinatie met telebankieren elektronische bankafschriften in het venster **Bank-/Giroboek** importeren. Desgewenst kunnen deze afschriften tijdens het importproces automatisch worden gereconcilieerd en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.
 
-Het **Bank-/giroboek** registreert de instroom of uitstroom van de contanten naar een bepaalde rekening. Dit dagboek vormt de basis voor bankreconciliatie. De indeling van dit dagboek lijkt op het papieren bankafschrift, dus u kunt u de vereiste velden van het papieren afschrift overnemen in het dagboek of u kunt een elektronisch bankafschriftbestand importeren. De transacties kunnen klantbetalingen of leveranciersbetalingen zijn.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door de typen **Kasboek** en **Bankboek** te gebruiken.  
+
+U kunt toenames of afnames op de kasrekening invoeren in het venster **Kasboek**. U kunt dit dagboek bijvoorbeeld gebruiken voor het betalen van kleine kas of het ontvangen van transfers van een andere bankrekening.  
+
+Het venster **Bank-/giroboek** registreert de instroom of uitstroom van de contanten naar een bepaalde rekening. Dit dagboek vormt de basis voor bankreconciliatie. De indeling van dit dagboek lijkt op het papieren bankafschrift, dus u kunt u de vereiste velden van het papieren afschrift overnemen in het dagboek of u kunt een elektronisch bankafschriftbestand importeren. De transacties kunnen klantbetalingen of leveranciersbetalingen zijn.  
 
 U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vorderingen. U kunt ook grootboektransacties invoeren om overige bedragen vast te leggen, zoals bankkosten of rente-inkomsten. Btw codes kunnen ook op deze transactieregels worden toegepast. U kunt een dagboek per bankrekening opgeven.  
 
@@ -83,5 +87,8 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 De posten worden naar het grootboek geboekt. Zie Gootboekposten voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook  
- [De testrapporten afdrukken voor kasboeken, bankboeken of giroboeken](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
+ [De testrapporten afdrukken voor kasboeken, bankboeken of giroboeken](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)  
+ [Telebankieren](telebanking.md)   
+ [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
+ [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
 

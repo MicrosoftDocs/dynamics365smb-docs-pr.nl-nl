@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 92431fcd51493998e3d2080222bddef85a3aac28
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 070ecd755a8fba0ffd4de59c30b170e6df3e670d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
@@ -51,7 +51,7 @@ Bestanden van elektronische bankafschriften worden voor de volgende banken onder
 Bankrekeningnummers worden gevalideerd door te controleren of ze uit 9 of 10 cijfers bestaan en of ze het “elftest”-algoritme ondersteunen. Bij girorekeningen moet het rekeningnummer uit minder dan acht cijfers bestaan.  
 
 ## <a name="see-also"></a>Zie ook  
- [Telebankieren](telebanking.md)   
- [Kas\-Bank\-Giro](cash-bank-giro.md)   
- [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md)
+[Telebankieren](telebanking.md)   
+[Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)     
+[Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md)
 
