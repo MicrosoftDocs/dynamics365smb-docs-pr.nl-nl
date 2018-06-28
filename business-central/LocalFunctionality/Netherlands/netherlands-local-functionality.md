@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 05/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 30ab88371ec0a28ecb5da422ff76de26cd5ce487
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: a39a22434befd9e8e25f49326029482f4754f2a5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="netherlands-local-functionality"></a><span data-ttu-id="03f83-103">Lokale functionaliteit voor Nederland</span><span class="sxs-lookup"><span data-stu-id="03f83-103">Netherlands Local Functionality</span></span>
@@ -35,5 +35,5 @@ ms.lasthandoff: 05/17/2018
 <span data-ttu-id="03f83-114">[Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="03f83-114">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
