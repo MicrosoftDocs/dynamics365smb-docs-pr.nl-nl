@@ -1,6 +1,6 @@
 ---
-title: Elektronische btw- en ICP-aangiften
-description: Bedrijven moeten periodieke btw- en ICP-aangiften verzenden.
+title: Elektronische btw- en ICP-aangiften verzenden
+description: Met de eXtensible Business Reporting Language (XBRL) Reporter kunt u de aangifte van Intracommunautaire Leveringen (ICP) of de btw-aangifte in de vereiste XML-indeling verzenden. Wanneer dit wordt verzonden, wordt het bestand verstuurd naar de belastingdienst zoals is gedefinieerd in het venster Elek. aangifte-instellingen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,58 +10,104 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8341d8b1cb72ea9db0e9c3fc9001915a628b0470
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 9e1c9b3ea056b023cac6f7ed8875f5da4c3229f9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
-# <a name="electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften
-Bedrijven moeten periodieke btw- en ICP-aangiften verzenden.  
+# <a name="submitting-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften verzenden
+Bedrijven moeten maandelijks periodieke btw-aangiften en ICP-aangiften (intracommunautaire leveringen) naar de belastingdienst versturen.  
 
-Btw aangiften moeten op een maandelijkse of driemaandelijkse basis worden verzonden.  
-
-Bedrijven die goederen of diensten verkopen aan EU-landen, moeten ICP-aangiften (Intracommunautaire leveringen) op kwartaalbasis verzenden. Inkopen zijn niet opgenomen in deze aangifte. Voor deze intracommunautaire transacties moet echter de handelswaar de grens fysiek overschrijden. Het is niet voldoende dat de locatie van een factuuradres of het kantoor van de leverancier of klant in een ander land of een andere regio in een EU-land ligt.  
+Btw aangiften moeten op een maandelijkse of driemaandelijkse basis worden verzonden.
+ICP-aangiften moeten op een driemaandelijkse basis worden verzonden.
 
 > [!NOTE]  
->  Voordat u elektronische aangiften naar de belastingdienst verstuurt, dient uw bedrijf aangemeld te zijn voor elektronische aangifte. De informatie die de belastingdienst nodig heeft is afhankelijk van de ondertekeningsmethode die uw bedrijf zal gebruiken, PIN of PKI. Voor beide methoden geldt dat u het formulier "Aanmeldingsformulier voor elektronisch berichtenverkeer met de belastingdienst" naar de belastingdienst moet opsturen.  
->   
->  Zie voor meer informatie de [website](http://go.microsoft.com/fwlink/?LinkID=223151) van de Nederlandse belastingdienst.  
+> ICP-aangiften moeten worden verzonden door bedrijven die goederen of diensten verkopen aan landen binnen de Europese Unie. Inkopen zijn niet opgenomen in deze aangifte. <br /><br />
+Een transactie komt alleen in aanmerking voor ICP-aangifte als de handelswaar de grens fysiek heeft overschreden. Het is niet voldoende dat de locatie van een factuuradres of het kantoor van de leverancier of klant in een ander land of een andere regio in een EU-land ligt.  
 
-## <a name="submitting-electronic-tax-declarations"></a>Elektronische belastingaangiften versturen  
 U kunt de btw-aangiften en ICP-aangiften als volgt verzenden:  
 
 - Meld u aan op de website van het Nederlandse belastingkantoor en voer de informatie handmatig in. Zie voor meer informatie de [website](http://go.microsoft.com/fwlink/?LinkID=223151) van de Nederlandse belastingdienst.  
 
-    Voor ICP-aangiften kunt u maximaal 99 regels invoeren.  
+- Maak een elektronische aangifte en verzend het versleutelde bestand via het Digipoort-kanaal naar het Nederlandse belastingkantoor. Digipoort is het elektronische postkantoor dat door de Nederlandse overheid voor bedrijven wordt geboden. Het bevat de gemeenschappelijke infrastructuur voor de communicatie van gegevens tussen bedrijven en de overheid, inclusief btw-aangiftes. De rapporten hebben de XBRL-indeling (eXtensible Business Reporting Language). Zie [Rapporten maken met XBRL](../../bi-create-reports-with-xbrl.md) voor meer informatie.
 
-- Een elektronische aangifte maken en het versleutelde bestand via SMTP (Simple Mail Transfer Protocol) naar het Nederlandse belastingkantoor versturen.  
+## <a name="to-prepare-for-electronic-declaration"></a>Elektronische aangifte voorbereiden
+Voordat je elektronische aangiften kan versturen naar de belastingdienst moeten eerst de volgende taken zijn uitgevoerd:
 
-De elektronische btw-aangifte bevat de geboekte btw en de berekende belasting over een opgegeven periode die aan de douane moet worden betaald. De gegevens van de btw-aangifte zijn gebaseerd op de definitie van de btw-aangifte in de tabel **Btw-aangifteregel**. Zie Btw-aangifteregel voor meer informatie.  
+1. Controleer of u de certificaten van de overheid hebt ontvangen. Als dat niet zo is, voert u de volgende stappen uit om de certificaten te krijgen:
 
-De gegevens van de ICP-aangifte zijn gebaseerd op de tabel **Btw-post**. Zie voor meer informatie Btw-post.  
+    - Verkrijg een PKIoverheid-certificaat voor het bedrijf als u er nog geen hebt. Een lijst met certificaatproviders vindt u hier: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
-## <a name="electronic-tax-declaration-methods"></a>Methoden voor elektronische aangiften  
-U kunt de btw- en ICP-aangifte op elektronische wijze verzenden naar de belastingdienst met de volgende methoden:  
+    - Registreer een gebruiker van Digipoort, wat u hier kunt doen: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
 
-**PIN-methode (Personal Identification Number)**  
- Gebruikt een PIN-code om de aangifte te ondertekenen. Als u uw aangiften met de PIN-methode verzendt, moet u de PIN-code voor uw bedrijf maken en leveren aan de belastingdienst. Deze code helpt de belastingdienst het bedrijf te identificeren dat de elektronische aangifte heeft verstuurd. Deze PIN-code wordt niet opgeslagen in de database. Daarom moet u de PIN-code op een veilige plaats bewaren.  
+    - Verkrijg een **Digipoort Service-certificaat**, dat kan worden verkregen van de website van de Nederlandse belastingdienst: [https://aansluiten.procesinfrastructuur.nl](https://aansluiten.procesinfrastructuur.nl).
 
-> [!WARNING]  
->  De belastingdienst overweegt aangiften te accepteren die met behulp van een PIN-code zijn ondertekend. Zie voor meer informatie de [website](http://go.microsoft.com/fwlink/?LinkID=223151) van de Nederlandse belastingdienst.  
+2. Algemene en persoonlijke gegevens, ontvangen van de belastingdienst, in het venster **Elek. aangifte-instellingen** invoeren. Zie voor meer informatie [Elektronische btw- en ICP-aangiftes instellen](how-to-set-up-electronic-vat-and-icp-declarations.md).
 
-**PKI-methode (Public Key Infrastructure)**  
- Gebruikt digitale certificaten om berichten te versleutelen en digitale handtekening te verifiëren. Als u uw aangiften met de PKI-methode verzendt, moet u ook aanvullende certificaten, algemene parameters en andere parameters hebben wanneer u de PKI-methode gebruikt. Zie voor meer informatie de [website](http://go.microsoft.com/fwlink/?LinkID=223151) van de Nederlandse belastingdienst.  
+3. Stel een btw-categoriecode in voor alle XML-elementen in de elektronische btw-aangifte. Zie [Btw-categorieën instellen](how-to-set-up-vat-categories.md) voor meer informatie.
 
-## <a name="contact-information"></a>Contactgegevens  
-De elektronische btw- en ICP-aangifte bevat contactgegevens over de belastingplichtige of intermediair. Zie voor meer informatie Btw-nummer.  
+## <a name="to-create-an-electronic-declaration"></a>Een elektronische aangifte aanmaken
+1. Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Elektronische aangiften** in en kies de gerelateerde koppeling.  
+2. Kies in het venster **Overzicht elektronische aangiften** de actie **Nieuw**.  
+3. Vul in het venster **Elektronische aangifte** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
+4. Kies de knop **OK**.
+
+De XML-elementen met de bijbehorende gegevens van de elektronische aangifte worden weergegeven op het sneltabblad **Regels** in het venster **Elektronische aangiftekaart**.
+
+De XBRL Reporter zorgt ervoor dat alle rekeningnummers die worden geïmporteerd van Business Central, aan de XBRL-elementen in een rapport worden toegewezen. De XBRL Reporter geeft ook een lijst weer met fouten wegens niet-toegewezen elementen of rekeningen.
+
+## <a name="to-submit-an-electronic-declaration"></a>Een elektronische aangifte versturen
+Met de XBRL Reporter kunt u de aangifte van intracommunautaire leveringen (ICP) of de btw-aangifte verzenden in de vereiste XML-indeling. Wanneer dit wordt verzonden, wordt het bestand verstuurd naar de belastingdienst zoals is gedefinieerd in het venster **Elek. aangifte-instellingen**.
+
+1. Kies in het venster **Elektronische aangiftekaart** de actie **Elektronische aangifte versturen**.
+2. Vul de velden in zoals beschreven in de volgende tabel.
+
+    |Veld|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Clientcertificaat**|Selecteer het certificaat **PKIoverheid** voor het bedrijf.|  
+    |**Wachtwoord van clientcertificaat**|Voer het wachtwoord in dat wordt gebruikt om het clientcertificaat te versleutelen.|
+    |**Servicecertificaat**|Selecteer het certificaat **Digipoortservice**.|
+
+3. Kies de knop **OK**.  
+
+De elektronische aangifte wordt verstuurd naar de belastingdienst.
+
+> [!NOTE]  
+> Als er geen intracommunautaire leveringen zijn geweest in de aangifteperiode, dan wordt er een elektronische ICP-aangifte aangemaakt zonder XML-elementen voor de leveringen. Als u een dergelijke aangifte verzendt, wordt een foutbericht weergegeven.
+
+## <a name="to-import-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst importeren
+De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Responsberichten elektronische aangiften** in en klik vervolgens op de gerelateerde koppeling.  
+2. Kies de actie **Responsberichten ontvangen**.  
+3. Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
+
+    |Veld|Description|  
+    |---------------------------------|---------------------------------------|  
+    |**Clientcertificaat**|Selecteer het certificaat **PKIoverheid** voor het bedrijf.|  
+    |**Wachtwoord van clientcertificaat**|Voer het wachtwoord in dat wordt gebruikt om het clientcertificaat te versleutelen.|
+    |**Servicecertificaat**|Selecteer het certificaat **Digipoortservice**.|  
+
+4. Kies de knop **OK**.
+
+## <a name="to-process-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst verwerken
+Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de inhoud te valideren aan de hand van de gerelateerde elektronische aangifte. Als er geen fouten worden gevonden in de elektronische aangifte en de gegevens zijn verwerkt door de belastingdienst, wordt het veld **Status** in het venster **Elektronische aangiftekaart** gewijzigd in **Geaccepteerd**.
+
+1. Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Responsberichten elektronische aangiften** in en klik vervolgens op de gerelateerde koppeling.  
+2. Kies de actie **Responsberichten verwerken**.  
+3. Selecteer de juiste filters in het venster **Batchverwerking Responsberichten verwerken** en klik vervolgens op de knop **OK**.  
+
+    De verwerkte gegevens over het responsbericht wordt weergegeven in het **Responsberichten elektronische aangiften** in.  
+
+4. Als u een bericht of bijlage wilt exporteren, kiest u op het tabblad **Responsbericht exporteren** de actie **Responsbijlage exporteren**.
 
 ## <a name="see-also"></a>Zie ook  
- [Elektronische belastingaangiften](electronic-tax-declarations.md)   
- [Btw-categorieën instellen](how-to-set-up-vat-categories.md)   
- [Elektronische btw- en ICP-aangiften maken](how-to-create-electronic-vat-and-icp-declarations.md)   
- [Responsberichten van de belastingdienst verwerken](how-to-process-response-messages-from-tax-authorities.md)
+[Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Btw-categorieën instellen](how-to-set-up-vat-categories.md)  
+[Lijsten met XBRL maken](../../bi-create-reports-with-xbrl.md)  
+[Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
 

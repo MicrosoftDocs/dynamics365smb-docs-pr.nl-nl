@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 05/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 30ab88371ec0a28ecb5da422ff76de26cd5ce487
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 98183b493c6190cbaf29ef372a2154ec099ce6c7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
@@ -26,14 +26,13 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
   [CMR-verzendbonnen](cmr-notes.md)  
   [Elektronisch bankieren voor Nederland](dutch-electronic-banking.md)  
   [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
-  [Elektronische belastingaangiften](electronic-tax-declarations.md)  
+  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
   [Grootboek](general-ledger.md)  
   [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
-  [Procedure: Documentbedragen bewerken in inkoopfacturen en creditnota's](how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
+  [Documentbedragen bewerken in inkoopfacturen en creditnota's](how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 
 

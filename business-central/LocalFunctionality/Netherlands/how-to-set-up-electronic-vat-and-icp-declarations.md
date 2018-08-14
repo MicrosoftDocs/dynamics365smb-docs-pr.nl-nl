@@ -10,52 +10,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/24/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5948228acc723ac1fdaf02767369f4825201c62b
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 428da0b9182e7112fc49140be36583b7017cbb8e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
-# <a name="set-up-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften instellen
-Als u uw Digipoort-communicatie wilt laten werken, moet u mogelijk uw netwerkinstellingen aanpassen. Digipoort gebruikt een veilig communicatieprotocol en vereist gebruik van TCP-poort 443. Voordat u met de volgende procedure begint, stelt u uw netwerk in om deze poort te gebruiken.  
+# <a name="setting-up-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften instellen
+Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden.
 
-Als u elektronische btw- en ICP-aangiften wilt kunnen maken en met de belastingdienst wilt kunnen communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden.  
+Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar de belastingdienst te verzenden. Zie voor meer informatie [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md).  
 
-## <a name="to-set-up-electronic-tax-declarations"></a>Elektronische belastingaangiften instellen  
+## <a name="to-set-up-electronic-declarations"></a>Elektronische aangiften instellen  
 
-1.  Kies het pictogram ![Pictogram Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Elek. aangifte-instellingen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Selecteer in het venster **Elek. aangifte-instellingen** op het sneltabblad **Algemeen** de optie **BTW-contactpersoonsoort**.
+1. Kies het pictogram ![Pictogram Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Elek. aangifte-instellingen** in en kies vervolgens de gerelateerde koppeling.  
+2. Vul in het venster **Elek. aangifte-instellingen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+3. Als u het btw-nummer van het bedrijf wilt laten invullen bij de contact-id in de elektronische aangifte, selecteert u **Belastingplichtige** in het veld **BTW-contactpersoonsoort**.
+4. Als u elektronische ICP-aangiften voor een dochteronderneming van een fiscale eenheid wilt verzenden, schakelt u het selectievakje **Deel van Fiscale eenheid** in.  
 
-    De opties zijn **Belastingplichtige** en **Expediteur**. Als de contactsoort **Belastingplichtige** is, wordt de contact-id van de elektronische aangifte ingevuld met het btw-nummer van het bedrijf.  
+    > [!NOTE]  
+    > Als een bedrijf verscheidene bedrijven heeft geregistreerd als dochterondernemingen van een moedermaatschappij, hebben deze de mogelijkheid om de btw-aangifte afzonderlijk te doen of gecombineerd voor één fiscale eenheid. Als u elektronische aangiften voor dochterondernemingen van een moedermaatschappij wilt instellen, moet u een vinkje plaatsen in het veld **Deel van Fiscale eenheid** in het venster **Elek. aangifte-instellingen**. U kunt dan een elektronische aangifte maken voor slechts één bedrijf.<br /><br />
+    Als u de btw-gegevens van alle dochterondernemingen van een moedermaatschappij wilt combineren, moet u een btw-aangifte op papier opstellen voor elke dochteronderneming en handmatig de totaalbedragen voor de moedermaatschappij berekenen. Deze totaalbedragen van de moedermaatschappij moeten worden ingevoerd op de website van de belastingdienst.<br /><br />
+    U kunt geen belastinggegevens van ICP-aangiften combineren. ICP-aangiften moeten altijd afzonderlijk worden ingediend.<br /><br />
+    Voor elke dochteronderneming kan een elektronische ICP-aangifte worden opgesteld en aan de belastingdienst worden gezonden. Deze elektronische ICP-aangiften moeten het btw-nummer van de dochteronderneming en de waarde van het veld **Nr. fiscale eenheid** in het venster **Bedrijfsgegevens** van de moedermaatschappij bevatten.
 
-3.  Selecteer het **ICP-contactpersoonsoort**. De opties zijn **Belastingplichtige** en **Expediteur**.  
-4.  Als u elektronische ICP-aangiften voor een dochteronderneming van een fiscale eenheid wilt verzenden, schakelt u het veld **Deel van Fiscale eenheid** in.  
-5.  Voer op het sneltabblad **Nummering** de nummerreeks voor het veld **Btw-aangiftenrs.** in.  
-6.  Voer op het sneltabblad **Digipoort** de benodigde gegevens in voor de Digipoort-verzendingen.  
-
-    1.  Voer in het veld **Naam certificaat Digipoort-client** de algemene (CN) naam in van het certificaat u voor gebruik met Digipoort hebt aangevraagd. U vindt deze gegevens in de certificaateigenschappen van het persoonlijke certificaat dat u in de map **Persoonlijk** hebt geïnstalleerd. Zie voor meer informatie [Certificaten instellen voor gebruik met Digipoort](how-to-set-up-certificates-for-use-with-digipoort.md).  
-    2.  Voer in het veld **Naam certificaat Digipoort-service** de algemene naam in van het servicecertificaat, die gelijk kan zijn aan de naam van de server waarmee u communiceert voor de Nederlandse overheid. U vindt deze gegevens in de certificaateigenschappen van het openbare certificaat dat in de map **Vertrouwde uitgevers** is geïnstalleerd. Zie voor meer informatie [Certificaten instellen voor gebruik met Digipoort](how-to-set-up-certificates-for-use-with-digipoort.md).  
-    3.  Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [http://www.logius.nl/producten/gegevensuitwisseling/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
-    4.  Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service.  
-
-    Zie voor meer informatie [Overzicht van Digipoort](digipoort-overview.md).  
+5. Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [http://www.logius.nl/producten/gegevensuitwisseling/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
+6. Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service. Zie voor meer informatie [Elektronische btw- en ICP-aangiftes](electronic-vat-and-icp-declarations.md).
 
 Momenteel zijn er twee sets URL's die door de Nederlandse belastingdienst worden verstrekt. Deze zijn echter voor wijzigingen vatbaar en u moet de website van de dienst regelmatig controleren op updates.  
 
-**Productiegebruik**  
-
-- Directe leverings-URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
+### <a name="production-use"></a>Productiegebruik
+- Directe leverings-URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
 - Digipoort status-URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
-**Gebruik testen**  
-
-- Directe leverings-URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2  
+### <a name="testing-use"></a>Gebruik testen
+- Directe leverings-URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
 - Digipoort status-URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
 ## <a name="see-also"></a>Zie ook  
- [Elektronische btw- en ICP-aangiften verzenden](how-to-submit-electronic-vat-and-icp-declarations.md)   
- [Responsberichten van de belastingdienst verwerken](how-to-process-response-messages-from-tax-authorities.md)
+ [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
+ [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
 

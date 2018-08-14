@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f719eaf6d81b92166d9a6fdb2f1b77cb5ad983e5
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 0044ec6074aadaa06d04c3c49ed9ddb1bc4c3f01
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="create-an-audit-file-for-the-tax-authority"></a>Een auditfile voor de belastingdienst maken
@@ -42,6 +42,5 @@ Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur
 Wanneer u het rapport uitvoert, moet u de naam en locatie van het geëxporteerde bestand opgeven. De standaardbestandsnaam is **audit.xaf**, maar u kunt dat wijzigen. De bestandsextensie moet .xaf zijn.  
 
 ## <a name="see-also"></a>Zie ook  
- [Elektronische btw- en ICP-aangiften](electronic-vat-and-icp-declarations.md)   
- [Elektronische btw- en ICP-aangiften verzenden](how-to-submit-electronic-vat-and-icp-declarations.md)
+ [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)
 

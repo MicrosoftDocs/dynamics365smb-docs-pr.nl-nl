@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2dc4a632f8ab356256a6315260654dac5d33af70
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 78a1c3f655e9a094b06075847c883dbd8f939e75
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="set-up-vat-categories"></a>VAT-categorieën instellen
@@ -46,6 +46,6 @@ U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XM
 U kunt nu de btw-aangiftegegevens direct aan een XML-element toewijzen.  
 
 ## <a name="see-also"></a>Zie ook  
- [Elektronische btw- en ICP-aangiften](electronic-vat-and-icp-declarations.md)   
- [Elektronische btw- en ICP-aangiften maken](how-to-create-electronic-vat-and-icp-declarations.md)
+ [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
+ [Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)
 
