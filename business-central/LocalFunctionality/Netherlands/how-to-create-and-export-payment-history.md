@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 386591e56f324d5c1ba0159aa2d29ffdfb27f2a7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 52ccccec7cfe9aacf040373881b127af5fd76754
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-and-export-payment-history"></a><span data-ttu-id="abb15-104">Betalingsrun maken en exporteren</span><span class="sxs-lookup"><span data-stu-id="abb15-104">Create and Export Payment History</span></span>

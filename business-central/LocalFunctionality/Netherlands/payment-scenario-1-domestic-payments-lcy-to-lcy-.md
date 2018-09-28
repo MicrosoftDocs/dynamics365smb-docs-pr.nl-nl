@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: db2c3549ba5362e57e6a928b5bc76db9d1f2e18c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb97534cd9ef9a987768feadfd61189285c20491
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="payment-scenario-1---domestic-payments-lcy-to-lcy"></a><span data-ttu-id="ad063-103">Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).</span><span class="sxs-lookup"><span data-stu-id="ad063-103">Payment Scenario 1 - Domestic Payments (LCY to LCY)</span></span>

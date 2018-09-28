@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 02/21/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a0170bfbd92370848f1e078ab6fb2a849ded4d1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e18db737c70b048ac3464d6529e4a9fec19c257f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos"></a><span data-ttu-id="c6fc2-103">Documentbedragen bewerken in inkoopfacturen en creditnota's</span><span class="sxs-lookup"><span data-stu-id="c6fc2-103">Edit Document Amounts in Purchase Invoices and Credit Memos</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f343607a7682afc562b34f28c4d8cfbd33bf15e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 91a2e0ff2feecdf6de9a22baddec16d0d391aa80
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="payment-scenario-2---foreign-payment-fcy-to-fcy"></a><span data-ttu-id="c8551-103">Betalingsscenario 2 - buitenlandse betaling (VV naar VV)</span><span class="sxs-lookup"><span data-stu-id="c8551-103">Payment Scenario 2 - Foreign Payment (FCY to FCY)</span></span>

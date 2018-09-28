@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a40f0def2dc1a507e9560f0b4576dfe2ceeaef5d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bbe6c5f390494f24ae85d22008d695e7133b686f
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="cmr-notes"></a><span data-ttu-id="c9363-104">CMR-verzendbonnen</span><span class="sxs-lookup"><span data-stu-id="c9363-104">CMR Notes</span></span>

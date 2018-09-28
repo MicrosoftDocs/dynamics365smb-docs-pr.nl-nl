@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b707bf2475cd58f547283d5e36a692ce02389b96
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 71529c52588fb6e6bcf0a3be80381c5c293c3f41
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="telebanking"></a><span data-ttu-id="b5617-103">Telebankieren</span><span class="sxs-lookup"><span data-stu-id="b5617-103">Telebanking</span></span>
@@ -46,7 +46,7 @@ ms.lasthandoff: 03/22/2018
  <span data-ttu-id="b5617-125">Zie [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="b5617-125">For more information, see [Import and Reconcile Bank Statements](how-to-import-and-reconcile-bank-statements.md).</span></span>  
 
 ## <a name="exchange-protocols"></a><span data-ttu-id="b5617-126">Uitwisselingsprotocollen</span><span class="sxs-lookup"><span data-stu-id="b5617-126">Exchange Protocols</span></span>  
- <span data-ttu-id="b5617-127">Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="b5617-127">For both exporting and importing, a number of protocols have been defined.</span></span> [!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="b5617-128"> ondersteunt de volgende protocollen:</span><span class="sxs-lookup"><span data-stu-id="b5617-128"> supports the following protocols:</span></span>  
+ <span data-ttu-id="b5617-127">Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd.</span><span class="sxs-lookup"><span data-stu-id="b5617-127">For both exporting and importing, a number of protocols have been defined.</span></span> [!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="b5617-128">ondersteunt de volgende protocollen:</span><span class="sxs-lookup"><span data-stu-id="b5617-128"> supports the following protocols:</span></span>  
 
 - <span data-ttu-id="b5617-129">BTL91 (exporteren)</span><span class="sxs-lookup"><span data-stu-id="b5617-129">BTL91 (export)</span></span>  
 - <span data-ttu-id="b5617-130">BBV (exporteren)</span><span class="sxs-lookup"><span data-stu-id="b5617-130">BBV (export)</span></span>  

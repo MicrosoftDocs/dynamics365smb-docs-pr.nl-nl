@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 78a1c3f655e9a094b06075847c883dbd8f939e75
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 01380fcbcc27de56be112d19bf9ac55fe91d3d86
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-vat-categories"></a><span data-ttu-id="e3e25-103">VAT-categorieën instellen</span><span class="sxs-lookup"><span data-stu-id="e3e25-103">Set Up VAT Categories</span></span>

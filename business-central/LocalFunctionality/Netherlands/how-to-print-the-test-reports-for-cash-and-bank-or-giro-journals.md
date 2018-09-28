@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 60ce664d86932a112a23168cfca7ef58d5e0970b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bcb252e3c45151d360324a84ae6ec1b421114ced
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a><span data-ttu-id="ac98d-103">De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken</span><span class="sxs-lookup"><span data-stu-id="ac98d-103">Print the Test Reports for Cash and Bank or Giro Journals</span></span>

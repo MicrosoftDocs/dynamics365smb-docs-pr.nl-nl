@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 0044ec6074aadaa06d04c3c49ed9ddb1bc4c3f01
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5bd35c887c485db1cfa447b7215d4f3c2cf429c7
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-an-audit-file-for-the-tax-authority"></a><span data-ttu-id="0de1f-104">Een auditfile voor de belastingdienst maken</span><span class="sxs-lookup"><span data-stu-id="0de1f-104">Create an Audit File for the Tax Authority</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: dbffb4189b56a1af38b1f53f85c46276709a3cb9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9f1181a835f957091bffd1710ae59608ef791d31
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a><span data-ttu-id="f4ca3-103">Kasboeken, bankboeken of giroboeken invoeren en boeken</span><span class="sxs-lookup"><span data-stu-id="f4ca3-103">Enter and Post Cash and Bank/Giro Journals</span></span>

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15a74f1b7e47fccd35ff8f9c4b096a747a951661
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8b525fd8eadbe24ea86a3a40fec645dc1fd87778
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-post-code-updates"></a><span data-ttu-id="8fe3c-104">Updates van postcodes importeren</span><span class="sxs-lookup"><span data-stu-id="8fe3c-104">Import Post Code Updates</span></span>

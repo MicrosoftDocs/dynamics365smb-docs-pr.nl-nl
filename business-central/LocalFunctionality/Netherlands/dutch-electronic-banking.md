@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 070ecd755a8fba0ffd4de59c30b170e6df3e670d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c55a599c287096d00395c55a39379ba292b36e20
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="dutch-electronic-banking"></a><span data-ttu-id="a965b-103">Elektronisch bankieren voor Nederland</span><span class="sxs-lookup"><span data-stu-id="a965b-103">Dutch Electronic Banking</span></span>
