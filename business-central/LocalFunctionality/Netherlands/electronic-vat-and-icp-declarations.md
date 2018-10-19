@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 9e1c9b3ea056b023cac6f7ed8875f5da4c3229f9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d5c804f7b64a90e3b8f8e97987b81b558c1a5a91
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="submitting-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften verzenden
@@ -31,7 +31,7 @@ Een transactie komt alleen in aanmerking voor ICP-aangifte als de handelswaar de
 
 U kunt de btw-aangiften en ICP-aangiften als volgt verzenden:  
 
-- Meld u aan op de website van het Nederlandse belastingkantoor en voer de informatie handmatig in. Zie voor meer informatie de [website](http://go.microsoft.com/fwlink/?LinkID=223151) van de Nederlandse belastingdienst.  
+- Meld u aan op de website van het Nederlandse belastingkantoor en voer de informatie handmatig in. Zie voor meer informatie de [website](https://go.microsoft.com/fwlink/?LinkID=223151) van de Nederlandse belastingdienst.  
 
 - Maak een elektronische aangifte en verzend het versleutelde bestand via het Digipoort-kanaal naar het Nederlandse belastingkantoor. Digipoort is het elektronische postkantoor dat door de Nederlandse overheid voor bedrijven wordt geboden. Het bevat de gemeenschappelijke infrastructuur voor de communicatie van gegevens tussen bedrijven en de overheid, inclusief btw-aangiftes. De rapporten hebben de XBRL-indeling (eXtensible Business Reporting Language). Zie [Rapporten maken met XBRL](../../bi-create-reports-with-xbrl.md) voor meer informatie.
 
@@ -40,7 +40,7 @@ Voordat je elektronische aangiften kan versturen naar de belastingdienst moeten 
 
 1. Controleer of u de certificaten van de overheid hebt ontvangen. Als dat niet zo is, voert u de volgende stappen uit om de certificaten te krijgen:
 
-    - Verkrijg een PKIoverheid-certificaat voor het bedrijf als u er nog geen hebt. Een lijst met certificaatproviders vindt u hier: [http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](http://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
+    - Verkrijg een PKIoverheid-certificaat voor het bedrijf als u er nog geen hebt. Een lijst met certificaatproviders vindt u hier: [https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps](https://www.logius.nl/producten/toegang/pkioverheid/aansluiten/toegetreden-csps).  
 
     - Registreer een gebruiker van Digipoort, wat u hier kunt doen: [https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw](https://aansluiten.procesinfrastructuur.nl/site/registratie/nieuw).
 

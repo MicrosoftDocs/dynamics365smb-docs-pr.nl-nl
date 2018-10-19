@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/24/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 428da0b9182e7112fc49140be36583b7017cbb8e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0591b8e14afef2ef05758886f2bef4bf047fbf98
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften instellen
@@ -37,18 +37,8 @@ Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar d
     U kunt geen belastinggegevens van ICP-aangiften combineren. ICP-aangiften moeten altijd afzonderlijk worden ingediend.<br /><br />
     Voor elke dochteronderneming kan een elektronische ICP-aangifte worden opgesteld en aan de belastingdienst worden gezonden. Deze elektronische ICP-aangiften moeten het btw-nummer van de dochteronderneming en de waarde van het veld **Nr. fiscale eenheid** in het venster **Bedrijfsgegevens** van de moedermaatschappij bevatten.
 
-5. Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [http://www.logius.nl/producten/gegevensuitwisseling/digipoort](http://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
+5. Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
 6. Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service. Zie voor meer informatie [Elektronische btw- en ICP-aangiftes](electronic-vat-and-icp-declarations.md).
-
-Momenteel zijn er twee sets URL's die door de Nederlandse belastingdienst worden verstrekt. Deze zijn echter voor wijzigingen vatbaar en u moet de website van de dienst regelmatig controleren op updates.  
-
-### <a name="production-use"></a>Productiegebruik
-- Directe leverings-URL: https://www.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
-- Digipoort status-URL: https://www.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
-
-### <a name="testing-use"></a>Gebruik testen
-- Directe leverings-URL: https://preprod.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2
-- Digipoort status-URL: https://preprod.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2  
 
 ## <a name="see-also"></a>Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
