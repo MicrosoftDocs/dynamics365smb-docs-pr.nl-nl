@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 57ca05335f5932622cc478d4fbde76c34c451c6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 28276c3649ef0b9c8cd875a7ad50c1f11271eede
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren
@@ -32,11 +32,11 @@ Het importbankafschrift wordt ondersteund door de volgende protocollen:
 ## <a name="to-import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren  
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bankafschrift importeren** in en klik vervolgens op de gerelateerde koppeling.  
-2.  Selecteer in het venster **Importprotocoloverzicht** het vereiste importprotocol en kies vervolgens de knop **OK**.  
+2.  Selecteer op de pagina **Importprotocoloverzicht** het vereiste importprotocol en kies vervolgens de knop **OK**.  
 3.  Als u bankafschriften automatisch wilt laten reconciliëren tijdens het importeren, schakelt u op het sneltabblad **Opties** het selectievakje **Automatisch reconciliëren** in.  
 
     > [!NOTE]  
-    >  Deze functie werkt niet voor bankafschriftbestanden van de soort SEPA CAMT. Gebruik in plaats daarvan de actie **Automatisch afstemmen** in het venster **Bankreconciliatie**. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md).  
+    >  Deze functie werkt niet voor bankafschriftbestanden van de soort SEPA CAMT. Gebruik in plaats daarvan de actie **Automatisch afstemmen** op de pagina **Bankreconciliatie**. Zie voor meer informatie [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md).  
 
 4.  Kies de knop **OK**.  
 5.  Als u het bestand wilt importeren dat het elektronische bankafschrift bevat, geeft u de bestandsnaam en het pad op en kiest u de knop **Openen**.  

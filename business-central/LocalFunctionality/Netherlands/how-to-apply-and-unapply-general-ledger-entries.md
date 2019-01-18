@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3196ed4f79ca4836b124d0f9ce587b44ec49ef43
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 45efab305aaa7cca14918f8f09034062cb04088e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a>Grootboekposten vereffenen en de vereffening ervan ongedaan maken
@@ -36,16 +36,16 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.  
-3.  Kies in het venster **Grootboekposten** de actie **Posten vereffenen**.  
+3.  Kies op de pagina **Grootboekposten** de actie **Posten vereffenen**.  
 
-    Alle openstaande posten voor de grootboekrekening worden weergegeven in het venster **Grootboekposten vereffenen**.  
+    Alle openstaande posten voor de grootboekrekening worden weergegeven op de pagina **Grootboekposten vereffenen**.  
 
     > [!NOTE]  
     >  Standaard wordt het veld **Posten opnemen** ingesteld op **Open**. U kunt de waarde van het veld **Posten opnemen** wijzigen in **Alle** of **Afgesloten**. U kunt alleen grootboekposten vereffenen die **open** zijn.  
 
 4.  Selecteer de betreffende grootboekpost en kies de actie **Vereffenings-id instellen**.  
 
-    Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id. Het restbedrag wordt weergegeven in het veld **Saldo** in het venster **Grootboekposten vereffenen**.  
+    Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id. Het restbedrag wordt weergegeven op de pagina **Saldo** op de pagina **Grootboekposten vereffenen**.  
 5.  Kies de actie **Vereffening boeken**.  
 
     U kunt de vereffening boeken zelfs wanneer het saldobedrag gelijk is aan 0. Wanneer wordt geboekt, wordt het veld **Restbedrag** als volgt beïnvloed:  

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2da01e4a1436e52c60efdd6524c0c4425ad08ac2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a807523bcf2bdeb1433ba60c36258f475293690e
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-proposals"></a>Voorstellen maken
 Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.  
 
 > [!IMPORTANT]  
->  Als u een voorstel maakt, moet u het veld **Rekeninghouder** in de vensters Bankrekening leverancier en Bankrekening klant gebruiken.  
+>  Als u een voorstel maakt, moet u het veld **Rekeninghouder** op de pagina's Bankrekening leverancier en Bankrekening klant gebruiken.  
 
 > [!NOTE]  
 >  U kunt op elk moment en op elk niveau, voorafgaand aan de verwerking van een voorstel, de transactiewijze en bankrekening wijzigen. Op het laagste niveau in de desbetreffende leveranciers- of klantenposten.  
@@ -34,7 +34,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 2.  Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.  
 3.  U moet minimaal de velden **Rekeningsoort**, **Rekeningnr.**, **Transactiewijze**, **Bankrekeningnr.** en **Bedrag** invullen.  
 
-4.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. Als u wilt terugkeren naar het voorstel, sluit u het venster **Voorsteldetailregel**.  
+4.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. U keert weer terug naar het voorstel door de pagina **Voorsteldetailregel** te sluiten.  
 
 ## <a name="to-create-proposals-automatically-from-sales"></a>Automatisch voorstellen maken op basis van verkoop  
 
@@ -51,7 +51,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
     > [!NOTE]  
     >  Alleen voor posten die een transactiewijze van het rekeningsoort **Klant** hebben en die aan de actieve bankrekening zijn gekoppeld, worden voorstelregels gemaakt.  
 
-6.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. Als u wilt terugkeren naar het voorstel, sluit u het venster **Voorsteldetailregel**.  
+6.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. U keert weer terug naar het voorstel door de pagina **Voorsteldetailregel** te sluiten.  
 
 ## <a name="to-create-proposals-automatically-from-purchases"></a>Automatisch voorstellen maken op basis van inkoop  
 
@@ -68,7 +68,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
     > [!NOTE]  
     >  Alleen voor posten die een transactiewijze van het rekeningsoort **Leverancier** hebben en die aan de actieve bankrekening zijn gekoppeld, worden voorstelregels gemaakt.  
 
-6.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. Als u wilt terugkeren naar het voorstel, sluit u het venster **Voorsteldetailregel**.  
+6.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. U keert weer terug naar het voorstel door de pagina **Voorsteldetailregel** te sluiten.  
 
 ## <a name="see-also"></a>Zie ook  
  [Nieuwe klanten registreren](../../sales-how-register-new-customers.md)   

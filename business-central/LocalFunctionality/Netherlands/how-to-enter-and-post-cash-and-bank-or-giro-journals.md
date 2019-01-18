@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: dbffb4189b56a1af38b1f53f85c46276709a3cb9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03d5816fbc5a6431322388a1f5ee8285a8f8a36d
 ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
 
-Daarnaast kunt u in combinatie met telebankieren elektronische bankafschriften in het venster **Bank-/Giroboek** importeren. Desgewenst kunnen deze afschriften tijdens het importproces automatisch worden gereconcilieerd en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.
+Daarnaast kunt u in combinatie met telebankieren elektronische bankafschriften op de pagina **Bank-/Giroboek** importeren. Desgewenst kunnen deze afschriften tijdens het importproces automatisch worden gereconcilieerd en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.
 
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door de typen **Kasboek** en **Bankboek** te gebruiken.  
 
-U kunt toenames of afnames op de kasrekening invoeren in het venster **Kasboek**. U kunt dit dagboek bijvoorbeeld gebruiken voor het betalen van kleine kas of het ontvangen van transfers van een andere bankrekening.  
+U kunt een toenames of afnames op de kasrekening invoeren op de pagina **Kasboeken**. U kunt dit dagboek bijvoorbeeld gebruiken voor het betalen van kleine kas of het ontvangen van transfers van een andere bankrekening.  
 
-Het venster **Bank-/giroboek** registreert de instroom of uitstroom van de contanten naar een bepaalde rekening. Dit dagboek vormt de basis voor bankreconciliatie. De indeling van dit dagboek lijkt op het papieren bankafschrift, dus u kunt u de vereiste velden van het papieren afschrift overnemen in het dagboek of u kunt een elektronisch bankafschriftbestand importeren. De transacties kunnen klantbetalingen of leveranciersbetalingen zijn.  
+De pagina **Bank-/giroboek** registreert de instroom of uitstroom van de contanten naar een bepaalde rekening. Dit dagboek vormt de basis voor bankreconciliatie. De indeling van dit dagboek lijkt op het papieren bankafschrift, dus u kunt u de vereiste velden van het papieren afschrift overnemen in het dagboek of u kunt een elektronisch bankafschriftbestand importeren. De transacties kunnen klantbetalingen of leveranciersbetalingen zijn.  
 
 U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vorderingen. U kunt ook grootboektransacties invoeren om overige bedragen vast te leggen, zoals bankkosten of rente-inkomsten. Btw codes kunnen ook op deze transactieregels worden toegepast. U kunt een dagboek per bankrekening opgeven.  
 
@@ -36,7 +36,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kasboek** in en klik op de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
-3.  Vul in het venster **Kasboek** op het sneltabblad **Regel** de vereiste velden in zoals beschreven in de volgende tabel.  
+3.  Vul op de pagina **Kasboek** op het sneltabblad **Regel** de vereiste velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
@@ -60,7 +60,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bank-/giroboek** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer de relevante dagboeksjabloon en kies vervolgens de knop **OK**.  
-4.  Vul in het venster **Bank-/girodagboek** de velden in, zoals is beschreven in de volgende tabel.  
+4.  Vul op de pagina **Bank-/girodagboek** de velden in, zoals is beschreven in de volgende tabel.  
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  

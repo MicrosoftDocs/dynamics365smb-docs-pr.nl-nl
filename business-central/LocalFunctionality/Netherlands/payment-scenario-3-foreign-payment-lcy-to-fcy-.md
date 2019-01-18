@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cd33e90d2474dcb7ac172f1d6aceb41d03225fd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e3bca57217ba5ca28a0cd04e9483c312e7ae70d5
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="payment-scenario-3---foreign-payment-lcy--to-fcy"></a>Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)
@@ -71,27 +71,27 @@ Als de factuur is voltooid, kan deze worden geboekt.
 Als we een inkoopfactuur voor Hernandez Ortiz maken, vullen we **ORTIZ** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden overgenomen vanuit de leverancierskaart van Hernandez Ortiz. Daarom is in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **MXN**, **ABN** en **HOBA** ingevuld. Deze waarden kunnen echter worden gewijzigd.  
 
 ## <a name="create-proposal"></a>Voorstel maken  
-Open het venster **Telebank - bankoverzicht** en blader naar de bank die we voor onze betaling willen gebruiken. Open het venster **Voorstel** en genereer betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen**.  
+Open de pagina **Telebank - bankoverzicht** en blader naar de bank die we voor onze betaling willen gebruiken. Open de pagina **Voorstel** en genereer betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen**.  
 
 ### <a name="example"></a>Opmerking  
-Door middel van het venster **Telebank - bankoverzicht** openen we het venster **Voorstel** voor onze bank, ABN. Met de batchverwerking wordt één voorstelregel gemaakt voor de inkoopfactuur die we zojuist voor de leverancier ORTIZ hebben gemaakt en geboekt. Het bedrag van de betaling wordt uitgedrukt in lokale valuta (LV).  
+Door middel van de pagina **Telebank - bankoverzicht** openen we de pagina **Voorstel** voor onze bank, ABN. Met de batchverwerking wordt één voorstelregel gemaakt voor de inkoopfactuur die we zojuist voor de leverancier ORTIZ hebben gemaakt en geboekt. Het bedrag van de betaling wordt uitgedrukt in lokale valuta (LV).  
 
 ## <a name="create-payment-history"></a>Betaalrun maken  
-Vanuit het venster **Voorstel** verwerken we ons voorstel in een betaalrun. Het voorstel verdwijnt en kan worden gevonden in het venster **Betaalrunoverzicht** voor dezelfde bank.  
+Vanuit de pagina **Voorstel** verwerken we ons voorstel in een betaalrun. Het voorstel verdwijnt en kan worden gevonden op de pagina **Betaalrunoverzicht** voor dezelfde bank.  
 
 ### <a name="example"></a>Opmerking  
-We verwerken ons voorstel met betrekking tot de betaling aan leverancier ORTIZ en openen het venster **Betaalrunoverzicht** voor onze bank, ABN. De laatste betaalrun is de betaalrun die we zojuist hebben gemaakt.  
+We verwerken ons voorstel met betrekking tot de betaling aan leverancier ORTIZ en openen de pagina **Betaalrunoverzicht** voor onze bank ABN. De laatste betaalrun is de betaalrun die we zojuist hebben gemaakt.  
 
 ## <a name="export-payment-history"></a>Betaalrun exporteren  
-Open het venster **Betaalrunoverzicht**, blader naar de relevante betaalrun en kies de actie **Exporteren**. De exportbatchverwerking voor het exportprotocol dat aan deze betaling is gekoppeld, verschijnt. Voor deze export zijn de juiste filters al automatisch ingevuld. Controleer desgewenst velden van het sneltabblad **Opties** en kies vervolgens de knop **OK** om de betaling te exporteren. Er wordt een tekstbestand gegenereerd met een bestandsnaam zoals die is gedefinieerd in het veld **Standaardbestandsnamen** van het exportprotocol, dat nu gereed is voor verzending naar onze bank.  
+Open de pagina **Betaalrunoverzicht**, blader naar de relevante betaalrun en kies vervolgens de actie **Exporteren**. De exportbatchverwerking voor het exportprotocol dat aan deze betaling is gekoppeld, verschijnt. Voor deze export zijn de juiste filters al automatisch ingevuld. Controleer desgewenst velden van het sneltabblad **Opties** en kies vervolgens de knop **OK** om de betaling te exporteren. Er wordt een tekstbestand gegenereerd met een bestandsnaam zoals die is gedefinieerd in het veld **Standaardbestandsnamen** van het exportprotocol, dat nu gereed is voor verzending naar onze bank.  
 
 ### <a name="example"></a>Opmerking  
 Aangezien de transactiewijze die aan onze betaling is gekoppeld *ABN** is, verschijnt de batchverwerking **BBV** of **PAYMUL**.  
 
 ## <a name="import-bank-statement"></a>Bankafschrift importeren  
-Nadat we elektronische bankafschriften van onze bank hebben ontvangen, kunnen we ze importeren door vanuit het venster **Importprotocoloverzicht** het betreffende importprotocol uit te voeren.  
+Nadat we elektronische bankafschriften van onze bank hebben ontvangen, kunnen we ze importeren door vanuit de pagina **Importprotocoloverzicht** het betreffende importprotocol uit te voeren.  
 
-### <a name="example"></a>Voorbeeld  
+### <a name="example"></a>Opmerking  
 Het bankafschrift met onze betaling aan Hernandez Ortiz wordt door onze bank, ABN, naar ons gestuurd. Daarom moeten we **OFFICE NET EXTRA** als het juiste importprotocol kiezen.  
 
 ## <a name="see-also"></a>Zie ook  

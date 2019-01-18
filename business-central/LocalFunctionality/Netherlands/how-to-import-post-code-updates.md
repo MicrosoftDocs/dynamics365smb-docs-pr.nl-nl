@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15a74f1b7e47fccd35ff8f9c4b096a747a951661
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e6d814f2c1f2dab6cb86aee8ed977959c16c5557
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-post-code-updates"></a>Updates van postcodes importeren
@@ -25,8 +25,8 @@ Elke maand ontvangt u een postcodebestand met alle postcodemutaties in een maand
 ## <a name="to-import-the-update-file"></a>Het updatebestand importeren  
 
 1.  Klik op het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Postcode-updates** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Postcode-updates** de actie **Postcodes-update importeren**.  
-3.  Geef het pad en de naam op van het postcode-updatebestand en kies vervolgens de knop **OK**. Als u het bestand niet wilt importeren, kiest u de knop **Annuleren** om het venster te sluiten.  
+2.  Kies op de pagina **Postcode-updates** de actie **Postcodes-update importeren**.  
+3.  Geef het pad en de naam op van het postcode-updatebestand en kies vervolgens de knop **OK**. Als u het bestand niet wilt importeren, kiest u de knop **Annuleren** om de pagina te sluiten.  
 
 Als geen bestand met een volledige set postcodegegevens is geïmporteerd, verschijnt er een bericht.  
 

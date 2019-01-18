@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 39969181189d2db180fb1d00535c10fc517bd63c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8bb9019c475d2a0bf355508903923a48eb86e11a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-standard-sales-or-purchase-lines"></a>Standaardinkoop- of verkoopregels instellen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u opgeven hoe de standaardverkoop- of standaardinkoopcodes worden ingevoerd wanneer u de opgegeven verkoop- of inkoopdocumenten maakt.  
 
-In de volgende procedure wordt beschreven hoe u een standaardverkoopregel instelt, maar u kunt dezelfde stappen gebruiken om standaardinkoopregels in te stellen in het venster **Inkoopinstellingen**.  
+In de volgende procedure wordt beschreven hoe u een standaardverkoopregel instelt, maar u kunt dezelfde stappen gebruiken om standaardinkoopregels in te stellen op de pagina **Inkoopinstellingen**.  
 
 ## <a name="to-set-up-a-standard-sales-line"></a>Een standaardverkoopregel instellen  
 
@@ -31,7 +31,7 @@ In de volgende procedure wordt beschreven hoe u een standaardverkoopregel instel
 
     |Veld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Standaardklantverkoopregels invoegen**|Geef de methode op om de standaardklantverkoopregels in te voegen.<br /><br /> -   **Handmatig** - U moet u de standaardverkoopregels invoegen die u voor die klant instelt. Als u deze optie selecteert, kunt u de velden **Offertes**, **Orders**, **Facturen** of **Creditnota's** in het venster **Verkoopinstellingen** niet selecteren.<br />-   **Automatisch** - voegt automatisch standaardverkoopregels in verkoopdocumenten in die u voor een klant maakt.<br />-   **Altijd vragen** - een venster openen met alle bestaande standaardverkoopcodes die u voor de klant instelt.|  
+    |**Standaardklantverkoopregels invoegen**|Geef de methode op om de standaardklantverkoopregels in te voegen.<br /><br /> -   **Handmatig** - U moet u de standaardverkoopregels invoegen die u voor die klant instelt. Als u deze optie selecteert, kunt u de velden **Offertes**, **Orders**, **Facturen** of **Creditnota's** op de pagina **Verkoopinstellingen** niet selecteren.<br />-   **Automatisch** - voegt automatisch standaardverkoopregels in verkoopdocumenten in die u voor een klant maakt.<br />-   **Altijd vragen** - een pagina openen met alle bestaande standaardverkoopcodes die u voor de klant instelt.|  
     |**Offertes**|Selecteren om standaardverkoopregels in te voegen in verkoopoffertes.|  
     |**Orders**|Selecteren om standaardverkoopregels in te voegen in verkooporders.|  
     |**Facturen**|Selecteren om standaardverkoopregels in te voegen in verkoopfacturen.|  

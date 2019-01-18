@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fb5ff2a348979f3d70d9e1ca2661fc576f1af342
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 655ee70246e2efc413c4d7eb3dc761a705a2caee
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="activate-sepa-payments"></a>SEPA-betalingen activeren
@@ -46,7 +46,7 @@ In de volgende procedures beschrijven de eerste vier hoe u SEPA-betalingen activ
 ## <a name="to-set-up-a-sepa-iso-20022-export-protocol"></a>Een SEPA ISO 20022-exportprotocol instellen  
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Exportprotocollen** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Exportprotocollen** de actie **Nieuw**.  
+2.  Kies op de pagina **Exportprotocollen** de actie **Nieuw**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  
@@ -68,7 +68,7 @@ In de volgende procedures beschrijven de eerste vier hoe u SEPA-betalingen activ
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Transactiewijzen** in en klik vervolgens op de gerelateerde koppeling.  
 2.  Selecteer de transactiewijze die u wilt activeren voor SEPA en kies vervolgens de actie **Bewerken**.  
-3.  Selecteer in het venster **Transactiewijzekaart** op het sneltabblad **Betalingsvoorstel** in het veld **Exportprotocol** het SEPA-exportprotocol dat u hebt gemaakt, bijvoorbeeld **SEPA ISO20022**.  
+3.  Selecteer in het veld **Exportprotocol** op het sneltabblad **Betalingsvoorstel** van de pagina **Transactiewijzekaart** het SEPA-exportprotocol dat u hebt gemaakt, bijvoorbeeld **SEPA ISO20022**.  
 4.  Kies de knop **OK**.  
 
 ## <a name="to-verify-vendor-payment-transaction-modes-for-sepa"></a>Transactiewijzen voor leveranciersbetalingen voor SEPA verifiëren  

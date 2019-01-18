@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 609f65f9fe52eefe5ba69191d8f44ad77d98b060
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 5ce28051aca2e684b6492394424e99b345c0d432
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="single-euro-payments-area-sepa"></a>Single EURO Payments Area (SEPA)
@@ -24,7 +24,7 @@ Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Eu
 
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ondersteunt de Nederlandse vereisten voor verzending van SEPA-betalingen, krediettransfers en automatische incasso.  
 
-Voordat u leveranciersbetalingen elektronisch kunt verzenden in SEPA ISO2022-indeling, moet u SEPA in de volgende vensters activeren:  
+Voordat u leveranciersbetalingen elektronisch kunt verzenden in SEPA ISO2022-indeling, moet u SEPA op de volgende pagina's activeren:  
 
 - Landen/regio's  
 - Bankrekeningen  

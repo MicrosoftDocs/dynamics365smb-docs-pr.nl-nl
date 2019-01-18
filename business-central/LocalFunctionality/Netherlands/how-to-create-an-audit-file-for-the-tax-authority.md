@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 0044ec6074aadaa06d04c3c49ed9ddb1bc4c3f01
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4685727c7834752810880e0eefcedb412628751a
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-an-audit-file-for-the-tax-authority"></a>Een auditfile voor de belastingdienst maken
@@ -37,7 +37,7 @@ Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur
     |**Einddatum**|Geef de einddatum of de periode op waarop de gegevens moeten worden gebaseerd.|  
     |**Beginsaldo uitsluiten**|Geeft op of het auditbestand het beginsaldo moet bevatten van grootboekrekeningen.<br /><br /> Het veld kan worden bewerkt als de begindatum van de periode gelijk is aan de begindatum van een boekjaar.|  
 
-3.  Kies de knop **OK** om het auditbestand te maken. Als u het auditbestand niet wilt maken, kiest u de knop **Annuleren** om het venster te sluiten.  
+3.  Kies de knop **OK** om het auditbestand te maken. Als u het auditbestand niet wilt maken, kiest u de knop **Annuleren** om de pagina te sluiten.  
 
 Wanneer u het rapport uitvoert, moet u de naam en locatie van het geëxporteerde bestand opgeven. De standaardbestandsnaam is **audit.xaf**, maar u kunt dat wijzigen. De bestandsextensie moet .xaf zijn.  
 

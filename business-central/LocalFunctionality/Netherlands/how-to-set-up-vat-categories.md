@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 78a1c3f655e9a094b06075847c883dbd8f939e75
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cf81c2b8fe0e8e41eddb7a988eb368402d77c8d9
 ms.contentlocale: nl-nl
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-vat-categories"></a>VAT-categorieën instellen
@@ -27,7 +27,7 @@ U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XM
 ## <a name="to-set-up-a-vat-category"></a>Een btw-categorie instellen  
 
 1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Elektronische aangifte btw-categorieën** in en kies vervolgens de gerelateerde koppeling.  
-2.  Kies in het venster **Elektronische aangifte btw-categorieën** de actie **Nieuw**.  
+2.  Kies op de pagina **Elektronische aangifte btw-categorieën** de actie **Nieuw**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 
     |Veld|Description|  

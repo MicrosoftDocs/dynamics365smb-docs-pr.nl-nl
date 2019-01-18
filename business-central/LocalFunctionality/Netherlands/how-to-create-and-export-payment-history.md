@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 386591e56f324d5c1ba0159aa2d29ffdfb27f2a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 156e35fefaeb7905d6988803828e7af63636ffa4
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-export-payment-history"></a>Betalingsrun maken en exporteren
@@ -35,13 +35,13 @@ Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kun
     Als u het voorstel wilt afdrukken voordat u het verwerkt, kiest u de knop **Afdrukken**.  
 
 2.  Als u het voorstel wilt verwerken, kiest u de actie **Verwerken**.  
-3.  Als u de betaalrun wilt bekijken, sluit u het venster **Telebankierenvoorstel**. Zorg dat dezelfde bankrekening in het venster **Telebankieren - bankoverzicht** is geselecteerd en kies vervolgens de actie **Betaalrun**.  
+3.  Als u de betaalrun wilt bekijken, sluit u de pagina **Telebankierenvoorstel**. Zorg dat dezelfde bankrekening op de pagina **Telebankieren - bankoverzicht** is geselecteerd en kies vervolgens de actie **Betaalrun**.  
 
-Het venster **Betaalrunlijst** verschijnt met de betaalrun die u zojuist hebt gemaakt.  
+De pagina **Betaalrunlijst** verschijnt met de betaalrun die u zojuist hebt gemaakt.  
 
 ## <a name="to-export-a-payment-history"></a>Een betaalrun exporteren  
 
-- Kies in het venster **Betaalrunlijst** de actie **Exporteren**.  
+- Kies op de pagina **Betaalrunlijst** de actie **Exporteren**.  
 
     > [!NOTE]  
     >  Er wordt een tekstbestand gemaakt. Dit bestand bevat het pad en de bestandsnaam zoals die in het veld **Standaardbestandsnamen** van het exportprotocol zijn gedefinieerd.  

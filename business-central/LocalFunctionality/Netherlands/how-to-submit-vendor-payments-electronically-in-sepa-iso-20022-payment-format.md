@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fd1c4c2ffacb21fbb31854c8a16141340ac64bc6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5613423a7bf257aea336eb014f33d08f92e0e0e0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a>Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling
@@ -45,7 +45,7 @@ Voordat u SEPA-leveranciersbetalingen kunt maken en verzenden, moet u SEPA-betal
 
 8.  Kies de knop **OK**.  
 
-De voorstelregels worden opgenomen in het venster **Telebankierenvoorstel**.  
+De voorstelregels worden opgenomen op de pagina **Telebankierenvoorstel**.  
 
 ## <a name="see-also"></a>Zie ook  
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   

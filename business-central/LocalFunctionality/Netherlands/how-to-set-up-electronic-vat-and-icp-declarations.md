@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0591b8e14afef2ef05758886f2bef4bf047fbf98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ffe0e9a46ff52cda853c5e5bd0aa2c2bc39303b
 ms.contentlocale: nl-nl
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften instellen
@@ -27,15 +27,15 @@ Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar d
 ## <a name="to-set-up-electronic-declarations"></a>Elektronische aangiften instellen  
 
 1. Kies het pictogram ![Pictogram Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Zoeken naar pagina of rapport"), voer **Elek. aangifte-instellingen** in en kies vervolgens de gerelateerde koppeling.  
-2. Vul in het venster **Elek. aangifte-instellingen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
+2. Vul op de pagina **Elek. aangifte-instellingen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. Als u het btw-nummer van het bedrijf wilt laten invullen bij de contact-id in de elektronische aangifte, selecteert u **Belastingplichtige** in het veld **BTW-contactpersoonsoort**.
 4. Als u elektronische ICP-aangiften voor een dochteronderneming van een fiscale eenheid wilt verzenden, schakelt u het selectievakje **Deel van Fiscale eenheid** in.  
 
     > [!NOTE]  
-    > Als een bedrijf verscheidene bedrijven heeft geregistreerd als dochterondernemingen van een moedermaatschappij, hebben deze de mogelijkheid om de btw-aangifte afzonderlijk te doen of gecombineerd voor één fiscale eenheid. Als u elektronische aangiften voor dochterondernemingen van een moedermaatschappij wilt instellen, moet u een vinkje plaatsen in het veld **Deel van Fiscale eenheid** in het venster **Elek. aangifte-instellingen**. U kunt dan een elektronische aangifte maken voor slechts één bedrijf.<br /><br />
+    > Als een bedrijf verscheidene bedrijven heeft geregistreerd als dochterondernemingen van een moedermaatschappij, hebben deze de mogelijkheid om de btw-aangifte afzonderlijk te doen of gecombineerd voor één fiscale eenheid. Als u elektronische aangiften voor dochterondernemingen van een moedermaatschappij wilt instellen, moet u een vinkje plaatsen in het veld **Deel van Fiscale eenheid** op de pagina **Elek. aangifte-instellingen**. U kunt dan een elektronische aangifte maken voor slechts één bedrijf.<br /><br />
     Als u de btw-gegevens van alle dochterondernemingen van een moedermaatschappij wilt combineren, moet u een btw-aangifte op papier opstellen voor elke dochteronderneming en handmatig de totaalbedragen voor de moedermaatschappij berekenen. Deze totaalbedragen van de moedermaatschappij moeten worden ingevoerd op de website van de belastingdienst.<br /><br />
     U kunt geen belastinggegevens van ICP-aangiften combineren. ICP-aangiften moeten altijd afzonderlijk worden ingediend.<br /><br />
-    Voor elke dochteronderneming kan een elektronische ICP-aangifte worden opgesteld en aan de belastingdienst worden gezonden. Deze elektronische ICP-aangiften moeten het btw-nummer van de dochteronderneming en de waarde van het veld **Nr. fiscale eenheid** in het venster **Bedrijfsgegevens** van de moedermaatschappij bevatten.
+    Voor elke dochteronderneming kan een elektronische ICP-aangifte worden opgesteld en aan de belastingdienst worden gezonden. Deze elektronische ICP-aangiften moeten het btw-nummer van de dochteronderneming en de waarde van het veld **Nr. fiscale eenheid** van de moedermaatschappij op de pagina **Bedrijfsgegevens** bevatten.
 
 5. Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
 6. Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service. Zie voor meer informatie [Elektronische btw- en ICP-aangiftes](electronic-vat-and-icp-declarations.md).
