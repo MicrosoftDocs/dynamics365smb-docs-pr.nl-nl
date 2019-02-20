@@ -1,6 +1,6 @@
 ---
 title: Inkoopbedragen controleren
-description: Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het 'bedrag incl. btw' en het 'btw-bedrag' die vermeld staan op het inkooporderdocument gelijk zijn aan het totaalbedrag van de ingevoegde inkoopregels.
+description: Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkooporderdocument, gelijk zijn aan het totaalbedrag van de ingevoegde inkoopregels.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c0b576799ab3514d4913ae3dff757576fe72de04
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 68e4c1b65de4a978a752ee3b0bbd87a724b340e0
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="check-purchase-amounts"></a>Inkoopbedragen controleren

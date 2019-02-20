@@ -1,6 +1,6 @@
 ---
 title: Kasboeken, bankboeken of giroboeken invoeren en boeken
-description: In Business Central kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door **Kasboek** en **Bankboek** te gebruiken.
+description: In Business Central kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door Kasboek en Bankboek te gebruiken.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 03d5816fbc5a6431322388a1f5ee8285a8f8a36d
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 0f317a4ac2ba94399cf933dd40003a18686d9e58
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken

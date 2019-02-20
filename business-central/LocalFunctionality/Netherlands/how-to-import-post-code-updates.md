@@ -1,6 +1,6 @@
 ---
 title: Postcode-updates importeren
-description: "Elke maand ontvangt u een postcodebestand met alle postcodemutaties in een maand. Dit postcodebestand kan worden geïmporteerd en kan de relevante gegevens in de tabel **Postcodereeks** bijwerken."
+description: "Elke maand ontvangt u een postcodebestand met alle postcodemutaties in een maand. Dit postcodebestand kan worden geïmporteerd en kan de relevante gegevens in de tabel Postcodereeks bijwerken."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e6d814f2c1f2dab6cb86aee8ed977959c16c5557
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 73898ad8df8913db100d8cdf2c617ec89e168ca1
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="import-post-code-updates"></a>Updates van postcodes importeren

@@ -1,6 +1,6 @@
 ---
 title: Postcodes importeren
-description: U kunt een bestand importeren dat postcodes opgeeft voor marketing- en relatiebeheeractiviteiten. De postcodegegevens die u importeert, worden in de tabel **Postcodebereik** opgeslagen.
+description: U kunt een bestand importeren dat postcodes opgeeft voor marketing- en relatiebeheeractiviteiten. De postcodegegevens die u importeert, worden in de tabel Postcodebereik opgeslagen.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d5a6c34f8cdec0b43de6621e3e998472539e1db
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 3c73eb16656d04e84e143c4e3fe05f66718a4f95
 ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="import-post-codes"></a>Postcodes importeren
