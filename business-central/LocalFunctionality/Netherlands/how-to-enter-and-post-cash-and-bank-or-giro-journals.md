@@ -2,22 +2,22 @@
 title: Kasboeken, bankboeken of giroboeken invoeren en boeken
 description: In Business Central kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door Kasboek en Bankboek te gebruiken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 86695ba370df2e43e48d188f1f489faa756862d9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 0f317a4ac2ba94399cf933dd40003a18686d9e58
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826897"
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
@@ -91,4 +91,3 @@ De posten worden naar het grootboek geboekt. Zie Gootboekposten voor meer inform
  [Telebankieren](telebanking.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
  [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
-

@@ -2,22 +2,22 @@
 title: Betalingsrun maken en exporteren
 description: Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 156e35fefaeb7905d6988803828e7af63636ffa4
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826923"
 ---
 # <a name="create-and-export-payment-history"></a>Betalingsrun maken en exporteren
 Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost. Zie [Voorstellen maken](how-to-create-proposals.md) voor meer informatie.  
@@ -48,4 +48,3 @@ De pagina **Betaalrunlijst** verschijnt met de betaalrun die u zojuist hebt gema
 
 ## <a name="see-also"></a>Zie ook  
  [Voorstellen maken](how-to-create-proposals.md)
-

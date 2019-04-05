@@ -1,23 +1,23 @@
 ---
 title: Betalingsscenario's
-description: "Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt."
+description: Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 5785d8f90aff137888607d6ca08cf8e4867318e9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ff9441a3eee2df69da912a2a5ac18430046b697d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826917"
 ---
 # <a name="payment-scenarios"></a>Betalingsscenario's
 Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.  
@@ -38,4 +38,3 @@ Met telebankieren kunt u met drie scenario's te maken krijgen:
 
 ## <a name="see-also"></a>Zie ook  
 [Telebankieren](telebanking.md)
-

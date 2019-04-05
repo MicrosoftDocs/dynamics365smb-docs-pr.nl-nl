@@ -2,22 +2,22 @@
 title: Elektronisch bankieren voor Nederland
 description: Met de functionaliteit voor elektronisch bankieren kunt u bestanden voor elektronische betaling en bestanden voor automatische incasso maken, en elektronische bankafschriften importeren vanuit ondersteunde banksoftware.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c55a599c287096d00395c55a39379ba292b36e20
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 070ecd755a8fba0ffd4de59c30b170e6df3e670d
-ms.contentlocale: nl-nl
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826899"
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
 Met de functionaliteit voor elektronisch bankieren kunt u bestanden voor elektronische betaling en bestanden voor automatische incasso maken, en elektronische bankafschriften importeren vanuit ondersteunde banksoftware.  
@@ -54,4 +54,3 @@ Bankrekeningnummers worden gevalideerd door te controleren of ze uit 9 of 10 cij
 [Telebankieren](telebanking.md)   
 [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)     
 [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md)
-

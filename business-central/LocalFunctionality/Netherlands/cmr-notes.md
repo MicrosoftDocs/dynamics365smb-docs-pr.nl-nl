@@ -2,22 +2,22 @@
 title: CMR-verzendbonnen
 description: Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/07/2019
 ms.author: sgroespe
+ms.openlocfilehash: 14c19adbcbb3597b752a777acd30c2aa95836e06
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
-ms.openlocfilehash: eb9da0c194d7945e653790312cd530c8147a593c
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/07/2019
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826933"
 ---
 # <a name="cmr-notes"></a>CMR-verzendbonnen
 Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.  
@@ -33,6 +33,8 @@ Landen die het CMR-verdrag naleven, gebruiken een standaardformulier voor CMR-ve
 
 - **CMR - Transferlevering** – Dit rapport wordt gebruikt om CMR-documenten voor transferleveringen af te drukken. In het rapport worden voor elk CMR-document de adresgegevens voor de locatie waarvan de items worden verzonden, de locatie waarnaar de items worden verzonden en informatie over de expediteur, naast gegevens over de verzonden items vermeld.
 
+- **CMR - Inkoopretourverzending** – Dit rapport wordt gebruikt om CMR-documenten voor inkoopretourverzendingen af te drukken. In het rapport worden voor elk CMR-document adresgegevens voor de afzender, expediteur en geadresseerde, en gegevens over de verzonden items vermeld.
+
 > [!NOTE]  
 >  CMR-verzendbonnen hebben een indeling die geschikt is voor vooraf afgedrukte CMR-formulieren.  
 
@@ -47,4 +49,3 @@ De standaard levenscyclus van een CMR-verzendbon ziet er als volgt uit:
 
 ## <a name="see-also"></a>Zie ook  
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
-

@@ -4,15 +4,15 @@ description: U kunt het rapport KBG-boekingen - Test gebruiken om de afschriftre
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 06d5793bc9d6ed322ca75478b7c50a202155fe5a
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826924"
 ---
 # <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a>De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
 U kunt het rapport **KBG-boekingen - Test** gebruiken om de afschriftregels te bewerken en het effect ervan te bekijken voordat u kasboeken en bank- of giroboeken boekt.  
@@ -48,4 +48,3 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 ## <a name="see-also"></a>Zie ook  
  [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
-

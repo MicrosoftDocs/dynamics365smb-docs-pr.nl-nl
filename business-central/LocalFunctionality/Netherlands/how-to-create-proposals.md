@@ -2,22 +2,22 @@
 title: Voorstellen maken
 description: Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: a807523bcf2bdeb1433ba60c36258f475293690e
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826886"
 ---
 # <a name="create-proposals"></a>Voorstellen maken
 Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.  
@@ -75,4 +75,3 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
  [Verkopen factureren](../../sales-how-invoice-sales.md)   
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
-

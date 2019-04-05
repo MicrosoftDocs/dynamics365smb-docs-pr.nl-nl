@@ -2,22 +2,22 @@
 title: Postcodes importeren
 description: U kunt een bestand importeren dat postcodes opgeeft voor marketing- en relatiebeheeractiviteiten. De postcodegegevens die u importeert, worden in de tabel Postcodebereik opgeslagen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 3c73eb16656d04e84e143c4e3fe05f66718a4f95
-ms.contentlocale: nl-nl
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826907"
 ---
 # <a name="import-post-codes"></a>Postcodes importeren
 U kunt een bestand importeren dat postcodes opgeeft voor marketing- en relatiebeheeractiviteiten. De postcodegegevens die u importeert, worden in de tabel **Postcodebereik** opgeslagen.  
@@ -33,4 +33,3 @@ Gegevens over de geïmporteerde postcode worden opgeslagen in de tabel Postcode-
 ## <a name="see-also"></a>Zie ook  
  [Nederlandse postcodes](dutch-post-codes.md)   
  [Updates van postcodes importeren](how-to-import-post-code-updates.md)
-

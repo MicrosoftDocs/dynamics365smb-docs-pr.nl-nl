@@ -4,15 +4,15 @@ description: In Business Central kunt u de functie Totaalbedragen documenten con
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 38fbf38851c788c850fec9d6cd656829b6554f33
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826911"
 ---
 # <a name="set-up-validation-of-purchase-amounts"></a>Validatie van inkoopbedragen instellen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de functie **Totaalbedragen documenten controleren** activeren om het totaalbedrag van inkoopdocumenten te valideren voordat een inkoopfactuur en inkoopcreditnota worden geboekt. Standaard wordt het totale inkoopdocumentbedrag gevalideerd wanneer u boekt. Het totale bedrag van de ingevoegde inkoopregels moet gelijk zijn aan het bedrag inclusief btw en het btw-bedrag. Als u het inkoopdocumentbedrag automatisch wilt valideren, moet u het documentbedrag inclusief btw en de btw van het documentbedrag op de pagina **Inkoopfactuur** of **Inkoopcreditnota** invoeren.  
@@ -48,4 +48,3 @@ U kunt deze optie alleen inschakelen als de inkoopfactuur of de inkoopcreditnota
 ## <a name="see-also"></a>Zie ook  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)  
 [Inkopen instellen](../../sales-how-work-standard-lines.md)
-

@@ -2,22 +2,22 @@
 title: Documentbedragen bewerken in inkoopfacturen en creditnota's
 description: U kunt gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e18db737c70b048ac3464d6529e4a9fec19c257f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a0170bfbd92370848f1e078ab6fb2a849ded4d1
-ms.contentlocale: nl-nl
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826900"
 ---
 # <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos"></a>Documentbedragen bewerken in inkoopfacturen en creditnota's
 Met [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.  
@@ -31,4 +31,3 @@ Met [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u gemakkelijk documen
 ## <a name="see-also"></a>Zie ook  
 [Periodieke verkoop- en inkoopregels maken](../../sales-how-work-standard-lines.md)   
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
-
