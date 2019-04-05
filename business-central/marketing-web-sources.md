@@ -1,8 +1,8 @@
 ---
 title: Webbronnen voor contactbedrijven instellen | Microsoft Docs
-description: "U kunt internet- of webbronnen definiëren en toewijzen aan een contactbedrijf om te helpen aangeven hoe u informatie wilt zoeken over uw contacten."
+description: U kunt internet- of webbronnen definiëren en toewijzen aan een contactbedrijf om te helpen aangeven hoe u informatie wilt zoeken over uw contacten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,40 +13,39 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 8106eeca31fb5a5c4528d47a27f897454d5dac58
-ms.contentlocale: nl-nl
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "794286"
 ---
-# <a name="set-up-web-sources-for-contact-companies"></a><span data-ttu-id="5a287-103">Webbronnen voor contactbedrijven instellen</span><span class="sxs-lookup"><span data-stu-id="5a287-103">Set Up Web Sources for Contact Companies</span></span>
-<span data-ttu-id="5a287-104">U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines en websites op internet aan te geven die u wilt gebruiken om informatie over de contacten te zoeken.</span><span class="sxs-lookup"><span data-stu-id="5a287-104">You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts.</span></span> <span data-ttu-id="5a287-105">Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.</span><span class="sxs-lookup"><span data-stu-id="5a287-105">When assigning web sources, you specify which search engine and search word the application will use to find the requested information.</span></span>
+# <a name="set-up-web-sources-for-contact-companies"></a><span data-ttu-id="3cea9-103">Webbronnen voor contactbedrijven instellen</span><span class="sxs-lookup"><span data-stu-id="3cea9-103">Set Up Web Sources for Contact Companies</span></span>
+<span data-ttu-id="3cea9-104">U kunt webbronnen gebruiken met uw contactbedrijven om bijvoorbeeld zoekengines en websites op internet aan te geven die u wilt gebruiken om informatie over de contacten te zoeken.</span><span class="sxs-lookup"><span data-stu-id="3cea9-104">You can use web sources with your contact companies to identify, for example, search engines and web sites, on the Internet that you want to use to search for information about the contacts.</span></span> <span data-ttu-id="3cea9-105">Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.</span><span class="sxs-lookup"><span data-stu-id="3cea9-105">When assigning web sources, you specify which search engine and search word the application will use to find the requested information.</span></span>
 
-<span data-ttu-id="5a287-106">Webbronnen gebruiken voor contacten is een proces van twee stappen.</span><span class="sxs-lookup"><span data-stu-id="5a287-106">Using web sources on contacts is a two-step process.</span></span> <span data-ttu-id="5a287-107">Eerst definieert u de webbroncode.</span><span class="sxs-lookup"><span data-stu-id="5a287-107">First, you define the web source code.</span></span> <span data-ttu-id="5a287-108">U hoeft deze stap slechts eenmaal uit te voeren voor elke webbron.</span><span class="sxs-lookup"><span data-stu-id="5a287-108">You only have to perform this step one time for each web source.</span></span> <span data-ttu-id="5a287-109">Als u een webbroncode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.</span><span class="sxs-lookup"><span data-stu-id="5a287-109">Once you have a web source code, you can start to assign the code to contact persons.</span></span>
+<span data-ttu-id="3cea9-106">Webbronnen gebruiken voor contacten is een proces van twee stappen.</span><span class="sxs-lookup"><span data-stu-id="3cea9-106">Using web sources on contacts is a two-step process.</span></span> <span data-ttu-id="3cea9-107">Eerst definieert u de webbroncode.</span><span class="sxs-lookup"><span data-stu-id="3cea9-107">First, you define the web source code.</span></span> <span data-ttu-id="3cea9-108">U hoeft deze stap slechts eenmaal uit te voeren voor elke webbron.</span><span class="sxs-lookup"><span data-stu-id="3cea9-108">You only have to perform this step one time for each web source.</span></span> <span data-ttu-id="3cea9-109">Als u een webbroncode hebt, kunt u beginnen de code toe te wijzen aan contactpersonen.</span><span class="sxs-lookup"><span data-stu-id="3cea9-109">Once you have a web source code, you can start to assign the code to contact persons.</span></span>
 
-## <a name="to-define-a-web-source-code"></a><span data-ttu-id="5a287-110">Een webbroncode definiëren</span><span class="sxs-lookup"><span data-stu-id="5a287-110">To define a web source code</span></span>
-1. <span data-ttu-id="5a287-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webbronnen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="5a287-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Sources**, and then choose the related link.</span></span>
-2. <span data-ttu-id="5a287-112">Kies de **Nieuw**-acties.</span><span class="sxs-lookup"><span data-stu-id="5a287-112">Choose the **New** actions.</span></span>
-3. <span data-ttu-id="5a287-113">Vul de velden **Code**, **Omschrijving** en **URL** in.</span><span class="sxs-lookup"><span data-stu-id="5a287-113">Fill in the **Code**, **Description**, and **URL** fields.</span></span>
+## <a name="to-define-a-web-source-code"></a><span data-ttu-id="3cea9-110">Een webbroncode definiëren</span><span class="sxs-lookup"><span data-stu-id="3cea9-110">To define a web source code</span></span>
+1. <span data-ttu-id="3cea9-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webbronnen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="3cea9-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Web Sources**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3cea9-112">Kies de **Nieuw**-acties.</span><span class="sxs-lookup"><span data-stu-id="3cea9-112">Choose the **New** actions.</span></span>
+3. <span data-ttu-id="3cea9-113">Vul de velden **Code**, **Omschrijving** en **URL** in.</span><span class="sxs-lookup"><span data-stu-id="3cea9-113">Fill in the **Code**, **Description**, and **URL** fields.</span></span>
 
-    <span data-ttu-id="5a287-114">Typ %1 in het veld **URL** om een tijdelijke aanduiding in te voegen voor een zoekwoord in de URL.</span><span class="sxs-lookup"><span data-stu-id="5a287-114">Type %1 in the **URL** field to insert a placeholder for a search word in the URL.</span></span> <span data-ttu-id="5a287-115">Wanneer u de webbron start vanaf een contact, wordt %1 automatisch vervangen door de zoekterm die u op de pagina **Contact webbronnen** hebt ingevoerd, bijvoorbeeld de naam van het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="5a287-115">When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered on the **Contact Web Sources** page.</span></span>
+    <span data-ttu-id="3cea9-114">Typ %1 in het veld **URL** om een tijdelijke aanduiding in te voegen voor een zoekwoord in de URL.</span><span class="sxs-lookup"><span data-stu-id="3cea9-114">Type %1 in the **URL** field to insert a placeholder for a search word in the URL.</span></span> <span data-ttu-id="3cea9-115">Wanneer u de webbron start vanaf een contact, wordt %1 vervangen door de zoekterm die u op de pagina **Contactwebbronnen** hebt ingevoerd, bijvoorbeeld de naam van het bedrijf.</span><span class="sxs-lookup"><span data-stu-id="3cea9-115">When you launch the web source from a contact, the %1 is replaced with the search word, for example, the name of the company that you have entered on the **Contact Web Sources** page.</span></span>
 
-<span data-ttu-id="5a287-116">Herhaal deze stappen om het gewenste aantal webbronnen in te stellen.</span><span class="sxs-lookup"><span data-stu-id="5a287-116">Repeat these steps to set up as many web sources as you want.</span></span>
+<span data-ttu-id="3cea9-116">Herhaal deze stappen om het gewenste aantal webbronnen in te stellen.</span><span class="sxs-lookup"><span data-stu-id="3cea9-116">Repeat these steps to set up as many web sources as you want.</span></span>
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a><span data-ttu-id="5a287-117">Webbronnen toewijzen aan een contactbedrijf</span><span class="sxs-lookup"><span data-stu-id="5a287-117">To assign web sources to a contact company</span></span>
-<span data-ttu-id="5a287-118">Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.</span><span class="sxs-lookup"><span data-stu-id="5a287-118">When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.</span></span>
+## <a name="to-assign-web-sources-to-a-contact-company"></a><span data-ttu-id="3cea9-117">Webbronnen toewijzen aan een contactbedrijf</span><span class="sxs-lookup"><span data-stu-id="3cea9-117">To assign web sources to a contact company</span></span>
+<span data-ttu-id="3cea9-118">Als u webbronnen wilt toewijzen, moet u aangeven welk zoekprogramma en welk zoekwoord wordt gebruikt bij het zoeken naar de vereiste informatie.</span><span class="sxs-lookup"><span data-stu-id="3cea9-118">When assigning web sources, you specify which search engine and search word that the application will use to find the requested information.</span></span>
 
-1. <span data-ttu-id="5a287-119">Open het contact.</span><span class="sxs-lookup"><span data-stu-id="5a287-119">Open the contact.</span></span>
-2. <span data-ttu-id="5a287-120">Kies de actie **Bedrijf** en kies vervolgens de actie **Webbronnen**.</span><span class="sxs-lookup"><span data-stu-id="5a287-120">Choose the **Company** action, and then choose the **Web Sources** action.</span></span> <span data-ttu-id="5a287-121">De pagina **Contact webbronnen** wordt geopend.</span><span class="sxs-lookup"><span data-stu-id="5a287-121">The **Contact Web Sources** page opens.</span></span>
-3. <span data-ttu-id="5a287-122">Kies in het veld **Webbroncode** de webbron die u wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="5a287-122">In the **Web Source Code** field, choose the web source you want to assign.</span></span>
-4. <span data-ttu-id="5a287-123">Voer in het veld **Zoekterm** de zoekterm in die moet worden gebruikt bij het zoeken naar de informatie.</span><span class="sxs-lookup"><span data-stu-id="5a287-123">In the **Search Word** field, enter the search word that you want to use to find the information.</span></span>
+1. <span data-ttu-id="3cea9-119">Open het contact.</span><span class="sxs-lookup"><span data-stu-id="3cea9-119">Open the contact.</span></span>
+2. <span data-ttu-id="3cea9-120">Kies de actie **Bedrijf** en kies vervolgens de actie **Webbronnen**.</span><span class="sxs-lookup"><span data-stu-id="3cea9-120">Choose the **Company** action, and then choose the **Web Sources** action.</span></span> <span data-ttu-id="3cea9-121">De pagina **Contact webbronnen** wordt geopend.</span><span class="sxs-lookup"><span data-stu-id="3cea9-121">The **Contact Web Sources** page opens.</span></span>
+3. <span data-ttu-id="3cea9-122">Kies in het veld **Webbroncode** de webbron die u wilt toewijzen.</span><span class="sxs-lookup"><span data-stu-id="3cea9-122">In the **Web Source Code** field, choose the web source you want to assign.</span></span>
+4. <span data-ttu-id="3cea9-123">Voer in het veld **Zoekterm** de zoekterm in die moet worden gebruikt bij het zoeken naar de informatie.</span><span class="sxs-lookup"><span data-stu-id="3cea9-123">In the **Search Word** field, enter the search word that you want to use to find the information.</span></span>
 
-<span data-ttu-id="5a287-124">Herhaal deze stappen om het gewenste aantal webbronnen toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="5a287-124">Repeat these steps to assign as many web sources as you want.</span></span>
+<span data-ttu-id="3cea9-124">Herhaal deze stappen om het gewenste aantal webbronnen toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="3cea9-124">Repeat these steps to assign as many web sources as you want.</span></span>
 
-<span data-ttu-id="5a287-125">U kunt webbronnen ook toewijzen op de pagina **Contactoverzicht** door dezelfde procedure te volgen.</span><span class="sxs-lookup"><span data-stu-id="5a287-125">You can also assign web sources from the **Contact List** page by following the same procedure.</span></span>
+<span data-ttu-id="3cea9-125">U kunt webbronnen ook toewijzen op de pagina **Contactoverzicht** door dezelfde procedure te volgen.</span><span class="sxs-lookup"><span data-stu-id="3cea9-125">You can also assign web sources from the **Contact List** page by following the same procedure.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5a287-126">Zie ook</span><span class="sxs-lookup"><span data-stu-id="5a287-126">See Also</span></span>
-[<span data-ttu-id="5a287-127">Contactbedrijven maken</span><span class="sxs-lookup"><span data-stu-id="5a287-127">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
-<span data-ttu-id="5a287-128">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5a287-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
+## <a name="see-also"></a><span data-ttu-id="3cea9-126">Zie ook</span><span class="sxs-lookup"><span data-stu-id="3cea9-126">See Also</span></span>
+[<span data-ttu-id="3cea9-127">Contacten maken</span><span class="sxs-lookup"><span data-stu-id="3cea9-127">Creating Contacts</span></span>](marketing-create-contact-companies.md)  
+<span data-ttu-id="3cea9-128">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3cea9-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

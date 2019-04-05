@@ -2,43 +2,43 @@
 title: Serviceoffertes maken | Microsoft Docs
 description: Op de pagina **Serviceofferte** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud. U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1486be71b0b848aa48996f4161f8987322a09e32
-ms.contentlocale: nl-nl
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793480"
 ---
-# <a name="create-service-quotes"></a><span data-ttu-id="5efb5-104">Serviceoffertes maken:</span><span class="sxs-lookup"><span data-stu-id="5efb5-104">Create Service Quotes</span></span>
-<span data-ttu-id="5efb5-105">U kunt serviceoffertes als de basis voor serviceorders zien.</span><span class="sxs-lookup"><span data-stu-id="5efb5-105">You can think of service quotes as the basis for service orders.</span></span> <span data-ttu-id="5efb5-106">Ze zijn zelfs vrijwel identiek.</span><span class="sxs-lookup"><span data-stu-id="5efb5-106">In fact, they are almost identical.</span></span> <span data-ttu-id="5efb5-107">Ze bevatten beide informatie, bijvoorbeeld over wie de klant is, het soort order, het artikel dat service vereist, facturerings- en verzendingsgegevens, en informatie over het werkelijke servicewerk.</span><span class="sxs-lookup"><span data-stu-id="5efb5-107">They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.</span></span>
+# <a name="create-service-quotes"></a><span data-ttu-id="c0ac9-104">Serviceoffertes maken:</span><span class="sxs-lookup"><span data-stu-id="c0ac9-104">Create Service Quotes</span></span>
+<span data-ttu-id="c0ac9-105">U kunt serviceoffertes als de basis voor serviceorders zien.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-105">You can think of service quotes as the basis for service orders.</span></span> <span data-ttu-id="c0ac9-106">Ze zijn zelfs vrijwel identiek.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-106">In fact, they are almost identical.</span></span> <span data-ttu-id="c0ac9-107">Ze bevatten beide informatie, bijvoorbeeld over wie de klant is, het soort order, het artikel dat service vereist, facturerings- en verzendingsgegevens, en informatie over het werkelijke servicewerk.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-107">They both contain information such as who the customer is, the type of order, the item that needs service, billing and shipping information, and information about the actual service work.</span></span>
  
-<span data-ttu-id="5efb5-108">U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.</span><span class="sxs-lookup"><span data-stu-id="5efb5-108">You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.</span></span>  
+<span data-ttu-id="c0ac9-108">U kunt een serviceofferte gebruiken als voorlopig ontwerp voor een serviceorder en de offerte vervolgens omzetten in een serviceorder.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-108">You can use a service quote as a preliminary draft for a service order, and then convert the quote to a service order.</span></span>  
   
-## <a name="to-create-a-service-quote"></a><span data-ttu-id="5efb5-109">Serviceoffertes maken</span><span class="sxs-lookup"><span data-stu-id="5efb5-109">To create a service quote</span></span>  
-1. <span data-ttu-id="5efb5-110">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceoffertes** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="5efb5-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="5efb5-111">Een nieuwe serviceofferte maken.</span><span class="sxs-lookup"><span data-stu-id="5efb5-111">Create a new service quote.</span></span>  
-3. <span data-ttu-id="5efb5-112">Selecteer in het veld **Nr.**</span><span class="sxs-lookup"><span data-stu-id="5efb5-112">In the **No.**</span></span> <span data-ttu-id="5efb5-113">een nummer op voor de serviceofferte.</span><span class="sxs-lookup"><span data-stu-id="5efb5-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="5efb5-114">Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor serviceoffertes hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare serviceoffertenummer in te voeren.</span><span class="sxs-lookup"><span data-stu-id="5efb5-114">Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.</span></span>  
-4. <span data-ttu-id="5efb5-115">Voer in het veld **Klantnr.**</span><span class="sxs-lookup"><span data-stu-id="5efb5-115">In the **Customer No.**</span></span>  <span data-ttu-id="5efb5-116">de betreffende klant uit de lijst.</span><span class="sxs-lookup"><span data-stu-id="5efb5-116">field, select the relevant customer from the list.</span></span>  
+## <a name="to-create-a-service-quote"></a><span data-ttu-id="c0ac9-109">Serviceoffertes maken</span><span class="sxs-lookup"><span data-stu-id="c0ac9-109">To create a service quote</span></span>  
+1. <span data-ttu-id="c0ac9-110">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceoffertes** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Service Quotes**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="c0ac9-111">Een nieuwe serviceofferte maken.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-111">Create a new service quote.</span></span>  
+3. <span data-ttu-id="c0ac9-112">Selecteer in het veld **Nr.**</span><span class="sxs-lookup"><span data-stu-id="c0ac9-112">In the **No.**</span></span> <span data-ttu-id="c0ac9-113">een nummer op voor de serviceofferte.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-113">field, enter a number for the service quote.</span></span> <span data-ttu-id="c0ac9-114">Als u op de pagina **Servicebeheerinstellingen** nummerreeksen voor serviceoffertes hebt ingesteld, kunt u ook op Enter drukken om het eerstvolgende beschikbare serviceoffertenummer in te voeren.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-114">Alternatively, if you have set up a number series for service quotes on the **Service Mgt. Setup** page, you can press Enter to select the next available service quote number.</span></span>  
+4. <span data-ttu-id="c0ac9-115">Voer in het veld **Klantnr.**</span><span class="sxs-lookup"><span data-stu-id="c0ac9-115">In the **Customer No.**</span></span>  <span data-ttu-id="c0ac9-116">de betreffende klant uit de lijst.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-116">field, select the relevant customer from the list.</span></span>  
 
   > [!Note]  
-  >  <span data-ttu-id="5efb5-117">De klantvelden worden automatisch ingevuld met gegevens uit de **Klantenkaart**.</span><span class="sxs-lookup"><span data-stu-id="5efb5-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="5efb5-118">Als er geen **klantenkaart** bestaat voor de klant en u een klantensjabloon hebt ingesteld, kunt u de klant vanuit de serviceofferte maken.</span><span class="sxs-lookup"><span data-stu-id="5efb5-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="5efb5-119">Vul de relevante velden in en kies de actie **Klant maken**.</span><span class="sxs-lookup"><span data-stu-id="5efb5-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
+  >  <span data-ttu-id="c0ac9-117">De klantvelden worden automatisch ingevuld met gegevens uit de **Klantenkaart**.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-117">The customer fields are filled in automatically with information from the **Customer** card.</span></span> <span data-ttu-id="c0ac9-118">Als er geen **klantenkaart** bestaat voor de klant en u een klantensjabloon hebt ingesteld, kunt u de klant vanuit de serviceofferte maken.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-118">If a **Customer** card does not exist for the customer, and you have set up a customer template, you can create the customer from the service quote.</span></span> <span data-ttu-id="c0ac9-119">Vul de relevante velden in en kies de actie **Klant maken**.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-119">Fill in the relevant fields, and then choose the **Create Customer** action.</span></span>  
   
-5. <span data-ttu-id="5efb5-120">Afhankelijk van de instellingen op het sneltabblad **Verplichte velden** op de pagina **CRM - Service-instellingen** moet u wellicht het veld **Serviceordersoort** en het veld **Verkoper** invullen.</span><span class="sxs-lookup"><span data-stu-id="5efb5-120">Depending on the settings on the **Mandatory Fields** FastTab on the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
-6. <span data-ttu-id="5efb5-121">Vul de serviceartikelregels in.</span><span class="sxs-lookup"><span data-stu-id="5efb5-121">Fill in the service item lines.</span></span>  
-7. <span data-ttu-id="5efb5-122">Registreer de geschatte kosten op de serviceregels.</span><span class="sxs-lookup"><span data-stu-id="5efb5-122">Register estimated costs on the service lines.</span></span>  
+5. <span data-ttu-id="c0ac9-120">Afhankelijk van de instellingen op het sneltabblad **Verplichte velden** op de pagina **CRM - Service-instellingen** moet u wellicht het veld **Serviceordersoort** en het veld **Verkoper** invullen.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-120">Depending on the settings on the **Mandatory Fields** FastTab on the **Service Mgt. Setup** page, you may need to fill in the **Service Order Type** field and the **Salesperson Code** field.</span></span>  
+6. <span data-ttu-id="c0ac9-121">Vul de serviceartikelregels in.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-121">Fill in the service item lines.</span></span>  
+7. <span data-ttu-id="c0ac9-122">Registreer de geschatte kosten op de serviceregels.</span><span class="sxs-lookup"><span data-stu-id="c0ac9-122">Register estimated costs on the service lines.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="5efb5-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="5efb5-123">See Also</span></span>  
-[<span data-ttu-id="5efb5-124">Serviceorders maken</span><span class="sxs-lookup"><span data-stu-id="5efb5-124">Create Service Orders</span></span>](service-how-to-create-service-orders.md)  
-[<span data-ttu-id="5efb5-125">Werken aan servicetaken</span><span class="sxs-lookup"><span data-stu-id="5efb5-125">Work on Service tasks</span></span>](service-how-to-work-on-service-tasks.md)  
+## <a name="see-also"></a><span data-ttu-id="c0ac9-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="c0ac9-123">See Also</span></span>  
+[<span data-ttu-id="c0ac9-124">Serviceorders maken</span><span class="sxs-lookup"><span data-stu-id="c0ac9-124">Create Service Orders</span></span>](service-how-to-create-service-orders.md)  
+[<span data-ttu-id="c0ac9-125">Werken aan servicetaken</span><span class="sxs-lookup"><span data-stu-id="c0ac9-125">Work on Service tasks</span></span>](service-how-to-work-on-service-tasks.md)  
 
  
