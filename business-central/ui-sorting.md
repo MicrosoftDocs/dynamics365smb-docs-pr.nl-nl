@@ -10,22 +10,21 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
+ms.openlocfilehash: 7faec629f56f12f90768c1db361d4973286ae957
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3585e495c2c27e6db264a113c9f9a7c0c65cd11f
-ms.contentlocale: nl-nl
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nl-NL
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852858"
 ---
-# <a name="sorting"></a><span data-ttu-id="5e95a-104">Sorteervolgorde</span><span class="sxs-lookup"><span data-stu-id="5e95a-104">Sorting</span></span>
-<span data-ttu-id="5e95a-105">Met de sorteerfunctie kunt u snel een overzicht van de gegevens opvragen.</span><span class="sxs-lookup"><span data-stu-id="5e95a-105">The sorting function makes it easy for you to get a quick overview of your data.</span></span> <span data-ttu-id="5e95a-106">Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.</span><span class="sxs-lookup"><span data-stu-id="5e95a-106">If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.</span></span>
+# <a name="sorting"></a><span data-ttu-id="6118d-104">Sorteervolgorde</span><span class="sxs-lookup"><span data-stu-id="6118d-104">Sorting</span></span>
+<span data-ttu-id="6118d-105">Met de sorteerfunctie kunt u snel een overzicht van de gegevens opvragen.</span><span class="sxs-lookup"><span data-stu-id="6118d-105">The sorting function makes it easy for you to get a quick overview of your data.</span></span> <span data-ttu-id="6118d-106">Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.</span><span class="sxs-lookup"><span data-stu-id="6118d-106">If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.</span></span>
 
-<span data-ttu-id="5e95a-107">Kies een kolomkop en gebruik de kleine pijl om oplopend of aflopend te sorteren.</span><span class="sxs-lookup"><span data-stu-id="5e95a-107">Choose a column heading and use the small arrow to sort ascending or descending.</span></span>  
+<span data-ttu-id="6118d-107">Kies een kolomkop en gebruik de kleine pijl om oplopend of aflopend te sorteren.</span><span class="sxs-lookup"><span data-stu-id="6118d-107">Choose a column heading and use the small arrow to sort ascending or descending.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="5e95a-108">Sorteren wordt niet ondersteund bij afbeeldingen, BLOB-velden, FlowFilters en velden die niet deel van een tabel zijn.</span><span class="sxs-lookup"><span data-stu-id="5e95a-108">Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.</span></span>
+>   <span data-ttu-id="6118d-108">Sorteren wordt niet ondersteund bij afbeeldingen, BLOB-velden, FlowFilters en velden die niet deel van een tabel zijn.</span><span class="sxs-lookup"><span data-stu-id="6118d-108">Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="5e95a-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="5e95a-109">See Also</span></span>
-<span data-ttu-id="5e95a-110">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5e95a-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="5e95a-111">Gegevens zoeken, filteren en sorteren</span><span class="sxs-lookup"><span data-stu-id="5e95a-111">Searching, Filtering, and Sorting Data</span></span>](ui-enter-criteria-filters.md)
-
+## <a name="see-also"></a><span data-ttu-id="6118d-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6118d-109">See Also</span></span>
+<span data-ttu-id="6118d-110">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6118d-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="6118d-111">Lijsten sorteren, doorzoeken en filteren</span><span class="sxs-lookup"><span data-stu-id="6118d-111">Sorting, Searching, and Filtering Lists</span></span>](ui-enter-criteria-filters.md)
