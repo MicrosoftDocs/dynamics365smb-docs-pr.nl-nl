@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
-ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "794799"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932830"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Power BI verbinden met Dynamics 365 Business Central-inhoudspakketten
 Inzicht krijgen in uw Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens is gemakkelijk met Power BI en de Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-inhoudspakketten. Power BI haalt uw gegevens op en maakt vervolgens een kant-en-klaar dashboard en rapporteert op basis van die gegevens.
@@ -55,26 +55,26 @@ Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Po
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Financiën**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Taken**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Projectoverzicht
 - Projectplanningsregels
 - Projecttaakregels
 - Labels van Power BI-rapport
 - Excel-sjabloonweergave Bedrijf
 
-**Microsoft Dynamics 365 Business Central - Verkoop**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Verkoopdashboard
 - Excel-sjabloonweergave Bedrijf
 - Labels van Power BI-rapport
 
 ## <a name="list-page-reports"></a>Lijstpaginarapporten 
 
-**Microsoft Dynamics 365 Business Central – Klantenlijst**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Artikelverkopen per klant
 - Power BI-artikelinkooplijst
 - Power BI-artikelverkooplijst
@@ -83,13 +83,13 @@ Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Po
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport 
 
-**Microsoft Dynamics 365 Business Central - Lijst met algemene posten**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Power BI-lijst met grootboekbedragen
 - Power BI gebudgetteerd grootboekbedrag
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – artikellijst**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Artikelverkopen per klant
 - Power BI-artikelinkooplijst
 - Power BI-artikelverkooplijst
@@ -97,23 +97,23 @@ Als u uw [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gegevens in Po
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Takenlijst**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI-takenlijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Inkoopfacturenlijst**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI-inkooplijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
-**Microsoft Dynamics 365 Business Central – Verkooporderlijst**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Power BI-verkooplijst
 - ExcelTemplateViewCompany
 - Labels van Power BI-rapport
 
 
-**Microsoft Dynamics 365 Business Central – Leverancierslijst**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Power BI-artikelinkooplijst
 - Power BI-artikelverkooplijst
 - Power BI-leverancierslijst
@@ -132,7 +132,7 @@ Een veel voorkomende fout is de weergavenaam van het bedrijf in te voeren in pla
 ### <a name="incorrect-user-name-and-password"></a>Onjuiste gebruikersnaam en wachtwoord  
 De gebruikersnaam en het wachtwoord die worden gebruikt om verbinding te maken, zijn hetzelfde als wat wordt gebruikt om verbinding te maken met uw Microsoft Office 365-account.  
 
-De inhoudspakketten vereisen ook dat u een Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-account hebt. Zodra u uw aanmeldingsgegevens invoert, worden eventuele Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-tenants waartoe u toegang hebt, automatisch gevonden. Als u geen gelicentieerd of proef Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-account hebt, wordt een foutbericht weergegeven.
+De inhoudspakketten vereisen ook dat u een Microsoft-[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] hebt. Zodra u uw aanmeldingsgegevens invoert, worden eventuele Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-tenants waartoe u toegang hebt, automatisch gevonden. Als u geen gelicentieerd of proef Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-account hebt, wordt een foutbericht weergegeven.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>De sleutel kwam met geen rijen uit de tabel overeen
 Als u een ongeldige bedrijfsnaam invoert tijdens het verbindingsproces, kunt u de foutmelding "De sleutel kwam met geen rijen uit de tabel overeen" krijgen. Geef de juiste bedrijfsnaam op en probeer opnieuw verbinding te maken.

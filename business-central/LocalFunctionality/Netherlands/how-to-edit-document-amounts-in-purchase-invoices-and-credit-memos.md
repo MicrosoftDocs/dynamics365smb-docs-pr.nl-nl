@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e18db737c70b048ac3464d6529e4a9fec19c257f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 212686c9c284bf4a09c709973d2879f923973277
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826900"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922258"
 ---
 # <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos"></a>Documentbedragen bewerken in inkoopfacturen en creditnota's
 Met [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.  

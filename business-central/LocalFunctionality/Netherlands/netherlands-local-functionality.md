@@ -10,48 +10,59 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/12/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8539e0d32934b478cad4adec5e2f2557fd119bcc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8eea46d51025be84b04f8e8e7ea3bfdb82c5904b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826918"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990100"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
-In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## <a name="in-this-section"></a>In dit gedeelte  
-[SEPA-betalingen activeren](how-to-activate-sepa-payments.md)  
-[Inkoopbedragen controleren](check-purchase-amounts.md)  
-[CMR-verzendbonnen](cmr-notes.md)  
-[Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md)  
-[Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)  
-[Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)  
-[Borderelrapporten](docket-reports.md)  
-[Elektronisch bankieren voor Nederland](dutch-electronic-banking.md)  
-[Nederlandse postcodes](dutch-post-codes.md)  
-[Documentbedragen bewerken in inkoopfacturen en creditnota's](how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
-[Elektronische btw- en ICP-aangiften](electronic-vat-and-icp-declarations.md)  
-[Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
-[Grootboek](general-ledger.md)  
-[Postcodes importeren](how-to-import-post-codes.md)  
-[Updates van postcodes importeren](how-to-import-post-code-updates.md)  
-[Testrapporten afdrukken voor kasboeken, bankboeken of giroboeken](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)  
-[Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)  
-[Standaardinkoop- of verkoopregels instellen](how-to-set-up-standard-sales-or-purchase-lines.md)  
-[Validatie van inkoopbedragen instellen](how-to-set-up-validation-of-purchase-amounts.md)  
-[Gemeenschappelijke betalingsruimte voor de euro (SEPA)](single-euro-payments-area-sepa-.md)  
-[Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
-[Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)  
-[Betalingsscenario's](payment-scenarios.md)  
-[Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).](payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
-[Betalingsscenario 2 - buitenlandse betaling (VV naar VV)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
-[Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md)  
-[Verplichte beschrijvingen in grootboekposten](required-descriptions-in-g-l-entry.md)  
-[Gemeenschappelijke betalingsruimte voor de euro (SEPA)](single-euro-payments-area-sepa-.md)  
-[Telebankieren](telebanking.md)
+## <a name="feature-availability"></a>Functiebeschikbaarheid  
+
+* BTW en belasting
+    * [Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md) **Nu beschikbaar**
+    * [Btw-categorieën instellen](how-to-set-up-vat-categories.md) **Nu beschikbaar nu**
+    * [Elektronische btw en ICP-aangiften](electronic-vat-and-icp-declarations.md) **Nu beschikbaar**
+    * [Elektronische btw en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md) **Nu beschikbaar**
+    * [Elektronische btw en ICP-aangiften indienen](electronic-vat-and-icp-declarations.md) **Nu beschikbaar**
+
+* Bankieren en betalingen
+    * [Nederlands elektronisch bankieren](dutch-electronic-banking.md) **Nu beschikbaar**
+    * [Telebankieren](telebanking.md) **Nu beschikbaar**
+    * [Betalingsscenario's](payment-scenarios.md) **Nu beschikbaar**
+    * [Betalingsscenario 1 - Binnenlandse betalingen (LV naar LV)](payment-scenario-1-domestic-payments-lcy-to-lcy-.md) **Nu beschikbaar**  
+    * [Betalingsscenario 2 - Buitenlandse betaling (VV naar VV)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md) **Nu beschikbaar**  
+    * [Betalingsscenario 3 - Buitenlandse betaling (LV naar LV)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md) **Nu beschikbaar**
+    * [Voorstellen maken](how-to-create-proposals.md) **Nu beschikbaar**
+    * [Borderelrapporten](docket-reports.md) **Nu beschikbaar**
+    * [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md) **Nu beschikbaar**
+    * [Controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md) **Nu beschikbaar**
+    * [Gemeenschappelijke betalingsruimte voor de euro (SEPA)](single-euro-payments-area-sepa-.md) **Nu beschikbaar**
+    * [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) **Nu beschikbaar**
+    * [Leveranciersbetalingen elektronisch versturen in de betalingsindeling SEPA ISO 20022](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md) **Nu beschikbaar**
+    * [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md) **Nu beschikbaar**
+    * [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) **Nu beschikbaar**
+
+* Hoofdfinanciën
+    * [Grootboek](general-ledger.md) **Nu beschikbaar**
+    * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
+    * [Vereiste beschrijvingen in grootboekposten](required-descriptions-in-g-l-entry.md) **Nu beschikbaar**
+
+* Inkopen
+    * [Inkoopbedragen controleren](check-purchase-amounts.md) **Nu beschikbaar**
+    * [Documentbedragen bewerken in inkoopfacturen en creditnota's](how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md) **Nu beschikbaar**  
+    * [Validatie van inkoopbedragen instellen](how-to-set-up-validation-of-purchase-amounts.md) **Nu beschikbaar**
+
+* Alge&meen
+    * [CMR-notities](cmr-notes.md) **Nu beschikbaar**
+    * [Nederlandse postcodes](dutch-post-codes.md) **Nu beschikbaar**
+    * [Postcodes importeren](how-to-import-post-codes.md) **Nu beschikbaar**
+    * [Updates op postcodes importeren](how-to-import-post-code-updates.md) **Nu beschikbaar**  
 
 ## <a name="see-also"></a>Zie ook
 [Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
