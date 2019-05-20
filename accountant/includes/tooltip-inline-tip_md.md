@@ -1,1 +1,1 @@
-<span data-ttu-id="99005-101">Kies een veld om een korte omschrijving van het veld of een koppeling naar meer informatie te lezen.</span><span class="sxs-lookup"><span data-stu-id="99005-101">Choose a field to read a short description of the field or link to more information.</span></span>
+<span data-ttu-id="e513c-101">Kies een veld om een korte omschrijving van het veld of een koppeling naar meer informatie te lezen.</span><span class="sxs-lookup"><span data-stu-id="e513c-101">Choose a field to read a short description of the field or link to more information.</span></span>
