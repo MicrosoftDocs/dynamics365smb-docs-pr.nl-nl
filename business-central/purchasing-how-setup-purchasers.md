@@ -13,26 +13,26 @@ ms.search.keywords: purchasing agent
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4ca0dc82cb35062479b7d523d0f4cc56c0b522ce
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937989"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252823"
 ---
-# <a name="set-up-purchasers"></a><span data-ttu-id="7b0ee-103">Inkopers instellen</span><span class="sxs-lookup"><span data-stu-id="7b0ee-103">Set Up Purchasers</span></span>
-<span data-ttu-id="7b0ee-104">Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span></span> <span data-ttu-id="7b0ee-105">U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span>
+# <a name="set-up-purchasers"></a><span data-ttu-id="3f25e-103">Inkopers instellen</span><span class="sxs-lookup"><span data-stu-id="3f25e-103">Set Up Purchasers</span></span>
+<span data-ttu-id="3f25e-104">Als er verschillende inkopers bij uw bedrijf werken, kunt u deze op een pagina instellen en aan iedere verkoper een code toewijzen.</span><span class="sxs-lookup"><span data-stu-id="3f25e-104">If several purchasers work at your company, you can set them up in a page and assign them each a code.</span></span> <span data-ttu-id="3f25e-105">U kunt de codes vervolgens gebruiken voor statistische gegevens en om gegevens voor af te drukken lijsten te filteren.</span><span class="sxs-lookup"><span data-stu-id="3f25e-105">You can then use the codes to prepare statistics and to filter information in printed reports.</span></span>
 
-## <a name="to-set-up-purchasers"></a><span data-ttu-id="7b0ee-106">Inkopers instellen</span><span class="sxs-lookup"><span data-stu-id="7b0ee-106">To set up purchasers</span></span>
-1. <span data-ttu-id="7b0ee-107">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers/Inkopers** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
-2. <span data-ttu-id="7b0ee-108">Kies op de pagina **Verkopers/Inkopers** de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-108">On the **Salespeople/Purchasers** page, choose **New**.</span></span>
-3. <span data-ttu-id="7b0ee-109">Vul in de velden op de pagina **Verkopers/Inkopers** de gewenste waarden in.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-purchasers"></a><span data-ttu-id="3f25e-106">Inkopers instellen</span><span class="sxs-lookup"><span data-stu-id="3f25e-106">To set up purchasers</span></span>
+1. <span data-ttu-id="3f25e-107">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkopers/Inkopers** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="3f25e-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3f25e-108">Kies op de pagina **Verkopers/Inkopers** de actie **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="3f25e-108">On the **Salespeople/Purchasers** page, choose **New**.</span></span>
+3. <span data-ttu-id="3f25e-109">Vul in de velden op de pagina **Verkopers/Inkopers** de gewenste waarden in.</span><span class="sxs-lookup"><span data-stu-id="3f25e-109">On the **Salesperson/Purchaser Card** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="7b0ee-110">Inkopers toewijzen aan leveranciers</span><span class="sxs-lookup"><span data-stu-id="7b0ee-110">To assign purchasers to vendors</span></span>
-1. <span data-ttu-id="7b0ee-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="7b0ee-112">Open de desbetreffende leverancierskaart voor de leverancier waaraan een inkoper wordt toegewezen.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
-3. <span data-ttu-id="7b0ee-113">Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens de pagina.</span><span class="sxs-lookup"><span data-stu-id="7b0ee-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span></span>
+## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="3f25e-110">Inkopers toewijzen aan leveranciers</span><span class="sxs-lookup"><span data-stu-id="3f25e-110">To assign purchasers to vendors</span></span>
+1. <span data-ttu-id="3f25e-111">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="3f25e-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3f25e-112">Open de desbetreffende leverancierskaart voor de leverancier waaraan een inkoper wordt toegewezen.</span><span class="sxs-lookup"><span data-stu-id="3f25e-112">Open the relevant vendor card for the vendor that will be assigned a purchaser.</span></span>
+3. <span data-ttu-id="3f25e-113">Selecteer in het veld **Inkopercode** de juiste inkopercode en sluit vervolgens de pagina.</span><span class="sxs-lookup"><span data-stu-id="3f25e-113">In the **Purchaser Code** field, select the applicable purchaser code and then close the page.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="7b0ee-114">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7b0ee-114">See Also</span></span>
-[<span data-ttu-id="7b0ee-115">Inkoop instellen</span><span class="sxs-lookup"><span data-stu-id="7b0ee-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="7b0ee-116">Betalingsverplichtingen beheren</span><span class="sxs-lookup"><span data-stu-id="7b0ee-116">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="7b0ee-117">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7b0ee-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f25e-114">Zie ook</span><span class="sxs-lookup"><span data-stu-id="3f25e-114">See Also</span></span>
+[<span data-ttu-id="3f25e-115">Inkoop instellen</span><span class="sxs-lookup"><span data-stu-id="3f25e-115">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="3f25e-116">Betalingsverplichtingen beheren</span><span class="sxs-lookup"><span data-stu-id="3f25e-116">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="3f25e-117">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3f25e-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
