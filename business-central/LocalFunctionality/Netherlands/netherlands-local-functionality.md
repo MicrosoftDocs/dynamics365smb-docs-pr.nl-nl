@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8eea46d51025be84b04f8e8e7ea3bfdb82c5904b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0b0329d8deb255c62818e173bae4e2b6f4eaf838
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246221"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594204"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Functiebeschikbaarheid  
 
-* BTW en belasting
+* Btw
     * [Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md) **Nu beschikbaar**
     * [Btw-categorieën instellen](how-to-set-up-vat-categories.md) **Nu beschikbaar nu**
     * [Elektronische btw en ICP-aangiften](electronic-vat-and-icp-declarations.md) **Nu beschikbaar**

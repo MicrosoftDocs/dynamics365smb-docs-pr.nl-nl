@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7cac53f81da71ecee0364eb00628be9431b8001b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: cfe16ab2f729a54fec1b23060dabc1a0fec76713
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241509"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540288"
 ---
 # <a name="payment-scenario-3---foreign-payment-lcy--to-fcy"></a>Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die een andere valuta dan uw lokale valuta gebruiken.  
@@ -85,7 +85,7 @@ We verwerken ons voorstel met betrekking tot de betaling aan leverancier ORTIZ e
 ## <a name="export-payment-history"></a>Betaalrun exporteren  
 Open de pagina **Betaalrunoverzicht**, blader naar de relevante betaalrun en kies vervolgens de actie **Exporteren**. De exportbatchverwerking voor het exportprotocol dat aan deze betaling is gekoppeld, verschijnt. Voor deze export zijn de juiste filters al automatisch ingevuld. Controleer desgewenst velden van het sneltabblad **Opties** en kies vervolgens de knop **OK** om de betaling te exporteren. Er wordt een tekstbestand gegenereerd met een bestandsnaam zoals die is gedefinieerd in het veld **Standaardbestandsnamen** van het exportprotocol, dat nu gereed is voor verzending naar onze bank.  
 
-### <a name="example"></a>Opmerking  
+### <a name="example"></a>Voorbeeld  
 Aangezien de transactiewijze die aan onze betaling is gekoppeld **ABN** is, verschijnt de batchverwerking **BBV** of **PAYMUL**.  
 
 ## <a name="import-bank-statement"></a>Bankafschrift importeren  
