@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5c246c61efd60402c23813da72f3223f8873375f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4efb6f5b0c4c83f3f3eae6872dff6b9e68254dd6
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241714"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717628"
 ---
 # <a name="telebanking"></a>Telebankieren
 Op basis van zowel verkoop- als inkooptransacties kunt u met telebankieren betalingen en incasso's genereren die u elektronisch met uw bank kunt uitwisselen. Hieronder vallen ook de export van betalings- en incassogegevens die naar de bank moeten worden doorgestuurd en de import van bankafschriften die door de bank naar u worden verzonden.  
@@ -48,9 +48,10 @@ Een betaalrun is eigenlijk precies hetzelfde als een voorstel, het enige verschi
 ## <a name="exchange-protocols"></a>Uitwisselingsprotocollen  
  Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ondersteunt de volgende protocollen:  
 
-- BTL91 (exporteren)  
+- BTL91 (export). Dit grensoverschrijdende protocol wordt niet langer geaccepteerd in Nederland vanaf 1 mei 2019. Dit protocol wordt vervangen door het Algemeen betalingsbestand-protocol.
 - BBV (exporteren)  
 - PAYMUL (exporteren)  
+- Algemeen betalingsbestand (export). Kan worden gebruikt voor grensoverschrijdende overdrachten buiten de EU.
 - Rabobank mut.asc (importeren)  
 - Rabobank vvmut.asc (importeren)  
 - Rabobank ASCII (importeren)  
