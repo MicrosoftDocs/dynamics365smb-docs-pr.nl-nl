@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d990d1e50c3c4e23b1971c532cb258acd0700610
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ffe061063b48b783f66a22f6b59ac28056fd852c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241544"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300127"
 ---
 # <a name="cmr-notes"></a>CMR-verzendbonnen
 Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.  
@@ -32,8 +32,6 @@ Landen die het CMR-verdrag naleven, gebruiken een standaardformulier voor CMR-ve
 - **CMR - Inkoopretourverzending** – Dit rapport wordt gebruikt om CMR-documenten voor inkoopretourverzendingen af te drukken. In het rapport worden voor elk CMR-document adresgegevens voor de afzender, expediteur en geadresseerde, en gegevens over de verzonden items vermeld.       
 
 - **CMR - Transferlevering** – Dit rapport wordt gebruikt om CMR-documenten voor transferleveringen af te drukken. In het rapport worden voor elk CMR-document de adresgegevens voor de locatie waarvan de items worden verzonden, de locatie waarnaar de items worden verzonden en informatie over de expediteur, naast gegevens over de verzonden items vermeld.
-
-- **CMR - Inkoopretourverzending** – Dit rapport wordt gebruikt om CMR-documenten voor inkoopretourverzendingen af te drukken. In het rapport worden voor elk CMR-document adresgegevens voor de afzender, expediteur en geadresseerde, en gegevens over de verzonden items vermeld.
 
 > [!NOTE]  
 >  CMR-verzendbonnen hebben een indeling die geschikt is voor vooraf afgedrukte CMR-formulieren.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 56c542ffdea17344209e3d4b18c4a17795e7d1eb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41447a5e48fd0d2e71501a11033931f4e077e433
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246005"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300114"
 ---
 # <a name="single-euro-payments-area-sepa"></a>Single EURO Payments Area (SEPA)
 Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen, zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen. 300 miljoen Europese burgers en bedrijven kunnen betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen, ongeacht de locatie.  

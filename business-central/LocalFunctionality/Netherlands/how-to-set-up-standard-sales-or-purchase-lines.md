@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: netherlands-local-functionality
-ms.openlocfilehash: 433d7549f011bbdc0ffcf1d26cc58dbb43146087
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 910c07316ed094f8cedfe145c5279724e1a5f580
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246254"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301269"
 ---
 # <a name="set-up-standard-sales-or-purchase-lines"></a>Standaardinkoop- of verkoopregels instellen
 In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u opgeven hoe de standaardverkoop- of standaardinkoopcodes worden ingevoerd wanneer u de opgegeven verkoop- of inkoopdocumenten maakt.  

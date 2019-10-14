@@ -4,20 +4,20 @@ description: Er is speciale grootboekfunctionaliteit voor de Nederlandse versie 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98bde2960a60be3de1aeb553a363a7104ab69191
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e963375cc6cfdc014c0b1b3b8e66c94d50b48983
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245844"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301276"
 ---
 # <a name="general-ledger"></a>Grootboek
 Algemene grootboekfunctionaliteit voor Nederland wordt beschreven in de onderstaande onderwerpen.

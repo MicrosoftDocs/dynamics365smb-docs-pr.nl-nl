@@ -1,22 +1,23 @@
 ---
 title: Betalingsscenario's
 description: Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.prod: dynamics-nav-2018
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7abd56ee9731602e96b17e0c0879dec63e322ca5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0323ccebe2072b1acf8884e1e3c3041ce037d499
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245799"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300113"
 ---
 # <a name="payment-scenarios"></a>Betalingsscenario's
 Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.  
