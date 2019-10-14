@@ -4,58 +4,59 @@ description: Lees hoe u prioriteiten stelt om aan de vereisten van vraag en aanb
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06eb5221369d8777330ae844adfb5d87658d591d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 0a14b00b1172d616642495e3963097ddef48c54c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238621"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306913"
 ---
-# <a name="design-details-prioritizing-orders"></a><span data-ttu-id="32918-103">Ontwerpdetails: Prioriteit geven aan orders</span><span class="sxs-lookup"><span data-stu-id="32918-103">Design Details: Prioritizing Orders</span></span>
-<span data-ttu-id="32918-104">Binnen een bepaalde SKU staat de verzochte of beschikbare datum voor de hoogste prioriteit; de vraag van vandaag moet worden verwerkt vóór de vraag van volgende week.</span><span class="sxs-lookup"><span data-stu-id="32918-104">Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week.</span></span> <span data-ttu-id="32918-105">Naast deze algemene prioriteit zal het planningssysteem ook voorstellen aan welk soort vraag moet worden voldaan voordat aan andere vraag wordt voldaan.</span><span class="sxs-lookup"><span data-stu-id="32918-105">But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand.</span></span> <span data-ttu-id="32918-106">Zo wordt ook voorgesteld welke voorzieningenbron moet worden toegepast voordat andere voorzieningenbronnen worden toegepast.</span><span class="sxs-lookup"><span data-stu-id="32918-106">Likewise, it will suggest what source of supply should be applied before applying other sources of supply.</span></span> <span data-ttu-id="32918-107">Dit gebeurt op basis van orderprioriteiten.</span><span class="sxs-lookup"><span data-stu-id="32918-107">This is done according to order priorities.</span></span>  
-  
-<span data-ttu-id="32918-108">Geladen vraag en aanbod dragen bij aan een profiel voor de voorspelde voorraad op basis van de volgende prioriteiten:</span><span class="sxs-lookup"><span data-stu-id="32918-108">Loaded demand and supply contribute to a profile for the projected inventory according to the following priorities:</span></span>  
-  
-## <a name="priorities-on-the-demand-side"></a><span data-ttu-id="32918-109">Prioriteiten aan de vraagkant</span><span class="sxs-lookup"><span data-stu-id="32918-109">Priorities on the Demand Side</span></span>  
-1. <span data-ttu-id="32918-110">Al verzonden: Artikelpost</span><span class="sxs-lookup"><span data-stu-id="32918-110">Already shipped: Item Ledger Entry</span></span>  
-2. <span data-ttu-id="32918-111">Inkoopretourorder</span><span class="sxs-lookup"><span data-stu-id="32918-111">Purchase Return Order</span></span>  
-3. <span data-ttu-id="32918-112">Verkooporder</span><span class="sxs-lookup"><span data-stu-id="32918-112">Sales Order</span></span>  
-4. <span data-ttu-id="32918-113">Onderhoudsorder</span><span class="sxs-lookup"><span data-stu-id="32918-113">Service Order</span></span>  
-5. <span data-ttu-id="32918-114">Behoefte aan productieonderdelen</span><span class="sxs-lookup"><span data-stu-id="32918-114">Production Component Need</span></span>  
-6. <span data-ttu-id="32918-115">Assemblageorderregel</span><span class="sxs-lookup"><span data-stu-id="32918-115">Assembly Order Line</span></span>  
-7. <span data-ttu-id="32918-116">Uitgaande transferorder</span><span class="sxs-lookup"><span data-stu-id="32918-116">Outbound Transfer Order</span></span>  
-8. <span data-ttu-id="32918-117">Raamcontract (dat niet al is verbruikt door verwante verkooporders)</span><span class="sxs-lookup"><span data-stu-id="32918-117">Blanket Order (that has not already been consumed by related sales orders)</span></span>  
-9. <span data-ttu-id="32918-118">Prognose (die niet al is verbruikt door andere verkooporders)</span><span class="sxs-lookup"><span data-stu-id="32918-118">Forecast (that has not already been consumed by other sales orders)</span></span>  
-  
+# <a name="design-details-prioritizing-orders"></a><span data-ttu-id="7020e-103">Ontwerpdetails: Prioriteit geven aan orders</span><span class="sxs-lookup"><span data-stu-id="7020e-103">Design Details: Prioritizing Orders</span></span>
+<span data-ttu-id="7020e-104">Binnen een bepaalde SKU staat de verzochte of beschikbare datum voor de hoogste prioriteit; de vraag van vandaag moet worden verwerkt vóór de vraag van volgende week.</span><span class="sxs-lookup"><span data-stu-id="7020e-104">Within a given SKU, the requested or available date represents the highest priority; the demand of today should be dealt with before the demand of next week.</span></span> <span data-ttu-id="7020e-105">Naast deze algemene prioriteit zal het planningssysteem ook voorstellen aan welk soort vraag moet worden voldaan voordat aan andere vraag wordt voldaan.</span><span class="sxs-lookup"><span data-stu-id="7020e-105">But in addition to this overall priority, the planning system will also suggest which type of demand should be fulfilled before fulfilling another demand.</span></span> <span data-ttu-id="7020e-106">Zo wordt ook voorgesteld welke voorzieningenbron moet worden toegepast voordat andere voorzieningenbronnen worden toegepast.</span><span class="sxs-lookup"><span data-stu-id="7020e-106">Likewise, it will suggest what source of supply should be applied before applying other sources of supply.</span></span> <span data-ttu-id="7020e-107">Dit gebeurt op basis van orderprioriteiten.</span><span class="sxs-lookup"><span data-stu-id="7020e-107">This is done according to order priorities.</span></span>  
+
+<span data-ttu-id="7020e-108">Geladen vraag en aanbod dragen bij aan een profiel voor de voorspelde voorraad op basis van de volgende prioriteiten:</span><span class="sxs-lookup"><span data-stu-id="7020e-108">Loaded demand and supply contribute to a profile for the projected inventory according to the following priorities:</span></span>  
+
+## <a name="priorities-on-the-demand-side"></a><span data-ttu-id="7020e-109">Prioriteiten aan de vraagkant</span><span class="sxs-lookup"><span data-stu-id="7020e-109">Priorities on the Demand Side</span></span>  
+1. <span data-ttu-id="7020e-110">Al verzonden: Artikelpost</span><span class="sxs-lookup"><span data-stu-id="7020e-110">Already shipped: Item Ledger Entry</span></span>  
+2. <span data-ttu-id="7020e-111">Inkoopretourorder</span><span class="sxs-lookup"><span data-stu-id="7020e-111">Purchase Return Order</span></span>  
+3. <span data-ttu-id="7020e-112">Verkooporder</span><span class="sxs-lookup"><span data-stu-id="7020e-112">Sales Order</span></span>  
+4. <span data-ttu-id="7020e-113">Onderhoudsorder</span><span class="sxs-lookup"><span data-stu-id="7020e-113">Service Order</span></span>  
+5. <span data-ttu-id="7020e-114">Behoefte aan productieonderdelen</span><span class="sxs-lookup"><span data-stu-id="7020e-114">Production Component Need</span></span>  
+6. <span data-ttu-id="7020e-115">Assemblageorderregel</span><span class="sxs-lookup"><span data-stu-id="7020e-115">Assembly Order Line</span></span>  
+7. <span data-ttu-id="7020e-116">Uitgaande transferorder</span><span class="sxs-lookup"><span data-stu-id="7020e-116">Outbound Transfer Order</span></span>  
+8. <span data-ttu-id="7020e-117">Raamcontract (dat niet al is verbruikt door verwante verkooporders)</span><span class="sxs-lookup"><span data-stu-id="7020e-117">Blanket Order (that has not already been consumed by related sales orders)</span></span>  
+9. <span data-ttu-id="7020e-118">Prognose (die niet al is verbruikt door andere verkooporders)</span><span class="sxs-lookup"><span data-stu-id="7020e-118">Forecast (that has not already been consumed by other sales orders)</span></span>  
+
 > [!NOTE]  
->  <span data-ttu-id="32918-119">Inkoopretouren zijn meestal niet betrokken bij voorraadplanning; ze moeten altijd worden gereserveerd vanuit de lot die geretourneerd zal worden.</span><span class="sxs-lookup"><span data-stu-id="32918-119">Purchase returns are usually not involved in supply planning; they should always be reserved from the lot that is going to be returned.</span></span> <span data-ttu-id="32918-120">Indien niet gereserveerd, spelen inkoopretouren een rol in de beschikbaarheid en hebben ze een hoge prioriteit om te voorkomen dat het planningssysteem een voorzieningenorder voorstelt, puur met het oog op een inkoopretour.</span><span class="sxs-lookup"><span data-stu-id="32918-120">If not reserved, purchase returns play a role in the availability and are highly prioritized to avoid that the planning system suggests a supply order just to serve a purchase return.</span></span>  
-  
-## <a name="priorities-on-the-supply-side"></a><span data-ttu-id="32918-121">Prioriteiten aan de aanbodkant</span><span class="sxs-lookup"><span data-stu-id="32918-121">Priorities on the Supply Side</span></span>  
-1. <span data-ttu-id="32918-122">Al in voorraad: Artikelpost (Planningsflexibiliteit = geen)</span><span class="sxs-lookup"><span data-stu-id="32918-122">Already in inventory: Item Ledger Entry (Planning Flexibility = None)</span></span>  
-2. <span data-ttu-id="32918-123">Verkoopretourorder (Planningsflexibiliteit = Geen)</span><span class="sxs-lookup"><span data-stu-id="32918-123">Sales Return Order (Planning Flexibility = None)</span></span>  
-3. <span data-ttu-id="32918-124">Inkomende transferorder</span><span class="sxs-lookup"><span data-stu-id="32918-124">Inbound Transfer Order</span></span>  
-4. <span data-ttu-id="32918-125">Productieorder</span><span class="sxs-lookup"><span data-stu-id="32918-125">Production Order</span></span>  
-5. <span data-ttu-id="32918-126">Assemblageorder</span><span class="sxs-lookup"><span data-stu-id="32918-126">Assembly Order</span></span>  
-6. <span data-ttu-id="32918-127">Inkooporder</span><span class="sxs-lookup"><span data-stu-id="32918-127">Purchase Order</span></span>  
-  
-## <a name="priority-related-to-the-state-of-demand-and-supply"></a><span data-ttu-id="32918-128">Prioriteit met betrekking tot de status van vraag en aanbod</span><span class="sxs-lookup"><span data-stu-id="32918-128">Priority Related to the State of Demand and Supply</span></span>  
-<span data-ttu-id="32918-129">Afgezien van prioriteiten als gevolg van het soort vraag en aanbod geeft de huidige status van de orders in het uitvoeringsproces ook een prioriteit aan.</span><span class="sxs-lookup"><span data-stu-id="32918-129">Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority.</span></span> <span data-ttu-id="32918-130">Magazijnactiviteiten hebben bijvoorbeeld invloed en er wordt rekening gehouden met de status van verkoop-, inkoop-, transfer-, assemblage- en productieorders:</span><span class="sxs-lookup"><span data-stu-id="32918-130">For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:</span></span>  
-  
-1. <span data-ttu-id="32918-131">Gedeeltelijk verwerkt (Planningsflexibiliteit = Geen)</span><span class="sxs-lookup"><span data-stu-id="32918-131">Partly handled (Planning Flexibility = None)</span></span>  
-2. <span data-ttu-id="32918-132">Al in verwerking in het magazijn (Planningsflexibiliteit = geen)</span><span class="sxs-lookup"><span data-stu-id="32918-132">Already in process in the warehouse (Planning Flexibility = None)</span></span>  
-3. <span data-ttu-id="32918-133">Vrijgegeven - alle ordersoorten (Planningsflexibiliteit = Onbeperkt)</span><span class="sxs-lookup"><span data-stu-id="32918-133">Released – all order types (Planning Flexibility = Unlimited)</span></span>  
-4. <span data-ttu-id="32918-134">Vaste geplande productieorder (Planningsflexibiliteit = Onbeperkt)</span><span class="sxs-lookup"><span data-stu-id="32918-134">Firm Planned Production Order (Planning Flexibility = Unlimited)</span></span>  
-5. <span data-ttu-id="32918-135">Gepland/open - alle ordersoorten (Planningsflexibiliteit = Onbeperkt)</span><span class="sxs-lookup"><span data-stu-id="32918-135">Planned/Open – all order types (Planning Flexibility = Unlimited)</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="32918-136">Zie ook</span><span class="sxs-lookup"><span data-stu-id="32918-136">See Also</span></span>  
-<span data-ttu-id="32918-137">[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="32918-137">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
-<span data-ttu-id="32918-138">[Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="32918-138">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
-[<span data-ttu-id="32918-139">Ontwerpdetails: Voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="32918-139">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+>  <span data-ttu-id="7020e-119">Inkoopretouren zijn meestal niet betrokken bij voorraadplanning; ze moeten altijd worden gereserveerd vanuit de lot die geretourneerd zal worden.</span><span class="sxs-lookup"><span data-stu-id="7020e-119">Purchase returns are usually not involved in supply planning; they should always be reserved from the lot that is going to be returned.</span></span> <span data-ttu-id="7020e-120">Indien niet gereserveerd, spelen inkoopretouren een rol in de beschikbaarheid en hebben ze een hoge prioriteit om te voorkomen dat het planningssysteem een voorzieningenorder voorstelt, puur met het oog op een inkoopretour.</span><span class="sxs-lookup"><span data-stu-id="7020e-120">If not reserved, purchase returns play a role in the availability and are highly prioritized to avoid that the planning system suggests a supply order just to serve a purchase return.</span></span>  
+
+## <a name="priorities-on-the-supply-side"></a><span data-ttu-id="7020e-121">Prioriteiten aan de aanbodkant</span><span class="sxs-lookup"><span data-stu-id="7020e-121">Priorities on the Supply Side</span></span>  
+1. <span data-ttu-id="7020e-122">Al in voorraad: Artikelpost (Planningsflexibiliteit = geen)</span><span class="sxs-lookup"><span data-stu-id="7020e-122">Already in inventory: Item Ledger Entry (Planning Flexibility = None)</span></span>  
+2. <span data-ttu-id="7020e-123">Verkoopretourorder (Planningsflexibiliteit = Geen)</span><span class="sxs-lookup"><span data-stu-id="7020e-123">Sales Return Order (Planning Flexibility = None)</span></span>  
+3. <span data-ttu-id="7020e-124">Inkomende transferorder</span><span class="sxs-lookup"><span data-stu-id="7020e-124">Inbound Transfer Order</span></span>  
+4. <span data-ttu-id="7020e-125">Productieorder</span><span class="sxs-lookup"><span data-stu-id="7020e-125">Production Order</span></span>  
+5. <span data-ttu-id="7020e-126">Assemblageorder</span><span class="sxs-lookup"><span data-stu-id="7020e-126">Assembly Order</span></span>  
+6. <span data-ttu-id="7020e-127">Inkooporder</span><span class="sxs-lookup"><span data-stu-id="7020e-127">Purchase Order</span></span>  
+
+## <a name="priority-related-to-the-state-of-demand-and-supply"></a><span data-ttu-id="7020e-128">Prioriteit met betrekking tot de status van vraag en aanbod</span><span class="sxs-lookup"><span data-stu-id="7020e-128">Priority Related to the State of Demand and Supply</span></span>  
+<span data-ttu-id="7020e-129">Afgezien van prioriteiten als gevolg van het soort vraag en aanbod geeft de huidige status van de orders in het uitvoeringsproces ook een prioriteit aan.</span><span class="sxs-lookup"><span data-stu-id="7020e-129">Apart from priorities given by the type of demand and supply, the present state of the orders in the execution process also defines a priority.</span></span> <span data-ttu-id="7020e-130">Magazijnactiviteiten hebben bijvoorbeeld invloed en er wordt rekening gehouden met de status van verkoop-, inkoop-, transfer-, assemblage- en productieorders:</span><span class="sxs-lookup"><span data-stu-id="7020e-130">For example, warehouse activities have an impact, and the status of sales, purchase, transfer, assembly, and production orders is taken into account:</span></span>  
+
+1. <span data-ttu-id="7020e-131">Gedeeltelijk verwerkt (Planningsflexibiliteit = Geen)</span><span class="sxs-lookup"><span data-stu-id="7020e-131">Partly handled (Planning Flexibility = None)</span></span>  
+2. <span data-ttu-id="7020e-132">Al in verwerking in het magazijn (Planningsflexibiliteit = geen)</span><span class="sxs-lookup"><span data-stu-id="7020e-132">Already in process in the warehouse (Planning Flexibility = None)</span></span>  
+3. <span data-ttu-id="7020e-133">Vrijgegeven - alle ordersoorten (Planningsflexibiliteit = Onbeperkt)</span><span class="sxs-lookup"><span data-stu-id="7020e-133">Released – all order types (Planning Flexibility = Unlimited)</span></span>  
+4. <span data-ttu-id="7020e-134">Vaste geplande productieorder (Planningsflexibiliteit = Onbeperkt)</span><span class="sxs-lookup"><span data-stu-id="7020e-134">Firm Planned Production Order (Planning Flexibility = Unlimited)</span></span>  
+5. <span data-ttu-id="7020e-135">Gepland/open - alle ordersoorten (Planningsflexibiliteit = Onbeperkt)</span><span class="sxs-lookup"><span data-stu-id="7020e-135">Planned/Open – all order types (Planning Flexibility = Unlimited)</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="7020e-136">Zie ook</span><span class="sxs-lookup"><span data-stu-id="7020e-136">See Also</span></span>  
+<span data-ttu-id="7020e-137">[Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="7020e-137">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
+<span data-ttu-id="7020e-138">[Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="7020e-138">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
+[<span data-ttu-id="7020e-139">Ontwerpdetails: Voorraadplanning</span><span class="sxs-lookup"><span data-stu-id="7020e-139">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
