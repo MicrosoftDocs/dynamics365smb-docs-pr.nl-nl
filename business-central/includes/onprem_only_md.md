@@ -1,1 +1,1 @@
-<span data-ttu-id="ec3c7-101">De Isabel-functies zijn alleen beschikbaar voor on-premises implementaties.</span><span class="sxs-lookup"><span data-stu-id="ec3c7-101">The Isabel features are available only for on-premises deployments.</span></span>
+<span data-ttu-id="efcfe-101">De Isabel-functies zijn alleen beschikbaar voor on-premises implementaties.</span><span class="sxs-lookup"><span data-stu-id="efcfe-101">The Isabel features are available only for on-premises deployments.</span></span>
