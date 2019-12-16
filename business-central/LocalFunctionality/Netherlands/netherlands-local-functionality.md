@@ -1,8 +1,6 @@
 ---
 title: Lokale functionaliteit voor Nederland
 description: In de volgende onderwerpen wordt de lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aafa30c345899b73b9925988759edfc1f8ad2e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7473918f5f81908b890bfb259fd15614b8a4d13
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300116"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881345"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

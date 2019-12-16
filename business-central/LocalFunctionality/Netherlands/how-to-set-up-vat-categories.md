@@ -1,8 +1,6 @@
 ---
 title: Btw-categorieën instellen
 description: Als u de elektronische btw-aangifte wilt gebruiken, moet u een btw-categoriecode voor alle XML-elementen in de elektronische btw-aangifte instellen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d8902e5b1995c971ef959a2b4d814a81f12cda64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6fa2230e74de9685d16b884a2cec085b479a8261
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300119"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881348"
 ---
 # <a name="set-up-vat-categories"></a>VAT-categorieën instellen
 Als u de elektronische btw-aangifte wilt gebruiken, moet u een btw-categoriecode voor alle XML-elementen in de elektronische btw-aangifte instellen.  
@@ -26,7 +24,7 @@ U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XM
 
 ## <a name="to-set-up-a-vat-category"></a>Een btw-categorie instellen  
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Elektronische aangifte btw-categorieën** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Elektronische aangifte btw-categorieën** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies op de pagina **Elektronische aangifte btw-categorieën** de actie **Nieuw**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

@@ -1,8 +1,6 @@
 ---
 title: Grootboek
 description: Er is speciale grootboekfunctionaliteit voor de Nederlandse versie van Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e963375cc6cfdc014c0b1b3b8e66c94d50b48983
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0b5093c79c51fb18fcc7cc2cfac4ed9506a923d8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301276"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881359"
 ---
 # <a name="general-ledger"></a>Grootboek
 Algemene grootboekfunctionaliteit voor Nederland wordt beschreven in de onderstaande onderwerpen.
