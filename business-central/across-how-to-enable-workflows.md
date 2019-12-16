@@ -1,8 +1,6 @@
 ---
 title: Werkstromen inschakelen | Microsoft Docs
 description: Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,28 +10,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305401"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881141"
 ---
-# <a name="enable-workflows"></a><span data-ttu-id="a7f28-103">Werkstromen inschakelen</span><span class="sxs-lookup"><span data-stu-id="a7f28-103">Enable Workflows</span></span>
-<span data-ttu-id="a7f28-104">Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.</span><span class="sxs-lookup"><span data-stu-id="a7f28-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
+# <a name="enable-workflows"></a><span data-ttu-id="94f44-103">Werkstromen inschakelen</span><span class="sxs-lookup"><span data-stu-id="94f44-103">Enable Workflows</span></span>
+<span data-ttu-id="94f44-104">Wanneer u een werkstroom hebt gemaakt en u zeker weet dat deze gereed is om te starten, moet u de werkstroom inschakelen.</span><span class="sxs-lookup"><span data-stu-id="94f44-104">When you have created a workflow and you are sure that it is ready to start, you must enable the workflow.</span></span>  
 
- <span data-ttu-id="a7f28-105">Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels.</span><span class="sxs-lookup"><span data-stu-id="a7f28-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="a7f28-106">Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties.</span><span class="sxs-lookup"><span data-stu-id="a7f28-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="a7f28-107">U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.</span><span class="sxs-lookup"><span data-stu-id="a7f28-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="a7f28-108">Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="a7f28-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
+ <span data-ttu-id="94f44-105">Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels.</span><span class="sxs-lookup"><span data-stu-id="94f44-105">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="94f44-106">Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurtenistoestanden, en een werkstroomantwoord, aangepast door antwoordopties.</span><span class="sxs-lookup"><span data-stu-id="94f44-106">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="94f44-107">U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.</span><span class="sxs-lookup"><span data-stu-id="94f44-107">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="94f44-108">Zie voor meer informatie [Werkstromen maken](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="94f44-108">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
 
-## <a name="to-enable-a-workflow"></a><span data-ttu-id="a7f28-109">Een workflow inschakelen</span><span class="sxs-lookup"><span data-stu-id="a7f28-109">To enable a workflow</span></span>  
-1.  <span data-ttu-id="a7f28-110">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="a7f28-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="a7f28-111">Open de werkstroom die u wilt inschakelen.</span><span class="sxs-lookup"><span data-stu-id="a7f28-111">Open the workflow that you want to enable.</span></span>  
-3.  <span data-ttu-id="a7f28-112">Schakel op de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.</span><span class="sxs-lookup"><span data-stu-id="a7f28-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
+## <a name="to-enable-a-workflow"></a><span data-ttu-id="94f44-109">Een workflow inschakelen</span><span class="sxs-lookup"><span data-stu-id="94f44-109">To enable a workflow</span></span>  
+1.  <span data-ttu-id="94f44-110">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Werkstromen** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="94f44-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="94f44-111">Open de werkstroom die u wilt inschakelen.</span><span class="sxs-lookup"><span data-stu-id="94f44-111">Open the workflow that you want to enable.</span></span>  
+3.  <span data-ttu-id="94f44-112">Schakel op de pagina **Werkstroom** het selectievakje **Ingeschakeld** in.</span><span class="sxs-lookup"><span data-stu-id="94f44-112">On the **Workflow** page, select the **Enabled** check box.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="a7f28-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="a7f28-113">See Also</span></span>  
- <span data-ttu-id="a7f28-114">[Werkstromen maken](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a7f28-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
- <span data-ttu-id="a7f28-115">[Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="a7f28-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
- <span data-ttu-id="a7f28-116">[Werkstromen verwijderen](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a7f28-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
- <span data-ttu-id="a7f28-117">[Werkstromen instellen](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a7f28-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
- <span data-ttu-id="a7f28-118">[Werkstromen gebruiken](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a7f28-118">[Using Workflows](across-use-workflows.md) </span></span>  
- <span data-ttu-id="a7f28-119">[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="a7f28-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
- [<span data-ttu-id="a7f28-120">Werkstroom</span><span class="sxs-lookup"><span data-stu-id="a7f28-120">Workflow</span></span>](across-workflow.md)   
+## <a name="see-also"></a><span data-ttu-id="94f44-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="94f44-113">See Also</span></span>  
+ <span data-ttu-id="94f44-114">[Werkstromen maken](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="94f44-114">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
+ <span data-ttu-id="94f44-115">[Gearchiveerde instanties van werkstroomstappen bekijken](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="94f44-115">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
+ <span data-ttu-id="94f44-116">[Werkstromen verwijderen](across-how-to-delete-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="94f44-116">[Delete Workflows](across-how-to-delete-workflows.md) </span></span>  
+ <span data-ttu-id="94f44-117">[Werkstromen instellen](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="94f44-117">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
+ <span data-ttu-id="94f44-118">[Werkstromen gebruiken](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="94f44-118">[Using Workflows](across-use-workflows.md) </span></span>  
+ <span data-ttu-id="94f44-119">[Procedure: Een werkstroom voor inkoopgoedkeuring instellen en gebruiken](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="94f44-119">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
+ [<span data-ttu-id="94f44-120">Werkstroom</span><span class="sxs-lookup"><span data-stu-id="94f44-120">Workflow</span></span>](across-workflow.md)   

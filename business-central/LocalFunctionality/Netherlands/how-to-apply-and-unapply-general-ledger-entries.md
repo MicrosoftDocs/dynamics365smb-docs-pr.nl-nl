@@ -1,8 +1,6 @@
 ---
 title: Grootboekposten vereffenen en de vereffening ervan ongedaan maken
 description: Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,77 +10,77 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7aa80cd245a503382137d3a1cc8b607fe320bca6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 67e24e5b85a48c7a2c9dbaf1b250677ce49a762f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300123"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881357"
 ---
-# <a name="apply-and-unapply-general-ledger-entries"></a><span data-ttu-id="1a797-104">Grootboekposten vereffenen en de vereffening ervan ongedaan maken</span><span class="sxs-lookup"><span data-stu-id="1a797-104">Apply and Unapply General Ledger Entries</span></span>
-<span data-ttu-id="1a797-105">Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek.</span><span class="sxs-lookup"><span data-stu-id="1a797-105">Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger.</span></span> <span data-ttu-id="1a797-106">Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.</span><span class="sxs-lookup"><span data-stu-id="1a797-106">Temporary and transfer accounts are used to store temporary ledger entries that are waiting for further processing into the general ledger.</span></span>  
+# <a name="apply-and-unapply-general-ledger-entries"></a><span data-ttu-id="6879f-104">Grootboekposten vereffenen en de vereffening ervan ongedaan maken</span><span class="sxs-lookup"><span data-stu-id="6879f-104">Apply and Unapply General Ledger Entries</span></span>
+<span data-ttu-id="6879f-105">Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek.</span><span class="sxs-lookup"><span data-stu-id="6879f-105">Applying temporary general ledger entries allows companies to work with temporary and transfer accounts in the general ledger.</span></span> <span data-ttu-id="6879f-106">Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.</span><span class="sxs-lookup"><span data-stu-id="6879f-106">Temporary and transfer accounts are used to store temporary ledger entries that are waiting for further processing into the general ledger.</span></span>  
 
-<span data-ttu-id="1a797-107">U kunt tijdelijke rekeningen gebruiken voor:</span><span class="sxs-lookup"><span data-stu-id="1a797-107">You can use temporary accounts for:</span></span>  
+<span data-ttu-id="6879f-107">U kunt tijdelijke rekeningen gebruiken voor:</span><span class="sxs-lookup"><span data-stu-id="6879f-107">You can use temporary accounts for:</span></span>  
 
-- <span data-ttu-id="1a797-108">Geldtransfers van de ene naar de andere bankrekening.</span><span class="sxs-lookup"><span data-stu-id="1a797-108">Money transfers from one bank account to another.</span></span>  
-- <span data-ttu-id="1a797-109">Financiële transactietransfers van het ene systeem naar het andere, waarbij een deel van de gegevens tijdelijk op het oorspronkelijke systeem staat.</span><span class="sxs-lookup"><span data-stu-id="1a797-109">Financial transaction transfers from one system to another in which part of the information temporarily resides on the original system.</span></span>  
-- <span data-ttu-id="1a797-110">Transacties waarvoor u een verkoopfactuur hebt verzonden naar een klant maar nog niet de bijbehorende inkoopfactuur van de leverancier hebt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="1a797-110">Transactions for which you have issued a sales invoice to a customer but have not yet received the corresponding purchase invoice from the vendor.</span></span>  
+- <span data-ttu-id="6879f-108">Geldtransfers van de ene naar de andere bankrekening.</span><span class="sxs-lookup"><span data-stu-id="6879f-108">Money transfers from one bank account to another.</span></span>  
+- <span data-ttu-id="6879f-109">Financiële transactietransfers van het ene systeem naar het andere, waarbij een deel van de gegevens tijdelijk op het oorspronkelijke systeem staat.</span><span class="sxs-lookup"><span data-stu-id="6879f-109">Financial transaction transfers from one system to another in which part of the information temporarily resides on the original system.</span></span>  
+- <span data-ttu-id="6879f-110">Transacties waarvoor u een verkoopfactuur hebt verzonden naar een klant maar nog niet de bijbehorende inkoopfactuur van de leverancier hebt ontvangen.</span><span class="sxs-lookup"><span data-stu-id="6879f-110">Transactions for which you have issued a sales invoice to a customer but have not yet received the corresponding purchase invoice from the vendor.</span></span>  
 
-<span data-ttu-id="1a797-111">Nadat de posten zijn verwerkt, kunt u de functie voor postenvereffening gebruiken om de geboekte posten en het boekingsrekeningsoort bij te werken.</span><span class="sxs-lookup"><span data-stu-id="1a797-111">When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.</span></span>  
+<span data-ttu-id="6879f-111">Nadat de posten zijn verwerkt, kunt u de functie voor postenvereffening gebruiken om de geboekte posten en het boekingsrekeningsoort bij te werken.</span><span class="sxs-lookup"><span data-stu-id="6879f-111">When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.</span></span>  
 
-<span data-ttu-id="1a797-112">U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervolgens de gesloten posten openen om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="1a797-112">You can unapply the applied general ledger entries and then open the closed entries to make changes.</span></span>  
+<span data-ttu-id="6879f-112">U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervolgens de gesloten posten openen om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="6879f-112">You can unapply the applied general ledger entries and then open the closed entries to make changes.</span></span>  
 
-## <a name="to-apply-general-ledger-entries"></a><span data-ttu-id="1a797-113">Grootboekposten vereffenen</span><span class="sxs-lookup"><span data-stu-id="1a797-113">To apply general ledger entries</span></span>  
+## <a name="to-apply-general-ledger-entries"></a><span data-ttu-id="6879f-113">Grootboekposten vereffenen</span><span class="sxs-lookup"><span data-stu-id="6879f-113">To apply general ledger entries</span></span>  
 
-1.  <span data-ttu-id="1a797-114">Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="1a797-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="1a797-115">Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.</span><span class="sxs-lookup"><span data-stu-id="1a797-115">Select a general ledger register, and then choose the **General Ledger** action.</span></span>  
-3.  <span data-ttu-id="1a797-116">Kies op de pagina **Grootboekposten** de actie **Posten vereffenen**.</span><span class="sxs-lookup"><span data-stu-id="1a797-116">On the **General Ledger Entries** page, choose the **Apply Entries** action.</span></span>  
+1.  <span data-ttu-id="6879f-114">Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Grootboekjournalen** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="6879f-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6879f-115">Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.</span><span class="sxs-lookup"><span data-stu-id="6879f-115">Select a general ledger register, and then choose the **General Ledger** action.</span></span>  
+3.  <span data-ttu-id="6879f-116">Kies op de pagina **Grootboekposten** de actie **Posten vereffenen**.</span><span class="sxs-lookup"><span data-stu-id="6879f-116">On the **General Ledger Entries** page, choose the **Apply Entries** action.</span></span>  
 
-    <span data-ttu-id="1a797-117">Alle openstaande posten voor de grootboekrekening worden weergegeven op de pagina **Grootboekposten vereffenen**.</span><span class="sxs-lookup"><span data-stu-id="1a797-117">All open ledger entries for the general ledger account are displayed on the **Apply General Ledger Entries** page.</span></span>  
-
-    > [!NOTE]  
-    >  <span data-ttu-id="1a797-118">Standaard wordt het veld **Posten opnemen** ingesteld op **Open**.</span><span class="sxs-lookup"><span data-stu-id="1a797-118">By default, the **Include Entries** field is set to **Open**.</span></span> <span data-ttu-id="1a797-119">U kunt de waarde van het veld **Posten opnemen** wijzigen in **Alle** of **Afgesloten**.</span><span class="sxs-lookup"><span data-stu-id="1a797-119">You can change the value of the **Include Entries** field to **All** or **Closed**.</span></span> <span data-ttu-id="1a797-120">U kunt alleen grootboekposten vereffenen die **open** zijn.</span><span class="sxs-lookup"><span data-stu-id="1a797-120">You can only apply general ledger entries that are **Open**.</span></span>  
-
-4.  <span data-ttu-id="1a797-121">Selecteer de betreffende grootboekpost en kies de actie **Vereffenings-id instellen**.</span><span class="sxs-lookup"><span data-stu-id="1a797-121">Select the relevant general ledger entry, and then choose the **Set Applies-to ID** action.</span></span>  
-
-    <span data-ttu-id="1a797-122">Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id.</span><span class="sxs-lookup"><span data-stu-id="1a797-122">The **Applies-to ID** field is updated with the user ID.</span></span> <span data-ttu-id="1a797-123">Het restbedrag wordt weergegeven op de pagina **Saldo** op de pagina **Grootboekposten vereffenen**.</span><span class="sxs-lookup"><span data-stu-id="1a797-123">The remaining amount is displayed in the **Balance** field on the **Apply General Ledger Entries** page.</span></span>  
-5.  <span data-ttu-id="1a797-124">Kies de actie **Vereffening boeken**.</span><span class="sxs-lookup"><span data-stu-id="1a797-124">Choose the **Post Application** action.</span></span>  
-
-    <span data-ttu-id="1a797-125">U kunt de vereffening boeken zelfs wanneer het saldobedrag gelijk is aan 0.</span><span class="sxs-lookup"><span data-stu-id="1a797-125">You can post the application even if the balance amount is equal to 0.</span></span> <span data-ttu-id="1a797-126">Wanneer wordt geboekt, wordt het veld **Restbedrag** als volgt beïnvloed:</span><span class="sxs-lookup"><span data-stu-id="1a797-126">When posted, the **Remaining Amount** field is affected as follows:</span></span>  
-
-    - <span data-ttu-id="1a797-127">Als het veld **Saldo** gelijk is aan 0, wordt het veld **Restbedrag** bij alle grootboekposten op 0 gezet.</span><span class="sxs-lookup"><span data-stu-id="1a797-127">If the **Balance** is equal to 0, then the **Remaining Amount** field on all ledger entries is set to 0.</span></span>  
-
-    - <span data-ttu-id="1a797-128">Als het veld **Saldo** niet gelijk is aan 0, wordt het bedrag in het veld **Saldo** overgebracht naar het veld **Restbedrag** van de grootboekpost die was geselecteerd toen u de vereffening boekte.</span><span class="sxs-lookup"><span data-stu-id="1a797-128">If the **Balance** is not equal to 0, then the amount in the **Balance** field is transferred to the **Remaining Amount** field for the general ledger entry that was selected when you posted the application.</span></span>  
-
-    - <span data-ttu-id="1a797-129">Voor alle overige grootboekposten wordt het veld **Restbedrag** op 0 gezet en worden de velden **Open**, **Afgesloten door volgnr.**, **Afgesloten met bedrag** en **Afgesloten op** bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="1a797-129">For all other general ledger entries, the **Remaining Amount** field is set to 0 and the **Open**, **Closed by Entry No.**, **Closed by Amount**, and **Closed at Date** fields are updated.</span></span>  
+    <span data-ttu-id="6879f-117">Alle openstaande posten voor de grootboekrekening worden weergegeven op de pagina **Grootboekposten vereffenen**.</span><span class="sxs-lookup"><span data-stu-id="6879f-117">All open ledger entries for the general ledger account are displayed on the **Apply General Ledger Entries** page.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="1a797-130">Wanneer wordt geboekt, worden de grootboekposten die het veld **Vereffenings-id** bijwerken, verwijderd.</span><span class="sxs-lookup"><span data-stu-id="1a797-130">When posted, the general ledger entries which update the **Applies-to ID** field are deleted.</span></span>  
+    >  <span data-ttu-id="6879f-118">Standaard wordt het veld **Posten opnemen** ingesteld op **Open**.</span><span class="sxs-lookup"><span data-stu-id="6879f-118">By default, the **Include Entries** field is set to **Open**.</span></span> <span data-ttu-id="6879f-119">U kunt de waarde van het veld **Posten opnemen** wijzigen in **Alle** of **Afgesloten**.</span><span class="sxs-lookup"><span data-stu-id="6879f-119">You can change the value of the **Include Entries** field to **All** or **Closed**.</span></span> <span data-ttu-id="6879f-120">U kunt alleen grootboekposten vereffenen die **open** zijn.</span><span class="sxs-lookup"><span data-stu-id="6879f-120">You can only apply general ledger entries that are **Open**.</span></span>  
 
-6.  <span data-ttu-id="1a797-131">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="1a797-131">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="6879f-121">Selecteer de betreffende grootboekpost en kies de actie **Vereffenings-id instellen**.</span><span class="sxs-lookup"><span data-stu-id="6879f-121">Select the relevant general ledger entry, and then choose the **Set Applies-to ID** action.</span></span>  
 
-## <a name="to-view-the-applied-general-ledger-entries"></a><span data-ttu-id="1a797-132">De vereffende grootboekposten weergeven</span><span class="sxs-lookup"><span data-stu-id="1a797-132">To view the applied general ledger entries</span></span>  
+    <span data-ttu-id="6879f-122">Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id.</span><span class="sxs-lookup"><span data-stu-id="6879f-122">The **Applies-to ID** field is updated with the user ID.</span></span> <span data-ttu-id="6879f-123">Het restbedrag wordt weergegeven op de pagina **Saldo** op de pagina **Grootboekposten vereffenen**.</span><span class="sxs-lookup"><span data-stu-id="6879f-123">The remaining amount is displayed in the **Balance** field on the **Apply General Ledger Entries** page.</span></span>  
+5.  <span data-ttu-id="6879f-124">Kies de actie **Vereffening boeken**.</span><span class="sxs-lookup"><span data-stu-id="6879f-124">Choose the **Post Application** action.</span></span>  
 
-1.  <span data-ttu-id="1a797-133">Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="1a797-133">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="1a797-134">Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.</span><span class="sxs-lookup"><span data-stu-id="1a797-134">Select a general ledger register, and then choose the **General Ledger** action.</span></span>  
-3.  <span data-ttu-id="1a797-135">Selecteer de betreffende grootboekpost en kies de actie **Vereffende posten**.</span><span class="sxs-lookup"><span data-stu-id="1a797-135">Select the relevant general ledger entry, and then choose the **Applied Entries** action.</span></span>  
+    <span data-ttu-id="6879f-125">U kunt de vereffening boeken zelfs wanneer het saldobedrag gelijk is aan 0.</span><span class="sxs-lookup"><span data-stu-id="6879f-125">You can post the application even if the balance amount is equal to 0.</span></span> <span data-ttu-id="6879f-126">Wanneer wordt geboekt, wordt het veld **Restbedrag** als volgt beïnvloed:</span><span class="sxs-lookup"><span data-stu-id="6879f-126">When posted, the **Remaining Amount** field is affected as follows:</span></span>  
 
-    <span data-ttu-id="1a797-136">U kunt alle vereffende grootboekposten weergeven.</span><span class="sxs-lookup"><span data-stu-id="1a797-136">You can view all the applied general ledger entries.</span></span>  
+    - <span data-ttu-id="6879f-127">Als het veld **Saldo** gelijk is aan 0, wordt het veld **Restbedrag** bij alle grootboekposten op 0 gezet.</span><span class="sxs-lookup"><span data-stu-id="6879f-127">If the **Balance** is equal to 0, then the **Remaining Amount** field on all ledger entries is set to 0.</span></span>  
 
-4.  <span data-ttu-id="1a797-137">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="1a797-137">Choose the **OK** button.</span></span>  
+    - <span data-ttu-id="6879f-128">Als het veld **Saldo** niet gelijk is aan 0, wordt het bedrag in het veld **Saldo** overgebracht naar het veld **Restbedrag** van de grootboekpost die was geselecteerd toen u de vereffening boekte.</span><span class="sxs-lookup"><span data-stu-id="6879f-128">If the **Balance** is not equal to 0, then the amount in the **Balance** field is transferred to the **Remaining Amount** field for the general ledger entry that was selected when you posted the application.</span></span>  
 
-## <a name="to-unapply-general-ledger-entries"></a><span data-ttu-id="1a797-138">De vereffening van grootboekposten ongedaan maken</span><span class="sxs-lookup"><span data-stu-id="1a797-138">To unapply general ledger entries</span></span>  
-
-1.  <span data-ttu-id="1a797-139">Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Grootboekjournalen** in en klik vervolgens op de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="1a797-139">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="1a797-140">Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.</span><span class="sxs-lookup"><span data-stu-id="1a797-140">Select a general ledger register, and then choose the **General Ledger** action.</span></span>  
-3.  <span data-ttu-id="1a797-141">Selecteer de grootboekpost waarvan u de vereffening ongedaan wilt maken en kies vervolgens de actie **Vereffening ongedaan maken**.</span><span class="sxs-lookup"><span data-stu-id="1a797-141">Select the general ledger entry that you want to unapply, and then choose the **Undo Application** action.</span></span>  
-
-    <span data-ttu-id="1a797-142">De vereffening van de vereffende grootboekposten wordt ongedaan gemaakt.</span><span class="sxs-lookup"><span data-stu-id="1a797-142">The applied general ledger entries are unapplied.</span></span>  
+    - <span data-ttu-id="6879f-129">Voor alle overige grootboekposten wordt het veld **Restbedrag** op 0 gezet en worden de velden **Open**, **Afgesloten door volgnr.**, **Afgesloten met bedrag** en **Afgesloten op** bijgewerkt.</span><span class="sxs-lookup"><span data-stu-id="6879f-129">For all other general ledger entries, the **Remaining Amount** field is set to 0 and the **Open**, **Closed by Entry No.**, **Closed by Amount**, and **Closed at Date** fields are updated.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="1a797-143">Als een post is vereffend met meer dan één vereffeningspost, moet u de vereffening van de laatste vereffeningspost het eerst ongedaan maken.</span><span class="sxs-lookup"><span data-stu-id="1a797-143">If an entry is applied to more than one application entry, you must unapply the latest application entry first.</span></span> <span data-ttu-id="1a797-144">Standaard wordt de laatste post weergegeven.</span><span class="sxs-lookup"><span data-stu-id="1a797-144">By default, the latest entry is displayed.</span></span>  
+    >  <span data-ttu-id="6879f-130">Wanneer wordt geboekt, worden de grootboekposten die het veld **Vereffenings-id** bijwerken, verwijderd.</span><span class="sxs-lookup"><span data-stu-id="6879f-130">When posted, the general ledger entries which update the **Applies-to ID** field are deleted.</span></span>  
 
-4.  <span data-ttu-id="1a797-145">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="1a797-145">Choose the **OK** button.</span></span>  
+6.  <span data-ttu-id="6879f-131">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="6879f-131">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="1a797-146">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1a797-146">See Also</span></span>  
-[<span data-ttu-id="1a797-147">Grootboek</span><span class="sxs-lookup"><span data-stu-id="1a797-147">General Ledger</span></span>](general-ledger.md)
+## <a name="to-view-the-applied-general-ledger-entries"></a><span data-ttu-id="6879f-132">De vereffende grootboekposten weergeven</span><span class="sxs-lookup"><span data-stu-id="6879f-132">To view the applied general ledger entries</span></span>  
+
+1.  <span data-ttu-id="6879f-133">Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Grootboekjournalen** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="6879f-133">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6879f-134">Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.</span><span class="sxs-lookup"><span data-stu-id="6879f-134">Select a general ledger register, and then choose the **General Ledger** action.</span></span>  
+3.  <span data-ttu-id="6879f-135">Selecteer de betreffende grootboekpost en kies de actie **Vereffende posten**.</span><span class="sxs-lookup"><span data-stu-id="6879f-135">Select the relevant general ledger entry, and then choose the **Applied Entries** action.</span></span>  
+
+    <span data-ttu-id="6879f-136">U kunt alle vereffende grootboekposten weergeven.</span><span class="sxs-lookup"><span data-stu-id="6879f-136">You can view all the applied general ledger entries.</span></span>  
+
+4.  <span data-ttu-id="6879f-137">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="6879f-137">Choose the **OK** button.</span></span>  
+
+## <a name="to-unapply-general-ledger-entries"></a><span data-ttu-id="6879f-138">De vereffening van grootboekposten ongedaan maken</span><span class="sxs-lookup"><span data-stu-id="6879f-138">To unapply general ledger entries</span></span>  
+
+1.  <span data-ttu-id="6879f-139">Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Grootboekjournalen** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="6879f-139">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Registers**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6879f-140">Selecteer een grootboekjournaal en kies vervolgens de actie **Grootboek**.</span><span class="sxs-lookup"><span data-stu-id="6879f-140">Select a general ledger register, and then choose the **General Ledger** action.</span></span>  
+3.  <span data-ttu-id="6879f-141">Selecteer de grootboekpost waarvan u de vereffening ongedaan wilt maken en kies vervolgens de actie **Vereffening ongedaan maken**.</span><span class="sxs-lookup"><span data-stu-id="6879f-141">Select the general ledger entry that you want to unapply, and then choose the **Undo Application** action.</span></span>  
+
+    <span data-ttu-id="6879f-142">De vereffening van de vereffende grootboekposten wordt ongedaan gemaakt.</span><span class="sxs-lookup"><span data-stu-id="6879f-142">The applied general ledger entries are unapplied.</span></span>  
+
+    > [!NOTE]  
+    >  <span data-ttu-id="6879f-143">Als een post is vereffend met meer dan één vereffeningspost, moet u de vereffening van de laatste vereffeningspost het eerst ongedaan maken.</span><span class="sxs-lookup"><span data-stu-id="6879f-143">If an entry is applied to more than one application entry, you must unapply the latest application entry first.</span></span> <span data-ttu-id="6879f-144">Standaard wordt de laatste post weergegeven.</span><span class="sxs-lookup"><span data-stu-id="6879f-144">By default, the latest entry is displayed.</span></span>  
+
+4.  <span data-ttu-id="6879f-145">Kies de knop **Ok**.</span><span class="sxs-lookup"><span data-stu-id="6879f-145">Choose the **OK** button.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="6879f-146">Zie ook</span><span class="sxs-lookup"><span data-stu-id="6879f-146">See Also</span></span>  
+[<span data-ttu-id="6879f-147">Grootboek</span><span class="sxs-lookup"><span data-stu-id="6879f-147">General Ledger</span></span>](general-ledger.md)
