@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99eda2e19765f27497a2891252fde46b8c14ebf7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0be0a75ac8ba4f02a989112318ffa4df66471c0b
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881362"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943081"
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
 Met de functionaliteit voor elektronisch bankieren kunt u bestanden voor elektronische betaling en bestanden voor automatische incasso maken, en elektronische bankafschriften importeren vanuit ondersteunde banksoftware.  
@@ -44,9 +44,6 @@ Bestanden van elektronische bankafschriften worden voor de volgende banken onder
 - ING Bank \(SWIFT MT940, PAYMUL\)  
 - Rabobank \(MUT.ASC, VVMUT.ASC, BBV en ASCII\)  
 - Postbank \(SWIFT MT940\)  
-
-### <a name="bank-account-number-validation"></a>Validatie van bankrekeningnummer  
-Bankrekeningnummers worden gevalideerd door te controleren of ze uit 9 of 10 cijfers bestaan en of ze het “elftest”-algoritme ondersteunen. Bij girorekeningen moet het rekeningnummer uit minder dan acht cijfers bestaan.  
 
 ## <a name="see-also"></a>Zie ook  
 [Telebankieren](telebanking.md)   
