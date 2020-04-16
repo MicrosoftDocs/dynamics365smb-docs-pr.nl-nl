@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b5093c79c51fb18fcc7cc2cfac4ed9506a923d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 32cc3c480a60bcb1f7aa6b73d9a4d48a5b27029a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881359"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181093"
 ---
 # <a name="general-ledger"></a>Grootboek
 Algemene grootboekfunctionaliteit voor Nederland wordt beschreven in de onderstaande onderwerpen.

@@ -1,25 +1,28 @@
 ---
 title: Nederlandse postcodes
-description: In Nederland levert een bedrijf genaamd Cendris postcodes en postcode-updates voor uw bedrijf. Deze updates zijn belangrijk voor marketing- en relatiebeheeractiviteiten.
-author: SorenGP
+description: In Nederland kunt u zich abonneren op het ontvangen van postcodes en postcode-updates voor uw bedrijf. Deze updates zijn belangrijk voor marketing- en relatiebeheeractiviteiten.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6f97cdce2b04577d407e11e9306b12c1d4e62575
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 968d7166088232d2eda350323aabf824d0560c23
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881361"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181095"
 ---
 # <a name="dutch-post-codes"></a>Nederlandse postcodes
-In Nederland levert een bedrijf genaamd Cendris postcodes en postcode-updates voor uw bedrijf. Deze updates zijn belangrijk voor marketing- en relatiebeheeractiviteiten. Elke maand levert Cendris een bestand dat wijzigingen in de postcodegegevens bevat die u kunt importeren in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
-## <a name="see-also"></a>Zie ook  
- [Postcodes importeren](how-to-import-post-codes.md)   
- [Updates van postcodes importeren](how-to-import-post-code-updates.md)
+In Nederland kunt u zich abonneren op het ontvangen van postcodes en postcode-updates voor uw bedrijf. Deze updates zijn belangrijk voor marketing- en relatiebeheeractiviteiten. Afhankelijk van uw abonnement ontvangt u een bestand met wijzigingen in de postcodegegevens die u in [!INCLUDE[prodshort](../../includes/prodshort.md)] kunt importeren.  
+
+## <a name="see-also"></a>Zie ook
+
+ [Postcodes importeren](how-to-import-post-codes.md)  
+ [Updates van postcodes importeren](how-to-import-post-code-updates.md)  
+ [PostNL-postcodetabellen](https://www.postnl.nl/zakelijke-oplossingen/procesoptimalisatie-met-dataoplossingen/postcodetabel/aanvragen)  

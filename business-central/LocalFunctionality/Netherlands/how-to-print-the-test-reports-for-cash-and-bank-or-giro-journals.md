@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 341e6777366adbf7f3ad8e0a84f688344dfc7fbb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bda9bff0692bb21914a1d7a6c6d936e271074e38
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301270"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181082"
 ---
 # <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a>De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
 U kunt het rapport **KBG-boekingen - Test** gebruiken om de afschriftregels te bewerken en het effect ervan te bekijken voordat u kasboeken en bank- of giroboeken boekt.  
@@ -21,7 +21,7 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 
 ## <a name="to-print-the-test-report-for-cash-journal"></a>Het testrapport voor het kasboek afdrukken  
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Kasboek** in en klik op de gerelateerde koppeling.  
+1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Kasboek** in en kies de desbetreffende koppeling.  
 2.  Kies op de pagina **Kasboek** de actie **Testrapport**.  
 3.  Als u de informatie over vereffende posten voor de afschriftregels wilt opnemen, schakelt u op het sneltabblad het selectievakje **Vereffende posten tonen** in.  
 
@@ -34,7 +34,7 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 
 ## <a name="to-print-the-test-report-for-bank-or-giro-journal"></a>Het testrapport voor het bank- of giroboek afdrukken  
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "pictogram Zoeken naar pagina of rapport"), voer **Bank-/giroboek** in en klik vervolgens op de gerelateerde koppeling.  
+1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Bank-/giroboek** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Grootboek**.  
 3.  Kies op de pagina **Fin. dagboeksjablonenoverzicht** de knop **OK**.  
 4.  Kies op de pagina **Bank-/Giroboek** de actie **Testrapport**.  
