@@ -10,29 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bafb11ebe021a07ad9f9d8b9af36e68cf9cb94d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1fa624ecda5914c0ba4e395025f051bc5d8cc457
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314349"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191731"
 ---
-# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="76673-103">De jaareinde-ultimopost boeken</span><span class="sxs-lookup"><span data-stu-id="76673-103">Post the Year-End Closing Entry</span></span>
-<span data-ttu-id="76673-104">Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.</span><span class="sxs-lookup"><span data-stu-id="76673-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
+# <a name="post-the-year-end-closing-entry"></a><span data-ttu-id="aa54c-103">De jaareinde-ultimopost boeken</span><span class="sxs-lookup"><span data-stu-id="aa54c-103">Post the Year-End Closing Entry</span></span>
+<span data-ttu-id="aa54c-104">Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.</span><span class="sxs-lookup"><span data-stu-id="aa54c-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
 
-## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="76673-105">De jaareinde-ultimopost boeken</span><span class="sxs-lookup"><span data-stu-id="76673-105">To post the year end closing entry</span></span>
-1. <span data-ttu-id="76673-106">Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Fin. dagboek** in en kies vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="76673-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="76673-107">Selecteer op de pagina **Diversendagboek** in het veld **Batchnaam** de batch die de ultimoposten bevat.</span><span class="sxs-lookup"><span data-stu-id="76673-107">On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
-3. <span data-ttu-id="76673-108">Controleer de posten.</span><span class="sxs-lookup"><span data-stu-id="76673-108">Review the entries.</span></span>
-4. <span data-ttu-id="76673-109">Kies de actie **Boeken** om het dagboek te boeken.</span><span class="sxs-lookup"><span data-stu-id="76673-109">To post the journal, choose the **Post** action.</span></span>
+## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="aa54c-105">De jaareinde-ultimopost boeken</span><span class="sxs-lookup"><span data-stu-id="aa54c-105">To post the year end closing entry</span></span>
+1. <span data-ttu-id="aa54c-106">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="aa54c-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="aa54c-107">Selecteer op de pagina **Diversendagboek** in het veld **Batchnaam** de batch die de ultimoposten bevat.</span><span class="sxs-lookup"><span data-stu-id="aa54c-107">On the **General Journal** page, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
+3. <span data-ttu-id="aa54c-108">Controleer de posten.</span><span class="sxs-lookup"><span data-stu-id="aa54c-108">Review the entries.</span></span>
+4. <span data-ttu-id="aa54c-109">Kies de actie **Boeken** om het dagboek te boeken.</span><span class="sxs-lookup"><span data-stu-id="aa54c-109">To post the journal, choose the **Post** action.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="76673-110">Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven.</span><span class="sxs-lookup"><span data-stu-id="76673-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="76673-111">Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald.</span><span class="sxs-lookup"><span data-stu-id="76673-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="76673-112">Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.</span><span class="sxs-lookup"><span data-stu-id="76673-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
+>   <span data-ttu-id="aa54c-110">Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven.</span><span class="sxs-lookup"><span data-stu-id="aa54c-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="aa54c-111">Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald.</span><span class="sxs-lookup"><span data-stu-id="aa54c-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="aa54c-112">Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.</span><span class="sxs-lookup"><span data-stu-id="aa54c-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="76673-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="76673-113">See Also</span></span>
-[<span data-ttu-id="76673-114">Boekhoudperioden afsluiten</span><span class="sxs-lookup"><span data-stu-id="76673-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
-[<span data-ttu-id="76673-115">Boeken afsluiten</span><span class="sxs-lookup"><span data-stu-id="76673-115">Closing Books</span></span>](year-close-books.md)  
-[<span data-ttu-id="76673-116">Afsluiten WenV-rekening</span><span class="sxs-lookup"><span data-stu-id="76673-116">Close Income Statement</span></span>](year-close-income-statement.md)  
-<span data-ttu-id="76673-117">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="76673-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="aa54c-113">Zie ook</span><span class="sxs-lookup"><span data-stu-id="aa54c-113">See Also</span></span>
+[<span data-ttu-id="aa54c-114">Boekhoudperioden afsluiten</span><span class="sxs-lookup"><span data-stu-id="aa54c-114">Close Accounting Periods</span></span>](year-close-account-periods.md)  
+[<span data-ttu-id="aa54c-115">Boeken afsluiten</span><span class="sxs-lookup"><span data-stu-id="aa54c-115">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="aa54c-116">Afsluiten WenV-rekening</span><span class="sxs-lookup"><span data-stu-id="aa54c-116">Close Income Statement</span></span>](year-close-income-statement.md)  
+<span data-ttu-id="aa54c-117">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aa54c-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

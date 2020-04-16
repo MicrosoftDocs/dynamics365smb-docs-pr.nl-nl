@@ -2,13 +2,13 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 65e0ef4a2f69bd74fc2f5e0151e0bd4f61543dd3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 583528bd130bfbccb8ee7766fc0c27f6edf62438
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302289"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183593"
 ---
-<span data-ttu-id="39911-101">Het dagboek toont standaard slechts een beperkt aantal velden op de dagboekregel.</span><span class="sxs-lookup"><span data-stu-id="39911-101">The general journal only shows a limited number of fields on the journal line by default.</span></span> <span data-ttu-id="39911-102">Als u extra velden, zoals het veld **Rekeningsoort** wilt zien, kiest u de actie **Meer kolommen weergeven**.</span><span class="sxs-lookup"><span data-stu-id="39911-102">If you want to see additional fields, such as the **Account Type** field, choose the **Show More Columns** action.</span></span> <span data-ttu-id="39911-103">Als u de aanvullende velden weer wilt verbergen, kiest u de actie **Minder kolommen weergeven**.</span><span class="sxs-lookup"><span data-stu-id="39911-103">To hide the additional fields again, choose the **Show Fewer Columns** action.</span></span> <span data-ttu-id="39911-104">Als u minder kolommen ziet, wordt voor alle regels dezelfde boekingsdatum gebruikt.</span><span class="sxs-lookup"><span data-stu-id="39911-104">When you see fewer columns, then the same posting date is used for all lines.</span></span> <span data-ttu-id="39911-105">Als u meerdere boekingsdatums voor dezelfde dagboekpost wilt hebben, kiest u de actie **Meer kolommen weergeven**.</span><span class="sxs-lookup"><span data-stu-id="39911-105">If you want to have multiple posting dates for the same journal entry, choose the **Show More Columns** action.</span></span>  
+<span data-ttu-id="e03d2-101">Het dagboek toont standaard slechts een beperkt aantal velden op de dagboekregel.</span><span class="sxs-lookup"><span data-stu-id="e03d2-101">The general journal only shows a limited number of fields on the journal line by default.</span></span> <span data-ttu-id="e03d2-102">Als u extra velden, zoals het veld **Rekeningsoort** wilt zien, kiest u de actie **Meer kolommen weergeven**.</span><span class="sxs-lookup"><span data-stu-id="e03d2-102">If you want to see additional fields, such as the **Account Type** field, choose the **Show More Columns** action.</span></span> <span data-ttu-id="e03d2-103">Als u de aanvullende velden weer wilt verbergen, kiest u de actie **Minder kolommen weergeven**.</span><span class="sxs-lookup"><span data-stu-id="e03d2-103">To hide the additional fields again, choose the **Show Fewer Columns** action.</span></span> <span data-ttu-id="e03d2-104">Als u minder kolommen ziet, wordt voor alle regels dezelfde boekingsdatum gebruikt.</span><span class="sxs-lookup"><span data-stu-id="e03d2-104">When you see fewer columns, then the same posting date is used for all lines.</span></span> <span data-ttu-id="e03d2-105">Als u meerdere boekingsdatums voor dezelfde dagboekpost wilt hebben, kiest u de actie **Meer kolommen weergeven**.</span><span class="sxs-lookup"><span data-stu-id="e03d2-105">If you want to have multiple posting dates for the same journal entry, choose the **Show More Columns** action.</span></span>  

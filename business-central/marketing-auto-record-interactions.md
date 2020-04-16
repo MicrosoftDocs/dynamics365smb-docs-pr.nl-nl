@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 65087f044c410f41ace0a218d810675e19c856d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3c860ac8fec0e9a3cdf697ee59789d55387e5dc1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309409"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181664"
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="090d8-103">Interactie met contacten automatisch vastleggen</span><span class="sxs-lookup"><span data-stu-id="090d8-103">Recording Interactions with Contacts Automatically</span></span>
-<span data-ttu-id="090d8-104">U kunt de toepassing instellen om automatisch recordinteracties vast te leggen voor verkoop-, inkoop- en servicedocumenten, contactkaarten, e-mails, telefoongesprekken, zoals:</span><span class="sxs-lookup"><span data-stu-id="090d8-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="d2783-103">Interactie met contacten automatisch vastleggen</span><span class="sxs-lookup"><span data-stu-id="d2783-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="d2783-104">U kunt de toepassing instellen om automatisch recordinteracties vast te leggen voor verkoop-, inkoop- en servicedocumenten, contactkaarten, e-mails, telefoongesprekken, zoals:</span><span class="sxs-lookup"><span data-stu-id="d2783-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* <span data-ttu-id="090d8-105">Verkoop- of inkoopoffertes, orders, facturen, creditnota's, contactkaarten afdrukken.</span><span class="sxs-lookup"><span data-stu-id="090d8-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
-* <span data-ttu-id="090d8-106">Verkoopserviceorders maken.</span><span class="sxs-lookup"><span data-stu-id="090d8-106">Create sales service orders.</span></span>
-* <span data-ttu-id="090d8-107">Verkoopserviceorders boeken.</span><span class="sxs-lookup"><span data-stu-id="090d8-107">Post sales service orders.</span></span>
-* <span data-ttu-id="090d8-108">E-mailberichten verzenden aan uw contacten.</span><span class="sxs-lookup"><span data-stu-id="090d8-108">Send e-mails to your contacts.</span></span>
-* <span data-ttu-id="090d8-109">Uw contacten bellen als u over een compatibele TAPI-telefoon en de juiste installatie beschikt.</span><span class="sxs-lookup"><span data-stu-id="090d8-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
+* <span data-ttu-id="d2783-105">Verkoop- of inkoopoffertes, orders, facturen, creditnota's, contactkaarten afdrukken.</span><span class="sxs-lookup"><span data-stu-id="d2783-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="d2783-106">Verkoopserviceorders maken.</span><span class="sxs-lookup"><span data-stu-id="d2783-106">Create sales service orders.</span></span>
+* <span data-ttu-id="d2783-107">Verkoopserviceorders boeken.</span><span class="sxs-lookup"><span data-stu-id="d2783-107">Post sales service orders.</span></span>
+* <span data-ttu-id="d2783-108">E-mailberichten verzenden aan uw contacten.</span><span class="sxs-lookup"><span data-stu-id="d2783-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="d2783-109">Uw contacten bellen als u over een compatibele TAPI-telefoon en de juiste installatie beschikt.</span><span class="sxs-lookup"><span data-stu-id="d2783-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-<span data-ttu-id="090d8-110">Als u automatisch vastleggen van deze interacties wilt instellen, geeft u interactiesjablonen voor deze documenten en acties op met behulp van de pagina **Interactiesjablooninstellingen**.</span><span class="sxs-lookup"><span data-stu-id="090d8-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.</span></span>  
-<span data-ttu-id="090d8-111">Als u de pagina **Interactiesjablooninstellingen** wilt openen, kiest u het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Interactiesjablooninstellingen** in en kiest u vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="090d8-111">To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
+<span data-ttu-id="d2783-110">Als u automatisch vastleggen van deze interacties wilt instellen, geeft u interactiesjablonen voor deze documenten en acties op met behulp van de pagina **Interactiesjablooninstellingen**.</span><span class="sxs-lookup"><span data-stu-id="d2783-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.</span></span>  
+<span data-ttu-id="d2783-111">Als u de pagina **Interactiesjablooninstellingen** wilt openen, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Interactiesjablooninstellingen** in en kiest u vervolgens de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="d2783-111">To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="090d8-112">Zie ook</span><span class="sxs-lookup"><span data-stu-id="090d8-112">See Also</span></span>
-[<span data-ttu-id="090d8-113">Interacties vastleggen met contacten</span><span class="sxs-lookup"><span data-stu-id="090d8-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
-<span data-ttu-id="090d8-114">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="090d8-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="d2783-112">Zie ook</span><span class="sxs-lookup"><span data-stu-id="d2783-112">See Also</span></span>
+[<span data-ttu-id="d2783-113">Interacties vastleggen met contacten</span><span class="sxs-lookup"><span data-stu-id="d2783-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="d2783-114">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d2783-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
