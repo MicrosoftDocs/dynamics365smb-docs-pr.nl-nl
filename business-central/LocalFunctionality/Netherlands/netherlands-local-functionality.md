@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: sgroespe
-ms.openlocfilehash: f1322d483ce1d4179d122174ecdc2c10071271ec
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e6bd0c42aeaac84d05414b7b23513826b97a9721
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181078"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454348"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
+
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Functiebeschikbaarheid  
@@ -63,6 +64,8 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Updates op postcodes importeren](how-to-import-post-code-updates.md) **Nu beschikbaar**  
 
 ## <a name="see-also"></a>Zie ook
+
 [Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
