@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74d08f22aa7e69e0c718f29785392e93c62c84d1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad2af0f0a4c4756f2a9868804623ebaccfeb2f1e
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181083"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676794"
 ---
 # <a name="import-post-codes"></a>Postcodes importeren
 U kunt een bestand importeren dat postcodes opgeeft voor marketing- en relatiebeheeractiviteiten. De postcodegegevens die u importeert, worden in de tabel **Postcodebereik** opgeslagen.  
 
 ## <a name="to-import-a-post-code-file"></a>Een postcodebestand importeren  
 
-1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Postcode-updates** in en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Postcode-updates** in en kies de gerelateerde koppeling.  
 2.  Kies op de pagina **Postcode-updates** de actie **Postcodes importeren**.  
 3.  Geef het pad en de naam van het postcode-updatebestand op en kies vervolgens de knop **OK**. Als u het bestand niet wilt importeren, kiest u de knop **Annuleren** om de pagina te sluiten.  
 

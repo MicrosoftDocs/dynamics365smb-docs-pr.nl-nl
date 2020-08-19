@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 25601c007a1e477544918446cded9b3f34200399
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17f665d6f92fa28d00c68384ce753a54f602eb49
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181090"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677216"
 ---
 # <a name="create-an-audit-file-for-the-tax-authority"></a>Een auditfile voor de belastingdienst maken
 Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur om gegevens over de basistransacties vanuit het grootboek voor dat boekjaar vragen. Basistransacties worden gewoonlijk via dagboekposten verwerkt. Daarom vormen de dagboekposten de basis voor het auditbestand.  
@@ -26,7 +26,7 @@ Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur
 
 ## <a name="to-make-an-audit-file"></a>Een auditfile maken  
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Belastingdienst - Auditfile** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Belastingdienst - Auditfile** in en kies de gerelateerde koppeling.  
 2.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Description|  

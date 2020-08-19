@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aec16043be113ce157b3c36dcc4158d7ec0e3e8b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 777f1a6a1b2f3dfbdbe96ba6ade824c9f9f46351
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181087"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677264"
 ---
 # <a name="create-and-export-payment-history"></a>Betalingsrun maken en exporteren
 Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost. Zie [Voorstellen maken](how-to-create-proposals.md) voor meer informatie.  
@@ -28,7 +28,7 @@ Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kun
 
 ## <a name="to-create-a-payment-history-for-a-proposal"></a>Een betaalrun voor een voorstel maken  
 
-1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.  
 
     Als u het voorstel wilt afdrukken voordat u het verwerkt, kiest u de knop **Afdrukken**.  
 

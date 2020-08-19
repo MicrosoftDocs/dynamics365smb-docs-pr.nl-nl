@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7e81bdf632542a037b76131b7388ff16591201c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d183547c3540946b645718c8d53fd3c9c3c59e0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181086"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677174"
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
@@ -32,7 +32,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
 ## <a name="to-post-cash-journals"></a>Kasjournalen boeken  
 
-1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Kasboek** in en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kasboek** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Kasboek** op het sneltabblad **Regel** de vereiste velden in zoals beschreven in de volgende tabel.  
 
@@ -55,7 +55,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
 ## <a name="to-post-bank-or-giro-journals"></a>Bank- of giroboeken boeken  
 
-1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Bank-/giroboek** in en kies de desbetreffende koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/Giroboek** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer de relevante dagboeksjabloon en kies vervolgens de knop **OK**.  
 4.  Vul op de pagina **Bank-/girodagboek** de velden in, zoals is beschreven in de volgende tabel.  
