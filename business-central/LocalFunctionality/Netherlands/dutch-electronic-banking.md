@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 55a9fa77e211ad5ac3493a9e598de88a0002ae4a
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.author: edupont
+ms.openlocfilehash: 851b65a0bdca4a5f8f6de2c7a8a329b176fe94f4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484129"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779041"
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
 

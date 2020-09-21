@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 258774314e9f460a9af3dd2ac73375035f07a2f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e893b7fce82565cd9f0a6414f2d74a1552f577ef
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181073"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777912"
 ---
 # <a name="payment-scenarios"></a>Betalingsscenario's
 Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.  

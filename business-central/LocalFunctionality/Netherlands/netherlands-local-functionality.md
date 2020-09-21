@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/09/2020
-ms.author: sgroespe
-ms.openlocfilehash: e6bd0c42aeaac84d05414b7b23513826b97a9721
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.author: edupont
+ms.openlocfilehash: 52132434a74c754a6b27a00ca3295010d1e18fe8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454348"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777927"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
@@ -48,7 +48,6 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) **Nu beschikbaar**
 
 * Hoofdfinanciën
-    * [Grootboek](general-ledger.md) **Nu beschikbaar**
     * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
     * [Vereiste beschrijvingen in grootboekposten](required-descriptions-in-g-l-entry.md) **Nu beschikbaar**
 

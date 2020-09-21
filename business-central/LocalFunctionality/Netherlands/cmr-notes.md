@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6508ee54a1d7e2c833ea9db3c5e05db346b4dabf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c96799e9ba2d96affc629ee414aa5bb716a8eb96
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181098"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779043"
 ---
 # <a name="cmr-notes"></a>CMR-verzendbonnen
 Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.  
