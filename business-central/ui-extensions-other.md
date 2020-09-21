@@ -1,7 +1,6 @@
 ---
 title: Extensies voor Business Central van andere bedrijven | Microsoft Docs
 description: Geeft een lijst met apps en extensies om Business Central aan te passen, die worden verschaft door andere bedrijven.
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 42c26bc7d7034c02c069a9e4b7890a5dc514cd4d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a32724a9ff2509fabd0e7a02ab732d7fd43f619a
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194088"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3692996"
 ---
-# <a name="business-central-extensions-by-other-providers"></a><span data-ttu-id="b2337-103">Extensies voor Business Central van andere providers</span><span class="sxs-lookup"><span data-stu-id="b2337-103">Business Central Extensions by Other Providers</span></span>
-<span data-ttu-id="b2337-104">Bij [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="b2337-104">At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="b2337-105">Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven.</span><span class="sxs-lookup"><span data-stu-id="b2337-105">Some extensions are provided by Microsoft, and other extensions are provided by other companies.</span></span> <span data-ttu-id="b2337-106">We verwijzen naar de websites van deze bedrijven voor meer informatie over de extensies die niet door Microsoft zijn gepubliceerd.</span><span class="sxs-lookup"><span data-stu-id="b2337-106">We refer to the websites that these companies provide for more information about the extensions that are not published by Microsoft.</span></span> <span data-ttu-id="b2337-107">U kunt deze informatie vinden op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).</span><span class="sxs-lookup"><span data-stu-id="b2337-107">You can find this information at [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).</span></span>  
+# <a name="business-central-extensions-by-other-providers"></a><span data-ttu-id="cabfb-103">Extensies voor Business Central van andere providers</span><span class="sxs-lookup"><span data-stu-id="cabfb-103">Business Central Extensions by Other Providers</span></span>
 
-<span data-ttu-id="b2337-108">Het overzicht van de extensies door andere bedrijven groeit elke maand.</span><span class="sxs-lookup"><span data-stu-id="b2337-108">The list of the extensions by other companies grows each month.</span></span> <span data-ttu-id="b2337-109">Houd een oog op [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) en krijg apps om u te helpen in uw werk in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="b2337-109">So keep an eye out for [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) and get apps to help you in your work in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+<span data-ttu-id="cabfb-104">Bij [AppSource.microsoft.com](https://appsource.microsoft.com/) kunt u extensies krijgen voor [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="cabfb-104">At [AppSource.microsoft.com](https://appsource.microsoft.com/), you can get extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="cabfb-105">Sommige extensies worden verstrekt door Microsoft en andere extensies worden verstrekt door andere bedrijven.</span><span class="sxs-lookup"><span data-stu-id="cabfb-105">Some extensions are provided by Microsoft, and other extensions are provided by other companies.</span></span> <span data-ttu-id="cabfb-106">We verwijzen naar de websites van deze bedrijven voor meer informatie over de extensies die niet door Microsoft zijn gepubliceerd.</span><span class="sxs-lookup"><span data-stu-id="cabfb-106">We refer to the websites that these companies provide for more information about the extensions that are not published by Microsoft.</span></span> <span data-ttu-id="cabfb-107">U kunt deze informatie vinden op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).</span><span class="sxs-lookup"><span data-stu-id="cabfb-107">You can find this information at [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="b2337-110">Zie ook</span><span class="sxs-lookup"><span data-stu-id="b2337-110">See Also</span></span>
-<span data-ttu-id="b2337-111">[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="b2337-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
-[<span data-ttu-id="b2337-112">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="b2337-112">Getting Started</span></span>](product-get-started.md)  
+<span data-ttu-id="cabfb-108">Het overzicht van de extensies door andere bedrijven groeit elke maand.</span><span class="sxs-lookup"><span data-stu-id="cabfb-108">The list of the extensions by other companies grows each month.</span></span> <span data-ttu-id="cabfb-109">Houd een oog op [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) en krijg apps om u te helpen in uw werk in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="cabfb-109">So keep an eye out for [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) and get apps to help you in your work in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="cabfb-110">Zie ook</span><span class="sxs-lookup"><span data-stu-id="cabfb-110">See Also</span></span>
+
+<span data-ttu-id="cabfb-111">[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="cabfb-111">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
+[<span data-ttu-id="cabfb-112">Aan de slag</span><span class="sxs-lookup"><span data-stu-id="cabfb-112">Getting Started</span></span>](product-get-started.md)  
