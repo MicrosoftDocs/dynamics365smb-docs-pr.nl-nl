@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766088"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970357"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Extensies installeren en verwijderen in Business Central
 
@@ -48,29 +48,29 @@ Sommige extensies worden verstrekt door Microsoft en andere extensies worden ver
 
 Microsoft biedt de volgende extensies:
 
-* [Accountantportal voor Business Central](ui-extensions-accountant-portal.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md) 
-* [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)   
-* [Afbeeldingsanalyse](ui-extensions-image-analyzer.md) 
-* [Intelligente cloud](ui-extensions-data-replication.md)    
+* [Extensie AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Bedrijfshub](ui-extensions-company-hub.md)  
+* [Dynamics GP-gegevensmigratie](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essentiële zakelijke inzichten](ui-extensions-essential-business-insights.md)
+* [Afbeeldingsanalyse](ui-extensions-image-analyzer.md)
+* [Intelligente cloud](ui-extensions-data-replication.md)
 * [Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)  
-* [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)   
-* [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md) 
-* [Salarisbestand importeren - Quickbooks](ui-extensions-quickbooks-payroll.md) 
-* [Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [Extensie AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)    
-* [DK - C5 Gegevensmigratie](ui-extensions-c5-data-migration.md)  
-* [DK - Betalingen en afstemmingen](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [DK - Btw-bestandsindelingen](ui-extensions-tax-file-formats-dk.md) 
-* [UK - GetAddress.io postcodes van het Verenigd Koninkrijk](ui-extensions-getaddressio.md)  
-* [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md) 
-* [Business Central-extensies van andere providers](ui-extensions-other.md)
+* [Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks-gegevensmigratie](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Gegevensmigratie](ui-extensions-quickbooks-online-data-migration.md)
+* [Salarisbestand importeren - Quickbooks](ui-extensions-quickbooks-payroll.md)
+* [Verkoop- en voorraadprognose](ui-extensions-sales-forecast.md)
+* [Btw-groep](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 Gegevensmigratie](ui-extensions-c5-data-migration.md)
+* [DK - Betalingen en afstemmingen](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Btw-bestandsindelingen](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io postcodes van het Verenigd Koninkrijk](ui-extensions-getaddressio.md)
+* [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Een extensie verwijderen
 
@@ -80,8 +80,8 @@ U kunt een extensie verwijderen op de pagina **Extensiebeheer**. Als u een exten
 > Als u het selectievakje **Extensiegegevens verwijderen** inschakelt, wordt er een bevestigingsvenster weergegeven en moet u **OK** kiezen. Als het selectievakje **Extensiegegevens verwijderen** is ingeschakeld, kunt u nu de extensie verwijderen en wordt u vervolgens gevraagd opnieuw te bevestigen dat u de extensie wilt verwijderen en dat u de gegevens wilt verwijderen. De actie kan niet ongedaan worden gemaakt.
 Sommige extensies zijn vereist. U kunt deze niet verwijderen vanaf de pagina **Extensiebeheer**. Als u het probeert, verschijnt er een foutmelding.  
 
-
 ## <a name="see-also"></a>Zie ook
+
 [Dynamics 365 Business Central uitbreiden](about-develop-extensions.md)  
 [Business Central-extensies van andere providers](ui-extensions-other.md)  
 [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md)  
