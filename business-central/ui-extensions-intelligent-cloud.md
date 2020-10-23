@@ -9,20 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da20e2df61388909f5fe38dea6fc41a1b0a9b822
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2f16af0f87cae376fd1ed96b02cad3a64adc94cc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194126"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915082"
 ---
-# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="62e4b-103">Extensie Intelligente cloud Basis</span><span class="sxs-lookup"><span data-stu-id="62e4b-103">Intelligent Cloud Base Extension</span></span>
+# <a name="intelligent-cloud-base-extension"></a><span data-ttu-id="f458e-103">Extensie Intelligente cloud Basis</span><span class="sxs-lookup"><span data-stu-id="f458e-103">Intelligent Cloud Base Extension</span></span>
 
-<span data-ttu-id="62e4b-104">Deze extensie begeleidt u door het proces om uw Intelligente cloud-omgeving te configureren en te beheren.</span><span class="sxs-lookup"><span data-stu-id="62e4b-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="62e4b-105"> Zodra uw Intelligente cloud-omgeving is geconfigureerd, kunt u gegevensreplicaties beheren van uw on-premises oplossing naar uw [!INCLUDE[prodshort](includes/prodshort.md)]-cloudtenant.</span><span class="sxs-lookup"><span data-stu-id="62e4b-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="62e4b-106">Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing.</span><span class="sxs-lookup"><span data-stu-id="62e4b-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="62e4b-107"> Zie voor meer informatie [Intelligente inzichten](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="62e4b-107"> For more information, see [Intelligent Insights](about-intelligent-cloud.md).</span></span>  
+<span data-ttu-id="f458e-104">Deze extensie begeleidt u door het proces om uw Intelligente cloud-omgeving te configureren en te beheren.</span><span class="sxs-lookup"><span data-stu-id="f458e-104">This extension will take you through the process to configure and manage your Intelligent Cloud environment.</span></span><span data-ttu-id="f458e-105"> Zodra uw Intelligente cloud-omgeving is geconfigureerd, kunt u gegevensreplicaties beheren van uw on-premises oplossing naar uw [!INCLUDE[prodshort](includes/prodshort.md)]-cloudtenant.</span><span class="sxs-lookup"><span data-stu-id="f458e-105"> Once your Intelligent Cloud environment is configured, you will be able to manage data replications from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="f458e-106">Deze extensie werkt in combinatie met een extensie voor gegevensreplicatie die beschikbaar is voor uw on-premises oplossing.</span><span class="sxs-lookup"><span data-stu-id="f458e-106">This extension will work in conjunction with a data replication extension available for your specific on-premises solution.</span></span><span data-ttu-id="f458e-107"> Zie voor meer informatie [Intelligente inzichten](about-intelligent-cloud.md).</span><span class="sxs-lookup"><span data-stu-id="f458e-107"> For more information, see [Intelligent Insights](about-intelligent-cloud.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="62e4b-108">Zie ook</span><span class="sxs-lookup"><span data-stu-id="62e4b-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f458e-108">Zie ook</span><span class="sxs-lookup"><span data-stu-id="f458e-108">See Also</span></span>
 
-[<span data-ttu-id="62e4b-109">Intelligente inzichten</span><span class="sxs-lookup"><span data-stu-id="62e4b-109">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="62e4b-110">Extensie Gegevensreplicatie</span><span class="sxs-lookup"><span data-stu-id="62e4b-110">Data Replication extension</span></span>](ui-extensions-data-replication.md)  
+[<span data-ttu-id="f458e-109">Intelligente inzichten</span><span class="sxs-lookup"><span data-stu-id="f458e-109">Intelligent Insights</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="f458e-110">Extensie Gegevensreplicatie</span><span class="sxs-lookup"><span data-stu-id="f458e-110">Data Replication extension</span></span>](ui-extensions-data-replication.md)  
