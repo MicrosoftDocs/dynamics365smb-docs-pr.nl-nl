@@ -1,24 +1,25 @@
 ---
 title: Dagboeken gebruiken om direct naar grootboek te boeken| Microsoft Docs
 description: Leren over het gebruik van dagboeken om financiële transacties naar grootboekrekeningen en andere rekeningen te boeken, zoals bank-, klant- en leveranciersrekeningen.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.search.keywords: journals, recurring, accrual
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 669985f08dd497ecec925eef126fff262067b947
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785243"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920694"
 ---
 # <a name="working-with-general-journals"></a>Werken met diversendagboeken
 
-De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoopprocessen, betaling of terugbetaling van werknemersonkosten verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoop, betaling, gebruik van periodieke dagboeken om transitoria te boeken of terugbetaling van werknemersonkosten, verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 De meeste dagboeken zijn gebaseerd op het *Diversendagboek* en u kunt alle transacties op de pagina **Diversendagboek** verwerken. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).  
 
@@ -44,6 +45,27 @@ Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een
 
 > [!TIP]
 > Als u velden in dagboeken wilt toevoegen of verwijderen, gebruikt u de banner **Personaliseren**. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
+
+### <a name="validating-general-journal-batches"></a>Algemene dagboekbatches valideren
+Om vertragingen bij het boeken te voorkomen kunt u een achtergrondcontrole inschakelen die u op de hoogte stelt als er een fout in het financiële dagboek waaraan u werkt optreedt waardoor u het dagboek niet kunt boeken. Op de pagina **Batch van algemeen dagboek** kunt u **Foutcontrole op achtergrond** kiezen om [!INCLUDE[d365fin](includes/d365fin_md.md)] financiële dagboeken te laten valideren, zoals algemene of betalingsdagboeken, terwijl u eraan werkt. 
+
+Wanneer u de validatie inschakelt, wordt het feitenblok **Journaalcontrole** naast de dagboekregels weergegeven en bevat het problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een financiële dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft gevonden en kunt u ervoor kiezen om een overzicht van de problemen te openen. 
+
+U kunt de acties **Regels met problemen weergeven** en **Alle regels weergeven** gebruiken om te schakelen tussen dagboekregels die wel of geen problemen hebben. Het nieuwe feitenblok **Details van dagboekregel** biedt een snel overzicht van en toegang tot gegevens uit dagboekregels, zoals de grootboekrekening, klant of leverancier, evenals de boekingsinstellingen voor specifieke rekeningen.     
+
+### <a name="reversing-journals-to-correct-mistakes"></a>Dagboeken terugdraaien om fouten te corrigeren
+Wanneer u werkt met dagboeken met veel regels en er gaat iets mis, is het belangrijk om een gemakkelijke manier te hebben om fouten te corrigeren. De pagina **Geboekt financieel dagboek** biedt een aantal acties die kunnen helpen.
+
+* **Geselecteerde regels naar dagboek kopiëren**: alleen de regels kopiëren die u selecteert.
+* **Grootboekjournaal kopiëren naar dagboek**: alle regels kopiëren die behoren tot hetzelfde grootboekregister.
+
+Met deze acties kunt u een kopie van een dagboekregel of een batch maken en vervolgens het volgende specificeren:
+
+* Het dagboek waarnaar de regels moeten worden gekopieerd
+* Of het met tegengestelde tekens moet gebeuren (een tegenboekingsdagboek)
+* Een andere boekingsdatum of documentnummer
+
+Om toe te staan dat dagboeken naar geboekte algemene dagboeken worden gekopieerd kiest u op de pagina **Financieel-dagboeksjablonen** het selectievakje **Kopiëren naar geboekte dagboekregels**. Nadat u mensen toestemming hebt gegeven om geboekte dagboeken te kopiëren, kunt u indien nodig het kopiëren uitschakelen voor specifieke batches.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Hoofdrekeningen en tegenrekeningen
 Als u op de pagina **Dagboeken** standaardtegenrekeningen hebt ingesteld voor de dagboekbatches, wordt de tegenrekening automatisch ingevuld wanneer u het veld **Rekeningnr.** invult. Anders vult u zowel het veld **Rekeningnr.** als het veld **Tegenrekeningnr.** handmatig in. Een positief bedrag in het veld **Bedrag** wordt gedebiteerd van de hoofdrekening en gecrediteerd naar de tegenrekening. Een negatief bedrag wordt gecrediteerd naar de hoofdrekening en gedebiteerd van de tegenrekening.
@@ -99,6 +121,18 @@ Als de periodieke methode in het periodieke dagboek is ingesteld op **Saldo** of
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Voorbeeld: huurbetalingen aan verschillende kostenplaatsen toewijzen
 U betaalt elke maand huur en u hebt het huurbedrag dus ingevoerd op de kasrekening op een periodieke dagboekregel. Op de pagina **Verdeelsleutels** kunt u de kosten verdelen over verschillende kostenplaatsen (dimensie Kostenplaats), afhankelijk van het aantal vierkante meter per kostenplaats. De berekening is gebaseerd op het verdelingspercentage op elke regel. U kunt verschillende rekeningen invoeren op verschillende verdelingsdagboekregels (als de huur ook wordt verdeeld over verschillende rekeningen). U kunt ook dezelfde rekening invoeren, maar op elke regel een andere dimensiewaardecode voor de dimensie Kostenplaats opgeven.
+
+### <a name="reversal-date-calculation"></a>Berekening van tegenboekingsdatum
+Wanneer u periodieke dagboeken gebruikt om transitoria aan het einde van een periode te boeken, is het belangrijk om volledige controle te hebben over tegenboekingsposten. Op de pagina **Periodieke dagboeken** kunt u met het veld **Berekening van tegenboekingsdatum** bepalen op welke datum tegenboekingsposten worden geboekt wanneer periodieke tegenboekingsmethoden worden gebruikt.
+
+#### <a name="example"></a>Voorbeeld
+Transitoria worden meestal geboekt met periodieke vaste, variabele of saldomethoden op de dagboekregel. De boekingsdatum van het geboekte bedrag op de rekening op de dagboekregel wordt berekend met de periodieke frequentie. De boekingsdatum voor de tegenboeking wordt als volgt berekend met behulp van het veld **Berekening van tegenboekingsdatum**:
+
+* Als het veld leeg is, wordt de tegenboekingspost de volgende dag geboekt.
+* Als het veld een datumformule bevat (bijvoorbeeld **5D** voor vijf dagen), wordt de tegenboekingspost geboekt met een boekingsdatum die wordt berekend op basis van de berekening van de tegenboekingsdatum.
+
+> [!NOTE]
+> Standaard is het veld **Berekening van tegenboekingsdatum** niet beschikbaar op de pagina **Periodieke dagboeken**. Om het veld te gebruiken moet u het toevoegen door de pagina te personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ## <a name="working-with-standard-journals"></a>Werken met standaarddagboeken
 Wanneer u artikeldagboekregels hebt gemaakt waarvan u weet dat u ze waarschijnlijk later opnieuw moet maken, kunt u ze als een standaarddagboek opslaan voordat u het artikeldagboek boekt. Deze functie geldt voor artikeldagboeken en diversendagboeken.
