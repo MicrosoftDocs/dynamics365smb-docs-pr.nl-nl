@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 851b65a0bdca4a5f8f6de2c7a8a329b176fe94f4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bbaa6d0d5ca08e381560c91bfeb8f38efd8a809e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779041"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919913"
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
 

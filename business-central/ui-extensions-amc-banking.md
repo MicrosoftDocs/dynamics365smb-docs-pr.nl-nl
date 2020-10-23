@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194352"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912393"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>De extensie AMC Banking 365 Fundamentals gebruiken
 Met de extensie AMC Banking 365 Fundamentals kunt u eenvoudiger en nauwkeuriger gegevens naar uw banken verzenden. De extensie verbindt [!INCLUDE[d365fin](includes/d365fin_md.md)] met de service AMC Banking 365 Fundamentals voor Microsoft Dynamics 365 Business Central. Hiermee kunnen bankgegevens worden geconverteerd van [!INCLUDE[d365fin](includes/d365fin_md.md)] naar indelingen die worden gebruikt door meer dan 600 banken over de hele wereld. Dit maakt het bijvoorbeeld gemakkelijker om betalingen en tegoeden over te dragen aan leveranciers door de betalingen in te voeren in [!INCLUDE[d365fin](includes/d365fin_md.md)] en vervolgens te uploaden naar uw bank. De indelingen kunnen ook bankafstemmingsprocessen vereenvoudigen. Zie voor meer informatie [AMC Banking voor Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
@@ -57,7 +57,7 @@ Geef voor elke nieuwe machtigingenset alleen de machtiging **Lezen** voor de **A
 2. Open de kaart voor de bankrekening die u met de service wilt verbinden.
 3. Kies in het veld **Banknaam** de indeling die uw bank vereist.  
 
-   De indelingen worden zo gefilterd dat alleen de indelingen worden weergegeven die relevant zijn voor het land/de regio die is opgegeven voor de bankrekening.
+   De indelingen worden zo gefilterd dat alleen de indelingen worden weergegeven die relevant zijn voor het land/regio die is opgegeven voor de bankrekening.
 4. Kies in het veld **Berichtnummers krediettransfer** de nummerreeks die moet worden gebruikt voor berichten bij betalingen.
 5. Kies in de velden **Importindeling van bankafschrift** en **Exportindeling betaling** de definities van gegevensuitwisseling die uw bank nodig heeft.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528660"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914561"
 ---
 # <a name="changing-language-and-region"></a>Taal en regio-instellingen wijzigen
 
@@ -26,7 +26,7 @@ Als u bijvoorbeeld de Canadese versie van [!INCLUDE[d365fin](includes/d365fin_md
 Als u de taal van de gebruikersinterface wilt wijzigen, gaat u naar de pagina **Mijn instellingen**. Zie voor meer informatie [Basisinstellingen wijzigen](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> De taalkeuze wordt teruggezet naar uw instelling in uw Office 365-profiel als uw beheerder gebruikers synchroniseert van Office 365 naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> De taalkeuze wordt teruggezet naar uw instelling in uw Microsoft 365-profiel als uw beheerder gebruikers synchroniseert van Microsoft 365 naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Deze meertalige functionaliteit heeft geen invloed op de taal waarin de toepassingsgegevens zijn opgeslagen. De taal van deze gegevens wordt bestuurd door het toepassingsontwerp. De namen van artikelen in de voorraad en de opmerkingen voor een klant zijn voorbeelden van dergelijke tekst. Deze tekst wordt dus niet vertaald.  
 
@@ -36,7 +36,7 @@ Deze meertalige functionaliteit heeft geen invloed op de taal waarin de toepassi
 ## <a name="changing-the-region"></a>De regio veranderen
 Regio is iets anders dan taal en wettelijke vereisten in lokale markten. Regio-instellingen bepalen hoe uw gegevens worden weergegeven, bijvoorbeeld welke scheidingstekens worden gebruikt, of een tekst links of rechts wordt uitgelijnd en bepaalde andere instellingen. De regio bepaalt ook enkele systeemelementen in de browser, zoals de actie om een nieuw artikel in een lijst te maken.  
 
-U kunt de regio-instellingen wijzigen op het browsertabblad dat u gebruikt om te werken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De wijziging geldt alleen voor u, niet voor de andere gebruikers in uw bedrijf.  De regiokeuze wordt teruggezet naar uw instelling in uw Office-profiel als uw beheerder gebruikers synchroniseert van Office 365 naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
+U kunt de regio-instellingen wijzigen op het browsertabblad dat u gebruikt om te werken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. De wijziging geldt alleen voor u, niet voor de andere gebruikers in uw bedrijf.  De regiokeuze wordt teruggezet naar uw instelling in uw Office-profiel als uw beheerder gebruikers synchroniseert van Microsoft 365 naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
 >  Wanneer u de regio-instellingen wijzigt, wordt er een lange lijst met talen en regio's weergegeven. De taal wordt echter niet beïnvloed door de keuze van de regio.  

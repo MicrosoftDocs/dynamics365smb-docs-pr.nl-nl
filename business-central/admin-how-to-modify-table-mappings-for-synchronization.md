@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 382328e88c828afbf4316eb1f9bab73f6a2b7f95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527932"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911377"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>De te synchroniseren tabellen en velden toewijzen
 De basis voor de synchronisatie van gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]met gegevens in [!INCLUDE[d365fin](includes/cds_long_md.md)] is de toewijzing van de tabellen en velden met de gegevens aan elkaar. Toewijzing gebeurt via integratietabellen. 
@@ -30,6 +30,17 @@ Wanneer u de verbinding tussen de apps maakt, stelt [!INCLUDE[d365fin](includes/
 
 ### <a name="synchronization-rules"></a>Synchronisatieregels
 Een integratietabeltoewijzing bevat ook regels die bepalen hoe integratie-synchronisatietaken records in een [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel en een entiteit in [!INCLUDE[d365fin](includes/cds_long_md.md)] synchroniseren. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### <a name="strategies-for-auto-resolving-conflicts"></a>Strategieën voor het automatisch oplossen van conflicten
+Gegevensconflicten kunnen gemakkelijk optreden wanneer bedrijfsapplicaties voortdurend gegevens uitwisselen. Iemand kan bijvoorbeeld een record in een van de toepassingen of beide verwijderen of wijzigen. Om het aantal conflicten dat u handmatig moet oplossen te verminderen kunt u oplossingsstrategieën specificeren en [!INCLUDE[d365fin](includes/d365fin_md.md)] lost dan automatisch conflicten op volgens de regels in de strategieën.
+
+Toewijzingen van integratietabellen bevatten regels die bepalen hoe synchronisatietaken records synchroniseren. Op de pagina **Toewijzing van integratietabel** in de kolommen **Verwijderingsconflicten oplossen** en **Updateconflicten oplossen** kunt u aangeven hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] conflicten oplost die optreden omdat records zijn verwijderd in tabellen in de ene of de andere bedrijfstoepassing, of zijn bijgewerkt in beide. 
+
+In de kolom **Verwijderingsconflicten oplossen** kunt u ervoor kiezen om [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch verwijderde records te laten herstellen, de koppeling tussen de records te laten verwijderen of niets doen. Als u niets doet, moet u de conflicten handmatig oplossen. 
+
+In de kolom **Updateconflicten oplossen** kunt u ervoor kiezen om [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een gegevensupdate naar de integratietabel te laten sturen wanneer gegevens worden verzonden naar [!INCLUDE[d365fin](includes/cds_long_md.md)] of om een gegevensupdate uit de integratietabel op te halen wanneer gegevens worden gehaald uit [!INCLUDE[d365fin](includes/cds_long_md.md)], of niets te doen. Als u niets doet, moet u de conflicten handmatig oplossen.
+
+Nadat u de strategie hebt gespecificeerd, kunt u op de pagina **Synchronisatiefouten met gekoppelde gegevens** de actie **Alles opnieuw proberen** kiezen om conflicten automatisch op te lossen. 
 
 ## <a name="mapping-integration-fields"></a>Integratievelden toewijzen
 Het toewijzen van tabellen is slechts de eerste stap. U moet ook de velden in de tabellen toewijzen. Integratieveldtoewijzingen koppelen velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen met overeenkomstige velden in [!INCLUDE[d365fin](includes/cds_long_md.md)] en bepalen of gegevens in elke tabel moeten worden gesynchroniseerd. De standaardtabeltoewijzing die [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt, bevat veldtoewijzingen, maar u kunt deze desgewenst wijzigen. Zie [Entiteittoewijzingen weergeven](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings) voor meer informatie.

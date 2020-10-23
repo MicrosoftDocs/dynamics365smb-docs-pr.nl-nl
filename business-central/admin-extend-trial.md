@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532616"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911527"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Hebt u meer tijd nodig om na te denken over een abonnement?
 
@@ -29,7 +29,7 @@ U kunt slechts eenmaal de proefperiode zelf verlengen. U kunt deze niet tweemaal
 
     Meld u aan met het e-mailaccount dat u gebruikte toen u zich aanmeldde voor de proef.  
 
-    Als u zich hebt aangemeld met een e-mailaccount van een [30-dagen proefversie van Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial), moet u eerst uw Office 365-proef verlengen of een Office 365-abonnement kopen. Zie voor meer informatie [Uw proefperiode voor Office 365 voor bedrijven verlengen](/microsoft-365/commerce/extend-your-trial).
+    Als u zich hebt aangemeld met een e-mailaccount van een [30-dagen proefversie van Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), moet u eerst uw Microsoft 365-proef verlengen of een Microsoft 365-abonnement kopen. Zie voor meer informatie [Uw proefperiode voor Microsoft 365 voor bedrijven verlengen](/microsoft-365/commerce/extend-your-trial).
 2. Kies in het bericht boven in de werkruimte **Proef verlengen**.
 
     Als u de melding hebt gesloten, moet u zich afmelden en u opnieuw aanmelden.

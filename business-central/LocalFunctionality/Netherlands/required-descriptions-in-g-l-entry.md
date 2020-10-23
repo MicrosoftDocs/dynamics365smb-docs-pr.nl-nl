@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 155026d803c01cbe5f6b5c7e19cad362e6f5a643
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 07affd3eeaa48b5a4f3b24b07f8a964175c3e566
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777914"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919865"
 ---
 # <a name="required-descriptions-in-g-l-entry"></a>Verplichte beschrijvingen in grootboekpost
 

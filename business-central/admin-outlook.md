@@ -1,28 +1,28 @@
 ---
 title: Business Central gebruiken met Outlook | Microsoft Docs
-description: Deze service is nauw geïntegreerd met Office 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren.
+description: Deze service is nauw geïntegreerd met Microsoft 365. U kunt al uw bedrijfs- en e-mailcommunicatie met klanten en leveranciers rechtstreeks in Outlook beheren.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 2167336c2fe4555a28d3d3eeaf4829d815d8fa04
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529260"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915732"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central gebruiken als uw bedrijfsinbox in Outlook
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introduceert de mogelijkheid bedrijfsinteracties te beheren met uw klanten en leveranciers, direct in Microsoft Outlook. Met de Outlook-invoegtoepassingen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u financiële gegevens bekijken met betrekking tot klanten en leveranciers, en financiële documenten maken en verzenden, zoals offertes en facturen.  
 
 ## <a name="getting-the-add-in"></a>De invoegtoepassing downloaden
-Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing voor Outlook. In de begeleide instelling **Uw bedrijfsinbox instellen in Outlook** kunt u de verbinding instellen voor uzelf of voor uw organisatie, als uw organisatie Office 365 gebruikt. Specificeer eenvoudig uw Office 365-gebruikersnaam en -wachtwoord, als u daarom wordt gevraagd, en vertel ons of u een voorbeeld van een e-mailbericht wilt ontvangen. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook. Zie voor meer informatie [Minimumvereisten voor Outlook](product-requirements.md#outlook).  
+Het is gemakkelijk aan de gang te gaan met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing voor Outlook. In de begeleide instelling **Uw bedrijfsinbox instellen in Outlook** kunt u de verbinding instellen voor uzelf of voor uw organisatie, als uw organisatie Microsoft 365 gebruikt. Specificeer eenvoudig uw Microsoft 365-gebruikersnaam en -wachtwoord, als u daarom wordt gevraagd, en vertel ons of u een voorbeeld van een e-mailbericht wilt ontvangen. De [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing wordt automatisch toegevoegd aan uw Outlook. Zie voor meer informatie [Minimumvereisten voor Outlook](product-requirements.md#outlook).  
 
 Wanneer u daarna Outlook start, wordt er een e-mailbericht van de *Dynamics 365 Business Central-beheerder* weergegeven. De nieuwe invoegtoepassingen zijn toegevoegd aan het Outlook-lint en in de browser ziet u de [!INCLUDE[prodshort](includes/prodshort.md)]-invoegtoepassingen direct boven of onder de hoofdtekst van het e-mailbericht. De invoegtoepassingen worden regelmatig bijgewerkt en u wordt in Outlook gewaarschuwd dat een nieuwe versie klaar staat.  
 
@@ -35,7 +35,7 @@ Als u met meer dan een [!INCLUDE[prodshort](includes/prodshort.md)]-bedrijf werk
 > [!NOTE]
 > Schakelen tussen bedrijven vereist [!INCLUDE[prodshort](includes/prodshort.md)] 2019 releasewave 2 of hoger zoals aangekondigd in het [versieplan](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-Sommige bedrijven die Office 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Office 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Office 365 gratis uitproberen](https://products.office.com/try).  
+Sommige bedrijven die Microsoft 365 gebruiken, beperken de machtigingen van gebruikers om invoegtoepassingen te installeren. U moet er dus voor zorgen dat u een Microsoft 365-abonnement hebt dat e-mail omvat en u toestaat invoegtoepassingen te installeren. Als u de invoegtoepassing toch wilt bekijken, kunt u [Microsoft 365 gratis uitproberen](https://www.microsoft.com/microsoft-365/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>De invoegtoepassing Contact Insights gebruiken
 Stel u eens voor dat u een e-mailbericht ontvangt van een klant die een offerte voor enkele artikelen wil. U kunt rechtstreeks in Outlook de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassing openen, die de afzender als een klant herkent en de klantkaart voor dat bedrijf opent. Vanuit dit dashboard kunt u overzichtsinformatie voor de klant zien, evenals inzoomen voor meer details over specifieke documenten. U kunt ook de verkoophistorie van de klant bekijken. Als dit een nieuw contact is, kunt u het als nieuwe klant toevoegen in [!INCLUDE[d365fin](includes/d365fin_md.md)] zonder Outlook te verlaten.  
@@ -60,15 +60,15 @@ In de invoegtoepassing Document Links kunt u acties wijzigen en uitvoeren met he
 ## <a name="adding-the-add-ins-manually"></a>Invoegtoepassingen handmatig toevoegen
 In sommige gevallen worden de invoegtoepassingen niet automatisch aan Outlook toegevoegd. Zelfs als u of een collega de begeleide instelling namens het bedrijf hebt uitgevoerd, is [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk niet zichtbaar in Outlook. Als u dit probleem tegenkomt, kunt u de [!INCLUDE[d365fin](includes/d365fin_md.md)]-invoegtoepassingen handmatig toevoegen.  
 
-Eerst moet u controleren of u toegang hebt tot de invoegtoepassingen in uw Office 365-account. Open gewoon uw Outlook in een browser, open een bericht, selecteer **Meer acties** (...) boven aan het bericht en kies vervolgens onder aan de lijst **Invoegtoepassingen ophalen**. Dit opent de pagina **Invoegtoepassingen voor Outlook**, waar u [!INCLUDE[prodshort](includes/prodshort.md)] kunt inschakelen voor uw Outlook. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[prodshort](includes/prodshort.md)] beschikbaar zijn.  
+Eerst moet u controleren dat u toegang hebt tot de invoegtoepassingen in uw Microsoft 365-account. Open gewoon uw Outlook in een browser, open een bericht, selecteer **Meer acties** (...) boven aan het bericht en kies vervolgens onder aan de lijst **Invoegtoepassingen ophalen**. Dit opent de pagina **Invoegtoepassingen voor Outlook**, waar u [!INCLUDE[prodshort](includes/prodshort.md)] kunt inschakelen voor uw Outlook. Wanneer u daarna opnieuw naar Outlook navigeert, moet [!INCLUDE[prodshort](includes/prodshort.md)] beschikbaar zijn.  
 
 U kunt ook in de Outlook-bureaubladclient controleren of [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt vermeld op de pagina **Invoegtoepassingen ophalen**.  
 
-In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog steeds niet beschikbaar is, moet u de manifestbestanden van de invoegtoepassing ophalen. Neem contact op met uw Office 365-beheerder voor meer informatie.
+In beide gevallen moet u, als [!INCLUDE[d365fin](includes/d365fin_md.md)] nog steeds niet beschikbaar is, moet u de manifestbestanden van de invoegtoepassing ophalen. Neem contact op met uw Microsoft 365-beheerder voor meer informatie.
 
 ## <a name="using-other-email-accounts"></a>Andere e-mailaccounts gebruiken
 
-De invoegtoepassingen zijn ontworpen om te worden gebruikt met Office 365. Als u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises gebruikt, zal uw beheerder weten of u de [!INCLUDE[prodshort](includes/prodshort.md)]-invoegtoepassingen in Outlook kunt gebruiken. Zie voor meer informatie [Welk e-mailadres kan ik gebruiken voor [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) en [Functies die specifieke omstandigheden vereisen](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+De invoegtoepassingen zijn ontworpen om te worden gebruikt met Microsoft 365. Als u [!INCLUDE[prodshort](includes/prodshort.md)] on-premises gebruikt, zal uw beheerder weten of u de [!INCLUDE[prodshort](includes/prodshort.md)]-invoegtoepassingen in Outlook kunt gebruiken. Zie voor meer informatie [Welk e-mailadres kan ik gebruiken met [!INCLUDE[prodshort](includes/prodshort.md)] ?](across-faq.md#email), en het artikel [Functies die specifieke omstandigheden vereisen](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) en de sectie [Waarom werkt de Outlook-invoegtoepassing niet voor mijn gebruikers?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) in de algemene FAQ in de beheerinhoud.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

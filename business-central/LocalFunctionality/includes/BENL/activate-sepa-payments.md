@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 08/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 432d0d4457ecf36427452b699dcf3b9c51d5a006
-ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
+ms.openlocfilehash: 4830a9d3a70bc83c5f69e1746fd934803112e0ea
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3731362"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916515"
 ---
 Als u leveranciersbetalingen elektronisch wilt verzenden in de betalingsindeling SEPA (Single Euro Payments Area) ISO 20022, moet u eerst de vereiste instellingen aanbrengen voor het activeren van SEPA-betalingen in uw bedrijf.  
 

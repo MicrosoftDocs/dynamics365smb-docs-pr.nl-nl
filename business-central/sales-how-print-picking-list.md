@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fadf974c41b34a5beb7b3b313847cc6a5bfcec78
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781632"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926144"
 ---
 # <a name="print-the-picking-list"></a>De picklijst afdrukken
 U kunt een voorraadpicklijst rechtstreeks afdrukken vanuit een verkooporder, een verkoopfactuur of een ander document dat de verzending van artikelen initieert.

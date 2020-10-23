@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219826af340d887b4856841b5600da4448190504
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785868"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916090"
 ---
 # <a name="trace-item-tracked-items"></a>Artikelen met artikeltracering traceren
-U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en Navigeren.  
+U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en [Posten zoeken](ui-find-entries.md).  
 
- Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles wanneer u wilt weten welke klanten producten met een bepaald lotnummer hebben ontvangen of wanneer u wilt weten uit welk lot een defect onderdeel afkomstig is.  
+Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles wanneer u wilt weten welke klanten producten met een bepaald lotnummer hebben ontvangen of wanneer u wilt weten uit welk lot een defect onderdeel afkomstig is.  
 
  Op de pagina **Artikeltracering** kunt u voorwaarts en achterwaarts traceren in een reeks van geboekte voorraadtransacties voor het serie- of lotnummer.  
 
- Op de pagina **Navigeren** kunt u niet de reeks transacties bekijken, maar wel alle records van het serie- of lotnummer, zowel geboekte posten als open records.  
+ Op de pagina **Posten zoeken** kunt u niet de reeks transacties bekijken, maar wel alle records van het serie- of lotnummer, zowel geboekte posten als open records.  
 
- De twee functies kunnen in combinatie worden gebruikt door een getraceerd serie- of lotnummer over te brengen naar de pagina **Navigeren** om een volledig traceerscenario te voltooien. Zie [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md) voor meer informatie.  
+ De twee functies kunnen in combinatie worden gebruikt door een getraceerd serie- of lotnummer over te brengen naar de pagina **Posten zoeken** om een volledig traceerscenario te voltooien. Zie [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md) voor meer informatie.  
 
 ## <a name="to-trace-item-tracked-items"></a>Artikelen met artikeltracering traceren  
 
@@ -57,11 +57,12 @@ U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en 
 >   
 >  Als u de artikeltraceringsregels wilt zoeken waarin de transactiegeschiedenis al is getraceerd, kiest u de knop **Ga naar Reeds getraceerd**. De desbetreffende artikeltraceringsregel is geselecteerd en alle onderliggende regels zijn uitgevouwen.  
 
-## <a name="to-find-item-tracked-items-with-navigate"></a>Artikelen met artikeltracering zoeken met Navigeren  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Artikelen met artikeltracering zoeken met Posten zoeken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Navigeren** in en selecteer de gerelateerde koppeling.  
-2.  Voer op het sneltabblad **Artikeltracering** in de velden **Serienr.** en **Lotnr.** de artikeltraceringsnummers in die u wilt traceren.  
-3.  Kies de actie **Zoeken** om alle exemplaren van het serie- of lotnummer in de database te zoeken.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Posten zoeken** in en selecteer de gerelateerde koppeling.  
+2. Kies **Acties** > **Zoeken op** > **Zoeken op artikelverwijzing**.
+3. Voer in de velden **Serienr.** en **Lotnr.** de artikeltraceringsnummers in die u wilt traceren.  
+4. Kies de actie **Zoeken** om alle exemplaren van het serie- of lotnummer in de database te zoeken.  
 
 ## <a name="see-also"></a>Zie ook  
 [Voorraad](inventory-manage-inventory.md)  
@@ -69,4 +70,5 @@ U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en 
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)
+[Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)  
+[Posten zoeken](ui-find-entries.md)  

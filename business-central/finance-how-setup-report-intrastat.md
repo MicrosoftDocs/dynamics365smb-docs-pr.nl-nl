@@ -1,6 +1,6 @@
 ---
 title: Intrastat instellen en rapporteren| Microsoft Docs
-description: Leren hoe u Intrastat-rapportagefuncties instelt en hoe u handel rapporteert met bedrijven in andere EU-landen.
+description: Leren hoe u Intrastat-rapportagefuncties instelt en hoe u handel rapporteert met bedrijven in andere EU-landen/regio's.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183521"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920519"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt de pagina **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
@@ -28,27 +28,27 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Intrastat-instellingen**: de pagina Intrastat-instellingen wordt gebruikt om Intrastat-rapportage in te schakelen en er standaarden voor in te stellen. U kunt opgeven of u Intrastat moet rapporteren vanuit verzendingen, ontvangsten (aankomsten) of beide, afhankelijk van drempelwaarden die door uw lokale verordeningen zijn ingesteld. U kunt ook standaardtransactiesoorten instellen voor normale en retourdocumenten, die worden gebruikt voor de aard van transactierapportage.
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
-* **Transactieaardcode**: landen en regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.  
+* **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.  
 * **Transportmethoden**: er zijn zeven eencijferige codes voor Intrastat-transportmethoden. **1** voor zee, **2** voor spoor, **3** voor weg, **4** voor lucht, **5** voor post, **7** voor vaste installaties en **9** voor eigen voortdrijving (bijvoorbeeld een auto verplaatsen door ermee te rijden). [!INCLUDE[d365fin](includes/d365fin_md.md)] vereist deze codes niet, maar we raden aan dat de beschrijvingen een soortgelijke betekenis hebben.  
 
 Eventueel kunt u ook het volgende instellen:
 
 * **Transactieomschrijvingen**: gebruik deze als aanvulling op de omschrijvingen van de transactiesoorten.  
-* **Districten**: gebruik deze om extra informatie te geven over landen en regio's.  
-* **Invoer-/uitvoerhavens**: gebruik deze om de vestigingen op te geven waar u artikelen naar wilt verzenden of wilt ontvangen naar of uit andere landen. De luchthaven Heathrow is een voorbeeld van een invoer-/uitvoerhaven. U voert invoer- of uitvoerhavens in op verkoop- of inkoopdocumenten op het sneltabblad **Buitenlandse handel**. Deze gegevens worden tevens gekopieerd van de artikelposten wanneer u het Intrastat-dagboek maakt.  
+* **Districten**: gebruik deze om extra informatie te geven over landen/regio's.  
+* **Invoer-/uitvoerhavens**: gebruik deze om de vestigingen op te geven waar u artikelen naar wilt verzenden of wilt ontvangen naar of uit andere landen/regio's. De luchthaven Heathrow is een voorbeeld van een invoer-/uitvoerhaven. U voert invoer- of uitvoerhavens in op verkoop- of inkoopdocumenten op het sneltabblad **Buitenlandse handel**. Deze gegevens worden tevens gekopieerd van de artikelposten wanneer u het Intrastat-dagboek maakt.  
 
 ### <a name="to-set-up-intrastat-templates-and-batches"></a>Intrastat-sjablonen en -batches instellen
-De Intrastat-batchtaken bevatten alleen artikelposten en geen grootboekposten. Als u grootboekposten hebt die in aanmerking komen voor Intrastat-rapportage, moet u deze handmatig invoeren. Als u bijvoorbeeld vanuit een ander EU-land/-regio een computer aanschaft, wordt de computer niet in de voorraad geplaatst, maar geboekt op een grootboekrekening. U moet handmatig dit soort post invoeren in het Intrastat-dagboek.  
+De Intrastat-batchtaken bevatten alleen artikelposten en geen grootboekposten. Als u grootboekposten hebt die in aanmerking komen voor Intrastat-rapportage, moet u deze handmatig invoeren. Als u bijvoorbeeld vanuit een ander EU-land/regio een computer aanschaft, wordt de computer niet in de voorraad geplaatst, maar geboekt op een grootboekrekening. U moet handmatig dit soort post invoeren in het Intrastat-dagboek.  
 
 U kunt de posten exporteren naar een bestand dat u aan de Intrastat-autoriteiten kunt verzenden. U kunt ook een rapport afdrukken, handmatig de informatie invoeren op de formulieren van uw autoriteiten en vervolgens de informatie indienen.
 
->  [!Note]
+> [!Note]
 > Wij raden u aan voor elke maand een Intrastat-dagboekbatch in te stellen.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeksjablonen** in en kies de desbetreffende koppeling.  
 2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Een sjabloon maken voor elk Intrastat-formulier dat u gebruikt.  
 3. Als u batches wilt maken, kiest u de actie **Batches**.  
-4. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Maak een sjabloon voor elk Intrastat-formulier dat u gebruikt.  
+4. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Een sjabloon maken voor elk Intrastat-formulier dat u gebruikt. 
 
 > [!Note]
 > In het veld **Statistiekperiode** voert u de statistiekperiode in als getal met vier cijfers. De eerste twee cijfers duiden het jaar aan, de laatste twee cijfers de maand. U kunt bijvoorbeeld 1706 invoeren voor juni 2017.
@@ -72,7 +72,7 @@ Alle artikelen die u koopt of verkoopt moeten een basisproductcode hebben.
 2. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Instellen welke Intrastat-rapportvelden verplicht zijn
-In sommige landen, zoals Spanje en het Verenigd Koninkrijk, vereist de belastingdienst dat Intrastat-rapporten bijvoorbeeld de verzendmethode bevatten voor inkopen of andere waarden wanneer de verkoop boven een bepaalde drempel ligt. Op de pagina **Intrastat-instelling** kunt u selecteren dat **Intrastat-controlelijst instellen** verplichte velden instelt op de pagina **Intrastat-dagboek**.
+In sommige landen/regio's, zoals Spanje en het Verenigd Koninkrijk, vereist de belastingdienst dat Intrastat-rapporten bijvoorbeeld de verzendmethode bevatten voor inkopen of andere waarden wanneer de verkoop boven een bepaalde drempel ligt. Op de pagina **Intrastat-instelling** kunt u selecteren dat **Intrastat-controlelijst instellen** verplichte velden instelt op de pagina **Intrastat-dagboek**.
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-instellingen** in en kies de desbetreffende koppeling.
 2. Kiest de actie **Intrastat-controlelijst instellen**.
@@ -120,6 +120,12 @@ Aangezien u elke maand een Intrastat-rapport moet indienen en u voor elk rapport
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Intrastat-dagboeken** in en kies de desbetreffende koppeling.  
 2. Als u de opties wilt zien, kiest u het veld **Batchnaam**.  
 3. Kies de journaalbatches die u wilt verwijderen en kies de knop **Verwijderen**.  
+
+## <a name="tariff-numbers"></a>Tariefcodes
+
+In veel landen/regio's hanteren de belastingdienst en de douane goederencodes van acht tekens voor verschillende artikelen. Om te zorgen dat artikelposten de benodigde informatie bevatten wanneer het programma ze importeert naar de Intrastat-dagboekregel, moet u de informatie hebben ingevoerd over de tariefcode op de pagina **Tariefcodes**. Zoek de codes voor de artikelen waar uw bedrijf in handelt en geef ze op de pagina **Tariefcodes** op.
+
+Voeg op de pagina **Tariefcodes** alle codes toe die u gebruikt. U moet de codes invoeren op de artikelkaart voordat u kunt beginnen met boeken. Als u de codes hebt ingesteld, voert u ze in het veld **Tariefnr.** op de artikelkaart in. U moet ook het veld **Nettogewicht** op de artikelkaart invullen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 

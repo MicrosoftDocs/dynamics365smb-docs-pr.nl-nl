@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186761"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917848"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
 Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
@@ -35,7 +35,7 @@ De volgende tabel bevat voorbeelden van de typen aanvragen waarop u kunt reagere
 Een gegevensonderwerp kan aanvragen dat u tijdelijk stopt met verwerking van de persoonlijke gegevens. Als u dergelijke aanvragen honoreert, kunt u de record van het gegevensonderwerp registreren als geblokkeerd vanwege privacy om de verwerking van de gegevens te stoppen. Wanneer een record als geblokkeerd is gemarkeerd, kunt u geen nieuwe transacties maken die de record gebruiken. Bijvoorbeeld, u kunt geen nieuwe factuur voor een klant maken wanneer de klant of de verkoper is geblokkeerd. Als u een gegevensonderwerp als geblokkeerd wilt markeren, opent u de kaart voor het gegevensonderwerp, bijvoorbeeld de klanten-, leveranciers- of contactkaart en schakelt u het selectievakje **Geblokkeerd vanwege privacy** in. U moet mogelijk **Meer tonen** kiezen om het veld weer te geven.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Aanvragen van gegevensonderwerpen afhandelen tijdens een proef
-Bepaalde soorten persoonlijke gegevens maken deel uit van uw Office 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbeschermingverordening. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant.  
+Bepaalde soorten persoonlijke gegevens maken deel uit van uw Microsoft 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbescherming. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant.  
 
 Als u een betaald abonnement voor [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt, moet u contact met de tenantbeheerder van uw organisatie opnemen om een aanvraag van een gegevensonderwerp te doen. De beheerder heeft de administratieve rechten en hulpmiddelen om uw aanvraag af te handelen.  
 

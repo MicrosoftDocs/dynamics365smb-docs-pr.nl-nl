@@ -1,6 +1,6 @@
 ---
-title: Verkoopraamcontracten maken | Microsoft Docs
-description: Gebruik raamcontracten als een klant ermee heeft ingestemd grote hoeveelheden te kopen die in meerdere kleinere zendingen moeten worden geleverd gedurende een bepaalde periode.
+title: Werken met verkoopraamcontracten of inkooporders
+description: Gebruik raamcontracten als een klant ermee heeft ingestemd grote hoeveelheden te kopen die in meerdere kleinere zendingen moeten worden geleverd gedurende een bepaalde periode. Hetzelfde geldt voor inkopen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2e5ed9ad2d85e011162eaf8706c41a0935a73e6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788972"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925919"
 ---
-# <a name="work-with-blanket-sales-orders"></a>Werken met verkoopraamcontracten
-Een verkoopraamcontract biedt een kader voor een langdurige overeenkomst tussen u en uw klant.
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Werken met verkoopraamcontracten of inkoopraamcontracten
+
+Een verkoopraamcontract biedt een kader voor een langdurige overeenkomst tussen u en uw klant. Evenzo gebruikt u inkoopraamcontracten om langetermijnovereenkomsten tussen u en uw leverancier te beheren.
 
 Een raamcontract wordt meestal gemaakt als uw klant ermee heeft ingestemd grote hoeveelheden aan te kopen die in meerdere kleinere zendingen moeten worden geleverd gedurende een bepaalde periode. Inkoopraamcontracten hebben vaak betrekking op slechts één artikel met vooraf vastgestelde leverdatums. De belangrijkste reden voor het gebruik van een raamcontract in plaats van een verkooporder is dat de ingevoerde hoeveelheden op een raamcontract niet van invloed op de artikelbeschikbaarheid en dus gebruikt kunnen worden als een werkblad voor controle, prognose en planningsdoeleinden.
 
@@ -94,7 +95,8 @@ De koppeling tussen het verkoopraamcontract en de oorspronkelijke verkooporder e
 5. Kies op de pagina **Verkoopregels** de actie **Document weergeven** om de post te bekijken.
 
 ## <a name="see-also"></a>Zie ook
-[Sales](sales-manage-sales.md)
+
+[Verkoop](sales-manage-sales.md)  
 [Afroepassemblyorders maken](assembly-how-to-create-blanket-assembly-orders.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

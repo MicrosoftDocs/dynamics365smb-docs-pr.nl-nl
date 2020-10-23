@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782065"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923817"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 
@@ -92,12 +92,19 @@ Deze leveranciers worden vervolgens weergegeven op de pagina **Artikelleverancie
 
 ## <a name="deleting-item-cards"></a>Artikelkaarten verwijderen
 
-Als u een transactie voor een artikel hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor voorraadwaardering of controle. Als u artikelkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.
+Als u een transactie voor een artikel hebt geboekt, kunt u de kaart niet verwijderen omdat de grootboekposten mogelijk nodig zijn voor voorraadwaardering of controle. Als u artikelkaarten met grootboekposten wilt verwijderen, neemt u contact op met de Microsoft-partner om dat via code te doen.  
+
+## <a name="manage-inventory-in-warehouses"></a>Voorraad beheren in magazijnen
+
+Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op magazijnbeheer, met name op het sneltabblad **Magazijn**. Als uw organisatie geen gebruik maakt van de magazijnbeheermogelijkheden in [!INCLUDE [prodshort](includes/prodshort.md)], kunt u die velden negeren.  
+
+Als uw organisatie later magazijnbeheer instelt, moet u in de meeste gevallen teruggaan naar elk bestaand artikel om er zeker van te zijn dat het de juiste informatie in de verschillende velden heeft, zodat de magazijnprocessen kunnen verlopen zoals verwacht. Deze informatie kan velden bevatten zoals **Magazijnklassecode** of **Opslagsjabloon**. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).  
 
 ## <a name="see-also"></a>Zie ook
 
 [Voorraad](inventory-manage-inventory.md)  
 [Maateenheden instellen](inventory-how-setup-units-of-measure.md)  
+[Tariefcodes](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Nummerreeksen maken](ui-create-number-series.md)  
 [Boekingsgroepen instellen](finance-posting-groups.md)  

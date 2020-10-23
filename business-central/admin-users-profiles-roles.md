@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786093"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922289"
 ---
 # <a name="manage-profiles"></a>Profielen beheren
 
@@ -67,7 +67,7 @@ Op de pagina **Mijn instellingen** kunnen gebruikers basisgedrag van hun account
 Als beheerder kunt u deze instelling voor een profiel definiëren en daarmee de instellingen toepassen op alle gebruikers van de gerelateerde rol.
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Profielen (rollen)** in en kies de desbetreffende koppeling.
-2. Selecteer de regel voor het profiel waarvoor u de gebruikersinstellingen wilt wijzigen, kies de actie **Navigeren** en kies vervolgens de actie **Persoonlijke gebruikersinstellingen**.
+2. Selecteer de regel voor het profiel waarvoor u de gebruikersinstellingen wilt wijzigen, kies de actie Navigeren en kies vervolgens de actie **Lijst persoonlijke gebruikersinstellingen**.
 3. Open op de pagina **Persoonlijke gebruikersinstellingen** de kaart voor de gebruiker van wie u de instellingen wilt wijzigen.
 4. Bewerk indien nodig op de pagina **Gebruikerspersonalisatiekaart** de velden.
 
@@ -139,7 +139,7 @@ U kunt ook afzonderlijke pagina-aanpassingen voor een profiel verwijderen. Zie v
 
 Als beheerder van [!INCLUDE[prodshort](includes/prodshort.md)] online kunt u gebruikerssessies beheren in het beheercentrum. Zie voor meer informatie [Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in de beheerinhoud.  
 
-Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kunt u sessies beheren met bijvoorbeeld SQL Server Management Studio. Zie voor meer informatie [Technische documentatie over SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kunt u sessies beheren met bijvoorbeeld SQL Server Management Studio. Zie voor meer informatie [Technische documentatie over SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Zie ook  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  

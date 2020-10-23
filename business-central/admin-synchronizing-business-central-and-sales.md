@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617701"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922439"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Gegevens synchroniseren in Business Central en Common Data Service
 
@@ -42,6 +42,9 @@ Wanneer synchronisatie is ingesteld, kunt u [!INCLUDE[d365fin](includes/d365fin_
 Entiteiten in [!INCLUDE[d365fin](includes/cds_long_md.md)], zoals accounts, zijn geïntegreerd met equivalente soorten entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals klanten. Als u wilt werken met [!INCLUDE[d365fin](includes/cds_long_md.md)]-gegevens, stelt u koppelingen in tussen entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 In de volgende tabel staat de standaardtoewijzing tussen entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] en [!INCLUDE[d365fin](includes/cds_long_md.md)] die [!INCLUDE[d365fin](includes/d365fin_md.md)] biedt.
+
+> [!TIP]
+> U kunt configuratiewijzigingen die zijn aangebracht in integratietabel- en veldtoewijzingen terugzetten naar hun standaardinstellingen door de toewijzingen te selecteren en vervolgens **Standaardsynchronisatie-instellingen gebruiken** te kiezen.
 
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synchronisatierichting | Standaardfilter |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|

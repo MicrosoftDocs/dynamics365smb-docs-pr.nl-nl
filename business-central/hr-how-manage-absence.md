@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1385545ffa32bbf321c90acf1f27b948a41c4644
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 42bd650cd3452be8c209e2ff12d1f5c06d6c4f21
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777663"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913610"
 ---
 # <a name="manage-employee-absence"></a>Werknemersafwezigheid beheren
 Als u de afwezigheid van een werknemer wilt beheren, moet u de afwezigheid registreren op de pagina **Afwezigheidsregistratie**. Het kan dan op verschillende manieren voor analyse- en rapportagedoeleinden worden weergegeven.

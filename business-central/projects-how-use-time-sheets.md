@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780332"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921364"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Urenstaten gebruiken voor projecten
 
@@ -113,6 +113,27 @@ Nadat u een urenstaat hebt goedgekeurd of geweigerd, kan deze niet meer worden g
     >   U kunt alleen regels met de status **Goedgekeurd** opnieuw openen. U kunt geen regels met de status **Afgewezen** opnieuw openen. U kunt een urenstaat niet opnieuw openen als deze is geboekt.  
 3. Kies op de pagina **Urenstaat** de actie **Opnieuw openen** en kies vervolgens de actie **Alle verzonden regels** om alle regels opnieuw te openen of kies de actie **Alleen geselecteerde regels** om alleen de regels opnieuw te openen die zijn geselecteerd op de pagina **Urenstaat**.
 4. Kies de knop **OK**. De status van de urenstaatregel of -regels verandert in **Verzonden**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Urenstaten per project bekijken en goedkeuren
+
+U kunt voor een project een persoon opgeven die verantwoordelijk is voor het project. Die gegevens worden gekoppeld aan urenstaatregels en kunnen worden gebruikt om een lijst met urenstaten te maken, die door een projectmanager moet worden gecontroleerd en goedgekeurd. De teamprojectmanager kan bijvoorbeeld verantwoordelijk zijn voor bepaalde projecten in uw bedrijf. In dat geval moet de manager worden aangewezen als de **Verantwoordelijke** op de projectkaart. In deze weergave met urenstaatinformatie ziet u de projecttaken die zijn gekoppeld aan een project en het aantal uren dat is verbruikt.
+
+> [!NOTE]
+> Om urenstaten te kunnen goedkeuren in het venster **Urenstaat manager op taak** moet u eerst een optie bij **Urenstaat op taakgoedkeuring** in het venster **Resource-instellingen** selecteren. Zie [Resources instellen](projects-how-setup-resources.md) voor meer informatie.
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Een urenstaat per project goedkeuren of weigeren
+
+1. Voer in het tekstvak **Zoeken** **Urenstaat manager op taak** in en kies vervolgens de gerelateerde koppeling. Microsoft Dynamics NAV geeft een lijst met urenregistratieregels weer die zijn gekoppeld aan de projecten waarvoor u verantwoordelijk bent.
+2. Kies op het tabblad **Start** de optie **Goedkeuren**. Kies **Alle** om alle regels goed te keuren. Kies **Geselecteerd** om alleen geselecteerde regels goed te keuren.
+
+    > [!NOTE]
+    > U kunt alleen urenstaten goedkeuren die de status **Ingediend** hebben.
+
+3. Voor meer informatie over de goedkeuring of weigering selecteert u een urenstaatregel en kiest u op het tabblad **Navigeren** de optie **Opmerkingen**. Voer in het veld **Datum** een datum in en voer vervolgens een opmerking in het veld **Opmerking** in.
+4. Kies de knop **OK**.
+
+> [!NOTE]
+> Nadat u een urenstaatregel per project hebt goedgekeurd of geweigerd, kan deze niet meer worden geopend of gewijzigd in het venster **Urenstaat**.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Urenstaatregels naar een resourcedagboek boeken
 Nadat u de urenstaatposten voor een resource hebt goedgekeurd, kunt u deze boeken naar het relevante resourcedagboek.
