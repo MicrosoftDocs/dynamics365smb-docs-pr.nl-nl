@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911943"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756339"
 ---
 # <a name="receive-items"></a>Artikelen ontvangen
 
@@ -123,7 +123,7 @@ Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvang
 2. Boek de ontvangst zoals u zou doen voor elke andere ontvangst.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] bevat geen functionaliteit om automatisch de financiële administratie van meerontvangsten te initiëren. U moet dit handmatig afhandelen in overleg met de leverancier, bijvoorbeeld doordat de leverancier een nieuwe of bijgewerkte factuur stuurt.
+> [!INCLUDE[prod_short](includes/prod_short.md)] bevat geen functionaliteit om automatisch de financiële administratie van meerontvangsten te initiëren. U moet dit handmatig afhandelen in overleg met de leverancier, bijvoorbeeld doordat de leverancier een nieuwe of bijgewerkte factuur stuurt.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Wanneer u een meerontvangst afhandelt, kunt u de waarde in het veld **Te ontvang
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

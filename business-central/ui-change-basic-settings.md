@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912668"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757639"
 ---
 # <a name="change-basic-settings"></a>Basisinstellingen wijzigen
 
-Op de pagina **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
+Op de pagina **Mijn instellingen** kunt u basisinstellingen bekijken en wijzigen voor [!INCLUDE[prod_short](includes/prod_short.md)]. De wijzigingen die u aanbrengt, hebben alleen invloed op uw werkruimte, niet op de werkruimten van andere gebruikers.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Rolcentrum
 Het rolcentrum vertegenwoordigt de startpagina, een startscherm dat is ontworpen voor de vereisten van een specifieke rol in een organisatie. Afhankelijk van uw rol krijgt u in het Rolcentrum een overzicht van het bedrijf, uw afdeling of uw persoonlijke taken. Het helpt u ook navigeren naar uw dagelijkse taken en werk te zoeken dat aan u is toegewezen.
@@ -35,7 +35,7 @@ De standaardrol is **Bedrijfsmanager**, maar u kunt een andere rol selecteren om
 3. Kies de knop **Ok**.
 
 ## <a name="company"></a><a name="company"></a>Bedrijf
-Een bedrijf werkt als een container voor gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
+Een bedrijf werkt als een container voor gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]. Een database kan meerdere bedrijven bevatten, maar er kan slechts één bedrijf tegelijk worden geselecteerd.
 
 Het standaardbedrijf heet CRONUS en bevat alleen demogegevens. U kunt een nieuw bedrijf met aangepaste gegevens maken. Zie [Nieuwe bedrijven](about-new-company.md) maken voor meer informatie.
 
@@ -80,9 +80,9 @@ De instelling bij **Regio** bepaalt de weergave of notatie van datums, tijden, n
 ## <a name="language"></a><a name="language"></a> Taal
 Wijzigt de weergavetaal. Dit veld wordt alleen weergegeven als uit meerdere talen kan worden gekozen.
 
-De aanvankelijke taal wordt bepaald door de beheerder of door uw browserinstellingen als u zich aanmeldt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. De taal die u instelt, wordt op alle apparaten gebruikt waarop u zich aanmeldt, zoals een telefoon of tablet.
+De aanvankelijke taal wordt bepaald door de beheerder of door uw browserinstellingen als u zich aanmeldt voor [!INCLUDE[prod_short](includes/prod_short.md)]. De taal die u instelt, wordt op alle apparaten gebruikt waarop u zich aanmeldt, zoals een telefoon of tablet.
 
-Extra talen voor [!INCLUDE[prodshort](includes/prodshort.md)] kunnen worden geïnstalleerd vanuit AppSource. Hoewel alle ondersteunde weergavetalen in de lijst worden weergegeven, moet de beheerder de relevante taal-app op de tenant installeren voordat gebruikers kunnen overschakelen naar de nieuwe taal in [!INCLUDE[prodshort](includes/prodshort.md)].  
+Extra talen voor [!INCLUDE[prod_short](includes/prod_short.md)] kunnen worden geïnstalleerd vanuit AppSource. Hoewel alle ondersteunde weergavetalen in de lijst worden weergegeven, moet de beheerder de relevante taal-app op de tenant installeren voordat gebruikers kunnen overschakelen naar de nieuwe taal in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-when-i-receive-notifications"></a>Wijzigen wanneer ik berichten ontvang
 Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt over bepaalde gebeurtenissen of statuswijzigingen, bijvoorbeeld wanneer u een klant wilt gaan factureren die een openstaand saldo heeft of wanneer de beschikbare voorraad lager is dan de hoeveelheid die u op het punt staat te verkopen. Zie voor meer informatie [Berichten beheren](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Klik op deze koppeling om de meldingen te zien of aan te passen die u ontvangt o
 
 ## <a name="see-also"></a>Zie ook
 [Nieuwe bedrijven maken](about-new-company.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914782"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756532"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Procedure: cashflow met behulp van rapportageschema's maken
 In dit scenario wordt beschreven hoe u rapportageschema's kunt maken maken van cashflowprognoses. Rapportageschema's voeren berekeningen uit die niet rechtstreeks in het schema met cashflowrekeningen kunnen worden uitgevoerd. In de rapportageschema's kunt u subtotalen voor cashflowontvangsten en -betalingen instellen. Deze subtotalen kunnen worden opgenomen in nieuwe totalen die vervolgens kunnen worden gebruikt bij het maken van cashflowprognoses.  
@@ -32,7 +32,7 @@ In deze procedure worden de volgende taken omschreven:
 ### <a name="prerequisites"></a>Vereisten  
 U moet het volgende doen om deze procedure uit te voeren:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] installeren.  
 - De cashflowvoorstelregels worden geregistreerd.  
 
 ## <a name="roles"></a>Rollen  
@@ -89,4 +89,4 @@ Ken kan nu de kolomindeling toewijzen aan de naam van het rapportageschema.
 ## <a name="see-also"></a>Zie ook  
  [Werken met rekeningschema's](bi-how-work-account-schedule.md)   
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

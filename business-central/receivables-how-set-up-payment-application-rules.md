@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926394"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758339"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Regels instellen voor automatische vereffening van betalingen
 
@@ -51,10 +51,10 @@ Behalve de afstemmingscriteria is het volgende van toepassing met betrekking tot
 |**Doc.nr./extern documentnr. afgestemd**|Hiermee wordt opgegeven of tekst op de regel van het betalingsreconciliatiedagboek moet overeenkomen met de waarde in het veld **Documentnummer** of het veld **Extern documentnummer** in de openstaande post voordat de vereffeningsregel wordt gebruikt om de betaling automatisch met de openstaande post te vereffenen.|
 |**Bedrag incl. tolerantie afgestemd**|Geeft aan hoeveel posten voor een klant of leverancier moeten overeenkomen met het bedrag inclusief betalingstolerantie voordat de vereffeningsregel wordt gebruikt om automatisch een betaling toe te passen op de openstaande post.|
 
-De volgende tabel laat zien welke betalingsvereffeningsregels zijn ingesteld in de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)].
+De volgende tabel laat zien welke betalingsvereffeningsregels zijn ingesteld in de algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> De regels voor betalingsvereffening kunnen in uw implementatie van [!INCLUDE[d365fin](includes/d365fin_md.md)] verschillen.
+> De regels voor betalingsvereffening kunnen in uw implementatie van [!INCLUDE[prod_short](includes/prod_short.md)] verschillen.
 
 | Zekerheid afstemming | Prioriteit | Gerelateerde partij afgestemd | Doc.nr./extern documentnr. Afgestemd | Bedrag incl. tolerantie afgestemd |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ De volgende tabel laat zien welke betalingsvereffeningsregels zijn ingesteld in 
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

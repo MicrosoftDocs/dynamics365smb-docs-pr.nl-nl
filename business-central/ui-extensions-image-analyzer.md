@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915132"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757239"
 ---
 # <a name="the-image-analyzer-extension"></a>De extensie Afbeeldingsanalyse
 
@@ -23,13 +23,13 @@ De extensie Afbeeldingsanalyse gebruikt krachtige afbeeldingsanalyse die wordt v
 
 Afbeeldingsanalyse stelt kenmerken voor op basis van tags die de Computer Vision-API vindt, en een vertrouwensniveau. Standaard worden alleen kenmerken voorgesteld als het ten minste 80% zeker is dat het kenmerk klopt. U kunt een ander vertrouwensniveau instellen, indien nodig. Als u meer wilt weten over hoe de tags en vertrouwensniveaus worden bepaald, raadpleegt u [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476)  
 
-De Afbeeldingsanalyse is gratis in [!INCLUDE[d365fin](includes/d365fin_md.md)], maar er is een limiet van het aantal artikelen dat u tijdens een periode kunt analyseren. Standaard kunt u 100 afbeeldingen per maand analyseren.
+De Afbeeldingsanalyse is gratis in [!INCLUDE[prod_short](includes/prod_short.md)], maar er is een limiet van het aantal artikelen dat u tijdens een periode kunt analyseren. Standaard kunt u 100 afbeeldingen per maand analyseren.
 
 Nadat u de extensie hebt ingeschakeld, wordt de Afbeeldingsanalyse steeds uitgevoerd wanneer u een afbeelding of contactpersoon importeert. U ziet direct de kenmerken, het vertrouwensniveau en de details en kunt besluiten wat er met elk kenmerk moet gebeuren. Als u afbeeldingen hebt geïmporteerd voordat u de Afbeeldingsanalyse hebt ingeschakeld, moet u naar de artikel- of contactpersoonkaarten gaan en de actie **Afbeelding analyseren** kiezen.  
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 
-Deze extensie gebruikt de Computer Vision API uit Microsoft Cognitive Services, die andere niveaus van nalevingsverplichtingen kan hebben dan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wanneer u de extensie Image Analyzer inschakelt, worden klantgegevens zoals een afbeelding van een contactpersoon of een artikel verzonden naar de Computer Vision API. Door deze extensie te installeren gaat u ermee akkoord dat deze beperkte set gegevens wordt verzonden naar de Computer Vision API. U kunt de extensie Image Analyzer altijd uitschakelen of verwijderen als u deze functionaliteit niet meer wilt gebruiken. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
+Deze extensie gebruikt de Computer Vision API uit Microsoft Cognitive Services, die andere niveaus van nalevingsverplichtingen kan hebben dan [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer u de extensie Image Analyzer inschakelt, worden klantgegevens zoals een afbeelding van een contactpersoon of een artikel verzonden naar de Computer Vision API. Door deze extensie te installeren gaat u ermee akkoord dat deze beperkte set gegevens wordt verzonden naar de Computer Vision API. U kunt de extensie Image Analyzer altijd uitschakelen of verwijderen als u deze functionaliteit niet meer wilt gebruiken. Zie voor meer informatie [Microsoft Vertrouwenscentrum](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Vereisten
 
@@ -41,7 +41,7 @@ Er zijn enkele vereisten voor de afbeeldingen:
 
 ## <a name="to-enable-image-analyzer"></a>Afbeeldingsanalyse inschakelen
 
-De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U hoeft het alleen in te schakelen.
+De extensie Afbeeldingsanalyse is ingebouwd in [!INCLUDE[prod_short](includes/prod_short.md)]. U hoeft het alleen in te schakelen.
 
 > [!NOTE]  
 > Als u de extensie Afbeeldinganalyse wilt inschakelen, moet u een beheerder zijn. Zorg ervoor dat aan u de machtigingenset **SUPER** is toegewezen.
@@ -102,5 +102,5 @@ U kunt het aantal analyses bekijken dat u hebt gedaan, en hoeveel u er in de hui
 ## <a name="see-also"></a>Zie ook
 
 [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
 [Aan de slag](product-get-started.md)  

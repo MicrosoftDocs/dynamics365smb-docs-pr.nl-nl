@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914857"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756514"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Procedure: Onderhanden werk voor een project berekenen
 
@@ -38,7 +38,7 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
  In deze procedure is projectteamlid Tricia de hoofdpersoon.  
 
 ## <a name="prerequisites"></a>Vereisten  
- Voordat u de stappen in dit overzicht kunt uitvoeren, moet [!INCLUDE[d365fin](includes/d365fin_md.md)] op uw computer zijn geïnstalleerd.  
+ Voordat u de stappen in dit overzicht kunt uitvoeren, moet [!INCLUDE[prod_short](includes/prod_short.md)] op uw computer zijn geïnstalleerd.  
 
 ## <a name="story"></a>Scenario  
  In dit scenario gaat het om het bedrijf CRONUS International Ltd., een design- en consultancyfirma die nieuwe infrastructuren ontwerpt (conferentiezalen en kantoren) en inricht met meubels, accessoires en opslagruimten. Het werk bij CRONUS is voor het grootste deel projectgericht en projectteamlid Tricia gebruikt projecten om een overzicht te krijgen van de lopende projecten waaraan CRONUS werkt en de projecten die zijn voltooid. De projecten kunnen soms tamelijk lang zijn en meerdere maanden lopen. Tricia gebruikt een OHW-rekening voor het vastleggen van het onderhanden werk en het bijhouden van de kosten gedurende het project.  
@@ -156,11 +156,11 @@ Met projecten kunt u het verbruik van de bedrijfsresources plannen en de diverse
     >  Stel Tricia OHW had berekend en geboekt voor een project met onjuiste datums. Volgens de methode die eerder werd beschreven, kan zij de onjuiste boekingen tegenboeken, de datums corrigeren en de boekingen opnieuw naar het grootboek posten.  
 
 ## <a name="next-steps"></a>Volgende stappen  
- In dit scenario heeft u de stappen doorgenomen voor het berekenen van OHW in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bij grotere projecten kan het handig zijn om de kosten periodiek over te dragen naar een OHW-rekening terwijl het project wordt voltooid. In dit overzicht hebt u gezien hoe u taakregels uitsluit van een berekening. Ook hebt u gezien wanneer u een herberekening moet uitvoeren. En tot slot dit wordt in dit scenario aangegeven hoe u de OHW naar het grootboek boekt. Ook is een voorbeeld opgenomen van hoe u een OHW-post naar het grootboek kunt tegenboeken.  
+ In dit scenario heeft u de stappen doorgenomen voor het berekenen van OHW in [!INCLUDE[prod_short](includes/prod_short.md)]. Bij grotere projecten kan het handig zijn om de kosten periodiek over te dragen naar een OHW-rekening terwijl het project wordt voltooid. In dit overzicht hebt u gezien hoe u taakregels uitsluit van een berekening. Ook hebt u gezien wanneer u een herberekening moet uitvoeren. En tot slot dit wordt in dit scenario aangegeven hoe u de OHW naar het grootboek boekt. Ook is een voorbeeld opgenomen van hoe u een OHW-post naar het grootboek kunt tegenboeken.  
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
  [Procedure: Projecten plannen](walkthrough-managing-projects-with-jobs.md)   
  [OHW-methoden](projects-understanding-wip.md)   
  [Voortgang en prestaties bewaken](projects-how-monitor-progress-performance.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

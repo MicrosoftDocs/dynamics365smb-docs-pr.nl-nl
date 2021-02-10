@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4073ccccd36f6ec62804a5c1bd1881fb4d7a167d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 845b552141f5637893bb0f0041b3247bce023c5f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926794"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758489"
 ---
 # <a name="record-purchases"></a>Inkopen vastleggen
 U maakt een inkoopfactuur of inkooporder om de kosten van inkopen vast te leggen en leveranciers te volgen. Als u voorraad moet controleren, worden inkoopfacturen en inkooporders ook gebruikt om voorraadniveaus dynamisch aan te passen zodat u uw voorraadkosten kunt beperken en betere klantenservice kunt bieden. De inkoopkosten, inclusief servicekosten en voorraadwaarden die resulteren uit boekingsinkoopfacturen of orders, dragen bij aan winstcijfers en andere financiële KPI's in het rolcentrum.
@@ -99,4 +99,4 @@ De inkoop wordt nu weerspiegeld in de voorraad, resourcejournalen en financiële
 [Artikelen kopen voor een verkoop](purchasing-how-purchase-products-sale.md)  
 [Nieuwe leveranciers registreren](purchasing-how-register-new-vendors.md)  
 [Doorverzendingen voorbereiden](sales-how-drop-shipment.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

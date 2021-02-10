@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbb343b77db3fed933d0c243d36b4707f979fe8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81f43ef3f021ef0d348eb14abdffdfda2b3d85fc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926593"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758389"
 ---
 # <a name="collect-outstanding-balances"></a>Openstaande saldi innen
 
@@ -38,7 +38,7 @@ Vanaf de klantenkaart kunt u een overzicht maken met de transacties van die klan
 
 ## <a name="reminders"></a>Aanmaningen
 
-Voor u aanmaningen kunt maken, moet u aanmaningscondities instellen en deze toewijzen aan uw klanten. Elke aanmaningsconditie heeft vooraf gedefinieerde aanmaningsniveaus. Elk aanmaningsniveau bevat regels over wanneer de aanmaning wordt verstuurd, bijvoorbeeld hoeveel dagen na de vervaldatum van de factuur of na het versturen van de vorige herinnering. De inhoud van de pagina **Rentefactuurtermijn** bepaalt of er rente in rekening wordt gebracht op de aanmaning.  
+Voor u aanmaningen kunt maken, moet u aanmaningscondities instellen en deze toewijzen aan uw klanten. Zie voor meer informatie [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] De inhoud van de pagina **Rentefactuurcondities** bepaalt of er rente in rekening wordt gebracht op de aanmaning.  
 
 U kunt de batchverwerking **Aanmaningen maken** periodiek uitvoeren om aanmaningen te maken voor alle klanten met achterstallige saldo's, of u kunt handmatig een aanmaning maken voor een specifieke klant en de regels automatisch laten uitrekenen en invullen.  
 
@@ -47,58 +47,6 @@ Nadat u de aanmaningen hebt gemaakt, kunt u ze aanpassen. De tekst die wordt afg
 Voor een klantpost waarbij het veld **Afwachten** is ingevuld wordt geen aanmaning gemaakt. Als er echter een aanmaning wordt gemaakt op basis van een andere post, wordt een wachtende post ook opgenomen op de aanmaning. Er wordt geen rente berekend op regels met deze posten.
 
 Nadat u aanmaningen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de aanmaningen versturen, meestal als e-mail.
-
-### <a name="to-set-up-reminder-terms"></a>U kunt aanmaningscondities als volgt instellen
-
-Als klanten betalingen hebben openstaan, moet u bepalen wanneer en hoe u hen wilt aanmanen. Daarnaast kunt u hun rekening eventueel debiteren met rente of kosten. U kunt zoveel aanmaningscondities instellen als u wilt. Voor elke aanmaningsconditiecode kunt u een onbeperkt aantal aanmaningsniveaus definiëren.
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies de gerelateerde koppeling.  
-2. Vul indien nodig de velden in.  
-3. Als u meer dan één combinatie van aanmaningscondities wilt gebruiken, stelt u een code in voor elke.
-
-### <a name="to-set-up-reminder-levels"></a>Aanmaningsniveaus volgt instellen
-
-De instelling van niveau 1 wordt gebruikt als er voor het eerst een aanmaning wordt gemaakt voor een klant. Wanneer de aanmaning wordt verstuurd, wordt het niveau geregistreerd in de aanmaningsposten die worden gemaakt en gekoppeld aan de individuele klantposten. Als het nodig is om de klant nog eens aan te manen, worden alle aanmaningposten die zijn gekoppeld aan open klantposten gecontroleerd op wat het hoogst gebruikte niveau is. De voorwaarden van het volgende niveau worden dan gebruikt voor de nieuwe aanmaning.
-
-Als u meer aanmaningen maakt dan waar u niveaus voor hebt gedefinieerd, worden de voorwaarden van het hoogste niveau gebruikt. U kunt zoveel aanmaning maken als ingesteld in het veld **Max. aantal aanmaningen** in de aanmaningscondities.
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Aanmaningscondities** in en kies de gerelateerde koppeling.  
-2. Selecteer op de pagina **Aanmaningscondities** de regel met de condities waarvoor u niveaus wilt instellen en kies vervolgens de actie **Niveaus**.  
-3. Vul indien nodig de velden in.  
-
-    Voor elk aanmaningsniveau kunt u afzonderlijke voorwaarden specificeren, waaronder extra kosten in zowel de lokale valuta als in vreemde valuta. U kunt allerlei toeslagen in vreemde valuta's definiëren voor elke code op de pagina **Aanmaningsniveaus**.
-4. Kies de actie **Valuta's**.
-5. Definieer op de pagina **Valuta's voor aanmaningsniveau** voor elke aanmaningsniveaucode en corresponderend aanmaningsniveaunummer een valutacode en een toeslag.
-
-    > [!NOTE]  
-    > De valutacondities die u hier hebt ingesteld, worden gebruikt wanneer u aanmaningen maakt in een vreemde valuta. Als u geen condities voor aanmaningen in vreemde valuta's hebt ingesteld, worden de condities die op de pagina **Aanmaningsniveau** zijn ingesteld, gebruikt en vervolgens omgerekend naar de betreffende valuta.
-
-    Voor elk aanmaningsniveau kunt u tekst specificeren die wordt afgedrukt vóór (**Begintekst**) of na (**Eindtekst**) in de posten op de aanmaning.
-
-6. Kies respectievelijk de acties **Begintekst** of **Eindtekst** en vul de pagina **Aanmaningstekst** in.
-7. Als u automatisch gerelateerde waarden in de resulterende aanmaningstekst wilt invoegen, voert u de volgende tijdelijke aanduidingen in het veld **Tekst** in.  
-
-|Tijdelijke aanduiding|Waarde|  
-|-----------------|-----------|  
-|%1|Inhoud van het veld **Documentdatum** in de aanmaningskop|  
-|%2|Inhoud van het veld **Vervaldatum** in de aanmaningskop|  
-|%3|Inhoud van het veld **Rente** in de relateerde rentefactuurcondities|  
-|%4|Inhoud van het veld **Restbedrag** in de aanmaningskop|  
-|%5|Inhoud van het veld **Rentebedrag** in de aanmaningskop|  
-|%6|Inhoud van het veld **Toeslag** in de aanmaningskop|  
-|%7|Het totaalbedrag van de aanmaning|  
-|%8|Inhoud van het veld **Aanmaningsniveau** in de aanmaningskop|  
-|%9|Inhoud van het veld **Valutacode** in de aanmaningskop|  
-|%10|Inhoud van het veld **Boekingsdatum** in de aanmaningskop|  
-|%11|De bedrijfsnaam|  
-|%12|Inhoud van het veld **Toeslag per regel** in de aanmaningskop|  
-
-Als u bijvoorbeeld schrijft **U bent %9 %7 verschuldigd op %2.**, bevat de resulterende aanmaning de volgende tekst: **U bent USD 1,200.50 verschuldigd op 02-02-2014**.
-
-> [!NOTE]
-> De vervaldatum wordt berekend op basis van de datumformule die u invoert. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#using-date-formulas).
-
-Nadat u de aanmaningscondities hebt ingesteld (met aanvullende niveaus en tekst), voert u een van de codes in op elke klantenkaart. Zie voor meer informatie [Nieuwe klanten registreren](sales-how-register-new-customers.md).
 
 ### <a name="to-create-a-reminder-automatically"></a>Automatisch een aanmaningen maken
 
@@ -174,58 +122,16 @@ Wanneer een klant niet op de vervaldatum betaalt, kunt u automatisch aanmaningsk
 > [!NOTE]  
 > U gebruikt rentefacturen om rente en aanmaningskosten te berekenen en om uw klanten hiervan op de hoogte te stellen zonder ze te herinneren aan achterstallige betalingen. U kunt ook rente berekenen op achterstallige betalingen wanneer u aanmaningen maakt.  
 
+Voordat u rentefacturen kunt maken, moet u condities instellen. Zie voor meer informatie [Rentefactuurcondities instellen](finance-setup-finance-charges.md).  
+
 U kunt handmatig rentefacturen maken voor een afzonderlijke klant en de regels automatisch in laten vullen. U kunt ook de functietaak **Rentefacturen maken** gebruiken om rentefacturen te maken voor alle of geselecteerde klanten met achterstallige saldo's.  
 
 Nadat u de rentefacturen hebt gemaakt, kunt u ze aanpassen. De tekst die wordt afgedrukt aan het begin of eind van de rentefactuur wordt bepaald door de rentefactuurtermijnen en kan worden bekeken in de kolom **Omschrijving** in de regels. Als een berekend bedrag automatisch is ingevoegd in de begin-, of eindtekst, wordt de tekst niet aangepast wanneer u regels verwijdert. In dat geval moet u de functie **Rentefactuurtekst bijwerken** gebruiken.  
 
 Nadat u de rentefacturen hebt gemaakt en eventuele aanpassingen hebt gedaan, kunt u testrapporten afdrukken of de rentefacturen versturen, meestal via e-mail.
 
-### <a name="to-set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
+### <a name="to-create-a-finance-charge-memo-manually"></a>Handmatig rentefacturen maken
 
-U moet een code instellen waarmee elke renteberekening wordt aangeduid. Vervolgens kunt u deze code opgeven in het veld **Rentefactuurconditie** op de leverancierskaarten.
-
-U berekent rentefacturen via de rentedagenmethode of de methode voor openstaande saldi.
-
-* Methode Openstaand bedrag
-
-    Bij de methode Openstaand bedrag is de rente gewoon een percentage van het openstaande bedrag:  
-    *Methode Openstaand bedrag* - *Rente* = *Openstaand bedrag* x *(rentepercentage/100)*
-
-*   Methode Rentedagen
-
-    Er wordt rekening gehouden met het aantal dagen dat de betalingstermijn is verstreken:  
-    *Methode Rentedagen* - *Rente* = *Openstaand bedrag* x *(Dagen overschreden/Renteperiode)* x *(Rentepercentage/100)*
-
-Elke code in de tabel Rentefactuurconditie is bovendien gekoppeld aan de subtabel Rentefactuurtekst. Voor elke set rentefactuurcondities kunt u een begin- en/of eindtekst definiëren die op de rentefactuur wordt opgenomen.
-
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefactuurcondities** in en kies de gerelateerde koppeling.  
-2. Vul indien nodig de velden in.
-3. Als u meer dan één combinatie van rentefactuurcondities wilt gebruiken, stelt u een code in voor elke.
-
-    Voor elk rentefactuurconditie kunt u afzonderlijke voorwaarden specificeren, waaronder extra kosten in zowel de lokale valuta als in vreemde valuta. U kunt allerlei toeslagen in vreemde valuta's definiëren voor elke code op de pagina **Rentefactuurcondities**.
-4. Kies de actie **Valuta's**.
-5. Op de pagina **Valuta's voor rentefactuurcondities** definieert u voor elke conditie een valutacode en een toeslag.
-
-    > [!NOTE]  
-    > Wanneer u aanmaningskosten in een vreemde valuta maakt, worden de vreemdevalutacondities die u instelt, gebruikt om rentefacturen te maken. Als u geen condities voor rentefactuurcondities in vreemde valuta's hebt ingesteld, worden de condities in de lokale valuta op de pagina **Rentefactuurcondities** gebruikt en omgerekend naar de betreffende valuta.
-
-    Voor elke rentefactuurconditie kunt u tekst opgeven die wordt afgedrukt vóór (**Begintekst**) of na (**Eindtekst**) in de posten op de rentefactuur.  
-6. Kies respectievelijk de acties **Begintekst** of **Eindtekst** en vul de pagina **Rentefactuurtekst** in.
-7. Als u automatisch gerelateerde waarden in de resulterende rentefactuurtekst wilt invoegen, voert u de volgende tijdelijke aanduidingen in het veld **Tekst** in.
-
-|Tijdelijke aanduiding|Waarde|  
-|-----------------|-----------|  
-|%1|Inhoud van het veld **Documentdatum** in de rentefactuurkoptekst|  
-|%2|Inhoud van het veld **Vervaldatum** in de rentefactuurkoptekst|  
-|%3|Inhoud van het veld **Rente** in de gerelateerde rentefactuurcondities|  
-|%4|Inhoud van het veld **Restbedrag** in de rentefactuurkoptekst|  
-|%5|Inhoud van het veld **Rentebedrag** in de rentefactuurkoptekst|  
-|%6|Inhoud van het veld **Toeslag** in de rentefactuurkoptekst|  
-|%7|Het totaalbedrag van de aanmaning|  
-|%8|Inhoud van het veld **Valutacode** in de rentefactuurkoptekst|  
-|%9|Inhoud van het veld **Boekingsdatum** in de rentefactuurkoptekst|  
-
-### <a name="to-create-a-finance-charge-memo-manually"></a>Handmatig rentefacturen maken  
 Een rentefactuur is te vergelijken met een factuur. U kunt een kop handmatig en de regels automatisch invullen of u kunt automatisch rentefacturen voor alle klanten maken.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefacturen** in en kies de desbetreffende koppeling.  
@@ -286,6 +192,8 @@ Wanneer u rentefactuurcondities instelt en aanmaningscondities, als sanctie voor
 
 ## <a name="see-also"></a>Zie ook
 
+[De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)  
+[Rentefactuurcondities instellen](finance-setup-finance-charges.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

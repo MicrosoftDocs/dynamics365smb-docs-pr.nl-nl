@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30976629fbee935ccefb15fafa11e38527eb922c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6d913681967bbe609a03d7d6a2736e9c86b4ce0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910627"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758164"
 ---
 # <a name="sell-products"></a>Producten verkopen
 
 U maakt een verkoopfactuur of een verkooporder om uw overeenkomst met een klant vast te leggen om bepaalde producten tegen bepaalde leverings- en betalingsvoorwaarden te verkopen.
 
 > [!NOTE]  
-> Gebruik verkooporders als uw verkoopproces vereist dat u delen van een orderhoeveelheid kunt verzenden, bijvoorbeeld omdat de volledige hoeveelheid niet in één keer beschikbaar is. Als u verkoopfacturen gebruikt, gaat [!INCLUDE [prodshort](includes/prodshort.md)] ervan uit dat u de volledige hoeveelheid verzendt wanneer u de factuur boekt. Als u artikelen verkoopt door rechtstreeks van uw leverancier bij de klant te leveren, als een doorverzending, moet u ook verkooporders gebruiken. Zie [Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie. Wat betreft alle andere aspecten werken verkooporders op dezelfde manier als verkoopfacturen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
+> Gebruik verkooporders als uw verkoopproces vereist dat u delen van een orderhoeveelheid kunt verzenden, bijvoorbeeld omdat de volledige hoeveelheid niet in één keer beschikbaar is. Als u verkoopfacturen gebruikt, gaat [!INCLUDE [prod_short](includes/prod_short.md)] ervan uit dat u de volledige hoeveelheid verzendt wanneer u de factuur boekt. Als u artikelen verkoopt door rechtstreeks van uw leverancier bij de klant te leveren, als een doorverzending, moet u ook verkooporders gebruiken. Zie [Doorverzendingen maken](sales-how-drop-shipment.md) voor meer informatie. Wat betreft alle andere aspecten werken verkooporders op dezelfde manier als verkoopfacturen. Zie [Verkopen factureren](sales-how-invoice-sales.md) voor meer informatie.
 
 U kunt met de klant onderhandelen door eerst een verkoopofferte te maken, die u kunt omzetten in een verkooporder wanneer er een overeenkomst is. Zie voor meer informatie [Verkoopoffertes maken](sales-how-make-offers.md).
 
@@ -132,4 +132,4 @@ Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het
 [De picklijst afdrukken](sales-how-print-picking-list.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910402"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757939"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Toewijzingsstatus en herstelstatus van serviceartikelen
 Tussen de herstelstatus van serviceartikelen en de toewijzingsstatus van de toewijzingsposten voor de serviceartikelen bestaat een bepaalde relatie in de module Servicebeheer. De toewijzingsstatus verandert wanneer u de herstelstatus van het serviceartikel wijzigt in **Gereedgemeld** of **Deels service verleend** en een serviceofferte omzet in een serviceorder. De herstelstatus van het serviceartikel verandert wanneer u de toewijzing van het serviceartikel wijzigt of het serviceartikel toewijst aan een andere resource. U kunt de herstelstatus van serviceartikelen bekijken op de pagina **Servicetaken** en bijwerken in het veld **Herstelstatuscode** op de pagina **Serviceartikelwerkbon**. U kunt de toewijzingsstatus bekijken in het veld **Status** op de pagina **Resourcetoewijzingen**.  
@@ -38,7 +38,7 @@ Wanneer u een serviceofferte omzet in een serviceorder, worden de serviceorder, 
 * Voor de serviceartikelen met de status **Actief** in de serviceorder wordt gezocht naar toewijzingsposten. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus van **Actief** gewijzigd in **Hertoewijzing vereist**.  
   
 ## <a name="canceling-allocations"></a>Toewijzingen annuleren  
-Wanneer u een toewijzing voor een serviceartikel annuleert, wordt de toewijzingsstatus van de bijbehorende toewijzingspost in [!INCLUDE[d365fin](includes/d365fin_md.md)] bijgewerkt van **Actief** in **Hertoewijzing vereist**:
+Wanneer u een toewijzing voor een serviceartikel annuleert, wordt de toewijzingsstatus van de bijbehorende toewijzingspost in [!INCLUDE[prod_short](includes/prod_short.md)] bijgewerkt van **Actief** in **Hertoewijzing vereist**:
 
 De herstelstatus van het serviceartikel in de toewijzingspost wordt als volgt bijgewerkt:  
   

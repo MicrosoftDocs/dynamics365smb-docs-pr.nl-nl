@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915307"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757864"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Serviceorders en creditnota's boeken
 Wanneer u een serviceorder hebt gemaakt, de benodigde gegevens hebt ingevuld en eventuele wijzigingen hebt aangebracht, kunt u de serviceorder boeken. De order moet minimaal één serviceartikelregel en één serviceregel bevatten voordat u deze kunt boeken. Als de order meer dan één serviceregel bevat, worden alle regels tegelijk geboekt.  
@@ -85,7 +85,7 @@ In de volgende procedure wordt beschreven hoe u de artikelen, resource-uren of -
 De service wordt nu als geheel of gedeeltelijk verbruikt geboekt, afhankelijk van de waarde in het veld **Te verbruiken aantal**, en de desbetreffende posten worden gemaakt. Bovendien worden de eerder geboekte serviceverzendingsdocumenten chronologisch bijgewerkt met de verbruikte aantallen. De desbetreffende aantallen worden bijgewerkt op de serviceregels van de order.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Verzendingen vanuit serviceorders boeken  
-Nadat u de details van een service hebt opgegeven, kunt u de aantallen aanpassen en boeken voor verbruikte artikelen, opgelopen kosten en tijd die is besteed. Naar aanleiding hiervan worden de noodzakelijke wijzigingen aangebracht in [!INCLUDE[d365fin](includes/d365fin_md.md)] om ervoor te zorgen dat de gegevens consistent zijn met de nieuwe voorraadstaat en met de huidige verwerkingsstaat van de desbetreffende order.  
+Nadat u de details van een service hebt opgegeven, kunt u de aantallen aanpassen en boeken voor verbruikte artikelen, opgelopen kosten en tijd die is besteed. Naar aanleiding hiervan worden de noodzakelijke wijzigingen aangebracht in [!INCLUDE[prod_short](includes/prod_short.md)] om ervoor te zorgen dat de gegevens consistent zijn met de nieuwe voorraadstaat en met de huidige verwerkingsstaat van de desbetreffende order.  
 
 De volgende procedure laat zien hoe u de verzending van serviceregelartikelen kunt boeken voor vestigingen waarvoor de magazijnverwerking niet vereist is.  
 
@@ -97,7 +97,7 @@ De volgende procedure laat zien hoe u de verzending van serviceregelartikelen ku
 
 4. Kies de actie **Boeken**. Kies de knop **Verzenden** op de pagina die wordt geopend.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] worden posten gemaakt (garantieposten, artikelposten, serviceposten of grootboekposten). Daarnaast wordt het geboekte serviceverzendingsdocument gemaakt en worden de betreffende velden op de serviceregels van de serviceorder bijgewerkt.  
 
 Als magazijnverwerking verplicht is voor de vestiging, dan verloopt het verzenden en verplaatsen van serviceregelartikelen net zoals bij andere brondocumenten. Het enige verschil is dat serviceregelartikelen extern of intern kunnen worden verbruikt, en er daarom twee verschillende functies vereist zijn voor het vrijgeven van orders.  
 
