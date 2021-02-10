@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22a1c640abe10a10466b7c4cd52c52551dae3de3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 027981dcd20f56f9df802e05a7603f50eb66373d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919893"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752487"
 ---
-# <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos"></a><span data-ttu-id="e7d5a-103">Documentbedragen bewerken in inkoopfacturen en creditnota's</span><span class="sxs-lookup"><span data-stu-id="e7d5a-103">Edit Document Amounts in Purchase Invoices and Credit Memos</span></span>
-<span data-ttu-id="e7d5a-104">Met [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.</span><span class="sxs-lookup"><span data-stu-id="e7d5a-104">[!INCLUDE[d365fin](../../includes/d365fin_md.md)] lets you easily edit document amounts in purchase invoices and credit memos.</span></span>  
+# <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos"></a><span data-ttu-id="8ddcf-103">Documentbedragen bewerken in inkoopfacturen en creditnota's</span><span class="sxs-lookup"><span data-stu-id="8ddcf-103">Edit Document Amounts in Purchase Invoices and Credit Memos</span></span>
+<span data-ttu-id="8ddcf-104">Met [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.</span><span class="sxs-lookup"><span data-stu-id="8ddcf-104">[!INCLUDE[prod_short](../../includes/prod_short.md)] lets you easily edit document amounts in purchase invoices and credit memos.</span></span>  
 
-## <a name="to-edit-document-amounts"></a><span data-ttu-id="e7d5a-105">Documentbedragen bewerken</span><span class="sxs-lookup"><span data-stu-id="e7d5a-105">To edit document amounts</span></span>  
+## <a name="to-edit-document-amounts"></a><span data-ttu-id="8ddcf-105">Documentbedragen bewerken</span><span class="sxs-lookup"><span data-stu-id="8ddcf-105">To edit document amounts</span></span>  
 
-1.  <span data-ttu-id="e7d5a-106">Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfactuur** of **Inkoopcreditnota** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="e7d5a-106">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** or **Purchase Credit Memo**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="e7d5a-107">Bewerk het documentbedrag in het veld **Documentbedrag incl. btw** en het veld **Btw documentbedrag**.</span><span class="sxs-lookup"><span data-stu-id="e7d5a-107">Edit the document amount in the **Doc. Amount Incl. VAT** field and the **Doc. Amount VAT** field.</span></span>  
+1.  <span data-ttu-id="8ddcf-106">Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfactuur** of **Inkoopcreditnota** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="8ddcf-106">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoice** or **Purchase Credit Memo**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="8ddcf-107">Bewerk het documentbedrag in het veld **Documentbedrag incl. btw** en het veld **Btw documentbedrag**.</span><span class="sxs-lookup"><span data-stu-id="8ddcf-107">Edit the document amount in the **Doc. Amount Incl. VAT** field and the **Doc. Amount VAT** field.</span></span>  
 
-<span data-ttu-id="e7d5a-108">Als u de actie **Periodieke inkoopregels ophalen** gebruikt om regels in te voegen op basis van een **Std. inkoopcode** en het aantal op de eerste regel 0 of 1 is en de kostprijs 0 is, vergelijkt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] het ingevoerde bedrag met het berekende totaalbedrag en wordt het verschil vereffend met de eerste regel die is ingevoegd.</span><span class="sxs-lookup"><span data-stu-id="e7d5a-108">If you use the **Get Recurring Purchase Lines** action to insert lines based on a **Standard Purchase Code**, if the quantity in the first line is 0 or 1 and the unit cost is 0, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] compares the amount entered with the calculated total amount and applies the difference to the first line that was inserted.</span></span> 
+<span data-ttu-id="8ddcf-108">Als u de actie **Periodieke inkoopregels ophalen** gebruikt om regels in te voegen op basis van een **Std. inkoopcode** en het aantal op de eerste regel 0 of 1 is en de kostprijs 0 is, vergelijkt [!INCLUDE[prod_short](../../includes/prod_short.md)] het ingevoerde bedrag met het berekende totaalbedrag en wordt het verschil vereffend met de eerste regel die is ingevoegd.</span><span class="sxs-lookup"><span data-stu-id="8ddcf-108">If you use the **Get Recurring Purchase Lines** action to insert lines based on a **Standard Purchase Code**, if the quantity in the first line is 0 or 1 and the unit cost is 0, [!INCLUDE[prod_short](../../includes/prod_short.md)] compares the amount entered with the calculated total amount and applies the difference to the first line that was inserted.</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="e7d5a-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="e7d5a-109">See Also</span></span>  
-<span data-ttu-id="e7d5a-110">[Periodieke verkoop- en inkoopregels maken](../../sales-how-work-standard-lines.md) </span><span class="sxs-lookup"><span data-stu-id="e7d5a-110">[Create Recurring Sales and Purchase Lines](../../sales-how-work-standard-lines.md) </span></span>  
-[<span data-ttu-id="e7d5a-111">Nederlandse lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="e7d5a-111">Netherlands Local Functionality</span></span>](netherlands-local-functionality.md)
+## <a name="see-also"></a><span data-ttu-id="8ddcf-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="8ddcf-109">See Also</span></span>  
+<span data-ttu-id="8ddcf-110">[Periodieke verkoop- en inkoopregels maken](../../sales-how-work-standard-lines.md) </span><span class="sxs-lookup"><span data-stu-id="8ddcf-110">[Create Recurring Sales and Purchase Lines](../../sales-how-work-standard-lines.md) </span></span>  
+[<span data-ttu-id="8ddcf-111">Nederlandse lokale functionaliteit</span><span class="sxs-lookup"><span data-stu-id="8ddcf-111">Netherlands Local Functionality</span></span>](netherlands-local-functionality.md)

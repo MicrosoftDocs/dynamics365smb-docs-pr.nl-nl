@@ -1,1 +1,1 @@
-<span data-ttu-id="9b560-101">[Training](/learn/browse/?products=dynamics-business-central) krijgen</span><span class="sxs-lookup"><span data-stu-id="9b560-101">Get [training!](/learn/browse/?products=dynamics-business-central)</span></span>
+<span data-ttu-id="06e76-101">[Training](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) krijgen</span><span class="sxs-lookup"><span data-stu-id="06e76-101">Get [training!](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)</span></span>
