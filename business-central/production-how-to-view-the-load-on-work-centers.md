@@ -10,26 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e1e3dd1f6e651d7490657f217b52513ba88792
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54b32e4befaf510c1c0d1714e580d4e7939be8a5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913243"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758889"
 ---
-# <a name="view-load-on-work-and-machine-centers"></a><span data-ttu-id="aa106-103">De werklast in afdelingen en bewerkingsplaatsen weergeven</span><span class="sxs-lookup"><span data-stu-id="aa106-103">View Load on Work and Machine Centers</span></span>
-<span data-ttu-id="aa106-104">Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.</span><span class="sxs-lookup"><span data-stu-id="aa106-104">In the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.</span></span>    
+# <a name="view-load-on-work-and-machine-centers"></a><span data-ttu-id="1440c-103">De werklast in afdelingen en bewerkingsplaatsen weergeven</span><span class="sxs-lookup"><span data-stu-id="1440c-103">View Load on Work and Machine Centers</span></span>
+<span data-ttu-id="1440c-104">Op de pagina's **Afdeling** en **Bewerkingsplaats** kunt u de werklast voor de shopfloor als gevolg van geplande en vrijgegeven productieorders bekijken.</span><span class="sxs-lookup"><span data-stu-id="1440c-104">In the **Work Center Card** and **Machine Center Card** pages, you can view the shop floor load as a result of planned and released production orders.</span></span>    
 
-## <a name="to-view-the-load-on-work-centers"></a><span data-ttu-id="aa106-105">De werklast voor afdelingen weergeven</span><span class="sxs-lookup"><span data-stu-id="aa106-105">To view the load on work centers</span></span>  
-1.  <span data-ttu-id="aa106-106">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="aa106-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="aa106-107">Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Werklast**.</span><span class="sxs-lookup"><span data-stu-id="aa106-107">Open the relevant **Work Center** card from the list, and then choose the **Load** action.</span></span>  
+## <a name="to-view-the-load-on-work-centers"></a><span data-ttu-id="1440c-105">De werklast voor afdelingen weergeven</span><span class="sxs-lookup"><span data-stu-id="1440c-105">To view the load on work centers</span></span>  
+1.  <span data-ttu-id="1440c-106">Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afdelingen** in en kies de gerelateerde koppeling.</span><span class="sxs-lookup"><span data-stu-id="1440c-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Work Centers**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="1440c-107">Open de betreffende kaart **Afdeling** in de lijst en kies de actie **Werklast**.</span><span class="sxs-lookup"><span data-stu-id="1440c-107">Open the relevant **Work Center** card from the list, and then choose the **Load** action.</span></span>  
 
-<span data-ttu-id="aa106-108">Met de velden **Weergeven per** en **Weergeven als** op het sneltabblad **Opties** kunt u de gewenste periode selecteren.</span><span class="sxs-lookup"><span data-stu-id="aa106-108">Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.</span></span>  
+<span data-ttu-id="1440c-108">Met de velden **Weergeven per** en **Weergeven als** op het sneltabblad **Opties** kunt u de gewenste periode selecteren.</span><span class="sxs-lookup"><span data-stu-id="1440c-108">Use the **View by** and **View as** fields on the **Options** FastTab to select the required period.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="aa106-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="aa106-109">See Also</span></span>  
-<span data-ttu-id="aa106-110">[Productie](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="aa106-110">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="aa106-111">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="aa106-111">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="aa106-112">[Gepland](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="aa106-112">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="aa106-113">Voorraad</span><span class="sxs-lookup"><span data-stu-id="aa106-113">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="aa106-114">Inkoop</span><span class="sxs-lookup"><span data-stu-id="aa106-114">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="aa106-115">[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="aa106-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="1440c-109">Zie ook</span><span class="sxs-lookup"><span data-stu-id="1440c-109">See Also</span></span>  
+<span data-ttu-id="1440c-110">[Productie](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="1440c-110">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="1440c-111">Productie instellen</span><span class="sxs-lookup"><span data-stu-id="1440c-111">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="1440c-112">[Gepland](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="1440c-112">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="1440c-113">Voorraad</span><span class="sxs-lookup"><span data-stu-id="1440c-113">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="1440c-114">Inkoop</span><span class="sxs-lookup"><span data-stu-id="1440c-114">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="1440c-115">[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1440c-115">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
