@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa24a1530d9e1d74e688f2ec9b44e1d615919c7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0195ea3cf635da2e0088e5f20b729017ced776d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924775"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753097"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>OCR gebruiken om PDF- en afbeeldingsbestanden te converteren naar elektronische documenten
-Vanuit PDF- of afbeeldingsbestanden die u ontvangt van uw handelspartners, kunt u elektronische documenten laten genereren door een externe OCR-service (Optical Character Recognition - optische tekenherkenning), die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Dit wordt in de eerste procedure beschreven.
+Vanuit PDF- of afbeeldingsbestanden die u ontvangt van uw handelspartners, kunt u elektronische documenten laten genereren door een externe OCR-service (Optical Character Recognition - optische tekenherkenning), die kunnen worden geconverteerd naar documentrecords in [!INCLUDE[prod_short](includes/prod_short.md)]. Bijvoorbeeld, wanneer u facturen in PDF-indeling van uw leverancier ontvangt, kunt u deze naar de OCR-service verzenden vanaf de pagina **Inkomende documenten**. Dit wordt in de eerste procedure beschreven.
 
 Als alternatief voor het verzenden van het bestand vanaf de pagina **Inkomende documenten**, kunt u het bestand naar de OCR-service sturen via e-mail. Wanneer u het elektronische document terug ontvangt, wordt automatisch een gerelateerde inkomende documentrecord gemaakt. Dit wordt in de tweede procedure beschreven.
 
@@ -50,35 +50,35 @@ Omdat er geen inkomende documentrecord bestaat voor het bestand, wordt automatis
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Het resulterende elektronische document ontvangen van de OCR-service
 Het elektronische document dat door de OCR-service van het PDF- of het afbeeldingsbestand wordt gemaakt, wordt automatisch ontvangen op de pagina **Inkomende documenten** door de verwerkingswachtrijpost die wordt ingesteld wanneer u de OCR-service inschakelt.
 
-Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt ontvangen dan volgens het verwerkingswachtrijschema wordt verwacht, kunt u de knop**Ontvangen van OCR-service**kiezen. Hiermee worden alle documenten opgehaald die door de OCR-service zijn voltooid.
+Als u geen verwerkingswachtrij gebruikt of een voltooid OCR-document eerder wilt ontvangen dan volgens het verwerkingswachtrijschema wordt verwacht, kunt u de knop **Ontvangen van OCR-service** kiezen. Hiermee worden alle documenten opgehaald die door de OCR-service zijn voltooid.
 
 > [!NOTE]  
 >   Als de OCR-service zo is ingesteld dat handmatige verificatie van verwerkte documenten is vereist, bevat het veld **OCR-status** de waarde **In afwachting van verificatie**. In dat geval voert u de volgende stappen uit om u aan te melden bij de website van de OCR-service om een OCR-document handmatig te verifiëren.
 
-1. Kies in het veld**OCR-status**de hyperlink **In afwachting van verificatie**.
+1. Kies in het veld **OCR-status** de hyperlink **In afwachting van verificatie**.
 2. Meld u bij de website van de OCR-service aan met de aanmeldgegevens van uw OCR-serviceaccount. Dit zijn de aanmeldgegevens die ook bij het instellen van de service worden gebruikt. Zie voor meer informatie [Een OCR-service instellen](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     De gegevens voor het OCR-document worden weergegeven met zowel de broninhoud van het PDF- of afbeeldingsbestand als de resulterende OCR-veldwaarden.
 3. Controleer handmatig de verschillende veldwaarden en bewerk of typ handmatig waarden in de velden die de OCR-service heeft gemarkeerd als onbepaald.
-4. Kies de knop **Ok**. Het OCR-proces is voltooid en het resulterende elektronische document wordt verzonden naar de pagina **Inkomende documenten** in [!INCLUDE[d365fin](includes/d365fin_md.md)] in overeenstemming met het verwerkingswachtrijschema.
+4. Kies de knop **Ok**. Het OCR-proces is voltooid en het resulterende elektronische document wordt verzonden naar de pagina **Inkomende documenten** in [!INCLUDE[prod_short](includes/prod_short.md)] in overeenstemming met het verwerkingswachtrijschema.
 5. Herhaal stap 4 voor elk ander OCR-document dat moet worden geverifieerd.
 
-U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords voor de ontvangen elektronische documenten in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie de volgende procedure voor meer informatie. U kunt ook de nieuwe inkomende documentrecord aan een bestaand geboekt of niet-geboekt document koppelen zodat het bronbestand gemakkelijk toegankelijk is vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie [Procedure: Inkomende documenten verwerken](across-process-income-documents.md) voor meer informatie.
+U kunt nu doorgaan met het, handmatig of automatisch, maken van documentrecords voor de ontvangen elektronische documenten in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie de volgende procedure voor meer informatie. U kunt ook de nieuwe inkomende documentrecord aan een bestaand geboekt of niet-geboekt document koppelen zodat het bronbestand gemakkelijk toegankelijk is vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie [Procedure: Inkomende documenten verwerken](across-process-income-documents.md) voor meer informatie.
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Een inkoopfactuur op basis van een elektronisch document ontvangen van de OCR-service maken
 Met de volgende procedure wordt beschreven hoe u een inkoopfactuurrecord maakt op basis van een leveranciersfactuur die is ontvangen als een elektronisch document van de OCR-service. De procedure is hetzelfde wanneer u bijvoorbeeld een dagboekregel van een kostenontvangst maakt of een verkoopretourorder van een klant.
 
 > [!NOTE]  
->   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt deze toewijzing als artikelkruisverwijzingen uitvoeren, voor documentregels van het type Artikel. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md). U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie [Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account) voor meer informatie.
+>   De velden **Omschrijving** en **Nr.** op de gemaakte documentregels worden alleen ingevuld als u eerst tekst die is gevonden in het OCR-document, hebt toegewezen aan de twee velden in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt deze toewijzing als artikelkruisverwijzingen uitvoeren, voor documentregels van het type Artikel. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md). U kunt ook de functie Toewijzing tekst aan rekening gebruiken. Zie [Tekst in een inkomend document toewijzen aan een bepaalde leveranciers-, grootboek- of bankrekening](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account) voor meer informatie.
 
 1. Selecteer de regel voor het inkomende document en kies de actie **Document maken**.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen. Gegevens worden in de nieuwe inkoopfactuur ingevoegd op basis van de toewijzing die u als kruisverwijzing of als toewijzing van tekst aan rekening hebt opgegeven.
+In [!INCLUDE[prod_short](includes/prod_short.md)] wordt een inkoopfactuur gemaakt gebaseerd op de gegevens in het elektronische leveranciersdocument dat u van de OCR-service hebt ontvangen. Gegevens worden in de nieuwe inkoopfactuur ingevoegd op basis van de toewijzing die u als kruisverwijzing of als toewijzing van tekst aan rekening hebt opgegeven.
 
-Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie [Fouten afhandelen bij de ontvangst van elektronische documenten](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents) voor meer informatie.
+Eventuele validatiefouten, die meestal worden veroorzaakt door onjuiste of ontbrekende mastergegevens in [!INCLUDE[prod_short](includes/prod_short.md)], worden weergegeven op het sneltabblad **Fouten en waarschuwingen**. Zie [Fouten afhandelen bij de ontvangst van elektronische documenten](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents) voor meer informatie.
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Tekst in een inkomend document aan een bepaalde leveranciersrekening toewijzen
-Voor inkomende documenten gebruikt u meestal de actie **Tekst toewijzen aan rekening**om te definiëren daten bepaalde tekst op een leveranciersfactuurontvangen van OCR-service, is toegewezen aan een bepaalde leveranciersrekening. In elk onderdeel van de omschrijving van het binnenkomende document dat als een toewijzingstekst aanwezig is, wordt in het veld**Nr.** in het resulterende document of de resulterende dagboekregels van het soort grootboekrekening ingevuld met de desbetreffende leverancier.
+Voor inkomende documenten gebruikt u meestal de actie **Tekst toewijzen aan rekening** om te definiëren daten bepaalde tekst op een leveranciersfactuurontvangen van OCR-service, is toegewezen aan een bepaalde leveranciersrekening. In elk onderdeel van de omschrijving van het binnenkomende document dat als een toewijzingstekst aanwezig is, wordt in het veld **Nr.** in het resulterende document of de resulterende dagboekregels van het soort grootboekrekening ingevuld met de desbetreffende leverancier.
 
 U kunt niet alleen aan een leveranciersrekening of aan grootboekrekeningen toewijzen, maar ook aan een bankrekening. Dit is bijvoorbeeld handig voor elektronische documenten voor kosten die al zijn betaald en waarvoor u een dagboekregel wilt maken die kan worden geboekt naar een bankrekening.
 
@@ -95,7 +95,7 @@ U kunt niet alleen aan een leveranciersrekening of aan grootboekrekeningen toewi
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Fouten afhandelen bij de ontvangst van elektronische documenten
 1. Selecteer op de pagina **Inkomende documenten** de regel voor een elektronisch document dat met fouten is ontvangen van de OCR-service. Dit wordt aangegeven door de waarde Fout in het veld **OCR-status**.
-2. Kies de actie **Bewerken**om de pagina **Inkomende documenten** te openen.
+2. Kies de actie **Bewerken** om de pagina **Inkomende documenten** te openen.
 3. Selecteer op het sneltabblad **Fouten en waarschuwingen** het bericht en kies vervolgens de actie **Gerelateerde record openen**.
 4. De pagina die de verkeerde of ontbrekende gegevens bevat, zoals een leverancierskaart waarop een veldwaarde ontbreekt, wordt geopend.
 5. Corrigeer de fout of fouten zoals in elke foutmelding wordt beschreven.
@@ -121,4 +121,4 @@ De velden op het sneltabblad **Financiële informatie** op de pagina **Inkomende
 [Inkomende documenten verwerken](across-process-income-documents.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

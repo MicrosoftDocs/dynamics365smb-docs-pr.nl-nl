@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925344"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755714"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
 
 > [!NOTE]
-> De oplossing Automated Data Capture System (ADCS) biedt [!INCLUDE[d365fin](includes/d365fin_md.md)] een manier om te communiceren met draagbare apparaten via webservices. U moet samenwerken met een Microsoft-partner die de koppeling tussen de webservice en het specifieke draagbare apparaat kan verzorgen. 
+> De oplossing Automated Data Capture System (ADCS) biedt [!INCLUDE[prod_short](includes/prod_short.md)] een manier om te communiceren met draagbare apparaten via webservices. U moet samenwerken met een Microsoft-partner die de koppeling tussen de webservice en het specifieke draagbare apparaat kan verzorgen. 
 
 Met het ADCS-systeem kunt u alle verplaatsingen van artikelen in het magazijn registreren. Bovendien worden sommige dagboekactiviteiten vastgelegd, waaronder voorraadmutaties in het artikeldagboek van magazijnen en inventarisaties. ADCS omvat meestal scannen van een barcode.
 
@@ -28,7 +28,7 @@ Als u ADCS wilt gebruiken, moet u elk artikel dat in het magazijn is opgeslagen 
 
 Op basis van de magazijnbehoeften bepaalt u welke informatie wordt weergegeven in het miniformulier dat op het draagbare apparaat verschijnt. Hier volgen enkele voorbeelden van informatie die kan worden weergegeven:  
 
-- Gegevens uit tabellen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals een lijst van de pickdocumenten waaruit de gebruiker kan selecteren.  
+- Gegevens uit tabellen binnen [!INCLUDE[prod_short](includes/prod_short.md)], zoals een lijst van de pickdocumenten waaruit de gebruiker kan selecteren.  
 - Tekstgegevens.  
 - Berichten die bevestigingen of fouten weergeven over activiteiten die zijn uitgevoerd en geregistreerd door de gebruiker van draagbare apparatuur .
 
@@ -121,4 +121,4 @@ Wanneer u een miniform hebt gemaakt, volgt u de volgende stappen om functies te 
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968382"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754464"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Power BI-rapporten maken voor het weergeven van lijstgegevens in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-In [!INCLUDE[prodlong](includes/prodlong.md)] is in een aantal belangrijke lijstpagina's het besturingselement Feitenblok opgenomen, waarmee lezers van het rapport extra inzicht kunnen krijgen in de gegevens in de lijst. Wanneer u tussen rijen in de lijst verplaatst, wordt het rapport bijgewerkt en voor de geselecteerde post gefilterd. U kunt aangepaste rapporten maken om in dit besturingselement weer te geven. Er zijn echter een paar regels die u moet volgen om ervoor te zorgen dat rapporten werken zoals verwacht.  
+In [!INCLUDE[prod_long](includes/prod_long.md)] is in een aantal belangrijke lijstpagina's het besturingselement Feitenblok opgenomen, waarmee lezers van het rapport extra inzicht kunnen krijgen in de gegevens in de lijst. Wanneer u tussen rijen in de lijst verplaatst, wordt het rapport bijgewerkt en voor de geselecteerde post gefilterd. U kunt aangepaste rapporten maken om in dit besturingselement weer te geven. Er zijn echter een paar regels die u moet volgen om ervoor te zorgen dat rapporten werken zoals verwacht.  
 
 ## <a name="prerequisites"></a>Vereisten
 
 - Een Power BI-account.
 - Power BI Desktop.
 
-Zie [[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md) voor meer informatie om aan de slag te gaan.
+Zie [[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md) voor meer informatie om aan de slag te gaan.
 
 ## <a name="defining-the-report-data-set"></a>De rapportgegevensset definiëren
 
@@ -42,7 +42,7 @@ Als u een filter voor het rapport wilt definiëren, selecteert u de primaire sle
 
 ## <a name="setting-the-report-size-and-color"></a>De rapportgrootte en kleur instellen
 
-De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Deze grootte is vereist voor een juiste schaling van het rapport in de beschikbare ruimte van het Power BI-besturingselement Feitenblok in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
+De grootte van het rapport moet worden ingesteld op 325 bij 310 pixels. Deze grootte is vereist voor een juiste schaling van het rapport in de beschikbare ruimte van het Power BI-besturingselement Feitenblok in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de grootte van het rapport wilt definiëren, plaatst u de focus buiten het rapportlay-outgebied en kiest u vervolgens het pictogram met de verfroller.
 
 ![De breedte en hoogte van het rapport instellen voor het rapport Verkoopfactuuractiviteit](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Met Power BI kunt u één rapport met meerdere pagina's maken. Voor rapporten di
 
 Geef het rapport een naam die de naam bevat van de lijstpagina die aan het rapport is gekoppeld. Is het rapport bijvoorbeeld gemaakt voor de lijstpagina **Verkoper**, neem dan het woord *verkoper* op in de naam.  
 
-Deze naamgevingsconventie is geen vereiste. Deze zorgt er echter wel voor dat gebruikers de gewenste rapporten sneller kunnen selecteren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Wanneer de rapportselectiepagina wordt geopend vanuit een lijstpagina, wordt de lijst met rapporten automatisch gefilterd op basis van de paginanaam. De rapporten worden gefilterd om het aantal weergegeven rapporten te beperken. Gebruikers kunnen het filter ook verwijderen als ze de volledige lijst met rapporten die beschikbaar zijn in Power BI, willen bekijken.  
+Deze naamgevingsconventie is geen vereiste. Deze zorgt er echter wel voor dat gebruikers de gewenste rapporten sneller kunnen selecteren in [!INCLUDE[prod_short](includes/prod_short.md)]. Wanneer de rapportselectiepagina wordt geopend vanuit een lijstpagina, wordt de lijst met rapporten automatisch gefilterd op basis van de paginanaam. De rapporten worden gefilterd om het aantal weergegeven rapporten te beperken. Gebruikers kunnen het filter ook verwijderen als ze de volledige lijst met rapporten die beschikbaar zijn in Power BI, willen bekijken.  
 
 ## <a name="fixing-problems"></a>Problemen oplossen
 
@@ -85,7 +85,7 @@ Controleer of de grootte van het rapport is ingesteld op 325 x 310 pixels. Sla h
 ## <a name="see-also"></a>Zie ook
 
 [Uw bedrijfsgegevens inschakelen voor Power BI](admin-powerbi.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] gebruiken als Power BI-gegevensbron](across-how-use-financials-data-source-powerbi.md)  
 [Aan de slag](product-get-started.md)  
-[Instellen van [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Instellen van [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Financiën](finance.md)  

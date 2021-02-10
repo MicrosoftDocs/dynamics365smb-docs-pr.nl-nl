@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915882"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754789"
 ---
 # <a name="create-workflows"></a>Werkstromen maken
 U kunt werkstromen maken om bedrijfsprocestaken te verbinden die door verschillende gebruikers worden uitgevoerd. Systeemtaken, zoals automatische boekingen, kunnen als stappen in werkstromen worden opgenomen, die worden voorafgegaan of gevolgd door gebruikerstaken. Het aanvragen en verlenen van goedkeuringen om nieuwe records te maken, zijn voorbeelden van veelvoorkomende werkstroomstappen.  
 
 Op de pagina **Werkstroom** kunt u een werkstroom maken door de betrokken stappen te vermelden op de regels. Elke stap bestaat uit een werkstroomgebeurtenis, aangepast door gebeurteniscondities, en een werkstroomantwoord met antwoordopties. U definieert werkstroomregels door velden op werkstroomregels te vullen vanuit lijsten met vaste gebeurtenis- en reactiewaarden die scenario's vertegenwoordigen die worden ondersteund door de toepassingscode.  
 
-Wanneer u werkstromen maakt, kunt u de stappen van bestaande werkstromen of van werkstroomsjablonen kopiëren. Werkstroomsjablonen vertegenwoordigen niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] bestaan. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd hebben het voorvoegsel "MS-", zoals in "MS-PIW". Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
+Wanneer u werkstromen maakt, kunt u de stappen van bestaande werkstromen of van werkstroomsjablonen kopiëren. Werkstroomsjablonen vertegenwoordigen niet-bewerkbare werkstromen die in de algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] bestaan. De code voor werkstroomsjablonen die door Microsoft worden toegevoegd hebben het voorvoegsel "MS-", zoals in "MS-PIW". Zie voor meer informatie [Werkstromen maken van werkstroomsjablonen](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet worden ondersteund, moet een Microsoft-partner ze implementeren door de toepassingscode aan te passen.  
 
@@ -59,8 +59,8 @@ Als uw bedrijfsscenario werkstroomgebeurtenissen of -reacties vereist die niet w
         |**Afzender informeren**|Geef op of de aanvrager van de goedkeuring op de hoogte wordt gebracht in plaats van de ontvanger van de goedkeuringsaanvraag. Als u het selectievakje inschakelt, wordt het veld **Gebruikers-id ontvanger** uitgeschakeld omdat de aanvrager van de goedkeuring, de afzender, wordt geïnformeerd in plaats van de ontvanger. De naam van de werkstroomreactie verandert dienovereenkomstig in **Maak een bericht voor &lt;afzender&gt;**. Als het selectievakje niet is ingeschakeld, is de naam van de werkstroomreactie **Maak een bericht voor &lt;gebruiker&gt;**.
         |**Gebruikers-id ontvanger**|Geef de gebruiker op die de melding moet ontvangen. Opmerking: deze optie is alleen beschikbaar voor werkstroomantwoorden met een tijdelijke aanduiding voor een bepaalde gebruiker. Voor werkstroomantwoorden zonder tijdelijke aanduidingen voor gebruikers, wordt de meldingsontvanger meestal bepaald door de goedkeuringsgebruikersinstelling.|  
         |**Type berichtitem**|Geeft aan of het werkstroombericht wordt geactiveerd door een recordwijziging, een goedkeuringsverzoek of een verstreken vervaldatum.|
-        |**Doelpagina van koppeling**|Geef een andere pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] op die de koppeling in het bericht opent in plaats van de standaardpagina.<br /><br />De pagina moet dezelfde brontabel moet hebben als de betrokken record.|  
-        |**Aangepaste koppeling**|Geef de URL op van een koppeling die wordt toegevoegd aan de melding naast de koppeling naar een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Doelpagina van koppeling**|Geef een andere pagina in [!INCLUDE[prod_short](includes/prod_short.md)] op die de koppeling in het bericht opent in plaats van de standaardpagina.<br /><br />De pagina moet dezelfde brontabel moet hebben als de betrokken record.|  
+        |**Aangepaste koppeling**|Geef de URL op van een koppeling die wordt toegevoegd aan de melding naast de koppeling naar een pagina in [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Als u opties voor een werkstroomantwoord wilt opgeven waarbij het gaat om het maken van een goedkeuringsaanvraag, vult u de velden in de volgende tabel in.  
 
         |Veld|Description|  

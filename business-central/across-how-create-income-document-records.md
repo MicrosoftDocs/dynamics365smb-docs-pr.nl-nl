@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919712"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753289"
 ---
 # <a name="create-incoming-document-records"></a>Inkomende documentrecords maken
 Op de pagina **Inkomende documenten** kunt u verschillende functies gebruiken om onkostenbewijzen te controleren, OCR-taken te beheren en inkomende documentbestanden handmatig of automatisch te converteren naar de relevante documenten of dagboekregels. De externe bestanden kunnen worden gekoppeld in elke procesfase, inclusief naar geboekte documenten en naar de resulterende leverancier, klant en grootboekposten.
 
-Als u een extern document wilt registreren in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u eerst een inkomende documentrecord maken of voltooien. U kunt dit handmatig doen of u kunt een foto van het externe document maken en vervolgens de inkomende documentrecord maken met het afbeeldingsbestand bijgevoegd.
+Als u een extern document wilt registreren in [!INCLUDE[prod_short](includes/prod_short.md)], moet u eerst een inkomende documentrecord maken of voltooien. U kunt dit handmatig doen of u kunt een foto van het externe document maken en vervolgens de inkomende documentrecord maken met het afbeeldingsbestand bijgevoegd.
 
 Voordat u de functie Inkomende documenten gebruikt, moet u de benodigde instellingen uitvoeren. Zie voor meer informatie [Inkomende documenten instellen](across-how-setup-income-documents.md).
 
@@ -36,7 +36,7 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Een inkomende documentrecord maken door een foto te maken
 > [!NOTE]  
->   De volgende procedure geldt alleen voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet- en Telefoon-client.
+>   De volgende procedure geldt alleen voor de [!INCLUDE[prod_short](includes/prod_short.md)] Tablet- en Telefoon-client.
 
 1. Kies op de app-balk de tegel **Inkomend document maken van camera** en ga vervolgens naar stap 4.
 2. U kunt ook op de app-bar de optieknop kiezen, **Inkomende documenten** kiezen en **Alle** kiezen.
@@ -47,7 +47,7 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Een afbeelding aan een inkomende documentrecord koppelen door een foto te maken
 > [!NOTE]  
->   De volgende procedure geldt alleen voor de [!INCLUDE[d365fin](includes/d365fin_md.md)] Tablet- en Telefoon-client.
+>   De volgende procedure geldt alleen voor de [!INCLUDE[prod_short](includes/prod_short.md)] Tablet- en Telefoon-client.
 
 1. Kies op de app-bar de optieknop, kies **Inkomende documenten** en kies **Alle**.
 2. Open de kaart voor een bestaande inkomende documentrecord.
@@ -69,4 +69,4 @@ Als u de inkomende documentrecord goedkeurt, wordt het selectievakje **Vrijgegev
 [Inkomende documenten verwerken](across-process-income-documents.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

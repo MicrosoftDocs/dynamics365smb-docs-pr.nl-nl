@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923142"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756039"
 ---
 # <a name="create-bin-contents"></a>Opslaglocatie-inhoud maken
 
@@ -33,7 +33,7 @@ Selecteer het veld **Vast** indien nodig. Indien de opslaglocatie als standaardo
 
 Als u met gestuurde opslag en pick werkt en via de artikelkaart de juiste gegevens hebt ingevoerd over de maateenheden van elk artikel, wordt het maximumaantal dat u opgeeft op de pagina **Opslaglocatie-inhoud** automatisch vergeleken met de fysieke capaciteit van de opslaglocatie. Vervolgens worden de minimum- en maximumwaarden gebruikt bij het berekenen van aanvullingen en bij het maken van opslagvoorstellen.  
 
-Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. Dit betekent dat [!INCLUDE[d365fin](includes/d365fin_md.md)] zal proberen het artikel in de opslaglocatie te plaatsen als er ruimte voor is. Bovendien blijft de record behouden waarin het artikel is gekoppeld aan de opslaglocatie, ook als het aantal in de opslaglocatie 0 is. Andere artikelen kunnen in de opslaglocatie worden opgeslagen, ook als een bepaald artikel aan de opslaglocatie is toegewezen.  
+Als u het veld **Vast** selecteert, koppelt u het artikel aan de opslaglocatie. Dit betekent dat [!INCLUDE[prod_short](includes/prod_short.md)] zal proberen het artikel in de opslaglocatie te plaatsen als er ruimte voor is. Bovendien blijft de record behouden waarin het artikel is gekoppeld aan de opslaglocatie, ook als het aantal in de opslaglocatie 0 is. Andere artikelen kunnen in de opslaglocatie worden opgeslagen, ook als een bepaald artikel aan de opslaglocatie is toegewezen.  
 
 > [!NOTE]  
 > U kunt de inhoud van meerdere opslaglocaties tegelijkertijd instellen op de pagina **Voorstel opslaglocatie-inhoudaanmaak**.  
@@ -65,4 +65,4 @@ In dit voorstel werkt u met een aantal regels voor de inhoud van verschillende o
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
 [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

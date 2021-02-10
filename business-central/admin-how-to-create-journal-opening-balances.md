@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915757"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753964"
 ---
 # <a name="create-journal-opening-balances"></a>Beginsaldi van dagboeken maken
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat verschillende batchverwerkingen die u helpen bij de overdracht van oude rekeningsaldi naar een nieuw geconfigureerd bedrijf. U kunt deze gegevens eenvoudig overbrengen met het klantendagboek, leveranciersdagboek, artikeldagboek of financieel dagboek.
 
 De eerste stap is het maken van een configuratiepakket dat de instellingentabellen voor deze dagboeken bevat. In de volgende procedure wordt ervan uitgegaan dat deze stap is voltooid. Zie [Bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md) voor meer informatie. In de procedure worden de daaropvolgende stappen beschreven, waaronder de toepassing van het pakket dat wordt geleverd door een partner.  
 
@@ -44,7 +44,7 @@ Voordat u begint, moet u ervoor zorgen dat u de rolcentrumpagina Beheer gebruikt
 10. Herhaal de stappen voor het importeren en boeken van andere beginsaldi.  
 
 > [!TIP]
-> U kunt dezelfde batchtaken gebruiken om beginsaldi toe te voegen wanneer u een nieuwe klant of leverancier registreert waarmee u eerder zaken hebt gedaan, maar niet geregistreerd in [!INCLUDE [prodshort](includes/prodshort.md)]. Zoek gewoon naar de relevante taak en kies vervolgens de relevante koppeling.
+> U kunt dezelfde batchtaken gebruiken om beginsaldi toe te voegen wanneer u een nieuwe klant of leverancier registreert waarmee u eerder zaken hebt gedaan, maar niet geregistreerd in [!INCLUDE [prod_short](includes/prod_short.md)]. Zoek gewoon naar de relevante taak en kies vervolgens de relevante koppeling.
 
 ## <a name="see-also"></a>Zie ook
 
