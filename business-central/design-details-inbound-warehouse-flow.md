@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922139"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751552"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
 De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.  
@@ -35,7 +35,7 @@ De laatste twee vertegenwoordigen inkomende stromen naar het magazijn vanuit int
 
 Processen en UI-documenten in inkomende magazijnstromen zijn verschillend voor standaard- en geavanceerde magazijnconfiguraties. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd in standaardmagazijnconfiguraties en dat ze worden samengevoegd voor meerdere orders in geavanceerde magazijnconfiguraties. Voor meer informatie over de verschillende niveaus van de magazijncomplexiteit raadpleegt u [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-setup.md).  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
 
 |Methode|Inkomend proces|Opslaglocaties|Ontvangsten|Magazijnopslag|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923717"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746263"
 ---
 # <a name="set-up-units-of-measure"></a>Maateenheden instellen
 
-Als onderdeel van het opzetten van uw [!INCLUDE [prodshort](includes/prodshort.md)] stelt u algemene maateenheden in op de pagina **Maateenheden**. Wanneer u vervolgens nieuwe artikelen registreert, specificeert u de basismaateenheid op de **artikelkaart**. Maar u kunt later ook maateenheden toevoegen.  
+Als onderdeel van het opzetten van uw [!INCLUDE [prod_short](includes/prod_short.md)] stelt u algemene maateenheden in op de pagina **Maateenheden**. Wanneer u vervolgens nieuwe artikelen registreert, specificeert u de basismaateenheid op de **artikelkaart**. Maar u kunt later ook maateenheden toevoegen.  
 
 U kunt meerdere eenheden voor een artikel instellen zodat u eenheden kunt toewijzen aan het artikel voor de volgende doeleinden:
 
@@ -50,9 +50,9 @@ Wanneer u een nieuw artikel registreert, kunt u de basismaateenheid kiezen uit d
 5. Kies de actie **Nieuw**. Een nieuwe lege regel wordt ingevoegd.
 6. Voer in het veld **Code** de naam van de eenheid in. Of kies het veld waaruit u de eenheidscodes in de database wilt selecteren.
 7. Voer in het veld **Aantal per eenheid** in hoeveel eenheden van de basismaateenheid de nieuwe maateenheid bevat.
-8. In de velden **Hoogte**, **Breedte**, **Lengte** en **Gewicht** kunt u de exacte gegevens voor één maateenheid opgeven. Vervolgens kan [!INCLUDE [prodshort](includes/prodshort.md)] berekenen hoeveel er van ieder artikel in een bepaalde opslaglocatie kan worden geplaatst. Het veld **Kubieke inhoud** wordt automatisch berekend op basis van **Hoogte**, **Breedte** en **Lengte**.
+8. In de velden **Hoogte**, **Breedte**, **Lengte** en **Gewicht** kunt u de exacte gegevens voor één maateenheid opgeven. Vervolgens kan [!INCLUDE [prod_short](includes/prod_short.md)] berekenen hoeveel er van ieder artikel in een bepaalde opslaglocatie kan worden geplaatst. Het veld **Kubieke inhoud** wordt automatisch berekend op basis van **Hoogte**, **Breedte** en **Lengte**.
 
-    Als een van deze velden een andere waarde dan 0 bevat, wordt die maat gebruikt tijdens alle processen waarbij artikelen in een opslaglocatie worden geplaatst: opslag, verplaatsingen, ontvangsten, zendingen, picks en aanpassingen. [!INCLUDE [prodshort](includes/prodshort.md)] controleert het totaal van elke fysieke maat van de artikelen die worden opgeslagen en de artikelen die al in de opslaglocatie aanwezig zijn, en vergelijkt dit met de maximale grootte of andere maat die in een opslaglocatie past, volgens het capaciteitsbeleid voor de opslaglocatie dat is geselecteerd op de vestigingskaart voor dit artikel. Met andere woorden, u moet voor elke dimensie voor alle artikelmaateenheden dezelfde maateenheid gebruiken - gebruik bijvoorbeeld kilogram of pond voor gewicht, maar wees consistent.
+    Als een van deze velden een andere waarde dan 0 bevat, wordt die maat gebruikt tijdens alle processen waarbij artikelen in een opslaglocatie worden geplaatst: opslag, verplaatsingen, ontvangsten, zendingen, picks en aanpassingen. [!INCLUDE [prod_short](includes/prod_short.md)] controleert het totaal van elke fysieke maat van de artikelen die worden opgeslagen en de artikelen die al in de opslaglocatie aanwezig zijn, en vergelijkt dit met de maximale grootte of andere maat die in een opslaglocatie past, volgens het capaciteitsbeleid voor de opslaglocatie dat is geselecteerd op de vestigingskaart voor dit artikel. Met andere woorden, u moet voor elke dimensie voor alle artikelmaateenheden dezelfde maateenheid gebruiken - gebruik bijvoorbeeld kilogram of pond voor gewicht, maar wees consistent.
 9. Herhaal stap 5 t/m 7 om alle alternatieve eenheden in te stellen die u in verschillende processen voor dit artikel wilt gebruiken.
 
     In het veld **Basiseenheid** onder in het venster kunt u de basiseenheid van het artikel weergeven of wijzigen. U kunt ook de basiseenheden wijzigen in het veld **Basiseenheid** op de artikelkaart. Op de pagina **Artikeleenheden** moet de basismaateenheid de waarde **1** hebben in het veld **Aantal per maateenheid**.
@@ -86,4 +86,4 @@ Als u doorgaans in andere eenheden dan de basiseenheid inkoopt of verkoopt, kunt
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Inkopen beheren](purchasing-manage-purchasing.md)  
 [Verkopen beheren](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

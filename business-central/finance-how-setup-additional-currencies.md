@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920544"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746888"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Een extra rapportagevaluta instellen.
 Aangezien bedrijven steeds vaker in andere landen/regio's opereren, is het belangrijk dat zij de financiële gegevens in meer dan één valuta kunnen controleren en rapporteren.
 
-Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een huidige wisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[d365fin](includes/d365fin_md.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten.
+Uw grootboek is ingesteld om uw lokale valuta (LV) te gebruiken, maar u kunt het ook instellen om een andere valuta te gebruiken, waaraan een huidige wisselkoers is toegewezen. Door een tweede valuta in te stellen als een zogenaamde aanvullende rapportagevaluta, legt [!INCLUDE[prod_short](includes/prod_short.md)] bedragen automatisch vast in zowel de LV als deze aanvullende rapportagevaluta voor elke grootboekpost en andere posten, zoals btw-posten.
 
 > [!Warning]
 > De functie Extra rapportagevaluta mag niet worden gebruikt als basis voor de vertaling van een financieel overzicht. Het is geen programma dat een vertaling kan uitvoeren van financiële overzichten van buitenlandse dochterondernemingen als onderdeel van een bedrijfsconsolidatie. De extra rapportagevalutafunctie kan alleen worden gebruikt om rapporten in een andere valuta voor te bereiden, alsof die valuta de lokale valuta van het bedrijf was.
@@ -59,7 +59,7 @@ Volg deze stappen om een extra rapportagevaluta in te stellen:
 |**Verschillenrekening (Verlies)**|De grootboekrekening waarnaar verschilbedragen (verlies) worden geboekt als u in de lokale valuta en de rapportagevaluta boekingen uitvoert in de module Financieel.|
 
 > [!NOTE]  
->  Verschillenbedragen kunnen ontstaan wanneer [!INCLUDE[d365fin](includes/d365fin_md.md)] debet- en creditbedragen afrondt die omgerekend zijn van de LV naar een extra rapportagevaluta.  
+>  Verschillenbedragen kunnen ontstaan wanneer [!INCLUDE[prod_short](includes/prod_short.md)] debet- en creditbedragen afrondt die omgerekend zijn van de LV naar een extra rapportagevaluta.  
 
 U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekening worden gecorrigeerd bij wisselkoersschommelingen tussen de LV en de extra rapportagevaluta.  
 
@@ -98,7 +98,7 @@ U moet voor elke grootboekrekening opgeven hoe grootboekbedragen voor die rekeni
 ### <a name="to-activate-the-additional-reporting-currency"></a>De extra rapportagevaluta activeren  
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Grootboek instellen** in en kies de desbetreffende koppeling.  
 2. Kies op de pagina **Boekhoudinstellingen** het veld **Extra rapportagevaluta** om de extra valuta te selecteren die u voor de rapportage wilt gebruiken.  
-3. Wanneer u het veld verlaat, geeft [!INCLUDE[d365fin](includes/d365fin_md.md)] een bevestigingsbericht weer waarin de effecten worden beschreven die het activeren van de rapportagevaluta tot gevolg heeft.  
+3. Wanneer u het veld verlaat, geeft [!INCLUDE[prod_short](includes/prod_short.md)] een bevestigingsbericht weer waarin de effecten worden beschreven die het activeren van de rapportagevaluta tot gevolg heeft.  
 4. Kies de knop **Ja** om te bevestigen dat u de valuta wilt activeren.  
 5. De batchtaak **Rapp.-val. herwaarderen** wordt geopend.
 
@@ -126,4 +126,4 @@ Bovendien hebben alle toekomstige posten van hetzelfde type bedragen in zowel de
 ## <a name="see-also"></a>Zie ook
 [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)  
 [Afsluitingsjaren en -perioden](year-close-years-periods.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

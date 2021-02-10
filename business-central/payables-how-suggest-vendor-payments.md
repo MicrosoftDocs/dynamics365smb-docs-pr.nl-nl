@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8a18e56af1edde2dfef116ca3545c7d511e6bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 96db04d8bc647b16b3d615132ce68e5f094bf273
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916722"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749165"
 ---
 # <a name="suggest-vendor-payments"></a>Leveranciersbetalingen voorstellen
 Op de pagina **Betalingsdagboek** kunt u door middel van de batchverwerking **Leveranciersbetalingen voorstellen** betalingsregels laten voorstellen. Regels voor betalingen die binnenkort moeten worden betaald, of betalingen waarbij een contantkorting beschikbaar is, worden weergegeven op basis van de instellingen.
@@ -56,4 +56,4 @@ U kunt eventueel handmatig betalingsregels maken, waarbij de vervaldatum wordt g
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Betalingen uitvoeren](payables-make-payments.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

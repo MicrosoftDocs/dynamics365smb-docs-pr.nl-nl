@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917898"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752697"
 ---
 # <a name="configure-new-companies"></a>Nieuwe bedrijven configureren
 Als u een nieuw bedrijf in uw oplossingimplementatie wilt configureren, volgt u doorgaans drie fasen. In de eerste fase importeert u het configuratiepakket. Dit is een .rapidstart-bestand met de configuratie-informatie. In de tweede fase wijzigt u de configuratiegegevens en past u deze vervolgens toe op uw nieuwe bedrijf. In de laatste fase controleert en corrigeert u fouten.  
@@ -31,7 +31,7 @@ Voordat u een configuratiepakket importeert, is het een goed idee om te controle
 * De gebruiker die het configuratiepakket importeert, heeft effectieve machtigingen voor invoegen en wijzigen voor alle tabellen die door het pakket worden bijgewerkt. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie 
 
 ## <a name="to-import-a-configuration-package"></a>Een configuratiepakket importeren  
-1. Open het nieuwe bedrijf in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
+1. Open het nieuwe bedrijf in de [!INCLUDE[prod_short](includes/prod_short.md)]-database.  
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en selecteer de desbetreffende koppeling.  
 3. Kies de actie **Pakket importeren**.  
 4. Navigeer naar de locatie waar u het .rapidstart-configuratiepakketbestand hebt opgeslagen, en kies vervolgens de knop **Openen**.  

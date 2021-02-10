@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915482"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750127"
 ---
 # <a name="set-up-intercompany"></a>Intercompany instellen
+
 Als u een transactie (zoals een verkoopdagboekregel) wilt verzenden vanaf een bedrijf en de bijbehorende transactie (zoals een inkoopdagboekregel) automatisch wilt maken in het partnerbedrijf, moeten de betrokken bedrijven afspreken welk rekeningschema en welke set dimensies ze willen gebruiken voor IC-transacties. Het IC-rekeningschema kan bijvoorbeeld een vereenvoudigde versie van het rekeningschema van het moederbedrijf zijn. Elk bedrijf koppelt het volledige rekeningschema aan het gedeelde IC-rekeningschema, en elk bedrijf koppelt de dimensies aan de IC-dimensies.  
 
 U moet ook een IC-partnercode instellen voor elk partnerbedrijf, waarover alle bedrijven het eens zijn, en deze vervolgens toewijzen aan klant- en leverancierskaarten respectievelijk door het veld **IC-partnercode** in te vullen.  
@@ -36,7 +37,7 @@ Als u IC-verkooptransacties uitvoert waarin resources zijn opgenomen, moet u het
 3. Vul op de pagina **IC-partner** indien nodig de velden in.
 
 > [!NOTE]
-> In [!INCLUDE[d365fin](includes/d365fin_md.md)] online kunt u geen bestandslocaties gebruiken om transacties over te brengen naar uw partners omdat [!INCLUDE[d365fin](includes/d365fin_md.md)] geen toegang heeft tot uw lokale netwerk. Daarom is als u **Bestandslocatie** kiest in het veld **Overdrachtstype**, het veld **Pad naar map** niet beschikbaar. In plaats daarvan wordt het bestand gedownload naar de map Downloads op uw computer. U kunt het bestand vervolgens bijvoorbeeld per e-mail naar iemand in het partnerbedrijf sturen. Voor een directer proces raden we u aan om geen bestandslocatie maar de optie **E-mail** te kiezen.
+> In [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u geen bestandslocaties gebruiken om transacties over te brengen naar uw partners omdat [!INCLUDE[prod_short](includes/prod_short.md)] geen toegang heeft tot uw lokale netwerk. Daarom is als u **Bestandslocatie** kiest in het veld **Overdrachtstype**, het veld **Pad naar map** niet beschikbaar. In plaats daarvan wordt het bestand gedownload naar de map Downloads op uw computer. U kunt het bestand vervolgens bijvoorbeeld per e-mail naar iemand in het partnerbedrijf sturen. Voor een directer proces raden we u aan om geen bestandslocatie maar de optie **E-mail** te kiezen.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>IC-leveranciers en IC-klanten instellen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.
@@ -90,7 +91,11 @@ Wanneer u nu een grootboekrekening opgeeft in het veld **Tegenrekeningnr.** op e
 3. Herhaal stap 2 voor elke rekening die u vaak invoert in het veld **Tegenrekeningnr.** op een regel in een IC-dagboek of -document.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>IC-dimensies instellen
+
 Als u en uw IC-partners transacties willen uitwisselen waaraan dimensies zijn gekoppeld, moet u afspreken welke IC-dimensies u allemaal gebruikt. Het moederbedrijf van de groep kan bijvoorbeeld een vereenvoudigde versie van zijn dimensieset maken, deze IC-dimensies exporteren naar een XML-bestand en dit verspreiden onder de bedrijven in de groep. Alle dochterbedrijven importeren het XML-bestand vervolgens naar de pagina **IC-dimensies** en koppelen de IC-dimensies aan de dimensies op hun eigen pagina **Dimensies**.  
+
+> [!NOTE]
+> Elk bedrijf in [!INCLUDE [prod_short](includes/prod_short.md)] moet dimensies toewijzen aan intercompany-dimensies voor uitgaande documenten, en intercompany-dimensies toewijzen aan hun eigen dimensies voor inkomende documenten. Deze toewijzing zorgt voor consistentie tussen de bedrijven. Zie voor meer informatie de sectie [IC-dimensies koppelen aan dimensies van uw bedrijf](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Als uw bedrijf het hoofdbedrijf is en de definiërende set IC-dimensies heeft die uw groep gaat gebruiken als gemeenschappelijke naslag, volgt u de procedure [De IC-dimensies definiëren](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ Wanneer een bestand bestaat voor de definiërende IC-dimensies, kunnen IC-partne
 De regels op de pagina **IC-dimensies** en de pagina **IC-dimensiewaarden** worden geïmporteerd.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>IC-dimensies koppelen aan dimensies van uw bedrijf
-Wanneer u de dimensies hebt gedefinieerd of geïmporteerd die u en uw IC-partners hebben afgesproken te gebruiken, moet u elk van de IC-dimensies koppelen aan een van de dimensies van uw bedrijf en vice versa. Geef op de pagina **IC-dimensies** op hoe IC-dimensies voor inkomende transacties worden vertaald in dimensies uit de lijst met dimensies van uw bedrijf. Op de pagina **Dimensie** geeft u op hoe uw dimensies worden vertaald in IC-dimensies voor uitgaande transacties.
+Wanneer u de dimensies hebt gedefinieerd of geïmporteerd die u en uw IC-partners hebben afgesproken te gebruiken, moet u elk van de IC-dimensies koppelen aan een van de dimensies van uw bedrijf en vice versa. Geef op de pagina **IC-dimensies** op hoe IC-dimensies voor *inkomende transacties* worden vertaald in dimensies uit de lijst met dimensies van uw bedrijf. Op de pagina **Dimensies** geeft u op hoe uw dimensies worden vertaald in IC-dimensies voor *uitgaande transacties*.
 
-Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in de lijst met dimensies van uw bedrijf, kunt u de dimensies automatisch koppelen en vervolgens de rekeningen automatisch toewijzen.
+Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in de lijst met dimensies van uw bedrijf, kunt u de dimensies automatisch koppelen en vervolgens de rekeningen automatisch toewijzen.  
+
+In de volgende stappen wijst u eerst intercompany-dimensies toe aan dimensies voor inkomende documenten op de pagina **Intercompany-dimensies**. Vervolgens wijst u dimensies toe aan intercompany-dimensies voor uitgaande documenten op de pagina **Dimensies**.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-dimensies** in en kies de desbetreffende koppeling.
 2. Selecteer op de pagina **IC-dimensies** de regels die u automatisch wilt koppelen en kies vervolgens de actie **Koppelen aan dim. met dezelfde code**.
@@ -133,8 +140,9 @@ Als IC-dimensies dezelfde code hebben als de corresponderende dimensies in de li
 10. Vul op de pagina **IC-dimensiewaarden** het veld **Toegewezen IC-dim.waardecode** in.
 
 ## <a name="see-also"></a>Zie ook
+
 [Intercompany-transacties beheren](intercompany-manage.md)  
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

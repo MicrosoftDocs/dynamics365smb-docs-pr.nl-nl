@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75c3c6a59e951052f59f4100688ace92af16b50f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922966"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750227"
 ---
 # <a name="register-employees"></a>Werknemers registreren
 Als u de Human Resources-functionaliteit wilt gebruiken, moet u eerst elke werknemer registreren door een kaart met alle kern- en bijbehorende gegevens te maken.
@@ -59,5 +59,5 @@ U kunt alternatieve adressen gebruiken om uw werknemers te traceren, als deze bi
 ## <a name="see-also"></a>Zie ook
 [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)

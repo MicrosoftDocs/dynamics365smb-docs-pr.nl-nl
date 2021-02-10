@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 095daa34ee8a956da8245f4e02c3bd438ba277fb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b3c9b79701296cd21492752e94b2a0ec7848658b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924000"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746313"
 ---
 # <a name="about-item-types"></a>Over artikeltypen
 In het veld **Soort** op de pagina **Artikel** kunt u selecteren waarvoor het artikel in uw bedrijf wordt gebruikt en dus hoe het wordt beheerd in het systeem. Er zijn drie opties:
@@ -57,4 +57,4 @@ Artikelen van klanten waaraan u onderhoud verricht, zoals een printer, worden se
 [Voorraad instellen](inventory-setup-inventory.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

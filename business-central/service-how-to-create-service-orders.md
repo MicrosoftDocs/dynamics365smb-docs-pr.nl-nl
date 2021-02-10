@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918685"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748040"
 ---
 # <a name="create-service-orders"></a>Serviceorders maken
 Op de pagina **Serviceorder** kunt u documenten maken waarin u op aanvraag van de klant voor serviceartikelen gegevens invoert over een service, als bijvoorbeeld herstel en onderhoud.  
@@ -52,7 +52,7 @@ U kunt automatisch serviceorders voor het onderhoud van serviceartikelen maken o
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Een serviceofferte omzetten in een serviceorder
 Wanneer een klant een servicecontractofferte heeft geaccepteerd, zet u deze om in een serviceorder. De offerte wordt verwijderd en er wordt een nieuwe serviceorder ingesteld met dezelfde omschrijving als de serviceofferte. De responsdatum en -tijd worden opnieuw berekend voor de serviceorder en de status van de serviceorder wordt ingesteld op **In behandeling**. De herstelstatus van de serviceartikelen in de order wordt gewijzigd in **Eerste**.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt gezocht naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
+In [!INCLUDE[prod_short](includes/prod_short.md)] wordt gezocht naar toewijzingsposten voor alle serviceartikelen met de status **Actief** in de serviceofferte. Als dergelijke toewijzingsposten worden gevonden, wordt de toewijzingsstatus gewijzigd in **Hertoewijzing vereist**. Wanneer u de serviceartikelen in de serviceorder opnieuw toewijst, wordt de status van de geregistreerde toewijzingsposten voor de order gewijzigd in **Gereedgemeld**.   
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontractoffertes** in en kies de desbetreffende koppeling.  
 2. Kies de serviceofferte die u wilt omzetten in een serviceorder.  

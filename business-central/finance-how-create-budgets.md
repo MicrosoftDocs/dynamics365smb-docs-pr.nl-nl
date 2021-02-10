@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cfc696141e2d3db0b5da1facb83e09216529e269
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6018edd9d7d324c827c6c338ec700492b39bf56d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917098"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747013"
 ---
 # <a name="create-gl-budgets"></a>Grootboekbudgetten maken
 U kunt budgetten met aparte namen maken als u meerdere budgetten wilt gebruiken voor dezelfde perioden. Eerst stelt u de begrotingsnaam in en voert u de begrotingscijfers in. De begrotingsnaam wordt vervolgens opgenomen op alle begrotingsposten die u maakt.  
@@ -56,4 +56,4 @@ Zoals bij vrijwel alle overige pagina's kunt u gegevens op budgetpagina's naar E
 [Bedrijfsinformatie](bi.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

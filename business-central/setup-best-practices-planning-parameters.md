@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1f6002f0c57530282b5688c0fe81c36a1d4e7e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b9a2064605d34e4c78bbd9cae5cddbaead70f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912918"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747865"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Aanbevolen procedures instellen: Planningparameters
 Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsketen van een bedrijf. De juiste planningsparameters instellen is zeer belangrijk voor efficiënt voorraadbeheer en sterke klantenservice.  
@@ -45,4 +45,4 @@ Het sneltabblad **Planning** op de artikelkaart is het hart van de toeleveringsk
  [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
  [Complexe toepassingsgebieden instellen met aanbevolen procedures](set-up-complex-application-areas-using-best-practices.md)  
  [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

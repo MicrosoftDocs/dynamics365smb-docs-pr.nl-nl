@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b041eb6c573c9f50b09eb741ee2ceead154f8161
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921989"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751277"
 ---
 # <a name="design-details-planning-parameters"></a>Ontwerpdetails: Planningsparameters
-Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dit onderwerp beschrijft de verschillende planningsparameters die u kunt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De manier waarop het planningssysteem de artikelvoorziening controleert, wordt bepaald door verschillende instellingen op de artikelkaart of SKU, en de configuratie van productie-instellingen. De volgende tabel toont hoe deze parameters worden gebruikt voor de planning.  
 

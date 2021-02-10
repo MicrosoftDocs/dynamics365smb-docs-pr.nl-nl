@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 68a62afd8ca154f8a5270899fe458a6841407000
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 14fcd5059bf270a3845cf9f96762c424c372323c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922841"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749877"
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
@@ -57,4 +57,4 @@ U kunt een segment een onbeperkt aantal keren verminderen. Als u het segment per
 [Een segment maken](marketing-how-create-segment.md)   
 [Segmenten beheren](marketing-segments.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

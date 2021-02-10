@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 70fb5f5e1670dfbee3d8313099924321368f4e81
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914161"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750153"
 ---
 # <a name="adjust-item-costs"></a>Artikelkosten herwaarderen
 De kostprijs van een artikel (voorraadwaarde) dat u inkoopt en later verkoopt, kan tijdens de levensduur veranderen, bijvoorbeeld omdat vrachtkosten worden toegevoegd aan aanschafkosten nadat u het artikel hebt verkocht. Kostenherwaardering is met name belangrijk als u goederen verkoopt voordat u de inkoop van deze goederen factureert. Als u altijd de juiste voorraadwaarde wilt weten, moeten artikelkosten daarom regelmatig worden geherwaardeerd. Hierdoor worden verkoop- en winststatistieken bijgewerkt en gezorgd dat de financiële KPI's kloppen. Zie [Ontwerpdetails: kostenwaardering](design-details-cost-adjustment.md) voor meer informatie.
 
 Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kostprijs** op de artikelkaart doorgaans gebaseerd op de vaste verrekenprijs. Voor artikelen met alle andere waarderingsmethoden is de waarde gebaseerd op de berekening van de beschikbare voorraad (gefactureerde kosten en verwachte kosten) gedeeld door het aantal in voorraad. Zie [Kostprijsberekening](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation) voor meer informatie.
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden artikelkosten automatisch aangepast steeds wanneer een voorraadtransactie plaatsvindt, zoals bij het boeken van een inkoopfactuur voor een artikel.
+In [!INCLUDE[prod_short](includes/prod_short.md)] worden artikelkosten automatisch aangepast steeds wanneer een voorraadtransactie plaatsvindt, zoals bij het boeken van een inkoopfactuur voor een artikel.
 
 U kunt een functie ook gebruiken om de kosten van een of meer artikelen handmatig aan te passen. Dit is bijvoorbeeld handig als u weet dat artikelkosten om andere redenen dan artikeltransacties zijn gewijzigd.
 
@@ -60,10 +60,10 @@ Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kost
 ## <a name="unit-cost-calculation-for-purchases"></a>Kostprijsberekening voor inkoop  
  Wanneer u artikelen inkoopt, wordt de waarde in het veld **Laatste directe kosten** op de artikelkaart naar het veld **Directe kostprijs** op een inkoopregel of het veld Eenheidsprijs op een artikeldagboekregel gekopieerd.  
 
- Wat u in het veld **Waarderingsmethode** invult, beïnvloedt hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] de inhoud van het veld **Kostprijs** berekent op de regels.  
+ Wat u in het veld **Waarderingsmethode** invult, beïnvloedt hoe [!INCLUDE[prod_short](includes/prod_short.md)] de inhoud van het veld **Kostprijs** berekent op de regels.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Waarderingsmethode FIFO, LIFO, Specifiek of Gemiddeld  
- De inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel wordt door [!INCLUDE[d365fin](includes/d365fin_md.md)] berekend volgens deze formule:  
+ De inhoud van het veld **Kostprijs (LV)** op de inkoopregel of het veld **Kostprijs** op de artikeldagboekregel wordt door [!INCLUDE[prod_short](includes/prod_short.md)] berekend volgens deze formule:  
 
  Kostprijs (LV) = (Directe kostprijs - (Totale korting/ Aantal)) * (1 + Indirecte kosten % / 100) + Overheadtarief  
 
@@ -78,11 +78,11 @@ Voor artikelen met de waarderingsmethode Vast wordt de waarde in het veld **Kost
 ## <a name="unit-cost-calculation-for-sales"></a>Kostprijsberekening voor verkoop  
  Wanneer u artikelen verkoopt, wordt de kostprijs altijd uit het veld Kostprijs op de artikelkaart naar de verkoopregel of de artikeldagboekregel gekopieerd.  
 
- Tijdens het boeken wordt de kostprijs naar de verkoopfactuurpost gekopieerd en weergegeven in het overzicht met artikelposten. De inhoud van het veld **Tot. werk. kosten** of indien van toepassing het veld **Tot. verw. kosten** in de waardepost voor deze artikelpost wordt door [!INCLUDE[d365fin](includes/d365fin_md.md)] berekend op basis van de kostprijs van de brondocumentregel.  
+ Tijdens het boeken wordt de kostprijs naar de verkoopfactuurpost gekopieerd en weergegeven in het overzicht met artikelposten. De inhoud van het veld **Tot. werk. kosten** of indien van toepassing het veld **Tot. verw. kosten** in de waardepost voor deze artikelpost wordt door [!INCLUDE[prod_short](includes/prod_short.md)] berekend op basis van de kostprijs van de brondocumentregel.  
 
 ## <a name="see-also"></a>Zie ook
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

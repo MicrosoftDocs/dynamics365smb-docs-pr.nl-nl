@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dd124807d3d6ce3a775d18dcd88a8251b0feb30
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1be1ba8d59567fdf9ba2adfeceeaa23c9cf63778
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924175"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750727"
 ---
 # <a name="correct-prepayments"></a>Vooruitbetalingen storneren
 
@@ -44,4 +44,4 @@ De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om all
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

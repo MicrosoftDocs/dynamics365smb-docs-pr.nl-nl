@@ -1,5 +1,5 @@
 ---
-title: Voorraad tellen met op documenten gebaseerde functionaliteit | Microsoft Docs
+title: Voorraad tellen met op documenten gebaseerde functionaliteit
 description: Beschrijft hoe u inventarisaties uitvoert met behulp van de pagina's Inventarisatieorder en Inventarisatieregistratie.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2020
+ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: ff2bd25a76da32ad680bc94cff8801ca5328ad00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3403d0536b195517f6924a803342b4301e39591a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923842"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750177"
 ---
 # <a name="count-inventory-using-documents"></a>Voorraad tellen met documenten
+
 U kunt een inventarisatie van uw artikelen maken met behulp van inventarisatieorder- en inventarisatieregistratiedocumenten. De pagina **Inventarisatieorder** wordt gebruikt om het hele inventarisatieproject te organiseren, bijvoorbeeld één per vestiging. De pagina **Inventarisatieregistratie** wordt gebruikt om de werkelijke telling van artikelen te communiceren en vast te leggen. U kunt meerdere registraties voor één order maken, bijvoorbeeld om groepen artikelen naar verschillende werknemers te distribueren.
 
-Het rapport **Inventarisatieregistratie** kan worden afgedrukt vanuit elke registratie en bevat lege aantalvelden voor het invoeren van de getelde voorraad. Wanneer een gebruiker klaar is met tellen en de aantallen worden ingevoerd op de pagina **Inventarisatieregistratie**, kiest u de actie **Voltooien**. Hierdoor worden de aantallen overgebracht naar de gerelateerde regels op de pagina **Inventarisatieorder**. Functionaliteit zorgt dat een artikeltelling niet tweemaal kan worden geregistreerd.      
+Het rapport **Inventarisatieregistratie** kan worden afgedrukt vanuit elke registratie en bevat lege aantalvelden voor het invoeren van de getelde voorraad. Wanneer een gebruiker klaar is met tellen en de aantallen worden ingevoerd op de pagina **Inventarisatieregistratie**, kiest u de actie **Voltooien**. Hierdoor worden de aantallen overgebracht naar de gerelateerde regels op de pagina **Inventarisatieorder**. Functionaliteit zorgt dat een artikeltelling niet tweemaal kan worden geregistreerd.  
 
 > [!NOTE]
-> In deze procedure wordt beschreven hoe u een inventarisatie uitvoert met documenten, een methode die meer controle biedt en distributie ondersteunt van de telling naar meerdere werknemers. U kunt de taak ook uitvoeren met dagboeken, de pagina's **Inventarisatiedagboeken** en **Mag.-inventarisatiedagboeken**. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)<br /><br />
-> Als u de functionaliteit Opslaglocaties of Zones gebruikt, kunt u geen inventarisatieorders gebruiken. Gebruik in plaats daarvan **Mag.-inventarisatiedagboek** om uw magazijnposten te tellen voordat u deze synchroniseert met artikelposten.
+> In dit artikel wordt beschreven hoe u een inventarisatie uitvoert met documenten, een methode die meer controle biedt en distributie ondersteunt van de telling naar meerdere werknemers. U kunt de taak ook uitvoeren met dagboeken, zoals de pagina's **Inventarisatiedagboeken** en **Mag.-inventarisatiedagboeken**. Zie voor meer informatie [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)<br /><br />
+> Als u de functionaliteit Zones gebruikt, kunt u geen inventarisatieorders gebruiken. Gebruik in plaats daarvan **Mag.-inventarisatiedagboek** om uw magazijnposten te tellen voordat u deze synchroniseert met artikelposten.
 
 Inventariseren met behulp van documenten bestaat uit de volgende algemene stappen:
 
@@ -46,11 +47,11 @@ Als u de inventarisatieorderregels wilt maken, gebruikt u meestal de functie **R
 6. Stel filters in, bijvoorbeeld om slechts een subset van artikelen op te nemen die moeten worden geteld met de eerste registratie.
 
     > [!TIP]
-    > Als u wilt plannen dat meerdere werknemers de voorraad tellen, wordt het aangeraden verschillende filters in te stellen, steeds wanneer u de actie **Regels berekenen** gebruikt om de order alleen te vullen met de subset voorraadartikelen die één gebruiker registreert. Als u vervolgens meerdere voorraadregistraties voor meerdere werknemers genereert, minimaliseert u het risico om artikelen tweemaal te tellen. Zie voor meer informatie de sectie 'Een inventarisatieregistratie maken'.
+    > Als u wilt plannen dat meerdere werknemers de voorraad tellen, wordt het aangeraden verschillende filters in te stellen, steeds wanneer u de actie **Regels berekenen** gebruikt om de order alleen te vullen met de subset voorraadartikelen die één gebruiker registreert. Als u vervolgens meerdere voorraadregistraties voor meerdere werknemers genereert, minimaliseert u het risico om artikelen tweemaal te tellen. Zie voor meer informatie de sectie [Een inventarisatieregistratie maken](#to-create-a-physical-inventory-recording).
 
-7.  Kies de knop **Ok**.
+7. Kies de knop **Ok**.
 
-Er wordt een regel in de order ingevoegd voor elk artikel dat bestaat in de geselecteerde vestiging en volgens de ingestelde filters en opties. Voor artikelen die voor artikeltracering zijn ingesteld, wordt het selectievakje **Artikeltracering gebruiken** geselecteerd en is informatie over de verwachte hoeveelheid en serie- en lotnummers beschikbaar door de actie **Regels** te kiezen en vervolgens **Artikeltraceringsregels**. Zie voor meer informatie de sectie 'Artikeltracering verwerken tijdens inventarisatie'.
+Er wordt een regel in de order ingevoegd voor elk artikel dat bestaat in de geselecteerde vestiging en volgens de ingestelde filters en opties. Voor artikelen die voor artikeltracering zijn ingesteld, wordt het selectievakje **Artikeltracering gebruiken** geselecteerd en is informatie over de verwachte hoeveelheid en serie- en lotnummers beschikbaar door de actie **Regels** te kiezen en vervolgens **Artikeltraceringsregels**. Zie voor meer informatie de sectie [Artikeltracering verwerken tijdens inventarisatie](#handling-item-tracking-when-counting-inventory).
 
 U kunt nu doorgaan met een of meer registraties te maken. Dat zijn instructies voor de werknemers die de feitelijke inventarisatie uitvoeren.  
 
@@ -72,22 +73,23 @@ In het geval van handmatig tellen kunt u een lijst, het rapport **Inventarisatie
 5. Kies de actie **Registraties** om de pagina **Nieuwe inventarisatieregistratielijst** te openen.
 6. Open de relevante registratie.
 7. Vul indien nodig de velden op het sneltabblad **Algemeen** in.
-8. Maak voor artikelen waarvoor artikeltracering wordt gebruikt, een extra regel voor elke lot- of serienummer door de actie **Functies** te kiezen en vervolgens de actie **Regel kopiëren**. Zie voor meer informatie de sectie 'Artikeltracering verwerken tijdens inventarisatie'.    
+8. Maak voor artikelen waarvoor artikeltracering wordt gebruikt, een extra regel voor elke lot- of serienummer door de actie **Functies** te kiezen en vervolgens de actie **Regel kopiëren**. Zie voor meer informatie de sectie [Artikeltracering verwerken tijdens inventarisatie](#handling-item-tracking-when-counting-inventory).  
 9. Kies de actie **Afdrukken** om het fysieke document voor te bereiden dat werknemers gaan gebruiken om de getelde aantallen te noteren.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Een inventarisatieregistratie voltooien
+
 Als de medewerkers de voorraadaantallen hebben geteld, moet u voorbereidingen treffen om deze in het systeem te registreren.
 
 1. Klik op de pagina **Nieuwe inventarisatieregistratielijst**, selecteer de inventarisatieregistratie die u wilt voltooien, en kies vervolgens de actie **Bewerken**.
 2. Vul op het sneltabblad **Regels** het werkelijke aantal in het veld **Aantal** in voor elke regel.
-3. Voor artikelen met serie- of lotnummers (het selectievakje **Artikeltracering gebruiken** is ingeschakeld), voert u de getelde aantallen op de specifieke regels voor de serie- en lotnummers van het artikel in. Zie voor meer informatie de sectie 'Artikeltracering verwerken tijdens inventarisatie'.
+3. Voor artikelen met serie- of lotnummers (het selectievakje **Artikeltracering gebruiken** is ingeschakeld), voert u de getelde aantallen op de specifieke regels voor de serie- en lotnummers van het artikel in. Zie voor meer informatie de sectie [Artikeltracering verwerken tijdens inventarisatie](#handling-item-tracking-when-counting-inventory).
 4. Selecteer het selectievakje **Geregistreerd** op elke regel.
 5. Als u alle gegevens van een inventarisatieregistratie hebt ingevoerd, kiest u de actie **Voltooien**. Voor alle regels moet het selectievakje **Geregistreerd** zijn ingeschakeld.
 
 > [!NOTE]
 > Als u een inventarisatieregistratie voltooit, wordt elke regel overgebracht naar de regel in de gerelateerde inventarisatieorder die er exact mee overeenkomst. Voor een overeenkomst moeten de waarden in de velden **Artikelnr.**, **Variant**, **Vestiging**, en **Opslaglocatie** hetzelfde zijn voor de registratie en de orderregels.<br /><br />
 > Als geen overeenkomende inventarisatieorderregel bestaat, en als het selectievakje **Registratie zonder order toestaan** is ingeschakeld, wordt automatisch een nieuwe regel ingevoegd en wordt het selectievakje **Geregistreerd zonder order** op de gerelateerde inventarisatieorderregel geselecteerd. Anders wordt een foutbericht weergegeven en wordt het proces geannuleerd.<br /><br />
-> Als meer dan één inventarisatieregistratieregel overeenkomt met een inventarisatieorderregel, wordt een bericht weergegeven en wordt het proces geannuleerd. Als om welke reden dan ook twee identieke inventarisatieregels in de inventarisatieorder komen, kunt u een functie gebruiken om dit op te lossen. Zie voor meer informatie de sectie 'Dubbele inventarisatieorderregels zoeken'.
+> Als meer dan één inventarisatieregistratieregel overeenkomt met een inventarisatieorderregel, wordt een bericht weergegeven en wordt het proces geannuleerd. Als om welke reden dan ook twee identieke inventarisatieregels in de inventarisatieorder komen, kunt u een functie gebruiken om dit op te lossen. Zie voor meer informatie de sectie [Dubbele inventarisatieorderregels zoeken](#to-find-duplicate-physical-inventory-order-lines).
 
 ## <a name="to-complete-a-physical-inventory-order"></a>Een inventarisatieorder voltooien
 Als u een inventarisatieregistratie hebt voltooid, wordt het veld **Geregistreerd aantal (basis)** in de gerelateerde inventarisatieorder bijgewerkt met de getelde (geregistreerde) waarden en wordt het selectievakje **Bij registratie** ingeschakeld. Als een getelde waarde verschilt van de verwachte waarde, wordt het verschil weergegeven in respectievelijk het veld **Positief aantal (basis)** en het veld **Negatief aantal (basis)**.
@@ -184,10 +186,11 @@ Een artikel met lottracering wordt in voorraad opgeslagen met de nummerreeks 'LO
 Op de pagina **Inventarisatieorder** bevat het veld **Negatief aantal (basis)** *8*. Voor de desbetreffende orderregel bevat de pagina **Artikeltraceringslijst van inventarisatie** de positieve of negatieve aantallen voor de individuele lotnummers.
 
 ## <a name="see-also"></a>Zie ook
+
 [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  
 [Werken met serie- en lotnummers](inventory-how-work-item-tracking.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Magazijnbeheer](warehouse-manage-warehouse.md)    
 [Verkoop](sales-manage-sales.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

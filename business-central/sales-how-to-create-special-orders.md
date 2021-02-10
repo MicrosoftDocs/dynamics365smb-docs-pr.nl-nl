@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 85e27db78481e3e3cd9f8e8ef34eb26eee8b08f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4549492e118d1b4367e89f2b0169f43ba7f8393
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925894"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748240"
 ---
 # <a name="create-special-orders"></a>Speciale orders maken
 U kunt een speciale order maken om een bepaald catalogusartikel dat niet op voorraad is, te verzenden aan een bepaalde klant. Het artikel wordt door uw leverancier verzonden naar uw magazijn, zodat u het vervolgens afzonderlijk of samen met artikelen van een andere order kunt verzenden aan uw klant.  
@@ -48,4 +48,4 @@ Een inkooporder die is gemaakt als speciale order voor een verkooporder wordt ov
 [Verkoop](sales-manage-sales.md)  
 [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)   
 [Ontwerpdetails: Bestelbeleid](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

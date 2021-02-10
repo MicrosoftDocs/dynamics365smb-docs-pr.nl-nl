@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913318"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747063"
 ---
 # <a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
 Tijdens kostenverdelingen worden kosten en opbrengsten verplaatst tussen kostensoorten , kostenplaatsen en kostenobjecten. U kunt zo veel verdelingen definiëren als u nodig hebt. Elke verdeling bestaat uit:  
@@ -78,7 +78,7 @@ De methode voor statische toewijzingen baseert zich op een vaste waarde voor bij
 In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobjecten kunt definiëren voor de verdelingsbron van kostenplaats PROD met behulp van de vastgestelde verdeelsleutel 5: 2: 4. De drie doelkostenobjecten zijn ACCESSO, VERF en TOEBEHOREN.  
 
 > [!NOTE]  
->  In het voorbeeld worden de demogegevens in de [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
+>  In het voorbeeld worden de demogegevens in de [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren  
 
@@ -109,13 +109,13 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 15. Op de derde regel in het veld **Deel** voert u de verdeelsleutel **4** in.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent automatisch het veld **Percentage** met een percentage dat wordt bepaald door alle drie de verdeelsleutels die zijn ingevoerd in het veld **Deel** voor alle drie de regels.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch het veld **Percentage** met een percentage dat wordt bepaald door alle drie de verdeelsleutels die zijn ingevoerd in het veld **Deel** voor alle drie de regels.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Dynamische toewijzingen op basis van de verkochte artikelen definiëren
 Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behulp van de methode voor dynamische toewijzing. In het voorbeeld wijzigt u de dynamische toewijzing van de kosten voor kostenplaats VERKOOP ter ondersteuning van het nieuwe kostenobject IT-APPARATUUR. Pakketten voor IT-APPARATUUR hebben artikelnummers in het bereik van 8904-W t/m 8924-W. De verkoopcijfers van het vorige jaar kunt u gebruiken om het aandeel te berekenen. De toewijzing wordt geboekt op het ondersteunende kostensoort 9903.  
 
 > [!NOTE]  
->  In het voorbeeld worden de demogegevens in de [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
+>  In het voorbeeld worden de demogegevens in de [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht  
 
@@ -135,7 +135,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 14. Kies de actie **Verdeelsleutel berekenen** om het aandeel te berekenen.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.
 
 ## <a name="see-also"></a>Zie ook  
  [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)   

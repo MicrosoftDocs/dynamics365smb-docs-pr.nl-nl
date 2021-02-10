@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc93d954e55a4bcae1057d7a0b72b67c20606842
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 80f1418e71396ababc4d85bb7f231fb9985654c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919360"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749927"
 ---
 # <a name="work-with-item-attributes"></a>Werken met artikelkenmerken
 Wanneer klanten informeren naar een artikel, via correspondentie of via een geïntegreerde webwinkel, kunnen ze ernaar vragen of zoeken op basis van kenmerken, zoals hoogte en model. Als u deze klantenservice wilt bieden, kunt u artikelkenmerkwaarden van verschillende typen aan uw artikelen toewijzen, die vervolgens kunnen worden gebruikt bij het zoeken naar artikelen.
@@ -79,4 +79,4 @@ De artikelen op de **Artikelen**-pagina's worden gefilterd door de opgegeven art
 [Artikelen categoriseren](inventory-how-categorize-items.md)    
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

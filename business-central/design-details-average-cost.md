@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ad867ebf705a4be3b544e017fe67f17d63e47b7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a716b25f3dfb25d2011fd12ed388fed5e1e98f9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917573"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751827"
 ---
 # <a name="design-details-average-cost"></a>Ontwerpdetails: Gemiddelde kostprijs
-De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen gemiddelde, dat wordt gebaseerd op de periode voor gemiddelde kostprijsberekening die in [!INCLUDE[d365fin](includes/d365fin_md.md)] is ingesteld.  
+De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen gemiddelde, dat wordt gebaseerd op de periode voor gemiddelde kostprijsberekening die in [!INCLUDE[prod_short](includes/prod_short.md)] is ingesteld.  
 
  De herwaarderingsdatum wordt automatisch ingesteld.  
 
@@ -211,4 +211,4 @@ De gemiddelde kostprijs van een artikel wordt berekend met een periodiek gewogen
  [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

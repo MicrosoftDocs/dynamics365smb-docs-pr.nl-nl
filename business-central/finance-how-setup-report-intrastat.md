@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a5aa40d2f202019a238f76c0fe2ff2480d97c9bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920519"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750777"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat instellen en rapporteren
 Bedrijven uit EU-landen moeten handel met bedrijven uit andere landen/regio's in de EU rapporteren. In uw land/regio moet u de beweging van goederen elke maand doorgeven aan de autoriteiten en moet aangifte bij de belastingdienst worden gedaan. Dit wordt Intrastat-rapportage genoemd. U gebruikt de pagina **Intrastat-dagboek** om periodieke Intrastat-rapporten te voltooien.  
@@ -29,7 +29,7 @@ Voordat u het Intrastat-dagboek kunt gebruiken om Intrastat-gegevens te rapporte
 * **Intrastat-dagboeksjablonen**: u moet de Intrastat-dagboeksjablonen en -batches instellen die u gaat gebruiken. Aangezien Intrastat maandelijks wordt gerapporteerd, moet u 12 Intrastat-dagboekbatches maken die gebaseerd zijn op dezelfde sjabloon.  
 * **Basisproductcodes**: de belastingdienst en de douane hebben numerieke codes om artikelen en service te classificeren. U geeft deze codes op voor artikelen.
 * **Transactieaardcode**: landen/regio's hebben verschillende codes voor soorten Intrastat-transacties, zoals de gewone inkoop en verkoop, het ruilen van geretourneerde goederen en het ruilen van niet-geretourneerde goederen. Alle codes instellen die van toepassing zijn op uw land of regio. U gebruikt deze codes in verkoop- en inkoopdocumenten, en bij de verwerking van retouren.  
-* **Transportmethoden**: er zijn zeven eencijferige codes voor Intrastat-transportmethoden. **1** voor zee, **2** voor spoor, **3** voor weg, **4** voor lucht, **5** voor post, **7** voor vaste installaties en **9** voor eigen voortdrijving (bijvoorbeeld een auto verplaatsen door ermee te rijden). [!INCLUDE[d365fin](includes/d365fin_md.md)] vereist deze codes niet, maar we raden aan dat de beschrijvingen een soortgelijke betekenis hebben.  
+* **Transportmethoden**: er zijn zeven eencijferige codes voor Intrastat-transportmethoden. **1** voor zee, **2** voor spoor, **3** voor weg, **4** voor lucht, **5** voor post, **7** voor vaste installaties en **9** voor eigen voortdrijving (bijvoorbeeld een auto verplaatsen door ermee te rijden). [!INCLUDE[prod_short](includes/prod_short.md)] vereist deze codes niet, maar we raden aan dat de beschrijvingen een soortgelijke betekenis hebben.  
 
 Eventueel kunt u ook het volgende instellen:
 

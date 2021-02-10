@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925694"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747965"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Werken met servicecontracten en servicecontractoffertes
 U kunt een servicecontract handmatig of uit een servicecontractofferte maken. U kunt een servicecontractofferte gebruiken als voorloper van een servicecontract, waarin uw bedrijf een aanbieding doet aan de klant en daarvoor goedkeuring van de klant verkrijgt, voordat u deze kunt omzetten in een servicecontract. De procedures voor het maken van een servicecontract of een servicecontractofferte zijn vergelijkbaar.  
@@ -194,7 +194,7 @@ Als een contract is verlopen of door u of de klant is geannuleerd, moet u het be
 6. Als er niet-geboekte facturen, creditnota's of geopende vooruitbetaalde posten zijn voor het contract, wordt er een bevestigingsbericht weergegeven. Klik in het berichtvak op **Nee** als u wilt terugkeren naar het contract om de documenten te boeken. Klik op **Ja** als u verder wilt gaan met het annuleren.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Servicecontracten of contractoffertes archiveren  
-U kunt servicecontracten en contractoffertes op elk moment archiveren om een kopie van het contract of de contractofferte vast te leggen. [!INCLUDE[d365fin](includes/d365fin_md.md)] archiveert servicecontracten automatisch wanneer u contractoffertes omzet in servicecontracten of servicecontracten annuleert. U kunt een contract of offerte zelf archiveren met de actie **Contract archiveren** op de pagina **Servicecontracten** of **Servicecontractoffertes**. Als u uw gearchiveerde contracten van offertes wilt weergeven, zoekt u op **Gearchiveerde contracten**.
+U kunt servicecontracten en contractoffertes op elk moment archiveren om een kopie van het contract of de contractofferte vast te leggen. [!INCLUDE[prod_short](includes/prod_short.md)] archiveert servicecontracten automatisch wanneer u contractoffertes omzet in servicecontracten of servicecontracten annuleert. U kunt een contract of offerte zelf archiveren met de actie **Contract archiveren** op de pagina **Servicecontracten** of **Servicecontractoffertes**. Als u uw gearchiveerde contracten van offertes wilt weergeven, zoekt u op **Gearchiveerde contracten**.
 
 ## <a name="see-also"></a>Zie ook  
 [Servicecontracten instellen](service-how-setup-service-contracts.md)  

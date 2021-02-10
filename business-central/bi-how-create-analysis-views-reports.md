@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913810"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752202"
 ---
 #  <a name="create-analysis-reports"></a>Analyselijsten maken
 Verkoopmanagers moeten de omzet, de brutowinst en andere belangrijke indicatoren voor verkoopprestaties regelmatig analyseren. Inkopers zijn meer geïnteresseerd in de dynamiek van inkoopvolumes, prestaties van leveranciers en inkoopprijzen. Logistieke managers zijn gebaat bij gegevens over de omloopsnelheid van de voorraad, analyses van voorraadverplaatsingen en statistieken over de voorraadwaarde.  
@@ -43,7 +43,7 @@ Vervolgens kunt u de volgende kolommen instellen:
 ## <a name="setting-up-line-and-column-layouts"></a>Regel- en kolomindelingen instellen  
  Op de pagina **Analyserapport** kunt u verschillende regel- en kolomlay-outs bekijken volgens de regels of regelsjablonen die u hebt ingesteld op de pagina **Analyseregelsjablonen**. U kunt de naam van het rapport definiëren en de objecten die u op de regels van uw rapport wilt weergeven. U stelt de kolommen op de pagina **Analysekolomsjablonen** in. U kunt de naam van de kolomsjabloon definiëren en de analyseparameters die u als kolommen in het rapport wilt weergeven. Iedere regel op de pagina **Analysekolomsjablonen** staat voor een kolom in de lijst. Analyseregels en analysekolommen zijn niet aan elkaar gekoppeld.  
 
-Op basis van de regels en de kolommen die u hebt ingesteld, aggregeert [!INCLUDE[d365fin](includes/d365fin_md.md)] het resultaat van uw rapport op de pagina **Analyserapport**, zoals getoond in de volgende tabel.  
+Op basis van de regels en de kolommen die u hebt ingesteld, aggregeert [!INCLUDE[prod_short](includes/prod_short.md)] het resultaat van uw rapport op de pagina **Analyserapport**, zoals getoond in de volgende tabel.  
 
 |- |Omzet lopende maand|Omzet vorige maand|% van omzet vorige maand|  
 |-|-|-|-|  
@@ -105,4 +105,4 @@ Met verkoopanalyselijsten kunt u de dynamiek van uw omzet analyseren op basis va
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

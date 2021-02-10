@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7396b4acfbed7199e1364287cfb7e8dcbe57c19
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5c9af3a076647380e2f6bed8ef7d0a55c3d8efe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924225"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749290"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Verzekering van vaste activa instellen
 Om de verzekeringsdekking voor vaste activa te beheren, moet u eerst enkele algemene verzekeringsgegevens en een verzekeringskaart per polis instellen.
 
 ## <a name="to-set-up-general-insurance-information"></a>Algemene verzekeringsinformatie instellen
-Als u de verzekeringsfuncties wilt gebruiken in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u algemene verzekeringsinformatie instellen.  
+Als u de verzekeringsfuncties wilt gebruiken in [!INCLUDE[prod_short](includes/prod_short.md)], moet u algemene verzekeringsinformatie instellen.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-instellingen** in en kies de gerelateerde koppeling.  
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -42,7 +42,7 @@ Gegevens over verzekeringspolissen kunt u invoeren op de verzekeringskaart.
 3. Vul de benodigde velden in.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Verzekeringsdagboeksjablonen instellen
-Er wordt in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u de pagina **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
+Er wordt in [!INCLUDE[prod_short](includes/prod_short.md)] automatisch een verzekeringsdagboeksjabloon gemaakt als u de pagina **Verzekeringsdagboek** voor het eerst opent, maar het is ook mogelijk om extra dagboeksjablonen in te stellen. Zie [Werken met diversendagboeken](ui-work-general-journals.md) voor meer informatie.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzekeringsdagboeksjablonen** in en kies de desbetreffende koppeling.  
 2. Vul indien nodig de velden in.
@@ -62,4 +62,4 @@ Het is mogelijk om batches in te stellen in een verzekeringsdagboeksjabloon. De 
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

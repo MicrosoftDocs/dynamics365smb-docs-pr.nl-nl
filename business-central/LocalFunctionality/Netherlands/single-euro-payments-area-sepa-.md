@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e86b526d03313c9f678ea3fdddd1015964fa610b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 743c69cc7f7a6efa9c13b212d65d443693df04fa
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919863"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752485"
 ---
 # <a name="single-euro-payments-area-sepa"></a>Single EURO Payments Area (SEPA)
 Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen, zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen. 300 miljoen Europese burgers en bedrijven kunnen betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen, ongeacht de locatie.  
 
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] ondersteunt de Nederlandse vereisten voor verzending van SEPA-betalingen, krediettransfers en automatische incasso.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] ondersteunt de Nederlandse vereisten voor verzending van SEPA-betalingen, krediettransfers en automatische incasso.  
 
 Voordat u leveranciersbetalingen elektronisch kunt verzenden in SEPA ISO2022-indeling, moet u SEPA op de volgende pagina's activeren:  
 

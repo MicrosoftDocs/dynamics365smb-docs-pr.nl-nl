@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 146716aff06f17b3102106fd0f65b533f5586d4a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44372973b1b197e6950f4b362cd6583bbc5e38c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919907"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752474"
 ---
 # <a name="submitting-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften verzenden
 Bedrijven moeten maandelijks periodieke btw-aangiften en ICP-aangiften (intracommunautaire leveringen) naar de belastingdienst versturen.  
@@ -78,7 +78,7 @@ De elektronische aangifte wordt verstuurd naar de belastingdienst.
 > Als er geen intracommunautaire leveringen zijn geweest in de aangifteperiode, dan wordt er een elektronische ICP-aangifte aangemaakt zonder XML-elementen voor de leveringen. Als u een dergelijke aangifte verzendt, wordt een foutbericht weergegeven.
 
 ## <a name="to-import-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst importeren
-De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Responsberichten ontvangen**.  

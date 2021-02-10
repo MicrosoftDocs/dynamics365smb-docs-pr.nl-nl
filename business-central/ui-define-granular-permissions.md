@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912518"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747783"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Machtigingen toewijzen aan gebruikers en groepen
 
-In het beveiligingssysteem van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u bepalen tot welke objecten binnen elke database of omgeving een gebruiker toegang krijgt. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in de Help voor ontwikkelaars en IT-professionals voor [!INCLUDE[d365fin](includes/d365fin_md.md)] voor meer informatie.
+In het beveiligingssysteem van [!INCLUDE[prod_short](includes/prod_short.md)] kunt u bepalen tot welke objecten binnen elke database of omgeving een gebruiker toegang krijgt. U kunt voor elke gebruiker opgeven of deze gegevens in de geselecteerde databaseobjecten mag lezen, wijzigen of invoeren. Zie [Gegevensbeveiliging](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) in de Help voor ontwikkelaars en IT-professionals voor [!INCLUDE[prod_short](includes/prod_short.md)] voor meer informatie.
 
 Voordat u machtigingen toewijst aan gebruikers en gebruikersgroepen, moet u definiëren wie zich mag aanmelden door gebruikers te maken volgens de licentie die in het Microsoft 365 Beheercentrum is gedefinieerd. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat twee machtigingsniveaus voor databaseobjecten:
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat twee machtigingsniveaus voor databaseobjecten:
 
 - Algemene machtigingen volgens de licentie, ook wel een recht genoemd.
-- Meer gedetailleerde machtigingen, zoals deze zijn toegewezen vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- Meer gedetailleerde machtigingen, zoals deze zijn toegewezen vanuit [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Om het gemakkelijker te maken om machtigingen voor meerdere gebruikers te beheren, kunt u ze organiseren in gebruikersgroepen en zo in één actie één machtigingsset voor meerdere gebruikers toewijzen of wijzigen. Zie [Machtigingen beheren via gebruikersgroepen](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups) voor meer informatie.
 
 > [!NOTE]
 > Nog een methode om te definiëren welke functies voor een gebruiker toegankelijk zijn, is via het veld **Ervaring** op de pagina **Bedrijfsinformatie**. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).
 >
-> U kunt ook definiëren wat gebruikers in de gebruikersinterface kunnen zien en hoe ze omgaan met hun toegestane functionaliteit. Dit doet u door middel van profielen die u toewijst aan verschillende soorten gebruikers, afhankelijk van hun functie of afdeling. Zie voor meer informatie [Profielen beheren](admin-users-profiles-roles.md) en [Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> U kunt ook definiëren wat gebruikers in de gebruikersinterface kunnen zien en hoe ze omgaan met hun toegestane functionaliteit. Dit doet u door middel van profielen die u toewijst aan verschillende soorten gebruikers, afhankelijk van hun functie of afdeling. Zie voor meer informatie [Profielen beheren](admin-users-profiles-roles.md) en [Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Machtigingssets toewijzen aan gebruikers
 
-Een machtigingsset is een verzameling machtigingen voor specifieke databaseobjecten. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Een machtigingsset is een verzameling machtigingen voor specifieke databaseobjecten. Aan alle gebruikers moeten een of meer machtigingensets worden toegewezen voordat ze toegang hebben tot [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Een [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing bevat een aantal vooraf gedefinieerde machtigingssets die door Microsoft of uw oplossingsprovider zijn toegevoegd. U kunt ook nieuwe machtigingssets toevoegen die zijn afgestemd op de behoeften van uw organisatie. Zie voor meer informatie [Een machtigingenset maken of bewerken](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+Een [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing bevat een aantal vooraf gedefinieerde machtigingssets die door Microsoft of uw oplossingsprovider zijn toegevoegd. U kunt ook nieuwe machtigingssets toevoegen die zijn afgestemd op de behoeften van uw organisatie. Zie voor meer informatie [Een machtigingenset maken of bewerken](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Als u de toegang van een gebruiker niet meer wilt beperken dan in de licentie is gedefinieerd, kunt u een speciale machtigingsset met de naam SUPER toewijzen aan de gebruiker. Deze machtigingsset zorgt ervoor dat de gebruiker toegang heeft tot alle objecten die in de licentie zijn opgegeven.
@@ -97,7 +97,7 @@ Alle machtigingensets die al zijn toegewezen aan de gebruiker worden weergegeven
 Machtigingensets fungeren als containers met machtigingen, zodat u gemakkelijk meerdere machtigingen in één record kunt beheren.
 
 > [!NOTE]  
-> Een [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing bevat doorgaans een aantal vooraf gedefinieerde machtigingensets die door Microsoft of door uw softwareprovider worden toegevoegd. Deze machtigingensets zijn van het type **Systeem** of **Extensie**. U kunt deze typen machtigingensets of de machtigingen die zich erin bevinden, niet maken of bewerken. U kunt ze echter kopiëren om uw eigen machtigingensets en machtigingen te definiëren.
+> Een [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing bevat doorgaans een aantal vooraf gedefinieerde machtigingensets die door Microsoft of door uw softwareprovider worden toegevoegd. Deze machtigingensets zijn van het type **Systeem** of **Extensie**. U kunt deze typen machtigingensets of de machtigingen die zich erin bevinden, niet maken of bewerken. U kunt ze echter kopiëren om uw eigen machtigingensets en machtigingen te definiëren.
 >
 > Machtigingensets die gebruikers maken, nieuw of als kopieën, zijn van het type **Door gebruiker gedefinieerd** en kunnen worden bewerkt.
 
@@ -122,7 +122,7 @@ De nieuwe machtigingenset, die alle machtigingen van de gekopieerde machtigingen
 
 ### <a name="to-export-and-import-a-permission-set"></a>Een machtigingenset exporteren en importeren
 
-Om snel machtigingen in te stellen, kunt u machtigingensets importeren die u vanuit een andere [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant hebt geëxporteerd.
+Om snel machtigingen in te stellen, kunt u machtigingensets importeren die u vanuit een andere [!INCLUDE[prod_short](includes/prod_short.md)]-tenant hebt geëxporteerd.
 
 In omgevingen met meerdere tenants wordt een machtigingenset geïmporteerd in een specifieke tenant, dus het bereik van de import is 'Tenant'.
 
@@ -162,7 +162,7 @@ In elk van de vijf toegangstypevelden, **Lezen**, **Invoegen**, **Wijzigen**, **
 ### <a name="example---indirect-permission"></a>Voorbeeld: indirecte machtiging
 
 U kunt een indirecte machtiging toewijzen om een object enkel door middel van een ander object te laten gebruiken.
-Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, verkoop-boeken uit te voeren. De codeunit Verkoop-boeken voert veel taken uit, waaronder het wijzigen van tabel 37, Inkoopregel. Wanneer de gebruiker een verkoopdocument boekt, de codeunit Verkoop-boeken, controleert [!INCLUDE[d365fin](includes/d365fin_md.md)] of de gebruiker de machtiging heeft om de tabel Verkoopregel te wijzigen. Als dat niet het geval is, kan de codeunit de taken niet uitvoeren en ontvangt de gebruiker een foutmelding. Indien dit wel zo is, wordt de codeunit uitgevoerd.
+Een gebruiker kan bijvoorbeeld machtiging hebben om codeunit 80, verkoop-boeken uit te voeren. De codeunit Verkoop-boeken voert veel taken uit, waaronder het wijzigen van tabel 37, Inkoopregel. Wanneer de gebruiker een verkoopdocument boekt, de codeunit Verkoop-boeken, controleert [!INCLUDE[prod_short](includes/prod_short.md)] of de gebruiker de machtiging heeft om de tabel Verkoopregel te wijzigen. Als dat niet het geval is, kan de codeunit de taken niet uitvoeren en ontvangt de gebruiker een foutmelding. Indien dit wel zo is, wordt de codeunit uitgevoerd.
 
 De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopregel om de codeunit uit te voeren. Als de gebruiker indirecte machtiging heeft voor de tabel Verkoopregel, kan de codeunit Verkoop-boeken worden uitgevoerd. Wanneer een gebruiker een indirecte machtiging heeft, kan die gebruiker enkel de tabel Inkoopregel wijzigen door de codeunit Verkoop-boeken of een ander object uit te voeren dat machtiging heeft om de tabel Inkoopregel te wijzigen. De gebruiker kan alleen de tabel Inkoopregel wijzigen vanuit de ondersteunde toepassingsgebieden. De gebruiker kan de functie niet per ongeluk of opzettelijk op andere manieren uitvoeren.
 
@@ -176,14 +176,14 @@ De gebruiker hoeft echter geen volledige toegang te hebben tot de tabel Inkoopre
 6. Kies op de pagina **Machtigingen** de actie **Machtigingen registreren** en kies de actie **Starten**.
 
     Hierdoor wordt een opnameproces wordt gestart dat al uw acties in de gebruikersinterface vastlegt.
-7. Ga naar de verschillende pagina's en activiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)] waartoe u gebruikers met deze machtigingenset toegang wilt verlenen. U moet de taken uitvoeren waarvoor u machtigingen wilt opnemen.
+7. Ga naar de verschillende pagina's en activiteiten in [!INCLUDE[prod_short](includes/prod_short.md)] waartoe u gebruikers met deze machtigingenset toegang wilt verlenen. U moet de taken uitvoeren waarvoor u machtigingen wilt opnemen.
 8. Om de opname te stoppen, gaat u terug naar de pagina **Machtigingen** en kiest u de actie **Stoppen**.
 9. Kies de knop **Ja** om de opgenomen toegangsrechten aan de nieuwe machtigingenset toe te voegen.
 10. Geef voor elk object in de opgenomen lijst aan of gebruikers records mogen invoegen, wijzigen of verwijderen in de opgenomen tabellen.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Beveiligingsfilters - De toegang van een gebruiker tot specifieke records in een tabel beperken
 
-Voor beveiliging op recordniveau in [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Dit betekent dat de gebruiker geen toegang heeft tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de Help voor ontwikkelaars en IT-pro.
+Voor beveiliging op recordniveau in [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt u beveiligingsfilters om de toegang van een gebruiker tot gegevens in een tabel te beperken. U maakt beveiligingsfilters voor tabelgegevens. Een beveiligingsfilter beschrijft een set records in een tabel waarvoor een gebruiker toegangsrechten heeft. U kunt bijvoorbeeld opgeven dat een gebruiker alleen de records kan lezen die gegevens over een bepaalde klant bevatten. Dit betekent dat de gebruiker geen toegang heeft tot de records die informatie over andere klanten bevatten. Zie voor meer informatie [Beveiligingsfilters gebruiken](/dynamics365/business-central/dev-itpro/security/security-filters) in de Help voor ontwikkelaars en IT-pro.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Machtigingen beheren via gebruikersgroepen
 
@@ -245,12 +245,20 @@ Beheerders kunnen perioden definiëren waarin opgegeven gebruikers kunnen boeken
 3. Voer in het veld **Gebruikers-id** de id van een gebruiker in of kies het veld om alle huidige Windows-gebruikers in het systeem te zien.
 4. Vul de vereiste velden in.
 
+
+## <a name="viewing-permission-changes-telemetry"></a>Telemetrie van machtigingswijzigingen weergeven 
+
+U kunt [!INCLUDE[prod_short](includes/prod_short.md)] instellen om wijzigingen die zijn aangebracht in een machtiging, naar een Application Insights-resource in Microsoft Azure te sturen. Vervolgens maakt u met behulp van Azure Monitor rapporten en stelt u waarschuwingen in voor de verzamelde gegevens. Zie voor meer informatie de volgende artikelen in de [!INCLUDE[prod_short](includes/prod_short.md)] Ontwikkelaar en IT Pro Help:
+
+- [Telemetrie bewaken en analyseren - inschakelen Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Veldbewakingstelemetrie bekijken](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## <a name="see-also"></a>Zie ook
 
 [Gebruikers maken volgens licenties](ui-how-users-permissions.md)  
 [Profielen beheren](admin-users-profiles-roles.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
-[Aanpassen [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Aanpassen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 [Beheer](admin-setup-and-administration.md)  
 [Gebruikers toevoegen aan Microsoft 365 voor bedrijven](https://aka.ms/CreateOffice365Users)  

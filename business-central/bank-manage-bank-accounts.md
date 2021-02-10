@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924350"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752327"
 ---
 # <a name="reconciling-bank-accounts"></a>Bankrekeningen reconciliëren
 
@@ -26,7 +26,7 @@ U kunt de taak uitvoeren op de pagina **Bankreconciliatie**, waar u bankafschrif
 > [!NOTE]  
 > In de Noord-Amerikaanse versies kunt u bankreconciliatie ook uitvoeren op de pagina **Werkblad bankreconciliatie**, dat geschikter is voor cheques en borgsommen, maar geen importeren van bankafschriftbestanden biedt. Als u deze pagina wilt gebruiken in plaats van de pagina **Bankreconciliatie**, schakelt u het veld **Bankreconciliatie met automatische afstemming** uit op de pagina **Boekhoudinstellingen**. Zie voor meer informatie [Bankrekeningen reconciliëren](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) onder Lokale functionaliteit voor de Verenigde Staten.
 
-Voordat u uw bankrekeningen kunt beheren in [!INCLUDE[d365fin](includes/d365fin_md.md)], moet u elke bankrekening als bankrekeningkaart instellen. Daarnaast moet u elektronische services instellen die u kunt gebruiken voor de import van bankafschriften en de export van het betalingsbestand. Zie [Bankieren instellen](bank-setup-banking.md) voor meer informatie.
+Voordat u uw bankrekeningen kunt beheren in [!INCLUDE[prod_short](includes/prod_short.md)], moet u elke bankrekening als bankrekeningkaart instellen. Daarnaast moet u elektronische services instellen die u kunt gebruiken voor de import van bankafschriften en de export van het betalingsbestand. Zie [Bankieren instellen](bank-setup-banking.md) voor meer informatie.
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.
 
@@ -48,5 +48,5 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Bankfondsen overboeken](bank-how-transfer-bank-funds.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

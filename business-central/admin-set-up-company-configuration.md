@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 571261190274fc74535e7b18b2c949d7f7714c1b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917723"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745939"
 ---
 # <a name="set-up-company-configuration"></a>Een bedrijfsconfiguratie instellen
-Het implementatieproces begint met de Microsoft-partner. Het is de verantwoordelijkheid van de partner om de configuratiedetails uit te werken en een pakket op te stellen dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt, moet u plannen hoe dit zal worden geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.
+Het implementatieproces begint met de Microsoft-partner. Het is de verantwoordelijkheid van de partner om de configuratiedetails uit te werken en een pakket op te stellen dat een klant eenvoudig kan toepassen. Voordat u een nieuw bedrijf maakt, moet u plannen hoe dit zal worden geconfigureerd. U moet rekening houden met elementaire instellingsgegevens en de soorten gegevens die uw [!INCLUDE[prod_short](includes/prod_short.md)]-oplossing nodig zal hebben. U bundelt al deze gegevens in configuratiepakketten.
 
 RapidStart Services bieden u ook de hulpmiddelen die u gebruikt om uw oude gegevens te migreren, zoals klanten en leveranciers.  
 
@@ -26,7 +26,7 @@ Het is raadzaam om configuratiepakketten te maken met de meeste van de instellin
 
 De configuratiepakketten zijn gebaseerd op een vooraf geconfigureerd bedrijf. Nadat u een bedrijf hebt ingesteld dat aan uw behoeften voldoet, kunt u een configuratiepakket met relevante gegevens maken op basis van dit bedrijf. U kunt deze dan gebruiken wanneer u een nieuw bedrijf maakt dat op dezelfde manier moet worden geconfigureerd.  
 
-U kunt het importeren van hoofdgegevens, zoals klant- en leveranciersinformatie, vergemakkelijken door configuratiesjablonen te gebruiken. Configuratiesjablonen bevatten een set standaardinstellingen die automatisch worden toegewezen aan de records die zijn geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+U kunt het importeren van hoofdgegevens, zoals klant- en leveranciersinformatie, vergemakkelijken door configuratiesjablonen te gebruiken. Configuratiesjablonen bevatten een set standaardinstellingen die automatisch worden toegewezen aan de records die zijn geïmporteerd in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de beschrijvende onderwerpen.
 

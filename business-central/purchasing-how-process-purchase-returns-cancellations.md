@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b3d45d4a058ea21adefafd13e640346e61a249d3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f8cc23b4108b460f4a9c6d890dcfd962b23f9e1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926869"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748740"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Inkoopretouren of annuleringen verwerken
 
@@ -193,5 +193,5 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 [Inkoop](purchasing-manage-purchasing.md)  
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)  

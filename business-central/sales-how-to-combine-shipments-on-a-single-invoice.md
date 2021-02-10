@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 757f7cd38a6325df0e8dc0d283d58c42a8ab823e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925944"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748265"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Verzendingen combineren op één factuur
 Als u meerdere verzendingen tegelijkertijd wilt factureren, kunt u de functie Verzamelfacturering gebruiken.  
@@ -36,7 +36,7 @@ Voordat u een verzamelfactuur kunt maken, moet u meerdere verkoopverzendingen vo
 7. Kies de actie **Boeken** om de factuur te boeken.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Verzendingen automatisch op één factuur combineren  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] selecteert alleen verkooporders waar **Verzendingen combineren** is gekozen. 
+[!INCLUDE[prod_short](includes/prod_short.md)] selecteert alleen verkooporders waar **Verzendingen combineren** is gekozen. 
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verzendingen combineren** in en kies de desbetreffende koppeling. De opvraagpagina voor de batchverwerking wordt geopend.  
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,4 +61,4 @@ Herhaal stap 1 t/m 3 voor alle andere betrokken documenten, zoals verkoopraamcon
 
 ## <a name="see-also"></a>Zie ook  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

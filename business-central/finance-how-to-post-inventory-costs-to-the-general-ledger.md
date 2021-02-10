@@ -1,6 +1,6 @@
 ---
 title: 'Procedure: Voorraadkosten naar het grootboek boeken| Microsoft Docs'
-description: Beschrijft hoe u de fysieke producten beheert waarin u handelt, bijvoorbeeld de voorraad in uw magazijn.
+description: Aan het einde van boekhoudperioden (maandelijks, jaarlijks of anderszins) moet een reeks kostenbeheersings- en audittaken worden uitgevoerd om een juiste en gebalanceerde voorraadwaarde te rapporteren aan de financiële afdeling. Naast de boekingsroutine waarmee de afzonderlijke artikelwaardeposten worden overgebracht naar speciale grootboekrekeningen, zijn diverse lijsten, traceerfuncties en een speciaal reconciliatiehulpmiddel beschikbaar voor de auditor of controller die verantwoordelijk is voor dit bedrijfskritieke werk.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919485"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746813"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Voorraadkosten reconciliëren met het grootboek
 Als u voorraadtransacties (bijvoorbeeld verkoopverzendingen, inkoopfacturen of voorraadherwaarderingen) boekt, worden de gewijzigde artikelkosten vastgelegd in artikelwaardeposten. Om deze wijziging van voorraadwaarde door te voeren in uw financiële boeken, worden de voorraadkosten automatisch geboekt naar de gerelateerde voorraadrekeningen in het grootboek. Voor iedere voorraadtransactie die u boekt, worden overeenkomende waarden geboekt naar de voorraadrekening, de correctierekening en de KPV-rekening in het grootboek.
@@ -69,9 +69,21 @@ In de volgende kolommen worden de totalen voor dezelfde rekeningsoorten weergege
 
 Kies het bedrag in een willekeurig totaalveld om de voorraadrapportposten te bekijken die voor het berekenen van de totalen zijn gebruikt. Voor de voorraadtotalen omvatten de voorraadrapportposten de som van de waardeposten voor de artikelen. Voor de grootboektotalen omvatten de voorraadrapportposten de som van de grootboekposten.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kosten rapporteren en afstemmen met het grootboek
+Andere rapporten, traceerfuncties en een speciaal reconciliatie-instrument zijn beschikbaar voor de auditor of controller die verantwoordelijk is voor het rapporteren van een correcte en evenwichtige voorraadwaarde aan de financiële afdeling.
+
+De volgende tabel beschrijft ze.    
+
+|**Als u dit wilt doen**|**Zie**|  
+|------------|-------------|  
+|De voorraadwaarde van geselecteerde artikelen te bekijken, inclusief informatie over de hoeveelheden en waarden van toenames en afnames van de voorraad in een geselecteerde periode.|Rapport **Voorraadwaardering**|  
+|De voorraadwaarde te bekijken van geselecteerde productieorders in uw OHW-voorraad (onderhanden werk), zoals de hoeveelheden en waarden van verbruik, capaciteitgebruik en output in lopende productieorders.|Rapport **Voorraadwaardering - OHW**|  
+|De voorraadwaarde te bekijken van geselecteerde artikelen, inclusief de werkelijke en verwachte kostprijs op de gespecificeerde datum.|Rapport **Voorraadwaard. - Kostenspec.**|  
+|Een lijst te gebruiken om de redenen voor kostenvariaties te analyseren of om inzicht te krijgen in de kostenaandelen van verkochte goederen (KPV).|Rapport **Analyse aandeel in kosten**|  
+
 ## <a name="see-also"></a>Zie ook  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)    
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

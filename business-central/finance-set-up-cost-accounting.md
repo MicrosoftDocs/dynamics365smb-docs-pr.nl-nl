@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910752"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746638"
 ---
 # <a name="setting-up-cost-accounting"></a>Kostenboekhouding instellen
 Voordat u begint te werken met kostprijsboekhouding, moet u insteltaken uitvoeren.
@@ -87,8 +87,8 @@ Er bestaat een n:1-relatie tussen de grootboekrekeningen en kostensoorten Versch
 Er bestaat mogelijk geen relatie tussen een kostensoort en grootboekrekeningen als aan een van de volgende voorwaarden wordt voldaan:  
 
 * Rekeningen voor operationeel boekhouden zoals voor het de berekenen van rente en afschrijvingen, nemen alleen de kosten mee van de operationele boekhouding.  
-* Ondersteunende kostensoorten, zoals kostensoorten 9901, 9902 en 9903 in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database , worden gebruikt als credit- of debet-rekeningen voor toewijzingen.  
-* De ondersteunende rekening, 9920 in de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database, bevat de werkelijke overlopende transitoria die het verschil laten zien tussen de kosten en de onkosten uit het grootboek.
+* Ondersteunende kostensoorten, zoals kostensoorten 9901, 9902 en 9903 in de [!INCLUDE[prod_short](includes/prod_short.md)]-database , worden gebruikt als credit- of debet-rekeningen voor toewijzingen.  
+* De ondersteunende rekening, 9920 in de [!INCLUDE[prod_short](includes/prod_short.md)]-database, bevat de werkelijke overlopende transitoria die het verschil laten zien tussen de kosten en de onkosten uit het grootboek.
 
 ## <a name="setting-up-cost-centers"></a>Kostenplaatsen instellen
 Kostenplaatsen zijn afdelingen die verantwoordelijk zijn voor kosten en opbrengsten. Het schema van kostenplaatsen is vergelijkbaar met de dimensiegegevens voor het grootboek. U kunt het schema van kostenplaatsen op de volgende manieren instellen:  
@@ -157,7 +157,7 @@ U kunt kostenobjecten instellen en onderhouden op de kaart **Kostenobjectkaart**
 >  Als u definities in de velden **Totaal van/tot** voor de kostenobjecten **Eindtotaal** hebt ingevoerd voordat u de inspringfunctie uitvoert, moet u deze opnieuw invoeren. De functie overschrijft de waarden in alle velden **Eindtotaal**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kostenplaatsen en kostenobjecten voor rekeningschema's definiëren
-In het grootboek kunt u de inkomsten- en onkostenposten automatisch overbrengen naar de kostprijsboekhouding, hetzij voor elke grootboekboeking of met behulp van een batchtaak. Wanneer u de overdracht uitvoert, worden door [!INCLUDE[d365fin](includes/d365fin_md.md)] alleen de posten overgebracht die al zijn gekoppeld aan een kostenplaats of een kostenobject. Om tot een zinvolle overdracht te komen, moet u ervoor zorgen dat kostenplaatsen en de kostenobjecten juist zijn gedefinieerd.  
+In het grootboek kunt u de inkomsten- en onkostenposten automatisch overbrengen naar de kostprijsboekhouding, hetzij voor elke grootboekboeking of met behulp van een batchtaak. Wanneer u de overdracht uitvoert, worden door [!INCLUDE[prod_short](includes/prod_short.md)] alleen de posten overgebracht die al zijn gekoppeld aan een kostenplaats of een kostenobject. Om tot een zinvolle overdracht te komen, moet u ervoor zorgen dat kostenplaatsen en de kostenobjecten juist zijn gedefinieerd.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Standaarddimensiewaarden definiëren voor grootboekrekeningen  
 Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **Standaarddimensie**. In het volgende voorbeeld ziet u hoe u kunt definiëren dat er altijd een AFDELING als kostenplaats, maar nooit een PROJECT als kostenobject moet voorkomen bij het boeken naar een grootboekrekening.  
@@ -182,4 +182,4 @@ Voor elke grootboekrekening definieert u standaarddimensiewaarden in de tabel **
 [Kosten verantwoorden](finance-manage-cost-accounting.md)  
 [Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)   
 [Kosten definiëren en toewijzen](finance-define-and-allocate-costs.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

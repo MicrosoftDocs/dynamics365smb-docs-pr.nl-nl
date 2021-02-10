@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913393"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747088"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Financiële gegevens uit meerdere bedrijven consolideren
 
-Sommige organisaties gebruiken [!INCLUDE [prodshort](includes/prodshort.md)] in meerdere bedrijfsunits of rechtspersonen. Andere gebruiken [!INCLUDE [prodshort](includes/prodshort.md)] in dochterondernemingen die moeten rapporteren aan moederorganisaties. In beide gevallen gebruiken de accountants ingebouwde tools om de financiële gegevens te helpen consolideren.  
+Sommige organisaties gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in meerdere bedrijfsunits of rechtspersonen. Andere gebruiken [!INCLUDE [prod_short](includes/prod_short.md)] in dochterondernemingen die moeten rapporteren aan moederorganisaties. In beide gevallen gebruiken de accountants ingebouwde tools om de financiële gegevens te helpen consolideren.  
 
 U kunt de grootboekposten van twee of meer aparte bedrijven (dochterbedrijven) consolideren in één geconsolideerd bedrijf. Elk afzonderlijk bedrijf dat betrokken is bij een consolidatie, wordt een bedrijfsunit genoemd. Het gecombineerde bedrijf wordt het geconsolideerde bedrijf genoemd.  
 
-U kunt gegevens in het geconsolideerde bedrijf importeren vanuit andere bedrijven in dezelfde [!INCLUDE [prodshort](includes/prodshort.md)]-tenant of vanuit bestanden.  
+U kunt gegevens in het geconsolideerde bedrijf importeren vanuit andere bedrijven in dezelfde [!INCLUDE [prod_short](includes/prod_short.md)]-tenant of vanuit bestanden.  
 
 Als de financiële overzichten van een bedrijfsunit in een andere valuta zijn dan die van het geconsolideerde bedrijf, moet u wisselkoersen instellen voor de consolidatie.  
 
@@ -42,7 +42,7 @@ U stelt het geconsolideerde bedrijf in op dezelfde manier als waarop u andere be
 
 ## <a name="trial-balance"></a>Proefbalans
 
-Als u meerdere bedrijven in [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt, kan het rapport **Consolidatie - Proefbalans** u inzicht bieden in de algehele financiële status van uw bedrijf.  
+Als u meerdere bedrijven in [!INCLUDE[prod_short](includes/prod_short.md)] hebt, kan het rapport **Consolidatie - Proefbalans** u inzicht bieden in de algehele financiële status van uw bedrijf.  
 
 Het rapport combineert de grootboekposten van al uw bedrijven in een nieuw bedrijf dat u maakt om de geconsolideerde gegevens in op te nemen. Dit bedrijf wordt doorgaans het geconsolideerde bedrijf genoemd. Het geconsolideerde bedrijf is slechts een container voor de geconsolideerde gegevens en bevat geen live bedrijfsgegevens. De bedrijven die u in het geconsolideerde bedrijf opneemt, worden in het rapport **bedrijfsunits**. Zie [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md) voor meer informatie.  
 
@@ -52,7 +52,7 @@ Het proces van overdracht van de cijfers van de bedrijfsunits naar de geconsolid
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>De gegevens testen vóór consolidatie
 
-U kunt uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbrengt. [!INCLUDE[d365fin](includes/d365fin_md.md)] zoekt naar verschillen in de gegevens in de bedrijfsunits en in het geconsolideerde bedrijf. Er wordt bijvoorbeeld gecontroleerd of rekeningnummers of dimensiecodes afwijken. U moet fouten corrigeren voordat u het rapport kunt uitvoeren. U kunt de database testen, als u gegevens uit een XML-bestand importeert, of het bestand testen.  
+U kunt uw gegevens testen voordat u deze naar het geconsolideerde bedrijf overbrengt. [!INCLUDE[prod_short](includes/prod_short.md)] zoekt naar verschillen in de gegevens in de bedrijfsunits en in het geconsolideerde bedrijf. Er wordt bijvoorbeeld gecontroleerd of rekeningnummers of dimensiecodes afwijken. U moet fouten corrigeren voordat u het rapport kunt uitvoeren. U kunt de database testen, als u gegevens uit een XML-bestand importeert, of het bestand testen.  
 
 1. Open het geconsolideerde bedrijf.  
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies de gerelateerde koppeling.  
@@ -118,5 +118,5 @@ De geëxporteerde posten bevatten de volgende velden: **Bankrekeningnr.**, **Boe
 
 [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)

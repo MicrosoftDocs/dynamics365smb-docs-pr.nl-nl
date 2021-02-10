@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 953be4038a65917e10bca1921d9ff4f80f584b28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d92b4d5ad8b473f517af9fba5e1097e2452d1446
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920768"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749465"
 ---
 # <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Een afschrijvingsboek moeten eerst worden ingesteld en toegewezen aan elk vast activum voordat u het kunt aanschaffen.
@@ -48,7 +48,7 @@ Wanneer u **Voltooien** kiest, wordt het veld **Boekwaarde** op de pagina **Vast
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Een onderdelenlijst instellen voor een hoofdactivum
 U kunt vaste activa groeperen in hoofdactiva en hun onderdelen. U kunt bijvoorbeeld een productiemachine hebben die uit vele onderdelen bestaat die u op deze manier wilt groeperen.  
 
-Zowel het hoofdactivum als alle onderdelen moeten als individueel vast activum worden ingesteld. Nadat u een onderdelenlijst hebt ingesteld, worden in [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisch de velden **Hoofdactivum/Onderdeel** en **Onderdeel van hoofdactivum** op de VA-kaarten ingevuld.
+Zowel het hoofdactivum als alle onderdelen moeten als individueel vast activum worden ingesteld. Nadat u een onderdelenlijst hebt ingesteld, worden in [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de velden **Hoofdactivum/Onderdeel** en **Onderdeel van hoofdactivum** op de VA-kaarten ingevuld.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
 2. Selecteer het vaste activum dat het hoofdactivum is en kies vervolgens de actie **Onderdelen van hoofdactivum**.
@@ -70,7 +70,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt 
 4. Kies de actie **Boeken**.  
 
 > [!TIP]  
->   Als u tijdens het boeken van de aanschafkosten het veld **Verzekeringsnr.** invult in het dagboek, worden de aanschafkosten van het vaste activum door [!INCLUDE[d365fin](includes/d365fin_md.md)] ook naar de verzekeringsdekkingsposten geboekt. Zie [Vaste activa verzekeren](fa-how-insure.md) voor meer informatie.
+>   Als u tijdens het boeken van de aanschafkosten het veld **Verzekeringsnr.** invult in het dagboek, worden de aanschafkosten van het vaste activum door [!INCLUDE[prod_short](includes/prod_short.md)] ook naar de verzekeringsdekkingsposten geboekt. Zie [Vaste activa verzekeren](fa-how-insure.md) voor meer informatie.
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>De boeking van aanschafkosten voor één vast activum annuleren
 Als u een fout maakt wanneer u aanschafkosten boekt, kunt u de post verwijderen met de batchverwerking **VA-posten annuleren** en vervolgens de juiste aanschafpost boeken. De foutieve posten worden overgebracht naar de pagina **Foutieve VA-posten**.
@@ -103,4 +103,4 @@ Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een V
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

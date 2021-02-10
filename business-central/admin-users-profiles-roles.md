@@ -7,16 +7,16 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922289"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745980"
 ---
 # <a name="manage-profiles"></a>Profielen beheren
 
-Alle gebruikers van [!INCLUDE[d365fin](includes/d365fin_md.md)] krijgen een profiel toegewezen dat een afspiegeling is van hun zakelijke rol, de afdeling waarin ze werken of een andere categorisatie. Met profielen kunnen beheerders centraal definiëren en beheren wat verschillende gebruikerstypen in de gebruikersinterface kunnen zien en doen, zodat zij hun zakelijke taken efficiënt kunnen uitvoeren.
+Alle gebruikers van [!INCLUDE[prod_short](includes/prod_short.md)] krijgen een profiel toegewezen dat een afspiegeling is van hun zakelijke rol, de afdeling waarin ze werken of een andere categorisatie. Met profielen kunnen beheerders centraal definiëren en beheren wat verschillende gebruikerstypen in de gebruikersinterface kunnen zien en doen, zodat zij hun zakelijke taken efficiënt kunnen uitvoeren.
 
 > [!NOTE]
 > Het typische zakelijke gebruik van een profiel is een rol. Een profiel wordt daarom genoemd *Profiel (rol)* in de gebruikersinterface.
@@ -81,14 +81,14 @@ Wanneer een profiel wordt gemaakt, kunt u verschillende selectievakjes selectere
     - **Weergeven in Rollenverkenner** om op te geven of acties op zakelijke functies in het profiel moeten worden weergegeven in de uitgebreide weergave van de rollenverkenner, een functieoverzicht. Zie voor meer informatie [Pagina's zoeken met de rolverkenner](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Profielen exporteren
-U kunt profielen exporteren uit [!INCLUDE[d365fin](includes/d365fin_md.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie voor meer informatie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+U kunt profielen exporteren uit [!INCLUDE[prod_short](includes/prod_short.md)], bijvoorbeeld om ze te hergebruiken in een andere tenant. De profielen worden geëxporteerd naar een zipbestand met .al-bestanden die opnieuw kunnen worden gebruikt om extensies te ontwikkelen. Zie voor meer informatie [De client gebruiken om profielen en pagina-aanpassingen te maken](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * Kies op de pagina **Profielen (rollen)** de actie **Profielen exporteren**.
 
 Een zip-bestand met de .al-bestanden voor alle profielen wordt geëxporteerd.
 
 ## <a name="to-import-profiles"></a>Profielen importeren
-U kunt profielen importeren die zijn geëxporteerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. De stappen zijn min of meer het tegenovergestelde van de stappen om profielen te exporteren. Zie [Profielen exporteren](admin-users-profiles-roles.md#to-export-profiles) voor meer informatie.
+U kunt profielen importeren die zijn geëxporteerd vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. De stappen zijn min of meer het tegenovergestelde van de stappen om profielen te exporteren. Zie [Profielen exporteren](admin-users-profiles-roles.md#to-export-profiles) voor meer informatie.
 
 1. Kies op de pagina **Profielen (rollen)** de actie **Profielen importeren**.
 2. Volg de stappen in de wizard **Profielen importeren**.
@@ -127,7 +127,7 @@ U kunt personalisaties verwijderen die een of meer gebruikers hebben aangebracht
     De pagina **Persoonlijke gebruikersinstellingen van pagina** bevat alle pagina's die zijn gepersonaliseerd en de gebruiker waartoe ze behoren.
 
     > [!Note]
-    > Een vinkje in het veld **Oude persoonlijke instellingen** geeft aan dat de personalisatie is uitgevoerd in een oudere versie van [!INCLUDE[d365fin](includes/d365fin_md.md)], die anders met personalisatie omging dan nu het geval is. Gebruikers die proberen deze pagina's te personaliseren zijn hiertoe niet in staat, tenzij ze ervoor kiezen de pagina te ontgrendelen. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personaliseren?](ui-personalization-locked.md).
+    > Een vinkje in het veld **Oude persoonlijke instellingen** geeft aan dat de personalisatie is uitgevoerd in een oudere versie van [!INCLUDE[prod_short](includes/prod_short.md)], die anders met personalisatie omging dan nu het geval is. Gebruikers die proberen deze pagina's te personaliseren zijn hiertoe niet in staat, tenzij ze ervoor kiezen de pagina te ontgrendelen. Zie voor meer informatie [Waarom is een pagina vergrendeld voor personaliseren?](ui-personalization-locked.md).
 
 2. Selecteer de regel voor de paginapersonalisatie die u wilt verwijderen en kies de actie **Verwijderen**.
 
@@ -137,9 +137,9 @@ U kunt ook afzonderlijke pagina-aanpassingen voor een profiel verwijderen. Zie v
 
 ## <a name="managing-user-sessions"></a>Gebruikerssessies beheren
 
-Als beheerder van [!INCLUDE[prodshort](includes/prodshort.md)] online kunt u gebruikerssessies beheren in het beheercentrum. Zie voor meer informatie [Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in de beheerinhoud.  
+Als beheerder van [!INCLUDE[prod_short](includes/prod_short.md)] online kunt u gebruikerssessies beheren in het beheercentrum. Zie voor meer informatie [Sessies beheren](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) in de beheerinhoud.  
 
-Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kunt u sessies beheren met bijvoorbeeld SQL Server Management Studio. Zie voor meer informatie [Technische documentatie over SQL Server](/sql/sql-server).  
+Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kunt u sessies beheren met bijvoorbeeld SQL Server Management Studio. Zie voor meer informatie [Technische documentatie over SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Zie ook  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  

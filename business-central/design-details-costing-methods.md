@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927019"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751702"
 ---
 # <a name="design-details-costing-methods"></a>Ontwerpdetails: Waarderingsmethoden
 
@@ -24,7 +24,7 @@ De waarderingsmethode bepaalt of een werkelijke of gebudgetteerde waarde wordt g
 > [!NOTE]
 > U kunt de waarderingsmethode van een artikel niet wijzigen als er artikelposten voor het artikel bestaan. Zie voor meer informatie [Ontwerpdetails: de waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md).
 
-De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+De volgende methoden worden ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Waarderingsmethode | Omschrijving | Gebruik |
 |--|--|--|
@@ -163,4 +163,4 @@ De volgende methoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_m
  [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913418"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747113"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Betalingen verzamelen via automatische incasso van SEPA
 Met instemming van de klant kunt u betalingen rechtstreeks vanaf de bankrekening van de klant verzamelen volgens de SEPA-indeling.  
@@ -35,9 +35,9 @@ Met instemming van de klant kunt u betalingen rechtstreeks vanaf de bankrekening
 Vanuit de pagina **Incasso-opdrachten** kunt u instructies naar uw elektronische bank exporteren om een automatische incasso van de bankrekening van de klant uit te voeren naar uw bankrekening, volgens de SEPA-indeling voor incasso.
 
 > [!NOTE]
-> De globale versie van [!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt alleen de SEPA-indeling voor incasso. In de versie van uw land/regio kunnen andere indelingen voor elektronische betaling worden ondersteund. Zie onder **Lokale functionaliteit** in de inhoudsopgave.  
+> De globale versie van [!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt alleen de SEPA-indeling voor incasso. In de versie van uw land/regio kunnen andere indelingen voor elektronische betaling worden ondersteund. Zie onder **Lokale functionaliteit** in de inhoudsopgave.  
 
-Als u de export van bankbestandsindelingen die niet standaard worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)] mogelijk wilt maken, kunt u een gegevensuitwisselingsdefinitie instellen met behulp van het kader voor gegevensuitwisseling. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
+Als u de export van bankbestandsindelingen die niet standaard worden ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)] mogelijk wilt maken, kunt u een gegevensuitwisselingsdefinitie instellen met behulp van het kader voor gegevensuitwisseling. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.  
 
 Voordat u betalingen van klanten elektronisch kunt verwerken door instructies voor automatische incasso te exporteren in de SEPA-indeling voor incasso, moet u de volgende instellingenstappen uitvoeren:  
 

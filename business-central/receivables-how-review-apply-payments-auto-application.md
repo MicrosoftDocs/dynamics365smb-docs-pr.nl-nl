@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 386947106aedd8d0a264d04bd28c064a0f43655f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926419"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748515"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Betalingen na automatische vereffening handmatig controleren of vereffenen
 Voor elke dagboekregel die een betaling vertegenwoordigt op de pagina **Dagboek betalingsreconciliatie** kunt u de pagina **Betalingsvereffening** openen om alle openstaande kandidaatposten voor de betaling te zien en gedetailleerde informatie voor elke post weer te geven over de gegevensafstemming waarop een betalingsvereffening wordt gebaseerd. Hier kunt u handmatig betalingen vereffenen of betalingen die automatisch met een verkeerde post zijn vereffend, opnieuw vereffenen. Zie [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md) voor meer informatie over automatische vereffening.
 
 > [!IMPORTANT]  
->   Wanneer de bankrekening waarvoor u betalingen reconcilieert, is ingesteld voor de lokale valuta, bevat de pagina **Betalingsvereffening** alle openstaande posten in de lokale valuta, inclusief openstaande posten voor documenten die oorspronkelijk in vreemde valuta's zijn gefactureerd. Betalingen die worden vereffend met posten met omgerekende valuta's, kunnen daarom worden geboekt met andere bedragen dan op het oorspronkelijke document, vanwege de mogelijk verschillende wisselkoersen die worden gebruikt door de bank dan wel [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   Wanneer de bankrekening waarvoor u betalingen reconcilieert, is ingesteld voor de lokale valuta, bevat de pagina **Betalingsvereffening** alle openstaande posten in de lokale valuta, inclusief openstaande posten voor documenten die oorspronkelijk in vreemde valuta's zijn gefactureerd. Betalingen die worden vereffend met posten met omgerekende valuta's, kunnen daarom worden geboekt met andere bedragen dan op het oorspronkelijke document, vanwege de mogelijk verschillende wisselkoersen die worden gebruikt door de bank dan wel [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Daarom is het raadzaam dat u controleert op vreemde valutacodes in het veld **Valutacode** op de pagina **Betalingsvereffening** om te zien of vereffeningen zijn gebaseerd op omgezette valuta's. Als u het oorspronkelijke documentbedrag in de buitenlandse valuta wilt controleren en de gebruikte wisselkoers wilt zien, kiest u het veld **Vereffenen met postnr.** en kiest u in het snelmenu de knop Drilldown om de pagina **Customer Ledger Klantenposten** of **Leveranciersposten** te openen.
 
-Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet automatisch afgehandeld door [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Eventuele vereiste winst-en-verliescorrectie vanwege valutakoersen wordt niet automatisch afgehandeld door [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   U kunt geen posten vereffenen met een ander teken dan het teken voor de betaling. Als u bijvoorbeeld zowel een creditnota met een negatief teken als de gerelateerde factuur met een positief teken wilt afsluiten, moet u eerst de creditnota vereffenen met de factuur, en vervolgens de betaling vereffenen met de factuur met het verminderde restbedrag.
@@ -52,4 +52,4 @@ De pagina **Betalingsvereffening** wordt gesloten en op de pagina **Dagboek beta
 ## <a name="see-also"></a>Zie ook
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

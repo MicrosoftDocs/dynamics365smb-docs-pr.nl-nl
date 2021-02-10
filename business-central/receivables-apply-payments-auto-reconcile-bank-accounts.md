@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fd26f288ee6128539c9a8dd415d98126d693c3fe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2eb3b42c5b76487d579065b9a60ae614bbb71dda
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926619"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748615"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Betalingen automatisch vereffenen en bankrekeningen reconciliëren
-U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde openstaande (onbetaalde) facturen en creditnota's of andere openstaande posten in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+U moet regelmatig uw bankrekening en de rekeningen met tegoeden en betalingsverplichtingen reconciliëren, door betalingen die op de bank zijn vastgelegd te vereffenen met de gerelateerde openstaande (onbetaalde) facturen en creditnota's of andere openstaande posten in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 U kunt deze taak op de pagina **Dagboek betalingsreconciliatie** uitvoeren door bijvoorbeeld een bankafschriftbestand of -feed te importeren om de betalingen snel in project te registreren. Betalingen worden vereffend met openstaande leveranciers- of klantenposten, op basis van overeenkomsten tussen de betalingtekst en de informatie in de posten. U kunt automatische vereffeningen controleren en wijzigen voordat u het dagboek boekt. U kunt ervoor kiezen om openstaande bankrekeningposten met betrekking tot de vereffende posten te sluiten wanneer u het dagboek boekt. De bankrekening wordt automatisch gereconcilieerd wanneer alle betalingen worden vereffend.
 
@@ -30,7 +30,7 @@ U kunt ook bankrekeningen reconciliëren zonder tegelijkertijd betalingen te ver
 
 Als u bankafschriften als een bankfeed wilt importeren, moet u eerst de service Envestnet Yodlee Bank Feeds instellen en inschakelen en vervolgens uw bankrekeningen aan de gerelateerde online bankrekeningen koppelen. Zie voor meer informatie [De Envestnet Yodlee Bank Feeds-service instellen](bank-how-setup-bank-statement-service.md).  
 
-U kunt ook de extensie AMC Banking 365 Fundamentals gebruiken om een bankafschriftenbestand te converteren van elke denkbare indeling naar een gegevensstroom die u kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).  
+U kunt ook de extensie AMC Banking 365 Fundamentals gebruiken om een bankafschriftenbestand te converteren van elke denkbare indeling naar een gegevensstroom die u kunt importeren in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md).  
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
 
@@ -48,4 +48,4 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Bankrekeningen afstemmen](bank-how-reconcile-bank-accounts-separately.md)  
 [Tegoeden beheren](receivables-manage-receivables.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

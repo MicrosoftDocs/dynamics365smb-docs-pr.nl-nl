@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8264d7b824590638ce66db718fec10915d321277
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ded66a98ffeb909a8ecd347abe00b714203f21d3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919873"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752491"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
-In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Functiebeschikbaarheid  
 
@@ -64,7 +64,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

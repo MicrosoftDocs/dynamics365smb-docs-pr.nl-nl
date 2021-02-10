@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925821"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748077"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Servicefacturen of creditnota's maken
-Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[prodshort](includes/prodshort.md)]. U kunt uw [!INCLUDE[prodshort](includes/prodshort.md)] ook zo instellen dat een servicetechnicus op locatie een factuur kan maken voor een service die niet aan een contract of order is verbonden. U kunt [!INCLUDE[prodshort](includes/prodshort.md)] ook instellen zodat u periodiek servicecontracten factureert. Met de factuurperiode voor elk contract wordt bepaald hoe vaak u dit factureert.
+Gemakkelijke facturering van uw serviceorders is een van de belangrijkste kenmerken van [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt uw [!INCLUDE[prod_short](includes/prod_short.md)] ook zo instellen dat een servicetechnicus op locatie een factuur kan maken voor een service die niet aan een contract of order is verbonden. U kunt [!INCLUDE[prod_short](includes/prod_short.md)] ook instellen zodat u periodiek servicecontracten factureert. Met de factuurperiode voor elk contract wordt bepaald hoe vaak u dit factureert.
 
 ## <a name="to-invoice-several-service-contracts"></a>Meerdere servicecontracten factureren
 

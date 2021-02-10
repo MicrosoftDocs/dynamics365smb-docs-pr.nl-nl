@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c501160901435e25dd7ddf82753adc0330d64722
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b3abf9ae0cb07e6b3e79fc21ee10467f4f611b6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921414"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748940"
 ---
 # <a name="manage-job-supplies"></a>Projectvoorraden beheren
 Het beheren van projectgoederen van artikelen, services en onkosten is een integraal en zeer belangrijk aspect van de uitvoering van alle projecten. U kunt voorraadhoeveelheden gebruiken of projectspecifieke inkopen doen met behulp van inkooporders of inkoopfacturen. Stel bijvoorbeeld dat bij een serviceproject voor een computer een nieuwe schijf vereist is. U maakt een inkoopfactuur om een nieuwe schijf te kopen en legt het project vast waarvoor deze wordt gebruikt.
@@ -55,4 +55,4 @@ Als u buitengewone of eenmalige projectkosten maakt, kunt u de pagina **GB-dagbo
 [Financiën](finance.md)  
 [Inkoop](purchasing-manage-purchasing.md)         
 [Verkoop](sales-manage-sales.md)      
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

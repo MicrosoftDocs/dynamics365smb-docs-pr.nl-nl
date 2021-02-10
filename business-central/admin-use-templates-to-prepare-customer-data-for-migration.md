@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922339"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745913"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Migratie van klantgegevens met sjablonen voorbereiden
 
@@ -28,7 +28,7 @@ Meestal maakt u gegevenssjablonen voor de volgende hoofdgegevens:
 - **Artikel**  
 - **Leverancier**  
 
-U kunt echter een sjabloonstructuur maken en toepassen op elke willekeurige tabel in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+U kunt echter een sjabloonstructuur maken en toepassen op elke willekeurige tabel in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > U kunt ook gegevenssjablonen gebruiken voor dagelijkse bewerkingen om nieuwe records te maken die zijn gebaseerd op sjablonen. Deze gegevenssjablonen werken alleen voor de ondersteunde hoofdgegevenstabellen. Zie voor meer informatie bijvoorbeeld [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ De tabel-id, tabelnaam en regels van de bestaande gegevenssjabloon worden ingevo
 3. Voer in het veld **Standaardwaarde** een geschikte waarde in. In sommige gevallen wilt u wellicht een waarde gebruiken die niet als waarde beschikbaar is in de database. In dat geval kunt u het selectievakje **Relatiecontrole overslaan** selecteren om gegevens zonder fout te kunnen toepassen.
 
     > [!TIP]  
-    > Aangezien het veld **Standaardwaarde** niet de overeenkomstige [!INCLUDE[d365fin](includes/d365fin_md.md)]-veldopties hoeft op te zoeken, kopieert en plakt u de gewenste waarde van de gerelateerde pagina in de sjabloon.
+    > Aangezien het veld **Standaardwaarde** niet de overeenkomstige [!INCLUDE[prod_short](includes/prod_short.md)]-veldopties hoeft op te zoeken, kopieert en plakt u de gewenste waarde van de gerelateerde pagina in de sjabloon.
 
 4. Selecteer het selectievakje **Verplicht** als gebruikers het veld moeten invullen.
 
@@ -98,7 +98,7 @@ De tabel-id, tabelnaam en regels van de bestaande gegevenssjabloon worden ingevo
 
 ## <a name="to-export-to-a-template-in-excel"></a>Exporteren naar een sjabloon in Excel
 
-U kunt snel een Excel-werkmap maken als sjabloon die is gebaseerd op de structuur van een bestaande databasetabel. U kunt vervolgens de sjabloon gebruiken om klantgegevens te verzamelen in een consistente indeling die u later kunt importeren in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+U kunt snel een Excel-werkmap maken als sjabloon die is gebaseerd op de structuur van een bestaande databasetabel. U kunt vervolgens de sjabloon gebruiken om klantgegevens te verzamelen in een consistente indeling die u later kunt importeren in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.
 2. Voeg een tabel toe aan de lijst of selecteer een bestaande tabel. Zie voor meer informatie [De bedrijfsconfiguratie beheren in een werkblad](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Wanneer u gegevens uit een sjabloon in Excel toepast op een tabel waaraan evenee
 Een record waarvan de gegevens op deze manier worden toegepast is voltooid, omdat deze bestaat uit gegevens die zijn ingevoerd door een gebruiker in Excel, plus de standaardwaarden die zijn opgegeven door de configuratiesjabloon.
 
 > [!NOTE]
-> Als de gegevens in de tabellen in het configuratiepakket datums bevatten, bijvoorbeeld boekingsdatums in facturen, worden de datums in aanmerking genomen in de tijdzone die is gespecificeerd in [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Als de gegevens in de tabellen in het configuratiepakket datums bevatten, bijvoorbeeld boekingsdatums in facturen, worden de datums in aanmerking genomen in de tijdzone die is gespecificeerd in [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Een record maken vanuit een configuratiesjabloon
 
@@ -131,7 +131,7 @@ U kunt de structuur van de gegevens in de gegevenssjablonen gebruiken om uw info
 De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgegevenssjabloon. U kunt met dezelfde procedure een record maken van elke gegevenssjabloon.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiesjablonen** in en kies de desbetreffende koppeling.  
-2. Selecteer de **artikel**sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie [Een gegevenssjabloon maken](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
+2. Selecteer de **artikel** sjabloon en kies vervolgens de actie **Bewerken**. Zie voor meer informatie [Een gegevenssjabloon maken](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Kies de actie **Instantie maken**. Er wordt een artikelkaart gemaakt.  
 4. Kies de knop **OK**.  
 5. Als u de nieuwe artikelkaart wilt bekijken, kiest u het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Artikelen** in en kiest u vervolgens de gerelateerde koppeling.  
@@ -140,7 +140,7 @@ De volgende stappen illustreren hoe u een artikelkaart maakt van een artikelgege
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Een configuratiesjabloon gebruiken voor een record
 
-U kunt een gegevenssjabloon toepassen op elke record in [!INCLUDE[d365fin](includes/d365fin_md.md)] en deze techniek gebruiken om een record te wijzigen. Echter wanneer u dit doet, overschrijft u bestaande waarden in de record met die van de sjabloon. Wees dus voorzichtig wanneer u een sjabloon op bestaande records toepast.
+U kunt een gegevenssjabloon toepassen op elke record in [!INCLUDE[prod_short](includes/prod_short.md)] en deze techniek gebruiken om een record te wijzigen. Echter wanneer u dit doet, overschrijft u bestaande waarden in de record met die van de sjabloon. Wees dus voorzichtig wanneer u een sjabloon op bestaande records toepast.
 
 > [!WARNING]  
 > De functie **Sjabloon toepassen** overschrijft bestaande gegevens in een record. Als deze functie wordt gebruikt in de migratie van de hoofdgegevens, worden de geïmporteerde gegevens overschreven wanneer u records maakt.

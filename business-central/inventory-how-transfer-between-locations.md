@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79dfe973780269480285bac6aca380461b1ab403
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f406a44a3d786c06ea1ac1e61d5b51bb97b67f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913293"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746138"
 ---
 # <a name="transfer-inventory-between-locations"></a>Voorraad overbrengen tussen vestigingen
 U kunt voorraadartikelen tussen vestigingen overbrengen door transferorders te maken. U kunt ook het artikelherindelingsdagboek gebruiken.
@@ -63,6 +63,6 @@ Als u artikelen wilt overbrengen, moeten locaties en transferroutes zijn ingeste
 ## <a name="see-also"></a>Zie ook
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Vestigingen instellen](inventory-how-setup-locations.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)

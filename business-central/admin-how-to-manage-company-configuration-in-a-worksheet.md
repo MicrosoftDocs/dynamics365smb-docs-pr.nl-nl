@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e90d17b2892744c768cd0383f91962fe51d2a0de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922589"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752647"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>De bedrijfsconfiguratie beheren in een werkblad
 Het configuratiewerkblad is de centrale locatie waar u configuratieactiviteiten kunt plannen, bijhouden en uitvoeren. U kunt een werkblad maken voor elk bedrijf waarmee u werkt of een standaardconfiguratiewerkblad maken dat kan worden gebruikt voor het configureren van meerdere identieke bedrijven.  
 
-De eerste stap bij het voorbereiden van een configuratiepakket is het selecteren van een bedrijf dat u al hebt ingesteld en aangepast aan de behoeften van uw oplossing. Dit bedrijf fungeert als de basislijn voor uw configuratieactiviteiten voor nieuwe bedrijven. In het werkblad wijst u de tabellen toe die u door uw configuratie wilt laten besturen en verwerken. Aangezien de meeste tabellen in [!INCLUDE[d365fin](includes/d365fin_md.md)] relaties en afhankelijkheden met andere tabellen hebben, moet u zo nodig ook deze gerelateerde tabellen opnemen. Samen fungeren deze tabellen dan als de structuur waaromheen u een nieuw bedrijf opbouwt. De volgende stappen helpen u bij het inpakken en vervolgens implementeren van uw configuratie.  
+De eerste stap bij het voorbereiden van een configuratiepakket is het selecteren van een bedrijf dat u al hebt ingesteld en aangepast aan de behoeften van uw oplossing. Dit bedrijf fungeert als de basislijn voor uw configuratieactiviteiten voor nieuwe bedrijven. In het werkblad wijst u de tabellen toe die u door uw configuratie wilt laten besturen en verwerken. Aangezien de meeste tabellen in [!INCLUDE[prod_short](includes/prod_short.md)] relaties en afhankelijkheden met andere tabellen hebben, moet u zo nodig ook deze gerelateerde tabellen opnemen. Samen fungeren deze tabellen dan als de structuur waaromheen u een nieuw bedrijf opbouwt. De volgende stappen helpen u bij het inpakken en vervolgens implementeren van uw configuratie.  
 
 Als planningsmiddel bij het bijhouden en controleren van uw werk gebruikt u het feitenblok **Pakkettabel voor configuratie** om informatie over records te zien. Gebruik het feitenblok **Aan configuratie gerelateerde tabellen** om het feitenblok tabelrelaties bekijken.  
 
 De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt toevoegen en aanpassen.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Het configuratiewerkblad openen  
-1.  Open in [!INCLUDE[d365fin](includes/d365fin_md.md)] het bedrijf dat de basislijn voor configuratie vormt en open vervolgens het rolcentrum RapidStart Services-implementatie.  
+1.  Open in [!INCLUDE[prod_short](includes/prod_short.md)] het bedrijf dat de basislijn voor configuratie vormt en open vervolgens het rolcentrum RapidStart Services-implementatie.  
 2.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiewerkblad** in en kies de desbetreffende koppeling.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Een tabel toevoegen aan het werkblad  
@@ -62,7 +62,7 @@ De volgende procedures laten zien hoe u tabelgegevens voor uw configuratie kunt 
     |**Alleen gelicentieerd tabellen opnemen**|Schakel dit selectievakje in als u alleen de tabellen wilt opnemen waartoe de licentie waaronder u het werkblad maakt u toegang biedt.|
 
 3. Stel zo nodig op het sneltabblad **Object** filters in om de soorten tabellen op te geven die u wilt opnemen of uitsluiten.  
-4. Kies de knop **Ok**. [!INCLUDE[d365fin](includes/d365fin_md.md)] tabellen worden toegevoegd aan het voorstel. Elke vermelding in de lijst heeft een regel van het soort **Tabel**.  
+4. Kies de knop **Ok**. [!INCLUDE[prod_short](includes/prod_short.md)] tabellen worden toegevoegd aan het voorstel. Elke vermelding in de lijst heeft een regel van het soort **Tabel**.  
 5. Als u dubbele tabelinformatie wilt verwijderen (wat het gevolg kan zijn van de actie **Tabellen ophalen**), kiest u de actie **Dubbele regels verwijderen**. Hierdoor worden dubbele tabellen met dezelfde pakketcode verwijderd.  
 6. U kunt aan het werkblad tabellen toevoegen die zijn gerelateerd aan een tabel die u hebt geselecteerd. Raadpleeg de informatie in het feitenblok **Gerelateerde tabellen** om te zien of er tabellen ontbreken. U kunt gerelateerde tabellen voor een bepaalde tabel toevoegen door de tabel te selecteren in de lijst en de actie **Gerelateerde tabellen ophalen** te kiezen.  
 
@@ -97,7 +97,7 @@ In de volgende procedure wordt beschreven hoe u benamingen van gebieden en groep
 4. Kies in het veld **Regelsoort** de optie **Groep**. Voer in het veld **Naam** een naam voor het gebied in. De naam van de groep wordt automatisch ingesprongen weergegeven.  
 5. Als u tabellen naar de juiste categorie wilt verplaatsen, selecteert u de tabel die u wilt verplaatsen en kiest u de actie **Omhoog** of **Omlaag**. U kunt ook een werkbladregel verwijderen en de tabel opnieuw invoegen op de vereiste locatie.  
 
-Sommige [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen zijn standaard en de gegevens hierin veranderen waarschijnlijk niet van implementatie tot implementatie. Derhalve kunt u, om uw klant te helpen focussen, deze tabellen uit het werkblad verwijderen nadat u ze hebt opgenomen in het configuratiepakket. Wanneer de tabellen eenmaal zijn toegevoegd, blijven zij onderdeel van het configuratiepakket.  
+Sommige [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen zijn standaard en de gegevens hierin veranderen waarschijnlijk niet van implementatie tot implementatie. Derhalve kunt u, om uw klant te helpen focussen, deze tabellen uit het werkblad verwijderen nadat u ze hebt opgenomen in het configuratiepakket. Wanneer de tabellen eenmaal zijn toegevoegd, blijven zij onderdeel van het configuratiepakket.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Een standaardtabel in het werkblad verwijderen  
 Nadat u alle benodigde tabellen hebt toegevoegd aan een configuratiepakket, bepaalt u welke tabellen geen aandacht van de klant vereisen.  
@@ -114,11 +114,11 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
 1.  Bepaal op de pagina **Configuratiewerkblad** van welke tabellen u de gegevens wilt bekijken of aanpassen.  
 
     > [!NOTE]  
-    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.  
+    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.  
 
 2.  Kies de actie **Databasegegevens**.  
 
-     De [!INCLUDE[d365fin](includes/d365fin_md.md)]-pagina voor de pagina wordt geopend.  
+     De [!INCLUDE[prod_short](includes/prod_short.md)]-pagina voor de pagina wordt geopend.  
 
 3.  Bekijk de beschikbare informatie. Wijzig deze zo nodig door records te verwijderen die niet relevant zijn of door nieuwe records toe te voegen.
 

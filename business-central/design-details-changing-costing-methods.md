@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917523"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751727"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een waarderingsmethode voor een artikel niet wijzigen nadat u het artikel in een transactie hebt opgenomen. Bijvoorbeeld nadat u het artikel hebt gekocht of verkocht. Als aan het artikel of de artikelen een onjuiste waarderingsmethode is toegewezen, ontdekt u het probleem mogelijk pas wanneer u uw financiële rapportage uitvoert.
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een waarderingsmethode voor een artikel niet wijzigen nadat u het artikel in een transactie hebt opgenomen. Bijvoorbeeld nadat u het artikel hebt gekocht of verkocht. Als aan het artikel of de artikelen een onjuiste waarderingsmethode is toegewezen, ontdekt u het probleem mogelijk pas wanneer u uw financiële rapportage uitvoert.
 
 In dit onderwerp wordt beschreven hoe u deze situatie kunt oplossen. De aanbevolen aanpak is om het artikel met de onjuiste waarderingsmethode te vervangen door een nieuw artikel en een assemblageorder te gebruiken om de voorraad van het oude artikel naar het nieuwe over te dragen.
 
@@ -35,7 +35,7 @@ Waarderingsmethode bepalen de kostenberekeningen wanneer goederen worden gekocht
 
 *brutowinst* = *inkomsten - KPV*
 
-Wanneer u voorraadartikelen instelt, moet u een waarderingsmethode toewijzen. De methode kan van bedrijf tot bedrijf en van artikel tot artikel verschillen, dus het is belangrijk om de juiste te kiezen. De volgende waarderingsmethoden worden ondersteund in [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+Wanneer u voorraadartikelen instelt, moet u een waarderingsmethode toewijzen. De methode kan van bedrijf tot bedrijf en van artikel tot artikel verschillen, dus het is belangrijk om de juiste te kiezen. De volgende waarderingsmethoden worden ondersteund in [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 * Gemiddelde
 * FIFO
@@ -60,7 +60,7 @@ In deze sectie worden de volgende stappen beschreven voor het wijzigen van de wa
 
 ### <a name="define-a-default-costing-method"></a>Een standaardwaarderingsmethode opgeven
 
-Om toekomstige fouten te voorkomen kunt u een standaardwaarderingsmethode voor nieuwe artikelen specificeren. Telkens wanneer iemand een nieuw artikel maakt, stelt [!INCLUDE[d365fin](includes/d365fin_md.md)] de standaardwaarderingsmethode voor. U specificeert de standaardmethode in het veld **Standaardwaarderingsmethode** op de pagina **Voorraadinstellingen**. 
+Om toekomstige fouten te voorkomen kunt u een standaardwaarderingsmethode voor nieuwe artikelen specificeren. Telkens wanneer iemand een nieuw artikel maakt, stelt [!INCLUDE[prod_short](includes/prod_short.md)] de standaardwaarderingsmethode voor. U specificeert de standaardmethode in het veld **Standaardwaarderingsmethode** op de pagina **Voorraadinstellingen**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>De artikelen identificeren waarvoor u de waarderingsmethode wilt wijzigen en deze hernummeren
 
@@ -84,7 +84,7 @@ Om de nieuwe artikelen volledig bruikbaar te maken moet u sommige hoofdgegevens 
 |     |Standaarddagboeken         |Controleer of standaarddagboeken verwijzen naar het oorspronkelijke artikel en breng die gegevens indien nodig over naar het nieuwe artikel. Deze informatie is te vinden in de standaarddagboeken, die beschikbaar zijn in het artikeldagboek.          |
 |Verkoop     |Vooruitbetalingspercentages verkoop         | Controleer of er voor het oorspronkelijke artikel verkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Verkoop** en dan **Vooruitbetalingspercentages**.        |
 |Inkoop     |Vooruitbetalingspercentage inkoop         |Controleer of er voor het oorspronkelijke artikel inkoopvooruitbetalingspercentages zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om de vooruitbetalingspercentages te bekijken kiest u op de pagina **Artikelkaart** **Inkopen** en dan **Vooruitbetalingspercentages**.                 |
-|Magazijn     |Opslaglocatie-inhoud         |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[d365fin](includes/d365fin_md.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
+|Magazijn     |Opslaglocatie-inhoud         |Bekijk de opslaglocatie-inhoud die voor het originele artikel is gedefinieerd. Als kolommen zoals Min. aantal, Max. aantal, Standaard en Speciaal afzonderlijk zijn ingevoerd, moet u handmatig opslaglocatie-inhoud maken voor het nieuwe artikel. Als dat niet het geval is, is er geen actie vereist. [!INCLUDE[prod_short](includes/prod_short.md)] houdt records bij wanneer u magazijndocumenten en tijdschriften registreert.|
 |Project     |Projectprijzen         |Controleer of er voor het oorspronkelijke artikel projectprijzen zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Deze informatie is beschikbaar op de pagina **Projectkaart** in het gedeelte **Projectdetails - Aantal prijzen** in het **deelvenster Feitenblok**.         |
 |Service     |Serviceresourcevaardigheid         |Controleer of er serviceresourcevaardigheden voor het oorspronkelijke artikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Als u resourcevaardigheden wilt weergeven, gebruikt u de actie **Resourcevaardigheden** op de pagina **Artikelkaart**.          |
 |     |Serviceartikelonderdelen         |Controleer of er onderdelen voor het oorspronkelijke serviceartikel zijn gedefinieerd en breng die gegevens over naar het nieuwe artikel. Om onderdelen van serviceartikelen te bekijken gebruikt u op de pagina **Artikelkaart** de actie **Serviceartikel** om de lijst met gerelateerde serviceartikelen te openen en kiest u vervolgens de actie **Materialen**.          |
@@ -169,7 +169,7 @@ Als de voorraad voor het oorspronkelijke artikel nul is, kunt u het artikel blok
 
 ## <a name="summary"></a>Overzicht
 
-Het wijzigen van de waarderingsmethode voor artikelen die in transacties zijn gebruikt, is een proces en geen standaardactie in [!INCLUDE[d365fin](includes/d365fin_md.md)]. U kunt de in dit onderwerp beschreven stappen gebruiken als sjabloon voor het proces.
+Het wijzigen van de waarderingsmethode voor artikelen die in transacties zijn gebruikt, is een proces en geen standaardactie in [!INCLUDE[prod_short](includes/prod_short.md)]. U kunt de in dit onderwerp beschreven stappen gebruiken als sjabloon voor het proces.
 
 Het proces kan tijdrovend zijn omdat er verschillende handmatige stappen zijn. Als u echter de tijd neemt om het te voltooien, wordt de impact van fouten op uw grootboek geminimaliseerd.
 

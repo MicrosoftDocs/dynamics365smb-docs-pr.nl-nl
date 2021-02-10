@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21eff2a2c52dfabb3788bb06d1d2f684c34441ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916090"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750002"
 ---
 # <a name="trace-item-tracked-items"></a>Artikelen met artikeltracering traceren
 U kunt zien waar een artikel met artikeltracering is gebruikt, inclusief hoe en wanneer dit is ontvangen of geproduceerd, overgebracht, verkocht, verbruikt of geretourneerd. U kunt tevens alle huidige exemplaren van een bepaald serie- of lotnummer in de database vinden. Dit doet u met behulp van de functies Artikeltracering en [Posten zoeken](ui-find-entries.md).  
@@ -69,6 +69,6 @@ Deze functies zijn vooral handig tijdens het uitvoeren van kwaliteitscontroles w
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 [Artikelen reserveren](inventory-how-to-reserve-items.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Procedure: Serie-/lotnummers traceren](walkthrough-tracing-serial-lot-numbers.md)  
 [Posten zoeken](ui-find-entries.md)  

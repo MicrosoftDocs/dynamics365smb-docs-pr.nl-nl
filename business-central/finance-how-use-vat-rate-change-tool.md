@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923917"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746788"
 ---
 # <a name="managing-vat-rate-changes"></a>Wijzigingen in btw-tarieven beheren
 
-Btw-tarieven kunnen veranderen afhankelijk van de lokale wetgeving. Elke wijziging in de btw heeft gevolgen voor uw gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)] ongeacht of btw wordt verhoogd, verlaagd of verwijderd. Btw is verbonden met veel entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals klanten, leveranciers, artikelen, resources, artikelkosten en grootboekrekeningen. Wijzigingen in btw-tarieven vinden meestal plaats op een specifieke datum, vanaf welk punt u de btw-instellingen, boekingsgroepen enzovoort moet wijzigen om ervoor te zorgen dat nieuwe verkooporders en inkooporders worden gemaakt met het nieuwe btw-tarief.
+Btw-tarieven kunnen veranderen afhankelijk van de lokale wetgeving. Elke wijziging in de btw heeft gevolgen voor uw gegevens in [!INCLUDE[prod_short](includes/prod_short.md)] ongeacht of btw wordt verhoogd, verlaagd of verwijderd. Btw is verbonden met veel entiteiten in [!INCLUDE[prod_short](includes/prod_short.md)], zoals klanten, leveranciers, artikelen, resources, artikelkosten en grootboekrekeningen. Wijzigingen in btw-tarieven vinden meestal plaats op een specifieke datum, vanaf welk punt u de btw-instellingen, boekingsgroepen enzovoort moet wijzigen om ervoor te zorgen dat nieuwe verkooporders en inkooporders worden gemaakt met het nieuwe btw-tarief.
 
 ## <a name="changing-vat-rates"></a>Btw-tarieven wijzigen
 

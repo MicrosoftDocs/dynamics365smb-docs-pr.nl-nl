@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51e16908aff4e4877d93a2828d2400185c3213ca
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915682"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751802"
 ---
 # <a name="design-details-assembly-order-posting"></a>Ontwerpdetails: Assemblageorderboeking
 Assemblageorderboeking wordt gebaseerd op dezelfde principes als wanneer de soortgelijke activiteiten van verkooporders en productieverbruik/-output worden geboekt. De principes worden echter gecombineerd in de zin dat assemblageorders hun eigen boeking-UI hebben, zoals die voor verkooporders, terwijl de feitelijke postboeking op de achtergrond wordt uitgevoerd als directe artikel- en resourcedagboekboekingen, zoals die voor productieverbruik, output en capaciteit.  
@@ -115,4 +115,4 @@ Bij het boeken van verkooporderregels waarbij een gedeelte afkomstig is uit voor
  [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
  [Financiën](finance.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

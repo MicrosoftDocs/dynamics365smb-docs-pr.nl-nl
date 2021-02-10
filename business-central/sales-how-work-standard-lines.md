@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66a0e679a97bff7071a20197c804143cf11539d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40af4b0010b46938a9ce53a12dd95f1b2a687cc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910477"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748166"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Periodieke verkoop- en inkoopregels maken
 Als u vaak verkoop- en inkoopregels met dezelfde informatie moet maken, kunt u standaardregels instellen die u dan kunt invoegen op periodieke verkoop- en inkoopdocumenten, bijvoorbeeld voor periodieke aanvullingsorders.  
@@ -79,4 +79,4 @@ Verkoopfacturen worden gemaakt voor klanten met de opgegeven standaard klantverk
 ## <a name="see-also"></a>Zie ook
 
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

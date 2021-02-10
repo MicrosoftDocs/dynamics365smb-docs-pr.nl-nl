@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 746c5be8f77f7afd7a65de17c9893ce1a16fccb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 934124d419e19c1dc8180f11fcae748cd2afd15d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924400"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752352"
 ---
 # <a name="transfer-bank-funds"></a>Bankfondsen overboeken
-Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u dit wilt doen, moet u een transactie boeken op de pagina **Dagboek**. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
+Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u dit wilt doen, moet u een transactie boeken op de pagina **Dagboek**. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Een transfer boeken tussen bankrekeningen met dezelfde valutacode
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Dagboek** in en kies de desbetreffende koppeling.
@@ -57,4 +57,4 @@ Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's g
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

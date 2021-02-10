@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b0c74145034d71445bde5ae9374029eb9895107
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925969"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748340"
 ---
 # <a name="set-up-salespeople"></a>Verkopers instellen
 Veel bedrijven willen de individuele prestaties van een werknemer volgen om op basis daarvan de verkoopcommissie of bonus te kunnen berekenen. Zie bijvoorbeeld het rapport met **verkoperscommissies**. Mogelijk wil een bedrijf ook een verkoper aan elk contact toewijzen.
@@ -33,4 +33,4 @@ U kunt verkopers in divers relatiebeheer en marketingwerk gebruiken. U kunt bijv
 ## <a name="see-also"></a>Zie ook
 [Verkopen instellen](sales-setup-sales.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

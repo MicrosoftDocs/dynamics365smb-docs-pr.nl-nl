@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922866"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746113"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
-Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prodshort](includes/prodshort.md)].
+Dit artikel geeft een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u werkt met [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Zie [Sneltoetsen (alleen pc)](keyboard-shortcuts-cheatsheet.md) voor een overzicht van de meestgebruikte sneltoetsen.
 
@@ -37,7 +37,7 @@ Sneltoetsen vergroten de toegankelijkheid en maken het gemakkelijker en efficië
 De meeste sneltoetsen zijn hetzelfde, ongeacht of het besturingssysteem Windows of macOS is. Sommige sneltoetsen verschillen echter voor macOS. Deze snelkoppelingen worden aangegeven met haakjes in de volgende secties.
 
 > [!NOTE]
-> Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
+> Naast de algemene sneltoetsen die in dit onderwerp worden beschreven, is er een aantal bedrijfsspecifieke sneltoetsen beschikbaar. Bijvoorbeeld in de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)] boekt F9 een document en toont Ctrl+F7 de financiële posten voor een record wanneer u de record opent in een kaart. (Deze kunnen in uw oplossing verschillen.) De sneltoets wordt weergegeven in de knopinfo voor de betreffende actie.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Algemene sneltoetsen
 
@@ -63,7 +63,7 @@ De volgende tabel beschrijft sneltoetsen voor navigatie en toegang tot verschill
 |Ctrl+F1|De Help van Business Central voor de pagina openen.|
 |Ctrl+F12|Schakelen tussen brede en smalle indelingweergave.|
 |Ctrl+klikken|Navigeren tijdens het personaliseren of aanpassen wanneer de actie is gemarkeerd met een pijlpunt. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.|  
-|Ctrl+F5|De [!INCLUDE[prodshort](includes/prodshort.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
+|Ctrl+F5|De [!INCLUDE[prod_short](includes/prod_short.md)]-toepassing opnieuw laden. (Vergelijkbaar met vernieuwen/opnieuw laden selecteren in de browser.)|
 |F5|De gegevens op de huidige pagina vernieuwen.<br /><br />Gebruik deze toets om te zorgen dat de gegevens op de pagina up-to-date zijn met wijzigingen die anderen hebben aangebracht terwijl u werkt.|
 |Voer in|Het (besturings)element met focus inschakelen of openen.|
 |Esc|De huidige pagina of vervolgkeuzelijst sluiten.|
@@ -88,7 +88,7 @@ De volgende tabel beschrijft de sneltoetsen die u op een lijstpagina kunt gebrui
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigeren tussen rijen en kolommen
 
-Veel paginatypen in [!INCLUDE[prodshort](includes/prodshort.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
+Veel paginatypen in [!INCLUDE[prod_short](includes/prod_short.md)] bevatten rasters met rijen en kolommen, zoals lijstpagina's en **Regels**-onderdelen in documenten. Het verplaatsen van de ene cel naar de andere over een raster is volledig toetsenbordcompatibel.
 
 |Druk op deze toetsen<br />(in macOS)|Als u dit wilt doen in een lijstweergave |Als u dit wilt doen in een tegelweergave |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ Wanneer u een datumveld instelt, kunt u de datum handmatig invoeren of een agend
 |Page Down<br />(Fn+pijl omlaag)|Naar de volgende pagina's van het rapport gaan.|
 |Page up<br />(Fn+pijl omhoog)|Naar de vorige pagina's van het rapport gaan.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Sneltoetsen voor het in- en uitzoomen
+
+|Druk op deze toetsen|Actie|
+|--------------------------------|----------|
+|Ctrl++|Inzoomen op de huidige pagina.|  
+|Ctrl+-|Uitzoomen op de huidige pagina.|  
+|Ctrl+0|Inzoomen of uitzoomen tot 100% op de huidige pagina.|  
+
 ## <a name="see-also"></a>Zie ook
 
 [Snelle toetsenbordnaslag - alleen pc](keyboard-shortcuts-cheatsheet.md)  
 [Assisterende functies](ui-accessibility.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Veelgestelde vragen](across-faq.md)  
 [Posten zoeken](ui-find-entries.md)  

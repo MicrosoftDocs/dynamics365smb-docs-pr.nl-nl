@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921899"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749266"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Afschrijving van vaste activa instellen
  U kunt diverse afschrijvingsmethoden gebruiken ter voorbereiding van financiële stukken en de aangifte van inkomstenbelasting. Veel grote ondernemingen gebruiken lineaire afschrijving voor hun jaarverslag omdat deze methode in het algemeen tot hogere netto-inkomsten leidt. Voor inkomstenbelastingdoeleinden gebruiken veel bedrijven echter een versnelde afschrijvingsmethode, zoals boekwaarde-afschrijving. U definieert de afschrijvingsmethode van een activum met het veld **Afschrijvingsmethode** op de pagina **Vast activum**. Zie voor meer informatie over wat de verschillende methoden doen [Afschrijvingsmethoden](fa-depreciation-methods.md).
@@ -60,7 +60,7 @@ Als u een afschrijvingsboek wilt toewijzen aan meerdere vaste activa, kunt u de 
 7. Kies de knop **Ok**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Boekingssoorten voor afschrijving instellen
-Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] diverse boekingssoorten moet verwerken. Bijvoorbeeld, of de boeking debet of credit moet zijn, en of het boekingssoort moet worden opgenomen in de afschrijvingsbasis.  
+Voor elk afschrijvingsboek moet u instellen hoe [!INCLUDE[prod_short](includes/prod_short.md)] diverse boekingssoorten moet verwerken. Bijvoorbeeld, of de boeking debet of credit moet zijn, en of het boekingssoort moet worden opgenomen in de afschrijvingsbasis.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Afschrijvingsboeken** in en kies de desbetreffende koppeling.  
 2. Selecteer het afschrijvingsboek dat u wilt instellen en kies vervolgens de actie **VA-boekingssoortinstellingen**.
@@ -84,4 +84,4 @@ Voor elk afschrijvingsboek definieert u een standaardinstelling van sjablonen en
 [Vaste activa](fa-manage.md)  
 [Financiën](finance.md)  
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

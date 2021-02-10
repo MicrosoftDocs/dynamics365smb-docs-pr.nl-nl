@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 23e64b13791ac963578a476dc3dc70ececf76562
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9f66583cf2a5858eb9f8a7fb3c5b888573871f34
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919909"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752489"
 ---
 # <a name="dutch-post-codes"></a>Nederlandse postcodes
 
-In Nederland kunt u zich abonneren op het ontvangen van postcodes en postcode-updates voor uw bedrijf. Deze updates zijn belangrijk voor marketing- en relatiebeheeractiviteiten. Afhankelijk van uw abonnement ontvangt u een bestand met wijzigingen in de postcodegegevens die u in [!INCLUDE[prodshort](../../includes/prodshort.md)] kunt importeren.  
+In Nederland kunt u zich abonneren op het ontvangen van postcodes en postcode-updates voor uw bedrijf. Deze updates zijn belangrijk voor marketing- en relatiebeheeractiviteiten. Afhankelijk van uw abonnement ontvangt u een bestand met wijzigingen in de postcodegegevens die u in [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt importeren.  
 
 ## <a name="see-also"></a>Zie ook
 

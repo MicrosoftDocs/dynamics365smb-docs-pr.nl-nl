@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 54b0abc6b4c4834fd57cdc71d3d3ece024e3395c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9439cdbc2fbe6f2125ebc2be3e6965ad6ed7265f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913835"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752177"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KPI-webservices instellen en publiceren op basis van rekeningschema's
 Op de pagina **Instellingen rapportageschema KPI-webservice** stelt u in hoe de KPI-gegevens van het rapportageschema worden weergegeven en op welke specifieke rapportageschema's de KPI's zijn gebaseerd. Wanneer u de knop **Webservice publiceren** kiest, worden de opgegeven gegevens van de rapportageschema-KPI toegevoegd aan de lijst met gepubliceerde webservices op de pagina **Webservices**.  
@@ -54,4 +54,4 @@ Op de pagina **Instellingen rapportageschema KPI-webservice** stelt u in hoe de 
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Het grootboek en het rekeningschema](finance-general-ledger.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

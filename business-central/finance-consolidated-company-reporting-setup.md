@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927636"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750977"
 ---
 # <a name="set-up-company-consolidation"></a>Een bedrijfsconsolidatie instellen
 
@@ -33,7 +33,7 @@ Afhankelijk van de complexiteit van uw bedrijven kunt u consolidatie op twee man
 Als de consolidatie ongecompliceerd is, bijvoorbeeld omdat u de enige eigenaar van de te consolideren bedrijfsunits bent, wordt u door de begeleide instellingen **Bedrijfconsolidatie** door de volgende stappen geleid:
 
 * Geef op of er een nieuw geconsolideerd bedrijf moet worden gemaakt of dat de gegevens moeten worden geconsolideerd in een bedrijf dat u al voor de consolidatie hebt gemaakt. Het bedrijf moet geen transacties bevatten.
-* Bekijk de resultaten. [!INCLUDE[d365fin](includes/d365fin_md.md)] verifieert of de hoofdgegevens en transacties naar het geconsolideerde bedrijf kunnen worden overgebracht.
+* Bekijk de resultaten. [!INCLUDE[prod_short](includes/prod_short.md)] verifieert of de hoofdgegevens en transacties naar het geconsolideerde bedrijf kunnen worden overgebracht.
 
 Ga als volgt te werk om de begeleide instelling te gebruiken:
 
@@ -70,7 +70,7 @@ De volgende lijst illustreert de belangrijkste aspecten van het geconsolideerde 
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Bedrijfsunits toevoegen
 
-Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u een lijst met te consolideren bedrijfsunits instellen, de boekhoudgegevens vóór de consolidatie controleren, bestanden importeren en consolidatierapporten genereren.  
+Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u een lijst met te consolideren bedrijfsunits instellen, de boekhoudgegevens vóór de consolidatie controleren, bestanden importeren en consolidatierapporten genereren.  
 
 1. Meld u aan bij het geconsolideerde bedrijf.
 2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsunits** in en kies de gerelateerde koppeling.  
@@ -88,7 +88,7 @@ Het rekeningschema van een bedrijf dat wordt geconsolideerd, moet rekeningen voo
 
 Als het rekeningschema van de bedrijfsunit afwijkt van dat van het geconsolideerde bedrijf, moet u grootboekrekeningen voorbereiden voor consolidatie. U kunt de rekeningen voor het boeken van debet- en creditbedragen opgeven en instellen welke methode moet worden gebruikt voor de vertaling van valuta in het geconsolideerde bedrijf. Dit is bijvoorbeeld nuttig als u het rapport vaak uitvoert.
 
-1. Kies in de [!INCLUDE [prodshort](includes/prodshort.md)] van elke bedrijfsunit het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
+1. Kies in de [!INCLUDE [prod_short](includes/prod_short.md)] van elke bedrijfsunit het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rekeningschema** in en kies de desbetreffende koppeling.  
 2. Open de kaart voor de rekening en vul de velden op het sneltabblad **Consolidatie** in. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Wisselkoersen opgeven voor consolidaties
@@ -136,5 +136,5 @@ Als u slechts een deel van een bedrijf bezit, kunt u een percentage van elke tra
 
 [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)  
 [Intercompany-transacties beheren](intercompany-manage.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uw bedrijfsgegevens naar Excel exporteren](about-export-data.md)

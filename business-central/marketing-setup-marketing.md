@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921689"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749752"
 ---
 # <a name="setting-up-relationship-management"></a>CRM instellen
 
@@ -40,7 +40,7 @@ Als u velden overneemt, worden de ingestelde standaardwaarden overschreven. Als 
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatisch interacties vastleggen
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen verkoop- en inkoopdocumenten automatisch worden geregistreerd als interacties (bijvoorbeeld orders, facturen, ontvangsten, enzovoort), alsmede e-mails, telefoongesprekken en contactkaarten.
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen verkoop- en inkoopdocumenten automatisch worden geregistreerd als interacties (bijvoorbeeld orders, facturen, ontvangsten, enzovoort), alsmede e-mails, telefoongesprekken en contactkaarten.
 
 Zie voor meer informatie [Automatisch interacties met contacten registreren](marketing-auto-record-interactions.md).
 
@@ -59,4 +59,4 @@ U kunt de toepassing automatisch laten zoeken naar dubbele records telkens wanne
 
 ## <a name="see-also"></a>Zie ook
 [Contactpersonen beheren](marketing-contacts.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

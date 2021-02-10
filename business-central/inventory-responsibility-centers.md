@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968330"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749952"
 ---
 # <a name="work-with-responsibility-centers"></a>Werken met divisies
 
@@ -53,7 +53,7 @@ Als u dit wilt instellen, moet u divisies toewijzen aan gebruikers in drie basis
 5. In het veld **Servicedivisiefilter** voert u de divisie in waaraan de servicebeheertaken van de gebruiker zijn gekoppeld.  
 
 > [!NOTE]  
-> Gebruikers kunnen nog steeds alle geboekte documenten en posten bekijken, niet alleen de documenten en posten die horen bij de betreffende divisie.
+> Gebruikers kunnen alleen die geboekte documenten bekijken die betrekking hebben op hun eigen verantwoordelijkheidscentrum. Ze kunnen echter alle grootboekposten bekijken en vanuit de grootboekposten naar andere geboekte documenten navigeren.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -62,4 +62,4 @@ Als u dit wilt instellen, moet u divisies toewijzen aan gebruikers in drie basis
 [Voorraad](inventory-manage-inventory.md)[Voorraadbeheer](warehouse-manage-warehouse.md)  
 [Magazijnbeheer](warehouse-manage-warehouse.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

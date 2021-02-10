@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914136"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746339"
 ---
 # <a name="view-the-availability-of-items"></a>Beschikbaarheid van artikelen weergeven
 Vanuit de context van een zakelijke taak kunt u geavanceerde informatie krijgen over waar en wanneer een artikel beschikbaar is, zoals wanneer u met een klant praat over een leverdatum.
@@ -28,10 +28,10 @@ U kunt de beschikbaarheid van alle artikelen per vestiging bekijken en u kunt de
 
 Als u magazijnfunctionaliteit gebruikt, varieert de beschikbaarheid afhankelijk van toewijzingen op het niveau van de opslaglocatie, wanneer magazijnactiviteiten optreden zoals picks en verplaatsingen en wanneer het voorraadreserveringssysteem beperkingen oplegt. Een tamelijk complex algoritme verifieert of aan alle voorwaarden is voldaan voordat aantallen worden toegewezen aan picks voor uitgaande stromen. Zie voor meer informatie [Ontwerpdetails: Beschikbaarheid in het magazijn](design-details-availability-in-the-warehouse.md).
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden de beschikbaarheidscijfers meestal weergegeven in twee verschillende velden, elk met een andere definitie:
+In [!INCLUDE[prod_short](includes/prod_short.md)] worden de beschikbaarheidscijfers meestal weergegeven in twee verschillende velden, elk met een andere definitie:
 
 * Het veld **In voorraad**, op sommige plaatsen **Voorraad** genoemd, bevat het werkelijke aantal van vandaag op basis van geboekte artikelposten.
-* Het veld **Geplande voorraad** wordt berekend en toont de beschikbare hoeveelheid plus geplande ontvangsten minus brutobehoeften. (In [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruiken omvatten geplande ontvangsten hoeveelheden op inkooporders en inkomende transferorders. Brutobehoeften omvatten aantallen op verkooporders en uitgaande transferorders.)
+* Het veld **Geplande voorraad** wordt berekend en toont de beschikbare hoeveelheid plus geplande ontvangsten minus brutobehoeften. (In [!INCLUDE[prod_short](includes/prod_short.md)] gebruiken omvatten geplande ontvangsten hoeveelheden op inkooporders en inkomende transferorders. Brutobehoeften omvatten aantallen op verkooporders en uitgaande transferorders.)
 
 > [!TIP]  
 >   Het voorspelde beschikbare saldo is met name van belang voor weergave op de pagina's **Beschikbaarheid per periode** en **Artikelbeschikbaarheid per gebeurtenis**, aangezien deze de datumdimensie bevatten.  

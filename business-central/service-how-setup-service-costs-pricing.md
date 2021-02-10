@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925794"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748099"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Prijzen en aanvullende kosten voor services instellen
-Met de prijsstellingsfuncties van [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u uw toepassing zo instellen en aanpassen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen. Deze prijsbeslissingen kunnen vervolgens gemakkelijk worden overgebracht naar het factureringsproces.  
+Met de prijsstellingsfuncties van [!INCLUDE[prod_short](includes/prod_short.md)] kunt u uw toepassing zo instellen en aanpassen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen. Deze prijsbeslissingen kunnen vervolgens gemakkelijk worden overgebracht naar het factureringsproces.  
   
 Desgewenst kunt u prijsgroepen instellen en deze toewijzen aan specifieke perioden, klanten of valuta. U kunt vaste prijzen, minimum- of maximumprijzen instellen op basis van de servicecontracten die u hebt opgesteld voor klanten. Ten slotte kunt u tijdens het aanpassen van uw prijzen de wijzigingen weergeven en goedkeuren voordat u ze in het grootboek opneemt.  
 

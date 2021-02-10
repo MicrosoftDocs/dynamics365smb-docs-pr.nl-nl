@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2ffddd60158a328916b891f0730c1f25684b04a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920669"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749390"
 ---
 # <a name="insure-fixed-assets"></a>Vaste activa verzekeren
 Een verzekeringspolis voor een vast activum wordt vertegenwoordigd door een verzekeringskaart. U kunt één vast activum aan één verzekeringspolis toewijzen, maar u kunt ook meerdere vaste activa aan één verzekeringspolis toewijzen.
@@ -70,7 +70,7 @@ Met de batchverwerking **Verzekering indexeren** kunt u de waarde wijzigen van d
 5. Open het relevante verzekeringsdagboek, controleer de gemaakte waarden en boek deze naar de dekkingsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Verzekeringsdekking controleren
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat bepaalde rapporten en statistiekpagina's voor gebruik bij het analyseren van verzekeringspolissen en om te controleren of uw vaste activa onder- of oververzekerd zijn.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat bepaalde rapporten en statistiekpagina's voor gebruik bij het analyseren van verzekeringspolissen en om te controleren of uw vaste activa onder- of oververzekerd zijn.  
 
 ### <a name="overview-of-insurance-policies"></a>Overzicht van verzekeringspolissen
 Om een overzicht van uw verzekeringspolissen te verkrijgen bekijkt u een voorbeeld van het rapport **Verzekering - Lijst** of drukt u het af. Het rapport bevat alle polissen en de belangrijkste velden van de verzekeringskaarten.  
@@ -118,4 +118,4 @@ Het vaste activum wordt losgekoppeld van de foutieve verzekeringspolis op de twe
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

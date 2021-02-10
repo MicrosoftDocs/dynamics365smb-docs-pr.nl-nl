@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e88cc5ad2eaf449d22dd0c9840a4fc33ae0f56f7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916165"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750827"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Kosten van werknemers registreren en terugbetalen
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt transacties voor een werknemer op dezelfde manier als voor leveranciers. Daarom zijn er werknemersboekingsgroepen om te zorgen dat werknemersposten worden geboekt naar de relevante rekeningen in het grootboek.
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt transacties voor een werknemer op dezelfde manier als voor leveranciers. Daarom zijn er werknemersboekingsgroepen om te zorgen dat werknemersposten worden geboekt naar de relevante rekeningen in het grootboek.
 
 > [!NOTE]  
 > Werknemerstransacties kunnen alleen in de lokale valuta worden geboekt. Terugbetalingen aan werknemers ondersteunen geen kortingen en betalingstoleranties.
@@ -59,4 +59,4 @@ U vereffent werknemersbetalingen met de gerelateerde open werknemersposten op de
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

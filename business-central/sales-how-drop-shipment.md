@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: add7cf9f2f274f50d0e187362b2e0c1bcc2fe8e0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c6b84d3622b4261c1f88880ba1257bf00f83e346
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926269"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748440"
 ---
 # <a name="make-drop-shipments"></a>Doorverzendingen uitvoeren
 
@@ -80,4 +80,4 @@ Nadat de leverancier de artikelen heeft verzonden, kunt u de verkooporder boeken
 [Inkopen vastleggen](purchasing-how-record-purchases.md)  
 [Verkoop](sales-manage-sales.md)  
 [Voorraad](inventory-manage-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

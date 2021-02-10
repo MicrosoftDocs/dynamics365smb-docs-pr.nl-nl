@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910152"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748015"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Service- en werkuren instellen
-Met een servicebeheersysteem worden de resource-uren en serviceorderstatus bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften. [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft ingebouwde tools die u kunt aanpassen om dit soort informatie vast te leggen.  
+Met een servicebeheersysteem worden de resource-uren en serviceorderstatus bijgehouden ten behoeve van het voorspellen van de werkbelasting en servicebehoeften. [!INCLUDE[prod_short](includes/prod_short.md)] heeft ingebouwde tools die u kunt aanpassen om dit soort informatie vast te leggen.  
   
 Nadat u de standaardservice-uren van uw bedrijf hebt ingesteld, kunt u responstijden voor serviceorders berekenen of waarschuwingen verzenden wanneer serviceoproepen worden ontvangen. De waarschuwingsfunctie wordt in combinatie met de projectplanner geïmplementeerd.   
   

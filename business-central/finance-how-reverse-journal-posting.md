@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a8a7967bdb0947fbfb0b86cc073fc4f96ea0595
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5e14b19b2e8be97a683dfbb9fb7a46e2c825b4e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920579"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750802"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
 Om een foutieve dagboekpost ongedaan te maken, selecteert en maakt u een tegenboeking (posten die identiek zijn aan de oorspronkelijke post, maar met een tegenovergesteld teken in het bedragveld) met hetzelfde documentnummer en dezelfde boekingsdatum als de originele post. Nadat een post is tegengeboekt, moet u de juiste post maken.
@@ -84,4 +84,4 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922514"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752722"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 
@@ -63,7 +63,7 @@ U kunt een configuratiepakket importeren dat is geëxporteerd uit een database m
 5. Kies de actie **Tabellen ophalen**. De batchverwerkingspagina **Pakkettabellen ophalen** wordt geopend.  
 6. Kies het veld **Tabellen selecteren**. De pagina **Selectie voor configuratie** wordt geopend.  
 7. Kies de actie **Alles selecteren** om alle tabellen aan het pakket toe te voegen of schakel het selectievakje **Geselecteerd** in voor elke tabel in de lijst die u wilt toevoegen.
-8. Kies de knop **Ok**. Het aantal tabellen dat u hebt geselecteerd wordt vermeld in het veld **Tabellen selecteren**. Geef extra opties op en kies de knop **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen worden toegevoegd aan de regels van de pagina **Pakket voor configuratie**.  
+8. Kies de knop **Ok**. Het aantal tabellen dat u hebt geselecteerd wordt vermeld in het veld **Tabellen selecteren**. Geef extra opties op en kies de knop **OK**. [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen worden toegevoegd aan de regels van de pagina **Pakket voor configuratie**.  
 
     > [!NOTE]  
     >  U kunt dit ook doen in het configuratiewerkblad. Selecteer de tabellen die u wilt opnemen in het pakket en kies vervolgens de actie **Pakket toewijzen**.
@@ -151,7 +151,7 @@ Als u een configuratiepakket voor een oplossing maakt, kunt u de beschikbare dat
 2. Bepaal in het configuratiewerkblad van welke tabellen u de gegevens wilt bekijken of aanpassen.  
 
     > [!NOTE]  
-    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.
+    >  Zorg ervoor dat aan elke tabel een pagina-id is toegewezen. Voor standaard [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen wordt de waarde automatisch ingevuld. Voor aangepaste tabellen moet u de id opgeven.
 
 3. Kies de actie **Databasegegevens**. De pagina voor de gerelateerde pagina wordt geopend.
 4. Bekijk de beschikbare informatie. Wijzig deze zo nodig door records te verwijderen die niet relevant zijn of door nieuwe records toe te voegen.  
@@ -174,3 +174,4 @@ Nadat u alle instellingsgegevens hebt ingevoerd en getest, kunt u doorgaan met h
 [Een bedrijfsconfiguratie instellen](admin-set-up-company-configuration.md)  
 [Een bedrijf instellen met RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Beheer](admin-setup-and-administration.md)  
+[Traceringstelemetrie van configuratiepakketten analyseren](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

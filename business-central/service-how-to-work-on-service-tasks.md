@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913193"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747990"
 ---
 # <a name="work-on-service-tasks"></a>Werken aan servicetaken
 Wanneer u een serviceorder of -offerte hebt gemaakt, serviceartikelregels hebt geregistreerd en resources aan de serviceartikelen in de order of offerte hebt toegewezen, kunt u beginnen met het herstel en onderhoud van de serviceartikelen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bevat een pagina **Servicetaken** die u een overzicht biedt van alle serviceartikelen die aandacht vereisen. Beschouw dit venster als uw servicedashboard, waar u kunt zien welke orders in behandeling zijn, waar u reserveonderdelen kunt zoeken en registreren, en waar u de voorraad up-to-date kunt houden.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bevat een pagina **Servicetaken** die u een overzicht biedt van alle serviceartikelen die aandacht vereisen. Beschouw dit venster als uw servicedashboard, waar u kunt zien welke orders in behandeling zijn, waar u reserveonderdelen kunt zoeken en registreren, en waar u de voorraad up-to-date kunt houden.  
 
-Als u wijzigingen wilt bijhouden en een grafische weergave van uw serviceactiviteiten wilt generen, kunt u met de [!INCLUDE[d365fin](includes/d365fin_md.md)]-functies voor statistieken snel en automatisch diagrammen en analyses genereren.  
+Als u wijzigingen wilt bijhouden en een grafische weergave van uw serviceactiviteiten wilt generen, kunt u met de [!INCLUDE[prod_short](includes/prod_short.md)]-functies voor statistieken snel en automatisch diagrammen en analyses genereren.  
 
 ## <a name="to-work-on-a-service-task"></a>Werken aan servicetaken  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicetaken** in en kies de desbetreffende koppeling.

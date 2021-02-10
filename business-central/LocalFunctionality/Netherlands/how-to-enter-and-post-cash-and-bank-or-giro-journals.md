@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3c6b902cd82fff59a9b5b0c911452fde9a02af7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fd48f4fc76fc30bc4b87458d202a86219862ee65
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919891"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752472"
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
 
 Daarnaast kunt u in combinatie met telebankieren elektronische bankafschriften op de pagina **Bank-/Giroboek** importeren. Desgewenst kunnen deze afschriften tijdens het importproces automatisch worden gereconcilieerd en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.
 
-In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door de typen **Kasboek** en **Bankboek** te gebruiken.  
+In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door de typen **Kasboek** en **Bankboek** te gebruiken.  
 
 U kunt een toenames of afnames op de kasrekening invoeren op de pagina **Kasboeken**. U kunt dit dagboek bijvoorbeeld gebruiken voor het betalen van kleine kas of het ontvangen van transfers van een andere bankrekening.  
 

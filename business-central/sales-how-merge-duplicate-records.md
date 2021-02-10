@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e5e51251f19391eb96a1979a2bb24f7bf894d4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926169"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748355"
 ---
 # <a name="merge-duplicate-records"></a>Dubbele records samenvoegen
 Aangezien verschillende gebruikers in de loop van de tijd nieuwe klant-, leveranciers- of contactkaarten maken, of de nieuwe records automatisch worden gemaakt tijdens migratie, kan een klant, leverancier of contact in het systeem worden voorgesteld door meer dan één record. In dit geval kunt u de pagina **Dubbele records samenvoegen** gebruiken vanaf de kaart of de record die u wilt behouden. De pagina geeft u een overzicht van dubbele veldwaarden en biedt functies om te selecteren welke waarden worden behouden of verwijderd wanneer twee records tot één worden samengevoegd.
@@ -67,4 +67,4 @@ De volgende procedure is gebaseerd op een klantenkaart. De stappen zijn voor lev
 ## <a name="see-also"></a>Zie ook
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen instellen](marketing-setup-contacts.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

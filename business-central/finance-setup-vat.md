@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fe12cf42dd2f7b763c5a2940e70f6db4617e1005
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0ce2d6c5a2d524cf150bc6e3b50f243fe42b4d9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919514"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750327"
 ---
 # <a name="set-up-value-added-tax"></a>Btw instellen
 
-Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[d365fin](includes/d365fin_md.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende:
+Consumenten en bedrijven betalen btw wanneer deze goederen of services inkopen. Het bedrag dat aan btw moet worden betaald, is afhankelijk van een aantal factoren. In [!INCLUDE[prod_short](includes/prod_short.md)] stelt u btw in om de tarieven op te geven die moeten worden gebruikt om belastingbedragen te berekenen op basis van het volgende:
 
 * Aan wie u verkoopt  
 * Van wie u koopt  
@@ -35,17 +35,17 @@ Als u btw-berekeningen zelf wilt instellen of alleen meer informatie wilt over e
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>De begeleide instelling Btw-instelling gebruiken om btw in te stellen (aanbevolen)
 
-Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te stellen in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Het is raadzaam de begeleide instelling Btw-instelling te gebruiken om btw in te stellen in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Ga als volgt te werk om de begeleide instelling te starten:
 
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide setup** in en kies de desbetreffende koppeling.  
 2. Kies **Btw instellen** en voer alle stappen uit.
-3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u extra velden moet invullen volgens de lokale vereisten in uw versie van [!INCLUDE [prodshort](includes/prodshort.md)]. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
+3. Wanneer u de begeleide instelling hebt voltooid, gaat u naar de pagina **Btw-boekingsgroepinstellingen** en controleert u of u extra velden moet invullen volgens de lokale vereisten in uw versie van [!INCLUDE [prod_short](includes/prod_short.md)]. Zie [Lokale functionaliteit in Business Central](about-localization.md) voor meer informatie  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>BTW-nummers instellen voor uw land of regio
 
-Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[d365fin](includes/d365fin_md.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land of de regio.
+Als u ervoor wilt zorgen dat gebruikers geldige btw-nummers invoeren, kunt u notaties definiëren voor de btw-nummers die worden gebruikt in de landen of regio's waar u zaken doet. [!INCLUDE[prod_short](includes/prod_short.md)] geeft een foutbericht weer wanneer iemand een fout maakt of een notatie gebruikt die onjuist is voor het land of de regio.
 
 Als u btw-nummers wilt instellen, gaat u als volgt te werk:
 
@@ -70,7 +70,7 @@ Ga als volgt te werk om een btw-bedrijfsboekingsgroep in te stellen:
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-groep zakelijke boekingen** in en kies de desbetreffende koppeling.  
 2. Vul indien nodig de velden in.
 
-Als u standaard btw-bedrijfsboekingsgroepen wilt instellen, koppelt u deze aan bedrijfsboekingsgroepen. [!INCLUDE[d365fin](includes/d365fin_md.md)] wijst de btw-bedrijfsboekingsgroep automatisch toe wanneer u de bedrijfsboekingsgroep toewijst aan een klant, leverancier of grootboekrekening.
+Als u standaard btw-bedrijfsboekingsgroepen wilt instellen, koppelt u deze aan bedrijfsboekingsgroepen. [!INCLUDE[prod_short](includes/prod_short.md)] wijst de btw-bedrijfsboekingsgroep automatisch toe wanneer u de bedrijfsboekingsgroep toewijst aan een klant, leverancier of grootboekrekening.
 
 ## <a name="to-set-up-vat-product-posting-groups"></a>Btw-productboekingsgroepen instellen
 Met btw-productboekingsgroepen worden de artikelen en resources vertegenwoordigd die u koopt of verkoopt en wordt bepaald hoe btw wordt berekend en geboekt volgens het soort artikel of resource, dat wordt aangeschaft of verkocht.  
@@ -82,7 +82,7 @@ Ga als volgt te werk om een btw-groep voor zakelijke boekingen in te stellen:
 2. Vul de velden in.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Btw-boekingsgroepen in btw-boekingsinstellingen combineren
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] worden btw-bedragen berekend op verkopen en inkopen op basis van btw-boekingsinstellingen, die combinaties zijn van btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen. Voor elke combinatie kunt u het btw-percentage, het soort btw-berekening en grootboekrekeningen opgeven voor het boeken van btw voor verkopen, inkopen en btw-verlegging. U kunt ook opgeven of btw moet worden herberekend wanneer een betalingskorting wordt toegepast of ontvangen.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] worden btw-bedragen berekend op verkopen en inkopen op basis van btw-boekingsinstellingen, die combinaties zijn van btw-bedrijfsboekingsgroepen en btw-productboekingsgroepen. Voor elke combinatie kunt u het btw-percentage, het soort btw-berekening en grootboekrekeningen opgeven voor het boeken van btw voor verkopen, inkopen en btw-verlegging. U kunt ook opgeven of btw moet worden herberekend wanneer een betalingskorting wordt toegepast of ontvangen.  
 
 U kunt zo veel combinaties instellen als u nodig hebt. Als u combinaties van btw-boekingsinstellingen met soortgelijke kenmerken wilt groeperen, kunt u een **Btw-identificatie** definiëren voor elke groep en de identificatie toewijzen aan de groepsleden.
 
@@ -92,7 +92,7 @@ Ga als volgt te werk om btw-boekingsinstellingen te combineren:
 2. Vul de velden in.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Standaard btw-boekingsgroepen toewijzen aan meerdere entiteiten
-Als u dezelfde btw-boekingsgroepen op meerdere entiteiten wilt toepassen, kunt u [!INCLUDE[d365fin](includes/d365fin_md.md)] instellen om dat standaard te doen. Er zijn enkele manieren om dit te doen:
+Als u dezelfde btw-boekingsgroepen op meerdere entiteiten wilt toepassen, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen om dat standaard te doen. Er zijn enkele manieren om dit te doen:
 
 * U kunt btw-bedrijfsboekingsgroepen toewijzen aan algemene bedrijfsboekingsgroepen of klant- of leveranciersjablonen
 * U kunt btw-productboekingsgroepen in algemene productboekingsgroepen toewijzen  
@@ -117,7 +117,7 @@ In de volgende gedeelten wordt beschreven hoe u btw-boekingsgroepen aan afzonder
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikel** of **Resource** in en kies de desbetreffende koppeling.  
 2. Ga op een van de volgende manieren te werk:  
 
-* Vouw op de **Artikel**kaart het sneltabblad **Prijs en boeking** uit en kies vervolgens **Meer weergeven** om het veld **Btw-productboekingsgroep** weer te geven.  
+* Vouw op de **Artikel** kaart het sneltabblad **Prijs en boeking** uit en kies vervolgens **Meer weergeven** om het veld **Btw-productboekingsgroep** weer te geven.  
 * Vouw op de kaart **Resource** het sneltabblad **Facturering** uit.  
 3. Kies de btw-productboekingsgroep.  
 
@@ -128,7 +128,7 @@ Indien nodig kunt u ook opgeven hoe u btw-clausules naar andere talen vertaalt. 
 
 Wanneer in verschillende soorten documenten (bijvoorbeeld facturen of creditnota's) niet-standard btw-tarieven worden gebruikt, moeten bedrijven meestal een vrijstellingstekst (btw-clausule) bijvoegen waarin wordt uitgelegd waarom een verlaagd btw-tarief wordt gehanteerd of waarom het bedrijf van btw is vrijgesteld. U kunt per type document verschillende btw-clausules voor uw bedrijfsdocumenten definiëren, zoals een factuur of creditnota. U kunt dit doen op de pagina **Btw-clausules per documenttype**.
 
-U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een gegenereerde lijst weergegeven. [!INCLUDE[d365fin](includes/d365fin_md.md)] houdt echter geen historie van de wijziging bij. Op de lijst worden de omschrijvingen van btw-clausules afgedrukt en weergegeven voor alle regels in de lijst naast het btw-bedrag en het btw-basisbedrag. Als er geen btw-clausule is gedefinieerd voor de regels op het verkoopdocument, wordt het hele gedeelte weggelaten wanneer de lijst wordt afgedrukt.
+U kunt een btw-clausule wijzigen of verwijderen, en uw wijzigingen worden in een gegenereerde lijst weergegeven. [!INCLUDE[prod_short](includes/prod_short.md)] houdt echter geen historie van de wijziging bij. Op de lijst worden de omschrijvingen van btw-clausules afgedrukt en weergegeven voor alle regels in de lijst naast het btw-bedrag en het btw-basisbedrag. Als er geen btw-clausule is gedefinieerd voor de regels op het verkoopdocument, wordt het hele gedeelte weggelaten wanneer de lijst wordt afgedrukt.
 
 ### <a name="to-set-up-vat-clauses"></a>Btw-clausules instellen
 1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Btw-clausules** in en kies de desbetreffende koppeling.  
@@ -169,7 +169,7 @@ Sommige bedrijven moeten verlegging van btw gebruiken wanneer zaken worden gedaa
 > Deze regel geldt wanneer u zakendoet met bedrijven die in een ander EU-land/-regio btw-plichtig zijn. Als u rechtstreeks zakendoet met consumenten in andere EU-landen/-regio's, moet u contact opnemen met de belastingdienst over de geldende btw-regels.  
 
 > [!TIP]  
-> U kunt controleren of een bedrijf btw-plichtig is in een ander EU-land/regio door de EU-service voor btw-nummervalidatie te gebruiken. De service is gratis beschikbaar in [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie het gedeelte met de naam _Btw-registratienummers controleren_ in dit onderwerp voor meer informatie.
+> U kunt controleren of een bedrijf btw-plichtig is in een ander EU-land/regio door de EU-service voor btw-nummervalidatie te gebruiken. De service is gratis beschikbaar in [!INCLUDE[prod_short](includes/prod_short.md)]. Zie het gedeelte met de naam _Btw-registratienummers controleren_ in dit onderwerp voor meer informatie.
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Verkopen aan EU-landen of -regio's
 Btw wordt niet berekend op verkopen aan btw-plichtige bedrijven in andere EU-landen/-regio's. U moet de waarde van deze verkopen aan EU-landen/-regio's apart op uw btw-aangifte vermelden.  

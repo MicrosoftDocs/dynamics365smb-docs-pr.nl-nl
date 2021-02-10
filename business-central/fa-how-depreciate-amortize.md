@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920744"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749440"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Vaste activa afschrijven of aflossen
 Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en apparatuur, te spreiden over de afschrijfbare levensduur. Voor elk vast activum moet u aangeven hoe de afschrijving wordt toegepast.  
@@ -25,7 +25,7 @@ Afschrijvingen worden gebruikt om de kosten van vaste activa, zoals machines en 
 * Automatisch, door de batchverwerking **Afschrijving berekenen** uit te voeren.  
 * Handmatig, met behulp van het financieel dagboek voor vaste activa.  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dagelijkse afschrijving worden berekend zodat u de afschrijving voor elke willekeurige periode kunt berekenen. Zodoende kunt u de huidige bedrijfsresultaten per maand, per kwartaal of jaarlijks analyseren. Bij deze berekening worden een standaardjaar van 360 dagen en een standaardmaand van 30 dagen gebruikt. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kan dagelijkse afschrijving worden berekend zodat u de afschrijving voor elke willekeurige periode kunt berekenen. Zodoende kunt u de huidige bedrijfsresultaten per maand, per kwartaal of jaarlijks analyseren. Bij deze berekening worden een standaardjaar van 360 dagen en een standaardmaand van 30 dagen gebruikt. Zie [Afschrijvingsmethoden](fa-depreciation-methods.md) voor meer informatie.  
 
 Als verschillende afdelingen een vast activum gebruiken, kan de periodieke afschrijving automatisch worden toegewezen aan deze afdelingen volgens een door de gebruiker gedefinieerde toewijzingstabel.  
 
@@ -111,4 +111,4 @@ De gekopieerde regels worden in het financieel dagboek voor vaste activa of het 
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

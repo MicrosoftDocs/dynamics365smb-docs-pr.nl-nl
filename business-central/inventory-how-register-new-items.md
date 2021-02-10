@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923817"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746213"
 ---
 # <a name="register-new-items"></a>Nieuwe artikelen registreren
 
@@ -25,7 +25,7 @@ Artikelkaarten bevatten de informatie die is vereist om artikelen te kopen, op t
 
 De artikelkaart kan van het type **Voorraad**, **Service** of **Niet-voorraad** zijn om op te geven of het artikel een fysieke voorraadeenheid, een eenheid voor arbeidskosten of een fysieke eenheid die niet in voorraad wordt getraceerd, is. Zie voor meer informatie [Over artikeltypen](inventory-about-item-types.md).
 
-Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[d365fin](includes/d365fin_md.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
+Een artikel kan als bovenliggend artikel met onderliggende artikelen in een stuklijst worden gestructureerd. In [!INCLUDE[prod_short](includes/prod_short.md)] kan een stuklijst een assemblagestuklijst of productiestuklijst zijn, afhankelijk van het gebruik. Zie [Werken met stuklijsten](inventory-how-work-BOMs.md) voor meer informatie.
 
 Als u hetzelfde artikel inkoopt bij meerdere leveranciers, kunt u die leveranciers aan de artikelkaart koppelen. De leveranciers worden vervolgens weergegeven op de pagina **Artikelleveranciers**, zodat u gemakkelijk een alternatieve leverancier kunt selecteren.
 
@@ -96,7 +96,7 @@ Als u een transactie voor een artikel hebt geboekt, kunt u de kaart niet verwijd
 
 ## <a name="manage-inventory-in-warehouses"></a>Voorraad beheren in magazijnen
 
-Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op magazijnbeheer, met name op het sneltabblad **Magazijn**. Als uw organisatie geen gebruik maakt van de magazijnbeheermogelijkheden in [!INCLUDE [prodshort](includes/prodshort.md)], kunt u die velden negeren.  
+Wanneer u een nieuw artikel registreert, ziet u velden die betrekking hebben op magazijnbeheer, met name op het sneltabblad **Magazijn**. Als uw organisatie geen gebruik maakt van de magazijnbeheermogelijkheden in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u die velden negeren.  
 
 Als uw organisatie later magazijnbeheer instelt, moet u in de meeste gevallen teruggaan naar elk bestaand artikel om er zeker van te zijn dat het de juiste informatie in de verschillende velden heeft, zodat de magazijnprocessen kunnen verlopen zoals verwacht. Deze informatie kan velden bevatten zoals **Magazijnklassecode** of **Opslagsjabloon**. Zie voor meer informatie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md).  
 
@@ -110,4 +110,4 @@ Als uw organisatie later magazijnbeheer instelt, moet u in de meeste gevallen te
 [Boekingsgroepen instellen](finance-posting-groups.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

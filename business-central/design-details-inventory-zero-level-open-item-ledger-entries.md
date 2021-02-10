@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924255"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751401"
 ---
 # <a name="design-details-known-item-application-issue"></a>Ontwerpdetails: bekend probleem met artikelvereffening
-Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dit artikel bespreekt een probleem waarbij het voorraadniveau nul is, hoewel er openstaande artikelposten bestaan [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Het artikel begint met een overzicht van typerende symptomen van het probleem, gevolgd door de basis van artikelvereffening om de beschreven redenen van dit probleem te ondersteunen. Aan het eind van het artikel is een oplossing voor dergelijke openstaande artikelposten.  
 

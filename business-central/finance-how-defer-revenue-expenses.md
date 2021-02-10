@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d87d2e635bbe0872fac0c98d93481b71e16d15f4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9d936cffabaea38571fe755ca43ed0cd9a961b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750877"
 ---
 # <a name="defer-revenues-and-expenses"></a>Procedure: Inkomsten en kosten uitstellen
 Als u inkomsten of kosten wilt verantwoorden in een andere periode dan waarin de transactie is geboekt, kunt u deze functionaliteit gebruiken om kosten en inkomsten automatisch uit te stellen via een opgegeven schema.
@@ -93,4 +93,4 @@ Grootboekposten die moeten worden geboekt naar de opgegeven uitstelrekening, bij
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
