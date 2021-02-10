@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914832"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760095"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Procedure: Een verkoopcampagne uitvoeren
-Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zijn betrokken. Een belangrijk deel van het opzetten van een campagne bestaat uit het selecteren van de doelgroep voor de campagne. In [!INCLUDE[d365fin](includes/d365fin_md.md)] maakt u hiervoor met behulp van filters een segment, oftewel een groep contacten.  
+Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zijn betrokken. Een belangrijk deel van het opzetten van een campagne bestaat uit het selecteren van de doelgroep voor de campagne. In [!INCLUDE[prod_short](includes/prod_short.md)] maakt u hiervoor met behulp van filters een segment, oftewel een groep contacten.  
 
  U kunt de voorzieningen van Verkoop &amp; Marketing gebruiken om de marketingactiviteiten zorgvuldig te plannen en uw interacties met contacten en klanten te beheren. U kunt campagnes maken en segmenten met contacten instellen voor mailings en andere soorten interacties voor contacten en toekomstige klanten.  
 
@@ -42,7 +42,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 -   Marketingmedewerker  
 
 ## <a name="prerequisites"></a>Vereisten  
- Voordat u de stappen in dit overzicht kunt uitvoeren, moet u [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren.  
+ Voordat u de stappen in dit overzicht kunt uitvoeren, moet u [!INCLUDE[prod_short](includes/prod_short.md)] installeren.  
 
 ## <a name="story"></a>Scenario  
  De marketingmanager van de verkoopafdeling van CRONUS is verantwoordelijk voor het plannen en uitvoeren van campagnes. Hij neemt ook beslissingen over de beurzen waaraan het bedrijf deelneemt en hij evalueert de voortgang van de campagne.  
@@ -125,7 +125,7 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 
 ### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Een segment gebruiken om een brief naar een contactpersoon te verzenden  
 
-1.  Open de **Segment**kaart voor de **Bezoekers aan de FUTURUS-beurs**.  
+1.  Open de **Segment** kaart voor de **Bezoekers aan de FUTURUS-beurs**.  
 2.  Selecteer op het sneltabblad **Interactie** in het veld **Interactiesjablooncode** de sjabloon **BUS** (zakenbrief, business letter).  
 3.  Typ in het veld **Onderwerp (Standaard)** bijvoorbeeld de volgende tekst: **Bedankt voor uw bezoek aan de beurs**.  
 
@@ -198,4 +198,4 @@ Een campagne heeft betrekking op alle activiteiten waarbij meerdere contacten zi
 ## <a name="see-also"></a>Zie ook  
 [Relatiebeheer](marketing-relationship-management.md)  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

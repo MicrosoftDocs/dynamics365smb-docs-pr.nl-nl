@@ -1,5 +1,5 @@
 ---
-title: Een verkoopfactuur of verkooporder maken | Microsoft Docs
+title: Een verkoopfactuur of verkooporder maken
 description: Beschrijft hoe u een koopbrief, of een verkoopfactuur of verkooporder maakt, om de overeenkomst met een klant vast te leggen om producten onder bepaalde voorwaarden te verkopen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926219"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035403"
 ---
 # <a name="invoice-sales"></a>Verkopen factureren
 
@@ -94,6 +94,10 @@ Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop
 
 Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkoopfactuur is uitvoer als een PDF-document. De verkoopfactuur wordt verwijderd uit de lijst met verkoopfacturen en wordt vervangen door een nieuw document in de lijst met geboekte verkoopfacturen.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Factuurkortingen op verkopen berekenen
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Betalingen registreren
 
 Afhankelijk van uw zakelijke behoeften kunt u op verschillende manieren betaald krijgen en die betaling registreren: handmatig, automatisch en door middel van betalingsservices.  
@@ -106,13 +110,18 @@ In ondernemingsomgevingen waar de klant direct betaalt, bijvoorbeeld met PayPal 
 
 U kunt zelfs direct betaalde facturen voor niet-geregistreerde klanten maken door eerst een kaart voor een contant betalende klant te maken, waarnaar u verwijst op de verkoopfactuur. Raadpleeg voor meer informatie [Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Als u uw klanten herinneringen wilt sturen over achterstallige betalingen, moet u herinneringsniveaus en -voorwaarden instellen. Zie voor meer informatie [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
+
 [Verkoop](sales-manage-sales.md)  
 [Verkopen instellen](sales-setup-sales.md)  
 [De picklijst afdrukken](sales-how-print-picking-list.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  
+[Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [Massaal factureren vanuit Microsoft Bookings in Business Central ](finance-bookings.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

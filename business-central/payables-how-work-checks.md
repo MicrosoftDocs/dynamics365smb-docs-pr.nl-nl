@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916698"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759564"
 ---
 # <a name="make-check-payments"></a>Chequebetalingen doen
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunt u elektronische en handmatige cheques verzenden. Bij beide methoden wordt het betalingsdagboek gebruikt om cheques te verzenden naar leveranciers. Daarnaast kunt u cheques nietig verklaren en chequeposten weergeven.
 
 In de volgende procedure wordt beschreven hoe u een leverancier betaalt met een computercheque door de betaling te vereffenen met de relevante leveranciersfactuur, de cheque af te drukken en vervolgens de betaling te boeken als betaald. Dit leidt tot positieve leveranciersposten die worden vereffend met negatieve bankposten en fysieke cheques voor verwerking in de bank.
 
@@ -83,4 +83,4 @@ Als u geboekte cheques wilt controleren, bijvoorbeeld om meerdere cheques te ver
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Bankieren instellen](bank-setup-banking.md)  
 [Een Positive Pay-bestand exporteren](finance-how-positive-pay.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

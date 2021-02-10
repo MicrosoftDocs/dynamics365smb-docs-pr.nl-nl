@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/07/2021
 ms.author: edupont
-ms.openlocfilehash: 7d45d8c198e8bb44bd58cf112fac30477a1042a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ea901d0b9b5564ee75cac67b17386f018f93b61
+ms.sourcegitcommit: 1aac2c5f6773151c011dc1e4069c84d79fe5bda8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919861"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839794"
 ---
 # <a name="telebanking"></a>Telebankieren
 Op basis van zowel verkoop- als inkooptransacties kunt u met telebankieren betalingen en incasso's genereren die u elektronisch met uw bank kunt uitwisselen. Hieronder vallen ook de export van betalings- en incassogegevens die naar de bank moeten worden doorgestuurd en de import van bankafschriften die door de bank naar u worden verzonden.  
@@ -26,7 +26,7 @@ Over het algemeen worden alle financiële interacties met leveranciers en klante
 ## <a name="proposals"></a>Voorstellen  
 Op basis van leveranciers- en klantenposten kunt u met telebankieren betalings- en incassovoorstellen genereren. Dit kan voor elke bank worden gedaan die voor uw bedrijf is ingesteld. Zowel binnen- als buitenlandse betalingen en incasso's zijn mogelijk.  
 
-U kunt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zodanig instellen dat betalingen aan of incasso's van dezelfde bankrekening automatisch worden gecombineerd.  
+U kunt [!INCLUDE[prod_short](../../includes/prod_short.md)] zodanig instellen dat betalingen aan of incasso's van dezelfde bankrekening automatisch worden gecombineerd.  
 
 Als u akkoord gaat met het voorstel, moet het in een betaalrun worden verwerkt.  
 
@@ -39,12 +39,15 @@ Een betaalrun is eigenlijk precies hetzelfde als een voorstel, het enige verschi
  Zie voor meer informatie [Betaalrun maken en exporteren](how-to-create-and-export-payment-history.md).  
 
 ## <a name="bank-statements"></a>Bankafschriften  
- Voor alle financiële interacties die via uw bank plaatsvinden, kan de bank u elektronische bankafschriften toesturen. Deze afschriften kunnen in de Bank-/Giroboeken worden geïmporteerd. Als u wilt kunt u [!INCLUDE[d365fin](../../includes/d365fin_md.md)] deze afschriften tijdens het importproces automatisch laten reconciliëren en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.  
+ Voor alle financiële interacties die via uw bank plaatsvinden, kan de bank u elektronische bankafschriften toesturen. Deze afschriften kunnen in de Bank-/Giroboeken worden geïmporteerd. Als u wilt kunt u [!INCLUDE[prod_short](../../includes/prod_short.md)] deze afschriften tijdens het importproces automatisch laten reconciliëren en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.  
 
  Zie [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) voor meer informatie.  
+ 
+ > [!NOTE]  
+>  De valuta van de geïmporteerde transacties moet overeenkomen met de valuta die is opgegeven op de bankrekening in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="exchange-protocols"></a>Uitwisselingsprotocollen  
- Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ondersteunt de volgende protocollen:  
+ Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd. [!INCLUDE[prod_short](../../includes/prod_short.md)] ondersteunt de volgende protocollen:  
 
 - BTL91 (export). Dit grensoverschrijdende protocol wordt niet langer geaccepteerd in Nederland vanaf 1 mei 2019. Dit protocol wordt vervangen door het Algemeen betalingsbestand-protocol.
 - BBV (exporteren)  

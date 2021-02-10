@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919160"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013841"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Nieuwe vraag order voor order plannen
 Deze planningstaak kan worden uitgevoerd op de pagina **Orderplanning**, waarin alle nieuwe vraag samen met beschikbaarheidsinformatie en suggesties voor levering worden weergegeven. Zo beschikt u over een helder hulpmiddel om op effectieve wijze op basis van verkoop- en onderdeelregels te plannen voor de vraag. Vervolgens maakt u direct verschillende soorten orders voor voorzieningen aan.  
@@ -109,6 +109,7 @@ Wanneer u klaar bent met de planning op de pagina **Orderplanning** (als u bijvo
 >  Door de voorzieningenorders die u maakt kan weer nieuwe afhankelijke vraag ontstaan, bijvoorbeeld naar onderliggende productieorders. Kies daarom altijd **Planning berekenen**, zodat u deze productieorders kunt bekijken en afhandelen voordat u verdergaat vanuit het overzicht.  
 
 ## <a name="see-also"></a>Zie ook  
+[Procedure: Leveringen handmatig plannen](walkthrough-planning-supplies-manually.md)  
 [Gepland](production-planning.md)  
 [Productie instellen](production-configure-production-processes.md)  
 [Productie](production-manage-manufacturing.md)    
@@ -116,4 +117,4 @@ Wanneer u klaar bent met de planning op de pagina **Orderplanning** (als u bijvo
 [Inkoop](purchasing-manage-purchasing.md)  
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

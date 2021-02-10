@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915990"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760289"
 ---
 # <a name="set-up-printers"></a>Printers instellen
-Omdat [!INCLUDE[prodshort](includes/prodshort.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prodshort](includes/prodshort.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
+Omdat [!INCLUDE[prod_short](includes/prod_short.md)] een cloudservice is, kan het geen lokale printers bereiken die zijn aangesloten op de machines van gebruikers. Het kan echter verbinding maken met printers met cloudfunctionaliteit. In de generieke versie van [!INCLUDE[prod_short](includes/prod_short.md)], wordt een cloudprinter genaamd **E-mailprinter** geïnstalleerd als een extensie en is deze klaar voor gebruik na de eerste installatie.
 
 Als geen cloudprinter is geïnstalleerd en ingesteld of als een geïnstalleerde printer niet werkt, wordt het afdrukken standaard ingesteld op de afdrukopties voor de browser. Dit wordt aangegeven door deze waarde in het veld **Printer** op de rapportaanvraagpagina: *(geen, afgehandeld door de browser)*.
 
@@ -59,7 +59,7 @@ U moet alle benodigde privacyvoorzorgsmaatregelen nemen, inclusief ervoor zorgen
 Op de pagina **Printerselecties** kunt u voor uw gebruikersaccount instellen welke rapporten door welke printer worden afgedrukt. Dit is handig als u met verschillende rapporten werkt waarvoor verschillende printers nodig zijn vanwege hun plaatsing in het bedrijf of hun uitvoermogelijkheden.
 
 > [!IMPORTANT]
-> Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kan de pagina **Printerselecties** alleen worden gebruikt voor printers die zijn gedefinieerd door printerextensies. Het kan niet worden gebruikt voor lokale printers.
+> Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan de pagina **Printerselecties** alleen worden gebruikt voor printers die zijn gedefinieerd door printerextensies. Het kan niet worden gebruikt voor lokale printers.
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Printerselecties** in en selecteer de desbetreffende koppeling. Als alternatief selecteert u vanaf de pagina **Printerbeheer** een printer en kiest u vervolgens de actie **Printerselecties**.
 2. Kies de actie **Nieuw** om een printerselectie toe te voegen voor een specifiek rapport.
@@ -88,6 +88,6 @@ U of de beheerder kan ook de pagina **Printerselecties** gebruiken om andere afd
 
 ## <a name="see-also"></a>Zie ook
 [Een rapport afdrukken](ui-work-report.md#PrintReport)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Batchverwerkingen uitvoeren](ui-how-run-batch-jobs.md)  
 [Documenten per e-mail verzenden](ui-how-send-documents-email.md)  

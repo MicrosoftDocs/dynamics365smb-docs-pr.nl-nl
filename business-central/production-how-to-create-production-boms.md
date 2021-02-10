@@ -1,5 +1,5 @@
 ---
-title: Productiestuklijsten maken | Microsoft Docs
+title: Productiestuklijsten maken
 description: Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Nadat een productieorder voor dat hoofdartikel is gemaakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919285"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838479"
 ---
 # <a name="create-production-boms"></a>Productiestuklijsten maken
+
 Een productiestuklijst bevat hoofdgegevens waarmee de onderdelen en subverzamelingen worden beschreven die worden gebruikt bij de productie van een hoofdartikel. Nadat een productieorder voor dat hoofdartikel is gemaakt, bepaalt de productiestuklijst de berekening van materiaalbehoeften zoals weergegeven op de pagina **Prod.-ordermaterialen**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] ondersteunt ook assemblagestuklijsten. U gebruikt assemblageorders voor het maken van eindartikelen van onderdelen in een eenvoudig proces dat kan worden uitgevoerd door een of meer standaardbronnen die geen bewerkingsplaatsen of -afdelingen betreffen of waarbij geen bronnen gebruikt worden. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken. Zie voor meer informatie [Assemblagestuklijsten of productiestuklijsten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt ook assemblagestuklijsten. U gebruikt assemblageorders voor het maken van eindartikelen van onderdelen in een eenvoudig proces dat kan worden uitgevoerd door een of meer standaardbronnen die geen bewerkingsplaatsen of -afdelingen betreffen of waarbij geen bronnen gebruikt worden. Een assemblageproces kan bijvoorbeeld zijn het picken van twee flessen wijn en één pak koffie en deze als een cadeau-item verpakken. Zie voor meer informatie [Assemblagestuklijsten of productiestuklijsten](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:  
 
@@ -48,7 +49,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 12.  U kunt nu het nieuwe bewerkingsplan aan de kaart van het desbetreffende productieartikel koppelen. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Als u de vaste verrekenprijs van het artikel opnieuw wilt berekenen, kiest u de actie **Productie** en vervolgens **Vaste verrekenprijs berekenen**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Als u de vaste verrekenprijs van het artikel opnieuw wilt berekenen, kiest u de actie **Productie** en vervolgens **Vaste verrekenprijs berekenen**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Nieuwe versies van productiestuklijsten maken
 Nieuwe versies van productiestuklijsten worden bijvoorbeeld gebruikt wanneer een artikel wordt vervangen door een ander artikel of wanneer een klant een speciale versie van een product nodig heeft. Met behulp van het versieprincipe kunt u verschillende versies van een productiestuklijst beheren. De structuur van de productiestuklijstversie komt overeen met de structuur van de productiestuklijsten. Het belangrijkste verschil is de geldigheidsduur van de versies. De geldigheid wordt bepaald door de begindatum.  
@@ -96,4 +97,4 @@ In een productiestuklijst zijn er 70 metalen onderdelen nodig met de volgende di
 [Gepland](production-planning.md)   
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

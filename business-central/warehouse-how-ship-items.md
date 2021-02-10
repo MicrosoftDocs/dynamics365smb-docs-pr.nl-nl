@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911918"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759939"
 ---
 # <a name="ship-items"></a>Artikelen verzenden
 
@@ -38,7 +38,7 @@ Hieronder wordt beschreven hoe u artikelen verzendt vanuit een verkooporder. De 
 4. Kies de actie **Boeken**.
 
 > [!NOTE]
-> Als uw organisatie geen verkooporders gebruikt, dan, wanneer u de verkoopfactuur boekt, gaat [!INCLUDE [prodshort](includes/prodshort.md)] ervan uit dat u de volledige hoeveelheid heeft verzonden. Als dit in tegenspraak is met hoe uw organisatie werkt, raden we u aan verkooporders te gebruiken en zendingen te registreren zoals uitgelegd in dit artikel.
+> Als uw organisatie geen verkooporders gebruikt, dan, wanneer u de verkoopfactuur boekt, gaat [!INCLUDE [prod_short](includes/prod_short.md)] ervan uit dat u de volledige hoeveelheid heeft verzonden. Als dit in tegenspraak is met hoe uw organisatie werkt, raden we u aan verkooporders te gebruiken en zendingen te registreren zoals uitgelegd in dit artikel.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Artikelen verzenden met een magazijnverzending
 
@@ -46,7 +46,7 @@ Eerst maakt u een verzendingsdocument op basis van een bedrijfsbrondocument. Ver
 
 ### <a name="to-create-a-warehouse-shipment"></a>Een magazijnverzending maken
 
-Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is, een magazijnverzending. De volgende procedure beschrijft hoe u de zending handmatig kunt maken in de standaardversie van [!INCLUDE[prodshort](includes/prodshort.md)], maar uw organisatie heeft mogelijk een geautomatiseerd deel van het proces, zoals het gebruik van draagbare of gemonteerde scanners die worden ondersteund door externe providers.  
+Gewoonlijk maakt de werknemer die verantwoordelijk voor verzendingen is, een magazijnverzending. De volgende procedure beschrijft hoe u de zending handmatig kunt maken in de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)], maar uw organisatie heeft mogelijk een geautomatiseerd deel van het proces, zoals het gebruik van draagbare of gemonteerde scanners die worden ondersteund door externe providers.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnverzendingen** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw**.  
@@ -105,7 +105,7 @@ Zie [Artikelen picken voor magazijnverzending](warehouse-how-to-pick-items-for-w
 U kunt in het pickvoorstel verschillende pickinstructies combineren tot één instructie (voor verschillende verzendingen) en zo de artikelen in het magazijn nog efficiënter picken. Zie [Picks plannen in voorstellen](warehouse-how-to-plan-picks-in-worksheets.md) voor meer informatie.
 
 > [!NOTE]
-> Als u de ontvangst van bepaalde artikelen in het magazijn afwacht en met cross-docken werkt, berekent [!INCLUDE[d365fin](includes/d365fin_md.md)] voor elke verzend- of pickvoorstelregel het aantal van het artikel in de cross-dockopslaglocatie. Dit veld wordt bijgewerkt telkens wanneer u het verzenddocument of het voorstel opent of sluit. Zie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
+> Als u de ontvangst van bepaalde artikelen in het magazijn afwacht en met cross-docken werkt, berekent [!INCLUDE[prod_short](includes/prod_short.md)] voor elke verzend- of pickvoorstelregel het aantal van het artikel in de cross-dockopslaglocatie. Dit veld wordt bijgewerkt telkens wanneer u het verzenddocument of het voorstel opent of sluit. Zie [Artikelen cross-docken](warehouse-how-to-cross-dock-items.md) voor meer informatie.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -114,4 +114,4 @@ U kunt in het pickvoorstel verschillende pickinstructies combineren tot één in
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  
 [Assemblagebeheer](assembly-assemble-items.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

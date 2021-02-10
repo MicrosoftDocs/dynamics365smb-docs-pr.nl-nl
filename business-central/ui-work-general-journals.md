@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920694"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760090"
 ---
 # <a name="working-with-general-journals"></a>Werken met diversendagboeken
 
-De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoop, betaling, gebruik van periodieke dagboeken om transitoria te boeken of terugbetaling van werknemersonkosten, verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De meeste financiële transacties worden geboekt naar het grootboek door bepaalde bedrijfsdocumenten, zoals inkoopfacturen en verkooporders. Maar u kunt ook zakelijke activiteiten zoals inkoop, betaling, gebruik van periodieke dagboeken om transitoria te boeken of terugbetaling van werknemersonkosten, verwerken door dagboekregels te boeken in de verschillende dagboeken in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De meeste dagboeken zijn gebaseerd op het *Diversendagboek* en u kunt alle transacties op de pagina **Diversendagboek** verwerken. Zie voor meer informatie [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Er zijn verschillende sjablonen voor diversendagboeken. Elk dagboeksjabloon word
 Voor elke dagboeksjabloon kunt u uw eigen persoonlijke dagboek instellen als een dagboekbatch. U kunt bijvoorbeeld uw eigen dagboekbatch definiëren voor het betalingsdagboek dat uw persoonlijke lay-out en instellingen heeft. De volgende tip is een voorbeeld van hoe u een dagboek aanpast.
 
 > [!TIP]  
-> Als u het selectievakje **Salderingsbedrag voorstellen** inschakelt op de regel voor uw batch op de pagina **Fin. dagboekbatches**, wordt het veld **Bedrag** op bijvoorbeeld diversendagboekregels voor hetzelfde documentnummer automatisch vooraf ingevuld met de waarde die is vereist om het document sluitend te maken. Zie voor meer informatie [[!INCLUDE[d365fin](includes/d365fin_md.md)] waarden laten voorstellen](ui-let-system-suggest-values.md).
+> Als u het selectievakje **Salderingsbedrag voorstellen** inschakelt op de regel voor uw batch op de pagina **Fin. dagboekbatches**, wordt het veld **Bedrag** op bijvoorbeeld diversendagboekregels voor hetzelfde documentnummer automatisch vooraf ingevuld met de waarde die is vereist om het document sluitend te maken. Zie voor meer informatie [[!INCLUDE[prod_short](includes/prod_short.md)] waarden laten voorstellen](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Als u velden in dagboeken wilt toevoegen of verwijderen, gebruikt u de banner **Personaliseren**. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
 ### <a name="validating-general-journal-batches"></a>Algemene dagboekbatches valideren
-Om vertragingen bij het boeken te voorkomen kunt u een achtergrondcontrole inschakelen die u op de hoogte stelt als er een fout in het financiële dagboek waaraan u werkt optreedt waardoor u het dagboek niet kunt boeken. Op de pagina **Batch van algemeen dagboek** kunt u **Foutcontrole op achtergrond** kiezen om [!INCLUDE[d365fin](includes/d365fin_md.md)] financiële dagboeken te laten valideren, zoals algemene of betalingsdagboeken, terwijl u eraan werkt. 
+Om vertragingen bij het boeken te voorkomen kunt u een achtergrondcontrole inschakelen die u op de hoogte stelt als er een fout in het financiële dagboek waaraan u werkt optreedt waardoor u het dagboek niet kunt boeken. Op de pagina **Batch van algemeen dagboek** kunt u **Foutcontrole op achtergrond** kiezen om [!INCLUDE[prod_short](includes/prod_short.md)] financiële dagboeken te laten valideren, zoals algemene of betalingsdagboeken, terwijl u eraan werkt. 
 
-Wanneer u de validatie inschakelt, wordt het feitenblok **Journaalcontrole** naast de dagboekregels weergegeven en bevat het problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een financiële dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE[d365fin](includes/d365fin_md.md)] heeft gevonden en kunt u ervoor kiezen om een overzicht van de problemen te openen. 
+Wanneer u de validatie inschakelt, wordt het feitenblok **Journaalcontrole** naast de dagboekregels weergegeven en bevat het problemen op de huidige regel en in de hele batch. Validatie vindt plaats wanneer u een financiële dagboekbatch laadt en wanneer u een andere dagboekregel kiest. De tegel **Totaal aantal problemen** in het feitenblok toont het totale aantal problemen dat [!INCLUDE[prod_short](includes/prod_short.md)] heeft gevonden en kunt u ervoor kiezen om een overzicht van de problemen te openen. 
 
 U kunt de acties **Regels met problemen weergeven** en **Alle regels weergeven** gebruiken om te schakelen tussen dagboekregels die wel of geen problemen hebben. Het nieuwe feitenblok **Details van dagboekregel** biedt een snel overzicht van en toegang tot gegevens uit dagboekregels, zoals de grootboekrekening, klant of leverancier, evenals de boekingsinstellingen voor specifieke rekeningen.     
 
@@ -203,7 +203,7 @@ De waarden in het veld **Documentnr.** worden gewijzigd, wanneer dit is vereist,
 [Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken](finance-how-reverse-journal-posting.md)  
 [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)  
 [Financiën](finance.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Voorraad herwaarderen in het herwaarderingsjournaal](inventory-how-revalue-inventory.md)  
 [Voorraad tellen, corrigeren en herindelen met dagboeken](inventory-how-count-adjust-reclassify.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923242"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759839"
 ---
 # <a name="cross-dock-items"></a>Artikelen cross-docken
 De cross-dockfunctionaliteit is beschikbaar als u voor de vestiging hebt ingesteld dat magazijnontvangst- en magazijnopslagverwerking is vereist.  
@@ -60,7 +60,7 @@ Er worden geen afzonderlijke records bijgehouden voor cross-dockartikelen. In pl
 2.  Maak een magazijnontvangst voor een artikel dat is aangekomen en dat misschien kan worden gecross-dockt. Zie [Artikelen ontvangen](warehouse-how-receive-items.md) voor meer informatie.  
 3.  Vul het veld **Te ontvangen aantal** in en kies de actie **Cross-dock berekenen**.  
 
-    Er wordt gezocht naar uitgaande brondocumenten voor het aanvragen van de artikelen die volgens de planning het magazijn binnen de datumformuleperiode verlaten.  [!INCLUDE[d365fin](includes/d365fin_md.md)] berekent aantallen, zodat u zoveel mogelijk kunt cross-docken en opslag van artikelen kunt vermijden, zonder dat er te veel artikelen in het cross-dockgebied worden opgestapeld. De waarde in het veld **Te cross-docken aantal** is dus de som van alle uitgaande regels waarop het artikel binnen de voorziene periode voorkomt, min het aantal artikelen dat al in het cross-dockgebied is geplaatst, of deze waarde is gelijk aan de waarde in het veld **Te ontvangen aantal** op de ontvangstregel, afhankelijk van wat de kleinste waarde is. U kunt niet meer cross-docken dan u hebt ontvangen.  
+    Er wordt gezocht naar uitgaande brondocumenten voor het aanvragen van de artikelen die volgens de planning het magazijn binnen de datumformuleperiode verlaten.  [!INCLUDE[prod_short](includes/prod_short.md)] berekent aantallen, zodat u zoveel mogelijk kunt cross-docken en opslag van artikelen kunt vermijden, zonder dat er te veel artikelen in het cross-dockgebied worden opgestapeld. De waarde in het veld **Te cross-docken aantal** is dus de som van alle uitgaande regels waarop het artikel binnen de voorziene periode voorkomt, min het aantal artikelen dat al in het cross-dockgebied is geplaatst, of deze waarde is gelijk aan de waarde in het veld **Te ontvangen aantal** op de ontvangstregel, afhankelijk van wat de kleinste waarde is. U kunt niet meer cross-docken dan u hebt ontvangen.  
 
 4.  Als u het voorgestelde aantal wilt cross-docken, boekt u de ontvangst. U kunt het te cross-docken aantal ook verhogen of verlagen en de ontvangst vervolgens boeken.  
 
@@ -104,4 +104,4 @@ Als u geen opslaglocaties gebruikt, is het verstandig de cross-dockruimte regelm
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

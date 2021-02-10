@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912068"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760339"
 ---
 # <a name="customize-pages-for-profiles"></a>Pagina's aanpassen voor profielen
 Gebruikers kunnen pagina's die hun werkruimte vormen, aan hun eigen voorkeuren aanpassen. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
@@ -29,7 +29,7 @@ Pagina-aanpassing begint vanaf de pagina **Profielen (rollen)**, het startpunt v
 2. Selecteer de regel voor het profiel waarvoor u pagina's wilt aanpassen en kies de actie **Bewerken**.
 3. Kies de actie **Pagina's aanpassen**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt geopend met een nieuw browsertabblad voor het geselecteerde profiel met de banner **Aanpassen** geactiveerd. De banner **Aanpassen** biedt dezelfde functionaliteit als de banner **Personaliseren** die beschikbaar is voor gebruikers.
+    [!INCLUDE[prod_short](includes/prod_short.md)] wordt geopend met een nieuw browsertabblad voor het geselecteerde profiel met de banner **Aanpassen** geactiveerd. De banner **Aanpassen** biedt dezelfde functionaliteit als de banner **Personaliseren** die beschikbaar is voor gebruikers.
 
 4. Pas pagina's aan volgens de behoeften van de betreffende rol of afdeling op dezelfde manier als een gebruiker zou doen bij het personaliseren. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
 
@@ -70,4 +70,4 @@ De indeling op de geselecteerde pagina's wordt aangepast aan de wijzigingen die 
 [Profielen beheren](admin-users-profiles-roles.md)  
 [Basisinstellingen wijzigen](ui-change-basic-settings.md)  
 [Wijzigen welke functies worden weergegeven](ui-experiences.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912171"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816976"
 ---
 # <a name="getting-ready-for-doing-business"></a>Uzelf gereedmaken om zaken te doen.
 
-Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[d365fin](includes/d365fin_md.md)] opgezet.
+Gefeliciteerd. U hebt zojuist uw eerste bedrijf in [!INCLUDE[prod_short](includes/prod_short.md)] opgezet.
 
 Ga voor meer hulp bij het voorbereiden van uw bedrijfsactiviteiten naar de pagina **Begeleide instelling**. Daar vindt u begeleide instellingen, video's of helponderwerpen voor bepaalde configuratietaken. Om toegang te krijgen tot de pagina kiest u gewoon het pictogram ![Tand om het menu instellingen te openen](media/ui-experience/settings_icon_small.png) en vervolgens de actie **Begeleide instelling**.
 
@@ -27,7 +27,7 @@ U kunt de lijst met gidsen van begeleide instellingen ook voor een willekeurige 
 
 Zodra u gegevens zoals klanten, leveranciers en artikelen hebt gemigreerd uit uw bestaande financiële systeem, bent u klaar om te beginnen. Maar afhankelijk van uw wensen overweegt u of de andere begeleide instellingen in de lijst u kunnen helpen.
 
-Als een gebied niet wordt gedekt door een begeleide instelling, kiest u het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) pictogram en vervolgens de actie **Geavanceerde instellingen**. In **Geavanceerde instellingen** biedt de sectie **Handmatige instelling** toegang tot instellingspagina's waar u de velden voor alle gebieden handmatig kunt invullen. Zie voor meer informatie ook [[!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md) instellen.
+Als een gebied niet wordt gedekt door een begeleide instelling, kiest u het pictogram ![Tand om het menu Instellingen te openen](media/ui-experience/settings_icon_small.png) pictogram en vervolgens de actie **Geavanceerde instellingen**. In **Geavanceerde instellingen** biedt de sectie **Handmatige instelling** toegang tot instellingspagina's waar u de velden voor alle gebieden handmatig kunt invullen. Zie voor meer informatie ook [[!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) instellen.
 
 > [!NOTE]  
 > De lijst met begeleide instellingen, extensies en services die beschikbaar zijn, verschilt afhankelijk van de gebruikerservaring die u voor uw bedrijf kiest. De **Essential**-ervaring geeft toegang tot minder dan de **Premium**-ervaring.
@@ -49,7 +49,7 @@ Gebruik de pijlen om een deel van de pagina samen te vouwen en meer ruimte te ma
 
 ## <a name="company-information"></a>Bedrijfsgegevens
 
-Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat op deze pagina doen.  
+Onder **Bedrijfsinstellingen** kunt u instellingsgegevens over het huidige bedrijf bekijken en bewerken. Hiervan is een groot deel vooraf ingevuld als u de begeleide instelling **Bedrijf instellen** hebt voltooid toen u zich voor [!INCLUDE[prod_short](includes/prod_short.md)] aanmeldde. Als u het bedrijfslogo, relatiegegevens, bankinstellingen of belastinggegevens wilt wijzigen, kunt u dat op deze pagina doen.  
 
 ## <a name="adding-users-and-permissions"></a>Gebruikers en machtigingen toevoegen
 
@@ -59,7 +59,7 @@ Als gebruikers in Microsoft 365 zijn gemaakt, kunnen ze op de pagina **Gebruiker
 
 ## <a name="getting-help"></a>Help opvragen
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. Voor elke knopinfo kiest u de koppeling **Meer informatie** om Help voor de pagina te openen. Gebruik op alle pagina's Ctrl+F1 op uw toetsenbord om de Help voor de desbetreffende pagina te openen. Het vraagteken in de rechterbovenhoek opent de pagina **Hulp en ondersteuning** en u kunt vanaf daar ook naar de Help van het product gaan.
+In [!INCLUDE[prod_short](includes/prod_short.md)] vindt u knopinfo die u bij de verschillende bedrijfsprocessen kan helpen. Voor elke knopinfo kiest u de koppeling **Meer informatie** om Help voor de pagina te openen. Gebruik op alle pagina's Ctrl+F1 op uw toetsenbord om de Help voor de desbetreffende pagina te openen. Het vraagteken in de rechterbovenhoek opent de pagina **Hulp en ondersteuning** en u kunt vanaf daar ook naar de Help van het product gaan.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -68,9 +68,9 @@ Gebaseerd op gemigreerde gegevens kunt u nu verdergaan met het maken van nieuwe 
 ## <a name="see-also"></a>Zie ook
 
 [Aan de slag](product-get-started.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-proefversies en -abonnementen](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]-proefversies en -abonnementen](across-preview.md)  
 [Bronnen voor Help en ondersteuning](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

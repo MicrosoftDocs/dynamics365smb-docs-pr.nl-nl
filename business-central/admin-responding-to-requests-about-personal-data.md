@@ -8,15 +8,15 @@ ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917848"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817151"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Reageren op aanvragen over persoonlijke gegevens  
-Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
+Gegevensonderwerpen kunnen verschillende typen acties aanvragen met betrekking tot hun persoonlijke gegevens. Onder de Algemene verordening gegevensbescherming (AVG) hebben ingezetenen van de EU bijvoorbeeld het recht hun persoonlijke gegevens te exporteren, verwijderen en wijzigen. Dit wordt een *aanvraag van een gegevensonderwerp* genoemd. Als u de gevoeligheid van uw gegevens hebt geclassificeerd en zeker weet dat deze correct zijn, kan een beheerder op verzoeken reageren met behulp van de opties onder het tabblad **Gegevensprivacy** in het rolcentrum **IT-beheerder**. Voor meer informatie over het classificeren van gegevens en gegevensvertrouwelijkheid in [!INCLUDE[prod_long](includes/prod_long.md)] raadpleegt u [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) en [Vertrouwelijkheid van gegevens classificeren](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Soorten aanvragen
 
@@ -35,13 +35,13 @@ De volgende tabel bevat voorbeelden van de typen aanvragen waarop u kunt reagere
 Een gegevensonderwerp kan aanvragen dat u tijdelijk stopt met verwerking van de persoonlijke gegevens. Als u dergelijke aanvragen honoreert, kunt u de record van het gegevensonderwerp registreren als geblokkeerd vanwege privacy om de verwerking van de gegevens te stoppen. Wanneer een record als geblokkeerd is gemarkeerd, kunt u geen nieuwe transacties maken die de record gebruiken. Bijvoorbeeld, u kunt geen nieuwe factuur voor een klant maken wanneer de klant of de verkoper is geblokkeerd. Als u een gegevensonderwerp als geblokkeerd wilt markeren, opent u de kaart voor het gegevensonderwerp, bijvoorbeeld de klanten-, leveranciers- of contactkaart en schakelt u het selectievakje **Geblokkeerd vanwege privacy** in. U moet mogelijk **Meer tonen** kiezen om het veld weer te geven.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Aanvragen van gegevensonderwerpen afhandelen tijdens een proef
-Bepaalde soorten persoonlijke gegevens maken deel uit van uw Microsoft 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbescherming. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[d365fin](includes/d365fin_md.md)]-tenant.  
+Bepaalde soorten persoonlijke gegevens maken deel uit van uw Microsoft 365-account en vereisen administratieve toegang om te worden geëxporteerd als u een aanvraag van een gegevensonderwerp van een gebruiker ontvangt met betrekking tot dit type persoonlijke gegevens onder de Algemene verordening gegevensbescherming. Het proces voor het afhandelen van aanvragen van gegevensonderwerpen verschilt afhankelijk van het type [!INCLUDE[prod_short](includes/prod_short.md)]-tenant.  
 
-Als u een betaald abonnement voor [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt, moet u contact met de tenantbeheerder van uw organisatie opnemen om een aanvraag van een gegevensonderwerp te doen. De beheerder heeft de administratieve rechten en hulpmiddelen om uw aanvraag af te handelen.  
+Als u een betaald abonnement voor [!INCLUDE[prod_short](includes/prod_short.md)] hebt, moet u contact met de tenantbeheerder van uw organisatie opnemen om een aanvraag van een gegevensonderwerp te doen. De beheerder heeft de administratieve rechten en hulpmiddelen om uw aanvraag af te handelen.  
 
-Als u zich voor [!INCLUDE[d365fin](includes/d365fin_md.md)] hebt aangemeld vanaf de pagina [Proeven](https://trials.dynamics.com/) en u deze proefervaring niet hebt verlaten door middel van een betaald abonnement door de tenantbeheerder van uw organisatie, kunt u uw eigen aanvraag van een gegevensonderwerp afhandelen op de [pagina Privacy op werk en school in de Azure-portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Hier kunt u uw persoonlijke gegevens exporteren en downloaden.
+Als u zich voor [!INCLUDE[prod_short](includes/prod_short.md)] hebt aangemeld vanaf de pagina [Proeven](https://trials.dynamics.com/) en u deze proefervaring niet hebt verlaten door middel van een betaald abonnement door de tenantbeheerder van uw organisatie, kunt u uw eigen aanvraag van een gegevensonderwerp afhandelen op de [pagina Privacy op werk en school in de Azure-portal](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Hier kunt u uw persoonlijke gegevens exporteren en downloaden.
 
-Op de pagina Privacy op werk en school kunt u ook uw account sluiten. We raden u echter aan te zorgen dat u eerst alle gegevens hebt geëxporteerd en verwijderd, aangezien het verwijderen van uw account betekent dat u toegang kwijtraakt tot [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Op de pagina Privacy op werk en school kunt u ook uw account sluiten. We raden u echter aan te zorgen dat u eerst alle gegevens hebt geëxporteerd en verwijderd, aangezien het verwijderen van uw account betekent dat u toegang kwijtraakt tot [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 U kunt nog steeds personen als geblokkeerd vanwege privacy markeren en transacties exporteren, bewerken of verwijderen, zoals elders in dit artikel uitgelegd.  
 
@@ -51,10 +51,10 @@ Als u in een situatie zit waarin u gegevens moet exporteren die niet zijn geclas
 -   Voeg deze tabel en relatie handmatig aan het Rapid Start-pakket toe en exporteer deze direct vanuit het Rapid Start-pakket. Daarom genereren we een Rapid Start-pakket voor u, zodat u het in situaties als deze kunt aanpassen.
 
 ## <a name="handling-data-about-minors"></a>Gegevens over minderjarigen verwerken
-Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleeftijd ligt volgens de wetgeving in uw regio, kunt u dat aangeven door het selectievakje **Minderjarig** in te schakelen op de **Contact**kaart. Wanneer u dat doet, wordt het selectievakje **Geblokkeerd vanwege privacy** automatisch ingeschakeld. Wanneer u toestemming van de ouder of wettelijke voogd van de minderjarige ontvangt, kunt u het selectievakje **Toestemming van ouders ontvangen** kiezen om het contact te deblokkeren. Hoewel u persoonlijke gegevens voor minderjarigen kunt verwerken, kunt u de profileringsfunctionaliteit in Dynamics 365 Sales niet gebruiken.
+Als de leeftijd van een contactpersoon onder de wettelijke meerderjarigheidsleeftijd ligt volgens de wetgeving in uw regio, kunt u dat aangeven door het selectievakje **Minderjarig** in te schakelen op de **Contact** kaart. Wanneer u dat doet, wordt het selectievakje **Geblokkeerd vanwege privacy** automatisch ingeschakeld. Wanneer u toestemming van de ouder of wettelijke voogd van de minderjarige ontvangt, kunt u het selectievakje **Toestemming van ouders ontvangen** kiezen om het contact te deblokkeren. Hoewel u persoonlijke gegevens voor minderjarigen kunt verwerken, kunt u de profileringsfunctionaliteit in Dynamics 365 Sales niet gebruiken.
 
 > [!Note]
-> In het wijzigingslogbestand kan informatie worden geregistreerd, zoals wanneer en door wie het selectievakje **Toestemming van ouders ontvangen** is ingeschakeld. Een beheerder kan dat instellen met de gids **Wijzigingslogbestandinstellingen** en door ook het selectievakje **Gereg. wijziging van toestemming van ouders ontvangen** in te schakelen op de **Contact**kaart. Zie [Wijzigingen registreren](across-log-changes.md) voor meer informatie.  
+> In het wijzigingslogbestand kan informatie worden geregistreerd, zoals wanneer en door wie het selectievakje **Toestemming van ouders ontvangen** is ingeschakeld. Een beheerder kan dat instellen met de gids **Wijzigingslogbestandinstellingen** en door ook het selectievakje **Gereg. wijziging van toestemming van ouders ontvangen** in te schakelen op de **Contact** kaart. Zie [Wijzigingen registreren](across-log-changes.md) voor meer informatie.  
 
 ## <a name="see-also"></a>Zie ook
 [Gegevens classificeren](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  

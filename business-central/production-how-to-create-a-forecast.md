@@ -1,5 +1,5 @@
 ---
-title: Een vraagprognose maken | Microsoft Docs
+title: Een vraagprognose maken
 description: U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013689"
 ---
 # <a name="create-a-demand-forecast"></a>Een vraagprognose maken
 U kunt verkoop- en productieprognoses maken op de pagina **Vraagprognose**.  
@@ -47,7 +47,41 @@ Omdat de materiaalprognose is ontworpen om opties te definiëren voor een hoofda
  De prognoseperiode is geldig vanaf de begindatum tot de datum waarop de volgende prognose begint. Het tijdsintervalvenster biedt u meerdere keuzemogelijkheden om de vraag op en bepaalde datum in een periode in te voegen. Het is daarom raadzaam om het bereik van de prognoseperiode niet te wijzigen, tenzij u alle prognoseposten naar de begindatum van deze periode wilt verplaatsen.  
 
 ## <a name="forecast-by-locations"></a>Prognose per locatie  
-In de productie-instellingen kan worden gesteld dat u prognoses wilt filteren volgens locatie wanneer u een plan berekent. Het is wel zo dat indien op locatie gebaseerde prognoses los van elkaar worden bekeken, de totale prognose mogelijk niet representatief is.
+
+Het kan op de pagina **Productie-instellingen** worden vermeld hoe u wilt omgaan met locaties die in prognoses zijn gedefinieerd wanneer u een plan berekent. 
+
+### <a name="use-forecast-by-locations"></a>Prognose per vestiging gebruiken
+
+Als u het veld **Prognose per vestiging gebruiken** kiest, respecteert [!INCLUDE[prod_short](includes/prod_short.md)] alle locatiecodes die zijn opgegeven voor elke vraagprognose en berekent de resterende prognose voor elke locatie.  
+
+Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee locaties: OOST en WEST. Voor beide locaties heeft u een lot-naar-lot bestelbeleid geconfigureerd. U maakt een prognose voor de twee locaties:
+
+- 10 stuks voor locatie OOST
+- 4 stuks voor locatie WEST
+
+Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 12 stuks. Het planningssysteem stelt voor dat u het volgende doet:
+
+- Vul 10 stuks aan voor locatie OOST, op basis van gegevens uit de prognose.  
+- Vul 12 stuks aan voor locatie WEST, op basis van verkooporder. De 4 stuks die in de prognose zijn gespecificeerd, worden volledig verbruikt door de werkelijke vraag van de verkooporder. Zie voor meer informatie [Prognosevraag wordt verlaagd door verkooporders](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Als op locatie gebaseerde prognoses los van elkaar worden bekeken, is de totale prognose mogelijk niet representatief.
+
+### <a name="do-not-use-forecast-by-locations"></a>Gebruik prognose per vestiging niet
+Als u het veld **Prognose per vestiging gebruiken** uitschakelt, negeert [!INCLUDE[prod_short](includes/prod_short.md)] alle locatiecodes die zijn opgegeven voor elke vraagprognose en combineert de prognoses tot een prognose voor lege vestigingen.  
+
+Beschouw dit voorbeeld eens: uw bedrijf koopt en verkoopt artikelen op twee locaties: OOST en WEST. Voor beide locaties heeft u een lot-naar-lot bestelbeleid geconfigureerd. U maakt een prognose voor de twee locaties:
+
+- 10 stuks voor locatie OOST
+- 4 stuks voor locatie WEST
+
+Vervolgens creëert u op locatie WEST een verkooporder met een hoeveelheid van 12 stuks. Het planningssysteem stelt voor dat u het volgende doet:
+
+- Vul 12 stuks aan voor vestiging WEST, op basis van de verkooporder. 
+- Vul 2 stuks bij voor de lege vestiging. De 10 en 4 stuks die in de prognose zijn gespecificeerd, worden gedeeltelijk verbruikt door de werkelijke vraag van de verkooporder. [!INCLUDE[prod_short](includes/prod_short.md)] negeerde de locatiecodes die door de gebruiker waren opgegeven en gebruikt in plaats daarvan een lege vestiging.
+
+> [!NOTE]  
+>  U kunt een filter op vestigingen instellen, maar vestiginggebaseerde resultaten komen mogelijk niet overeen met planningsresultaten zonder filters.
 
 ## <a name="to-create-a-demand-forecast"></a>Een vraagprognose maken
 
@@ -74,4 +108,4 @@ In de productie-instellingen kan worden gesteld dat u prognoses wilt filteren vo
 [Inkoop](purchasing-manage-purchasing.md)  
 [Ontwerpdetails: Voorzieningsplanning](design-details-supply-planning.md)   
 [Aanbevolen procedures instellen: voorraadplanning](setup-best-practices-supply-planning.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
