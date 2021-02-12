@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918485"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035753"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Procedure: picken en verzenden in standaardmagazijnconfiguraties
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen uitgaande processen voor picken en verzending op vier manieren worden uitgevoerd met verschillende functionaliteiten afhankelijk van het complexiteitsniveau van het magazijn.  
 
 |Methode|Inkomend proces|Opslaglocaties|Magazijnpicks|Verzendingen|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen uitgaande processen voor p
 Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md).  
 
 De volgende procedure geeft methode B in de vorige tabel weer.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Informatie over deze procedure
 
@@ -46,6 +49,9 @@ In deze procedure worden de volgende taken gedemonstreerd:
 - Een voorraadpick maken op basis van een vrijgegeven brondocument.  
 - De magazijnverplaatsing van het magazijn vastleggen en tegelijkertijd de verkoopverzending voor de bronverkooporder boeken.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Rollen
 
 In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:  
@@ -58,7 +64,7 @@ In dit overzicht worden taken gedemonstreerd voor de volgende gebruikersrollen:
 
 U moet het volgende doen om deze procedure uit te voeren:  
 
-- Voor [!INCLUDE[prodshort](includes/prodshort.md)] online, een bedrijf gebaseerd op de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** in een sandboxomgeving. Voor [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, CRONUS International Ltd. geïnstalleerd.  
+- Voor [!INCLUDE[prod_short](includes/prod_short.md)] online, een bedrijf gebaseerd op de optie **Geavanceerde evaluatie - volledige voorbeeldgegevens** in een sandboxomgeving. Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS International Ltd. geïnstalleerd.  
 - Maak van uzelf een magazijnwerknemer bij de vestiging ZILVER door de volgende stappen uit te voeren:  
 
   1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
@@ -143,4 +149,4 @@ Op de pagina **Voorraadpick** kunt u alle uitgaande magazijnactiviteiten voor ee
 [Artikelen ad hoc verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)  
 [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

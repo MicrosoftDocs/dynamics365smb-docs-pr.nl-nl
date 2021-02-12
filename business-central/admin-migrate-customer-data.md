@@ -1,6 +1,6 @@
 ---
-title: Klantgegevens migreren | Microsoft Docs
-description: U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar Business Central met RapidStart Services. U kunt Excel XLSX-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
+title: Klantgegevens migreren
+description: U kunt bestaande klantgegevens van een bestaand systeem naar Business Central migreren met RapidStart Services - of het gewoon rechtstreeks in het bedrijf invoeren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e25082286f53c5b0458359d5f5c895b03c6f6bcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3da4b0f6be7c8b4a8844ee479f1cc3e35006e9c1
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927119"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068280"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
-U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[d365fin](includes/d365fin_md.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
+
+U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
 
 > [!NOTE]
 > Velden van het type Blob kunnen niet worden geëxporteerd/geïmporteerd met Excel.
@@ -87,17 +88,17 @@ Nadat u hebt bepaald naar welke tabellen u klantgegevens wilt overbrengen, kunt 
 Als de tabel leeg is, bevat het resulterende gegevensmigratiebestand lege cellen voor de velden die u hebt geselecteerd toen u migratietabellen koos of maakte voor het nieuwe bedrijf. Als de geselecteerde gegevensmigratietabel gegevens bevat, worden deze geëxporteerd.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Waarden toewijzen die moeten worden gebruikt tijdens import
-Als u gegevens vereffent die u hebt geïmporteerd uit Excel of uit een RapidStart-pakket, behandelt en verwerkt [!INCLUDE[d365fin](includes/d365fin_md.md)] de toewijzing op basis van tabelrelaties:  
+Als u gegevens vereffent die u hebt geïmporteerd uit Excel of uit een RapidStart-pakket, behandelt en verwerkt [!INCLUDE[prod_short](includes/prod_short.md)] de toewijzing op basis van tabelrelaties:  
 
-- Als u een toewijzing rechtstreeks voor een veld in een tabel definieert, wordt deze door [!INCLUDE[d365fin](includes/d365fin_md.md)] gebruikt.  
+- Als u een toewijzing rechtstreeks voor een veld in een tabel definieert, wordt deze door [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
-- Als het veld een relatie met een andere tabel heeft, zoekt [!INCLUDE[d365fin](includes/d365fin_md.md)] naar de toewijzing die is gedefinieerd voor het veld met de primaire sleutel in de gerelateerde tabel. De gekoppelde tabel moet echter deel uitmaken van het configuratiepakket.  
+- Als het veld een relatie met een andere tabel heeft, zoekt [!INCLUDE[prod_short](includes/prod_short.md)] naar de toewijzing die is gedefinieerd voor het veld met de primaire sleutel in de gerelateerde tabel. De gekoppelde tabel moet echter deel uitmaken van het configuratiepakket.  
 
-- Als de toewijzingsinformatie op beide plaatsen is gedefinieerd (rechtstreeks voor het veld en in de gekoppelde tabel voor de primaire sleutel), zoekt [!INCLUDE[d365fin](includes/d365fin_md.md)] op beide plaatsen naar de toewijzing.  
+- Als de toewijzingsinformatie op beide plaatsen is gedefinieerd (rechtstreeks voor het veld en in de gekoppelde tabel voor de primaire sleutel), zoekt [!INCLUDE[prod_short](includes/prod_short.md)] op beide plaatsen naar de toewijzing.  
 
 - Als dezelfde toewijzingen rechtstreeks voor een veld en in de gerelateerde tabel zijn gedefinieerd maar verschillende waarden hebben, heeft de toewijzing die rechtstreeks voor het veld is gedefinieerd, prioriteit op de toewijzing die is gedefinieerd voor de tabel waarnaar het veld verwijst.  
 
-In de volgende procedures moet u van tevoren kijken welke waarden u wilt behouden tijdens het migratieproces. Als u de volgende procedures wilt uitvoeren, hebt u gegevensmigratiebestanden (.xlsx) nodig die u hebt geëxporteerd vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]. Zie voor meer informatie [Gegevensmigratiebestanden exporteren](admin-migrate-customer-data.md#to-export-data-migration-files).
+In de volgende procedures moet u van tevoren kijken welke waarden u wilt behouden tijdens het migratieproces. Als u de volgende procedures wilt uitvoeren, hebt u gegevensmigratiebestanden (.xlsx) nodig die u hebt geëxporteerd vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensmigratiebestanden exporteren](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.
 2. Open het pakket voor het betreffende bedrijf.  
@@ -110,16 +111,16 @@ In de volgende procedures moet u van tevoren kijken welke waarden u wilt behoude
 9. Als u de toewijzing wilt toepassen die u hebt ingesteld, kiest u de actie **Gegevens toepassen**.  
 
 ### <a name="mapping-example"></a>Voorbeeld van toewijzing  
-In het volgende voorbeeld ziet u hoe [!INCLUDE[d365fin](includes/d365fin_md.md)] koppelingsdefinities implementeert.  
+In het volgende voorbeeld ziet u hoe [!INCLUDE[prod_short](includes/prod_short.md)] koppelingsdefinities implementeert.  
 
 1. Een configuratietabel maken die een tabel **Verkoper/Inkoper** heeft. Een koppeling definiëren voor het veld **Code**.  
 2. Voeg extra tabellen toe aan het pakket, bijvoorbeeld **Klant** en **Leverancier**. Deze tabellen verwijzen beide naar de tabel **Verkoper/Inkoper** via respectievelijk de **Verkoperscode** en de **Inkoperscode**.  
 3. Wanneer u gegevens vereffent, wordt de toewijzing die u voor het veld **Code** in de tabel **Verkoper/Inkoper** hebt opgegeven, ook meegenomen tijdens het verwerken van de velden **Verkoperscode** en **Inkoperscode**.
 
-## <a name="to-add-additional-values-to-d365fin"></a>Aanvullende waarden toevoegen aan [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-prod_short"></a>Aanvullende waarden toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]  
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
 2. Selecteer de tabel waarvoor u extra waarden wilt toevoegen, en kies op het tabblad **Tabellen** de actie **Velden**.  
-3. Voor de velden waarvoor u wilt dat [!INCLUDE[d365fin](includes/d365fin_md.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  
+3. Voor de velden waarvoor u wilt dat [!INCLUDE[prod_short](includes/prod_short.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  
 4. Importeer de klantgegevens. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie.
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Gegevens opschonen en verwerken voordat u ze toepast
@@ -142,7 +143,7 @@ Voor hulp met XML schakelt u het tabblad **Ontwikkelaar** van het Excel-lint in 
 De volgende procedure is gebaseerd op een Excel-werkblad dat u hebt gemaakt voor de migratie. Zie voor meer informatie [Gegevensmigratiebestanden exporteren](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Wijzig de kolommen in de Excel-werkbladen niet. Als ze worden verplaatst, gewijzigd of verwijderd, kan het werkblad niet worden geïmporteerd in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Wijzig de kolommen in de Excel-werkbladen niet. Als ze worden verplaatst, gewijzigd of verwijderd, kan het werkblad niet worden geïmporteerd in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Open in Excel het geëxporteerde gegevensbestand. Er is een werkblad met de naam van de tabel.
 2. Hernoem Sheet1 om aan te geven dat het werkblad wordt gebruikt om de gegevens te transformeren. Kopieer de veldnamenrij zonder opmaak vanuit de geëxporteerde tabel naar het nieuwe werkblad.
@@ -151,10 +152,10 @@ De volgende procedure is gebaseerd op een Excel-werkblad dat u hebt gemaakt voor
 5. Nadat u alle gegevens hebt toegewezen, kopieert u het gegevensbereik naar het werkblad met de tabel.
 6. Sla het bestand op en controleer of het bestandstype niet is gewijzigd.
 
-U bent nu klaar om de gegevensmigratiebestanden met oude klantgegevens te importeren naar [!INCLUDE[d365fin](includes/d365fin_md.md)].
+U bent nu klaar om de gegevensmigratiebestanden met oude klantgegevens te importeren naar [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-import-customer-data"></a>Klantgegevens importeren
-Nadat de klantgegevens zijn ingevoerd in de gegevensmigratiebestanden in Excel, importeert u de bestanden in [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Nadat de klantgegevens zijn ingevoerd in de gegevensmigratiebestanden in Excel, importeert u de bestanden in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Open de pagina **Pakketkaart voor configuratie**.
 2. Selecteer de tabel waarvoor u waarden wilt importeren en kies op het sneltabblad **Tabellen** de actie **Vanuit Excel importeren**.
@@ -167,7 +168,7 @@ Nadat de klantgegevens zijn ingevoerd in de gegevensmigratiebestanden in Excel, 
 Gegevens uit het bestand worden geïmporteerd in de configuratiepakkettabellen. U kunt het aantal records zien dat werd aangemaakt, in het veld **Aantal pakketrecords**. Bovendien ziet u het aantal migratiefouten.
 
 ## <a name="to-validate-customer-data"></a>Klantgegevens valideren
-Klantgegevens moeten worden gevalideerd voordat u de records kunt toepassen op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
+Klantgegevens moeten worden gevalideerd voordat u de records kunt toepassen op de [!INCLUDE[prod_short](includes/prod_short.md)]-database.  
 
 > [!NOTE]  
 >  In de meeste gevallen worden geen ongeldige gegevens in de database gemaakt. De toepassing kan echter soms worden geblokkeerd als een geïmporteerde migratietabel fouten bevat.  
@@ -184,7 +185,7 @@ Nadat u een correctie hebt aangebracht, wordt de record verwijderd uit de lijst 
 U bent nu gereed om de gegevens van de klant toe te passen op de database.  
 
 ## <a name="to-apply-customer-data"></a>Klantgegevens toepassen
-Als u alle geïmporteerde gegevensmigratierecords hebt die geldig zijn en geen fouten bevatten, kunt u de records toepassen op de [!INCLUDE[d365fin](includes/d365fin_md.md)]-database.  
+Als u alle geïmporteerde gegevensmigratierecords hebt die geldig zijn en geen fouten bevatten, kunt u de records toepassen op de [!INCLUDE[prod_short](includes/prod_short.md)]-database.  
 
 1. Open de pagina **Configuratiepakketten**.  
 2. Selecteer de tabel voor het gegevensmigratiebestand dat u wilt toepassen, en kies de actie **Gegevens toepassen**.

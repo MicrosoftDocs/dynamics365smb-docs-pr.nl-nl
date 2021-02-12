@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918460"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035628"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
 
@@ -38,10 +38,10 @@ In het volgende overzicht ziet u het proces voor het plannen van voorraadorders 
 -   Verkooporderverwerker  
 
 ## <a name="prerequisites"></a>Vereisten  
- Voordat u met dit scenario begint, moet u de [!INCLUDE[d365fin](includes/d365fin_md.md)] installeren. Breng de volgende wijzigingen aan in de database:  
+ Voordat u met dit scenario begint, moet u de [!INCLUDE[prod_short](includes/prod_short.md)] installeren. Breng de volgende wijzigingen aan in de database:  
 
 -   Verwijder alle bestaande verkooporders voor fietsen.  
--   Maak één verkooporder voor 10 fietsen op de locatie BLAUW.  
+-   Maak één verkooporder voor 10 fietsen op de locatie OOST.  
 -   Verwijder alle geplande en vast geplande productieorders. Verwijder geen gestarte orders met posten die al zijn geboekt.  
 
  Gebruik als algemene regel de voorgestelde gegevens uit deze procedure aangezien deze gegevens de benodigde records bevatten.  
@@ -139,7 +139,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Verkooporder **2008 betreft** tien luidsprekers van het type **LS-120** die zijn besteld door John Haddock Insurance Co.  
 
-     Voor het artikel is het aanvulsysteem geselecteerd en de standaardleverancier wordt weergegeven.  
+     Het voor het artikel gedefinieerde aanvulsysteem en de standaardleverancier worden weergegeven.  
 
     > [!NOTE]  
     >  Onder aan de pagina staan vier informatievelden. In het veld **Vroegste beschikbaarheidsdatum** zijn de tien stuks die nodig zijn, beschikbaar via een inkomende voorraadorder, maar pas negen dagen na de huidige vervaldatum. Als dat te laat is voor de klant, bevat het veld **Beschikbaar voor transfer** 13 stuks van het artikel op een andere locatie. U gaat voor deze voorraad een planning maken.  
@@ -148,7 +148,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 4.  Klik op **OK** om de tien beschikbare artikelen te boeken.  
 
     > [!NOTE]  
-    >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie GROEN. Met de functie **Orders maken** maakt u een transferorder van GROEN naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
+    >  Op de vraagregel wordt de voorgestelde inkoop vervangen door een transfer van de locatie HOOFD. Met de functie **Orders maken** maakt u een transferorder van HOOFD naar de gewenste locatie. Het veld **Vervangingsartikel** werkt op dezelfde manier.  
 
 5.  Kies de actie **Orders maken**. De pagina **Orders voor voorzieningen maken** wordt geopend.  
 6.  Kies op het sneltabblad **Orderplanning** in het veld **Orders maken voor** de optie **Actieve order**.  

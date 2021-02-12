@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911027"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035728"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Ontwerpdetails: Inkomende magazijnstromen
 De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op het picken van onderdelen en het opslaan van eindartikelen voor assemblage of productieorders en ad hoc verplaatsingen, zoals opslaglocatieaanvullingen, zonder een relatie met brondocumenten. De omvang en aard van de betrokken activiteiten verschillen tussen de basis- en geavanceerde magazijnfuncties.  
@@ -72,7 +72,7 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 
  De velden **Code verbruikslocatie**, **Code opslaglocatie gereed product** en **Code grijpvoorraadlocatie** op de vestigingskaart of de kaart van afdelingen/bewerkingsplaatsen definiëren de standaardstromen van en naar productiegebieden.  
 
- Voor meer informatie over hoe componentenverbruik wordt afgeboekt vanuit de opslaglocaties Naar productie of Grijpvoorraad raadpleegt u het gedeelte "Productiecomponenten afboeken in het magazijn" in dit onderwerp.  
+ Voor meer informatie over hoe componentenverbruik wordt afgeboekt vanuit de opslaglocaties Naar-productie of Grijpvoorraad raadpleegt u het gedeelte "Productiecomponenten afboeken in het magazijn" in dit onderwerp.  
 
 ### <a name="flows-to-and-from-assembly"></a>Stroomt naar en van assemblage  
  De belangrijkste integratie tussen assemblageorders en geavanceerde magazijnactiviteiten wordt vertegenwoordigd door de mogelijkheid assemblagecomponenten te picken, zowel via de pagina **Magazijnpick** als de pagina **Pickvoorstel**. Deze functionaliteit werkt net als bij het picken van onderdelen voor productieorders.  
@@ -90,7 +90,7 @@ De artikelenstroom tussen opslaglocaties op een bedrijfsvestiging is gericht op 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Productieonderdelen in het magazijn afboeken  
  Indien ingesteld op de artikelkaart worden onderdelen met magazijnpicks geboekt als verbruikt door de consumptieorder wanneer de magazijnpick wordt geregistreerd. Met de afboekingsmethode **Pick + Voorwaarts** en **Pick + Achterwaarts** activeert de pickregistratie de verwante verbruikboeking respectievelijk wanneer de eerste bewerking wordt gestart of wanneer de laatste bewerking wordt beëindigd.  
 
- Bekijk het volgende scenario op basis van de [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabase, de vestiging WIT.  
+ Bekijk het volgende scenario op basis van de [!INCLUDE[prod_short](includes/prod_short.md)]-demodatabase.  
 
  Er bestaat een productieorder voor 15 STUKS van artikel LS-100. Enkele artikelen op de onderdelenlijst moeten handmatig in een verbruiksdagboek worden afgeboekt, en andere artikelen in de lijst kunnen automatisch worden gepickt en worden afgeboekt met behulp van de afboekingsmethode **Pick + Achterwaarts**.  
 
