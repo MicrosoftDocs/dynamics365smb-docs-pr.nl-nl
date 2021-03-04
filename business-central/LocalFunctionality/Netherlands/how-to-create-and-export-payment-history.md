@@ -46,3 +46,6 @@ De pagina **Betaalrunlijst** verschijnt met de betaalrun die u zojuist hebt gema
 
 ## <a name="see-also"></a>Zie ook  
  [Voorstellen maken](how-to-create-proposals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

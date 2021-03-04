@@ -41,3 +41,6 @@ Wanneer u het rapport uitvoert, moet u de naam en locatie van het geëxporteerde
 
 ## <a name="see-also"></a>Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

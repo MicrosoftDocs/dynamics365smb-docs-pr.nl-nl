@@ -48,3 +48,6 @@ U kunt deze optie alleen inschakelen als de inkoopfactuur of de inkoopcreditnota
 ## <a name="see-also"></a>Zie ook  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)  
 [Inkopen instellen](../../sales-how-work-standard-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

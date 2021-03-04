@@ -50,3 +50,6 @@ Zie [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-b
 [Telebankieren](telebanking.md)  
 [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
 [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

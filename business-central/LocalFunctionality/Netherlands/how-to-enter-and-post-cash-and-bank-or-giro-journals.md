@@ -89,3 +89,6 @@ De posten worden naar het grootboek geboekt. Zie Gootboekposten voor meer inform
  [Telebankieren](telebanking.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
  [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

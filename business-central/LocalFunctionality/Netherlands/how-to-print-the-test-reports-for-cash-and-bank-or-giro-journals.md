@@ -48,3 +48,6 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 ## <a name="see-also"></a>Zie ook  
  [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

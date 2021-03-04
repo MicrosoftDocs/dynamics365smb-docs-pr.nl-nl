@@ -28,3 +28,6 @@ Tijdens het genereren van betalingsvoorstellen met de batchverwerking **Voorstel
 
 ## <a name="see-also"></a>Zie ook  
  [Telebankieren](telebanking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
  [Verkopen factureren](../../sales-how-invoice-sales.md)   
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

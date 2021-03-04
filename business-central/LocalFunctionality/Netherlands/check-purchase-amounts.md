@@ -33,3 +33,6 @@ Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedr
 
 ## <a name="see-also"></a>Zie ook  
  [Validatie van inkoopbedragen instellen](how-to-set-up-validation-of-purchase-amounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

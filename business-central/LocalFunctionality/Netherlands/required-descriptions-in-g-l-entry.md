@@ -33,3 +33,6 @@ Wanneer de dagboekregels worden geboekt, wordt door het systeem gecontroleerd of
 [Klantbetalingen handmatig vereffenen](../../receivables-how-apply-sales-transactions-manually.md)  
 [Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md)  
 [Het grootboek en COA begrijpen](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

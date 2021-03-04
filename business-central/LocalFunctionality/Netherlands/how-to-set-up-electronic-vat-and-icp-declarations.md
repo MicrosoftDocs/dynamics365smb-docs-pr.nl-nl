@@ -41,3 +41,6 @@ Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar d
 ## <a name="see-also"></a>Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

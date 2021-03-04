@@ -46,3 +46,6 @@ U kunt nu de btw-aangiftegegevens direct aan een XML-element toewijzen.
 ## <a name="see-also"></a>Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
  [Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

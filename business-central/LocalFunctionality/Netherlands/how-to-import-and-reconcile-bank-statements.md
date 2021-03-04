@@ -44,3 +44,6 @@ Het elektronische bankafschrift wordt geïmporteerd in het bank- of giroboek. Zi
 ## <a name="see-also"></a>Zie ook  
 [Elektronisch bankieren voor Nederland](dutch-electronic-banking.md)   
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

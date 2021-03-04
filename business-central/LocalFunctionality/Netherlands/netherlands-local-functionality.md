@@ -68,3 +68,6 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

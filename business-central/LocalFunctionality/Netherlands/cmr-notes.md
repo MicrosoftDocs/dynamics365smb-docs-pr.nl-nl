@@ -45,3 +45,6 @@ De standaard levenscyclus van een CMR-verzendbon ziet er als volgt uit:
 
 ## <a name="see-also"></a>Zie ook  
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de in
 [Btw-categorieën instellen](how-to-set-up-vat-categories.md)  
 [Lijsten met XBRL maken](../../bi-create-reports-with-xbrl.md)  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

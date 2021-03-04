@@ -49,3 +49,6 @@ De voorstelregels worden opgenomen op de pagina **Telebankierenvoorstel**.
 ## <a name="see-also"></a>Zie ook  
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   
  [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Een betaalrun is eigenlijk precies hetzelfde als een voorstel, het enige verschi
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)   
  [Voorstellen maken.](how-to-create-proposals.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Met telebankieren kunt u met drie scenario's te maken krijgen:
 
 ## <a name="see-also"></a>Zie ook  
 [Telebankieren](telebanking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

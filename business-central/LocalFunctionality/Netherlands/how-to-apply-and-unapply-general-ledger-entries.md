@@ -27,3 +27,6 @@ ms.locfileid: "3919905"
 [Verplichte beschrijvingen in grootboekpost](required-descriptions-in-g-l-entry.md)  
 [Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md)  
 [Het grootboek en COA begrijpen](../../finance-general-ledger.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

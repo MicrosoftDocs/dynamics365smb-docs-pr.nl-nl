@@ -41,3 +41,6 @@ Leveranciersbetalingen die met SEPA ISO 20022 worden verricht moeten aan de volg
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   
  [Leverancierbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)   
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

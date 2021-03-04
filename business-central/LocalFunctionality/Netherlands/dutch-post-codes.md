@@ -26,3 +26,6 @@ In Nederland kunt u zich abonneren op het ontvangen van postcodes en postcode-up
  [Postcodes importeren](how-to-import-post-codes.md)  
  [Updates van postcodes importeren](how-to-import-post-code-updates.md)  
  [PostNL-postcodetabellen](https://www.postnl.nl/zakelijke-oplossingen/procesoptimalisatie-met-dataoplossingen/postcodetabel/aanvragen)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

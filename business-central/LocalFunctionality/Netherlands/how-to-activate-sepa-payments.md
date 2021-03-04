@@ -39,3 +39,6 @@ ms.locfileid: "3919903"
 
 [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)  
 [Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

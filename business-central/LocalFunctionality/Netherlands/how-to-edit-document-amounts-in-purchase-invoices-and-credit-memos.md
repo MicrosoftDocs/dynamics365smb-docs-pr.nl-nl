@@ -30,3 +30,6 @@ Als u de actie **Periodieke inkoopregels ophalen** gebruikt om regels in te voeg
 ## <a name="see-also"></a>Zie ook  
 [Periodieke verkoop- en inkoopregels maken](../../sales-how-work-standard-lines.md)   
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Gegevens over de geïmporteerde postcode worden opgeslagen in de tabel Postcode-
 ## <a name="see-also"></a>Zie ook  
  [Nederlandse postcodes](dutch-post-codes.md)   
  [Updates van postcodes importeren](how-to-import-post-code-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

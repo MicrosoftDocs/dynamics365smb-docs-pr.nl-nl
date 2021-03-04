@@ -97,3 +97,6 @@ Het bankafschrift met onze betaling aan Jannet Carter wordt door onze bank, ABN-
 ## <a name="see-also"></a>Zie ook  
  [Voorstellen maken.](how-to-create-proposals.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
