@@ -3,19 +3,19 @@ title: Hoe u grootboekposten in de Nederlandse versie kunt toepassen en ongedaan
 description: Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0822c84739285784624a0cb56b0c4d365a877971
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f3cdb78237ca8b5ee2cea37898185e45553fcd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919905"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382837"
 ---
 # <a name="apply-and-unapply-general-ledger-entries-in-the-dutch-version"></a>Grootboekposten in de Nederlandse versie toepassen en ongedaan maken
 

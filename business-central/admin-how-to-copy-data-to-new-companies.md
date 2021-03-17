@@ -3,19 +3,19 @@ title: Gegevens kopiëren naar nieuwe bedrijven | Microsoft Docs
 description: U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan. Indien u bijvoorbeeld een standaardlijst met symptoomcodes hebt die wordt gedeeld door al uw servicemanagementimplementaties, kunt u de codes gemakkelijk vanuit één bedrijf naar het andere kopiëren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d43d41541607985f9e4e9d94788099fd5e438a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6776fcd85ce353dd63cc222a59b6ceef28bcd751
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378370"
 ---
 # <a name="copy-data-to-new-companies"></a>Gegevens kopiëren naar nieuwe bedrijven
 U kunt vaak gebruikte waarden kopiëren van een bestaand bedrijf naar een nieuw bedrijf zolang beide bedrijven in dezelfde database staan. Indien u bijvoorbeeld een standaardlijst met symptoomcodes hebt die wordt gedeeld door al uw servicemanagementimplementaties, kunt u de codes gemakkelijk vanuit één bedrijf naar het andere kopiëren.  

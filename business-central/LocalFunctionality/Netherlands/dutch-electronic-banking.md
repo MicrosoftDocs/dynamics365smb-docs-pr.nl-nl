@@ -3,19 +3,19 @@ title: Elektronisch bankieren voor Nederland
 description: Met de functionaliteit voor elektronisch bankieren kunt u bestanden voor elektronische betaling en bestanden voor automatische incasso maken, en elektronische bankafschriften importeren vanuit ondersteunde banksoftware.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbaa6d0d5ca08e381560c91bfeb8f38efd8a809e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d3a73bbc35f5c53341ae1fd76b7cc408bcf373b3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383612"
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
 

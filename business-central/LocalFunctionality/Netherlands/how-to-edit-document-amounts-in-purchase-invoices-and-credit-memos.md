@@ -3,19 +3,19 @@ title: Documentbedragen bewerken in inkoopfacturen en creditnota's
 description: U kunt gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 027981dcd20f56f9df802e05a7603f50eb66373d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 667aa925993102449704b6d14e4c7b55762136d0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382123"
 ---
 # <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos"></a>Documentbedragen bewerken in inkoopfacturen en creditnota's
 Met [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.  

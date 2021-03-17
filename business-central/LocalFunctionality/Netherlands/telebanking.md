@@ -3,19 +3,19 @@ title: Telebankieren
 description: Op basis van zowel verkoop- als inkooptransacties kunt u met telebankieren betalingen en incasso's genereren die u elektronisch met uw bank kunt uitwisselen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/07/2021
 ms.author: edupont
-ms.openlocfilehash: 7ea901d0b9b5564ee75cac67b17386f018f93b61
-ms.sourcegitcommit: 1aac2c5f6773151c011dc1e4069c84d79fe5bda8
+ms.openlocfilehash: d9a2c524ea7a1f71217534d459572c213081624c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4839794"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383596"
 ---
 # <a name="telebanking"></a>Telebankieren
 Op basis van zowel verkoop- als inkooptransacties kunt u met telebankieren betalingen en incasso's genereren die u elektronisch met uw bank kunt uitwisselen. Hieronder vallen ook de export van betalings- en incassogegevens die naar de bank moeten worden doorgestuurd en de import van bankafschriften die door de bank naar u worden verzonden.  
