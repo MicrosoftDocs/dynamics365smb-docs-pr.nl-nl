@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0d6b8d20d0cf9acce86e78db77563a69ba5197f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: aea4e5c0d8c84b4e0a8c5b50215568ff40f58db9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383608"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771396"
 ---
 # <a name="activate-sepa-payments-in-the-dutch-version"></a>SEPA-betalingen activeren in de Nederlandse versie
 

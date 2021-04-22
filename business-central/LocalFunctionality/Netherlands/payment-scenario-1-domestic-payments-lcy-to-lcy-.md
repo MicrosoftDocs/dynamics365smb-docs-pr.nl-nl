@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6caef5f8fed18a15b85481c0a24c00ae7b3183a6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1c526a5c054a94a92b2469d4e6426d1440b2b9be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382825"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773492"
 ---
 # <a name="payment-scenario-1---domestic-payments-lcy-to-lcy"></a>Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  

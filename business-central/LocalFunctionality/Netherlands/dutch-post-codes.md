@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a106198894f15e0d8edafa660a2b1ed77f0667e9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8f6c29594ccf5fb146be6b35a36d5d8995f9e590
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383616"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771398"
 ---
 # <a name="dutch-post-codes"></a>Nederlandse postcodes
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54a7c088eb829267f7925b9e07ee425e1dd2f4b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9ab25197a9aeebf01674354dc8f5a2ea51bb7cc6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382823"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780118"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 

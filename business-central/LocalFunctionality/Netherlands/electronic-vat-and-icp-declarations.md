@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 14484d26563f99f5bb425ffc0bdb351bbb52378e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 34642f405a147a770e52d6a8b71898e7eb3c4396
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383610"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780132"
 ---
 # <a name="submitting-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften verzenden
 Bedrijven moeten maandelijks periodieke btw-aangiften en ICP-aangiften (intracommunautaire leveringen) naar de belastingdienst versturen.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a04bcf705f4b19b6cbebef724e769c1ef7e5828d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fe207d7cbf1d475829a69219270f68ba70df2d65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383598"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780112"
 ---
 # <a name="single-euro-payments-area-sepa"></a>Single EURO Payments Area (SEPA)
 Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen, zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen. 300 miljoen Europese burgers en bedrijven kunnen betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen, ongeacht de locatie.  

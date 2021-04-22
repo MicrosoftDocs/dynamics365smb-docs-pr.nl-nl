@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/22/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 27c0674ef3bbb611f965fb32d3a9f264d080127a
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476792"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778669"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Speciale verkoopprijzen en kortingen registreren
 > [!NOTE]
@@ -146,7 +146,7 @@ Wanneer u hebt bepaald welke klanten in aanmerking komen voor factuurkortingen, 
 > [!NOTE]  
 > Factuurkortingscodes worden vertegenwoordigd door bestaande klantenkaarten. Zo kunt u snel factuurkortingsvoorwaarden aan klanten toewijzen door de naam van een andere klant te kiezen die dezelfde voorwaarden heeft.
 
-Ga door met het instellen van de nieuwe voorwaarden voor de nieuwe verkoopfactuurkorting.
+Ga door met het instellen van de voorwaarden voor de nieuwe verkoopfactuurkorting.
 
 1. Kies op de pagina **Klanten** de actie **Factuurkortingen**. De pagina **Verkoopfactuurkorting** verschijnt.
 2. Geef in het veld **Valutacode** de code op voor een valuta waarvoor de factuurkortingscondities op de regel van toepassing zijn. Laat het veld leeg als u factuurkortingscondities in de lokale valuta wilt instellen.
@@ -159,7 +159,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)  
 
-Als u verkoopprijzen wilt kopiëren, zoals de verkoopprijzen van een individuele klant naar een klantenprijsgroep, moet u de batchverwerking **Verkoopprijsvoorstellen maken** uitvoeren op de pagina **Verkoopprijsvoorstel**.  
+Als u verkoopprijzen wilt kopiëren, bijvoorbeeld om de verkoopprijzen van een individuele klant voor een klantenprijsgroep te gebruiken, moet u de batchverwerking **Verkoopprijsvoorstellen maken**. uitvoeren op de pagina **Verkoopprijsvoorstel**.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Verkoopprijsvoorstellen maken** .  
@@ -189,7 +189,7 @@ Deze stappen verschillen, afhankelijk van of uw beheerder de functie-update **Ni
 
 #### <a name="current-experience"></a>[Huidige ervaring](#tab/current-experience/)
 
-Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijzen met een bepaald percentage wilt verhogen, moet u de batchverwerking **Artikelprijsvoorstellen maken** uitvoeren. U vindt een koppeling voor de batchverwerking op de pagina **Verkoopprijsvoorstel**.  
+Als u artikelprijzen bulksgewijs wilt bijwerken, bijvoorbeeld alle artikelprijzen met een bepaald percentage wilt verhogen, moet u de batchverwerking **Artikelprijsvoorstellen maken**. uitvoeren. U vindt een koppeling voor de batchverwerking op de pagina **Verkoopprijsvoorstel**.  
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopprijsvoorstel** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Artikelprijsvoorstellen maken** .  

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7aa949f14f7572aa6f2ce3dd3f70089800891a40
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9eb1aa673c89d42204f85fc39fb2a68447bc90c6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383604"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780122"
 ---
 # <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a>De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
 U kunt het rapport **KBG-boekingen - Test** gebruiken om de afschriftregels te bewerken en het effect ervan te bekijken voordat u kasboeken en bank- of giroboeken boekt.  

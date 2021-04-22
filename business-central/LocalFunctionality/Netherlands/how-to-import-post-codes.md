@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd6c09074e9c2923f6ef7fafb5cde65c83d96ce8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7a55cb66cfec74dd546f13872287da0187252996
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383606"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771386"
 ---
 # <a name="import-post-codes"></a>Postcodes importeren
 U kunt een bestand importeren dat postcodes opgeeft voor marketing- en relatiebeheeractiviteiten. De postcodegegevens die u importeert, worden in de tabel **Postcodebereik** opgeslagen.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4f49e8f2b58087f8d3ae77a580a1dcf57a4ab7b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a5b430a8e197a0f936ce45fb63676917d7edad18
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382833"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780128"
 ---
 # <a name="create-and-export-payment-history"></a>Betalingsrun maken en exporteren
 Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost. Zie [Voorstellen maken](how-to-create-proposals.md) voor meer informatie.  

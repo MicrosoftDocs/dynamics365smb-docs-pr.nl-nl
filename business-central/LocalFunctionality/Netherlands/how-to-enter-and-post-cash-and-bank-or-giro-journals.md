@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0bfa417e2d0d0250346a1942c2a6584a40c2638a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3f68d150eb26626ce9508f0002875d33f7614578
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382121"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780124"
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b380e8a1e710dbc78f50c4d2b354ce8412cadd1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 849a0eb41c95afad3f95d2596fa2dde413ab8490
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382125"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771400"
 ---
 # <a name="docket-reports"></a>Borderelrapporten
 Met de Nederlandse toepassing voor telebankieren kunt u posten voor dezelfde klant of leverancier die dezelfde transactiewijze hebben tot één betaal- of verzamelopdracht voor de bank combineren. Als zodanig wordt één totaalbedrag betaald aan of geïnd van de betreffende leverancier of klant. Mogelijk bevat deze gecombineerde betaling alle detailgegevens over de afzonderlijke betalingen of incasso's. Telebankieren biedt u de mogelijkheid om uw leverancier of klant gedetailleerd te informeren door een borderelrapport te genereren waarin de afzonderlijke betalingen worden beschreven waaruit het totale betaalde of geïnde bedrag bestaat.  
