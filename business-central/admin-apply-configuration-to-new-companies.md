@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378770"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773358"
 ---
-# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="e6a4f-104">Configuraties toepassen op nieuwe bedrijven</span><span class="sxs-lookup"><span data-stu-id="e6a4f-104">Apply Configurations to New Companies</span></span>
-<span data-ttu-id="e6a4f-105">Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="e6a4f-106">U werkt met het configuratiepakket binnen een nieuw, leeg bedrijf.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-106">You work with the configuration package within a new empty company.</span></span>  
+# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="ca522-104">Configuraties toepassen op nieuwe bedrijven</span><span class="sxs-lookup"><span data-stu-id="ca522-104">Apply Configurations to New Companies</span></span>
+<span data-ttu-id="ca522-105">Nadat u een configuratiepakket hebt gemaakt, bestaat de volgende stap uit het leveren van het pakket aan uw klant voor implementatie.</span><span class="sxs-lookup"><span data-stu-id="ca522-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="ca522-106">U werkt met het configuratiepakket binnen een nieuw, leeg bedrijf.</span><span class="sxs-lookup"><span data-stu-id="ca522-106">You work with the configuration package within a new empty company.</span></span>  
 
- <span data-ttu-id="e6a4f-107">In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de beschrijvende onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+ <span data-ttu-id="ca522-107">In de volgende tabel wordt een reeks taken beschreven met koppelingen naar de beschrijvende onderwerpen.</span><span class="sxs-lookup"><span data-stu-id="ca522-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
 
-|<span data-ttu-id="e6a4f-108">**Als u dit wilt doen**</span><span class="sxs-lookup"><span data-stu-id="e6a4f-108">**To**</span></span>|<span data-ttu-id="e6a4f-109">**Onderwerp**</span><span class="sxs-lookup"><span data-stu-id="e6a4f-109">**See**</span></span>|  
+|<span data-ttu-id="ca522-108">**Als u dit wilt doen**</span><span class="sxs-lookup"><span data-stu-id="ca522-108">**To**</span></span>|<span data-ttu-id="ca522-109">**Onderwerp**</span><span class="sxs-lookup"><span data-stu-id="ca522-109">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="e6a4f-110">Maak een nieuw bedrijf waarin u een klantimplementatie uitvoert.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="e6a4f-111">Een nieuw bedrijf maken</span><span class="sxs-lookup"><span data-stu-id="e6a4f-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
-|<span data-ttu-id="e6a4f-112">Importeer en pas een configuratiepakket toe op een nieuw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="e6a4f-113">Nieuwe bedrijven configureren</span><span class="sxs-lookup"><span data-stu-id="e6a4f-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
-|<span data-ttu-id="e6a4f-114">Gebruik een begeleide instelling om gemakkelijk een bedrijfsconfiguratie te voltooien.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="e6a4f-115">Een bedrijf configureren met de wizard RapidStart</span><span class="sxs-lookup"><span data-stu-id="e6a4f-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|<span data-ttu-id="e6a4f-116">Veelgebruikte waarden kopiëren uit een bestaand bedrijf naar een nieuw bedrijf binnen dezelfde database.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="e6a4f-117">Gegevens kopiëren naar nieuwe bedrijven</span><span class="sxs-lookup"><span data-stu-id="e6a4f-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
-|<span data-ttu-id="e6a4f-118">Een batchverwerking gebruiken om oude rekeningsaldi over te brengen naar een nieuw geconfigureerd bedrijf en vervolgens de resulterende journaalposten toepassen.</span><span class="sxs-lookup"><span data-stu-id="e6a4f-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="e6a4f-119">Beginsaldi van dagboeken maken</span><span class="sxs-lookup"><span data-stu-id="e6a4f-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
+|<span data-ttu-id="ca522-110">Maak een nieuw bedrijf waarin u een klantimplementatie uitvoert.</span><span class="sxs-lookup"><span data-stu-id="ca522-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="ca522-111">Een nieuw bedrijf maken</span><span class="sxs-lookup"><span data-stu-id="ca522-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
+|<span data-ttu-id="ca522-112">Importeer en pas een configuratiepakket toe op een nieuw bedrijf.</span><span class="sxs-lookup"><span data-stu-id="ca522-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="ca522-113">Nieuwe bedrijven configureren</span><span class="sxs-lookup"><span data-stu-id="ca522-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
+|<span data-ttu-id="ca522-114">Gebruik een begeleide instelling om gemakkelijk een bedrijfsconfiguratie te voltooien.</span><span class="sxs-lookup"><span data-stu-id="ca522-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="ca522-115">Een bedrijf configureren met de wizard RapidStart</span><span class="sxs-lookup"><span data-stu-id="ca522-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|<span data-ttu-id="ca522-116">Veelgebruikte waarden kopiëren uit een bestaand bedrijf naar een nieuw bedrijf binnen dezelfde database.</span><span class="sxs-lookup"><span data-stu-id="ca522-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="ca522-117">Gegevens kopiëren naar nieuwe bedrijven</span><span class="sxs-lookup"><span data-stu-id="ca522-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
+|<span data-ttu-id="ca522-118">Een batchverwerking gebruiken om oude rekeningsaldi over te brengen naar een nieuw geconfigureerd bedrijf en vervolgens de resulterende journaalposten toepassen.</span><span class="sxs-lookup"><span data-stu-id="ca522-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="ca522-119">Beginsaldi van dagboeken maken</span><span class="sxs-lookup"><span data-stu-id="ca522-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="e6a4f-120">Zie ook</span><span class="sxs-lookup"><span data-stu-id="e6a4f-120">See Also</span></span>  
-[<span data-ttu-id="e6a4f-121">Een bedrijf instellen met RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="e6a4f-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="e6a4f-122">Beheer</span><span class="sxs-lookup"><span data-stu-id="e6a4f-122">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="ca522-120">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ca522-120">See Also</span></span>  
+[<span data-ttu-id="ca522-121">Een bedrijf instellen met RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="ca522-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="ca522-122">Beheer</span><span class="sxs-lookup"><span data-stu-id="ca522-122">Administration</span></span>](admin-setup-and-administration.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

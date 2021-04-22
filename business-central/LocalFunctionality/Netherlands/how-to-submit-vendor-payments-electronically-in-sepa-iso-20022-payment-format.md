@@ -8,47 +8,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f68fb2a96e1346572134a54a29e56ccb757cf26d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f4748647ec1155f8ceecc9e8e1766d8f0926da9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382828"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773494"
 ---
-# <a name="submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a><span data-ttu-id="3b846-103">Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling</span><span class="sxs-lookup"><span data-stu-id="3b846-103">Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format</span></span>
+# <a name="submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a><span data-ttu-id="08660-103">Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling</span><span class="sxs-lookup"><span data-stu-id="08660-103">Submit Vendor Payments Electronically in SEPA ISO 20022 Payment Format</span></span>
 
-<span data-ttu-id="3b846-104">In de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronische SEPA-leveranciersbetalingen (Single Euro Payments Area) ISO 20022 maken en verzenden.</span><span class="sxs-lookup"><span data-stu-id="3b846-104">In the Dutch version of [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.</span></span>  
+<span data-ttu-id="08660-104">In de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronische SEPA-leveranciersbetalingen (Single Euro Payments Area) ISO 20022 maken en verzenden.</span><span class="sxs-lookup"><span data-stu-id="08660-104">In the Dutch version of [!INCLUDE[prod_short](../../includes/prod_short.md)], you can create and submit Single Euro Payments Area (SEPA) ISO 20022 vendor payments electronically.</span></span>  
 
-<span data-ttu-id="3b846-105">Voordat u SEPA-leveranciersbetalingen kunt maken en verzenden, moet u SEPA-betalingen activeren.</span><span class="sxs-lookup"><span data-stu-id="3b846-105">Before you can create and submit SEPA vendor payments, you must enable SEPA payments.</span></span> <span data-ttu-id="3b846-106">Zie [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="3b846-106">For more information, see [Activate SEPA Payments](how-to-activate-sepa-payments.md).</span></span>  
+<span data-ttu-id="08660-105">Voordat u SEPA-leveranciersbetalingen kunt maken en verzenden, moet u SEPA-betalingen activeren.</span><span class="sxs-lookup"><span data-stu-id="08660-105">Before you can create and submit SEPA vendor payments, you must enable SEPA payments.</span></span> <span data-ttu-id="08660-106">Zie [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="08660-106">For more information, see [Activate SEPA Payments](how-to-activate-sepa-payments.md).</span></span>  
 
-## <a name="to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a><span data-ttu-id="3b846-107">Leverancierbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling</span><span class="sxs-lookup"><span data-stu-id="3b846-107">To submit vendor payments electronically in SEPA ISO 20022 payment format</span></span>  
+## <a name="to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a><span data-ttu-id="08660-107">Leverancierbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling</span><span class="sxs-lookup"><span data-stu-id="08660-107">To submit vendor payments electronically in SEPA ISO 20022 payment format</span></span>  
 
-1.  <span data-ttu-id="3b846-108">Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="3b846-108">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank-Bank Overview**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="3b846-109">Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.</span><span class="sxs-lookup"><span data-stu-id="3b846-109">Select the relevant bank account, and then choose the **Proposal** action.</span></span>  
-3.  <span data-ttu-id="3b846-110">Selecteer de betreffende leveranciersbankrekening en kies vervolgens de actie **Posten ophalen**.</span><span class="sxs-lookup"><span data-stu-id="3b846-110">Select the relevant vendor bank account, and then choose the **Get Entries** action.</span></span>  
-4.  <span data-ttu-id="3b846-111">Vul op het sneltabblad **Opties** van de batchverwerking **Voorstelposten ophalen** de velden in, zoals wordt beschreven in de volgende tabel.</span><span class="sxs-lookup"><span data-stu-id="3b846-111">In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="08660-108">Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.</span><span class="sxs-lookup"><span data-stu-id="08660-108">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Telebank-Bank Overview**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="08660-109">Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.</span><span class="sxs-lookup"><span data-stu-id="08660-109">Select the relevant bank account, and then choose the **Proposal** action.</span></span>  
+3.  <span data-ttu-id="08660-110">Selecteer de betreffende leveranciersbankrekening en kies vervolgens de actie **Posten ophalen**.</span><span class="sxs-lookup"><span data-stu-id="08660-110">Select the relevant vendor bank account, and then choose the **Get Entries** action.</span></span>  
+4.  <span data-ttu-id="08660-111">Vul op het sneltabblad **Opties** van de batchverwerking **Voorstelposten ophalen** de velden in, zoals wordt beschreven in de volgende tabel.</span><span class="sxs-lookup"><span data-stu-id="08660-111">In the **Get Proposal Entries** batch job, on the **Options** FastTab, fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="3b846-112">Veld</span><span class="sxs-lookup"><span data-stu-id="3b846-112">Field</span></span>|<span data-ttu-id="3b846-113">Description</span><span class="sxs-lookup"><span data-stu-id="3b846-113">Description</span></span>|  
+    |<span data-ttu-id="08660-112">Veld</span><span class="sxs-lookup"><span data-stu-id="08660-112">Field</span></span>|<span data-ttu-id="08660-113">Description</span><span class="sxs-lookup"><span data-stu-id="08660-113">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="3b846-114">**Valutadatum**</span><span class="sxs-lookup"><span data-stu-id="3b846-114">**Currency Date**</span></span>|<span data-ttu-id="3b846-115">Hier geeft u de valutadatum op.</span><span class="sxs-lookup"><span data-stu-id="3b846-115">Specify the currency date.</span></span>|  
-    |<span data-ttu-id="3b846-116">**Vervaldatum contantkort.**</span><span class="sxs-lookup"><span data-stu-id="3b846-116">**Pmt. Discount Date**</span></span>|<span data-ttu-id="3b846-117">Hier geeft u de vervaldatum voor de contantkorting op.</span><span class="sxs-lookup"><span data-stu-id="3b846-117">Specify the payment discount date.</span></span>|  
+    |<span data-ttu-id="08660-114">**Valutadatum**</span><span class="sxs-lookup"><span data-stu-id="08660-114">**Currency Date**</span></span>|<span data-ttu-id="08660-115">Hier geeft u de valutadatum op.</span><span class="sxs-lookup"><span data-stu-id="08660-115">Specify the currency date.</span></span>|  
+    |<span data-ttu-id="08660-116">**Vervaldatum contantkort.**</span><span class="sxs-lookup"><span data-stu-id="08660-116">**Pmt. Discount Date**</span></span>|<span data-ttu-id="08660-117">Hier geeft u de vervaldatum voor de contantkorting op.</span><span class="sxs-lookup"><span data-stu-id="08660-117">Specify the payment discount date.</span></span>|  
 
-5.  <span data-ttu-id="3b846-118">Selecteer in het sneltabblad **Transactiemodus** de gewenste filters.</span><span class="sxs-lookup"><span data-stu-id="3b846-118">On the **Transaction Mode** FastTab, select the appropriate filters.</span></span>  
-6.  <span data-ttu-id="3b846-119">Selecteer in het sneltabblad **Klantenpost** de gewenste filters.</span><span class="sxs-lookup"><span data-stu-id="3b846-119">On the **Cust. Ledger Entry** FastTab, select the appropriate filters.</span></span>  
-7.  <span data-ttu-id="3b846-120">Selecteer op het sneltabblad **Leverancierspost** het filter **Leveranciersnr.** en selecteer een leveranciersnummer.</span><span class="sxs-lookup"><span data-stu-id="3b846-120">On the **Vendor Ledger Entry** FastTab, select the **Vendor No.** filter, and then select a vendor number.</span></span>  
+5.  <span data-ttu-id="08660-118">Selecteer in het sneltabblad **Transactiemodus** de gewenste filters.</span><span class="sxs-lookup"><span data-stu-id="08660-118">On the **Transaction Mode** FastTab, select the appropriate filters.</span></span>  
+6.  <span data-ttu-id="08660-119">Selecteer in het sneltabblad **Klantenpost** de gewenste filters.</span><span class="sxs-lookup"><span data-stu-id="08660-119">On the **Cust. Ledger Entry** FastTab, select the appropriate filters.</span></span>  
+7.  <span data-ttu-id="08660-120">Selecteer op het sneltabblad **Leverancierspost** het filter **Leveranciersnr.** en selecteer een leveranciersnummer.</span><span class="sxs-lookup"><span data-stu-id="08660-120">On the **Vendor Ledger Entry** FastTab, select the **Vendor No.** filter, and then select a vendor number.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="3b846-121">Selecteer eventuele overige vereiste filters.</span><span class="sxs-lookup"><span data-stu-id="3b846-121">Select other appropriate filters if required.</span></span>  
+    >  <span data-ttu-id="08660-121">Selecteer eventuele overige vereiste filters.</span><span class="sxs-lookup"><span data-stu-id="08660-121">Select other appropriate filters if required.</span></span>  
 
-8.  <span data-ttu-id="3b846-122">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="3b846-122">Choose the **OK** button.</span></span>  
+8.  <span data-ttu-id="08660-122">Kies de knop **OK**.</span><span class="sxs-lookup"><span data-stu-id="08660-122">Choose the **OK** button.</span></span>  
 
-<span data-ttu-id="3b846-123">De voorstelregels worden opgenomen op de pagina **Telebankierenvoorstel**.</span><span class="sxs-lookup"><span data-stu-id="3b846-123">The proposal lines populate on the **Telebank Proposal** page.</span></span>  
+<span data-ttu-id="08660-123">De voorstelregels worden opgenomen op de pagina **Telebankierenvoorstel**.</span><span class="sxs-lookup"><span data-stu-id="08660-123">The proposal lines populate on the **Telebank Proposal** page.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="3b846-124">Zie ook</span><span class="sxs-lookup"><span data-stu-id="3b846-124">See Also</span></span>  
- <span data-ttu-id="3b846-125">[SEPA-betalingen activeren](how-to-activate-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="3b846-125">[Activate SEPA Payments](how-to-activate-sepa-payments.md) </span></span>  
- [<span data-ttu-id="3b846-126">Single EURO Payments Area (SEPA)</span><span class="sxs-lookup"><span data-stu-id="3b846-126">Single EURO Payments Area (SEPA)</span></span>](single-euro-payments-area-sepa-.md)   
+## <a name="see-also"></a><span data-ttu-id="08660-124">Zie ook</span><span class="sxs-lookup"><span data-stu-id="08660-124">See Also</span></span>  
+ <span data-ttu-id="08660-125">[SEPA-betalingen activeren](how-to-activate-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="08660-125">[Activate SEPA Payments](how-to-activate-sepa-payments.md) </span></span>  
+ [<span data-ttu-id="08660-126">Single EURO Payments Area (SEPA)</span><span class="sxs-lookup"><span data-stu-id="08660-126">Single EURO Payments Area (SEPA)</span></span>](single-euro-payments-area-sepa-.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

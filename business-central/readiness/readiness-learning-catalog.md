@@ -2,49 +2,49 @@
 title: Trainingscatalogus voor Business Central
 description: Trainingscatalogus voor Business Central
 author: loreleishannonmsft
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: c6200a5bd26ffff4611e07aabd33ea305b8a9b99
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387646"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772451"
 ---
-# <a name="business-central-learning-catalog"></a><span data-ttu-id="f9ffa-103">Trainingscatalogus voor Business Central</span><span class="sxs-lookup"><span data-stu-id="f9ffa-103">Business Central Learning Catalog</span></span>
+# <a name="business-central-learning-catalog"></a><span data-ttu-id="cdea6-103">Trainingscatalogus voor Business Central</span><span class="sxs-lookup"><span data-stu-id="cdea6-103">Business Central Learning Catalog</span></span>
 
-<span data-ttu-id="f9ffa-104">Voor de juiste online training, persoonlijke workshops en evenementen voor uw rol als Business Central-gebruiker of -partner.</span><span class="sxs-lookup"><span data-stu-id="f9ffa-104">Find the right online training, in person workshops, and events for your role as a Business Central user or partner.</span></span>
+<span data-ttu-id="cdea6-104">Voor de juiste online training, persoonlijke workshops en evenementen voor uw rol als Business Central-gebruiker of -partner.</span><span class="sxs-lookup"><span data-stu-id="cdea6-104">Find the right online training, in person workshops, and events for your role as a Business Central user or partner.</span></span>
 
 :::row:::
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a><span data-ttu-id="f9ffa-105">Zakelijke besluitvormer</span><span class="sxs-lookup"><span data-stu-id="f9ffa-105">Business decision maker</span></span>
+    ### <a name="business-decision-maker"></a><span data-ttu-id="cdea6-105">Zakelijke besluitvormer</span><span class="sxs-lookup"><span data-stu-id="cdea6-105">Business decision maker</span></span>
 
-    <span data-ttu-id="f9ffa-106">Beslist u over investeringen in nieuwe technologieën?</span><span class="sxs-lookup"><span data-stu-id="f9ffa-106">Do you decide whether to invest in new technologies?</span></span> 
+    <span data-ttu-id="cdea6-106">Beslist u over investeringen in nieuwe technologieën?</span><span class="sxs-lookup"><span data-stu-id="cdea6-106">Do you decide whether to invest in new technologies?</span></span> 
 
-    [<span data-ttu-id="f9ffa-107">Ontdek de zakelijke waarde van Business Central (gratis online leertraject in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="f9ffa-107">Learn the business value of Business Central (Free, self-paced online learning path)</span></span>](/learn/modules/dynamics-365-business-central/)
+    [<span data-ttu-id="cdea6-107">Ontdek de zakelijke waarde van Business Central (gratis online leertraject in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="cdea6-107">Learn the business value of Business Central (Free, self-paced online learning path)</span></span>](/learn/modules/dynamics-365-business-central/)
 
-    [<span data-ttu-id="f9ffa-108">Aan de slag (gratis online leertraject in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="f9ffa-108">Get started (Free, self-paced online learning path)</span></span>](/learn/paths/get-started-dynamics-365-business-central/)
+    [<span data-ttu-id="cdea6-108">Aan de slag (gratis online leertraject in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="cdea6-108">Get started (Free, self-paced online learning path)</span></span>](/learn/paths/get-started-dynamics-365-business-central/)
 
-    [<span data-ttu-id="f9ffa-109">De mogelijkheden van Dynamics 365 Business Central verkennen</span><span class="sxs-lookup"><span data-stu-id="f9ffa-109">Explore Dynamics 365 Business Central Capabilities</span></span>](https://dynamics.microsoft.com/business-central/capabilities/)
+    [<span data-ttu-id="cdea6-109">De mogelijkheden van Dynamics 365 Business Central verkennen</span><span class="sxs-lookup"><span data-stu-id="cdea6-109">Explore Dynamics 365 Business Central Capabilities</span></span>](https://dynamics.microsoft.com/business-central/capabilities/)
 
-    [<span data-ttu-id="f9ffa-110">Business Central-video's op YouTube</span><span class="sxs-lookup"><span data-stu-id="f9ffa-110">Business Central videos on YouTube</span></span>](https://go.microsoft.com/fwlink/?linkid=851533)
+    [<span data-ttu-id="cdea6-110">Business Central-video's op YouTube</span><span class="sxs-lookup"><span data-stu-id="cdea6-110">Business Central videos on YouTube</span></span>](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
     :::column:::
 
-    ### <a name="business-user"></a><span data-ttu-id="f9ffa-111">Bedrijfsgebruiker</span><span class="sxs-lookup"><span data-stu-id="f9ffa-111">Business user</span></span>
+    ### <a name="business-user"></a><span data-ttu-id="cdea6-111">Bedrijfsgebruiker</span><span class="sxs-lookup"><span data-stu-id="cdea6-111">Business user</span></span>
 
-    <span data-ttu-id="f9ffa-112">Hebt u zojuist een nieuwe toepassing gekregen die u moet gaan gebruiken?</span><span class="sxs-lookup"><span data-stu-id="f9ffa-112">Did you just get a new application to use?</span></span> 
+    <span data-ttu-id="cdea6-112">Hebt u zojuist een nieuwe toepassing gekregen die u moet gaan gebruiken?</span><span class="sxs-lookup"><span data-stu-id="cdea6-112">Did you just get a new application to use?</span></span> 
 
-    [<span data-ttu-id="f9ffa-113">Aan de slag (gratis online leertraject in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="f9ffa-113">Get started (Free, self-paced online learning path)</span></span>](/learn/paths/get-started-dynamics-365-business-central/)
+    [<span data-ttu-id="cdea6-113">Aan de slag (gratis online leertraject in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="cdea6-113">Get started (Free, self-paced online learning path)</span></span>](/learn/paths/get-started-dynamics-365-business-central/)
 
-    [<span data-ttu-id="f9ffa-114">Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="f9ffa-114">Business Central learning paths (Free, self-paced online learning paths)</span></span>](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [<span data-ttu-id="cdea6-114">Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="cdea6-114">Business Central learning paths (Free, self-paced online learning paths)</span></span>](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
-    [<span data-ttu-id="f9ffa-115">Business Central-video's op YouTube</span><span class="sxs-lookup"><span data-stu-id="f9ffa-115">Business Central videos on YouTube</span></span>](https://go.microsoft.com/fwlink/?linkid=851533)
+    [<span data-ttu-id="cdea6-115">Business Central-video's op YouTube</span><span class="sxs-lookup"><span data-stu-id="cdea6-115">Business Central videos on YouTube</span></span>](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
@@ -54,25 +54,25 @@ ms.locfileid: "5387646"
 
     :::column:::
 
-    ### <a name="developer"></a><span data-ttu-id="f9ffa-116">Ontwikkelaar</span><span class="sxs-lookup"><span data-stu-id="f9ffa-116">Developer</span></span>
+    ### <a name="developer"></a><span data-ttu-id="cdea6-116">Ontwikkelaar</span><span class="sxs-lookup"><span data-stu-id="cdea6-116">Developer</span></span>
 
-    <span data-ttu-id="f9ffa-117">Moet u code schrijven voor integratie met andere gegevensbronnen, de kernfunctionaliteit uitbreiden of een complexe toepassing bouwen?</span><span class="sxs-lookup"><span data-stu-id="f9ffa-117">Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?</span></span>
+    <span data-ttu-id="cdea6-117">Moet u code schrijven voor integratie met andere gegevensbronnen, de kernfunctionaliteit uitbreiden of een complexe toepassing bouwen?</span><span class="sxs-lookup"><span data-stu-id="cdea6-117">Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application?</span></span>
 
-    [<span data-ttu-id="f9ffa-118">Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="f9ffa-118">Business Central learning paths (Free, self-paced online learning paths)</span></span>](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [<span data-ttu-id="cdea6-118">Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="cdea6-118">Business Central learning paths (Free, self-paced online learning paths)</span></span>](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
-    [<span data-ttu-id="f9ffa-119">Ontwikkelaarsdocumentatie</span><span class="sxs-lookup"><span data-stu-id="f9ffa-119">Developer documentation</span></span>](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
+    [<span data-ttu-id="cdea6-119">Ontwikkelaarsdocumentatie</span><span class="sxs-lookup"><span data-stu-id="cdea6-119">Developer documentation</span></span>](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
     :::column-end:::
 
     :::column:::
 
-    ### <a name="functional-consultant"></a><span data-ttu-id="f9ffa-120">Functioneel consultant</span><span class="sxs-lookup"><span data-stu-id="f9ffa-120">Functional Consultant</span></span>
+    ### <a name="functional-consultant"></a><span data-ttu-id="cdea6-120">Functioneel consultant</span><span class="sxs-lookup"><span data-stu-id="cdea6-120">Functional Consultant</span></span>
     
-    <span data-ttu-id="f9ffa-121">Bent u een implementatie-expert voor een zakelijk domein?</span><span class="sxs-lookup"><span data-stu-id="f9ffa-121">Are you an implementation expert for a business domain?</span></span> 
+    <span data-ttu-id="cdea6-121">Bent u een implementatie-expert voor een zakelijk domein?</span><span class="sxs-lookup"><span data-stu-id="cdea6-121">Are you an implementation expert for a business domain?</span></span> 
 
-    [<span data-ttu-id="f9ffa-122">Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="f9ffa-122">Business Central learning paths (Free, self-paced online learning paths)</span></span>](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [<span data-ttu-id="cdea6-122">Business Central-leertrajecten (gratis online leertrajecten in eigen tempo)</span><span class="sxs-lookup"><span data-stu-id="cdea6-122">Business Central learning paths (Free, self-paced online learning paths)</span></span>](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
-    [<span data-ttu-id="f9ffa-123">Business Central-video's op YouTube</span><span class="sxs-lookup"><span data-stu-id="f9ffa-123">Business Central videos on YouTube</span></span>](https://go.microsoft.com/fwlink/?linkid=851533)
+    [<span data-ttu-id="cdea6-123">Business Central-video's op YouTube</span><span class="sxs-lookup"><span data-stu-id="cdea6-123">Business Central videos on YouTube</span></span>](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
