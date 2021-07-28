@@ -1,6 +1,6 @@
 ---
-title: Betalingsscenario 2 - buitenlandse betaling (VV naar VV)
-description: U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
+title: Scenario 2 - buitenlandse betaling (VV naar VV) [NL]
+description: In dit onderwerp wordt een scenario 2 beschreven waarin u telebankieren kunt gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 52bf7ab604c002ed734f5821ce6fafe866da0900
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de4750a76f0926835879c2d93dc9510ba250cc49
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780116"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321984"
 ---
-# <a name="payment-scenario-2---foreign-payment-fcy-to-fcy"></a>Betalingsscenario 2 - buitenlandse betaling (VV naar VV)
+# <a name="payment-scenario-2---foreign-payment-fcy-to-fcy-in-the-dutch-version"></a>Betalingsscenario 2 - Buitenlandse betaling (VV naar VV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die dezelfde vreemde valuta gebruiken als waarvoor uw bankrekening is ingesteld.  
 
 De volgende lijst bevat de belangrijkste stappen:  

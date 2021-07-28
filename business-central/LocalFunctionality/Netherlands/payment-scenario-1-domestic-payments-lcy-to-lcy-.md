@@ -1,6 +1,6 @@
 ---
-title: Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).
-description: U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
+title: Scenario 1 - binnenlandse betalingen (LV naar LV) [NL]
+description: In dit onderwerp wordt een scenario 1 beschreven waarin u telebankieren kunt gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
 documentationcenter: ''
 author: SorenGP
 services: project-madeira
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 1c526a5c054a94a92b2469d4e6426d1440b2b9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f79fd0926f4f7e7902385f9a6faa1efd62260c0f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773492"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320694"
 ---
-# <a name="payment-scenario-1---domestic-payments-lcy-to-lcy"></a>Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).
+# <a name="payment-scenario-1---domestic-payments-lcy-to-lcy-in-the-dutch-version"></a>Betalingsscenario 1 - Buitenlandse betaling (LV naar LV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  
 
 De volgende lijst bevat de belangrijkste stappen:  

@@ -1,6 +1,6 @@
 ---
-title: Lokale functionaliteit voor Nederland
-description: In de volgende onderwerpen wordt de lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
+title: Lokale functionaliteit voor Nederland [NL]
+description: In de volgende onderwerpen wordt de verschillende lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 9ab25197a9aeebf01674354dc8f5a2ea51bb7cc6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7d64698fb867bae861b7ad32674b294a69e3c774
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780118"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320696"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
