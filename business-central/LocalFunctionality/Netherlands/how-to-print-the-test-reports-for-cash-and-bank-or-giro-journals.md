@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9eb1aa673c89d42204f85fc39fb2a68447bc90c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e23cfa715076153b59f497bb9304bd784b13b0b2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780122"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435850"
 ---
 # <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a>De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
 U kunt het rapport **KBG-boekingen - Test** gebruiken om de afschriftregels te bewerken en het effect ervan te bekijken voordat u kasboeken en bank- of giroboeken boekt.  
@@ -21,7 +21,7 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 
 ## <a name="to-print-the-test-report-for-cash-journal"></a>Het testrapport voor het kasboek afdrukken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kasboek** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kasboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies op de pagina **Kasboek** de actie **Testrapport**.  
 3.  Als u de informatie over vereffende posten voor de afschriftregels wilt opnemen, schakelt u op het sneltabblad het selectievakje **Vereffende posten tonen** in.  
 
@@ -34,7 +34,7 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 
 ## <a name="to-print-the-test-report-for-bank-or-giro-journal"></a>Het testrapport voor het bank- of giroboek afdrukken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/Giroboek** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/giroboek** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies de actie **Grootboek**.  
 3.  Kies op de pagina **Fin. dagboeksjablonenoverzicht** de knop **OK**.  
 4.  Kies op de pagina **Bank-/Giroboek** de actie **Testrapport**.  

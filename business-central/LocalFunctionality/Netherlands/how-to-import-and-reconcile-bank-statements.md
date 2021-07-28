@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41406e5dd5dca16ba43fcb01af649d3bb1746290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d9299c6f40c208708a6f2bde30e1b2c8c77aeedb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771388"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435856"
 ---
 # <a name="import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren
 Banken bieden elektronische bankafschriften voor al uw financiële interacties. U kunt deze afschriften in het bank- of giroboek importeren.  
@@ -29,7 +29,7 @@ Het importbankafschrift wordt ondersteund door de volgende protocollen:
 
 ## <a name="to-import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/Giroboek** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/giroboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bankafschrift importeren**, selecteer het vereiste importprotocol en kies vervolgens de knop **OK**.  
 3.  Als u bankafschriften automatisch wilt laten reconciliëren tijdens het importeren, schakelt u op het sneltabblad **Opties** het selectievakje **Automatisch reconciliëren** in.  
 

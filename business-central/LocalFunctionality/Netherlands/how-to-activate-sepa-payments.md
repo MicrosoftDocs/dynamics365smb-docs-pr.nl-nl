@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aea4e5c0d8c84b4e0a8c5b50215568ff40f58db9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 18c0772947edd2bf37d819da1e543e64f0b94df7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771396"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435864"
 ---
 # <a name="activate-sepa-payments-in-the-dutch-version"></a>SEPA-betalingen activeren in de Nederlandse versie
 
@@ -23,14 +23,14 @@ ms.locfileid: "5771396"
 
 ## <a name="to-enable-transaction-modes-for-sepa"></a>Transactiewijzen activeren voor SEPA  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transactiewijzen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transactiewijzen** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de transactiewijze die u wilt activeren voor SEPA en kies vervolgens de actie **Bewerken**.  
 3. Selecteer in het veld **Exportprotocol** op het sneltabblad **Betalingsvoorstel** van de pagina **Transactiewijzekaart** het SEPA-exportprotocol dat u hebt gemaakt, bijvoorbeeld **SEPA ISO20022**.  
 4. Kies de knop **OK**.  
 
 ## <a name="to-verify-vendor-payment-transaction-modes-for-sepa"></a>Transactiewijzen voor leveranciersbetalingen voor SEPA verifiëren  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de leverancier waarvoor u de transactiewijze wilt verifiëren en kies de actie **Weergave**.  
 3. Controleer of de transactiewijze voor de leveranciersbetalingen in het veld **Code transactiewijze** van het sneltabblad **Betalingen** een transactiewijze is die is geactiveerd voor SEPA.  
 4. Kies de knop **Ok**.  

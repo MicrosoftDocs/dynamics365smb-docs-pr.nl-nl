@@ -1,6 +1,6 @@
 ---
-title: Een auditfile voor de belastingdienst maken
-description: Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur om gegevens over de basistransacties vanuit het grootboek voor dat boekjaar vragen. Basistransacties worden gewoonlijk via dagboekposten verwerkt.
+title: Een auditfile voor de belastingdienst maken [NL]
+description: In het volgende artikel wordt uitgelegd hoe u een auditfile voor de Belastingdienst maakt met de Nederlandse versie van Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 78995c28b4c2a3e99dcc7382ed55ff02e0e4d8e7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f94bd7dafc4bb2eacddb4aa048684ae6f026b82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771390"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435872"
 ---
-# <a name="create-an-audit-file-for-the-tax-authority"></a>Een auditfile voor de belastingdienst maken
+# <a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a>Een auditfile voor de Belastingdienst maken in de Nederlandse versie
 Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur om gegevens over de basistransacties vanuit het grootboek voor dat boekjaar vragen. Basistransacties worden gewoonlijk via dagboekposten verwerkt. Daarom vormen de dagboekposten de basis voor het auditbestand.  
 
  De belastingdienst stimuleert bedrijven om het auditfile te gebruiken, maar dat is niet verplicht.  
@@ -26,7 +26,7 @@ Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur
 
 ## <a name="to-make-an-audit-file"></a>Een auditfile maken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Belastingdienst - Auditfile** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Belastingdienst - Auditfile** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Description|  

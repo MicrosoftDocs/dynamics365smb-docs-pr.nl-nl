@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b1b6ffad7cbd7525491a8b433409300b610f56b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01ea9e1cb0ece74b6d320b19066ea63644728224
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771384"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435844"
 ---
 # <a name="set-up-vat-categories"></a>VAT-categorieën instellen
 Als u de elektronische btw-aangifte wilt gebruiken, moet u een btw-categoriecode voor alle XML-elementen in de elektronische btw-aangifte instellen.  
@@ -24,7 +24,7 @@ U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XM
 
 ## <a name="to-set-up-a-vat-category"></a>Een btw-categorie instellen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangifte btw-categorieën** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangifte btw-categorieën** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies op de pagina **Elektronische aangifte btw-categorieën** de actie **Nieuw**.  
 3.  Vul de velden in zoals beschreven in de volgende tabel.  
 

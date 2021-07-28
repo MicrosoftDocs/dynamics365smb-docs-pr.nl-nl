@@ -1,6 +1,6 @@
 ---
-title: Betalingsrun maken en exporteren
-description: Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost.
+title: Betalingsrun maken en exporteren [NL]
+description: Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: a5b430a8e197a0f936ce45fb63676917d7edad18
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29eae65238502e91fc7cc41137c59987eba93496
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780128"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435874"
 ---
-# <a name="create-and-export-payment-history"></a>Betalingsrun maken en exporteren
+# <a name="create-and-export-payment-history-in-the-dutch-version"></a>Maak en exporteer betalingsgeschiedenis in de Nederlandse versie
 Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost. Zie [Voorstellen maken](how-to-create-proposals.md) voor meer informatie.  
 
  Voor het exporteren van betaalruns worden de volgende protocollen ondersteund:  
@@ -28,7 +28,7 @@ Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kun
 
 ## <a name="to-create-a-payment-history-for-a-proposal"></a>Een betaalrun voor een voorstel maken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
 
     Als u het voorstel wilt afdrukken voordat u het verwerkt, kiest u de knop **Afdrukken**.  
 
