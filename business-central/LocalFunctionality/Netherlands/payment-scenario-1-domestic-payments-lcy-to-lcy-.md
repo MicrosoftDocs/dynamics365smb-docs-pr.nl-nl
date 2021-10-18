@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f79fd0926f4f7e7902385f9a6faa1efd62260c0f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: cfd057e8ece77889874d2bd227777fa71233faf3
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320694"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589329"
 ---
 # <a name="payment-scenario-1---domestic-payments-lcy-to-lcy-in-the-dutch-version"></a>Betalingsscenario 1 - Buitenlandse betaling (LV naar LV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  
@@ -70,7 +70,7 @@ Standaard zijn in deze drie velden waarden ingevuld die zijn overgenomen uit de 
 Als de factuur is voltooid, kan deze worden geboekt.  
 
 ### <a name="example"></a>Voorbeeld  
-Als we een inkoopfactuur voor Olek Johansson maken, vullen we **OLEK** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden ingevuld die zijn overgenomen uit de leverancierskaart van Olek Johansson. Daarom zijn de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **<empty>**, **ABN** en **OJBA**. Deze waarden kunnen echter worden gewijzigd.  
+Als we een inkoopfactuur voor Olek Johansson maken, vullen we **OLEK** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden ingevuld die zijn overgenomen uit de leverancierskaart van Olek Johansson. Daarom zijn de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **\<empty\>**, **ABN** en **OJBA**. Deze waarden kunnen echter worden gewijzigd.  
 
 ## <a name="create-proposal"></a>Voorstel maken  
 Open de pagina **Telebank - bankoverzicht** en blader naar de bank die we voor onze betaling willen gebruiken. Open de pagina **Voorstel** en genereer betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen**.  
