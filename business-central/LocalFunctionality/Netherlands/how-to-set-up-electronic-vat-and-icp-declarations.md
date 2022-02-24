@@ -1,32 +1,30 @@
 ---
-title: Elektronische btw- en ICP-aangiften [NL]
-description: In het volgende onderwerp wordt beschreven hoe u elektronische btw- en ICP-aangiften instelt in de Nederlandse versie.
+title: Elektronische btw- en ICP-aangiften instellen
+description: Als u uw Digipoort-communicatie wilt laten werken, moet u mogelijk uw netwerkinstellingen aanpassen. Digipoort gebruikt een veilig communicatieprotocol en vereist gebruik van TCP-poort 443.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/30/2021
-ms.author: edupont
-ms.openlocfilehash: b3da73f698cb8f4d5f6efdd2a9bad8c0a397de0e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bfbf27a2ff896126a30fa6eaadcb62e3ce435b9d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435848"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181081"
 ---
-# <a name="setting-up-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie
-Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden. 
+# <a name="setting-up-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften instellen
+Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden.
 
 Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar de belastingdienst te verzenden. Zie voor meer informatie [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md).  
 
 ## <a name="to-set-up-electronic-declarations"></a>Elektronische aangiften instellen  
 
-Zorg er eerst voor dat u de certificaten heeft geüpload die u nodig heeft om met Digipoort te communiceren. Dit wordt gedaan op de pagina **Certificaten**. U heeft een client- en een servicecertificaat nodig. Als ze zijn toegevoegd aan de lijst met certificaten kunt u doorgaan met het opzetten van elektronische aangiften.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elek. aangifte-instellingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Elek. aangifte-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul op de pagina **Elek. aangifte-instellingen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
 3. Als u het btw-nummer van het bedrijf wilt laten invullen bij de contact-id in de elektronische aangifte, selecteert u **Belastingplichtige** in het veld **BTW-contactpersoonsoort**.
 4. Als u elektronische ICP-aangiften voor een dochteronderneming van een fiscale eenheid wilt verzenden, schakelt u het selectievakje **Deel van Fiscale eenheid** in.  
@@ -39,12 +37,7 @@ Zorg er eerst voor dat u de certificaten heeft geüpload die u nodig heeft om me
 
 5. Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
 6. Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service. Zie voor meer informatie [Elektronische btw- en ICP-aangiftes](electronic-vat-and-icp-declarations.md).
-7. Geef in het veld **Clientcertificaatcode** het clientcertificaat uit de lijst met certificaten op.
-8. Geef in het veld **Servicecertificaatcode** het servicecertificaat uit de lijst met certificaten op.
 
 ## <a name="see-also"></a>Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

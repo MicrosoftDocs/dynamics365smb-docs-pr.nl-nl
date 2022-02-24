@@ -3,26 +3,26 @@ title: Kasboeken, bankboeken of giroboeken invoeren en boeken
 description: In Business Central kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door Kasboek en Bankboek te gebruiken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ba86d16deeb8ab186be759148aceba1b8820576d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7e81bdf632542a037b76131b7388ff16591201c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435858"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181086"
 ---
 # <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
 
 Daarnaast kunt u in combinatie met telebankieren elektronische bankafschriften op de pagina **Bank-/Giroboek** importeren. Desgewenst kunnen deze afschriften tijdens het importproces automatisch worden gereconcilieerd en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.
 
-In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door de typen **Kasboek** en **Bankboek** te gebruiken.  
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door de typen **Kasboek** en **Bankboek** te gebruiken.  
 
 U kunt een toenames of afnames op de kasrekening invoeren op de pagina **Kasboeken**. U kunt dit dagboek bijvoorbeeld gebruiken voor het betalen van kleine kas of het ontvangen van transfers van een andere bankrekening.  
 
@@ -32,7 +32,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
 ## <a name="to-post-cash-journals"></a>Kasjournalen boeken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kasboek** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Kasboek** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Vul op de pagina **Kasboek** op het sneltabblad **Regel** de vereiste velden in zoals beschreven in de volgende tabel.  
 
@@ -55,7 +55,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
 ## <a name="to-post-bank-or-giro-journals"></a>Bank- of giroboeken boeken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/giroboek** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Bank-/giroboek** in en kies de desbetreffende koppeling.  
 2.  Kies de actie **Nieuw**.  
 3.  Selecteer de relevante dagboeksjabloon en kies vervolgens de knop **OK**.  
 4.  Vul op de pagina **Bank-/girodagboek** de velden in, zoals is beschreven in de volgende tabel.  
@@ -89,6 +89,3 @@ De posten worden naar het grootboek geboekt. Zie Gootboekposten voor meer inform
  [Telebankieren](telebanking.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
  [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

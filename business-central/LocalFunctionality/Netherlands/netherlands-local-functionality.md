@@ -1,25 +1,25 @@
 ---
-title: Lokale functionaliteit voor Nederland [NL]
-description: In de volgende onderwerpen wordt de verschillende lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
+title: Lokale functionaliteit voor Nederland
+description: In de volgende onderwerpen wordt de lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 7d64698fb867bae861b7ad32674b294a69e3c774
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 06/09/2020
+ms.author: sgroespe
+ms.openlocfilehash: e6bd0c42aeaac84d05414b7b23513826b97a9721
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320696"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454348"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
-In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Functiebeschikbaarheid  
 
@@ -48,6 +48,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) **Nu beschikbaar**
 
 * Hoofdfinanciën
+    * [Grootboek](general-ledger.md) **Nu beschikbaar**
     * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
     * [Vereiste beschrijvingen in grootboekposten](required-descriptions-in-g-l-entry.md) **Nu beschikbaar**
 
@@ -64,10 +65,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 
 ## <a name="see-also"></a>Zie ook
 
-[Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

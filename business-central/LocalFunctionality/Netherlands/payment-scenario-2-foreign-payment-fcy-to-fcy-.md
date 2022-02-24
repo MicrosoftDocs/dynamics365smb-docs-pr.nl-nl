@@ -1,23 +1,23 @@
 ---
-title: Scenario 2 - buitenlandse betaling (VV naar VV) [NL]
-description: In dit onderwerp wordt een scenario 2 beschreven waarin u telebankieren kunt gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
+title: Betalingsscenario 2 - buitenlandse betaling (VV naar VV)
+description: U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
-ms.author: edupont
-ms.openlocfilehash: de4750a76f0926835879c2d93dc9510ba250cc49
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 40231cd6ee235cc1f250231125a8b561c480a929
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321984"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181075"
 ---
-# <a name="payment-scenario-2---foreign-payment-fcy-to-fcy-in-the-dutch-version"></a>Betalingsscenario 2 - Buitenlandse betaling (VV naar VV) in de Nederlandse versie
+# <a name="payment-scenario-2---foreign-payment-fcy-to-fcy"></a>Betalingsscenario 2 - buitenlandse betaling (VV naar VV)
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die dezelfde vreemde valuta gebruiken als waarvoor uw bankrekening is ingesteld.  
 
 De volgende lijst bevat de belangrijkste stappen:  
@@ -97,6 +97,3 @@ Het bankafschrift met onze betaling aan Jannet Carter wordt door onze bank, ABN-
 ## <a name="see-also"></a>Zie ook  
  [Voorstellen maken.](how-to-create-proposals.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

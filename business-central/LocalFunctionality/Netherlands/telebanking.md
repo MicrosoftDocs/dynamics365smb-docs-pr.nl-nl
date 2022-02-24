@@ -3,19 +3,19 @@ title: Telebankieren
 description: Op basis van zowel verkoop- als inkooptransacties kunt u met telebankieren betalingen en incasso's genereren die u elektronisch met uw bank kunt uitwisselen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 7b6adaeb184b7dee4cfe2c698011e91facac4783
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a416bb9d4bbf937f37b3e49df620f23b0ec6f407
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780110"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181071"
 ---
 # <a name="telebanking"></a>Telebankieren
 Op basis van zowel verkoop- als inkooptransacties kunt u met telebankieren betalingen en incasso's genereren die u elektronisch met uw bank kunt uitwisselen. Hieronder vallen ook de export van betalings- en incassogegevens die naar de bank moeten worden doorgestuurd en de import van bankafschriften die door de bank naar u worden verzonden.  
@@ -26,7 +26,7 @@ Over het algemeen worden alle financiële interacties met leveranciers en klante
 ## <a name="proposals"></a>Voorstellen  
 Op basis van leveranciers- en klantenposten kunt u met telebankieren betalings- en incassovoorstellen genereren. Dit kan voor elke bank worden gedaan die voor uw bedrijf is ingesteld. Zowel binnen- als buitenlandse betalingen en incasso's zijn mogelijk.  
 
-U kunt [!INCLUDE[prod_short](../../includes/prod_short.md)] zodanig instellen dat betalingen aan of incasso's van dezelfde bankrekening automatisch worden gecombineerd.  
+U kunt [!INCLUDE[d365fin](../../includes/d365fin_md.md)] zodanig instellen dat betalingen aan of incasso's van dezelfde bankrekening automatisch worden gecombineerd.  
 
 Als u akkoord gaat met het voorstel, moet het in een betaalrun worden verwerkt.  
 
@@ -39,15 +39,12 @@ Een betaalrun is eigenlijk precies hetzelfde als een voorstel, het enige verschi
  Zie voor meer informatie [Betaalrun maken en exporteren](how-to-create-and-export-payment-history.md).  
 
 ## <a name="bank-statements"></a>Bankafschriften  
- Voor alle financiële interacties die via uw bank plaatsvinden, kan de bank u elektronische bankafschriften toesturen. Deze afschriften kunnen in de Bank-/Giroboeken worden geïmporteerd. Als u wilt kunt u [!INCLUDE[prod_short](../../includes/prod_short.md)] deze afschriften tijdens het importproces automatisch laten reconciliëren en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.  
+ Voor alle financiële interacties die via uw bank plaatsvinden, kan de bank u elektronische bankafschriften toesturen. Deze afschriften kunnen in de Bank-/Giroboeken worden geïmporteerd. Als u wilt kunt u [!INCLUDE[d365fin](../../includes/d365fin_md.md)] deze afschriften tijdens het importproces automatisch laten reconciliëren en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.  
 
  Zie [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) voor meer informatie.  
- 
- > [!NOTE]  
->  De valuta van de geïmporteerde transacties moet overeenkomen met de valuta die is opgegeven op de bankrekening in [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="exchange-protocols"></a>Uitwisselingsprotocollen  
- Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd. [!INCLUDE[prod_short](../../includes/prod_short.md)] ondersteunt de volgende protocollen:  
+ Voor zowel het exporteren als importeren is een aantal protocollen gedefinieerd. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ondersteunt de volgende protocollen:  
 
 - BTL91 (export). Dit grensoverschrijdende protocol wordt niet langer geaccepteerd in Nederland vanaf 1 mei 2019. Dit protocol wordt vervangen door het Algemeen betalingsbestand-protocol.
 - BBV (exporteren)  
@@ -63,6 +60,3 @@ Een betaalrun is eigenlijk precies hetzelfde als een voorstel, het enige verschi
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)   
  [Voorstellen maken.](how-to-create-proposals.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

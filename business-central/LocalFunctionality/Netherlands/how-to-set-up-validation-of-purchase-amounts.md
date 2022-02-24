@@ -1,21 +1,21 @@
 ---
-title: Validatie van inkoopbedragen instellen [NL]
-description: Activeer de functie Totaalbedragen documenten controleren om het totaalbedrag van inkoopdocumenten te valideren voordat een inkoopfactuur en inkoopcreditnota worden geboekt.
+title: Validatie van inkoopbedragen instellen
+description: In Business Central kunt u de functie Totaalbedragen documenten controleren activeren om het totaalbedrag van inkoopdocumenten te valideren voordat een inkoopfactuur en inkoopcreditnota worden geboekt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 0e5dface646b200b0ed81dc2b0049292a79fd3c4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a594e5b21ce88092c91053ee5d695faa3b459910
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435846"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181080"
 ---
-# <a name="set-up-validation-of-purchase-amounts-in-the-dutch-version"></a>Validatie van inkoopbedragen instellen in de Nederlandse versie
-In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u de functie **Totaalbedragen documenten controleren** activeren om het totaalbedrag van inkoopdocumenten te valideren voordat een inkoopfactuur en inkoopcreditnota worden geboekt. Standaard wordt het totale inkoopdocumentbedrag gevalideerd wanneer u boekt. Het totale bedrag van de ingevoegde inkoopregels moet gelijk zijn aan het bedrag inclusief btw en het btw-bedrag. Als u het inkoopdocumentbedrag automatisch wilt valideren, moet u het documentbedrag inclusief btw en de btw van het documentbedrag op de pagina **Inkoopfactuur** of **Inkoopcreditnota** invoeren.  
+# <a name="set-up-validation-of-purchase-amounts"></a>Validatie van inkoopbedragen instellen
+In [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kunt u de functie **Totaalbedragen documenten controleren** activeren om het totaalbedrag van inkoopdocumenten te valideren voordat een inkoopfactuur en inkoopcreditnota worden geboekt. Standaard wordt het totale inkoopdocumentbedrag gevalideerd wanneer u boekt. Het totale bedrag van de ingevoegde inkoopregels moet gelijk zijn aan het bedrag inclusief btw en het btw-bedrag. Als u het inkoopdocumentbedrag automatisch wilt valideren, moet u het documentbedrag inclusief btw en de btw van het documentbedrag op de pagina **Inkoopfactuur** of **Inkoopcreditnota** invoeren.  
 
 Als u slechts één inkoopregel of meer verkoopregels met hetzelfde btw-percentage hebt, wordt de juiste documentbedrag-btw automatisch berekend wanneer u de inkoopregels en het documentbedrag inclusief btw invoegt. Als u verschillende inkoopregels met verschillende btw-percentages hebt, moet de waarde van de documentbedrag-btw handmatig worden gewijzigd.  
 
@@ -35,7 +35,7 @@ U kunt deze optie alleen inschakelen als de inkoopfactuur of de inkoopcreditnota
 
 ## <a name="to-set-up-validation-of-total-amounts-for-purchase-documents"></a>Validatie van totaalbedragen voor inkoopdocumenten instellen  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Pagina of rapport zoeken](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Inkoopinstellingen** in en kies de desbetreffende koppeling.  
 2.  Vul in het sneltabblad **Algemeen** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Description|  
@@ -48,6 +48,3 @@ U kunt deze optie alleen inschakelen als de inkoopfactuur of de inkoopcreditnota
 ## <a name="see-also"></a>Zie ook  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)  
 [Inkopen instellen](../../sales-how-work-standard-lines.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

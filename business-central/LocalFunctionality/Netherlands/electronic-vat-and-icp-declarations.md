@@ -1,31 +1,31 @@
 ---
-title: Elektronische btw- en ICP-aangiften verzenden [NL]
-description: Met de eXtensible Business Reporting Language (XBRL) Reporter kunt u de aangifte van Intracommunautaire Leveringen (ICP) of de btw-aangifte in de vereiste XML-indeling verzenden.
+title: Elektronische btw- en ICP-aangiften verzenden
+description: Met de eXtensible Business Reporting Language (XBRL) Reporter kunt u de aangifte van Intracommunautaire Leveringen (ICP) of de btw-aangifte in de vereiste XML-indeling verzenden. Wanneer dit wordt verzonden, wordt het bestand verstuurd naar de belastingdienst zoals is gedefinieerd op de pagina Elek. aangifte-instellingen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 38da1d22e75d3439b3fb303c4e9a7d59fdad5394
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3b38211aa3e937e04c99ac7fffd516d3d948b464
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435866"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181094"
 ---
-# <a name="submitting-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften verzenden in de Nederlandse versie
+# <a name="submitting-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften verzenden
 Bedrijven moeten maandelijks periodieke btw-aangiften en ICP-aangiften (intracommunautaire leveringen) naar de belastingdienst versturen.  
 
 Btw aangiften moeten op een maandelijkse of driemaandelijkse basis worden verzonden.
 ICP-aangiften moeten op een driemaandelijkse basis worden verzonden.
 
 > [!NOTE]  
-> ICP-aangiften moeten worden verzonden door bedrijven die goederen of diensten verkopen aan landen/regio's binnen de Europese Unie. Inkopen zijn niet opgenomen in deze aangifte. <br /><br />
-Een transactie komt alleen in aanmerking voor ICP-aangifte als de handelswaar de grens fysiek heeft overschreden. Het is niet voldoende dat de locatie van een factuuradres of het kantoor van de leverancier of klant in een ander land of een andere regio in een EU-land/regio ligt.  
+> ICP-aangiften moeten worden verzonden door bedrijven die goederen of diensten verkopen aan landen binnen de Europese Unie. Inkopen zijn niet opgenomen in deze aangifte. <br /><br />
+Een transactie komt alleen in aanmerking voor ICP-aangifte als de handelswaar de grens fysiek heeft overschreden. Het is niet voldoende dat de locatie van een factuuradres of het kantoor van de leverancier of klant in een ander land of een andere regio in een EU-land ligt.  
 
 U kunt de btw-aangiften en ICP-aangiften als volgt verzenden:  
 
@@ -49,7 +49,7 @@ Voordat je elektronische aangiften kan versturen naar de belastingdienst moeten 
 3. Stel een btw-categoriecode in voor alle XML-elementen in de elektronische btw-aangifte. Zie [Btw-categorieën instellen](how-to-set-up-vat-categories.md) voor meer informatie.
 
 ## <a name="to-create-an-electronic-declaration"></a>Een elektronische aangifte aanmaken
-1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Overzicht elektronische aangiften** de actie **Nieuw**.  
 3. Vul op de pagina **Elektronische aangifte** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4. Kies de knop **OK**.
@@ -78,9 +78,9 @@ De elektronische aangifte wordt verstuurd naar de belastingdienst.
 > Als er geen intracommunautaire leveringen zijn geweest in de aangifteperiode, dan wordt er een elektronische ICP-aangifte aangemaakt zonder XML-elementen voor de leveringen. Als u een dergelijke aangifte verzendt, wordt een foutbericht weergegeven.
 
 ## <a name="to-import-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst importeren
-De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[prod_short](../../includes/prod_short.md)].
+De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Responsberichten ontvangen**.  
 3. Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
@@ -95,7 +95,7 @@ De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. D
 ## <a name="to-process-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst verwerken
 Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de inhoud te valideren aan de hand van de gerelateerde elektronische aangifte. Als er geen fouten worden gevonden in de elektronische aangifte en de gegevens zijn verwerkt door de belastingdienst, wordt het veld **Status** op de pagina **Elektronische aangiftekaart** gewijzigd in **Geaccepteerd**.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Responsberichten verwerken**.  
 3. Selecteer de juiste filters op de pagina **Batchverwerking Responsberichten verwerken** en klik vervolgens op de knop **OK**.  
 
@@ -108,6 +108,3 @@ Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de in
 [Btw-categorieën instellen](how-to-set-up-vat-categories.md)  
 [Lijsten met XBRL maken](../../bi-create-reports-with-xbrl.md)  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
