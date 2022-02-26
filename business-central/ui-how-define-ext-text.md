@@ -1,20 +1,21 @@
 ---
-title: Extra regels toevoegen om uitgebreide beschrijvingen te definiëren
+title: Tekstuitbreiding toevoegen
 description: U kunt extra regels toevoegen om de standaardtekst uit te breiden die een artikel, grootboekrekening en andere gegevens beschrijft.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b611a4f2bcabec7cda408790ab659c6cf3f8e97
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.search.form: 391, 30
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542564"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101188"
 ---
 # <a name="add-extended-text"></a>Tekstuitbreiding toevoegen
 
@@ -43,4 +44,7 @@ U kunt deze uitgebreide tekst nu aan documenten toevoegen. De volgende procedure
 ## <a name="see-also"></a>Zie ook
 
 [Voorraad instellen](inventory-setup-inventory.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

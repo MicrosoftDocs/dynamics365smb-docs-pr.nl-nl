@@ -1,23 +1,23 @@
 ---
-title: CMR-verzendbonnen
-description: Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.
+title: CMR-notities [NL]
+description: Claims die zijn voorzien van volledige informatie over de CMR-verzendbon, zijn gemakkelijker te verwerken. Gebruik de Nederlandse functie om de CRM-conventie te volgen met standaard CRM-notities.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6508ee54a1d7e2c833ea9db3c5e05db346b4dabf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: 61396f483327395d5f69ccbc32a78984955e75f2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181098"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323496"
 ---
-# <a name="cmr-notes"></a>CMR-verzendbonnen
+# <a name="cmr-notes-in-the-dutch-version"></a>CMR-notities in de Nederlandse versie
 Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.  
 
  Claims die zijn voorzien van volledige informatie over de CMR-verzendbon, zijn gemakkelijker te verwerken.  
@@ -45,3 +45,6 @@ De standaard levenscyclus van een CMR-verzendbon ziet er als volgt uit:
 
 ## <a name="see-also"></a>Zie ook  
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

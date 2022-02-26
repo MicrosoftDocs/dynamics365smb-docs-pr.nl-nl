@@ -1,51 +1,55 @@
 ---
 title: Elektronisch bankieren voor Nederland
-description: Met de functionaliteit voor elektronisch bankieren kunt u bestanden voor elektronische betaling en bestanden voor automatische incasso maken, en elektronische bankafschriften importeren vanuit ondersteunde banksoftware.
+description: Dit onderwerp bespreekt hoe u elektronisch betalingsbestanden en bestanden voor automatische incasso maakt, en elektronische bankafschriften importeert vanuit ondersteunde banksoftware.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab2b978efb63050f6faa1b5f8e249440ff03d8b9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: 80554e6e5fdde2e9e936ca4282f211f1ac717fdd
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181096"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323492"
 ---
 # <a name="dutch-electronic-banking"></a>Elektronisch bankieren voor Nederland
+
 Met de functionaliteit voor elektronisch bankieren kunt u bestanden voor elektronische betaling en bestanden voor automatische incasso maken, en elektronische bankafschriften importeren vanuit ondersteunde banksoftware.  
 
-## <a name="telebanking"></a>Telebankieren  
+## <a name="telebanking"></a>Telebankieren
+
 Met Telebankieren kunt u betalingen exporteren, bankafschriften importeren en gegevens verzamelen om naar de bank te sturen. Zie [Telebankieren](telebanking.md) voor meer informatie.  
 
 U kunt betalingsvoorstellen maken en bankrekeningen reconciliëren in de kas-, bank- en giroboeken.  
 
-### <a name="payment-files"></a>Betalingsbestanden  
+### <a name="payment-files"></a>Betalingsbestanden
+
 U kunt betalingsvoorstellen maken voor het betalen van openstaande facturen aan leveranciers. Betalingsvoorstellen kunnen handmatig worden bewerkt voordat ze worden verwerkt, om betalingsfacturen toe te voegen of te verwijderen of om betalingsbedragen te wijzigen. Nadat een voorgestelde betalingsbatch is verwerkt, kunt u bestanden voor elektronische betaling naar de bank verzenden. Als er een fout wordt aangetroffen in het betalingsbestand tijdens het importeren in de banksoftware, kunt u een kopie maken van het betalingsbestand die u later opnieuw naar de bank kunt verzenden.  
 
 U kunt binnenlandse betalingen en international betalingen verrichten in de aangewezen indelingen. Zie [Telebankieren](telebanking.md) voor meer informatie.  
 
-### <a name="direct-debit-files"></a>Bestanden voor automatische incasso  
+### <a name="direct-debit-files"></a>Bestanden voor automatische incasso
+
 U kunt een betalingsvoorstel maken om betalingen te innen van bankrekeningen van klanten. Betalingsvoorstellen kunnen handmatig worden bewerkt om betalingsfacturen toe te voegen of te verwijderen of om inningsbedragen te wijzigen. Nadat een voorgestelde betalingsbatch is verwerkt, kunt u bestanden voor elektronische automatische incasso naar de bank verzenden. Als er een fout wordt aangetroffen in het bestand voor automatische incasso tijdens het importeren in de banksoftware, kunt u een kopie maken van het bestand voor automatische incasso die u later opnieuw naar de bank kunt verzenden.  
 
 Momenteel kunt u alleen binnenlandse betalingen innen. Zie [Voorstellen maken](how-to-create-proposals.md) voor meer informatie.  
 
-### <a name="bank-statement-import"></a>Importeren van bankafschriften  
+### <a name="bank-statement-import"></a>Importeren van bankafschriften
+
 U kunt bankafschriften importeren vanuit ondersteunde banksoftware en deze reconciliëren met binnenkomende en uitgaande betalingen. Ook kunt u bankkosten en ontvangen rente reconciliëren.  
 
-Bestanden van elektronische bankafschriften worden voor de volgende banken ondersteund:  
+Zie [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) voor meer informatie.  
 
-- ABN AMRO Bank \(SWIFT MT940\)  
-- ING Bank \(SWIFT MT940, PAYMUL\)  
-- Rabobank \(MUT.ASC, VVMUT.ASC, BBV en ASCII\)  
-- Postbank \(SWIFT MT940\)  
+## <a name="see-also"></a>Zie ook
 
-## <a name="see-also"></a>Zie ook  
-[Telebankieren](telebanking.md)   
-[Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)     
-[Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md)
+[Telebankieren](telebanking.md)  
+[Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
+[Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
