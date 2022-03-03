@@ -2,7 +2,6 @@
 title: Verplichte beschrijvingen in grootboekpost
 description: Bij het invoeren van memoriaalregels in een formulier wordt het omschrijvingsveld automatisch ingevuld.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5128911f513db55a5e79dee38d19d7a2f6827de7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a3038f7cc4eefcb75d982dc9118841c0a0e92feb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773486"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148915"
 ---
 # <a name="required-descriptions-in-g-l-entry"></a>Verplichte beschrijvingen in grootboekpost
 

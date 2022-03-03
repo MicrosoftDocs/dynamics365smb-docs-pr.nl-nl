@@ -2,7 +2,6 @@
 title: SEPA-betalingen activeren in de Nederlandse versie
 description: Als u leveranciersbetalingen elektronisch wilt verzenden in de betalingsindeling SEPA (Single Euro Payments Area) ISO 20022, moet u eerst de vereiste instellingen aanbrengen voor het activeren van SEPA-betalingen.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 18c0772947edd2bf37d819da1e543e64f0b94df7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fd63e528722d30d62bf4cfdd528a0feb99e97f14
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435864"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132224"
 ---
 # <a name="activate-sepa-payments-in-the-dutch-version"></a>SEPA-betalingen activeren in de Nederlandse versie
 

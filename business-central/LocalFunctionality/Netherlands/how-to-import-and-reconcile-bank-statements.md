@@ -2,7 +2,6 @@
 title: Bankafschriften importeren en reconciliëren
 description: Banken bieden elektronische bankafschriften voor al uw financiële interacties. U kunt deze afschriften in het bank- of giroboek importeren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d9299c6f40c208708a6f2bde30e1b2c8c77aeedb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9396fb03b3f300c8c81c573c4920cfff88ebbdb0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435856"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148921"
 ---
 # <a name="import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren
 Banken bieden elektronische bankafschriften voor al uw financiële interacties. U kunt deze afschriften in het bank- of giroboek importeren.  
