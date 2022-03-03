@@ -2,7 +2,6 @@
 title: Scenario 3 - een buitenlandse betaling (LV naar VV) [NL]
 description: In dit onderwerp wordt een scenario beschreven waarin u telebankieren kunt gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8d0a68b853517b5764b8dc1e4f0cc59649c016ef
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9c812f322a8a0693988b4ff9713046da08d805e8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321982"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147340"
 ---
 # <a name="payment-scenario-3---foreign-payment-lcy--to-fcy-in-the-dutch-version"></a>Scenario 3 - Buitenlandse betaling (LV naar VV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die een andere valuta dan uw lokale valuta gebruiken.  

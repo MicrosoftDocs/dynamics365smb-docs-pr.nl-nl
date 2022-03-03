@@ -4,7 +4,6 @@ description: In dit onderwerp wordt een scenario 1 beschreven waarin u telebanki
 documentationcenter: ''
 author: SorenGP
 services: project-madeira
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: cfd057e8ece77889874d2bd227777fa71233faf3
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 502d25933728500a5638ba35b97afe15b25ee24f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589329"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138979"
 ---
 # <a name="payment-scenario-1---domestic-payments-lcy-to-lcy-in-the-dutch-version"></a>Betalingsscenario 1 - Buitenlandse betaling (LV naar LV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  

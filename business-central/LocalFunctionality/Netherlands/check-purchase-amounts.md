@@ -2,7 +2,6 @@
 title: Inkoopbedragen controleren [NL]
 description: De toepassing controleert of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkoopdocument, gelijk zijn aan het totaalbedrag van ingevoegde inkoopregels.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: dd67d09d6692a17bfb1dac47d3dc029035ad71dc
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0387069dbfff198dac8b6d774b7fa46a25cb9e53
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323498"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145086"
 ---
 # <a name="check-purchase-amounts-in-the-dutch-version"></a>Inkoopbedragen controleren in de Nederlandse versie
 Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkooporderdocument, gelijk zijn aan het totaalbedrag van de ingevoegde inkoopregels. Hiervoor moeten de velden **Documentbedrag incl. btw** en **Btw documentbedrag** ingevuld zijn op de pagina **Inkoopfactuur** of **Inkoopcreditnota**.  

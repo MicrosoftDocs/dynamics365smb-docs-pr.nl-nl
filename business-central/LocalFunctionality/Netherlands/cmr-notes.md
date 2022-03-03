@@ -2,7 +2,6 @@
 title: CMR-notities [NL]
 description: Claims die zijn voorzien van volledige informatie over de CMR-verzendbon, zijn gemakkelijker te verwerken. Gebruik de Nederlandse functie om de CRM-conventie te volgen met standaard CRM-notities.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 61396f483327395d5f69ccbc32a78984955e75f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 964ee0e8f3913f38428861ccb6489d01c2dfd494
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323496"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138985"
 ---
 # <a name="cmr-notes-in-the-dutch-version"></a>CMR-notities in de Nederlandse versie
 Een CMR-verzendbon is een connossement of internationale vrachtbrief, zoals bepaald onder het Verdrag betreffende de overeenkomst tot internationaal vervoer van goederen over de weg van 1956 van de Verenigde Naties. Dit verdrag wordt ook wel het CMR-verdrag genoemd.  

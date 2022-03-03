@@ -2,7 +2,6 @@
 title: Documentbedragen bewerken in inkoopfacturen en creditnota's
 description: Met de Nederlandse versie van Business Central kunt u eenvoudig documentbedragen in inkoopfacturen en creditnota's bewerken.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 46237951a1380e7457f7a29fbe0630efbc881f73
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: de3823fff04aa34ec65302209e7e408dbac6af88
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435860"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144172"
 ---
 # <a name="edit-document-amounts-in-purchase-invoices-and-credit-memos-in-the-dutch-version"></a>Documentbedragen bewerken in inkoopfacturen en creditnota's in de Nederlandse versie
 Met [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u gemakkelijk documentbedragen bewerken in inkoopfacturen en creditnota's.  
