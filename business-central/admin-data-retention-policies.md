@@ -1,21 +1,21 @@
 ---
-title: Gegevens opschonen met bewaarbeleid
+title: Gegevens opschonen met bewaarbeleid | Microsoft Docs
 description: U kunt aangeven hoe vaak u bepaalde soorten gegevens wilt verwijderen.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132182"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780054"
 ---
 # <a name="define-retention-policies"></a>Bewaarbeleid definiëren
 Beheerders kunnen bewaarbeleid definiëren om aan te geven hoe vaak ze willen dat [!INCLUDE[prod_short](includes/prod_short.md)] verouderde gegevens verwijdert in tabellen die logboekvermeldingen en gearchiveerde records bevatten. Het opschonen van logboekvermeldingen kan het bijvoorbeeld gemakkelijker maken om te werken met de gegevens die echt relevant zijn. Beleid kan alle gegevens in de tabellen omvatten die de vervaldatum hebben overschreden, of u kunt filtercriteria toevoegen die alleen bepaalde verlopen gegevens in het beleid opnemen. 
@@ -40,7 +40,7 @@ Bewaarperioden kunnen zo lang of kort zijn als u wilt. Om bewaartermijnen te mak
 > Om complianceredenen hebben we voor sommige tabellen een minimale bewaartermijn gedefinieerd. Als u een bewaartermijn instelt die korter is dan vereist, wordt een bericht weergegeven met de verplichte periode.
 
 ### <a name="set-up-a-retention-policy"></a>Een bewaarbeleid instellen
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewaarbeleid** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewaarbeleid** in en kies de desbetreffende koppeling.
 2. Kies in het veld **Tabel-id** de tabel die u wilt opnemen in het beleid.
 3. Geef in het veld **Bewaarperiode** op hoe lang de gegevens in de tabel moeten worden bewaard.
 4. Optioneel: als u het beleid op specifieke gegevens in een tabel wilt toepassen, schakelt u de schakelaar Toepassen op alle records uit. Het sneltabblad Bewaarbeleid van record wordt weergegeven, waar u filters kunt instellen om subsets met gegevens voor elke regel te maken. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
@@ -67,7 +67,7 @@ Wanneer ontwikkelaars een tabel toevoegen, kunnen ze verplichte en standaardfilt
 
 Hieronder volgen voorbeelden van hoe u een tabel kunt toevoegen aan de lijst met toegestane tabellen met en zonder verplichte of standaardfilters. Voor een complex voorbeeld raadpleegt u codeunit 3999 'Bewaarbeleid installeren - BaseApp'. 
 
-```al
+```
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Hieronder volgen voorbeelden van hoe u een tabel kunt toevoegen aan de lijst met
 
 Het volgende voorbeeld bevat een verplicht filter.
 
-```al
+```
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,12 +98,9 @@ Het volgende voorbeeld bevat een verplicht filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
-
 Nadat een ontwikkelaar tabellen aan de lijst heeft toegevoegd, kan een beheerder deze opnemen in een bewaarbeleid. 
 
 ## <a name="see-also"></a>Zie ook
-
-[Traceringstelemetrie voor bewaarbeleid analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Wijzigingen controleren in Business Central](across-log-changes.md)  
 [Filteren](ui-enter-criteria-filters.md#filtering)  
 [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)  

@@ -1,21 +1,23 @@
 ---
-title: Vaste activa aanschaffen
+title: Vaste activa aanschaffen| Microsoft Docs
 description: U kunt een vast activum instellen, een afschrijvingsboek toewijzen en de aanschafkosten van het vaste activum vastleggen.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.search.form: 5605, 5551, 5600, 5628, 5629
-ms.date: 12/03/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a8aa71492c307ba017b7ec3e2914e5f63e1dbefc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141207"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377759"
 ---
 # <a name="acquire-fixed-assets"></a>Vaste activa aanschaffen
 Voor elk vast activum moet u een kaart maken met informatie over het activum. U kunt gebouwen of productiemateriaal instellen als een hoofdactivum met een onderdelenlijst en u kunt ze op verschillende manieren groeperen, bijvoorbeeld per categorie, afdeling of locatie. Een afschrijvingsboek moeten eerst worden ingesteld en toegewezen aan elk vast activum voordat u het kunt aanschaffen.
@@ -29,7 +31,7 @@ Indexering wordt gebruikt om waarden aan te passen voor algemene prijswijziginge
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Een vast activum maken en automatisch aanschaffen
 In de volgende procedure wordt beschreven hoe u een vast activum kunt maken en vervolgens kunt aanschaffen met de pagina **Begeleide aanschaf van vast activum** om de vereiste dagboekregels voor vaste activa te maken en te boeken. U kunt de dagboekregels ook handmatig maken en boeken. Zie [De aanschaf van een vast activum handmatig boeken met het financieel dagboek voor vaste activa](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal) voor meer informatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.  
 2. Kies de actie **Nieuw** en vul vervolgens indien nodig de velden op het sneltabblad **Algemeen** in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vul op het sneltabblad **Afschrijvingsboek** indien nodig de velden in. Met deze stap wordt een afschrijvingsboek aan het vaste activum toegewezen.  
 4. Als u meer dan één afschrijvingsboek aan het vaste activum moet toewijzen, kiest u de actie **Meer afschrijvingsboeken toevoegen**. Zie [Een afschrijvingsboek aan een vast activum toewijzen](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset) voor meer informatie.
@@ -48,12 +50,12 @@ U kunt vaste activa groeperen in hoofdactiva en hun onderdelen. U kunt bijvoorbe
 
 Zowel het hoofdactivum als alle onderdelen moeten als individueel vast activum worden ingesteld. Nadat u een onderdelenlijst hebt ingesteld, worden in [!INCLUDE[prod_short](includes/prod_short.md)] automatisch de velden **Hoofdactivum/Onderdeel** en **Onderdeel van hoofdactivum** op de VA-kaarten ingevuld.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vaste activa** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vaste activa** in en kies de gerelateerde koppeling.
 2. Selecteer het vaste activum dat het hoofdactivum is en kies vervolgens de actie **Onderdelen van hoofdactivum**.
 3. Kies op de pagina **Onderdelen van hoofdactivum** het veld **VA-nr** en selecteer vervolgens het vaste activum dat u als onderdeel wilt toevoegen van het hoofdactivum.
 4. Sluit de pagina.
 5. Herhaal stap 3 en 4 voor elk onderdeelactivum dat u wilt toevoegen.
-6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-instellingen** in en kies vervolgens de gerelateerde koppeling.
+6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-instellingen** in en kies de gerelateerde koppeling.
 7. Schakel het selectievakje **Boeken op hoofdactivum toegestaan** in.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Een aanschaf voor vaste activa handmatig boeken met het financieel dagboek voor vaste activa
@@ -62,7 +64,7 @@ In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt 
 > [!NOTE]  
 >   U kunt ook aanschafkosten als creditbedragen boeken. In dat geval moet u er rekening mee houden dat de waarde in het veld **Bedrag** met een minteken moet worden ingevuld om een creditbedrag aan te geven.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-fin. dagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-fin. dagboeken** in en kies de gerelateerde koppeling.
 2. Selecteer op de pagina **Financieel dagboek voor vaste activa** in het veld **VA-boekingssoort** **Aanschafkosten**.
 3. Vul indien nodig de resterende velden in.
 4. Kies de actie **Boeken**.  
@@ -73,27 +75,24 @@ In de volgende procedure wordt beschreven hoe u een vast activum handmatig kunt 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>De boeking van aanschafkosten voor één vast activum annuleren
 Als u een fout maakt wanneer u aanschafkosten boekt, kunt u de post verwijderen met de batchverwerking **VA-posten annuleren** en vervolgens de juiste aanschafpost boeken. De foutieve posten worden overgebracht naar de pagina **Foutieve VA-posten**.
 
-Als u bijvoorbeeld een aanschaf met een onjuiste datum boekt, moet u dit zo snel mogelijk corrigeren omdat de boekingsdatum van een vast activum in veel berekeningen wordt gebruikt.
+Als u bijvoorbeeld een aanschaf met een onjuiste datum boekt, moet u dit zo snel mogelijk corrigeren omdat de boekingsdatum van een vast activum in vele belangrijke berekeningen wordt gebruikt.
 
 > [!IMPORTANT]  
-> U kunt de functie **Transacties tegenboeken** niet voor VA-posten gebruiken.
+>   U kunt de functie **Transacties tegenboeken** niet voor VA-posten gebruiken.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-posten** in en kies vervolgens de gerelateerde koppeling.  
-2. Selecteer op de pagina **VA-posten** het item of de items die u wilt annuleren.  
-3. Kies het menu **Acties** en kies vervolgens de actie **Posten annuleren**.
-4. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-5. Kies **OK** om de batchverwerking te starten.
-6. Als de foutieve post of posten zijn geannuleerd, gaat u verder met het boeken van de juiste aanschafkosten.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-posten annuleren** in en kies de desbetreffende koppeling.
+2. Vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Kies **OK** om de batchverwerking te starten.
+4. Als de foutieve post of posten zijn geannuleerd, gaat u verder met het boeken van de juiste aanschafkosten.
+
+Als u posten voor meerdere vaste activa tegelijk wilt annuleren, gebruikt u de batchverwerking **VA-posten annuleren**.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>De restwaarde samen met de aanschafkosten boeken
 Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een VA-dagboek.
 
-> [!NOTE]
-> Voor dit proces moet u mogelijk de pagina VA-dagboeken personaliseren door het veld Restwaarde toe te voegen. Het veld wordt standaard niet weergegeven op de pagina. Zie [Uw werkruimte personaliseren](ui-personalization-user.md) voor meer informatie.
-
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **VA-dagboeken** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **VA-dagboeken** in en kies de gerelateerde koppeling.
 2. Maak op de pagina **VA-dagboeken** de acquisitieregel. Zie [De aanschaf van een vast activum handmatig boeken met het financieel dagboek voor vaste activa](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal) voor meer informatie.
-3. Voer in het veld **Restwaarde** op de dagboekregel de restwaarde in als een creditbedrag (plaats een minteken vóór het bedrag, bijvoorbeeld **-** 100).
+3. Voer de restwaarde in als een creditbedrag (met een minteken) in het veld **Restwaarde** op de dagboekregel.
 4. Kies de actie **Boeken**.
 
 > [!NOTE]
@@ -103,7 +102,7 @@ Het is mogelijk om de restwaarde samen met de aanschafkosten te boeken via een V
 [Vaste activa](fa-manage.md)  
 [Vaste activa instellen](fa-setup.md)  
 [Financiën](finance.md)  
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Aan de slag](product-get-started.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

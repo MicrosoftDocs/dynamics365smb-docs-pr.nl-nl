@@ -1,21 +1,21 @@
 ---
-title: Nieuwe bedrijven maken met een begeleide instelling
+title: Nieuwe bedrijven maken met een begeleide instelling | Microsoft Docs
 description: U maakt eenvoudig een nieuw leeg bedrijf in Business Central. Een begeleide instelling helpt u door de stappen en u kunt uw bestaande bedrijfsgegevens importeren.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f05fcf2fc3137fbdf97940e5b3d73922180253b4
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: cb1639a57dcfed21b71d9c9cd57cd6090e5e81d7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323162"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776369"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Nieuwe bedrijven maken in [!INCLUDE[prod_short](includes/prod_short.md)]
 

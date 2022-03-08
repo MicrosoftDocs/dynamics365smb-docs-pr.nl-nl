@@ -1,24 +1,25 @@
 ---
-title: Interacties met contacten maken en beheren
-description: In Business Central wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Lees meer over de manieren om uw contacten te maken en te beheren.
+title: Interacties met contacten maken en beheren | Microsoft Docs
+description: In Business Central wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb8696d84bf9e40d07f7f29a6c2e08b39c30b2c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135157"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780629"
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Interacties beheren met uw contacten
+# <a name="managing-interactions"></a>Interacties beheren
 In [!INCLUDE[prod_short](includes/prod_short.md)] wordt onder interactie verstaan alle soorten communicatie tussen uw bedrijf en uw contacten. Communicatie kan bijvoorbeeld via brief, e-mail, telefoon, vergaderingen, enzovoort zijn.
 
 U kunt alle interactie registreren die u met uw contacten hebt, om de verkoop en marketinginspanningen bij te houden die u op uw contacten hebt gericht en om uw toekomstige bedrijfsinteracties met hen te verbeteren.

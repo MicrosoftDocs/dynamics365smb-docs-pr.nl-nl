@@ -1,23 +1,22 @@
 ---
-title: Werken met Business Central (bevat video)
+title: Werken met de algemene functionaliteit in Business Central | Microsoft Docs
 description: Beschrijft de algemene functies die u gebruikt om te werken met gegevens in Business Central, zoals waarden invoeren, gegevens sorteren en weergaven wijzigen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323055"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393571"
 ---
 # <a name="working-with-prod_short"></a>Werken met [!INCLUDE[prod_short](includes/prod_short.md)]
-
 Bij het uitvoeren van zakelijke taken voert u op verschillende manieren interacties uit met gegevens, zoals het maken van records en het invoeren van gegevens, het sorteren en filteren van gegevens, het schrijven van notities en het uitvoeren van gegevens naar andere toepassingen.
 
 U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte van kolommen en de hoogte van kolomkoppen vergroten en de sortering van gegevens in kolommen wijzigen. En als u de horizontale schuifbalk wilt gebruiken om alle kolommen op een lijstpagina of documentregels weer te geven, ziet u dat er een verticaal bevroren paneel is om ervoor te zorgen dat sommige kolommen niet verschuiven.
@@ -27,7 +26,7 @@ U kunt bijvoorbeeld de grootte en positie van elke pagina aanpassen, de breedte 
 > [!TIP]
 > Voor een printvriendelijk overzicht van de meest gebruikte functies kiest u de volgende afbeelding en downloadt u het PDF-bestand.
 >
-> [ ![Pictogram voor het PDF-bestand.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Pictogram dat een PDF opent")
+> [ ![Pictogram voor het PDF-bestand](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Pictogram dat een PDF opent")
 
 ## <a name="links-to-learn-more"></a>Koppelingen voor meer informatie
 
@@ -62,33 +61,18 @@ Hier volgt een korte video van hoe u werkt in [!INCLUDE[prod_short](includes/pro
 
 ## <a name="choosing-a-desktop-browser"></a>Een desktopbrowser kiezen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt meerdere browsers die elk verschillende functies en mogelijkheden bieden. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Zie de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](./product-requirements.md) en browsers voor [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
+[!INCLUDE[prod_short](includes/prod_short.md)] ondersteunt meerdere browsers die elk verschillende functies en mogelijkheden bieden. De browser speelt een belangrijke rol in het reactievermogen en de soepelheid van de gebruikersinterface. Zie de lijst met ondersteunde, aanbevolen browsers voor [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) en browsers voor [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
 
 - Vermijd waar mogelijk oudere browsers zoals Internet Explorer en schakel over naar een van onze aanbevolen moderne browsers, zoals de [nieuwe Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer wordt niet langer ondersteund. Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer wordt nog steeds ondersteund, maar aangezien de nieuwe Microsoft Edge-browser nu beschikbaar is voor Windows Server zien we een afnemend gebruik voor Internet Explorer. U kunt ook [een pilot van Microsoft Edge in IE-modus krijgen](https://www.microsoft.com/edge/business). Zie voor meer informatie de [documentatie van Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Houd uw browser altijd bijgewerkt naar de nieuwste versie.
-
-## <a name="action-bars"></a>Actiebalken
-
-Binnen [!INCLUDE [prod_short](includes/prod_short.md)] doet u het meeste van uw werk in een lijst, een document of een kaart. Alle drie soorten pagina's hebben een balk met acties die relevant zijn voor de specifieke pagina, en de acties zijn bijna hetzelfde voor de individuele kaart of het document en voor de lijst met entiteiten. Op deze manier kunt u een individuele verkooporder beheren op de pagina **Verkooporder** en in de lijst **Verkooporders**, inclusief het boeken en factureren ervan.  
-
-Maar de acties kunnen er ook anders uitzien, of zelfs helemaal niet aanwezig zijn, afhankelijk van hoe u de pagina opent. Specifiek voor lijstpagina's, de lijstpagina die u opent vanaf de startpagina en de pagina die wordt weergegeven wanneer u ernaar zoekt met behulp van het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") zijn niet identiek.  
-
-Wanneer u zoekt naar een open lijstpagina, zoals de lijst **Verkooporders**, is deze in de weergavemodus. De acties voor het bewerken, bekijken of verwijderen van een afzonderlijke entiteit, zoals een verkooporder, worden weergegeven wanneer u de actie **Beheren** kiest.  
-
-> [!TIP]
-> Als u weet dat u de acties op dit tweede niveau van de actiebalk vaak zult gebruiken, kiest u het pictogram :::image type="icon" source="media/pin.png" border="false"::: om de actiebalk vast te zetten en de acties onder de verschillende menu's direct vindbaar te maken.
->
-> Om het tweede niveau van de actiebalk weer te laten verdwijnen, kiest u het pictogram :::image type="icon" source="media/unpin.png" border="false":::.
-
-Maar wanneer u dezelfde lijstpagina opent vanaf uw startpagina, is de actie **Beheren** niet aanwezig. Kies in plaats daarvan, om een individuele verkooporder te openen, gewoon het veld **Aantal**. In deze weergave kunt u de actiebalk niet vastzetten.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Zie ook
 
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
+[Aan de slag](product-get-started.md)  
 [Business Central instellen](setup.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)  
 [Prestatietips voor zakelijke gebruikers](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

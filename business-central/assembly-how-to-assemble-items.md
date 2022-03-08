@@ -1,20 +1,21 @@
 ---
-title: 'Procedure: artikelen assembleren'
-description: Als het veld Aanvullingsmethode op de artikelkaart Assemblage bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen.
+title: 'Procedure: Artikelen assembleren | Microsoft Docs'
+description: Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04c8296089847b7ef1ab051158db578413212be9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146941"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924500"
 ---
 # <a name="assemble-items"></a>artikelen samenstellen
 Als het veld **Aanvullingsmethode** op de artikelkaart **Assemblage** bevat, is de standaardbevoorradingsmethode van het artikel het assembleren van gedefinieerde onderdelen en mogelijk door een gedefinieerde bron.  
@@ -40,7 +41,7 @@ Deze instellingen zijn standaardinstellingen die beheren hoe de verkoop en regel
 In deze procedure maakt en verwerkt u een assemblageorder voor artikelen die op voorraad geassembleerd worden, wat betekent dat er geen gekoppelde verkooporder is. De stappen zijn het starten van de assemblageorder, afhandelen van eventuele problemen met de beschikbaarheid van onderdelen en gedeeltelijk boeken van output van het assemblageartikel .
 
 ## <a name="to-assemble-an-item"></a>Een item assembleren  
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Assemblageorders** in en kies vervolgens de gerelateerde koppeling  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Assemblageorders** in en kies de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**. De pagina **Nieuwe assemblageorder** wordt geopend.  
 3.  Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Selecteer in het veld **Artikelnr.** het assemblageartikel dat u wilt verwerken. Het veld is gefilterd, zodat alleen de artikelen die zijn ingesteld voor assemblage weergegeven worden, wat betekent dat ze een assemblagestuklijst toegewezen hebben gekregen.  
@@ -71,7 +72,4 @@ Nadat het boeken is voltooid, wordt het assemblageartikel als uitvoer geboekt na
 [Werken met stuklijsten](inventory-how-work-BOMs.md)  
 [Voorraad](inventory-manage-inventory.md)  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

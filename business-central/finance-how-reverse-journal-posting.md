@@ -1,25 +1,26 @@
 ---
-title: Een boeking ongedaan maken door een tegenboeking te boeken
+title: Een boeking ongedaan maken door een tegenboeking te boeken| Microsoft Docs
 description: Als u een foutieve boeking in het dagboek hebt gemaakt, kunt u vervolgens de functie Transactie tegenboeken gebruiken om de boeking ongedaan te maken met de juiste audittrail.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.search.form: 20, 25, 29, 38, 202, 5912,
-ms.date: 07/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147723"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444459"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
-
-Tegenjournaalboekingen worden niet alleen gebruikt voor het corrigeren van fouten, maar kunnen ook worden gebruikt om bijvoorbeeld een oude transitoriaboeking te wissen voordat een nieuwe wordt ingevoerd. U selecteert de post en maakt een tegenpost (posten die identiek zijn aan de oorspronkelijke post, maar met een tegenovergesteld teken in het bedragveld) met hetzelfde documentnummer en dezelfde boekingsdatum als de originele post. Nadat een post is tegengeboekt, moet u de juiste post maken.
+Om een foutieve dagboekpost ongedaan te maken, selecteert en maakt u een tegenboeking (posten die identiek zijn aan de oorspronkelijke post, maar met een tegenovergesteld teken in het bedragveld) met hetzelfde documentnummer en dezelfde boekingsdatum als de originele post. Nadat een post is tegengeboekt, moet u de juiste post maken.
 
 U kunt alleen posten tegenboeken die zijn geboekt vanaf een algemene dagboekregel. Een post kan slechts één keer worden tegengeboekt.
 
@@ -79,7 +80,6 @@ Hieronder wordt beschreven hoe u een geboekte retourzending van artikelen of res
 8.  Corrigeer de post in het veld **Aantal** en boek de inkoopretourorder opnieuw.  
 
 ## <a name="see-also"></a>Zie ook
-
 [Boeken van assemblage ongedaan maken](assembly-how-to-undo-assembly-posting.md)  
 [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  

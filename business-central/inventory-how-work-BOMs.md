@@ -2,19 +2,19 @@
 title: Werken met stuklijsten om onderdelen te beheren
 description: U maakt een assemblagestuklijst om de onderdelen of resources op te geven die vereist zijn om het artikel samen te stellen dat de assemblagestuklijst vertegenwoordigt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
-ms.date: 04/01/2021
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: acf67b3e75df35cf11f743c63fccd79310d9e0f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141018"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838454"
 ---
 # <a name="work-with-bills-of-material"></a>Werken met stuklijsten
 U gebruikt stuklijsten om bovenliggende artikelen te structureren die door resources of bewerkingsplaatsen moeten worden geassembleerd of geproduceerd van onderdelen. Er kan ook een assemblagestuklijst worden gebruikt om een hoofdartikel als pakketten bestaande uit de onderdelen te verkopen.
@@ -56,14 +56,14 @@ Het maken van een assemblagestuklijst bestaat uit twee delen:
 ## <a name="to-edit-assembly-boms"></a>Assemblagestuklijsten bewerken
 U kunt de regels op een assemblagestuklijst op elk gewenst moment bewerken. Maar houd er rekening mee dat de stuklijst in gebruik kan zijn bij lopende verkopen of assemblages van het hoofdartikel, dat door de wijziging kan worden beïnvloed. Kies de actie **Waar gebruikt** om te zien in welke artikelen het wordt gebruikt en vervolgens of verkoop- of assemblageorders kunnen worden beïnvloed.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Kies de waarde **Ja** in de kolom **Assemblagestuklijst**.
 3. Kies op de pagina **Assemblagestuklijst** de actie **Lijst bewerken** en wijzig vervolgens een willekeurig veld.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Onderdelen en resources ingesprongen volgens de stuklijststructuur weergeven
 Vanuit de pagina **Assemblagestuklijst** kunt u een afzonderlijke pagina openen die de onderdelen en resources bevat die zijn ingesprongen op basis van hun stuklijstpositie onder het assemblageartikel.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Open de kaart voor een assemblageartikel. (Het veld **Assemblagestuklijst** op de pagina **Artikelen** bevat **Ja**.)
 3. Kies op de pagina **Artikel** de actie **Assemblage** en kies vervolgens de actie **Assemblagestuklijst**.
 4. Kies op de pagina **Assemblagestuklijst** de actie **Stuklijst weergeven**.
@@ -71,14 +71,14 @@ Vanuit de pagina **Assemblagestuklijst** kunt u een afzonderlijke pagina openen 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Het assemblageartikel in documentregels vervangen door de samenstellende onderdelen
 Vanuit ieder in- of verkoopdocument dat een assemblageartikel bevat, kunt u de regel voor dit artikel door middel van een speciale functie vervangen door nieuwe regels voor de samenstellende onderdelen ervan. Deze functie bijvoorbeeld nuttig als u de onderdelen wilt verkopen als een kit die samen het assemblageartikel vertegenwoordigen.
 
-De actie **Stuklijst weergeven** is ook beschikbaar op de pagina **Assemblagestuklijst** als een methode om subassemblageartikelen in een assemblagestuklijst te bekijken.
+De functie Stuklijst weergeven is ook beschikbaar op de pagina **Assemblagestuklijst** als een methode om onderliggende artikelen op subassemblages op een assemblagestuklijst te bekijken.
 
 > [!CAUTION]  
 >  Wanneer u de functie **Stuklijst weergeven** hebt gebruikt, kunt u dit niet gemakkelijk ongedaan maken. U moet dan de verkooporderregels die de onderdelen vertegenwoordigen verwijderen, en vervolgens opnieuw een verkooporderregel voor het assemblageartikel invoeren.
 
 De volgende procedure is gebaseerd op een verkoopfactuur. Dezelfde stappen zijn van toepassing op andere verkoopdocumenten en op alle inkoopdocumenten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopfacturen** in en kies de gerelateerde koppeling
 2. Open een verkoopfactuur die een regel voor een assemblageartikel bevat.
 3. Selecteer de regel een assemblageartikel en klik vervolgens op de regelactie **Stuklijst weergeven**.
 
@@ -118,6 +118,3 @@ De kosten van de artikelen waaruit de assemblagestuklijst bestaat, worden gekopi
 [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)     
 [Voorraad](inventory-manage-inventory.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

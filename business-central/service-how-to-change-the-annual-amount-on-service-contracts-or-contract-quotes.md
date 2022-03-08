@@ -1,27 +1,28 @@
 ---
-title: Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
+title: Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen | Microsoft Docs
 description: U kunt het bedrag wijzigen dat jaarlijks wordt gefactureerd in servicecontracten of servicecontractoffertes.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134948"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402547"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wijzigen
 U kunt het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen om het bedrag te corrigeren dat jaarlijks wordt gefactureerd.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Het jaarlijkse bedrag van het servicecontract of de servicecontractofferte wijzigen  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Servicecontracten** of **Servicecontractoffertes** in het tekstvak in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Servicecontracten** of **Servicecontractoffertes** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies het contract of de contractofferte.  
 3. Kies de actie **Contract openen** om het contract of de contractofferte te openen en bewerken.  
 4. Schakel het selectievakje **Bedragen in onbalans toestaan** in als u het jaarlijkse bedrag wilt wijzigen en het verschil in het jaarlijkse bedrag handmatig wilt verdelen over de contractregels. Schakel anders het selectievakje uit om het verschil in het jaarlijkse bedrag automatisch te verdelen over de contractregels nadat u het jaarlijkse bedrag hebt gewijzigd.  
@@ -149,6 +150,3 @@ Uiteindelijk bevatten de contractregels de volgende gegevens.
 ## <a name="see-also"></a>Zie ook  
 [Servicecontractoffertes en servicecontracten maken](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [CRM - Service instellen](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

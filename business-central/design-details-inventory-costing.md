@@ -1,30 +1,28 @@
 ---
-title: Ontwerpdetails - Voorraadwaardering
+title: 'Ontwerpdetails: Voorraadwaardering | Microsoft Docs'
 description: Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5ebde5f0d330f0e258f08f27a1a686a72dc12bea
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146641"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913760"
 ---
 # <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
-
-Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)].  
+Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten.  
 
-## <a name="in-this-section"></a>In dit gedeelte
-
+## <a name="in-this-section"></a>In dit gedeelte  
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
 [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -43,6 +41,3 @@ Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastle
 [Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)  
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md)  
 [Ontwerpdetails: Herwaardering](design-details-revaluation.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

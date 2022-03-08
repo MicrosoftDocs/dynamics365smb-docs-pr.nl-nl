@@ -1,21 +1,21 @@
 ---
-title: Verkoopdocumenten boeken
+title: Verkoopdocumenten boeken | Microsoft Docs
 description: Meer informatie over de verschillende boekingsfuncties om verkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.form: 130, 142, 1350, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 34995eab966a65561c18de8d0e32204ca8bb79cb
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335550"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392046"
 ---
 # <a name="posting-sales"></a>Verkopen boeken
 
@@ -28,8 +28,7 @@ In het menu **Boeken** in een verkoopdocument kunt u kiezen uit de volgende boek
 * **Batchboeken**
 * **Testrapport**
 
-> [!NOTE]
-> Voor verkooporders kunt u ook opties zien met betrekking tot de vooruitbetalingsfunctionaliteit. Zie voor meer informatie [Vooruitbetalingen factureren](finance-invoice-prepayments.md).
+> [!NOTE] Voor verkooporders ziet u ook opties met betrekking tot de vooruitbetalingsfunctionaliteit. Zie voor meer informatie [Vooruitbetalingen factureren](finance-invoice-prepayments.md). 
 
 Wanneer u alle regels hebt ingevuld en alle informatie hebt ingevoerd op de verkooporder, kunt u de order boeken. Hiermee worden een verzending en een factuur gemaakt.
 
@@ -39,7 +38,8 @@ Voor elke verkooporder wordt een verkooppost gemaakt in de tabel **Grootboekpost
 
 Voor elke verkooporderregel wordt een artikelpost gemaakt in de tabel **Artikelpost** (als de verkoopregels artikelnummers bevatten) of wordt een grootboekpost gemaakt in de tabel **Grootboekpost** (als de verkoopregels een grootboekrekening bevatten). Daarnaast worden verkooporders altijd geregistreerd in de tabellen **Verkoopverzendkop** en **Verkoopfactuurkop**.
 
-[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
+> [!IMPORTANT]  
+> Wanneer u een order boekt, kunt u zowel een verzending als een factuur maken. Deze kunnen tegelijk of afzonderlijk worden uitgevoerd. U kunt ook een gedeeltelijke verzending en een gedeeltelijke factuur maken door de velden **Te verzenden aantal** en **Te factureren aantal** op de afzonderlijke verkooporderregels in te vullen voordat u de boeking uitvoert. U kunt geen factuur maken voor iets wat niet is verzonden. U kunt dus pas factureren nadat u een verzending hebt geregistreerd, of u moet ervoor kiezen om tegelijkertijd te verzenden en factureren.
 
 U kunt boeken of boeken en verzenden. Als u ervoor kiest om te boeken en te verzenden, wordt er een pdf-bestand gegenereerd dat u vervolgens kunt verzenden. U kunt ook de functie **Batchboeken** kiezen, waarmee u verschillende orders tegelijkertijd kunt boeken. Zie voor meer informatie [Meerdere documenten tegelijkertijd boeken](ui-batch-posting.md).
 
@@ -65,4 +65,5 @@ U kunt bepaalde velden in geboekte inkoopdocumenten bewerken, zoals het **Tracer
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

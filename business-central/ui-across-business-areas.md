@@ -1,24 +1,26 @@
 ---
-title: Algemene functionaliteit gebruiken in bedrijfsgebieden
+title: Algemene functionaliteit gebruiken in bedrijfsgebieden | Microsoft Docs
 description: Meer informatie over de functionaliteit en functies die worden gebruikt in bedrijfsgebieden in Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322847"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782590"
 ---
 # <a name="general-business-functionality"></a>Algemene bedrijfsfunctionaliteit
-[!INCLUDE[prod_short](includes/prod_short.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt speciale functionaliteit voor veelgebruikte bedrijfsgebieden, zoals financiën en verkoop. Zie voor meer informatie [Bedrijfsfunctionaliteit](across-business-functionality.md).
 
 Om de taken te ondersteunen die specifiek zijn voor uw bedrijfsgebied, kunt u gebruikmaken van diverse algemene zakelijke functies, zoals het definiëren van uitgebreide tekst voor documentregels en het organiseren van verbindende zakelijke taken in werkstromen.
 
@@ -48,10 +50,7 @@ De volgende tabel bevat deze algemene bedrijfsgebieden met koppelingen naar onde
 | Stel definities in voor de uitwisseling van gegevens, zodat u elektronische documenten kunt verzenden en ontvangen. |[Gegevens elektronisch uitwisselen](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Beheer](admin-setup-and-administration.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

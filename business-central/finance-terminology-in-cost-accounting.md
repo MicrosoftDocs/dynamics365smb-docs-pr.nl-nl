@@ -2,6 +2,7 @@
 title: Terminologie in kostprijsboekhouding
 description: Dit onderwerp definieert de belangrijkste termen die worden gebruikt in kostenberekening, zoals verdeelsleutel en verdeelbron.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,19 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4ba3cb0930426f44c1064f4d565b8ddaf8563fdd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147567"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326960"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologie in kostprijsboekhouding
-
 Dit onderwerp beschrijft de belangrijkste termen die worden gebruikt in kostprijsboekhouding.  
 
-## <a name="key-terms"></a>Belangrijke termen
-
+## <a name="key-terms"></a>Belangrijke termen  
  De volgende tabel bevat definities van belangrijke termen in kostprijsboekhouding.  
 
 |**Term**|**Definitie**|  

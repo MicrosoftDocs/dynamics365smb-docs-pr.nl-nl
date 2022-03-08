@@ -1,37 +1,51 @@
 ---
-title: Bezoek onze videobibliotheek
-description: Bezoek onze videobibliotheek voor hulp van aan de slag-video's die veelvoorkomende proceduretaken illustreren tot productvideo's over het onderwerp.
+title: Hoe bekijk ik video's over het gebruik van Business Central | Microsoft Docs
+description: Biedt toegang tot Aan de slag-video's die illustreren hoe u veel voorkomende taken uitvoert.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/11/2021
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7786dab73b28a0107aac746f8029207592e6b78b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323237"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244883"
 ---
 # <a name="visit-our-video-library"></a>Bezoek onze videobibliotheek
+We zijn de bibliotheek met praktische video's opnieuw aan het opbouwen. Als bijwerking van de laatste verbeteringen in [!INCLUDE[d365fin](includes/d365fin_md.md)] moeten we onze inhoud opnieuw produceren zodat deze precies overeenkomt met het product.
 
-Het is bekend dat sommige mensen liever materiaal bekijken dan lezen. Daarom hebben we enkele korte, gemakkelijk te verwerken video's gemaakt die op zichzelf kunnen worden bekeken of als aanvulling op onze gebruikersondersteuning.  
+In de tussentijd bieden we drie video's aan waarmee u snel aan de slag kunt.
 
-Als u nog niet bekend bent met [!INCLUDE[prod_short](includes/prod_short.md)], kunt u de introductievideo's vanaf de welkomstpagina starten. Als u al in [!INCLUDE[prod_short](includes/prod_short.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen.  
+|Title|Description|
+|----|----|
+|Inleiding|Kijk hoe productfuncties zijn geordend en hoe u bij verschillende soorten taken en informatie komt.|
+|Aan de slag|Begrijp de belangrijkste eerste stappen wanneer u [!INCLUDE[d365fin](includes/d365fin_md.md)] uitprobeert of recent het product hebt gekocht. |
+|Hulp krijgen|Weet waar u antwoorden kunt krijgen op verschillende soorten vragen.|
 
-U kunt ook onze procedurevideo's en veel andere inhoud bekijken in de YouTube-afspeellijst die we hebben gemaakt voor [!INCLUDE[prod_short](includes/prod_short.md)]. Als u de video's nu wilt bezoeken, [klikt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
+U kunt op meerdere manieren toegang tot de video's krijgen. Als u [!INCLUDE[d365fin](includes/d365fin_md.md)] voor het eerst gebruikt, kunt u de video's starten vanaf de welkomstpagina die wordt weergegeven. Als u al in [!INCLUDE[d365fin](includes/d365fin_md.md)] werkt, kunt u naar de bibliotheek gaan vanuit de rolcentra **Bedrijfsmanager** en **Accountant** door de tegel **Productvideo's** te kiezen.
 
 > [!Tip]  
 > Video's in de bibliotheek worden in een vrij klein kader weergegeven. U kunt dit kader groter maken door op de dubbelzijdige pijl in de rechterbovenhoek te klikken. Vervolgens worden video's in het grotere kader weergegeven tot u dit weer kleiner maakt.
 
+U kunt ook onze procedurevideo's en veel andere inhoud bekijken in het YouTube-kanaal dat we hebben gemaakt voor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Als u het kanaal nu wilt bezoeken, [klikt u hier](https://go.microsoft.com/fwlink/?linkid=851533).
+
+## <a name="content-that-is-coming-soon"></a>Inhoud die binnenkort komt
+Dit zijn enkele voorbeelden van de video's die we bijwerken:  
+
+* Bedrijfsgegevens migreren uit andere financiële apps in [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Dimensies instellen, zodat u verschillende documenten en entiteiten kunt bijhouden en analyseren
+* [!INCLUDE[d365fin](includes/d365fin_md.md)] verbinden met Dynamics 365 for Sales
+* Goedkeuringswerkstromen instellen  
+* Power BI gebruiken met [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* E-mail instellen en documenten verzenden direct vanuit [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+
 ## <a name="see-also"></a>Zie ook
-
-[Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
-[Dynamics 365-kanaal op YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Aan de slag](product-get-started.md)

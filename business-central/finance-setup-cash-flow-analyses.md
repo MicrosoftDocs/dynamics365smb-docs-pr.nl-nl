@@ -1,21 +1,23 @@
 ---
-title: Cashflowanalyse instellen (bevat video)
-description: Gebruik de grafieken in het rolcentrum Rekeningen om de geldstroom in uw bedrijf te helpen analyseren, inclusief kosten en inkomsten, liquiditeit en kasontvangsten minus contante betalingen.
+title: Cashflowanalyse instellen| Microsoft Docs
+description: De grafieken in het rolcentrum Rekeningen instellen om de geldstroom in uw bedrijf te helpen analyseren, inclusief kosten en inkomsten, liquiditeit en kasontvangsten minus contante betalingen.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.search.form: 846, 847, 849, 855, 862, 869, 1818
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca4f088156313ec9cf3796abab642b7d319327bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143501"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783669"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Cashflowanalyse instellen
 Als u wat hulp wilt bij het bepalen wat u met uw contant geld moet doen, kunt de diagrammen bekijken in het rolcentrum Accountant:  
@@ -68,14 +70,14 @@ De begeleide instelling gebruiken:
 
 1. Kies in het rolcentrum Accountant onder het diagram **Cashflowprognose** de actie **Begeleide instelling openen**.  
 2. Vul de velden in elke stap van de begeleiding in.  
-3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
+3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies de desbetreffende koppeling.
 4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 Een handmatig proces gebruiken:  
 
 1. Zoek in het rolcentrum Accountant naar **Cashflowinstellingen** en klik vervolgens op de gerelateerde koppeling.  
 2. Vouw het sneltabblad **Azure AI** uit en kies het selectievakje **Azure AI ingeschakeld**.  
-3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Cashflowprognose** in en kies vervolgens de gerelateerde koppeling.
+3. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowprognose** in en kies de desbetreffende koppeling.
 4. Kies op de pagina **Cashflowprognose** de actie **Prognose herberekenen**.  
 
 > [!TIP]  
@@ -121,13 +123,12 @@ U kunt uw eigen voorspellende webservice maken op basis van een openbaar model m
 3. Gebruik het Microsoft-account om u aan te melden voor een werkruimte en kopieer vervolgens het model.  
 4. Voer het model uit en publiceer het als een webservice.  
 5. Noteer de API-URL en de API-sleutel. U kunt deze aanmeldingsgegevens voor een cashflowinstelling gebruiken.  
-6. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowinstellingen** in en kies vervolgens de gerelateerde koppeling.  
+6. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Cashflowinstellingen** in en kies de desbetreffende koppeling.  
 7. Vouw het sneltabblad **Azure AI** uit en vul de velden in.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Zie Gerelateerde training op [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Zie ook
-
 [Cashflow in uw bedrijf analyseren](finance-analyze-cash-flow.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

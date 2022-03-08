@@ -1,21 +1,23 @@
 ---
-title: De intercompany-inbox en outbox beheren
+title: Inkomende en uitgaande IC-transacties verwerken | Microsoft Docs
 description: Intercompany-transacties (IC-transacties) die u ontvangt van uw IC-partners worden weergegeven in de IC-inbox, waar u ze handmatig of automatisch verwerkt.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9bdeb10b10c7d31ded2036f4240e6b430bf2cc4d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141070"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308479"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>De intercompany-inbox en outbox beheren
 Alle IC-transacties die u via elektronische weg ontvangt van uw IC-partners, worden weergegeven in de IC-inbox.  
@@ -49,14 +51,14 @@ Met het veld **Transactiebron weergeven** kunt u de pagina **IC-inboxtransacties
 
  > [!NOTE]  
  > Als de IC-partners in dezelfde database zijn opgenomen, worden de transacties verzonden zonder dat een bestand of e-mail nodig is. Zie het veld **Overdrachttype** op de pagina **IC-partner**. <br /><br />
-In dat geval, kunt u in het systeem instellen om de inbox en de outbox over te slaan, door respectievelijk het selectievakje **Transacties automatisch accepteren** op de pagina **IC-partner** en het selectievakje **Transacties automatisch verzenden** op de pagina **IC-instellingen** in te schakelen. Inkomende intercompany-transacties kunnen alleen automatisch worden geaccepteerd als de taakplanner is ingeschakeld. Zie [Business Central Server configureren - Taakplannerinstellingen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task) voor meer informatie.
+In dat geval, kunt u in het systeem instellen om de inbox en de outbox over te slaan, door respectievelijk het selectievakje **Transacties automatisch accepteren** op de pagina **IC-partner** en het selectievakje **Transacties automatisch verzenden** op de pagina **IC-instellingen** in te schakelen.
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>IC-transacties importeren uit een bestand  
 Als u een IC-partner hebt die zich niet in dezelfde database bevindt als uw bedrijf, kunt u IC-transacties van die partner ophalen in een XML-bestand. Vervolgens moet u de transacties importeren in uw inbox.  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
 2. Sla het bestand op naar de locatie die u hebt opgegeven in het veld **Details IC-inbox** op de pagina **Bedrijfsgegevens**.  
-3. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-inboxtransacties** in en kies de gerelateerde koppeling.
+3. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies vervolgens de gerelateerde koppeling.
 4. Kies op de pagina **IC-inboxtransacties** de actie **Transactiebestand importeren**.  
 5. Selecteer op de pagina die wordt geopend het .xml-bestand dat de transacties bevat en klik vervolgens op **Openen**.  
 
@@ -65,7 +67,7 @@ De transacties worden geïmporteerd in de inbox en u kunt ze nu verwerken.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Inkomende IC-transacties verwerken  
 Wanneer uw IC-partners u IC-transacties toesturen, komen de transacties terecht in uw IC-inbox. U moet elke transactie in uw inbox evalueren en verwerken.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies de gerelateerde koppeling.  
+1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-inboxtransacties** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **IC-inboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Goedkeuren**.
 3. Vul op de pagina **Bewerking IC-inbox voltooien** de velden in met de benodigde gegevens. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kies de knop **OK**.  
@@ -79,7 +81,7 @@ Voor regels die u verwerkt met de actie **Retour door partner** moet u nu een co
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Uitgaande IC-transacties verwerken  
 Wanneer u een IC-dagboek of -document boekt of een IC-orderbevestiging verzendt, worden de transacties verzonden naar uw IC-outbox. Als u deze wilt doorsturen naar uw IC-partners, moet u de outbox openen en de transacties verwerken.  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **IC-outboxtransacties** in en kies de gerelateerde koppeling.  
+1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **IC-outboxtransacties** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer op de pagina **IC-outboxtransacties** een regel en kies een actie om de regel te verwerken, zoals bijvoorbeeld **Terug naar inbox**.
 
 Regels die u verwerkt met de actie **Verzenden naar IC-partner** worden verzonden naar de inbox van de betreffende partner.
@@ -93,7 +95,7 @@ Het kan voorkomen dat u een transactie in de inbox of outbox opnieuw wilt maken.
 
 In de volgende procedure wordt beschreven hoe u inboxtransacties opnieuw kunt maken. De procedure voor de outbox is hetzelfde.
 
-  1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verwerkte IC-inboxtransacties** in en kies de gerelateerde koppeling.  
+  1.  Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verwerkte IC-inboxtransacties** in en kies vervolgens de gerelateerde koppeling.  
 
   2.  Open de pagina **Verwerkte IC-inboxtransacties**, selecteer de regel met de transactie die u opnieuw wilt maken in de inbox en selecteer de actie **Inboxtransacties opnieuw maken**.  
 
@@ -102,7 +104,4 @@ In de volgende procedure wordt beschreven hoe u inboxtransacties opnieuw kunt ma
 [Financiën](finance.md)  
 [Financiën instellen](finance-setup-finance.md)  
 [Werken met diversendagboeken](ui-work-general-journals.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

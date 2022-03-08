@@ -1,22 +1,23 @@
 ---
-title: Scenario 3 - een buitenlandse betaling (LV naar VV) [NL]
-description: In dit onderwerp wordt een scenario beschreven waarin u telebankieren kunt gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
+title: Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)
+description: U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9c812f322a8a0693988b4ff9713046da08d805e8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2c344774ba9c1d28bc908a072907c0d69e44fd85
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147340"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919869"
 ---
-# <a name="payment-scenario-3---foreign-payment-lcy--to-fcy-in-the-dutch-version"></a>Scenario 3 - Buitenlandse betaling (LV naar VV) in de Nederlandse versie
+# <a name="payment-scenario-3---foreign-payment-lcy--to-fcy"></a>Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die een andere valuta dan uw lokale valuta gebruiken.  
 
 1.  Leverancier/klant maken.  
@@ -94,6 +95,3 @@ Het bankafschrift met onze betaling aan Hernandez Ortiz wordt door onze bank, AB
 ## <a name="see-also"></a>Zie ook  
  [Voorstellen maken.](how-to-create-proposals.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

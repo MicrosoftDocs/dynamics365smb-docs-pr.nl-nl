@@ -1,20 +1,21 @@
 ---
-title: Bewerkingsplannen maken
-description: Dit onderwerp geeft een overzicht van de verschillende manieren om bewerkingsplannen te maken, inclusief vereisten en hoe u bewerkingsplankoppelingen kunt maken.
+title: Bewerkingsplannen maken | Microsoft Docs
+description: Een bewerkingsplan bevat de belangrijkste gegevens met betrekking tot wat er nodig is voor het productieproces voor een bepaald geproduceerd artikel. Zodra er voor een artikel een productieorder is gemaakt, worden op basis van het bewerkingsplan ervan de bewerkingen gepland zoals weergegeven op de pagina Prod.-orderbewerkingsplan onder de productieorder.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135721"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759339"
 ---
 # <a name="create-routings"></a>Bewerkingsplannen maken
 
@@ -31,7 +32,7 @@ Voordat u een bewerkingsplan kunt instellen, moet het volgende zijn gedaan:
 
 ## <a name="to-create-a-routing"></a>Een bewerkingsplan maken
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Selecteer in het veld **Soort** de optie **Serieel** om bewerkingen in het productiebewerkingsplan te berekenen op basis van de waarde in het veld **Bewerkingsnr.**. te kiezen.  
@@ -63,7 +64,7 @@ Met bewerkingsplankoppelingen kunt u materialen zodanig aan bepaalde bewerkingen
 
 Een ander belangrijk voordeel van het koppelen van materialen en bewerkingen is dat beide elementen in een logische processtructuur worden weergegeven wanneer u de pagina **Productiedagboek** gebruikt voor het boeken van output en verbruik.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
 2. Open het bewerkingsplan dat de bewerkingen bevat die moeten worden gekoppeld.  
 
     Controleer of de status van het bewerkingsplan **In ontwikkeling** is.  
@@ -95,7 +96,7 @@ De geselecteerde materialen worden gekoppeld aan de geselecteerde bewerkingen zo
 
 Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis of speciale autorisaties nodig hebt, kunt u deze medewerkers toewijzen aan de bewerking. Daarnaast kunt u tools en kwaliteitsvereisten toewijzen aan de bewerking. In deze procedure wordt beschreven hoe u personeel toewijst. De stappen zijn vergelijkbaar voor andere soorten bewerkinginformatie.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
 2. Open het betreffende bewerkingsplan.  
 3. Op het sneltabblad **Regels** selecteert u de regel die u wilt verwerken, kiest u de actie **Bewerkingen** en vervolgens kiest u de actie **Medewerkers**.  
 4. Vul de velden op de pagina **Medewerkers bewerkingsplan** in.  
@@ -105,7 +106,7 @@ Als u voor een bewerking medewerkers met speciale kwalificaties, speciale kennis
 
 Het versieprincipe stelt u in staat verschillende versies van een bewerkingsplan te beheren. De structuur van de bewerkingsplanversie komt overeen met de structuur van het bewerkingsplan: een bewerkingsplanversiekop en -regels. Het belangrijkste verschil wordt bepaald door de begindatum.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bewerkingsplannen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bewerkingsplannen** in en kies de desbetreffende koppeling.  
 2. Selecteer het bewerkingsplan dat u wilt kopiëren en kies de actie **Versies**.  
 3. Kies op de pagina **Bewerkingsplanversies** de actie **Nieuw**.
 4. Vul de benodigde velden in.
@@ -129,6 +130,3 @@ De geldigheid van de versie wordt aangegeven in het veld **Begindatum**.
 [Voorraad](inventory-manage-inventory.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

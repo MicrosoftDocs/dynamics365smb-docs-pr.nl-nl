@@ -1,21 +1,22 @@
 ---
-title: Wijzigen welke functies worden weergegeven
+title: De gebruikerservaring kiezen om geavanceerde functies weer te geven of te verbergen | Microsoft Docs
 description: Meer weten over wat de ervaringslagen Essential en Premium betekenen voor de gebruikersinterface, toepassingsgebieden en uw bedrijf.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.search.form: 1
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 354791b9a1bafb07bc1e16530dc1d07c16d1e49d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130012"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747615"
 ---
 # <a name="change-which-features-are-displayed"></a>Wijzigen welke functies worden weergegeven
 [!INCLUDE[prod_short](includes/prod_short.md)] is ontworpen om u te helpen uw bedrijf te runnen, ongeacht de grootte en complexiteit. In de kern van het product vindt u essentiële functies, zoals financiële rapportage, verkoop-, inkoop- en voorraadbeheer. Naarmate de bedrijfscomplexiteit toeneemt, kunt u bijvoorbeeld functionaliteit inschakelen voor productie en servicebeheer.
@@ -29,7 +30,7 @@ In de volgende tabel worden de ervaringen beschreven die momenteel beschikbaar z
 | **Essential** |Hier worden alle acties en velden voor alle gemeenschappelijke bedrijfsfuncties weergegeven.|
 | **Premium** |Hier worden alle acties en velden voor alle bedrijfsfuncties weergegeven, inclusief Productie en Servicebeheer.|
 
-De ervaringen die in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen worden geselecteerd, weerspiegelen de oplossingslicenties, gebruikte plannen, die zijn gedefinieerd voor het product. Informatie over de plannen Essential en Premium vindt u op [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) de site van Microsoft Dynamics 365 Marketing. Zie ook de [[!INCLUDE[prod_short](includes/prod_short.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?linkid=2068931).
+De ervaringen die in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen worden geselecteerd, weerspiegelen de oplossingslicenties, gebruikte plannen, die zijn gedefinieerd voor het product. Informatie over de plannen Essential en Premium vindt u op [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) de site van Microsoft Dynamics 365 Marketing. Zie ook de [[!INCLUDE[prod_short](includes/prod_short.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?linkid=2068931) (vereist toegang tot CustomerSource of PartnerSource).
 
 > [!IMPORTANT]  
 > Alle normale gebruikers in een oplossing moeten aan hetzelfde plan worden toegewezen, Essential of Premium, voordat die ervaring kan worden geselecteerd voor het bedrijf. Een gebruiker kan daarom geen Premium-functies gebruiken als een of meer andere gebruikers alleen toegang hebben tot Essential-functies. Dit geldt niet voor niet-normale gebruikers van het type Teamlid, Interne admin, Externe accountant en Gedelegeerde admin, die allemaal aan een ander plan kunnen zijn toegewezen dan andere gebruikers in de oplossing.<br /><br /> Alleen gebruikers van het type Evaluation of Premium kunnen de waarde in het veld **Ervaring** wijzigen van Essential in Premium.
@@ -45,14 +46,14 @@ Gebruikers worden aan plannen toegewezen in het Microsoft 365-beheercentrum, in 
 Wanneer u een wijziging in gebruikersplannen hebt aangebracht in het Microsoft 365-beheercentrum , zoals meer gebruikers toewijzen aan het Premium-plan, moet u de wijziging doorvoeren in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Meld u aan als beheerder.
-2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling
+2. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Gebruikers** in en kies de desbetreffende koppeling.
 3. U kunt ook op de pagina **Gebruikers** de actie **Alle gebruikersgroepen vernieuwen** kiezen.
 
 Alle nieuwe informatie over de plannen van gebruikers en hun toegewezen gebruikersgroepen wordt nu bijgewerkt volgens de planwijzigingen.
 
 ### <a name="to-select-the-premium-experience"></a>De Premium-ervaring selecteren
 U kunt nu doorgaan met de nieuwe ervaring te selecteren.
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Bedrijfsgegevens** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bedrijfsgegevens** in en kies de gerelateerde koppeling.
 2. Selecteer op de pagina **Bedrijfsgegevens** op het sneltabblad **Gebruikerservaring** de optie Premium in het veld **Ervaring**.
 
 ## <a name="help-assumes-premium-experience"></a>In de Help wordt uitgegaan van de Premium-ervaring
@@ -68,6 +69,3 @@ Alle functiebeschrijvingen in de gebruikersdocumentatie voor [!INCLUDE[prod_shor
 [[!INCLUDE[prod_short](includes/prod_short.md)] Licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

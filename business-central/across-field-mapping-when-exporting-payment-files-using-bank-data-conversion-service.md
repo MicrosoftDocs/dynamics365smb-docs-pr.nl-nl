@@ -2,28 +2,26 @@
 title: Veldtoewijzing voor het exporteren van betalingsbestanden | Microsoft Docs
 description: Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9785c55602a3df230b9692008e2c96d7649158e6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131031"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384796"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Veldtoewijzing bij de export van betalingsbestanden met behulp van de extensie AMC Banking 365 Fundamentals
 Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn de gegevens die u exporteert, zichtbaar voor de serviceprovider. De serviceprovider is verantwoordelijk voor de privacy van deze informatie. Zie [De extensie AMC Banking 365 Fundamentals gebruiken](ui-extensions-amc-banking.md) voor meer informatie over de extensie AMC Banking 365 Fundamentals.  
 
 > [!CAUTION]  
 >  Wanneer u betalingsbestanden exporteert met de extensie AMC Banking 365 Fundamentals, zijn sommige bedrijfsgegevens zichtbaar voor de serviceprovider. De serviceprovider, AMC Consult A/S, is verantwoordelijk voor de privacy van deze informatie. Zie [AMC-privacybeleid](https://go.microsoft.com/fwlink/?LinkId=510158) voor meer informatie.  
-
-> [!NOTE]
-> In de algemene versie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt een algemene provider van services ingesteld en verbonden die bankgegevens converteert naar een bestandsindeling die uw bank vereist. In Noord-Amerikaanse versies kan dezelfde service worden gebruikt om betalingsbestanden te verzenden als elektronische overboeking (EFT), bijvoorbeeld het veelgebruikte ACH-netwerk (Automated Clearing House), maar met een iets ander proces.
 
 De volgende tabel bevat de velden in [!INCLUDE[prod_short](includes/prod_short.md)] vanwaar u gegevens kunt exporteren.  
 

@@ -2,20 +2,20 @@
 title: Bestaande items kopiëren naar nieuwe items
 description: Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie Item kopiëren gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 729
-ms.date: 04/01/2021
+ms.date: 06/18/2020
 ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5b60d8f9ede1be72fce5f5dd61afc5398220d2f2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130293"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777688"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Bestaande items kopiëren om nieuwe items te maken
 
@@ -23,7 +23,7 @@ Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item 
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Een bestaand item naar een nieuw item kopiëren.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
 2. Selecteer het item dat u wilt kopiëren en kies vervolgens de actie **Item kopiëren**.  
 
     Als u de actie **Item kopiëren** niet kunt vinden, kiest u ervoor om meer opties weer te geven en zoekt u de actie vervolgens onder **Acties**, **Functies**.  
@@ -39,6 +39,3 @@ Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie **Item 
 
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  
 [Voorraad instellen](inventory-setup-inventory.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

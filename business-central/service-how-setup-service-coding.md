@@ -1,20 +1,21 @@
 ---
-title: Codes voor standaardservices instellen
-description: Leer hoe u codes instelt voor regelmatig uitgevoerde serviceactiviteiten met een vooraf gedefinieerde set serviceregels.
+title: Codes voor standaardservices instellen | Microsoft Docs
+description: Leer hoe u codes instelt voor serviceactiviteiten die u vaak uitvoert.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 06/23/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: faf69b2bd3782b63030b87563d57524818a08bdb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139336"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778219"
 ---
 # <a name="set-up-standard-service-codes"></a>Standaardservicecodes instellen
 
@@ -25,13 +26,13 @@ Bij het uitvoeren van de services moeten vaak servicedocumenten worden opgesteld
   
 ## <a name="to-set-up-a-standard-service-code"></a>Standaardservicecodes instellen
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Standaardservicecodes** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Standaardservicecodes** in en kies de desbetreffende koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vul de serviceregels in die zijn gekoppeld aan deze servicecode.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Een standaardservicecode toewijzen aan een serviceartikelgroep
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Serviceartikelgroepen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Serviceartikelgroepen** in en kies de desbetreffende koppeling.  
 2. Vul de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vul de serviceregels in die zijn gekoppeld aan deze servicecode.  
 

@@ -1,27 +1,28 @@
 ---
-title: Serviceprocessen plannen
-description: Dit onderwerp beschrijft taken om regels en waarden in te stellen om uw servicebeleid en -processen te definiëren.
+title: Serviceprocessen plannen | Microsoft Docs
+description: Een overzicht van de taken om regels en waarden in te stellen om uw servicebeleid en -processen te definiëren.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 06/23/2021
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a92b411eebe7e469d19b12dc1afbce9cf2f5dd3
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134792"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250615"
 ---
 # <a name="planning-services"></a>Services plannen
-Met [!INCLUDE[prod_short](includes/prod_short.md)] kunt u de standaardtaken instellen die nodig zijn om te kunnen voldoen aan de vereisten van de klantenservice. Hiervoor moet u bepalen welke serviceartikelen en welk serviceaanbod uw serviceorganisatie ondersteunt en tegen welke prijs.   
+Met [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt u de standaardtaken instellen die nodig zijn om te kunnen voldoen aan de vereisten van de klantenservice. Hiervoor moet u bepalen welke serviceartikelen en welk serviceaanbod uw serviceorganisatie ondersteunt en tegen welke prijs.   
 
-[!INCLUDE[prod_short](includes/prod_short.md)] biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] biedt ook functies voor statistieken die u kunt gebruiken om te bepalen hoe goed het gaat en te bepalen op welke gebieden u kunt verbeteren.
   
 In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.   
   
@@ -40,6 +41,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Serviceartikelen en serviceartikelonderdelen instellen](service-how-setup-service-items.md)  
 [Statussen instellen voor serviceorders en reparaties](service-order-repair-status.md)  
 [CRM - Service instellen](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

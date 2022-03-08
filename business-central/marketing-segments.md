@@ -1,22 +1,23 @@
 ---
-title: Segmenten beheren en contacten selecteren
-description: In dit onderwerp wordt beschreven hoe u een segment maakt door een groep contacten te selecteren op basis van specifieke criteria om dat segment later met een campagne te targeten.
+title: Segmenten beheren en contacten selecteren om op te nemen| Microsoft Docs
+description: Schetst de taken voor het maken van een segment om een groep contacten op basis van specifieke criteria te selecteren, bijvoorbeeld, contacten in een bepaalde branche waarop u zich wilt richten.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
-ms.date: 06/22/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c107a9ae74343663eea6a97fb0360852b49ecd05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130281"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749827"
 ---
 # <a name="managing-segments"></a>Segmenten beheren
 U kunt segmenten maken om een groep contacten te selecteren overeenkomstig een bepaald criterium. Een segment kan bijvoorbeeld de sector zijn waartoe de contacten behoren of uw zakenrelatie met de contacten. U kunt een segment maken om te selecteren op welke contacten u een campagne wilt richten.
@@ -38,6 +39,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,24 @@
 ---
-title: Overzicht dimensiesetposten
-description: Dit artikel geeft u een overzicht van hoe dimensiesetposten worden opgeslagen als dimensiesetposten en hoe ze worden geboekt.
+title: Overzicht van dimensiesetposten | Microsoft Docs
+description: In dit onderwerp wordt beschreven hoe dimensiesetposten worden opgeslagen en geboekt in Dynamics 365.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132026"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185513"
 ---
 # <a name="dimension-set-entries-overview"></a>Overzicht dimensiesetposten
-In dit onderwerp wordt beschreven hoe dimensiesetposten worden opgeslagen en geboekt in [!INCLUDE[prod_short](includes/prod_short.md)].  
+In dit onderwerp wordt beschreven hoe dimensiesetposten worden opgeslagen en geboekt in [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="dimension-sets"></a>Dimensiesets  
 Een dimensieset is een unieke combinatie dimensiewaarden. Een dimensieset wordt als dimensiesetposten in de database opgeslagen. Elke dimensiesetpost vertegenwoordigt één dimensiewaarde. De dimensiesetpost wordt geïdentificeerd door een gemeenschappelijke dimensieset-id die is toegewezen aan elke dimensiesetpost die tot de dimensieset behoort.  
@@ -33,7 +34,7 @@ In het volgende voorbeeld ziet u een dimensieset met drie dimensiesetposten. De 
 ## <a name="dimension-set-entries"></a>Dimensiesetposten  
 Dimensiesets worden opgeslagen in de tabel **Dimensiesetpost** als dimensiesetposten met dezelfde dimensieset-id.  
 
-![Stroom van dimensiesetposten.](media/dimensionentrynav7.png "Stroom van dimensiesetposten")  
+![Stroom van dimensiesetposten](media/dimensionentrynav7.png "Stroom van dimensiesetposten")  
 
 Wanneer u een nieuwe dagboekregel, documentkop of documentregel maakt, kunt u een combinatie van dimensiewaarden opgeven. In plaats van elke dimensiewaarde expliciet in de database op te slaan, wordt een dimensieset-id toegewezen aan de dagboekregel, documentkop of documentregel om zo de dimensieset op te geven.  
 
@@ -45,10 +46,7 @@ Codeunit 408, Dimensiebeheer, is een functiebibliotheek die veel voorkomende tak
 ## <a name="performance-improvement"></a>Prestatieverbetering  
 Door dimensiesets eenmalig in de database op te slaan, wordt databaseruimte bespaard en wordt de algehele prestatie verbeterd.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)   
 [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)   
 [Ontwerpdetails: Dimensiesetposten](design-details-dimension-set-entries.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

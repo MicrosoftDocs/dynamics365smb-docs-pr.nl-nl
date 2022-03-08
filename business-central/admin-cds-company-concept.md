@@ -2,24 +2,30 @@
 title: Toewijzing van bedrijf en bedrijfsunit | Microsoft Docs
 description: Bedrijven zijn zowel juridische als zakelijke constructies en worden gebruikt om bedrijfsgegevens te beveiligen en te visualiseren.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, Dataverse, integration, sync
-ms.date: 04/01/2021
+ms.search.keywords: CDS, , integration, sync
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c1af1f571170a167d59b20d85010fdd8d70d07cd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 22411c8392cf81b25b1f11f221bbd98942f653f4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133989"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754089"
 ---
 # <a name="data-ownership-models"></a>Modellen voor gegevenseigendom
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
+[!INCLUDE[prod_short](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Entiteiteigendom](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)] , moet u een van de twee eigendomsmodellen kiezen voor records die worden gesynchroniseerd:
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] vereist dat u een eigenaar opgeeft voor de gegevens die u opslaat. Zie voor meer informatie [Typen tabellen](/powerapps/maker/data-platform/types-of-entities) in de Power Apps-documentatie. Wanneer u integratie instelt tussen [!INCLUDE[prod_short](includes/cds_long_md.md)] en [!INCLUDE[prod_short](includes/prod_short.md)], moet u het eigendomsmodel **Gebruiker of team** kiezen voor records die worden gesynchroniseerd. Acties die op deze records kunnen worden uitgevoerd, kunnen op gebruikersniveau worden beheerd. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
+* Team 
+* Persoon (gebruiker)
+
+Acties die op deze records kunnen worden uitgevoerd, kunnen op gebruikersniveau worden beheerd. Zie voor meer informatie [Gebruikers- en teamtabellen](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). We raden het teameigendomsmodel aan, omdat het beheer van eigendom voor meerdere mensen gemakkelijker maakt.
 
 ## <a name="team-ownership"></a>Teameigendom
 In [!INCLUDE[prod_short](includes/prod_short.md)] is een bedrijf een juridische en zakelijke entiteit die manieren biedt om bedrijfsgegevens te beveiligen en te visualiseren. Gebruikers werken altijd in de context van een bedrijf. [!INCLUDE[prod_short](includes/cds_long_md.md)] komt hier het dichtst bij in de buurt met de entiteit bedrijfsunit, die geen juridische of zakelijke implicaties heeft.
@@ -38,11 +44,11 @@ De volgende afbeelding toont een voorbeeld van deze gegevensconfiguratie in [!IN
 
 ![De hoofdbedrijfsunit staat bovenaan, de teams staan in het midden en de bedrijven staan onderaan.](media/cds_bu_team_company.png)
 
-In deze configuratie zijn records die gerelateerd zijn aan het Cronus US-bedrijf, eigendom van een team dat is gekoppeld aan de Cronus US- bedrijfseenheid in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Gebruikers die toegang hebben tot die bedrijfseenheid via een beveiligingsrol die is ingesteld op zichtbaarheid op bedrijfsunitniveau in [!INCLUDE[prod_short](includes/cds_long_md.md)] kunnen nu die records zien. In het volgende voorbeeld ziet u hoe u teams kunt gebruiken om toegang te verlenen tot die records.
+In deze configuratie zijn records die gerelateerd zijn aan het Cronus US-bedrijf eigendom van een team dat is gekoppeld aan de Cronus US <ID> bedrijfseenheid in [!INCLUDE[prod_short](includes/cds_long_md.md)]. Gebruikers die toegang hebben tot die bedrijfseenheid via een beveiligingsrol die is ingesteld op zichtbaarheid op bedrijfsunitniveau in [!INCLUDE[prod_short](includes/cds_long_md.md)] kunnen nu die records zien. In het volgende voorbeeld ziet u hoe u teams kunt gebruiken om toegang te verlenen tot die records.
 
 * De rol van Verkoopmanager wordt toegewezen aan leden van het team Cronus US Sales.
 * Gebruikers met de rol van Verkoopmanager hebben toegang tot accountrecords voor leden van dezelfde bedrijfseenheid.
-* Het team Cronus US Sales is gekoppeld aan de eerder genoemde bedrijfsunit Cronus US. Leden van het team Cronus US Sales kunnen elk account zien dat eigendom is van de Cronus US-gebruiker, die afkomstig zal zijn van de Cronus US-bedrijfseenheid in [!INCLUDE[prod_short](includes/prod_short.md)].
+* Het team Cronus US Sales is gekoppeld aan de eerder genoemde bedrijfsunit Cronus US. Leden van het team Cronus US Sales kunnen elk account zien dat eigendom is van de Cronus US <ID>-gebruiker, die afkomstig zal zijn van de bedrijfsentiteit Cronus US in [!INCLUDE[prod_short](includes/prod_short.md)].
 
 De 1: 1-toewijzing tussen bedrijfsunit, bedrijf en team is echter slechts een startpunt, zoals weergegeven in de volgende afbeelding.
 
@@ -50,7 +56,7 @@ De 1: 1-toewijzing tussen bedrijfsunit, bedrijf en team is echter slechts een st
 
 In dit voorbeeld wordt een nieuwe hoofdbedrijfsunit EUR (Europa) gecreëerd in [!INCLUDE[prod_short](includes/cds_long_md.md)] als bovenliggend element voor zowel Cronus DE (Duitsland) als Cronus ES (Spanje). De bedrijfsunit EUR is niet gerelateerd aan synchronisatie. Deze kan leden van het team EUR Sales echter toegang geven tot accountgegevens in zowel Cronus DE als Cronus ES door de zichtbaarheid van gegevens in te stellen op **Bovenliggende/onderliggende BU** in de bijbehorende beveiligingsrol in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synchronisatie bepaalt welk team records moet bezitten. Dit wordt bepaald door het veld **Standaardeigenaarsteam** in de BCI--rij. Wanneer een BCI-record is ingeschakeld voor synchronisatie, maken we automatisch de bijbehorende bedrijfseenheid en het eigenaarsteam (als het nog niet bestaat) en wordt het veld **Standaardeigenaarsteam** ingesteld. Als synchronisatie is ingeschakeld voor een tabel, kunnen beheerders het eigenaarsteam wijzigen, maar er moet altijd een team worden toegewezen.
+Synchronisatie bepaalt welk team records moet bezitten. Dit wordt bepaald door het veld **Standaardeigenaarsteam** in de BCI - <ID>-rij. Wanneer een BCI - <ID>-record is ingeschakeld voor synchronisatie, maken we automatisch de bijbehorende bedrijfseenheid en het eigenaarsteam (als het nog niet bestaat) en wordt het veld **Standaardeigenaarsteam** ingesteld. Als synchronisatie is ingeschakeld voor een tabel, kunnen beheerders het eigenaarsteam wijzigen, maar er moet altijd een team worden toegewezen.
 
 > [!NOTE]
 > Records worden alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen, dus zorg ervoor dat u het juiste bedrijf kiest.
@@ -71,5 +77,3 @@ Wanneer u verkopers in [!INCLUDE[prod_short](includes/prod_short.md)] koppelt aa
 
 ## <a name="see-also"></a>Zie ook
 [Informatie over [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,23 @@
 ---
-title: Verkoopopkansen en potentiële klanten beheren
+title: Verkoopopportunities en potentiële klanten beheren | Microsoft Docs
 description: Beschrijft het beheren van inkomende potentiële klanten of verkoopopportunity's in Business Central en het koppelen van de opportunity aan een verkoper om toekomstige verkopen te traceren.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cf696f5e30c308e04f90983eece35017045e985d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f6ba8df61a2c375c9a938cbe5b0c1a30032c5d9d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135078"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755339"
 ---
 # <a name="managing-sales-opportunities"></a>Verkoopopportunities beheren
 Iedere inkomende lead kan als verkoopopportunity worden beschouwd. U kunt opportunities maken en aan een verkoper koppelen, zodat u potentiële verkopen kunt bijhouden.
@@ -35,6 +36,3 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Verkoop](sales-manage-sales.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

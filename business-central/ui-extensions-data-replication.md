@@ -1,48 +1,39 @@
 ---
-title: Extensies voor cloudmigratie
-description: Gebruik de cloudmigratie-extensies om uw on-premises gegevens naar Business Central online te migreren. Deze extensies verplaatsen uw on-premises gegevens naar de cloud.
-author: jenolson
-ms.topic: conceptual
+title: Business Central Intelligente cloud-extensies | Microsoft Docs
+description: Gebruik deze extensie voor gegevensreplicatie om een cloudkopie van uw gegevens te maken zodat u verbonden bent met de Intelligente cloud.
+author: edupont04
+manager: edupont
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.reviewer: edupont
-ms.date: 06/23/2021
+ms.date: 05/20/2019
 ms.author: edupont
-ms.openlocfilehash: 5c18605da5ba115f39d46c317eaf51278c8948cf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2daa70123a40a7d908e20e600cb8e153c6881641
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129965"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594176"
 ---
-# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Cloudmigratie-extensies voor migratie naar Business Central Online
+# <a name="business-central-intelligent-cloud-extensions"></a>Business Central Intelligente cloud-extensies
 
-Afhankelijk van uw on-premises oplossing moet u verschillende extensies gebruiken om uw gegevens te verbinden met [!INCLUDE[prod_short](includes/prod_short.md)] online om uw oplossing naar de cloud te migreren.  
+Deze extensie verbindt uw gegevens vanuit [!INCLUDE [prodshort](includes/prodshort.md)] on-premises met [!INCLUDE [prodshort](includes/prodshort.md)] online voor intelligente inzichten.  
 
-Als u een van de ondersteunde on-premises producten gebruikt, kunt u uw cloudomgeving configureren op basis van een productspecifieke extensie. Zodra uw cloudomgeving is geconfigureerd, kunt u gegevens migreren van uw on-premises oplossing naar [!INCLUDE[prod_short](includes/prod_short.md)]. Zo kunt u optimaal gebruikmaken van wat de cloud uw bedrijf te bieden heeft, zoals verbeterde inzichten in uw bedrijf, kunstmatige intelligentie, toegang met meerdere apparaten en overal en altijd toegang.  
-
-Zie voor meer informatie [On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerinhoud voor [!INCLUDE[prod_short](includes/prod_short.md)].  
+Als u een van de ondersteunde on-premises producten gebruikt, kunt u uw Intelligente cloud-omgeving configureren op basis van een productspecifieke extensie. Zodra uw Intelligente cloud-omgeving is geconfigureerd, kunt u gegevens repliceren van uw on-premises oplossing naar uw [!INCLUDE[prodshort](includes/prodshort.md)]-cloudtenant. Zo kunt u optimaal gebruikmaken van wat de cloud uw bedrijf te bieden heeft, zoals verbeterde inzichten in uw bedrijf, kunstmatige intelligentie, toegang met meerdere apparaten en overal en altijd toegang.  
 
 ## <a name="business-central-on-premises"></a>Business Central on-premises
-
-Als u een on-premises implementatie van [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** en de extensie **Business Central Intelligente cloud** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
+Als u een on-premises implementatie van [!INCLUDE[prodshort](includes/prodshort.md)] gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** en de extensie **Business Central Intelligente cloud** en voert u vervolgens de begeleide instelling **Intelligente cloud instellen** uit.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
+Als u Dynamics GP gebruikt, verkrijgt u de extensie **Intelligente cloud Basis**, de extensie **Dynamics GP Gegevensmigratie** en de **Dynamics GP Intelligente cloud**, en voert u de begeleide instelling **Intelligente cloud instellen** uit.  
 
-Als u Dynamics GP gebruikt, verkrijgt u de **extensie Intelligente cloud Basis** en de **extensie Dynamics GP Intelligente cloud** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
-
-> [!IMPORTANT]
-> Migreren van Dynamics GP met behulp van de begeleide instelling **Instelling van Cloudmigratie** wordt momenteel alleen ondersteund voor de volgende markten: Verenigde Staten, Canada, Verenigd Koninkrijk.
-
-## <a name="dynamics-sl"></a>Dynamics SL
-
-Als u Dynamics SL gebruikt, verkrijgt u de extensie **Intelligente cloud Basis**, de extensie **Microsoft Dynamics SL Intelligente cloud** en de extensie **Microsoft Dynamics SL-historie slimme lijsten** en voert u vervolgens de begeleide instelling **Instelling van Cloudmigratie** uit.  
+## <a name="dynamics-nav"></a>Dynamics NAV
+Als u Dynamics NAV gebruikt, verkrijgt u de extensie **Intelligente cloud Basis** en de extensie **Dynamics NAV Intelligente cloud**, en voert u vervolgens de begeleide instelling **Intelligente cloud instellen** uit.  
 
 ## <a name="see-also"></a>Zie ook
 
-[Extensie Cloud-migratiebasis](ui-extensions-intelligent-cloud.md)  
-[On-premises gegevens migreren naar Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Intelligente inzichten](about-intelligent-cloud.md)  
+[Extensie Intelligente cloud Basis](ui-extensions-intelligent-cloud.md)  

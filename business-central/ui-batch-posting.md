@@ -1,21 +1,21 @@
 ---
-title: Meerdere documenten tegelijkertijd boeken
-description: Leer hoe u meerdere niet-geboekte documenten in een lijst selecteert voor onmiddellijke of geplande batchboeking in Business Central.
+title: Hoe u meerdere documenten tegelijkertijd boekt | Microsoft Docs
+description: In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere niet-geboekte documenten in een lijst selecteren voor batchboeking, hetzij voor onmiddellijke boeking, hetzij gepland voor bijvoorbeeld het einde van de dag.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.reviewer: edupont
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 024588a5fcb565935a47f63a73b7287879c0db8c
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: bc969cac89f414552ec45b357010bdcfc7164a8d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334953"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757689"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Meerdere documenten tegelijkertijd boeken
 
@@ -25,7 +25,7 @@ In plaats van afzonderlijke documenten een voor een te boeken kunt u meerdere ni
 
 In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellijk kunt boeken. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.
 2. Ga op de pagina **Inkooporders** door met het selecteren van alle te boeken orders:
 3. Voer in het veld **Nr.** de drie verticale stippen om het contextmenu te openen en kies vervolgens de actie **Meer selecteren**.
 4. Schakel het selectievakje in voor alle regels die orders vertegenwoordigen die u tegelijkertijd wilt boeken.
@@ -36,7 +36,7 @@ In de volgende procedure wordt uitgelegd hoe u meerdere inkooporders onmiddellij
 
 In de volgende procedure wordt uitgelegd hoe u inkooporders in een batch boekt. De stappen zijn vergelijkbaar voor alle inkoop- en verkoopdocumenten waarbij de actie **Batchboeken** beschikbaar is.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkooporders** in en kies vervolgens de gerelateerde koppeling  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en kies de gerelateerde koppeling.  
 2. Ga op de pagina **Inkooporders** door met het selecteren van alle te boeken orders:
 3. Voer in het veld **Nr.** de drie verticale stippen om het contextmenu te openen en kies vervolgens de actie **Meer selecteren**.
 4. Schakel het selectievakje in voor alle regels die orders vertegenwoordigen die u tegelijkertijd wilt boeken.
@@ -53,7 +53,7 @@ Taakwachtrijen zijn een effectief hulpmiddel om de uitvoering van bedrijfsproces
 
 In de volgende procedure wordt uitgelegd hoe u achtergrondboeking van verkooporders instelt. De stappen zijn vergelijkbaar voor de inkoop.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkoopinstellingen** in en kies de desbetreffende koppeling.
 2. Kies op de pagina **Verkoopinstellingen** het selectievakje **Boeken via taakwachtrij**.
 3. Kies het veld **Taakwachtrijcategoriecode** en selecteer vervolgens de code **VRKBOEKING**.
 
@@ -78,7 +78,7 @@ Als de taakwachtrij de verkooporder niet kan boeken, wordt de status gewijzigd i
 1. Kies vanuit het document dat u hebt geprobeerd te boeken via boeken op de achtergrond, het veld **Status taakwachtrij** dat de waarde **Fout** bevat.
 2. Bekijk de foutmelding en los het probleem op.
 
-U kunt ook op de pagina **Logposten taakwachtrij** kijken of de verkooporder met succes is geboekt. Voor meer informatie zie het gedeelte [De taakwachtrij bewaken](#monitor-the-job-queue).
+U kunt ook op de pagina **Logposten taakwachtrij** kijken of de verkooporder met succes is geboekt. Zie voor meer informatie [Status of fouten in de projectwachtrij weergeven](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Een taakwachtrijpost maken voort batchboeking van verkooporders
 
@@ -86,7 +86,7 @@ U kunt eventueel ook boekingen uitstellen naar tijdstippen die handiger zijn voo
 
 In de volgende procedure wordt getoond hoe u het rapport **Batchboeken verkooporders** instelt om automatisch verkooporders te boeken om 16:00 uur op werkdagen.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Taakwachtrijposten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Taakwachtrijposten** in en kies de desbetreffende koppeling.  
 2. Kies de actie **Nieuw**.  
 3. Selecteer in het veld **Uit te voeren objecttype** **Rapport**.  
 4. Selecteer in het veld **Uit te voeren object-id** 296, **Batchboeken verkooporders**.
@@ -115,13 +115,8 @@ In de volgende procedure wordt getoond hoe u het rapport **Batchboeken verkoopor
 8. Voer in het veld **Begintijd** 4 PM in.
 9. Kies de actie **Status instellen op Gereed**.
 
-Verkooporders die binnen de gedefinieerde filters vallen, worden nu elke werkdag om 16:00 uur geboekt.
+Verkooporders die binnen de gedefinieerde filters vallen, worden nu elke week om 16:00 uur geboekt.
 
-## <a name="monitor-the-job-queue"></a>De taakwachtrij bewaken
-
-Als u boeken op de achtergrond instelt met taakwachtrijen, maak er dan een regelmatige taak van om de taakwachtrij te controleren om eventuele problemen op te vangen. U kunt de status volgen op de pagina **Taakwachtrijposten**. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md).  
-
-Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insights-overview) gebruiken om telemetrie te verzamelen en te analyseren die u kunt gebruiken om problemen te identificeren. Zie voor meer informatie [Telemetrie bewaken en analyseren](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) in de ontwikkelaar- en beheerinhoud.  
 
 ## <a name="see-also"></a>Zie ook
 
@@ -131,6 +126,3 @@ Als beheerder kunt u [Application Insights](/azure/azure-monitor/app/app-insight
 [Niet-betaalde inkoopfacturen corrigeren of annuleren](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Pagina's en informatie zoeken met Vertel me](ui-search.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

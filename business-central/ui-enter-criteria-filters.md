@@ -1,30 +1,30 @@
 ---
-title: Lijsten sorteren, doorzoeken en filteren
-description: Werk efficiënt in lijsten door te zoeken in uw gegevens, kolommen te sorteren en resultaten te verfijnen met filtersymbolen en toetsenbordsneltoetsen.
-author: jswymer
-ms.topic: conceptual
+title: Lijsten sorteren, doorzoeken en filteren | Microsoft Docs
+description: Werk efficiënt in lijsten door te zoeken in uw gegevens, kolommen te sorteren en resultaten te verfijnen met krachtige filtersymbolen en toetsenbordsneltoetsen.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.date: 07/24/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335004"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619420"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sorteren, zoeken en filteren
 
 U kunt een paar dingen doen om records in een lijst, in een rapport of XMLport te scannen, te vinden en te beperken. U kunt de records bijvoorbeeld sorteren, doorzoeken en filteren. U kunt sommige of al deze methoden tegelijkertijd toepassen om snel uw gegevens te zoeken of te analyseren.
 
-Voor rapporten en XMLports, kunt u filters instellen zoals in lijsten om af te bakenen welke gegevens in het rapport of de XMLport moeten worden opgenomen, maar u kunt niet sorteren en zoeken.
+Voor rapporten en XMLports, net als lijsten, kunt u filters instellen zoals in lijsten om af te bakenen welke gegevens in het rapport of XMLport moeten worden opgenomen, maar u kunt niet sorteren en zoeken.
 
 > [!TIP]
-> Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "Weergeven als lijst pijl naar links"). om de records als een lijst te bekijken.
+> Wanneer u uw gegevens weergeeft als tegels, kunt u zoeken en elementaire filtering gebruiken. Als u de volledige set functies wilt gebruiken voor sorteren, zoeken en filteren, kiest u het pictogram ![Als overzicht weergeven](media/ui_show_as_list_icon.png "Weergeven als lijst pijl naar links") om de records als lijst weer te geven.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -32,12 +32,9 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Sorteervolgorde
 
-Met de sorteerfunctie krijgt u snel een overzicht van de gegevens. Als u bijvoorbeeld veel klanten heeft, kunt u ze sorteren op **Klantnr.**, **Valutacode** of **Land-/regiocode** om het overzicht te krijgen dat u nodig heeft.
+Met de sorteerfunctie krijgt u snel een overzicht van de gegevens. Als u veel klanten hebt, kunt u er bijvoorbeeld voor kiezen hen te sorteren op **Klantnr.**, **Klantboekingsgroep**, **Valutacode**, **Land-/regiocode** of **Btw-nummer** voor het door u gewenste overzicht.
 
-Om een lijst te sorteren, kunt u:
-
-- Een kolomkoptekst kiezen om te wisselen tussen oplopende en aflopende volgorde of
-- De vervolgkeuzepijl in de kolomkop kiezen en vervolgens de actie **Oplopend** of **Aflopend** kiezen.  
+Als u een lijst wilt sorteren, kunt u een kolomkoptekst kiezen om te schakelen tussen op- en aflopend, of de pijl-omlaag in de kolomkop kiezen en vervolgens de actie **Oplopend** of **Aflopend** kiezen.  
 
 > [!NOTE]  
 > Sorteren wordt niet ondersteund bij afbeeldingen, BLOB-velden, FlowFilters en velden die niet deel van een tabel zijn.  
@@ -45,22 +42,15 @@ Om een lijst te sorteren, kunt u:
 ## <a name="searching"></a>Zoeken
 
 <!--## Searching by using the Quick Filter -->
-Boven aan elke lijstpagina staat een ![Zoeklijst.](media/ui-search/search-list.png "Pictogram Zoeken in lijst") actie **Zoeken** die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
+Boven aan elke lijstpagina staat een actie ![Zoeken in lijst](media/ui-search/search-list.png "Pictogram Zoeken in lijst") **Zoeken** die een snelle en gemakkelijke manier biedt om de records in een lijst te reduceren en alleen de records weer te geven die de gegevens bevatten die u wilt zien.
 
-Als u wilt zoeken, kiest u gewoon de actie **Zoeken** en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
+Als u wilt zoeken, kiest u de actie **Zoeken** en typt u de tekst die u zoekt, in het vak. U kunt letters, cijfers en andere symbolen invoeren.
+
+### <a name="fine-tuning-the-search"></a>De zoekactie verfijnen
 
 Over het algemeen wordt geprobeerd in alle velden tekst overeen te laten komen. Er wordt geen onderscheid gemaakt tussen hoofdletters en kleine letters (hoofdletterongevoelig) en wordt gezocht naar overeenkomst met tekst die ergens in het veld, aan het begin, aan het einde of in het midden wordt geplaatst.
 
-> [!TIP]
-> U kunt op **F3** drukken om het zoekvak te activeren en te deactiveren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
-
-> [!NOTE]  
-> Zoeken kijkt niet naar waarden in afbeeldingen, BLOB-velden, FlowFilters, FlowFields en andere velden die geen deel uitmaken van een tabel.
-
-
-### <a name="fine-tuning-the-search-with-filter-criteria"></a>De criteria voor Zoeken met filter verfijnen
-
-U kunt nauwkeuriger zoeken door filteroperatoren, uitdrukkingen en filtertokens te gebruiken. In tegenstelling tot filteren, worden deze bij gebruik in het zoekvak op alle velden toegepast, waardoor ze minder efficiënt zijn dan filteren.
+U kunt echter een exactere zoekactie maken door speciale tekens te gebruiken.
 
 - Als u alleen veldwaarden wilt zoeken die exact overeenkomen met de volledige tekst en de hoofdletters/kleine letters, plaatst u de zoektekst tussen enkele aanhalingstekens (`''` bijvoorbeeld `'man'`).
 
@@ -80,10 +70,15 @@ In de volgende tabel vindt u enkele voorbeelden om aan te geven hoe u de zoekact
 |`@Man*`|Alle records met velden die beginnen met **man**, ongeacht hoofdletters. Bijvoorbeeld **Manchester** en **manual**, maar niet **Sportsman**.|
 |`@*man`|Alle records met velden die eindigen met **man**, ongeacht hoofdletters. Bijvoorbeeld **Sportsman**, maar niet **Manchester** of **manual**.|
 
+> [!TIP]
+> U kunt op **F3** drukken om het zoekvak te activeren en te deactiveren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Zoeken kijkt niet naar waarden in afbeeldingen, BLOB-velden, FlowFilters, FlowFields en andere velden die geen deel uitmaken van een tabel.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filteren
 
-Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke records in een lijst, rapport of XMLport worden opgenomen. Er zijn twee belangrijke verschillen tussen zoeken en filteren, zoals wordt beschreven in de volgende tabel.
+Filtering biedt een geavanceerdere en flexibelere manier om te bepalen welke records in een lijst worden weergegeven of in een rapport of XMLport worden weergegeven. Er zijn twee belangrijke verschillen tussen zoeken en filteren, zoals wordt beschreven in de volgende tabel.
 
 || **Zoeken** | **Filteren** |
 |--|----------|------------|
@@ -115,15 +110,15 @@ Het filterdeelvenster bevat de huidige filters voor een lijst en biedt u de moge
 
 - **Weergaven**
 
-  Sommige lijsten bevatten het gedeelte **Weergaven**. Weergaven zijn variaties van de lijst die vooraf zijn ingesteld met filters. U kunt per lijst zoveel weergaven definiëren en opslaan als u wilt. De weergaven zijn voor u beschikbaar op elk apparaat waarop u inlogt. Zie voor meer informatie [Lijstweergaven opslaan en personaliseren](ui-views.md).
+  Sommige lijsten bevatten het gedeelte **Weergaven**. Weergaven zijn variaties van de lijst die vooraf zijn ingesteld met filters. U kunt per lijst zoveel weergaven definiëren en opslaan als u wilt, en de weergaven zijn voor u beschikbaar op elk apparaat waarop u zich aanmeldt. Zie voor meer informatie [Lijstweergaven opslaan en personaliseren](ui-views.md).
 
 - **Filter lijst op**
 
-  In deze sectie voegt u filters toe aan specifieke velden om het aantal weergegeven records te reduceren. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**. Typ vervolgens de naam van het veld waarop u de lijst wilt filteren of kies een veld in de vervolgkeuzelijst.
+  Hier voegt u filters toe aan specifieke velden om het aantal weergegeven records te reduceren. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
 - **Filter totalen op**
 
-  Sommige lijsten met berekende velden, zoals bedragen en aantallen, bevatten het gedeelte **Filter totalen op**, waarin u verschillende dimensies kunt aanpassen die van invloed zijn op berekeningen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**. Typ vervolgens de naam van het veld waarop u de lijst wilt filteren of kies een veld in de vervolgkeuzelijst.
+  Sommige lijsten met berekende velden, zoals bedragen en aantallen, bevatten het gedeelte **Filter totalen op**, waarin u verschillende dimensies kunt aanpassen die van invloed zijn op berekeningen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
   > [!NOTE]
   > Filters in het gedeelte **Filter totalen op** worden bepaald door FlowFilters in het paginaontwerp. Zie voor technische informatie [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -134,9 +129,9 @@ U kunt een eenvoudig filter rechtstreeks in een lijst instellen met behulp van h
 
 Voor rapporten, batchtaken en XMLports zijn de filters direct zichtbaar op de aanvraagpagina. De aanvraagpagina toont de laatst gebruikte filters volgens uw selectie in het veld **Standaardwaarden gebruiken uit**. Zie voor meer informatie [Opgeslagen instellingen gebruiken](ui-work-report.md#SavedSettings).
 
-De hoofdsectie **Filter** toont de standaardfiltervelden die u gebruikt om af te bakenen welke records in het rapport of de XMLport moeten worden opgenomen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**. Typ vervolgens de naam van het veld waarop u wilt filteren of kies een veld in de vervolgkeuzelijst.
+De hoofdsectie **Filter** toont de standaardfiltervelden die u gebruikt om af te bakenen welke records in het rapport of de XMLport moeten worden opgenomen. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
-In de sectie **Totalen filteren op** kunt u verschillende dimensies aanpassen die van invloed zijn op berekeningen in het rapport of de XMLport. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**. Typ vervolgens de naam van het veld waarop u wilt filteren of kies een veld in de vervolgkeuzelijst.
+In de sectie **Totalen filteren op** kunt u verschillende dimensies aanpassen die van invloed zijn op berekeningen in het rapport of de XMLport. Als u een filter wilt toevoegen, kiest u de actie **+ Filter**, typt u de naam van het veld waarop u de lijst wilt filteren of kiest u een veld in de vervolgkeuzelijst.
 
 ## <a name="entering-filter-criteria"></a>Filtercriteria invoeren
 
@@ -144,22 +139,22 @@ Zowel in het filtervenster als op een aanvraagpagina voert u uw filtercriteria i
 
 Het type filterveld bepaalt welke criteria u kunt invoeren. Als u bijvoorbeeld filtert op een veld dat vaste waarden heeft, kunt u alleen kiezen uit die waarden. Voor meer informatie over speciale filtersymbolen raadpleegt u [Filtercriteria](#FilterCriteria) en [Filtertokens](#FilterTokens)
 
-Kolommen die al filters hebben, worden aangegeven met het ![pictogram Filter.](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
+Kolommen die al filters bevatten, worden aangegeven door het pictogram ![Filterpictogram](media/ui-search/filter-icon.png "Pictogram Filter") in de kolomkop. Als u een filter wilt verwijderen, kiest u de vervolgkeuzepijl en kiest u vervolgens de actie **Filter wissen**.
 
 > [!TIP]
 > Versnel het zoeken en analyseren van uw gegevens met combinaties van toetsenbordsneltoetsen. Selecteer bijvoorbeeld een veld, gebruik **Shift+Alt+F3** om dat veld aan het filterdeelvenster toe te voegen, typ het filtercriterium, gebruik **Ctrl+Enter** om terug te keren naar de rijen, selecteer een ander veld en gebruik **Alt+F3** om op die waarde te filteren. Zie voor meer informatie [Toetsenbordsneltoetsen](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="filter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filtercriteria en -operatoren
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filtercriteria en -symbolen
 
-U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Maar er is ook een reeks speciale symbolen die u als operatoren kunt gebruiken om de resultaten verder te filteren. In de volgende secties worden deze symbolen beschreven en hoe u ze als operators in filters kunt gebruiken.
+U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaal ook kunt gebruiken. Daarnaast kunt u speciale symbolen (of operatoren) gebruiken om de resultaten verder te filteren. De volgende tabellen bevatten de symbolen die in filters kunnen worden gebruikt. Voor datums en tijden kunt u ook [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md) raadplegen voor meer gedetailleerde informatie.
 
-> [!TIP]
-> Zie voor meer informatie over het filteren van datums en tijden [Werken met kalenderdatums en -tijden](ui-enter-date-ranges.md).
+> [!IMPORTANT]  
+> Het kan voorkomen dat veldwaarden deze symbolen bevatten en u hierop wilt filteren. Hiervoor moet u de filterexpressie opnemen die het symbool tussen aanhalingstekens (“) bevat. Als u wilt filteren op records die beginnen met de tekst *S&R*, is de filterexpressie bijvoorbeeld `'S&R*'`.
 
-> [!IMPORTANT]
-> - Er kunnen situaties zijn waarin de waarde waarop u wilt filteren een symbool bevat dat een operator is. Zie voor meer informatie over het omgaan met deze situaties [Filteren op waarden die symbolen bevatten](#symbols) voor meer instructies over het omgaan met deze situatie.
->
-> - Als er meer dan 200 operatoren in één filter zijn, groepeert het systeem automatisch enkele uitdrukkingen tussen haakjes `()` met het oog op verwerking. Dit heeft geen effect op het filter of de resultaten.  
+In de volgende secties wordt beschreven hoe u de verschillende operatoren kunt gebruiken.
+
+> [!NOTE]
+> Als er meer dan 200 operatoren in één filter zijn, groepeert het systeem automatisch enkele uitdrukkingen tussen haakjes `()` met het oog op verwerking. Dit heeft geen effect op het filter of de resultaten.  
 
 #### <a name="-interval"></a>(..) Interval
 
@@ -168,7 +163,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 |`1100..2100`|Nummers 1100 t/m 2100|  
 |`..2500`|Tot en met 2500|  
 |`..12 31 00`|Datums tot en met 31.12.00|  
-|`P8..`|Informatie voor boekhoudperiode 8 en daarna|  
+|`P8..`|Gegevens voor boekhoudperiode 8 en verder|  
 |`..23`|Van begindatum tot 23 lopende maand, lopend jaar 23:59:59|  
 |`23..`|Van 23 lopende maand, lopend jaar 00:00:00 tot eindtijd|  
 |`22..23`|Van 22 lopende maand, lopend jaar 0:00:00 tot 23 lopende maand, lopend jaar 23:59:59|  
@@ -183,7 +178,7 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
-|`<>0`|Alle nummers behalve 0<br /><br /> Met de SQL Server-optie kunt u dit symbool combineren met jokertekens. <>A* betekent bijvoorbeeld 'Niet gelijk aan tekst die begint met A'.|  
+|`<>0`|Alle nummers behalve 0<br /><br /> Met de SQL Server-optie kunt u dit teken combineren met jokertekens. <>A* betekent bijvoorbeeld 'Niet gelijk aan tekst die begint met A'.|  
 
 #### <a name="-greater-than"></a>(>) Groter dan  
 
@@ -219,28 +214,27 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
-|`'man'`|Tekst die exact overeenkomt met **man** en hoofdlettergevoelig is.|  
-|`''`|Tekst die leeg is.|  
+|`'man'`|Tekst die exact overeenkomt met man en hoofdlettergevoelig is.|  
 
 #### <a name="-case-insensitive"></a>(@) Niet hoofdlettergevoelig  
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
-|`@man*`|Tekst die begint met **man** en niet hoofdlettergevoelig is.|  
+|`@man*`|Tekst die begint met man en niet hoofdlettergevoelig is.|  
 
 #### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Een onbeperkt aantal onbekende tekens
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
-|`*Co*`|Tekst die **Co** bevat en hoofdlettergevoelig is.|  
-|`*Co`|Tekst die eindigt met **Co** en hoofdlettergevoelig is.|  
-|`Co*`|Tekst die begint met **Co** en hoofdlettergevoelig is.|  
+|`*Co*`|Tekst die “Co“ bevat en hoofdlettergevoelig is.|  
+|`*Co`|Tekst die eindigt met “Co“ en hoofdlettergevoelig is.|  
+|`Co*`|Tekst die begint met “Co“ en hoofdlettergevoelig is.|  
 
 #### <a name="-one-unknown-character"></a>(?) Een onbekend teken  
 
 |Voorbeeld|Weergegeven records|  
 |-----------------------|-----------------------|  
-|`Hans?n`|Tekst zoals **Jansen** of **Jansma**|  
+|`Hans?n`|Tekst zoals Jansen of Jansma|  
 
 #### <a name="combined-format-expressions"></a>Gecombineerde notatiesoorten  
 
@@ -250,23 +244,8 @@ U kunt bij de invoer van criteria alle cijfers en letters gebruiken die u normaa
 |`..1299|1400..`|Records met een nummer kleiner dan of gelijk aan 1299 of gelijk aan 1400 en hoger. Met andere woorden: alle nummers behalve 1300 tot en met 1399.|  
 |`>50&<100`|Records met een nummer groter dan 50 en kleiner dan 100, ofwel nummer 51 tot en met 99.|  
 
-### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filteren op waarden die symbolen bevatten
-
-Er kunnen gevallen zijn waarin veldwaarden een van de volgende symbolen bevatten:
-
-- &
-- (
-- )
-- =
-- &#124;
-
-Als u op een van deze symbolen wilt filteren, plaatst u de filterexpressie tussen enkele aanhalingstekens (`'<expression with symbol>'`). Als u bijvoorbeeld wilt filteren op records die beginnen met de tekst *J & V*, is de filterexpressie `'J & V*'`.
-
-Deze vereiste is niet nodig voor andere symbolen.
-
 ### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Filtertokens
-
-Wanneer u filtercriteria invoert, kunt u ook woorden typen die een speciale betekenis hebben, filtertokens genaamd. Na het invoeren van het tokenwoord wordt het woord vervangen door de waarde of waarden die het woord vertegenwoordigt. Filtertokens maken filtering eenvoudiger doordat u niet naar andere pagina's hoeft te navigeren om waarden op te zoeken die u aan uw filter wilt toevoegen. In de onderstaande tabellen worden enkele van de tokens beschreven die u als filtercriteria kunt gebruiken.
+Wanneer u filtercriteria invoert, kunt u ook woorden typen die een speciale betekenis hebben, filtertokens genaamd. Na het invoeren van het tokenwoord wordt het woord vervangen door de waarde of waarden die het woord vertegenwoordigt. Dit maakt filtering eenvoudiger doordat u niet naar andere pagina's hoeft te navigeren om waarden op te zoeken die u aan uw filter wilt toevoegen. In de onderstaande tabellen worden enkele van de tokens beschreven die u als filtercriteria kunt gebruiken.
 
 > [!TIP]
 > Uw organisatie kan aangepaste tokens gebruiken. Als u informatie wilt over de volledige set tokens die voor u beschikbaar zijn of als u aangepaste tokens wilt toevoegen, overlegt u met uw beheerder. Voor technische informatie raadpleegt u [Filtertokens toevoegen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
@@ -305,9 +284,6 @@ Gebruik `%myvendors` in het veld leveranciers **nr.** om alle records weer te ge
 
 ## <a name="see-also"></a>Zie ook
 
-[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)  
+[Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.md)  
 [Lijstweergaven opslaan en personaliseren](ui-views.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

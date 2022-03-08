@@ -2,6 +2,7 @@
 title: Grootboekposten vereffenen en de vereffening ervan ongedaan maken [NL]
 description: Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e7d8fc8191c248f941e95539234585be5f004c29
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 397b7f4a541a7632abd19ab12bbea054ae70a355
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133503"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323486"
 ---
 # <a name="apply-and-unapply-general-ledger-entries-in-the-dutch-version"></a>Grootboekposten in de Nederlandse versie toepassen en ongedaan maken
 

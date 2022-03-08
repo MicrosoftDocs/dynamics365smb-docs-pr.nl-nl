@@ -2,6 +2,7 @@
 title: Voorstellen maken
 description: Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6212fd3ec408afde36ce5ede227a6555e41da639
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4daecb68a1fdfec5289d34efdd8f6272c9501003
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773498"
 ---
 # <a name="create-proposals"></a>Voorstellen maken
 Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.  
@@ -27,7 +28,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 
 ## <a name="to-create-proposals-manually"></a>Handmatig voorstellen maken  
 
-1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.  
 2.  Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.  
 3.  U moet minimaal de velden **Rekeningsoort**, **Rekeningnr.**, **Transactiewijze**, **Bankrekeningnr.** en **Bedrag** invullen.  
 
@@ -39,7 +40,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 2. Maak een verkoopfactuur of creditnota, vul de klant en relevante items in en boek de factuur.
 3. Controleer of de velden **Valutacode**, **Transactiewijze** en **Bankrekening** van de factuur/creditnota de juiste waarden bevatten. Standaard worden deze gekopieerd vanuit de klantenkaart.  
 
-4.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
+4.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.  
 5.  Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.  
 6.  Kies de actie **Posten ophalen**.  
 
@@ -56,7 +57,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 2.  Maak een inkoopfactuur of creditnota en voer de leverancier en relevante items in.
 3. Boek de factuur.
 4. Controleer of de velden **Valutacode**, **Transactiewijze** en **Bankrekening** van de factuur/creditnota de juiste waarden bevatten. Standaard worden deze gekopieerd vanuit de leverancierskaart.  
-5.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
+5.  Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies de desbetreffende koppeling.  
 6.  Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.  
 7.  Kies de actie **Posten ophalen**.  
 

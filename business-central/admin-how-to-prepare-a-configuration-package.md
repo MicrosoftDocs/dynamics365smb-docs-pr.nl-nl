@@ -2,19 +2,20 @@
 title: Een configuratiepakket voorbereiden
 description: Leer nu om een RapidStart-configuratiepakket te configureren dat u kan helpen bij het opzetten van nieuwe bedrijven op basis van bestaande gegevens.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147083"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440721"
 ---
 # <a name="prepare-a-configuration-package"></a>Een configuratiepakket voorbereiden
 
@@ -73,20 +74,8 @@ Geef op welke velden worden opgenomen in het pakket. Standaard zijn alle velden 
     - Als u alleen de velden wilt selecteren die u wilt opnemen, kiest u de actie **Opgenomen items wissen**. U kunt alle velden toevoegen door de actie **Opgenomen items instellen** te kiezen.  
     - Als u wilt opgeven dat de veldgegevens niet moeten worden gevalideerd, schakelt u het selectievakje **Veld valideren** voor het veld uit.  
 
-10. Kies desgewenst, om verwerkingsfilters toe te passen op tabelgegevens, of om een codeunit toe te voegen met elke code die u in het pakket wilt opnemen, de regel voor de relevante tabel en kiest u vervolgens de actie **Verwerkingsregels**.
-
-    1. Vul de velden in op de pagina **Tabelverwerkingsregels config.**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Om filters op gegevens toe te passen specificeert u de relevante actie in het veld **Actie**, kiest u de actie **Verwerkingsfilters** en vult u vervolgens de velden in.  
-
-            De configuratiepakketten van Microsoft voor de evaluatiebedrijven stellen bijvoorbeeld verwerkingsfilters in op de tabellen **Verkoopkop** en **Inkoopkop**.
-        - Om een verwerkingscodeunit toe te voegen specificeert u deze in het veld **Codeunit-id aangepaste verwerking**.
-
-          > [!NOTE]
-          > Deze codeunit moet tabel 8614 *Pakketrecord voor configuratie* als parameter voor de methode `OnRun` gebruiken.
-    2. Sluit de pagina.
-11. Bepaal of u mogelijke fouten hebt geïntroduceerd door de actie **Pakket valideren** te kiezen. Dit kan gebeuren wanneer u tabellen waarvan uw configuratie afhankelijk is niet opneemt.  
-12. Kies de knop **OK**.  
+10. Bepaal of u mogelijke fouten hebt geïntroduceerd door de actie **Pakket valideren** te kiezen. Dit kan gebeuren wanneer u tabellen waarvan uw configuratie afhankelijk is niet opneemt.  
+11. Kies de knop **OK**.  
 
 Nadat u de lijst met velden die u wilt opnemen uit een tabel hebt verfijnd, kunt u uw resultaten in Excel controleren.  
 

@@ -1,22 +1,24 @@
 ---
-title: Borderelrapporten [NL]
+title: Borderelrapporten
 description: Met de Nederlandse toepassing voor telebankieren kunt u posten voor dezelfde klant of leverancier die dezelfde transactiewijze hebben tot één betaal- of verzamelopdracht voor de bank combineren.
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.prod: dynamics-nav-2018
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 3891f92c02e405b26d67a95763aace1ce67877a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.openlocfilehash: a991a1d8d78e616b9ed57d0533a4584f37beff38
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147344"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245878"
 ---
-# <a name="docket-reports-in-the-dutch-version"></a>Borderelrapporten in de Nederlandse versie
+# <a name="docket-reports"></a>Borderelrapporten
 Met de Nederlandse toepassing voor telebankieren kunt u posten voor dezelfde klant of leverancier die dezelfde transactiewijze hebben tot één betaal- of verzamelopdracht voor de bank combineren. Als zodanig wordt één totaalbedrag betaald aan of geïnd van de betreffende leverancier of klant. Mogelijk bevat deze gecombineerde betaling alle detailgegevens over de afzonderlijke betalingen of incasso's. Telebankieren biedt u de mogelijkheid om uw leverancier of klant gedetailleerd te informeren door een borderelrapport te genereren waarin de afzonderlijke betalingen worden beschreven waaruit het totale betaalde of geïnde bedrag bestaat.  
 
 Tijdens het genereren van betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen** wordt het selectievakje **Borderel** van het voorstel automatisch ingeschakeld als:  
@@ -27,6 +29,3 @@ Tijdens het genereren van betalingsvoorstellen met de batchverwerking **Voorstel
 
 ## <a name="see-also"></a>Zie ook  
  [Telebankieren](telebanking.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

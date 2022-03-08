@@ -1,20 +1,22 @@
 ---
-title: Documenten en dagboeken boeken
-description: Dit onderwerp beschrijft boekingsacties en de manieren waarop u documenten en dagboeken in de verschillende bedrijfsgrootboeken kunt boeken.
+title: Overzicht van documenten en dagboeken boeken | Microsoft Docs
+description: Geeft een overzicht van boekingsacties en de manieren waarop u documenten en dagboeken kunt boeken.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 794342d893b784c40f314b65e53a5d65a32489fa
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335575"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389596"
 ---
 # <a name="posting-documents-and-journals"></a>Documenten en dagboeken boeken
 Boeking staat voor de boekhoudingsactie waarbij zakelijke transacties in de verschillende bedrijfsgrootboeken worden geregistreerd.

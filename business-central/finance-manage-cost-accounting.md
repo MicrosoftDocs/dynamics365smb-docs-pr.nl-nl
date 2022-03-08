@@ -2,19 +2,20 @@
 title: Kosten verantwoorden | Microsoft Docs
 description: Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 69f39226c5fcca8adf9843bad42a2f060e7386d8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148616"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781057"
 ---
 # <a name="accounting-for-costs"></a>Kosten verantwoorden
 Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.  
@@ -34,7 +35,4 @@ Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zi
 ## <a name="see-also"></a>Zie ook  
 [Financiën](finance.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

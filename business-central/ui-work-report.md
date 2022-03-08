@@ -1,38 +1,38 @@
 ---
-title: Werken met rapporten, batchverwerkingen en XMLports
+title: Een rapport plannen voor uitvoering op een bepaalde datum en tijd | Microsoft Docs
 description: Leren over het invoeren van een lijst in een verwerkingswachtrij en het plannen om te worden verwerkt op een specifieke datum en tijd.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.search.keywords: task, process, report
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322952"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920369"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Werken met rapporten, batchverwerkingen en XMLports
 
-Een rapport verzamelt informatie op basis van een gespecificeerde set criteria. Het organiseert en presenteert de informatie in een gemakkelijk te lezen formaat dat u kunt afdrukken of opslaan als een bestand. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, verkoopstatistieken en meer.
+In een rapport wordt informatie verzameld op basis van een bepaalde reeks criteria. De informatie wordt hierin weergegeven in een makkelijk leesbare indeling die u kunt afdrukken of opslaan als een bestand. In de toepassing zijn er vele diverse rapporten die u kunt openen en gebruiken. De rapporten bieden veelal informatie in de context van de pagina waarop u werkt. De pagina **Klant** biedt bijvoorbeeld rapporten voor de top 10 van klanten, verkoopstatistieken en meer.
 
-Batchtaken en XMLports doen min of meer hetzelfde als rapporten, maar worden meer gebruikt voor de verwerking of export van gegevens. De batchverwerking **Aanmaningen maken** maakt bijvoorbeeld aanmaningsdocumenten voor klanten met achterstallige betalingen.  
+Batchtaken en XMLports doen min of meer hetzelfde als rapporten, maar met als doel een proces uit te voeren of gegevens te exporteren. De batchverwerking **Aanmaningen maken** maakt bijvoorbeeld aanmaningsdocumenten voor klanten met achterstallige betalingen.  
 
 > [!NOTE]
 > Dit onderwerp verwijst hoofdzakelijk naar 'rapport', maar soortgelijke informatie geldt voor batchverwerkingen en XMLports.
 
 ## <a name="getting-started"></a>Aan de slag
 
-U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zoeken gebruiken ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om rapporten op naam te vinden.
+U vindt rapporten op het tabblad **Rapporten** op bepaalde pagina's of u kunt zoeken ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen") om rapporten op naam te vinden.
 
 Wanneer u een rapport, batchtaak of XMLport opent, ziet u meestal een aanvraagpagina waarop u verschillende opties en filters kunt kiezen die bepalen wat er in het rapport wordt opgenomen. In de volgende secties wordt uitgelegd hoe u de aanvraagpagina gebruikt om een rapport te maken, te bekijken en af te drukken.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standaardwaarden gebruiken: vooraf gedefinieerde instellingen
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Standaardwaarden gebruiken: vooraf gedefinieerde instellingen 
 
 De meeste aanvraagpagina's bevatten het veld **Standaardwaarden gebruiken uit**. In dit veld kunt u vooraf gedefinieerde instellingen voor het rapport selecteren, waarmee automatisch opties en filters voor het rapport worden ingesteld. Selecteer een item in de vervolgkeuzelijst en u zult zien dat de opties en filters op de aanvraagpagina dienovereenkomstig veranderen.
 
@@ -42,7 +42,14 @@ Het veld **Standaardwaarden gebruiken uit** biedt een snelle en betrouwbare mani
 
 >[!NOTE]
 > De vooraf gedefinieerde instellingen worden doorgaans ingesteld en beheerd door een beheerder. Als u meer wilt weten, raadpleegt u [Opgeslagen instellingen voor rapporten en batchtaken beheren](reports-saving-reusing-settings.md).
+<!--
+Depending on the report, the request page might include the **Use default values from** field. This field lets you select a predefined set of can include the **Saved Settings** section that contains one or more entries in the **Use default value from** box. A saved setting is basically a predefined group of options and filters that you can apply to the report before previewing or sending the report to a file. The saved settings entry called **Last used options and filters** is always available. This entry sets the report to use options and filters that were used the last time you used the report.
 
+Using saved settings is a fast and reliable way to consistently generate reports that contain the correct data. After you set the **Use default value from** box to a saved settings entry, you can change any of the options and filters before previewing or saving the report. The changes that you make will not be saved to the saved settings entry you selected, but they will be saved to the **Last used options and filters** entry.
+
+>[!NOTE]
+>If you are an administrator, you can create and manage the saved settings for reports for all users. For more information, see [Manage Saved Settings for Reports and Batch Jobs](reports-saving-reusing-settings.md).
+-->
 ## <a name="specifying-the-data-to-include-in-reports"></a>De gegevens opgeven die in rapporten moeten worden opgenomen
 
 Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het rapport wilt, te wijzigen. U stelt filters in een rapport op ongeveer dezelfde manier in als filters in lijsten. Zie [Filteren](ui-enter-criteria-filters.md#filtering) voor meer informatie.
@@ -56,7 +63,7 @@ Gebruik de velden onder **Opties** en **Filters** om de informatie die u in het 
 
 ## <a name="previewing-a-report"></a>Een voorbeeld van een rapport bekijken
 
-Als u een voorbeeld van een rapport bekijkt, kunt u zien hoe het rapport eruitziet voordat u het afdrukt. Het voorbeeld is niet gebaseerd op de geselecteerde printer in het veld **Printer** op de aanvraagpagina. Het wordt bestuurd door de browser. Nadat u een voorbeeld hebt bekeken, kunt u teruggaan naar de aanvraagpagina en indien nodig wijzigingen aanbrengen in opties en filters.
+Als u een voorbeeld van een rapport bekijkt, kunt u zien hoe het rapport eruitziet voordat u het afdrukt. Het voorbeeld zal het rapport opmaken op basis van de [printer](#Printer) die wordt weergegeven in het veld **Printer** op de aanvraagpagina. Nadat u een voorbeeld hebt bekeken, kunt u teruggaan naar de aanvraagpagina en indien nodig wijzigingen aanbrengen in opties en filters.
 
 Om een voorbeeld van een rapport te bekijken kiest u de knop **Voorbeeld** of **Voorbeeld en sluiten** op de rapportverzoekpagina. De knop die wordt weergegeven, is afhankelijk van het rapport, dus sommige rapporten hebben de knop **Voorbeeld** terwijl andere de knop **Voorbeeld en sluiten** hebben. Beide knoppen openen een voorbeeld van het rapport. Het verschil is dat **Voorbeeld** de aanvraagpagina open houdt, zodat u ernaar kunt terugkeren, wijzigingen kunt aanbrengen, opnieuw een voorbeeld kunt bekijken of kunt afdrukken. Met **Voorbeeld en sluiten** wordt de aanvraagpagina gesloten, dus u moet het rapport opnieuw openen om wijzigingen aan te brengen of af te drukken.
 
@@ -72,7 +79,7 @@ Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 - Het formaat aanpassen aan de afmetingen van de pagina
 - Tekst selecteren
 
-    U kunt tekst uit een rapport kopiëren en die vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[prod_short](includes/prod_short.md)] of Microsoft Word.  Met bijvoorbeeld een muis houdt u ingedrukt waar u wilt beginnen. Beweeg vervolgens de muis om een of meer woorden, zinnen of alinea's te selecteren. Druk op de rechtermuisknop en selecteer **Kopiëren**. U kunt de geselecteerde tekst vervolgens overal plakken.
+    U kunt tekst uit een rapport kopiëren en die vervolgens ergens anders plakken, zoals als op een pagina in [!INCLUDE[d365fin](includes/d365fin_md.md)] of Microsoft Word.  Met een muis kunt u bijvoorbeeld drukken en vasthouden op het punt van waaraf u wilt beginnen, en dan de muis verplaatsen om een of meer woorden, zinnen of alinea's te selecteren. Druk op de rechtermuisknop en selecteer **Kopiëren**. U kunt de geselecteerde tekst vervolgens overal plakken.
 - Document pannen
 
     U kunt het zichtbare deel van het rapport in iedere richting verplaatsen, zodat u andere delen kunt bekijken. Pannen is handig als u hebt ingezoomd om details te zien.  U kunt bijvoorbeeld op een willekeurige plek in het rapportvoorbeeld klikken, de muisknop vasthouden en dan de muis verplaatsen.
@@ -80,22 +87,9 @@ Gebruik in het rapportvoorbeeld de menubalk om het volgende te doen:
 - Downloaden naar een PDF-bestand op uw computer of netwerk.
 - Afdrukken
 
-## <a name="saving-a-report-to-a-file"></a>Een rapport opslaan in een bestand
+## <a name="saving-a-report"></a>Een rapport opslaan
 
-U kunt een rapport opslaan als een PDF-document, een Microsoft Word-document of een Microsoft Excel-werkblad. Kies hiervoor de knop **Verzenden naar** en maak uw selectie.
-
-### <a name="about-sending-to-excel"></a>Over verzenden naar Excel
-
-U kunt werken met [!INCLUDE [prod_short](includes/prod_short.md)]-gegevens in Excel voor verdere analyse. Zie voor meer informatie [Rapportgegevens analyseren met Excel](report-analyze-excel.md).  
-<!--
-### About sending to Word
-
-Use the **Microsoft Word Document** option to generate a report as a Word document.  
-
-> [!NOTE]
-> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
-
--->
+U kunt een rapport opslaan als een PDF-document, een Microsoft Word-document of een Microsoft Excel-document. Kies hiervoor de knop **Verzenden naar** en maak uw selectie.
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a>Een rapport plannen voor uitvoering
 
@@ -103,25 +97,46 @@ U kunt een batchtaak plannen voor uitvoering op een bepaalde datum en tijd. Gepl
 
 Wanneer u een rapport plant dat moet worden uitgevoerd, kunt u bijvoorbeeld opgeven dat het elke donderdag moet worden uitgevoerd door het veld **Formule voor volgende uitvoeringsdatum** in te stellen op *D4*. Zie voor meer informatie [Datumformules gebruiken](ui-enter-date-ranges.md#using-date-formulas).  
 
-U kunt ervoor kiezen het rapport op te slaan in een bestand, zoals een Excel-, Word- of PDF-bestand, het af te drukken of het rapport alleen te genereren. Als u ervoor kiest het rapport in een bestand op te slaan, wordt het verwerkte rapport naar het gebied **Rapportinbox** in uw rolcentrum verzonden, waar u het kunt bekijken.  
+U kunt ervoor kiezen het rapport op te slaan in een bestand, zoals een Excel-, Word- of PDF-bestand, het af te drukken op een geselecteerde printer of het rapport alleen te genereren. Als u ervoor kiest het rapport in een bestand op te slaan, wordt het verwerkte rapport naar het gebied **Rapportinbox** in uw rolcentrum verzonden, waar u het kunt bekijken.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Een rapport afdrukken
 
 Als u een rapport wilt afdrukken, kiest u de knop **Afdrukken** op de aanvraagpagina of op de menubalk op de pagina **Voorbeeld**.
 
+<!--
+### Printer selection
+
+The report prints to the printer shown in the **Selected printer** field on the report request page. You can't change the printer from this page.
+
+The selected printer is either set on the **Printer Selections** page or it's the default printer set up on the **Printer Management** page. If you want to use another printer, see  [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+If no printer is specified on the **Printer Selections** page or set as default on the **Printer Management** page, the browser printing feature is used. In this case, **Browser** appears in the **Selected printer** field on the report request page.
+-->
 ### <a name="printer"></a><a name="Printer"></a>Printer
 
-Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het rapport heen wordt gestuurd. Om een printer te wijzigen selecteert u de printer in de lijst.
+Het veld **Printer** op de aanvraagpagina bevat de naam van de printer waar het rapport heen wordt gestuurd. **(Door de browser afgehandeld)** geeft aan dat er geen aangewezen printer is voor het rapport. In dit geval zal de browser de afdruk afhandelen en een standaardervaring weergeven, waarbij u een lokale printer kunt kiezen die op uw apparaat is aangesloten.
+
+U kunt de printer niet wijzigen met het veld **Printer**. Om de printer te wijzigen moet u naar de pagina **Printerselecties** of **Printerbeheer** gaan. Het instellen van de printer is doorgaans een beheerderstaak. Als u meer wilt weten, raadpleegt u [Printers instellen](ui-specify-printer-selection-reports.md).
+
+<!--
+### Browser printing
+
+Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+
+If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> **(Door de browser afgehandeld)** geeft aan dat er geen aangewezen printer is voor het rapport. In dit geval zal de browser de afdruk afhandelen en een standaardervaring weergeven, waarbij u een lokale printer kunt kiezen die op uw apparaat is aangesloten. **(Afgehandeld door de browser)** is niet beschikbaar in de mobiele [!INCLUDE[prod_short](includes/prod_short.md)]-app of de app voor Microsoft Teams.
+> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
 
-> [!TIP]
-> De printer die standaard voor u is geselecteerd, wordt ingesteld op de pagina **Printerselecties**. Zie voor informatie over het wijzigen van de standaardprinter [Selecteren welke printers welke rapporten afdrukken](ui-specify-printer-selection-reports.md#default).
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
 
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Rapporten afdrukken in het Thai
 
-Specifiek voor de Thaise versie van [!INCLUDE[prod_short](includes/prod_short.md)] kan de knop **Afdrukken** geen rapporten correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
+Specifiek voor de Thaise versie van [!INCLUDE[prodshort](includes/prodshort.md)] kan de knop **Afdrukken** geen rapporten correct afdrukken vanwege beperkingen in de service die het afdrukbare PDF-bestand genereert. In plaats hiervan kunt u het rapport openen in Word en vervolgens opslaan als een afdrukbare PDF.  
 
 U kunt ook de beheerder vragen een Word-rapportlay-out te maken voor uw meest gebruikte rapporten. Zie voor meer informatie [Lay-outs van rapporten en documenten beheren](ui-manage-report-layouts.md).  
 
@@ -140,14 +155,11 @@ De velden onder **Geavanceerd** stellen beperkingen in voor het gegenereerde rap
 |Maximaal aantal documenten|500|
 
 > [!NOTE]
-> De maximale waarden kunnen verschillen voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises en een beheerder kan ze wijzigen. Zie [Business Central Server configureren: rapporten](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) voor meer informatie. Voor een overzicht van rapportbeperkingen in [!INCLUDE[prod_short](includes/prod_short.md)] online, raadpleegt u [Operationele limieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> De maximale waarden kunnen verschillen voor [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises en een beheerder kan ze wijzigen. Zie [Business Central Server configureren: rapporten](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) voor meer informatie. Voor een overzicht van rapportbeperkingen in [!INCLUDE[d365fin](includes/d365fin_md.md)] online, raadpleegt u [Operationele limieten](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Zie ook
 
 [Printers instellen](ui-specify-printer-selection-reports.md)  
 [Werken met agendadatums en -tijden](ui-enter-date-ranges.md)  
 [Indelingen van rapporten en documenten beheren](ui-manage-report-layouts.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

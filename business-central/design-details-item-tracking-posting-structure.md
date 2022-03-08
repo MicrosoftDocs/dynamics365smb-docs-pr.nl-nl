@@ -1,20 +1,21 @@
 ---
-title: 'Ontwerpdetails: Boekingsstructuur artikeltracering'
-description: Leer hoe u artikelposten gebruikt als de primaire drager van artikeltraceringsnummers in de boekingsstructuur Artikeltracering.
+title: 'Ontwerpdetails: Boekingsstructuur artikeltracering | Microsoft Docs'
+description: Leer hoe u artikelposten als primaire bron van artikeltraceringsnummers gebruikt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a016863dc7dd5667074060a21e352ce4a56444cd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136319"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880157"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Ontwerpdetails: Boekingsstructuur artikeltracering
 Artikelposten worden gebruikt als primaire bron van artikeltraceringsnummers om af te stemmen met de functionaliteit voor voorraadwaardering en om een eenvoudigere en robuustere oplossing te bieden.  
@@ -47,5 +48,3 @@ Codeunit 22 doorloopt de artikeltraceringsnummers en splitst de boeking in de re
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)   
 [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,18 +1,19 @@
 ---
-title: Werkstroomberichten instellen
-description: In dit onderwerp wordt uitgelegd hoe u werkstroommeldingen instelt om een gebruiker te waarschuwen dat er een gebeurtenis is opgetreden waarop hij of zij moet reageren; een werkstroomreactie is vereist.
+title: Werkstroomberichten
+description: In veel werkstroomantwoorden wordt aan een gebruiker gemeld dat er een gebeurtenis is opgetreden waarop deze moet reageren. De gebeurtenis in een werkstroomstap kan bijvoorbeeld zijn dat Gebruiker 1 de goedkeuring van een nieuwe record aanvraagt, en het antwoord is dat er een bericht wordt verzonden naar Gebruiker 2, de fiatteur. In de volgende werkstroomstap kan de gebeurtenis zijn dat Gebruiker 2 de record goedkeurt, en het antwoord is dat er een bericht wordt verzonden naar Gebruiker 3, die een gerelateerde bewerking van de goedgekeurde record start. Voor werkstroomstappen die betrekking hebben op goedkeuring, is elk bericht gekoppeld aan een goedkeuringspost.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 10/14/2020
 ms.author: edupont
-ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d11a391a7fd91f6a094dfae9f8908ba4314b357a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134015"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378945"
 ---
 # <a name="workflow-notifications"></a>Werkstroomberichten
 
@@ -39,10 +40,6 @@ U stelt verschillende aspecten van werkstroomberichten op de volgende plaatsen i
 * De e-mailberichten aanpassen
 
     Als u wilt, kunt u de inhoud van het e-mailbericht wijzigen door rapport 1320, Berichte-mail te wijzigen. Zie voor meer informatie [Aangepaste rapportlay-outs maken en wijzigen](ui-how-create-custom-report-layout.md).  
-
-    > [!NOTE]
-    > Als u e-mail wilt gebruiken als meldingsmethode, moet u e-mail instellen voor zowel de afzender als de ontvanger in [!INCLUDE [prod_short](includes/prod_short.md)]. Zie [E-mail instellen](admin-how-setup-email.md) voor meer informatie.
-
 * Reactieopties
 
     U stelt specifieke inhoud en regels van een werkstroombericht in als u de betreffende werkstroom maakt. U doet dit door opties te selecteren op de pagina **Opties werkstroomreactie** voor het werkstroomantwoord dat het bericht representeert. Zie voor meer informatie stap 9 in [Werkstromen maken](across-how-to-create-workflows.md).  

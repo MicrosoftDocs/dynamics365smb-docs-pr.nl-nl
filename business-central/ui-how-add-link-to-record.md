@@ -1,20 +1,21 @@
 ---
-title: Bijlagen, koppelingen en notities aan records toevoegen
+title: Bijlagen, koppelingen en notities aan records toevoegen | Microsoft Docs
 description: Koppel een hyperlink aan een document of een website aan een bepaalde record, zoals een klant of document.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/27/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142851"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324411"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Bijlagen, koppelingen en notities op kaarten en in documenten beheren
 
@@ -25,19 +26,17 @@ Als u een van deze bijgevoegde informatietypen wilt bekijken of wijzigen, moet u
 Bijlagen, koppelingen en notities blijven gekoppeld terwijl de kaart of het document wordt verwerkt in andere staten, zoals van een lopende verkooporder naar een geboekte verkoopfactuur. Geen van de bijlagetypen wordt echter door het systeem uitgevoerd, bijvoorbeeld bij het afdrukken of bij het opslaan in een bestand.
 
 > [!NOTE]
-> Wanneer u een verkooporder of inkooporder gedeeltelijk verzendt en factureert, wordt de bijlage alleen aan de definitieve factuur van de order toegevoegd. Wanneer u factureert met de functie Uitstel, wordt de bijlage ook alleen gekoppeld aan de grootboekposten voor het document, maar niet voor de uitstelposten.
->
-> Als u een bestelling verwijdert voordat deze wordt gefactureerd, wordt de bijlage ook verwijderd. Wanneer u inkooporders factureert met de actie Ontvangstregels ophalen van een inkoopfactuur, wordt de bijlage op de inkooporders niet toegevoegd aan de inkoopfactuur.
+> Wanneer u een verkooporder of inkooporder gedeeltelijk verzendt en factureert, wordt de bijlage alleen aan de definitieve factuur van die order toegevoegd. Wanneer u factureert met de functie Uitstel, wordt de bijlage alleen gekoppeld aan de grootboekposten voor het document, maar niet voor de uitstelposten.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Een bestand bijvoegen bij een inkoopfactuur
-U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[prod_short](includes/prod_short.md)].
+U kunt elk type bestand met tekst, afbeelding of video aan een kaart of document toevoegen. Dit is bijvoorbeeld handig als u de factuur van een leverancier wilt opslaan als PDF-bestand op de bijbehorende inkoopfactuur in [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
 > Bestanden die zijn gekoppeld met de functie Inkomende documenten, worden niet opgenomen op het tabblad **Bijlagen**. Zie voor meer informatie [Inkomende documenten](across-income-documents.md).
 
 De volgende procedure is gebaseerd op een inkoopfactuur. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Inkoopfacturen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopfacturen** in en kies de gerelateerde koppeling.
 2. Open de verkooporder waaraan u een bestand wilt koppelen.
 3. Open het feitenblok **Bijlagen**.
 4. Kies de waarde achter het veld **Documenten**, zoals '0'.
@@ -57,17 +56,17 @@ Wanneer u een document als bestand moet opslaan, kunt u de actie **Bijvoegen als
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen zijn vergelijkbaar voor alle ondersteunde documenten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Selecteer een verkooporder en kies de actie **Bijvoegen als PDF**.
 
 Een PDF-bestand met de huidige inhoud van de verkooporder wordt toegevoegd aan het tabblad **Bijlagen** in het feitenblok.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Een koppeling toevoegen vanuit een artikelkaart
-U kunt een koppeling vanuit een kaart of document toevoegen aan een URL. Dit is bijvoorbeeld handig als u een artikelkaart wilt koppelen aan de artikelcatalogus van de leverancier.
+U kunt een koppeling vanuit een kaart of document toevoegen aan een URL of pad. Dit is bijvoorbeeld handig als u een artikelkaart wilt koppelen aan de artikelcatalogus van de leverancier.
 
 De volgende procedure is gebaseerd op een artikelkaart. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.
 2. Selecteer het item waaruit u een koppeling wilt toevoegen en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
 3. Kies in de **Koppelingen** het pictogram **+**.
 4. Voer in het veld **Koppelingsadres** de koppeling in.
@@ -87,7 +86,7 @@ U kunt bijvoorbeeld een notitie op een document of kaart schrijven om speciale i
 
 De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op alle andere ondersteunde documenten en kaarten.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
 2. Selecteer de verkooporder waarin u een notitie wilt schrijven en kies vervolgens het tabblad **Bijlagen** in het feitenblok.
 3. Kies in de sectie **Notities** het pictogram **+**.
 4. Schrijf in het veld **Notitie** tekst, zoals "Dit is een dringende bestelling."
@@ -96,9 +95,6 @@ De volgende procedure is gebaseerd op een verkooporder. De stappen lijken op all
 De notitie is nu aan de verkooporder toegevoegd.
 
 ## <a name="see-also"></a>Zie ook  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Werkstroomberichten instellen](across-setting-up-workflow-notifications.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
