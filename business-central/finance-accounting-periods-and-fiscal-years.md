@@ -1,21 +1,20 @@
 ---
-title: Werken met boekingsperioden en boekjaren | Microsoft Docs
+title: Werken met boekingsperioden en boekjaren
 description: Leren werken met boekhoudperioden om te definiëren wanneer uw bedrijf financiële prestaties rapporteert.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d7927c8adcf19fae55af48ea699ea9b852d6974
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442822"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136163"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Werken met boekingsperioden en boekjaren
 

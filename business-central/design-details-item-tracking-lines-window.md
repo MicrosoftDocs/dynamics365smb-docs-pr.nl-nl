@@ -1,21 +1,20 @@
 ---
-title: 'Ontwerpdetails: Pagina Artikeltraceringsregels | Microsoft Docs'
-description: Lees hoe u de stroom van serie- en lotnummers in uw voorraad beheert.
+title: 'Ontwerpdetails: Pagina Artikeltraceringsregels'
+description: Lees hoe u de stroom van serie- en lotnummers in uw voorraad beheert met de pagina Artikeltraceringsregels.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: dbc5c7020781705d84388108579693b48d3c2e2f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787518"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146646"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Ontwerpdetails: Pagina Artikeltraceringsregels
 Artikeltraceringsrecords en reserveringsrecords worden gemaakt in het reserveringsysteem en hun beschikbaarheid wordt dynamisch berekend. Gegevens die op de pagina **Artikeltraceringsregels** worden ingevoerd, worden beheerd in een tijdelijke versie van de tabel **Traceringsspecificatie**. Wanneer de pagina is gesloten, worden de actieve gegevens vastgelegd in de tabel **Reserveringspost** en worden de historische gegevens vastgelegd in de tabel **Traceringsspecificatie**. Zie voor meer informatie [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md).  
@@ -32,3 +31,5 @@ De regels voor het invoeren van gegevens op de pagina **Artikeltraceringsregels*
   
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

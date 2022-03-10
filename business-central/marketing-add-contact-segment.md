@@ -4,26 +4,25 @@ description: Nadat u een segment hebt gemaakt, kunt u contacten toevoegen aan he
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d5c1d54a56509cae379f7a8b62d77c56796f29ba
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135208"
 ---
 # <a name="add-contacts-to-segments"></a>Contacten toevoegen aan segmenten
 Nadat u een segment hebt gemaakt en de basisinformatie ervoor hebt ingevoerd, kunt u contactpersonen toevoegen aan het segment. U kunt dit doen door de regels op de pagina **Segment** handmatig in te vullen, maar het is eenvoudiger en sneller om de functie **Contacten toevoegen** te gebruiken.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Contacten toevoegen aan een segment
-1. Kies het pictogram ![lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Segmenten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer het segment en kies vervolgens de actie **Contacten toevoegen**. De batchverwerkingspagina **Contacten toevoegen** wordt geopend.
 3. Stel in het gedeelte **Contact** filters in om de gegevens op te geven op basis waarvan u contacten wilt selecteren.
 
@@ -57,4 +56,7 @@ U kunt een segment een onbeperkt aantal keren verminderen. Als u het segment per
 [Een segment maken](marketing-how-create-segment.md)   
 [Segmenten beheren](marketing-segments.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

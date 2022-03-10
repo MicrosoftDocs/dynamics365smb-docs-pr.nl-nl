@@ -3,7 +3,6 @@ title: Extensies installeren en verwijderen in Business Central | Microsoft Docs
 description: Hier krijgt u meer informatie over het installeren en verwijderen van extensies in Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,19 +10,19 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434983"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140394"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Extensies installeren en verwijderen in Business Central
 
 U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door extensies te installeren die bijvoorbeeld functionaliteit toevoegen, gedrag wijzigen of u toegang verlenen tot nieuwe online services. Zie [Business Central aanpassen met extensies](ui-extensions.md) voor meer informatie.
 
 > [!NOTE]
-> Als u extensies wilt installeren vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet ofwel lid zijn van de gebruikersgroep UITGEBREID BEHEER - - BEHEERDER of u moet de machtigingenset UITGEBR. BEHEER - - BEHEERDER hebben. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
+> Als u extensies wilt installeren of verwijderen vanuit AppSource of extensies per tenant wilt toevoegen, moet u de juiste machtigingen hebben. U moet ofwel lid zijn van de gebruikersgroep UITGEBREID BEHEER - - BEHEERDER of u moet de machtigingenset UITGEBR. BEHEER - - BEHEERDER hebben. Als u een beheerder bent, kunt u gebruikersgroepen en machtigingen toewijzen aan andere gebruikers in uw bedrijf.
 >
 > Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 
@@ -75,6 +74,13 @@ Microsoft biedt de volgende extensies:
 * [DK - Btw-bestandsindelingen](ui-extensions-tax-file-formats-dk.md)
 * [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [VS/CA/VK/AU/NZ/ZA - Overschrijvingsadvies verzenden](ui-extensions-send-remittance-advice.md)
+
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Een per-tenant extensie (PTE) uploaden
+
+U uploadt een PTE met behulp van de pagina **Extensiebeheer**. Ga op de pagina **Extensiebeheer** naar **Beheren** en kies **Extensie uploaden**. Geef op de pagina **Extensie uploaden en implementeren** het .app-bestand op dat u wilt uploaden. Kies om verder te gaan de knop **Accepteren** en dan de knop **Implementeren**. Hierdoor wordt hiermee het proces van het implementeren van de PTE gestart.
+
+Als de PTE onderbrekende schemawijzigingen bevat, is het mogelijk om een upload ervan *af te dwingen*. Om dat te doen kiest u in de **Schemasynchronisatiemodus** de optie **Afdwingen**. U krijgt een bevestigingsdialoogvenster om te accepteren voordat u verder gaat. 
 
 ## <a name="uninstalling-an-extension"></a>Een extensie verwijderen
 

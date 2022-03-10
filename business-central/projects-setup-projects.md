@@ -1,24 +1,25 @@
 ---
-title: Resources, urenstaten en taken instellen| Microsoft Docs
-description: Beschrijft hoe u resources, urenstaten en taken instelt om projecten te beheren.
+title: Resources, urenstaten en taken instellen
+description: In dit onderwerp wordt beschreven hoe u resources, urenstaten en taken instelt om projecten en hun budgetten te beheren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2020
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bb76950dcf84a49ed2644a7db19827999579d24b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 099698611820f791d36c659f983316dee03d9c9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918960"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146225"
 ---
 # <a name="setting-up-project-management"></a>Projectbeheer instellen
-Voordat u [!INCLUDE[d365fin](includes/d365fin_md.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen.
+
+Voordat u [!INCLUDE[prod_short](includes/prod_short.md)] kunt gebruiken om projecten te beheren, moet u resources, urenstaten en projecten instellen.
 
 Vervolgens kunt u projecten maken en resources plannen voor projecten, en budgetten beheren en machine- en werknemersuren bijhouden met urenstaten. Zie [Projecten beheren](projects-manage-projects.md) voor meer informatie.  
 
@@ -38,4 +39,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 [Financiën](finance.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
 [Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

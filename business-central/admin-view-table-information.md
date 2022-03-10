@@ -1,19 +1,20 @@
 ---
 title: Tabelgegevens weergeven
+description: Lees hoe u informatie over de databasetabellen rechtstreeks vanuit de clientinterface in Business Central kunt bekijken.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/20/2020
+ms.search.form: 8700
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275315"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133093"
 ---
 # <a name="viewing-table-information"></a>Tabelgegevens weergeven
 
@@ -23,7 +24,7 @@ Deze informatie is handig voor het oplossen van prestatieproblemen, omdat het u 
 
 ## <a name="viewing-table-information"></a>Tabelgegevens weergeven
 
-Als u deze pagina wilt openen, selecteert u het pictogram ![Zoeken naar pagina of rapport](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voert u **Tabelgegevens** in en kiest u vervolgens de gerelateerde koppeling.
+Om deze pagina te openen, selecteert u het pictogram ![Pagina of rapport zoeken.](media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voert u **Tabelgegevens** in en kiest u vervolgens de gerelateerde koppeling.
 
 In de volgende tabel wordt de informatie voor elke tabel beschreven:
 
@@ -39,3 +40,6 @@ In de volgende tabel wordt de informatie voor elke tabel beschreven:
 
 [Pagina's inspecteren](across-inspect-page.md)  
 [Prestatieartikelen voor ontwikkelaars](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

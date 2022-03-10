@@ -2,20 +2,20 @@
 title: Rentefactuurcondities instellen
 description: Leer hoe u Business Central zo instelt dat u klanten op de hoogte kunt stellen van extra kosten door rentefacturen te verzenden.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.date: 12/03/2020
+ms.search.form: 6, 494
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aba5ca8eb9425c11c7f8a55a08a153ee18821632
-ms.sourcegitcommit: 06bfb3aa59de50d983175e68e681b9d206423242
+ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4671979"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142052"
 ---
 # <a name="set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
 
@@ -41,7 +41,7 @@ Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de su
 
 ### <a name="to-set-up-finance-charge-terms"></a>Rentefactuurcondities instellen
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rentefactuurcondities** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rentefactuurcondities** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul indien nodig de velden in.
 3. Als u meer dan één combinatie van rentefactuurcondities wilt gebruiken, stelt u een code in voor elke.
 
@@ -73,3 +73,6 @@ Elke conditie in de tabel Rentefactuurcondities is bovendien gekoppeld aan de su
 [Openstaande saldi innen](receivables-collect-outstanding-balances.md)  
 [De termijnen en niveaus van aanmaningen instellen](finance-setup-reminders.md)  
 [Financiën instellen](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,26 @@
 ---
-title: Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken | Microsoft Docs
-description: Met het ADCS-systeem kunt u alle verplaatsingen van artikelen in het magazijn registreren. Bovendien worden sommige dagboekactiviteiten vastgelegd, waaronder voorraadmutaties in het artikeldagboek van magazijnen en inventarisaties.
+title: Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
+description: U kunt uw Automatic Data Capture System (ADCS) gebruiken om de beweging van artikelen in het magazijn te registreren en om enkele journaalactiviteiten te registreren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 10/01/2020
+ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925344"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144252"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Geautomatiseerd systeem voor gegevensvastlegging (ADCS) gebruiken
 
 > [!NOTE]
-> De oplossing Automated Data Capture System (ADCS) biedt [!INCLUDE[d365fin](includes/d365fin_md.md)] een manier om te communiceren met draagbare apparaten via webservices. U moet samenwerken met een Microsoft-partner die de koppeling tussen de webservice en het specifieke draagbare apparaat kan verzorgen. 
+> De oplossing Automated Data Capture System (ADCS) biedt [!INCLUDE[prod_short](includes/prod_short.md)] een manier om te communiceren met draagbare apparaten via webservices. U moet samenwerken met een Microsoft-partner die de koppeling tussen de webservice en het specifieke draagbare apparaat kan verzorgen. 
 
 Met het ADCS-systeem kunt u alle verplaatsingen van artikelen in het magazijn registreren. Bovendien worden sommige dagboekactiviteiten vastgelegd, waaronder voorraadmutaties in het artikeldagboek van magazijnen en inventarisaties. ADCS omvat meestal scannen van een barcode.
 
@@ -28,7 +28,7 @@ Als u ADCS wilt gebruiken, moet u elk artikel dat in het magazijn is opgeslagen 
 
 Op basis van de magazijnbehoeften bepaalt u welke informatie wordt weergegeven in het miniformulier dat op het draagbare apparaat verschijnt. Hier volgen enkele voorbeelden van informatie die kan worden weergegeven:  
 
-- Gegevens uit tabellen binnen [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals een lijst van de pickdocumenten waaruit de gebruiker kan selecteren.  
+- Gegevens uit tabellen binnen [!INCLUDE[prod_short](includes/prod_short.md)], zoals een lijst van de pickdocumenten waaruit de gebruiker kan selecteren.  
 - Tekstgegevens.  
 - Berichten die bevestigingen of fouten weergeven over activiteiten die zijn uitgevoerd en geregistreerd door de gebruiker van draagbare apparatuur .
 
@@ -37,7 +37,7 @@ Om Automated Data Capture System te gebruiken moet u de ADCS-webservice inschake
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>De ADCS-webservice inschakelen en publiceren  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Webservices** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Webservices** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**.  
 3. Voer op de pagina **Webservices** de volgende informatie in op een nieuwe regel:  
 
@@ -56,14 +56,14 @@ Als u ADCS wilt gebruiken, moet u opgeven welke magazijnlocaties de technologie 
 > [!NOTE]  
 >  Het is raadzaam om geen magazijn in te stellen voor het gebruik van ADCS als het magazijn tevens een opslaglocatiecapaciteitbeleid heeft.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Locaties** in en kies de gerelateerde koppeling.
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.
 2.  Selecteer een magazijn in de lijst waarvoor u ADCS wilt inschakelen en kies de actie **Bewerken**.
 3. Op de pagina **Vestiging** schakelt u het selectievakje **ADCS gebruiken** in.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Een artikel opgeven om ADCS te gebruiken  
 Aan elk magazijnartikel dat u wilt gebruiken met ADCS, moet een id-code worden toegewezen om dit aan het bijbehorende artikelnummer te koppelen. U kunt bijvoorbeeld de streepjescode van het artikel als de id-code gebruiken. Een artikel kan ook meerdere id-codes hebben. Dit kan nuttig zijn in gevallen waarin een artikel beschikbaar is in verschillende eenheden, zoals stuks en pallets. Wijs in dit geval aan elk artikel een id-code toe.    
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Artikelen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer in de lijst een artikel dat deel uitmaakt van uw ADCS-oplossing en kies de actie **Bewerken**.
 3. Kies op de pagina **Artikelkaart** de actie **Identificaties**.
 4. Kies op de pagina **Artikelidentificaties** de actie **Nieuw**.
@@ -78,13 +78,13 @@ Aan elk magazijnartikel dat u wilt gebruiken met ADCS, moet een id-code worden t
 ## <a name="to-add-an-adcs-user"></a>Een ADCS-gebruiker toevoegen  
 U kunt elke gebruiker toevoegen als een gebruiker van een ADCS-systeem (Automated Data Capture System). Wanneer u dit doet, moet de gebruiker ook een wachtwoord opgeven. Desgewenst kunt u ook een verbinding bieden op basis waarvan de ADCS-gebruiker kan worden geïdentificeerd als een magazijnwerknemer. Het ADCS-gebruikerswachtwoord kan afwijken van het Windows-wachtwoord van de gebruiker. Zie [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor meer informatie.
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **ADCS-gebruikers** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **ADCS-gebruikers** in en kies vervolgens de gerelateerde koppeling  
 2. Kies de actie **Nieuw**.  
 3.  Voer in het veld **Naam** een naam voor de gebruiker in. De naam mag maximaal 20 tekens bevatten, inclusief spaties.  
 4.  Voer in het veld **Wachtwoord** wachtwoord in. Het wachtwoord wordt gemaskeerd.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Opgeven dat een magazijnwerknemer een ADCS-gebruiker is  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnmedewerkers** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Magazijnmedewerkers** in en kies vervolgens de gerelateerde koppeling.  
 2.  Voeg, indien nodig, een nieuwe magazijnwerknemer toe. Zie voor meer informatie [Magazijnmedewerkers instellen](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Kies de actie **Lijst bewerken**.  
 4.  Selecteer een magazijnmedewerker in de lijst. Klik in het veld **ADCS-gebruiker** op de vervolgkeuzelijstpijl en selecteer vervolgens de naam van een ADCS-gebruiker in de lijst.  
@@ -99,7 +99,7 @@ U kunt miniforms gebruiken om de informatie te beschrijven die u op een draagbaa
 > Als u de functionaliteit van een miniformfunctie wilt implementeren of wijzigen, moet u een nieuwe codeunit maken voor het veld **Afhandeling codeunit** om de vereiste actie of reactie uit te voeren. U kunt meer leren over ADCS-functionaliteit door codeunits te onderzoeken, zoals 7705, 7706, 7712 en 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Een miniform voor ADCS maken  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Miniforms** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Miniforms** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Nieuw**.  
 3.  Voer in het veld **Code** een code in voor het miniform. Geef desgewenst in alle andere velden waarden op.  
 
@@ -110,7 +110,7 @@ U kunt miniforms gebruiken om de informatie te beschrijven die u op een draagbaa
 Wanneer u een miniform hebt gemaakt, volgt u de volgende stappen om functies te maken en functionaliteit aan verschillende toetsenbordinvoerwaarden te koppelen.  
 
 ### <a name="to-customize-miniform-functions"></a>Miniformfuncties aanpassen  
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Miniforms** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Miniforms** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer een miniform in de lijst en kies vervolgens de actie **Bewerken**.  
 3.  Kies de actie **Functies**.  
 4.  Selecteer in de vervolgkeuzelijst **Functie** een code voor de functie die u wilt koppelen aan het miniform. U kunt bijvoorbeeld ESC selecteren, zodat u functionaliteit koppelt aan het drukken op de toets ESC.  
@@ -121,4 +121,7 @@ Wanneer u een miniform hebt gemaakt, volgt u de volgende stappen om functies te 
 [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
 [Assemblagebeheer](assembly-assemble-items.md)    
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)  
-[Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

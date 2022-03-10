@@ -4,20 +4,19 @@ description: Schetst de taken voor het opgeven van informatie en codes, bijvoorb
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746013"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137832"
 ---
 # <a name="set-up-contacts"></a>Contacten instellen
 Wanneer u contacten maakt, kunt u specifieke gegevens invoeren, zoals de sector waartoe het contact behoort en uw zakenrelatie met de contacten.
@@ -161,3 +160,6 @@ Wanneer u een dubbel contact hebt gevonden, kunt u de pagina **Dubbele records s
 [Contacten maken](marketing-create-contact-companies.md)  
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

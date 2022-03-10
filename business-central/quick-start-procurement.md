@@ -2,20 +2,20 @@
 title: Snel aan de slag met inkoop (bevat video)
 description: Leer hoe u de eerste kritieke velden over leveranciers in Business Central invult, zodat u producten en services kunt gaan kopen.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
+ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 7d0b33b668bede3ac1a1a7b8bd981693c54cd4b7
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939998"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128736"
 ---
 # <a name="procurement-quick-start"></a>Snel aan de slag met inkoop
 

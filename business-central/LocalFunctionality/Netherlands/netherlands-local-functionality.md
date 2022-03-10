@@ -1,26 +1,24 @@
 ---
-title: Lokale functionaliteit voor Nederland
-description: In de volgende onderwerpen wordt de lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
-services: project-madeira
-documentationcenter: ''
+title: Lokale functionaliteit voor Nederland [NL]
+description: In de volgende onderwerpen wordt de verschillende lokale functionaliteit in de Nederlandse versie van Business Central beschreven.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: aafa30c345899b73b9925988759edfc1f8ad2e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: f6929233059df8f3864adcc9832235a96acdf70a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300116"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144170"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
-In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+
+In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Functiebeschikbaarheid  
 
@@ -49,7 +47,6 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Bankafschriften importeren en reconciliëren](how-to-import-and-reconcile-bank-statements.md) **Nu beschikbaar**
 
 * Hoofdfinanciën
-    * [Grootboek](general-ledger.md) **Nu beschikbaar**
     * [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md) **Nu beschikbaar**
     * [Vereiste beschrijvingen in grootboekposten](required-descriptions-in-g-l-entry.md) **Nu beschikbaar**
 
@@ -65,6 +62,11 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Updates op postcodes importeren](how-to-import-post-code-updates.md) **Nu beschikbaar**  
 
 ## <a name="see-also"></a>Zie ook
-[Werken met [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+[Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,24 +2,23 @@
 title: Klantgegevens migreren
 description: U kunt bestaande klantgegevens van een bestaand systeem naar Business Central migreren met RapidStart Services - of het gewoon rechtstreeks in het bedrijf invoeren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: fe667f86bbd70bbe3cf3e7560cc8de2bd6315f0d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377995"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335367"
 ---
 # <a name="migrate-customer-data"></a>Klantgegevens migreren
 
-U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren.
+U kunt bestaande klantgegevens van een bestaand ERP-systeem migreren naar [!INCLUDE[prod_short](includes/prod_short.md)] met de hulpprogramma's voor gegevensmigratie van RapidStart Services. U kunt Excel-bestanden gebruiken als gegevensdrager. U kunt de gegevens ook handmatig verplaatsen door deze rechtstreeks in het bedrijf in te voeren. Als alternatief kunt u de gids voor **Cloudmigratie** gebruiken om u te helpen bij het verplaatsen van gegevens. Zie [Gegevens migreren](/dynamics365/business-central/dev-itpro/administration/migrate-data) in de beheerdersinhoud voor meer informatie.
 
 > [!NOTE]
 > Velden van het type Blob kunnen niet worden geëxporteerd/geïmporteerd met Excel.
@@ -41,8 +40,8 @@ Voordat u begint, moet u ervoor zorgen dat u gemachtigd bent om de RapidStart Se
 >
 > Tabellen die verschillende primaire sleutels en velden met verschillende gegevenssoorten hebben, kunnen niet succesvol geïmporteerd worden. Als in het configuratiepakket bijvoorbeeld tabel **50000 Klant staat** met de primaire sleutel **Code20** en in het configuratiepakket van de database die u wilt importeren, tabel **50000 Bankrekening klant** staat met de primaire sleutel **Code20 + Code 20**, worden de gegevens niet geïmporteerd.  
 
-1. Open het nieuwe bedrijf.  
-2. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
+1. Open het nieuw bedrijf.  
+2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies de actie **Pakket importeren**. Navigeer naar het .rapidstart-pakketbestand dat u wilt importeren en kies vervolgens de actie **Openen**. Tijdens het importeren wordt de inhoud van het pakket gedecomprimeerd en wordt de pakketrecord gemaakt.  
 
     Wanneer het importeren voltooid is, kunt u het aantal configuratietabellen dat is geïmporteerd bekijken in het veld **Aantal tabellen**.  
@@ -63,7 +62,7 @@ U kunt nieuwe gegevensmigratiebestanden maken en aanpassen voor uw bedrijf.
 > [!TIP]
 > Een bestand kan alleen worden gebruikt voor het migreren van een veld waarvan de eigenschap **Veldklasse** is ingesteld op **Normaal**.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakket** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakket** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer en open het pakket dat u wilt gebruiken om gegevens te migreren en kies de actie **Tabellen ophalen**. De pagina **Pakkettabel ophalen** wordt geopend.  
 3. Voer in het veld **Tabel-ID** een tabelnummer in of selecteer een tabel in de lijst, bijvoorbeeld tabel 18, **Klant**. Het veld **Tabelnaam** wordt automatisch ingevuld.  
 4. Selecteer de nieuwe migratietabel en kies op het tabblad **Tabellen** de actie **Velden**. De pagina **Migratievelden** wordt geopend.  
@@ -79,7 +78,7 @@ Er wordt een nieuwe migratietabel gemaakt.
 ## <a name="to-export-data-migration-files"></a>Gegevensmigratiebestanden exporteren
 Nadat u hebt bepaald naar welke tabellen u klantgegevens wilt overbrengen, kunt u de bestanden exporteren.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer en open het pakket dat u wilt gebruiken voor het exporteren.
 3. Selecteer de tabel of tabellen die u wilt exporteren en kies vervolgens de actie **Naar Excel exporteren**.
 4. Sla het geëxporteerde Excel-bestand op.  
@@ -100,7 +99,7 @@ Als u gegevens vereffent die u hebt geïmporteerd uit Excel of uit een RapidStar
 
 In de volgende procedures moet u van tevoren kijken welke waarden u wilt behouden tijdens het migratieproces. Als u de volgende procedures wilt uitvoeren, hebt u gegevensmigratiebestanden (.xlsx) nodig die u hebt geëxporteerd vanuit [!INCLUDE[prod_short](includes/prod_short.md)]. Zie voor meer informatie [Gegevensmigratiebestanden exporteren](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.
 2. Open het pakket voor het betreffende bedrijf.  
 3. Selecteer de tabel waarvoor u waarden wilt toewijzen, en kies op het sneltabblad **Tabellen** de actie **Velden**.  
 4. Voor elk veld dat u wilt toewijzen, kiest u de actie **Toewijzing**.  
@@ -118,7 +117,7 @@ In het volgende voorbeeld ziet u hoe [!INCLUDE[prod_short](includes/prod_short.m
 3. Wanneer u gegevens vereffent, wordt de toewijzing die u voor het veld **Code** in de tabel **Verkoper/Inkoper** hebt opgegeven, ook meegenomen tijdens het verwerken van de velden **Verkoperscode** en **Inkoperscode**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Aanvullende waarden toevoegen aan [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Configuratiepakketten** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Configuratiepakketten** in en kies vervolgens de gerelateerde koppeling.  
 2. Selecteer de tabel waarvoor u extra waarden wilt toevoegen, en kies op het tabblad **Tabellen** de actie **Velden**.  
 3. Voor de velden waarvoor u wilt dat [!INCLUDE[prod_short](includes/prod_short.md)] aanvullende waarden toestaat tijdens migratie, schakelt u het selectievakje **Ontbrekende codes maken** in.  
 4. Importeer de klantgegevens. Zie [Klantgegevens importeren](admin-migrate-customer-data.md#to-import-customer-data) voor meer informatie.

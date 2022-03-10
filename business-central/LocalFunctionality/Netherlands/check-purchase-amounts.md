@@ -1,23 +1,22 @@
 ---
-title: Inkoopbedragen controleren
-description: Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkooporderdocument, gelijk zijn aan het totaalbedrag van de ingevoegde inkoopregels.
+title: Inkoopbedragen controleren [NL]
+description: De toepassing controleert of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkoopdocument, gelijk zijn aan het totaalbedrag van ingevoegde inkoopregels.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c3285a7f983087b202804393b54f8f4ac6402549
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: 0387069dbfff198dac8b6d774b7fa46a25cb9e53
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881365"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145086"
 ---
-# <a name="check-purchase-amounts"></a>Inkoopbedragen controleren
+# <a name="check-purchase-amounts-in-the-dutch-version"></a>Inkoopbedragen controleren in de Nederlandse versie
 Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkooporderdocument, gelijk zijn aan het totaalbedrag van de ingevoegde inkoopregels. Hiervoor moeten de velden **Documentbedrag incl. btw** en **Btw documentbedrag** ingevuld zijn op de pagina **Inkoopfactuur** of **Inkoopcreditnota**.  
 
  Als er slechts één inkoopregel is of als alle regels vallen onder hetzelfde btw-percentage, wordt het juiste **Btw documentbedrag**-veld automatisch berekend wanneer u de inkoopregels en het veld **Documentbedrag incl. btw** hebt ingevoegd. In het geval dat verschillende regels met verschillende btw-percentages bestaan, moet het veld **Documentbedrag incl. btw** handmatig worden gewijzigd.  
@@ -33,3 +32,6 @@ Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedr
 
 ## <a name="see-also"></a>Zie ook  
  [Validatie van inkoopbedragen instellen](how-to-set-up-validation-of-purchase-amounts.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

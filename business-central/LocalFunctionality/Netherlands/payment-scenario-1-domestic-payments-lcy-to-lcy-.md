@@ -1,25 +1,24 @@
 ---
-title: Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).
-description: U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
+title: Scenario 1 - binnenlandse betalingen (LV naar LV) [NL]
+description: In dit onderwerp wordt een scenario 1 beschreven waarin u telebankieren kunt gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers.
 documentationcenter: ''
 author: SorenGP
 services: project-madeira
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 145996c4e0cc9749fd0faaff69937caef4db0088
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/29/2021
+ms.author: edupont
+ms.openlocfilehash: 502d25933728500a5638ba35b97afe15b25ee24f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181076"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138979"
 ---
-# <a name="payment-scenario-1---domestic-payments-lcy-to-lcy"></a>Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).
+# <a name="payment-scenario-1---domestic-payments-lcy-to-lcy-in-the-dutch-version"></a>Betalingsscenario 1 - Buitenlandse betaling (LV naar LV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  
 
 De volgende lijst bevat de belangrijkste stappen:  
@@ -70,7 +69,7 @@ Standaard zijn in deze drie velden waarden ingevuld die zijn overgenomen uit de 
 Als de factuur is voltooid, kan deze worden geboekt.  
 
 ### <a name="example"></a>Voorbeeld  
-Als we een inkoopfactuur voor Olek Johansson maken, vullen we **OLEK** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden ingevuld die zijn overgenomen uit de leverancierskaart van Olek Johansson. Daarom zijn de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **<empty>**, **ABN** en **OJBA**. Deze waarden kunnen echter worden gewijzigd.  
+Als we een inkoopfactuur voor Olek Johansson maken, vullen we **OLEK** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden ingevuld die zijn overgenomen uit de leverancierskaart van Olek Johansson. Daarom zijn de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **\<empty\>**, **ABN** en **OJBA**. Deze waarden kunnen echter worden gewijzigd.  
 
 ## <a name="create-proposal"></a>Voorstel maken  
 Open de pagina **Telebank - bankoverzicht** en blader naar de bank die we voor onze betaling willen gebruiken. Open de pagina **Voorstel** en genereer betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen**.  
@@ -96,3 +95,6 @@ Het bankafschrift met onze betaling aan Olek Johansson wordt door onze bank ABN 
 ## <a name="see-also"></a>Zie ook  
  [Voorstellen maken.](how-to-create-proposals.md)   
  [Betalingsrun maken en exporteren](how-to-create-and-export-payment-history.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

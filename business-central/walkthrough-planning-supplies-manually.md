@@ -1,25 +1,24 @@
 ---
-title: 'Procedure: Leveringen handmatig plannen | Microsoft Docs'
-description: In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag.
+title: 'Procedure: leveringen handmatig plannen'
+description: Dit overzicht demonstreert het proces van het plannen van leveringsorders om aan nieuwe vraag te voldoen, inclusief het plannen van een inkoop-, transfer- en productieorder.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035628"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145235"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Procedure: Leveringen handmatig plannen
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 In het volgende overzicht ziet u het proces voor het plannen van voorraadorders om aan nieuwe vraag te voldoen. U kunt voorraadplanning starten met vaste tussenpozen, bijvoorbeeld elke ochtend of elke maandag, of wanneer u bericht krijgt van verkoop of productie, afhankelijk van het type vraag. In dit scenario gebruikt u de pagina **Orderplanning**, een eenvoudig voorraadplanningshulpmiddel op basis van handmatige besluitvorming in plaats van automatische planning op basis van parameters.  
 
@@ -67,7 +66,7 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
 ### <a name="to-use-the-order-planning-page"></a>De pagina Orderplanning gebruiken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Orderplanning** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Orderplanning** in en kies vervolgens de gerelateerde koppeling  
 
      Als de pagina **Orderplanning** voor het eerst wordt geopend, moet er een planning worden berekend om de nieuwe vraag weer te geven sinds deze voor het laatst is berekend.  
 
@@ -225,10 +224,13 @@ De pagina **Orderplanning** is toegankelijk vanaf verschillende locaties:
 
      Het bericht geeft aan dat nu in alle vereiste artikelen is voorzien. Controleer de vast gepland productieorders die worden gemaakt.  
 
-13. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Vast geplande productieorders** in en kies de gerelateerde koppeling.  
+13. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Vast geplande productieorders** in en kies vervolgens de gerelateerde koppeling.  
 
      Bekijk op de pagina **Vast geplande productieorders** hoe de begin- en eindtijden van afzonderlijke orders nu zijn gepland volgens de productstructuur. De onderdelen op het laagste niveau worden het eerst geproduceerd. Daarom moet u orders met meerdere niveaus plannen zoals is gedemonstreerd in deze planningswerkstroom.  
 
 ## <a name="see-also"></a>Zie ook  
  [Procedures voor bedrijfsprocessen](walkthrough-business-process-walkthroughs.md)   
- [Procedure: Goederen automatisch plannen](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: Over voorraadwaardering | Microsoft Docs
-description: Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).
+title: Over voorraadwaardering
+description: Het beheren van voorraadkosten heeft alles te maken met het vastleggen en rapporteren van bedrijfskosten, inclusief het rapporteren van productiekosten en voorraadkosten.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e15f8419c4b7fa10bcec0b672beb05d076d1bb3c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8961e3a29664932d67c8670e1b2d42ecbee228c0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750560"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145006"
 ---
 # <a name="about-inventory-costing"></a>Over voorraadwaardering
 Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).  
@@ -41,3 +40,6 @@ Voorraadkosten beheren heeft betrekking op het registreren en rapporteren van op
 ## <a name="see-also"></a>Zie ook
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

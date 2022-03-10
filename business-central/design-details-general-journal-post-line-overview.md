@@ -2,20 +2,19 @@
 title: Overzicht dagboekboekingsregel
 description: Dit onderwerp introduceert wijzigingen in Codeunit 12, Dagboek - Boekingsregel, en is de enige plaats om grootboek-, btw- en klant- en leveranciersposten in te voeren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9642c33d9d5994c6982029e4ae96897a7648b8c8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322469"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146693"
 ---
 # <a name="general-journal-post-line-overview"></a>Overzicht dagboekboekingsregel
 

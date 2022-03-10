@@ -1,23 +1,23 @@
 ---
-title: Een rapportlay-out up-to-date houden | Microsoft Docs
-description: Soms moet u een aangepaste rapportlay-out bijwerken die voor een rapport wordt gebruikt. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd.
+title: Aangepaste rapportlay-outs bijwerken
+description: Leer hoe u een aangepaste rapportlay-out kunt bijwerken die in een rapport wordt gebruikt, bijvoorbeeld wanneer er ontwerpwijzigingen zijn in de gegevensset van het rapport.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 9652, 9650
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0f55d52c866dbe6a9738dbec374c7a20af63b56
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781107"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144616"
 ---
 # <a name="update-custom-report-layouts"></a>Aangepaste rapportlay-outs bijwerken
+
 Soms moet u een aangepaste rapportlay-out die voor een rapport is gebruikt, bijwerken. Dit is vereist als er een ontwerpverandering in de gegevensset van het rapport is geweest, bijvoorbeeld een veld dat in de lay-out wordt gebruikt maar uit de gegevensset van het rapport is verwijderd. Als voor een rapportlay-out bijwerken vereist is, krijgt u een foutbericht wanneer u probeert een voorbeeld van het rapport te bekijken of het rapport af te drukken of op te slaan.  
 
 U kunt een rapportlay-out automatisch bijwerken vanuit het foutbericht dat wordt weergegeven wanneer u het rapport uitvoert. In dat geval kiest u de knop **Ja** in het foutbericht. In geavanceerde of actieve rapporten kunt u bepaalde rapportlay-outs of alle aangepaste rapportlay-outs bijwerken die mogelijk zijn beïnvloed door wijzigingen in gegevenssets.  
@@ -28,7 +28,7 @@ Niet alle wijzigingen in de gegevensset van rapporten kunnen automatisch worden 
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Een of meer aangepaste rapportlay-outs bijwerken  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Rapportlay-outs** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Rapportlay-outs** in en kies vervolgens de gerelateerde koppeling.  
 
 2.  Als u een bepaald rapport wilt bijwerken, selecteert u deze lay-out in de lijst op de pagina **Rapportlay-outs** en kiest u de actie **Lay-out bijwerken**. Als u alle aangepaste rapportlay-outs voor het bedrijf wilt bijwerken, kiest u de actie **Alle lay-outs bijwerken**.  
 
@@ -36,7 +36,7 @@ Als zich geen fouten voordoen, worden de updates toegepast op de rapportlay-outs
 
 ## <a name="to-test-custom-report-layout-updates"></a>Updates van aangepaste rapportlay-outs testen  
 
-1.  Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Selectie van rapportlay-out** in en kies de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Selectie rapportlay-out** in en kies vervolgens de gerelateerde koppeling.  
 
 2.  Kies op de pagina **Selectie van rapportlay-out** de actie **Testlay-outupdates**.  
 
@@ -67,3 +67,6 @@ Nadat u de lay-out hebt gewijzigd, probeert u de lay-out opnieuw bij te werken.
 ## <a name="see-also"></a>Zie ook  
  [Rapportlay-outs beheren](ui-manage-report-layouts.md)  
  [Werken met rapporten, batchverwerkingen en XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

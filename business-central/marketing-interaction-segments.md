@@ -1,23 +1,22 @@
 ---
-title: Segmenten en gerelateerde interactie traceren| Microsoft Docs
+title: Segmenten en gerelateerde interacties bijhouden
 description: Meer informatie over het maken van segmenten om groepen contacten te definiëren en interacties op te geven voor segmenten.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.search.forms: 5139,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d30294d3d164ebbb6ea8b79ca38f23274900de5e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308977"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131402"
 ---
 # <a name="manage-interactions-for-segments"></a>Interacties voor segmenten beheren
 De pagina **Segment** is een soort werkblad waarop u het volgende kunt doen:
@@ -52,3 +51,6 @@ Op de pagina **Geregistreerde segmenten** kunt u besluiten een follow-upsegment 
 [Verkoopopportunities beheren](marketing-manage-sales-opportunities.md)  
 [Contactpersonen maken en beheren](marketing-contacts.md)  
 [Werken met Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

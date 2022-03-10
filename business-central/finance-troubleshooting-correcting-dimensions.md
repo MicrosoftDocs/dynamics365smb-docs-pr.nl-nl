@@ -2,20 +2,20 @@
 title: Problemen met dimensies oplossen en dimensies corrigeren
 description: Leer hoe u typische dimensiefouten oplost en hoe u dimensies corrigeert nadat ze zijn gebruikt voor geboekte transacties.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
+ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 111e9b3dae70cc984ecc495a815de3d41ef42133
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 91dce6ef4fee44800ab5892a986783139eeed892
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589004"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146459"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Problemen met dimensies oplossen en dimensies corrigeren
 

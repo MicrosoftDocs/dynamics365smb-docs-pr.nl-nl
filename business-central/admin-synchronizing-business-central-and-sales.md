@@ -2,7 +2,6 @@
 title: Synchronisatie en gegevensintegratie | Microsoft Docs
 description: Synchronisatie kopieert gegevens tussen Microsoft Dataverse-tabellen en Business Central-records en houdt de gegevens in beide systemen up-to-date.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865360"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148821"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Gegevens synchroniseren in Business Central en Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Wanneer u [!INCLUDE[prod_short](includes/cds_long_md.md)] met [!INCLUDE[prod_short](includes/prod_short.md)] integreert, kunt u bepalen of gegevens in geselecteerde velden van [!INCLUDE[prod_short](includes/prod_short.md)]-records (zoals klanten, contactpersonen en verkopers) worden gesynchroniseerd met equivalente rijen in [!INCLUDE[prod_short](includes/cds_long_md.md)] (zoals rekeningen, contacten en gebruikers). Afhankelijk van het type rij kunt u gegevens vanuit [!INCLUDE[prod_short](includes/cds_long_md.md)] synchroniseren met [!INCLUDE[prod_short](includes/prod_short.md)] of andersom. Zie voor meer informatie [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 

@@ -2,20 +2,19 @@
 title: 'Ontwerpdetails: Artikeltracering en planning | Microsoft Docs'
 description: Omdat ze in het reserveringsysteem worden opgeslagen, zijn artikeltraceringsnummers volledig gecoördineerd met ordertraceringsrecords.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 4f9fd9287055bed116201d13417a6a392cf9b477
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926994"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142390"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Ontwerpdetails: Artikeltracering en planning
 Omdat ze in het reserveringsysteem worden opgeslagen, zijn artikeltraceringsnummers volledig gecoördineerd met ordertraceringsrecords. Dit betekent dat aan artikelen met ordertraceringsrecords artikeltraceringsnummers kunnen worden toegewezen. Andersom kunnen artikelen die artikeltraceringsnummers hebben, ordertraceringsrecords worden. Zie [Ontwerpdetails: artikeltraceringsontwerp](design-details-item-tracking-design.md) voor meer informatie.
@@ -56,3 +55,6 @@ Zie voor meer informatie [Ontwerpdetails: Vraag en aanbod afstemmen](design-deta
 [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
 [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

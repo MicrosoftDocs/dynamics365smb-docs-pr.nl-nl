@@ -1,21 +1,20 @@
 ---
 title: Afdelingen en bewerkingsplaatsen instellen
-description: Op een **afdelingskaart** staan alle vaste waarden en behoeften van de desbetreffende productieresource bij elkaar. Op die manier wordt de productie-output die op die afdeling wordt uitgevoerd door de kaart bepaald.
+description: Op een afdelingskaart staan alle vaste waarden en behoeften van de desbetreffende productieresource bij elkaar. Op die manier wordt de productie-output die op die afdeling wordt uitgevoerd door de kaart bepaald.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3cc89545cced46acbe5d148853ac46c4135d251e
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: 3d504897d7a0ac8f24f49d09a4f8ee92035fa13e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "7714519"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132755"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Afdelingen en bewerkingsplaatsen instellen
 

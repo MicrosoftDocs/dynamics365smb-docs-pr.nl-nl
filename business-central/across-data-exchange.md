@@ -1,28 +1,27 @@
 ---
-title: Elektronische documenten in Business Central | Microsoft Docs
-description: Inleiding in het verzenden en ontvangen van elektronische documenten in Business Central.
+title: Elektronische documenten in Business Central
+description: Dit is een overzicht van hoe u het raamwerk voor gegevensuitwisseling kunt gebruiken voor het beheren van de uitwisseling van gegevens in bedrijfsdocumenten, zoals bankbestanden en valutawisselkoersen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141720"
 ---
 # <a name="exchanging-data-electronically"></a>Gegevens elektronisch uitwisselen
 U kunt het raamwerk voor gegevensuitwisseling gebruiken voor het beheren van de uitwisseling van bedrijfsdocumenten, bankbestanden, valutawisselkoersen en andere gegevensbestanden met uw zakelijke partners.
 
-In de standaardversie van [!INCLUDE[d365fin](includes/d365fin_md.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in functies, zoals elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
+In de standaardversie van [!INCLUDE[prod_short](includes/prod_short.md)] wordt het raamwerk voor gegevensuitwisseling gebruikt in processen, zoals uitwisseling van elektronische documenten, het importeren en exporteren van bankbestanden en het bijwerken van wisselkoersen voor valuta's. Zie voor meer informatie [Over het raamwerk voor gegevensuitwisseling](across-about-the-data-exchange-framework.md).
 
-Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door in te stellen welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
+Als beheerder of Microsoft-partner kunt u het raamwerk in nieuwe integratiefuncties gebruiken door op te geven welke gegevens moeten worden uitgewisseld en hoe. Zie [Definities voor gegevensuitwisseling instellen](across-how-to-set-up-data-exchange-definitions.md) voor meer informatie.
 
 De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpen waarin deze worden beschreven.  
 
@@ -39,3 +38,6 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de onderwerpe
 [Gegevens uitwisselen](across-exchange-data.md)  
 [Inkomende documenten](across-income-documents.md)  
 [Algemene bedrijfsfunctionaliteit](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

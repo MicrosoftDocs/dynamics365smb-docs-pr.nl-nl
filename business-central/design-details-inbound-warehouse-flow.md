@@ -1,23 +1,20 @@
 ---
-title: 'Ontwerpdetails: Inkomende magazijnstroom | Microsoft Docs'
-description: De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.
-services: project-madeira
-documentationcenter: ''
+title: 'Ontwerpdetails: Inkomende magazijnstroom'
+description: De inkomende magazijnstroom begint wanneer artikelen op de locatie van het magazijnbedrijf aankomen. Artikelen worden geregistreerd en uiteindelijk gematcht met inkomende brondocumenten.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303481"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132000"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Ontwerpdetails: Inkomende magazijnstroom
 De inkomende stroom in een magazijn begint wanneer artikelen in het magazijn van de bedrijfsvestiging arriveren, ofwel ontvangen via externe bronnen of van een andere bedrijfsvestiging. Een werknemer registreert de artikelen, meestal door een barcode te scannen. Vanuit het ontvangstdok worden magazijnactiviteiten uitgevoerd op verschillende complexiteitsniveaus om de artikelen in het opslaggebied te brengen.  
@@ -37,7 +34,7 @@ De laatste twee vertegenwoordigen inkomende stromen naar het magazijn vanuit int
 
 Processen en UI-documenten in inkomende magazijnstromen zijn verschillend voor standaard- en geavanceerde magazijnconfiguraties. Het belangrijkste verschil is dat de activiteiten per order worden uitgevoerd in standaardmagazijnconfiguraties en dat ze worden samengevoegd voor meerdere orders in geavanceerde magazijnconfiguraties. Voor meer informatie over de verschillende niveaus van de magazijncomplexiteit raadpleegt u [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-setup.md).  
 
-In [!INCLUDE[d365fin](includes/d365fin_md.md)] kunnen inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
+In [!INCLUDE[prod_short](includes/prod_short.md)] kunnen inkomende processen voor ontvangst en opslag op vier manieren worden uitgevoerd met verschillende functionaliteiten, afhankelijk van het complexiteitsniveau van het magazijn.  
 
 |Methode|Inkomend proces|Opslaglocaties|Ontvangsten|Magazijnopslag|Complexiteitsniveau (zie [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -53,7 +50,7 @@ Bij methode A, B en C worden de acties ontvangen en opslaan in één stap gecomb
 ## <a name="basic-warehouse-configurations"></a>Standaardmagazijnconfiguraties  
 In het volgende diagram worden de inkomende magazijnstromen aangegeven op documentsoort in standaardmagazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-![Inkomende stroom in standaardmagazijnconfiguraties](media/design_details_warehouse_management_inbound_basic_flow.png "Inkomende stroom in standaardmagazijnconfiguraties")  
+![Inkomende stroom in standaardmagazijnconfiguraties.](media/design_details_warehouse_management_inbound_basic_flow.png "Inkomende stroom in standaardmagazijnconfiguraties")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Brondocument vrijgeven/Voorraadopslag maken  
 Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die verantwoordelijk is voor ontvangst, het brondocument vrij (zoals een inkooporder of inkomende transferorder) als teken voor magazijnmedewerkers dat de ontvangen artikelen in voorraad kunnen worden opgeslagen. Of de gebruiker maakt door pushing voorraadopslagdocumenten voor afzonderlijke orderregels, op basis van te verwerken specifieke opslaglocaties en aantallen.  
@@ -72,7 +69,7 @@ Er worden positieve artikelposten gemaakt, er worden magazijnposten gemaakt en h
 ## <a name="advanced-warehouse-configurations"></a>Geavanceerde magazijnconfiguraties  
 In het volgende diagram wordt de inkomende magazijnstroom aangegeven op documentsoort in geavanceerde magazijnconfiguraties. De nummers in het diagram komen overeen met de stappen in de gedeelten na het diagram.  
 
-![Inkomende stroom in geavanceerde magazijnconfiguraties](media/design_details_warehouse_management_inbound_advanced_flow.png "Inkomende stroom in geavanceerde magazijnconfiguraties")  
+![Inkomende stroom in geavanceerde magazijnconfiguraties.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inkomende stroom in geavanceerde magazijnconfiguraties")  
 
 ### <a name="1-release-source-document"></a>1: Brondocument vrijgeven  
 Wanneer artikelen worden ontvangen in het magazijn, geeft de gebruiker die verantwoordelijk is voor ontvangst, het brondocument vrij (zoals een inkooporder of inkomende transferorder) als teken voor magazijnmedewerkers dat de ontvangen artikelen in voorraad kunnen worden opgeslagen.  
@@ -112,3 +109,6 @@ Magazijnposten worden gemaakt en de magazijnopslagregels worden verwijderd, als 
 
 ## <a name="see-also"></a>Zie ook  
 [Ontwerpdetails: Magazijnbeheer](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

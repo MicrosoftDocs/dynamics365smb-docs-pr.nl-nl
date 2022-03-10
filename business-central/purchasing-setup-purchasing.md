@@ -1,21 +1,21 @@
 ---
-title: Overzicht van taken om inkoop in te stellen | Microsoft Docs
+title: Overzicht van taken om inkoop in te stellen
 description: Beschrijft de taken voor het definiëren van het inkoopbeleid van uw bedrijf en het instellen van uw inkoopprocessen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
+ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d0058c707862144592278d08a494175adf67a2a
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146199"
 ---
 # <a name="setting-up-purchasing"></a>Inkoop instellen
 Voordat u inkoopprocessen kunt gaan beheren, moet u de regels en waarden uit het inkoopbeleid van het bedrijf configureren.

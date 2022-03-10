@@ -1,22 +1,21 @@
 ---
-title: Catalogusartikelen maken en beheren | Microsoft Docs
+title: Catalogusartikelen maken en beheren
 description: Beschrijft hoe u handelt in artikelen die voorkomen in artikellijsten van uw leveranciers, maar niet in uw eigen artikellijsten.
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2020
+ms.search.forms: 5725, 5726, 5732
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb65c85ba8ce0ec9450a9ff9617b8f708d5facf7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389371"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137884"
 ---
 # <a name="work-with-catalog-items"></a>Werken met catalogusartikelen
 U kunt bepaalde artikelen aan uw klanten aanbieden voor hun gemak. U wilt deze artikelen pas in uw systeem beheren als u ze gaat verkopen. Wanneer u deze artikelen wilt gaan beheren in uw systeem, kunt u ze op twee manieren naar normale artikelkaarten converteren.
@@ -36,25 +35,25 @@ Een catalogusartikel heeft doorgaans het artikelnummer van de leverancier die he
 ## <a name="to-create-a-catalog-item"></a>Een catalogusartikel maken
 Catalogusartikelkaarten hebben minder informatie dan normale artikelkaarten omdat u deze alleen gebruikt op offertes en op andere manieren. Om die reden moeten ze naar normale artikelkaarten worden converteerd voordat u er verkooptransacties voor kunt boeken.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Kies de actie **Nieuw**.
 3. Vul de benodigde velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Instellen hoe catalogusartikelnummers naar uw eigen nummering worden geconverteerd
 Als u conversie van een catalogusartikelkaart naar een normale artikelkaart wilt inschakelen, moet u eerst instellen hoe de leverancierartikelnummering naar uw eigen artikelnummeropmaak wordt geconverteerd.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Instelling van catalogusartikel** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling van catalogusartikel** in en kies vervolgens de gerelateerde koppeling
 2. Vul de benodigde velden in.
 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Een catalogusartikel converteren naar een normaal artikel
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Catalogusartikelen** in en kies vervolgens de gerelateerde koppeling
 2. Open de kaart voor een catalogusartikel dat u wilt converteren naar een normaal artikel.
 3. Kies op de pagina **Catalogusartikelkaart** de actie **Artikel maken**.
 
-Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het catalogusartikel, en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
+Er worden een nieuwe vooraf ingevulde artikelkaart met gegevens van het catalogusartikel en een relevante artikelsjabloon gemaakt. U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Een catalogusartikel verkopen en converteren naar een normaal artikel
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Verkooporders** in en kies de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Verkooporders** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Vul de velden op het sneltabblad **Algemeen** in, zoals u dat voor elke verkooporder doet. Zie [Producten verkopen](sales-how-sell-products.md) voor meer informatie.
 3. Selecteer op een nieuwe verkoopregel in het veld **Soort** **Artikel**, maar laat het veld **Nr.** leeg laten.
 4. Kies de actie **Regel** en kies vervolgens de actie **Catalogusartikelen selecteren**.
@@ -66,7 +65,7 @@ Er worden een nieuwe artikelkaart die vooraf is ingevuld met gegevens van het ca
 U kunt vervolgens indien nodig velden op de nieuwe artikelkaart invullen of bewerken. Zie voor meer informatie [Nieuwe artikelen registreren](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Er wordt automatisch een artikelkruisverwijzingsrecord gemaakt voor de leverancier van het artikel tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
+>   Er wordt automatisch een artikelverwijzing gemaakt tussen het artikelnummer van de leverancier en uw nieuwe artikelnummer. Zie voor meer informatie [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Zie ook
 [Nieuwe artikelen registreren](inventory-how-register-new-items.md)  

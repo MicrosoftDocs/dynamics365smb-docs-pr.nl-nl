@@ -1,24 +1,24 @@
 ---
-title: Wijzigingen in btw-tarieven beheren | Microsoft Docs
-description: Leer hoe u de Wijzigingstool btw-tarief voor Dynamics 365 Business Central gebruikt.
+title: Wijzigingen in btw-tarieven beheren
+description: Leer hoe u de Wijzigingstool btw-tarief voor Dynamics 365 Business Central gebruikt voor het wijzigen van btw-tarieven op basis van lokale wetgeving.
 author: andregu
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 10/01/2020
+ms.search.form: 550,
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923917"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135390"
 ---
 # <a name="managing-vat-rate-changes"></a>Wijzigingen in btw-tarieven beheren
 
-Btw-tarieven kunnen veranderen afhankelijk van de lokale wetgeving. Elke wijziging in de btw heeft gevolgen voor uw gegevens in [!INCLUDE[d365fin](includes/d365fin_md.md)] ongeacht of btw wordt verhoogd, verlaagd of verwijderd. Btw is verbonden met veel entiteiten in [!INCLUDE[d365fin](includes/d365fin_md.md)], zoals klanten, leveranciers, artikelen, resources, artikelkosten en grootboekrekeningen. Wijzigingen in btw-tarieven vinden meestal plaats op een specifieke datum, vanaf welk punt u de btw-instellingen, boekingsgroepen enzovoort moet wijzigen om ervoor te zorgen dat nieuwe verkooporders en inkooporders worden gemaakt met het nieuwe btw-tarief.
+Btw-tarieven kunnen veranderen afhankelijk van de lokale wetgeving. Elke wijziging in de btw heeft gevolgen voor uw gegevens in [!INCLUDE[prod_short](includes/prod_short.md)] ongeacht of btw wordt verhoogd, verlaagd of verwijderd. Btw is verbonden met veel entiteiten in [!INCLUDE[prod_short](includes/prod_short.md)], zoals klanten, leveranciers, artikelen, resources, artikelkosten en grootboekrekeningen. Wijzigingen in btw-tarieven vinden meestal plaats op een specifieke datum, vanaf welk punt u de btw-instellingen, boekingsgroepen enzovoort moet wijzigen om ervoor te zorgen dat nieuwe verkooporders en inkooporders worden gemaakt met het nieuwe btw-tarief.
 
 ## <a name="changing-vat-rates"></a>Btw-tarieven wijzigen
 
@@ -71,13 +71,13 @@ Voordat u het wijzigingstool btw-tarief instelt, moet u de volgende voorbereidin
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Het wijzigingstool btw-tarief instellen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Wijziging btw-tarief instellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Op de sneltabbladen **Hoofdgegevens**, **Dagboeken** en **Documenten** kiest u een boekingsgroepwaarde in de lijst met opties voor verplichte velden. Voor elke groep kunt u kiezen of u btw-productboekingsgroepen of algemene productboekingsgroepen wilt converteren of beide waarden wilt converteren als deze beschikbaar zijn in het stamgegevensitem. Voor sommige gebieden kunt u ook een filter instellen om alleen een subset van waarden te converteren, bijvoorbeeld grootboekrekeningen. 
 3. Kies op het sneltabblad **Prijzen incl. btw** regeltypen voor orders waarvoor u de eenheidsprijzen wilt bijwerken. Eenheidsprijzen op regels van het type Item en Resource worden altijd bijgewerkt.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Conversie voor productboekingsgroepen instellen
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief instellen** in en kies de desbetreffende koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Wijziging btw-tarief instellen** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Wijziging btw-tarief instellen** en kies de actie **Conversie boekingsgroep btw-producten** of **Conversie boekingsgroep algemene producten**.  
 3. Voer in het veld **Van code** de huidige boekingsgroep in.  
 4. Voer in het veld **Tot code** de nieuwe boekingsgroep in.  
@@ -92,7 +92,7 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 > [!IMPORTANT]  
 > Voordat u de conversie van de btw-tariefswijziging uitvoert, kunt u de conversie testen. Hiervoor volgt u de onderstaande stappen, maar zorg ervoor dat u de selectievakjes **Conversie uitvoeren** en **Wijzigingstool BTW-tarief voltooid** uitschakelt. Tijdens testconversie wordt het veld **Geconverteerd** in de tabel **Dagboekpost wijziging BTW-tarief** gewist en is het veld **Conversiedatum** in de tabel **Dagboekpost wijziging BTW-tarief** leeg. Kies nadat de conversie is voltooid de optie **Wijzigingslogposten btw-tarief** om de resultaten van de testconversie weer te geven. Controleer elke post voordat u de conversie uitvoert. Controleer met name transacties met een oud btw-tarief.
 
-1. Kies het pictogram ![Gloeilamp om de Vertel mij-functie te openen](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijziging btw-tarief** in en kies de koppeling **Wijziging btw-tarief instellen**.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Wijzigingstool btw-tarief** in en kies vervolgens de koppeling **Wijziging btw-tarief instellen**.  
 2. Controleer of u de conversie van de btw-productboekingsgroep of de conversie van de algemene productboekingsgroep al hebt ingesteld.  
 3. Schakel het selectievakje **Conversie uitvoeren** in.  
 
@@ -112,3 +112,6 @@ U gebruikt de Wijzigingstool btw-tarief om wijzigingen in het standaardtarief va
 [Btw-aangifte doen bij een belastingdienst](finance-how-report-vat.md)  
 [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)  
 [Lokale functionaliteit in Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

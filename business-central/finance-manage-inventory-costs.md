@@ -1,21 +1,20 @@
 ---
-title: Voorraadkosten beheren | Microsoft Docs
-description: Kostenbeheer heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).
+title: Voorraadkosten beheren
+description: Kostenbeheer heeft te maken met het vastleggen en rapporteren van bedrijfskosten en omvat het rapporteren van productiekosten en voorraadkosten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 95ec74af47442d740806aefd00d2e7ab1482075e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380049"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138515"
 ---
 # <a name="managing-inventory-costs"></a>Voorraadkosten beheren
 Kostenbeheer heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).   
@@ -37,7 +36,8 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Speciale waarderingsfuncties gebruiken voor dagelijkse artikeltransacties in de artikelbewerkingen.|[Voorraad- en productiekosten verwerken](finance-handle-inventory-and-manufacturing-costs.md)|  
 |U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken in assemblage- of productiestuklijsten en de nieuwe kosten tot aan het hoofdartikel berekenen.|[Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)|
 |U kunt bepaalde artikelvereffeningsposten die automatisch worden gemaakt tijdens voorraadtransacties inzien en handmatig wijzigen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|
-|Controle- en rapportagetaken uit te voeren voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
+|Voer controle- en rapportagetaken uit voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Leer hoe u de taakwachtrij kunt gebruiken om de taken voor het aanpassen van voorraadkosten of het afstemmen met het grootboek naar de achtergrond te verplaatsen.|[Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Zie ook  
  [Financiën](finance.md)  

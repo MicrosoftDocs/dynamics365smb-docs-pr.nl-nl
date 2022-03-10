@@ -1,23 +1,22 @@
 ---
-title: Een auditfile voor de belastingdienst maken
-description: Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur om gegevens over de basistransacties vanuit het grootboek voor dat boekjaar vragen. Basistransacties worden gewoonlijk via dagboekposten verwerkt.
+title: Een auditfile voor de belastingdienst maken [NL]
+description: In het volgende artikel wordt uitgelegd hoe u een auditfile voor de Belastingdienst maakt met de Nederlandse versie van Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 2d3a53f4487110fd82267c5f2a5221ceff00ec11
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: f550f313128db2dd41c3758909fc913c1f54840b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881358"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140029"
 ---
-# <a name="create-an-audit-file-for-the-tax-authority"></a>Een auditfile voor de belastingdienst maken
+# <a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a>Een auditfile voor de Belastingdienst maken in de Nederlandse versie
 Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur om gegevens over de basistransacties vanuit het grootboek voor dat boekjaar vragen. Basistransacties worden gewoonlijk via dagboekposten verwerkt. Daarom vormen de dagboekposten de basis voor het auditbestand.  
 
  De belastingdienst stimuleert bedrijven om het auditfile te gebruiken, maar dat is niet verplicht.  
@@ -26,7 +25,7 @@ Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur
 
 ## <a name="to-make-an-audit-file"></a>Een auditfile maken  
 
-1.  Kies het pictogram ![Zoeken naar pagina of rapport](../../media/ui-search/search_small.png "Pictogram Pagina of rapport zoeken"), voer **Belastingdienst - Auditfile** in en kies vervolgens de gerelateerde koppeling.  
+1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Belastingdienst - Auditfile** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
     |Veld|Description|  
@@ -41,3 +40,6 @@ Wanneer u het rapport uitvoert, moet u de naam en locatie van het geëxporteerde
 
 ## <a name="see-also"></a>Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

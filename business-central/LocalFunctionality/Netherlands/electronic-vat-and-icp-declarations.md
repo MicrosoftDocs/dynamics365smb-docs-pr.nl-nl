@@ -1,23 +1,22 @@
 ---
-title: Elektronische btw- en ICP-aangiften verzenden
-description: Met de eXtensible Business Reporting Language (XBRL) Reporter kunt u de aangifte van Intracommunautaire Leveringen (ICP) of de btw-aangifte in de vereiste XML-indeling verzenden. Wanneer dit wordt verzonden, wordt het bestand verstuurd naar de belastingdienst zoals is gedefinieerd op de pagina Elek. aangifte-instellingen.
+title: Elektronische btw- en ICP-aangiften verzenden [NL]
+description: Met de eXtensible Business Reporting Language (XBRL) Reporter kunt u de aangifte van Intracommunautaire Leveringen (ICP) of de btw-aangifte in de vereiste XML-indeling verzenden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 44372973b1b197e6950f4b362cd6583bbc5e38c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8a82365d62534e95d6417d4918578d61326c5a74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752474"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147342"
 ---
-# <a name="submitting-electronic-vat-and-icp-declarations"></a>Elektronische btw- en ICP-aangiften verzenden
+# <a name="submitting-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften verzenden in de Nederlandse versie
 Bedrijven moeten maandelijks periodieke btw-aangiften en ICP-aangiften (intracommunautaire leveringen) naar de belastingdienst versturen.  
 
 Btw aangiften moeten op een maandelijkse of driemaandelijkse basis worden verzonden.
@@ -49,7 +48,7 @@ Voordat je elektronische aangiften kan versturen naar de belastingdienst moeten 
 3. Stel een btw-categoriecode in voor alle XML-elementen in de elektronische btw-aangifte. Zie [Btw-categorieën instellen](how-to-set-up-vat-categories.md) voor meer informatie.
 
 ## <a name="to-create-an-electronic-declaration"></a>Een elektronische aangifte aanmaken
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangiften** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Overzicht elektronische aangiften** de actie **Nieuw**.  
 3. Vul op de pagina **Elektronische aangifte** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
 4. Kies de knop **OK**.
@@ -80,7 +79,7 @@ De elektronische aangifte wordt verstuurd naar de belastingdienst.
 ## <a name="to-import-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst importeren
 De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Responsberichten ontvangen**.  
 3. Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
 
@@ -95,7 +94,7 @@ De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. D
 ## <a name="to-process-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst verwerken
 Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de inhoud te valideren aan de hand van de gerelateerde elektronische aangifte. Als er geen fouten worden gevonden in de elektronische aangifte en de gegevens zijn verwerkt door de belastingdienst, wordt het veld **Status** op de pagina **Elektronische aangiftekaart** gewijzigd in **Geaccepteerd**.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Responsberichten verwerken**.  
 3. Selecteer de juiste filters op de pagina **Batchverwerking Responsberichten verwerken** en klik vervolgens op de knop **OK**.  
 
@@ -108,3 +107,6 @@ Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de in
 [Btw-categorieën instellen](how-to-set-up-vat-categories.md)  
 [Lijsten met XBRL maken](../../bi-create-reports-with-xbrl.md)  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

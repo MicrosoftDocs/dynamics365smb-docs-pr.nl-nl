@@ -2,20 +2,19 @@
 title: Problemen met Microsoft Teams-integratie oplossen
 description: Lees wat u als beheerder kunt doen om Microsoft Teams-integratie te beheren.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882167"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147005"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,9 +41,9 @@ Nadat u het bedrijf op de pagina **Instellingen** hebt gewijzigd, merkt u missch
 
 Deze fout kan optreden wanneer u zoekt in een bedrijf dat niet is geïnitialiseerd of niet meer reageert. U kunt bijvoorbeeld niet zoeken in een nieuw proefbedrijf dat de gebruiksvoorwaarden nog niet heeft geaccepteerd. Om dit probleem op te lossen probeert u zich aan te melden bij de [!INCLUDE [prod_short.md](includes/prod_short.md)]-webclient, en handelt u naar of sluit u eventuele initiële dialoogvensters die verschijnen.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Fout 'De contacten-API is niet gevonden' bij het zoeken naar contacten
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>De fout Kan de contact-/contactoverzicht-API niet vinden bij het zoeken naar contactpersonen
 
-Dit probleem kan worden veroorzaakt door aanpassingen of brancheoplossingen die een contact-API beïnvloeden, wijzigen of niet bieden in [!INCLUDE [prod_short.md](includes/prod_short.md)]. Neem contact op met uw beheerder of ondersteunende partner als het probleem zich blijft voordoen.
+Dit probleem kan worden veroorzaakt door aanpassingen of brancheoplossingen die van invloed zijn op [!INCLUDE [prod_short.md](includes/prod_short.md)] of ze bieden geen contact- of contactoverzicht-API. Neem contact op met uw beheerder of ondersteunende partner als het probleem zich blijft voordoen.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Geen van mijn koppelingen breidt zich uit tot een kaart 
 
@@ -149,12 +148,22 @@ Als beheerder met Azure Active Directory-beheerdersmachtigingen kunt u de tegel 
 > [!NOTE]
 > Het zal even duren voordat deze wijziging van kracht wordt.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dubbele tekst in het venster Delen met Teams
+
+Wanneer u tekst in het berichtvenster plakt in het venster **Delen met Teams** wordt de tekst gedupliceerd. Dit probleem is bekend bij Microsoft en zal in een latere update worden verholpen. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Kan niet inloggen op het venster Delen met Teams 
+
+Dit probleem kan verschillende oorzaken hebben. De identiteit die u gebruikt om in te loggen, moet bijvoorbeeld toegang hebben tot Microsoft Teams, bijvoorbeeld via een Microsoft 365-abonnement.
 
 ## <a name="see-also"></a>Zie ook
 
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
+[Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams](across-search-contacts-teams.md)  
+[Records delen in Microsoft Teams](across-working-with-teams.md)  
 [Veelgestelde vragen over Teams](teams-faq.md)  
+[Bedrijfs- en andere instellingen in Teams wijzigen](across-teams-settings.md)  
 [Ontwikkeling voor Teams-integratie](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

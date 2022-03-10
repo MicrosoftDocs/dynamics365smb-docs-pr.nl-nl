@@ -1,21 +1,20 @@
 ---
-title: QuickBooks Online Migratie-extensie | Microsoft Docs
+title: De extensie QuickBooks Online-gegevensmigratie
 description: Beschrijft hoe u de extensie gebruikt om klanten, leveranciers, artikelen en rekeningen van QuickBooks Online naar Business Central te migreren.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 064f7fd7f0737263234b7324c298e513ef91e9c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 235c3050eac4dac983f486f66fe9e837e9594c57
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757464"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146043"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>De extensie QuickBooks Online-gegevensmigratie
 
@@ -54,7 +53,7 @@ Als transacties in QuickBooks Online belastingbedragen hebben, moet u eerst een 
 
 Aan de slag gaan is eenvoudig. Het enige wat u moet doen is de begeleide instelling **Gegevensmigratie** uitvoeren. U doet dat als volgt:
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Begeleide instelling** in en kies **Bedrijfsgegevens migreren**.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Begeleide instelling** in en kies vervolgens **Bedrijfsgegevens migreren**.
 2. Volg de instructies in elke stap in de begeleide instelling.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Wat doe ik nadat ik gegevens heb gemigreerd?
@@ -71,3 +70,6 @@ Er zijn enkele dingen die u met name moet doen:
 
 [Bedrijfsgegevens importeren uit andere financiële systemen](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] aanpassen met behulp van extensies](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

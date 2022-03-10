@@ -1,21 +1,20 @@
 ---
-title: Over kostenboekhouding | Microsoft Docs
-description: Kostprijsboekhouding kan u helpen begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf.
+title: Kostprijsboekhouding
+description: Kostprijsboekhouding kan u helpen begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Gegevens van de kostprijsboekhouding zijn gemaakt om verschillende problemen te analyseren.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d8628953230b27ae84ee363d41c43873c81cb11c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919537"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145735"
 ---
 # <a name="about-cost-accounting"></a>Kostprijsboekhouding
 Kostprijsboekhouding kan u helpen begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Gegevens van de kostprijsboekhouding zijn gemaakt om het volgende te analyseren:  
@@ -37,7 +36,7 @@ kostprijsboekhouding heeft de volgende hoofdonderdelen:
 
 Het volgende diagram toont de werkstroom in kostprijsboekhouding.  
 
-![Overzicht van kostprijsboekhouding](media/costaccountingoverview.png "CostAccountingOverview")  
+![Overzicht van kostprijsboekhouding.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostensoorten, kostenplaatsen en kostenobjecten  
 U definieert kostensoorten, kostenplaatsen en kostenobjecten als u wilt analyseren wat de kosten zijn, waar de kosten vandaan en wie de kosten moet dragen.  
@@ -72,4 +71,7 @@ De meeste lijsten en statistieken zijn gebaseerd op de geboekte kostenposten. U 
  [Kosten verantwoorden](finance-manage-cost-accounting.md)  
  [Financiën](finance.md)   
  [Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)  
- [Werken met [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

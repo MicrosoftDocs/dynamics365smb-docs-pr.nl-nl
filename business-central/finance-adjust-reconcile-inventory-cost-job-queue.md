@@ -2,20 +2,20 @@
 title: Taken plannen voor het aanpassen en afstemmen van voorraadkosten
 description: Leer hoe u de taakwachtrij kunt gebruiken om de taken voor het aanpassen van voorraadkosten of het afstemmen met het grootboek naar de achtergrond te verplaatsen. Bijvoorbeeld als uw bedrijf veel taken uitvoert of veel transacties verwerkt.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
+ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 7ba496cecd6eb473dbffde03598c49c15c2ebc3a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589029"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142260"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Taken plannen voor het aanpassen en afstemmen van voorraadkosten met het grootboek
 

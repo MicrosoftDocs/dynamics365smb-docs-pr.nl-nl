@@ -24,24 +24,13 @@
 
 ### Ontwerpdetails
 #### [Overzicht van toepassingsontwerpdetails](design-details-application-design.md)
-#### Ontwerpdetails: Voorzieningsplanning
-##### [Overzicht van voorraadplanning](design-details-supply-planning.md)
-##### [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
-##### [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
-##### [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
-##### [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
-##### [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
-##### [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
-##### [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)
 #### Ontwerpdetails: Voorraadwaardering
-##### [Kostenoverzicht](design-details-inventory-costing.md)
+##### [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)
 ##### [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 ##### [Ontwerpdetails - De waarderingsmethode voor artikelen wijzigen](design-details-changing-costing-methods.md)
 ##### [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
 ##### [Ontwerpdetails: bekend probleem met artikelvereffening](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Ontwerpdetails: Kostenwaardering](design-details-cost-adjustment.md)  
-##### [Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Ontwerpdetails: Verwachte kostenboeking](design-details-expected-cost-posting.md)  
 ##### [Ontwerpdetails: Gemiddelde kostprijs](design-details-average-cost.md)  
 ##### [Ontwerpdetails: Verschil](design-details-variance.md)  
@@ -55,8 +44,26 @@
 ##### [Ontwerpdetails: Rekeningen in het grootboek](design-details-accounts-in-the-general-ledger.md)
 ##### [Ontwerpdetails: Voorraadwaardering](design-details-inventory-valuation.md)  
 ##### [Ontwerpdetails: Herwaardering](design-details-revaluation.md)
+#### Ontwerpdetails: Boekingsdatum op herwaarderingswaardepost
+##### [Overzicht: Boekingsdatum op herwaarderingswaardepost](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Foutbericht "De boekingsdatum ligt niet binnen het bereik van toegestane boekingsdatums"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Boekingsdatum op correctiewaardepost in vergelijking met de bronpost](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Ontwerpdetails: Dimensiesetposten
+##### [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)
+##### [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)
+##### [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)
+#### Ontwerpdetails: Voorzieningsplanning
+##### [Ontwerpdetails: Voorraadplanning](design-details-supply-planning.md)
+##### [Ontwerpdetails: Centrale begrippen van het planningssysteem](design-details-central-concepts-of-the-planning-system.md)  
+##### [Ontwerpdetails: Reservering, ordertracering en planningsboodschappen](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Ontwerpdetails: Vraag en aanbod afstemmen](design-details-balancing-demand-and-supply.md)  
+##### [Ontwerpdetails: Bestelbeleid verwerken](design-details-handling-reordering-policies.md)  
+##### [Ontwerpdetails: Planningsparameters](design-details-planning-parameters.md)  
+##### [Ontwerpdetails: Tabel Planningstoewijzing](design-details-planning-assignment-table.md)  
+##### [Ontwerpdetails: Vraag op lege vestiging](design-details-demand-at-blank-location.md)  
+##### [Ontwerpdetails: Transfers in planning](design-details-transfers-in-planning.md)
 #### Ontwerpdetails: Magazijnbeheer
-##### [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
+##### [Ontwerpdetails: Warehouse Management](design-details-warehouse-management.md)
 ##### [Ontwerpdetails: Magazijnoverzicht](design-details-warehouse-overview.md)  
 ##### [Ontwerpdetails: Magazijninstelling](design-details-warehouse-setup.md)  
 ##### [Ontwerpdetails: Inkomende magazijnstroom](design-details-inbound-warehouse-flow.md)  
@@ -65,7 +72,7 @@
 ##### [Ontwerpdetails: Uitgaande magazijnstroom](design-details-outbound-warehouse-flow.md)  
 ##### [Ontwerpdetails: Integratie met voorraad](design-details-integration-with-inventory.md)
 #### Ontwerpdetails: Artikeltracering
-##### [Artikeltraceringoverzicht](design-details-item-tracking.md)
+##### [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)
 ##### [Ontwerpdetails: Ontwerp artikeltracering](design-details-item-tracking-design.md)  
 ##### [Ontwerpdetails: Boekingsstructuur artikeltracering](design-details-item-tracking-posting-structure.md)  
 ##### [Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -75,14 +82,10 @@
 ##### [Ontwerpdetails: Artikeltracering en reserveringen](design-details-item-tracking-and-reservations.md)  
 ##### [Ontwerpdetails: Artikeltracering in het magazijn](design-details-item-tracking-in-the-warehouse.md)
 #### Ontwerpdetails: dagboekboekingsregel
-##### [Dagboekboekingsregel](design-details-general-journal-post-line.md)
+##### [Ontwerpdetails: Dagboekboekingsregel](design-details-general-journal-post-line.md)
 ##### [Overzicht dagboekboekingsregel](design-details-general-journal-post-line-overview.md)  
 ##### [Ontwerpdetails: boekingsinterfacestructuur](design-details-posting-interface-structure.md)  
 ##### [Ontwerpdetails: boekingsenginestructuur](design-details-posting-engine-structure.md)  
-#### Ontwerpdetails: Dimensiesetposten
-##### [Ontwerpdetails: Dimensiesetposten - overzicht](design-details-dimension-set-entries-overview.md)  
-##### [Ontwerpdetails: Dimensiecombinaties zoeken](design-details-searching-for-dimension-combinations.md)  
-##### [Ontwerpdetails: Tabelstructuur](design-details-table-structure.md)  
 
 ## Proberen
 ### [Proefversies en abonnementen](across-preview.md)
@@ -91,7 +94,14 @@
 ### [Uw proefversie uitbreiden](admin-extend-trial.md)
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
 ## Kopen
+### [Aan de slag met een abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)
+
+## Snelstartgidsen
+### [Snelstartgidsen voor Business Central](quick-start-business-central.md)
+### [Bedrijfsgegevens instellen](quick-start-company-information.md)
+### [Producten en services verkopen](quick-start-sell-products-and-services.md)
+### [Producten en services kopen](quick-start-procurement.md)
 
 <!--setup-->
 ## Business Central instellen
@@ -132,6 +142,7 @@
 #### [Nieuwe klanten registreren](sales-how-register-new-customers.md)
 #### [Klantbetalingen via betalingsservices inschakelen](sales-how-enable-payment-service-extensions.md)
 #### [Speciale verkoopprijzen en kortingen registreren](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Klantenprijsgroepen instellen](sales-how-to-set-up-customer-price-groups.md)
 #### [Verkopers instellen](sales-how-setup-salespeople.md)
 #### [Verzendprofielen van documenten instellen](sales-how-setup-document-send-profiles.md)
 #### [Documenten per e-mail verzenden](ui-how-send-documents-email.md)
@@ -165,6 +176,7 @@
 #### [Algemene gegevens voor vaste activa instellen](fa-how-setup-general.md)
 #### [Afschrijving van vaste activa instellen](fa-how-setup-depreciation.md)
 #### [Afschrijvingsmethoden definiëren](fa-depreciation-methods.md)
+#### [Eigen afschrijvingsmethoden instellen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Verzekering van vaste activa instellen](fa-how-setup-insurance.md)
 #### [Onderhoud van vaste activa instellen](fa-how-setup-maintenance.md)
 ### Magazijnbeheer instellen
@@ -235,18 +247,19 @@
 #### [Instellingsgegevens van klanten verzamelen](admin-gather-customer-setup-values.md)
 #### [Migratie van klantgegevens met sjablonen voorbereiden](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Klantgegevens migreren](admin-migrate-customer-data.md)
-#### [Aangepaste configuratiepakketten voor bedrijven maken](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips en trucs: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### E-mail instellen
 #### [E-mail instellen](admin-how-setup-email.md)
-#### Uw bedrijfsinbox instellen in Microsoft Outlook 
-##### [Business Central gebruiken als uw bedrijfsinbox in Outlook](admin-outlook.md)
+#### Uw bedrijfsinbox instellen in Microsoft Outlook
+##### [De Business Central-invoegtoepassing voor Outlook verkrijgen](admin-outlook.md)
+##### [Business Central gebruiken als uw bedrijfsinbox in Outlook](work-outlook-addin.md)
 ##### [Synchroniseren met contacten in Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Outlook optimaliseren](admin-outlook-optimize.md)
-##### [Business Central gebruiken met Outlook](admin-no-outlook.md)
+##### [Business Central gebruiken zonder Outlook](admin-no-outlook.md)
 ### Rapporten instellen
 #### [Rapportselectie](across-report-selections.md)
 ### Verbindingen instellen
+#### [De Business Central-invoegtoepassing voor Excel verkrijgen](admin-deploy-excel-addin.md)
 #### Business Central gebruiken als uw bedrijfsinbox in Outlook 
 ##### [Overzicht](admin-outlook.md)
 ##### [Synchroniseren met contacten in Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -256,19 +269,24 @@
 ##### [Teams-integratie beheren](admin-teams-integration.md)
 ##### [Business Central-app voor teams installeren](across-install-app-for-teams.md)
 ##### [Zoeken naar klanten, leveranciers en andere contacten](across-search-contacts-teams.md)
-##### [Records delen in teams](across-working-with-teams.md)
+##### [Business Central-records en paginakoppelingen delen in Teams](across-working-with-teams.md)
 ##### [Bedrijf en andere instellingen wijzigen](across-teams-settings.md)
 ##### [Veelgestelde vragen over Teams](teams-faq.md)
 ##### [Problemen oplossen](admin-teams-troubleshooting.md)
+#### OneDrive voor Bedrijven gebruiken met Business Central
+##### [Overzicht](across-onedrive-overview.md)
+##### [Integratie met OneDrive voor Bedrijven beheren](admin-onedrive-integration.md)
+##### [Business Central-bestanden openen in OneDrive](across-share-onedrive.md)
+##### [Veelgestelde vragen over OneDrive](admin-onedrive-faq.md)
 #### Power BI gebruiken met Business Central
 ##### [Inleiding](admin-powerbi.md)
 ##### Beheerder
 ###### [Overzicht van integratie](admin-powerbi-overview.md)
 ###### [Power BI-integratie mogelijk maken](admin-powerbi-setup.md)
-##### Ontwerper
+##### Rapportmaker
 ###### [Aan de slag met het maken van rapporten](across-how-use-financials-data-source-powerbi.md)
 ###### [Rapporten maken voor het weergeven van lijstgegevens](across-how-use-powerbi-reports-factbox.md)
-##### Consument
+##### Zakelijke gebruiker
 ###### [Werken met Power BI-rapporten in Business Central](across-working-with-powerbi.md)
 ###### [Werken met Business Central-gegevens in Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [De Business Central-apps gebruiken in Power BI](across-powerbi-business-central-apps.md)
@@ -284,6 +302,8 @@
 ### [Basisagenda's instellen](across-how-to-assign-base-calendars.md)
 ### [Printers instellen](ui-specify-printer-selection-reports.md)
 ### [Business Central op uw mobiele apparaat krijgen](install-mobile-app.md)
+### [Business Central op uw desktop krijgen](install-desktop-app.md)
+
 
 ## Veelgestelde vragen
 ### [Veelgestelde vragen](across-faq.yml)
@@ -328,7 +348,9 @@
 ## [Verplichte velden detecteren](ui-mandatory-fields.md)
 ## [Taal en regio wijzigen](about-locale-language.md)
 ## [Weergeven en bewerken in Excel](across-work-with-excel.md)
+## [Bestanden opslaan en delen in OneDrive](across-share-onedrive.md)
 ## [Bijlagen, koppelingen en notities op kaarten en in documenten beheren](ui-how-add-link-to-record.md)
+## [Word-sjablonen gebruiken voor bulkcommunicatie](ui-mail-merge.md)
 ## [Basisinstellingen wijzigen](ui-change-basic-settings.md)
 ## [Overschakelen naar een ander bedrijf of een andere omgeving](ui-organization-switch.md)
 ## [Berichten beheren](ui-smart-notifications.md)
@@ -449,6 +471,7 @@
 ### [Financiële rapporten](finance-reports.md)
 ### Tegoeden beheren
 #### [Overzicht van debiteuren](receivables-manage-receivables.md)
+#### [Debiteurenrapporten en -analyses](receivables-reports.md)
 #### Betalingen automatisch vereffenen en bankrekeningen reconciliëren
 ##### [Overzicht van betalingsvereffening](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)
@@ -460,12 +483,14 @@
 #### [Klantbetalingen reconciliëren met het ontvangstendagboek of vanuit klantenposten](receivables-how-apply-sales-transactions-manually.md)
 #### [Openstaande saldi innen](receivables-collect-outstanding-balances.md)
 #### [Betalingen incasseren met automatische incasso via SEPA](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Aanmaningen voor uitstaande saldi verzenden](receivables-send-reminders.md)
 #### [Klanten blokkeren](receivables-how-block-customers.md)
 #### [Werken met betalingstolerantie en contantkortingstolerantie](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betaling](ui-extensions-late-payment-prediction.md)
 
 ### Betalingsverplichtingen beheren
 #### [Overzicht van crediteuren](payables-manage-payables.md)
+#### [Crediteurenrapporten en -analyses](payables-reports.md)
 #### Betalingen uitvoeren
 ##### [Betalingen uitvoeren](payables-make-payments.md)
 ##### [Werken met dagboeken](ui-work-general-journals.md)
@@ -531,7 +556,11 @@
 #### [Vaste verrekenprijs bijwerken](finance-how-to-update-standard-costs.md)
 #### [Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Kosten rapporteren en afstemmen met het grootboek
+##### [Rapportage van kosten](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Voorraadkosten reconciliëren met het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)
+#### [Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Cashflow beheren
 #### [Cashflowoverzicht](finance-cash-flow-overview.md)
@@ -601,6 +630,7 @@
 ### [Doorverzendingen uitvoeren](sales-how-drop-shipment.md)
 ### [Speciale orders maken:](sales-how-to-create-special-orders.md)
 ### [Verkoopretouren of annuleringen verwerken](sales-how-process-sales-returns-cancellations.md)
+### [Verkoopretourorders verwerken](sales-how-process-sales-returns-orders.md)
 ### [Niet-betaalde verkoopfacturen corrigeren of annuleren](sales-how-correct-cancel-sales-invoice.md)
 ### [Werken met verkoopraamcontracten](sales-how-to-create-blanket-sales-orders.md)
 ### [Verzendingen combineren op één factuur](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -643,9 +673,10 @@
 ### [Beschikbaarheid van artikelen weergeven](inventory-how-availability-overview.md)
 ### [Voorraad overbrengen tussen vestigingen](inventory-how-transfer-between-locations.md)
 ### [Artikelen reserveren](inventory-how-to-reserve-items.md)
+### [Artikeltracering instellen met serie-, partij- en pakketnummers](inventory-how-setup-item-tracking.md)
 ### [Artikelen traceren met serie-, partij- en pakketnummers](inventory-how-work-item-tracking.md)
-### [Artikelkruisverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
 ### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
+### [Artikelverwijzingen gebruiken](inventory-how-use-item-cross-refs.md)
 ### [Artikelen blokkeren](inventory-how-block-items.md)
 ### [Werken met divisies](inventory-responsibility-centers.md)
 
@@ -654,7 +685,7 @@
 ### [Projectrapporten](project-reports.md)
 ### [Projecten maken](projects-how-create-jobs.md)
 ### [Resources gebruiken voor projecten](projects-how-use-resources.md)
-### [Urenstaten gebruiken voor projecten](projects-how-use-time-sheets.md)
+### [Urenstaten gebruiken](projects-how-use-time-sheets.md)
 ### [Projectbudgetten maken](projects-how-manage-budgets.md)
 ### [Gebruik voor projecten vastleggen](projects-how-record-job-usage.md)
 ### [Projectvoorraden beheren](projects-how-manage-project-supplies.md)
@@ -664,6 +695,7 @@
 
 ## Vast activum
 ### [Overzicht van vaste activa](fa-manage.md)
+### [Rapporten en analyses voor vaste activa](fa-reports.md)
 ### [Vaste activa aanschaffen](fa-how-acquire.md)
 ### [Vaste activa onderhouden](fa-how-maintain.md)
 ### [Vaste activa verzekeren](fa-how-insure.md)
@@ -672,6 +704,7 @@
 ### [Vaste activa afschrijven of aflossen](fa-how-depreciate-amortize.md)
 ### [Vaste activa afstoten of van de hand doen](fa-how-dispose-retire.md)
 ### [Budgetten voor vaste activa beheren.](fa-how-manage-budgets.md)
+### [Problemen oplossen met VA-posten](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Relatiebeheer
 ### [Overzicht van relatiebeheer](marketing-relationship-management.md)
@@ -718,6 +751,8 @@
 ### [Volledige planning, MPS of MRP uitvoeren](production-how-to-run-mps-and-mrp.md)
 ### [Productieorders direct opnieuw plannen of vernieuwen](production-how-to-replan-refresh-production-orders.md)
 ### [Relaties tussen vraag en aanbod bijhouden](production-how-track-demand-supply.md)
+### [Inkoopvoorstel](production-about-planning-functionality.md#requisition-worksheet)
+### [Planningsboodschappen](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -893,15 +928,8 @@
 ##### [Leveranciers voor automatische betalingsvoorstellen instellen](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Betalingsdagboeksjablonen en -batches maken](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Elektronische betalingen testen](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Betalingsbestanden afdrukken](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-betalingen activeren](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [SEPA-betalingen in andere valuta's dan de euro indienen](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Betalingsbestanden exporteren](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Incasso via domiciliëring](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Domiciliëringen instellen](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Domiciliëringsregels bewerken en verwijderen](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Domiciliëringen testen](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Domiciliëringen exporteren en boeken](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Domiciliëringsvoorstellen genereren](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA-bankafschriften](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [CODA-afschriften vereffenen](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [CODA-afschriften automatisch overbrengen en boeken](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -947,10 +975,12 @@
 ##### [Lokalisatie van vaste activa voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankieren en betalingen
 ##### [Bankfunctie](LocalFunctionality/Czech/bank-feature.md)
+##### [Lokalisatie van bankdocumenten voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Kasbeheer](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Lokalisatie van kas voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registratie van verkoop (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Geavanceerd](LocalFunctionality/Czech/advances.md)
+##### [Lokalisatie van vooruitbetalingen voor Tsjechië (extensie)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Schulden en tegoeden
 ##### [Schulden en tegoeden](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1002,16 +1032,14 @@
 ##### [Grootboekposten exporteren naar een XML-bestand](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Vereisten voor rapporteren van verklaringen over handel in goederen](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Bankieren en betalingen
+##### [Betalingsbeheer](LocalFunctionality/France/payment-management.md)
 ##### [Betalingsadressen instellen](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Betalingsstatussen instellen](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Betalingsstappen instellen](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Betalingsklassen instellen](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Betalingsstroken archiveren](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Betalingsstroken maken](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Betalingen exporteren](LocalFunctionality/France/how-to-export-payments.md)
-##### [Instellingsparameters voor betalingsbeheer exporteren of importeren](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Betalingsbeheer](LocalFunctionality/France/payment-management.md)
 ##### [Betalingsstroken boeken](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Betalingsstroken archiveren](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Instellingsparameters voor betalingsbeheer exporteren of importeren](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Hoofdfinanciën
 ##### [Grootboek](LocalFunctionality/France/general-ledger.md)
 ##### [Grootboekposten vereffenen](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1083,6 +1111,7 @@
 
 ### India
 #### [Overzicht](LocalFunctionality/India/india-local-functionality.md)
+#### [Boekingsnummerreeksen instellen](LocalFunctionality/India/posting-no-series-setup.md)
 #### Belastingberekenfunctie
 ##### [Overzicht](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Configuratie van import en export door belastingberekenfunctie](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1159,6 +1188,8 @@
 ##### [TDS voorlopige invoer](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS-aanpassingsinvoer](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-betaling aan autoriteit](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [TDS 194Q Sectieoverzicht](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q-transacties](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS voor klant
 ##### [Overzicht van TDS voor klant](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-berekening voor klant](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1186,6 +1217,7 @@
 ##### [Uitbestedingstransacties](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [GST-aansprakelijkheid creëren](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Uitbestedingsrapport](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Verlopen cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italië
 #### [Lokale functionaliteit in de Italiaanse versie](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1199,6 +1231,8 @@
 ##### [Voorbereiden voor btw-transactierapporten](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Grootboeken en btw-journalen afdrukken en opnieuw afdrukken](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Intrastat-rapporten afdrukken voor Italië](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Bronbelasting
+##### [Bronbelasting instellen in de Italiaanse versie](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Bronrapporten afdrukken](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Bankieren en betalingen
 ##### [Betalingsvoorwaarden instellen](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1228,28 +1262,26 @@
 #### [Lokale functionaliteit in de Mexicaanse versie](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Btw
 ##### [DIOT-rapporten instellen en genereren](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Sales tax van Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Gebruiks- en inkoopbelasting instellen](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Niet-gerealiseerde Sales Tax en verkoopcontantkortingen instellen](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Sales Tax rapporteren in Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Borgsommen maken](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)  
 ##### [Typen belastingidentificatie voor Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Btw-herberekening](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronische facturering
-##### [Elektronische facturering](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Elektronische facturering instellen](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Elektronische facturen genereren](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Elektronische facturering (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [PAC webservices instellen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Elektronische facturering instellen (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Elektronische facturen genereren (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte-pakbonnen en -transferorders (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Alge&meen
 ##### [Elektronische boekhoudverordeningen in Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Elektronische betalingen doen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Alge&meen
-##### [PAC webservices instellen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Problemen met rapporten oplossen](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Borgsommen maken](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Nederland
 #### [Lokale functionaliteit in de Nederlandse versie](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### Btw
 ##### [Een auditfile voor de belastingdienst maken](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Btw-categorieën instellen](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Btw-categorieën instellen](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektronische btw- en ICP-aangiften](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Elektronische btw- en ICP-aangiften instellen](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Elektronische btw- en ICP-aangiften verzenden](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1260,7 +1292,7 @@
 ##### [Betalingsscenario 1 - binnenlandse betalingen (LV naar LV).](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Betalingsscenario 2 - buitenlandse betaling (VV naar VV)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Betalingsscenario 3 - een buitenlandse betaling (LV naar VV)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Voorstellen maken](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Voorstellen maken](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Borderelrapporten](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Kasboeken, bankboeken of giroboeken invoeren en boeken](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Testrapporten afdrukken voor kasboeken, bankboeken of giroboeken](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1268,7 +1300,7 @@
 ##### [SEPA-betalingen activeren](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Betalingsrun maken en exporteren](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Bankafschriften importeren en reconciliëren](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Bankafschriften importeren en reconciliëren](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Hoofdfinanciën
 ##### [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Verplichte beschrijvingen in grootboekposten](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
@@ -1554,6 +1586,7 @@
 #### Alge&meen
 ##### [Een boekingsdatumwaarschuwing instellen](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Wettelijke informatie invoeren](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Gegevens over fraudepreventie verzenden](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [De extensie GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [De extensie GetAddress.io UK Postcodes instellen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1573,11 +1606,125 @@
 ##### [Problemen met rapporten oplossen](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Wettelijke waarschuwingen indienen](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Bedrijfsinformatie en rapportage 
+
+## [Overzicht](reports-bi-reporting.md)
+
+## Rapporten gebruiken in het dagelijkse werk
+### [Overzicht](reports-use-reports.md)
+### [Rapporten uitvoeren](ui-work-report.md)
+### [Bladwijzer maken van een rapport](ui-bookmarks.md)
+### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Rapporten afdrukken](ui-specify-printer-selection-reports.md#default)
+### [Rapporten plannen](ui-work-report.md#ScheduleReport)
+### [Opgeslagen rapportinstellingen beheren](reports-saving-reusing-settings.md)
+### [De standaardrapportindeling wijzigen](ui-how-change-layout-currently-used-report.md)
+
+## Ingebouwde rapporten
+### [Rapportoverzicht](reports-available-reports.md)
+### Financiën
+#### [Financiële analyse](bi.md)
+#### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+#### [Belangrijke financiële rapporten](finance-reports.md)
+#### [Debiteurenrapporten](receivables-reports.md)
+#### [Crediteurenrapporten](payables-reports.md)
+#### [Cashflowanalyse](finance-setup-cash-flow-analyses.md)
+#### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
+
+### Verkoop
+#### [Verkooprapporten](sales-reports.md)
+#### [Status van verkoopraamcontract](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Pakkettracering](sales-how-track-packages.md)
+#### [Niet-geboekte en geboekte verkoopraamcontractregels weergeven](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Inkopen
+#### [Inkooprapporten](purchase-reports.md)
+#### [Inkoopposten bekijken](ui-post-purchases.md#viewing-ledger-entries)
+
+### Voorraad en magazijn
+#### [Voorraad- en magazijnrapporten](inventory-wms-reports.md)
+#### [Artikelbeschikbaarheid](inventory-how-availability-overview.md)
+#### [Artikelen traceren met serie-, partij- en pakketnummers](inventory-how-work-item-tracking.md)
+#### [Artikelen met artikeltracering traceren](inventory-how-to-trace-item-tracked-items.md)
+#### [De reconciliatie controleren tussen het voorraadgrootboek en het grootboek](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Cross-dockartikelen bekijken in een verzending of pickvoorstel](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Kostendrager
+#### [Projectrapporten](project-reports.md)
+#### [Schattingen van projectgebruik weergeven](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Voortgang en prestaties van projecten bewaken](projects-how-monitor-progress-performance.md)
+
+### Vast activum
+#### [VA-rapporten](fa-reports.md)
+#### [Onderhoudskosten controleren](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Verzekeringsdekking controleren](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Gewijzigde afschrijvingsboekwaarden bekijken](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Buitengebruikstellingsposten bekijken](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Geschatte buitengebruikstellingswaarden bekijken](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Assemblagebeheer
+#### [Assemblagebeheerrapporten](assembly-reports.md)
+#### [De stuklijststructuur bekijken](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Productie
+#### [Productierapporten](production-reports.md)
+#### [De werklast in afdelingen en bewerkingsplaatsen weergeven](production-how-to-view-the-load-on-work-centers.md)
+#### [Afdelingsposten weergeven](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### CRM - Service
+#### [Servicestatistieken weergeven](service-service-statistics.md)
+#### [Overzicht van serviceorders](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Overzicht van serviceoffertes](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Overzicht van geboekte servicedocumenten](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad-hoc gegevensanalyse
+### [Overzicht](reports-adhoc-analysis.md)
+### [Sorteren, zoeken en filteren](ui-enter-criteria-filters.md)
+### [Zoeken en filteren - Veelgestelde vragen](ui-search-filter-faq.yml)
+### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
+### [Rapportgegevens analyseren met Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Financiële analyse](bi.md)
+
+## Ingebouwde analyse 
+### [Overzicht](reports-built-in-analytics.md)
+### [Intelligente inzichten](about-intelligent-cloud.md)
+### [Werken met Power BI-rapporten](across-working-with-powerbi.md)
+### [Financiële analyse](bi.md)
+### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+### [Financiële gegevens uit meerdere bedrijven consolideren](finance-consolidated-company-reporting.md)
+### [Gebruikstelemetrie rapporteren](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Gegevens analyseren in bedrijfsinformatietools
+### [Overzicht](reports-external-analysis.md)
+### [Power BI gebruiken met Business Central](admin-powerbi.md)
+### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
+### [Gegevens extraheren naar datawarehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Gegevens lezen met de Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Rapporten ontwikkelen
+### [Overzicht](reports-develop-reports.md)
+### Rapportindelingen ontwikkelen
+#### [Indelingstypen (Word en RDLC)](ui-manage-report-layouts.md)
+#### [Een nieuwe indeling maken](ui-how-create-custom-report-layout.md)
+#### [Lettertypen gebruiken in indelingen](ui-fonts.md)  
+#### [Werken met Word-indelingen](ui-how-add-fields-word-report-layout.md)
+#### [Een rapportindeling importeren](ui-how-import-and-export-report-layout.md)
+#### [Een indeling bijwerken](ui-update-report-layouts.md)
+#### [De standaardindeling wijzigen](ui-how-change-layout-currently-used-report.md)
+### Rapportgegevenssets ontwikkelen
+#### [Handleiding voor rapportontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Handleiding voor het afstemmen van rapportprestaties](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Beveiliging, privacy, compliance
 ## Beveiliging en bescherming
 ### [Overzicht van beveiliging en bescherming (alleen in het Engels)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Privacy
-### [Privacy (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Privacy (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Naleving
 ### [Conformiteitsoverzicht](compliance/compliance-overview.md)
 ### [Toepassingsnaleving](compliance/compliance-application-compliance.md)
@@ -1600,6 +1747,7 @@
 ### [Wijzigingen registreren](across-log-changes.md)
 ### [Gebruik van taakwachtrijen om taken te plannen](admin-job-queues-schedule-tasks.md)
 ### [Opslag beheren door gegevens te comprimeren of documenten te verwijderen](admin-manage-documents.md)
+### [Archiefgegevens](admin-archive-data.md)
 ### [Beleid voor het bewaren van gegevens definiëren](admin-data-retention-policies.md)
 ### [Een webservice publiceren](across-how-publish-web-service.md)
 ### [API-sjablonen configureren](admin-configuring-api-template.md)
@@ -1608,9 +1756,9 @@
 ### [Pagina's inspecteren](across-inspect-page.md)
 ### [Databasevergrendelingen weergeven](admin-view-database-locks.md)
 ### [Tabelgegevens weergeven](admin-view-table-information.md)
-### [Een sandboxomgeving maken](across-how-create-sandbox-environment.md)
 ### [Nieuwe functies van tevoren inschakelen](admin-feature-management.md)
 ### [Gebruikers onboarden met controlelijsten](admin-checklist.md)
+### [Sandboxomgevingen](admin-sandbox-environments.md)
 ## Business Central aanpassen
 ### [Overzicht van aanpassing](ui-customizing-overview.md)
 ### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)

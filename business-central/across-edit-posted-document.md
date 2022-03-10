@@ -1,21 +1,22 @@
 ---
-title: Geboekte verkoop- en inkoopdocumenten bewerken | Microsoft Docs
-description: Meer informatie over de verschillende boekingsfuncties om inkoopdocumenten te boeken en hoe u geboekte documenten kunt bijwerken.
+title: Geboekte verkoop- en inkoopdocumenten bewerken
+description: In dit onderwerp wordt uitgelegd hoe u informatie in een geboekt document, zoals een verkoopverzending of inkoopfactuur, kunt bijwerken wanneer relevante informatie is gewijzigd.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 870b629ea5f4cae25d81f5348b5d616508cb91c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 09b6180606ba92c6f5fbaeeb5aca6a0ce7c70a7f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753439"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136553"
 ---
 # <a name="edit-posted-documents"></a>Geboekte documenten bewerken
 
@@ -41,7 +42,7 @@ De volgende aanvullende documenten kunnen worden bewerkt in de opgegeven landen 
 
 Hieronder wordt uitgelegd hoe u een geboekte verkoopverzending kunt bewerken. De stappen zijn vergelijkbaar voor de andere ondersteunde documenten.
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Geboekte verkoopverzendingen** in en kies de desbetreffende koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Geboekte verkoopverzendingen** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer het document dat u wilt bewerken en kies vervolgens de actie **Document bijwerken**. U kunt ook het document openen en vervolgens de actie kiezen.
 3. Bewerk op de pagina **Geboekte verkoopzending - Bijwerken** het veld **Traceringsnummer (zending)** bijvoorbeeld.
 4. Kies de knop **Ok**.
@@ -54,3 +55,6 @@ De geboekte verkoopverzending wordt bijgewerkt.
 [Inkoop](purchasing-manage-purchasing.md)  
 [Documenten en dagboeken boeken](ui-post-documents-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
