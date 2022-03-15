@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: f6929233059df8f3864adcc9832235a96acdf70a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d32a9f3a6c33ee623f3a8f37a4f316eb4af0bf7f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144170"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372008"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
@@ -34,7 +34,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Telebankieren](telebanking.md) **Nu beschikbaar**
     * [Betalingsscenario's](payment-scenarios.md) **Nu beschikbaar**
     * [Betalingsscenario 1 - Binnenlandse betalingen (LV naar LV)](payment-scenario-1-domestic-payments-lcy-to-lcy-.md) **Nu beschikbaar**  
-    * [Betalingsscenario 2 - Buitenlandse betaling (VV naar VV)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md) **Nu beschikbaar**  
+    * [Betalingsscenario 2 - Buitenlandse betaling (LV naar LV)](payment-scenario-2-foreign-payment-fcy-to-fcy-.md) **Nu beschikbaar**  
     * [Betalingsscenario 3 - Buitenlandse betaling (LV naar LV)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md) **Nu beschikbaar**
     * [Voorstellen maken](how-to-create-proposals.md) **Nu beschikbaar**
     * [Borderelrapporten](docket-reports.md) **Nu beschikbaar**
@@ -64,6 +64,7 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
 ## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Btw rapporteren aan de belastingdienst](../../finance-how-report-vat.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
