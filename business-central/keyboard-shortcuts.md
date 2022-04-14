@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381746"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517970"
 ---
 # <a name="keyboard-shortcuts"></a>Toetsenbordsneltoetsen
 
@@ -239,6 +239,14 @@ Rollenverkenner geeft u een overzicht en snelle toegang tot alle zakelijke funct
 |F3 or Ctrl+Pijl omlaag|Verplaatst de focus naar de volgende gevonden functie in de rollenverkenner. F3 verplaatst de focus naar het vak **Zoeken** na de laatst gevonden functie.|
 |Shift F3 of Ctrl+Pijl-omhoog|Verplaatst de focus naar de vorige gevonden functie in de rollenverkenner.|
 |Ctrl+Shift|Alle subknooppunten uitvouwen of samenvouwen, naast knooppunten op het hoogste niveau, wanneer u de actie **Uitvouwen** of **Samenvouwen** kiest.|
+
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Sneltoetsen voor numeriek toetsenblok
+
+De volgende tabel beschrijft de sneltoetsen op een numeriek toetsenblok.
+
+|Druk op deze toetsen<br />(in macOS)|Actie|
+|--------------------------------|----------|
+|Alt+Decimaalteken|Wijzig de uitvoer van de decimaaltekentoets naar een punt (.) of het teken dat wordt bepaald door de instelling **Regio** op de pagina **Mijn instellingen**. Zie [Het decimale scheidingsteken instellen dat wordt gebruikt door numerieke toetsenborden](ui-enter-data.md#decimal) voor meer informatie.|
 
 ## <a name="see-also"></a>Zie ook
 

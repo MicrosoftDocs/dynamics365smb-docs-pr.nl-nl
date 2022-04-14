@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: d32a9f3a6c33ee623f3a8f37a4f316eb4af0bf7f
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 11d250f70f5127945f31a1d767fb70e4bb9d9888
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372008"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517676"
 ---
 # <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
