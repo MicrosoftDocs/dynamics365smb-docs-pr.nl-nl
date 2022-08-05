@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 525fefb060fa001004645ac5376ec3f5838450c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44d7ba224a0945acff4e352824922bc7c1a35bf
+ms.sourcegitcommit: d8a84a008c6bd3baf1ca7ade49310313cb4942f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133498"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201944"
 ---
 Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek. Tijdelijke en transferrekeningen worden gebruikt om tijdelijke posten op te slaan die op verdere verwerking in het grootboek wachten.  
 
@@ -36,6 +36,10 @@ U kunt de vereffening van de vereffende grootboekposten ongedaan maken en vervol
 4. Selecteer de betreffende grootboekpost en kies de actie **Vereffenings-id instellen**.  
 
     Het veld **Vereffenings-id** wordt bijgewerkt met de gebruikers-id. Het restbedrag wordt weergegeven op de pagina **Saldo** op de pagina **Grootboekposten vereffenen**.  
+
+    > [!IMPORTANT]  
+    > U kunt alleen meerdere boekingen toepassen als alle posten die worden toegepast, volledig kunnen worden gesloten.  
+
 5. Kies de actie **Vereffening boeken**.  
 
     U kunt de vereffening boeken zelfs wanneer het saldobedrag gelijk is aan 0. Wanneer wordt geboekt, wordt het veld **Restbedrag** als volgt beïnvloed:  
