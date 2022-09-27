@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9460991"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535341"
 title: Veelgestelde vragen over het gebruik van Business Central
 summary: "Deze sectie bevat antwoorden op veelgestelde vragen over de aanmelding bij een proefversie, het aanschaffen van een abonnement en het gebruik van [!INCLUDE[prod_short](includes/prod_short.md)]. U leest ook hoe u technische ondersteuning krijgt.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Ja. [!INCLUDE [prod_short](includes/prod_short.md)] is geoptimaliseerd voor online implementatie en sommige mogelijkheden kunnen alleen onder bepaalde omstandigheden op locatie worden uitgevoerd, terwijl andere helemaal niet worden ondersteund. Zie voor meer informatie [Functies die niet zijn geïmplementeerd in on-premises implementaties van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (alleen beschikbaar in het Engels).
   - question: >
       Kan ik training krijgen in Business Central?
-    answer: "Ja, dat kan. U vindt gratis eLearning-inhoud op de [Microsoft Learn-site](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). U kunt uw wederverkoper ook om meer training vragen. Zie de sectie [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) als u niet weet wie dat is.  \n\nZie de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers) voor meer informatie over training voor Dynamics 365 die door Microsoft wordt gegeven.  \n\nMeer materiaal vindt u in de [!INCLUDE[prod_short](includes/prod_short.md)]-community, zoals de [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), die door een partner is geschreven.  \n"
+    answer: "Ja, dat kan. U vindt gratis eLearning-inhoud op de [Microsoft-trainingsite](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). U kunt uw wederverkoper ook om meer training vragen. Zie de sectie [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) als u niet weet wie dat is.  \n\nZie de pagina [Microsoft Dynamics 365-training](/dynamics365/get-started/training/index#dynamics-365-customers) voor meer informatie over training voor Dynamics 365 die door Microsoft wordt gegeven.  \n\nMeer materiaal vindt u in de [!INCLUDE[prod_short](includes/prod_short.md)]-community, zoals de [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), die door een partner is geschreven.  \n"
   - question: Hoe krijg ik technische ondersteuning voor Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] wordt verkocht via partners en u moet contact met uw resellerpartner opnemen voor hulp bij technische problemen. Als uw [!INCLUDE[prod_short](includes/prod_short.md)]-partner het probleem niet kan oplossen, openen zij een ondersteuningsticket bij Microsoft.  \n\nZie de secties [Help en ondersteuning](product-help-and-support.md) en [Hoe vind ik een partner-reseller?](#how-do-i-find-a-reselling-partner) voor meer informatie.  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "Als uw ervaringsinstelling op de pagina **Bedrijfsgegevens** is ingesteld op **Essential**, zijn UI-elementen voor de functies Productie en Servicebeheer niet zichtbaar voor u omdat deze de ervaring **Premium** vereisen. Er wordt in Help-onderwerpen op hoog niveau een tekstnotitie ingevoegd voor deze functiegebieden. Zie voor meer informatie [Wijzigen welke functies worden weergegeven](ui-experiences.md).  \n"
   - question: >
       Waarom is nieuwe informatie niet beschikbaar in mijn taal?
-    answer: "Op de docs.microsoft.com-site wordt inhoud over bedrijfsfunctionaliteit in meerdere talen gepubliceerd. De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. Dit betekent dat u deze nieuwe inhoud maximaal vier weken niet in uw eigen taal kunt lezen.  \n\nWe begrijpen de problemen die dit kan veroorzaken en we moedigen gebruikers aan om in het Engels te zoeken naar wat ze zoeken als ze het niet in hun eigen taal kunnen vinden.  \n"
+    answer: "Microsoft Learn-inhoud over zakelijke functionaliteit wordt in een aantal talen gepubliceerd. De inhoud is geschreven in het Engels en gepubliceerd op URL's met *en-us* als de taalcode. Wanneer nieuwe informatie in het Engels wordt gepubliceerd, wordt deze verzonden voor vertaling in de ondersteunde talen. Dit betekent dat u deze nieuwe inhoud maximaal vier weken niet in uw eigen taal kunt lezen.  \n\nWe begrijpen de problemen die dit kan veroorzaken en we moedigen gebruikers aan om in het Engels te zoeken naar wat ze zoeken als ze het niet in hun eigen taal kunnen vinden.  \n"
   - question: Welk e-mailadres kan ik gebruiken met Business Central online?
     answer: "Voor [!INCLUDE[prod_short](includes/prod_short.md)] online moet u voor aanmelding een e-mailadres van het werk of van school gebruiken. In [!INCLUDE[prod_short](includes/prod_short.md)] online worden geen e-mailadressen ondersteund die worden geleverd door consumentene-mailservices of telecommunicatieproviders. Dit omvat outlook.com, hotmail.com, gmail.com en andere.  \n\nAls u zich met een persoonlijk e-mailadres probeert aan te melden, ontvangt u een bericht dat u een e-mailadres van het werk of van school moet gebruiken. Zie voor meer informatie [Probleemoplossing voor aanmelden bij Self-Service](ui-troubleshoot-self-signup.md).  \n\nAls u [!INCLUDE[prod_short](includes/prod_short.md)] on-premises wilt gebruiken, kunt u andere verificatiemethoden gebruiken. Zie voor meer informatie [Implementatie van Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >
