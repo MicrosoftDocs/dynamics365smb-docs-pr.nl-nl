@@ -1,29 +1,29 @@
 ---
 title: Elektronische btw- en ICP-aangiften [NL]
-description: In het volgende onderwerp wordt beschreven hoe u elektronische btw- en ICP-aangiften instelt in de Nederlandse versie.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/30/2021
-ms.author: edupont
-ms.openlocfilehash: ba01b8e2423fb4849aface22d563ba9ce06bc479
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+description: Dit artikel beschrijft hoe u elektronische btw- en ICP-aangiften instelt in de Nederlandse versie.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: altotovi
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: 0ae9deb7b68c08b654c5cdd8cfcc12470db906ab
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148917"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822568"
 ---
 # <a name="setting-up-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie
-Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden. 
+
+Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden.
 
 Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar de belastingdienst te verzenden. Zie voor meer informatie [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md).  
 
 ## <a name="to-set-up-electronic-declarations"></a>Elektronische aangiften instellen  
 
-Zorg er eerst voor dat u de certificaten heeft geüpload die u nodig heeft om met Digipoort te communiceren. Dit wordt gedaan op de pagina **Certificaten**. U heeft een client- en een servicecertificaat nodig. Als ze zijn toegevoegd aan de lijst met certificaten kunt u doorgaan met het opzetten van elektronische aangiften.
+Zorg ervoor dat u de certificaten hebt geüpload die nodig zijn om met Digipoort te communiceren. Gebruik de pagina **Certificaten** om een client- en een servicecertificaat te uploaden. Als ze zijn toegevoegd aan de lijst met certificaten kunt u doorgaan met het opzetten van elektronische aangiften.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elek. aangifte-instellingen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul op de pagina **Elek. aangifte-instellingen** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]
@@ -36,14 +36,22 @@ Zorg er eerst voor dat u de certificaten heeft geüpload die u nodig heeft om me
     U kunt geen belastinggegevens van ICP-aangiften combineren. ICP-aangiften moeten altijd afzonderlijk worden ingediend.<br /><br />
     Voor elke dochteronderneming kan een elektronische ICP-aangifte worden opgesteld en aan de belastingdienst worden gezonden. Deze elektronische ICP-aangiften moeten het btw-nummer van de dochteronderneming en de waarde van het veld **Nr. fiscale eenheid** van de moedermaatschappij op de pagina **Bedrijfsgegevens** bevatten.
 
-5. Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Zie [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort) voor meer informatie.  
-6. Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service. Zie voor meer informatie [Elektronische btw- en ICP-aangiftes](electronic-vat-and-icp-declarations.md).
-7. Geef in het veld **Clientcertificaatcode** het clientcertificaat uit de lijst met certificaten op.
-8. Geef in het veld **Servicecertificaatcode** het servicecertificaat uit de lijst met certificaten op.
+5. Stel op het sneltabblad **Digipoort** de volgende configuraties in:
+   - Geef in het veld **Directe leverings-URL** de URL op voor de productieversie van de Digipoort Aanlever-service. Meer informatie op [https://www.logius.nl/producten/gegevensuitwisseling/digipoort](https://www.logius.nl/producten/gegevensuitwisseling/digipoort).  
+   - Geef in het veld **Digipoort status-URL** de URL op voor de statusinformatie die komt van de Digipoort Statusinformatie-service. Ga voor meer informatie naar [Elektronische btw- en ICP-aangiften](electronic-vat-and-icp-declarations.md).
+   - Selecteer **Certificaatinstellingen gebruiken** om op te geven dat de certificaatcodes die in de volgende stap zijn opgegeven, moeten worden gebruikt om gegevens over te dragen naar de informatieservice.
+   - Geef in het veld **Code van clientcertificaat** het clientcertificaat op.
+   - Geef in het veld **Code van servicecertificaat** het servicecertificaat op.
+
+6. Om eindpunten in te stellen voegt u de eindpunt-URL's toe op het sneltabblad **Eindpunten**.
+
+    > [!NOTE]  
+    > De ingestelde eindpunten worden geïmplementeerd in 21.1-tenants. Alle waarden zijn echter leeg, maar de Digipoort-oplossing werkt nog steeds door hardgecodeerde waarden te nemen als er geen waarden in de instellingen zijn. In release 21.2 [!INCLUDE [prod_short](../../includes/prod_short.md)] wordt er automatisch een upgrade uitgevoerd.
 
 ## <a name="see-also"></a>Zie ook  
- [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
- [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
+
+[Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
+[Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
