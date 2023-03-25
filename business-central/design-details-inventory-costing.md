@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, inventory, costing
+ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146641"
 ---
-# <a name="design-details-inventory-costing"></a>Ontwerpdetails: Voorraadwaardering
+# Ontwerpdetails: Voorraadwaardering
 
 Deze documentatie biedt gedetailleerde technische inzichten in de concepten en principes die worden gebruikt binnen de functies voor voorraadwaardering in [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Voorraadwaardering, ook wel kostenbeheer genoemd, heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten.  
 
-## <a name="in-this-section"></a>In dit gedeelte
+## In dit gedeelte
 
 [Ontwerpdetails: Waarderingsmethoden](design-details-costing-methods.md)  
 [Ontwerpdetails: Artikelvereffening](design-details-item-application.md)  
