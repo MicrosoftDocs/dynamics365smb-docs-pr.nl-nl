@@ -68,6 +68,8 @@ Zie voor meer informatie over bedrijven en omgevingen [Omgevingskoppelingen](com
 
 ## Toegang tot de bedrijfshub
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Om toegang te krijgen tot de bedrijfshub moet u toegang hebben via de gebruikersgroep *D365 BEDRIJFSHUB* of via de machtigingenset *D365 BEDRIJFSHUB*. U moet ook toegang hebben tot de bedrijven die in uw bedrijfshub worden vermeld, wat betekent dat u een gebruiker in die bedrijven moet zijn. Zie [Gebruikers maken volgens licenties](ui-how-users-permissions.md) voor meer informatie.  
 
 > [!IMPORTANT]
