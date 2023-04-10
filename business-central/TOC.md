@@ -23,16 +23,23 @@
 #### [Procedure: Cashflowprognoses maken met behulp van financiële rapporten](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Procedure: De Shopify-connector instellen en gebruiken](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Demogegevens van Contoso Coffee voor productie
+### Demogegevens van Contoso Coffee
 #### [Inleiding tot de demogegevens voor Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Een nieuwe productiestuklijst en stuklijstversie maken](contoso-coffee/create-new-production-bom-version.md)
-#### [Een nieuw bewerkingsplan maken](contoso-coffee/create-new-routing.md)
-#### [Een nieuwe vast geplande productieorder maken en deze wijzigen](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Automatisch en handmatig afboeken combineren](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Orderplanning gebruiken om voorraad te maken en te reserveren](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Een uitbestedingsbewerking instellen en verwerken](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Nieuwe capaciteit instellen](contoso-coffee/set-up-new-capacity.md)
-#### [Varianten](contoso-coffee/variants.md)
+#### Productie
+##### [Inleiding tot de demogegevens voor Contoso Coffee-productie](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Een nieuwe productiestuklijst en stuklijstversie maken](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Een nieuw bewerkingsplan maken](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Een nieuwe vast geplande productieorder maken en deze wijzigen](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Automatisch en handmatig afboeken combineren](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Orderplanning gebruiken om voorraad te maken en te reserveren](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Een uitbestedingsbewerking instellen en verwerken](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Nieuwe capaciteit instellen](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Varianten](contoso-coffee/manufacturing/variants.md)
+#### Magazijnen
+##### [Inleiding tot Contoso Coffee-magazijn](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Overzicht van inkomende en uitgaande stroom in standaardmagazijnconfiguraties](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Overzicht van inkomende en uitgaande stroom in gemengde magazijnconfiguraties](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Overzicht van inkomende en uitgaande stroom in geavanceerde magazijnconfiguraties met gestuurde opslag en pick](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Ontwerpdetails
 #### [Overzicht van toepassingsontwerpdetails](design-details-application-design.md)
@@ -108,7 +115,7 @@
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
 ### Door AI aangestuurde artikelmarketingtekst met Copilot
 #### [Overzicht](ai-overview.md)
-#### [Preview-versie downloaden - Copilot-editie](ai-preview-getstarted.md)
+#### [Preview-versie downloaden](ai-preview-getstarted.md)
 #### [Door AI aangestuurde artikelmarketingtekst configureren](enable-ai.md)
 #### [Door AI aangestuurde artikelmarketingtekst maken](item-marketing-text.md)
 #### [Veelgestelde vragen](ai-faq.md)
@@ -409,8 +416,12 @@
 ### Financiële gegevens uit meerdere bedrijven consolideren
 #### [Bedrijfsconsolidatie](finance-consolidated-company-reporting.md)
 #### [Bedrijfsconsolidatie instellen](finance-consolidated-company-reporting-setup.md)
+
+### Werken met het rekeningschema en het grootboek
+#### [Het grootboek en het rekeningschema begrijpen](finance-general-ledger.md)
+#### [Rekeningen controleren](finance-review-accounts.md)
+
 ### [Saldi consolideren voor een bedrijf dat een klant en een leverancier is](finance-consolidate-customer-vendor-balances.md)
-### [Het grootboek en rekeningschema begrijpen](finance-general-ledger.md)
 ### [Werken met dimensies](finance-dimensions.md)
 ### [Problemen met dimensies oplossen en corrigeren](finance-troubleshooting-correcting-dimensions.md)
 ### [Valuta's in Business Central](finance-currencies.md)
@@ -436,6 +447,7 @@
 ## Financiële Business Intelligence en rapportage
 ### [Overzicht van financiële Business Intelligence en rapportage](bi.md)
 ### [Financiële rapporten](finance-reports.md)
+### [Gegevens analyseren met statistiekrekeningen](bi-use-statistical-accounts.md)
 ### [Werkelijke bedragen analyseren in vergelijking met gebudgetteerde bedragen](bi-how-analyze-actual-versus-budget.md)
 ### [Financiële rapportage voorbereiden met financiële gegevens en rekeningcategorieën](bi-how-work-account-schedule.md)
 ### [KPI-webservices instellen en publiceren op basis van financiële rapporten](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1511,6 +1523,7 @@
 #### [Documenten verzenden via e-mail](ui-how-send-documents-email.md)
 #### [Verzendwijzen instellen:](sales-how-set-up-shipment-methods.md)
 #### [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)
+#### [Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)
 ### Inkoop instellen
 #### [Inkoop instellen](purchasing-setup-purchasing.md)
 #### [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)
@@ -1519,6 +1532,7 @@
 #### [Inkopers instellen:](purchasing-how-setup-purchasers.md)
 #### [Prijzen en kortingen instellen](across-prices-and-discounts.md)
 #### [Speciale verkoopprijzen en kortingen vastleggen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)
 ### Voorraad instellen
 #### [Voorraad instellen](inventory-setup-inventory.md)
 #### [Algemene voorraadgegevens instellen](inventory-how-setup-general.md)
@@ -1631,6 +1645,7 @@
 ##### [Overzicht](across-teams-overview.md)
 ##### [Teams-integratie beheren](admin-teams-integration.md)
 ##### [De Business Central-app voor Teams installeren](across-install-app-for-teams.md)
+##### [Toegang tot gegevens in Teams krijgen zonder Business Central-licentie](teams-access-with-m365-license.md)
 ##### [Zoeken naar klanten, leveranciers en contacten](across-search-contacts-teams.md)
 ##### [Een Business Central-tabblad toevoegen in kanaal of chat](across-teams-tab.md)
 ##### [Records en paginakoppelingen delen in Teams](across-working-with-teams.md)
@@ -1755,6 +1770,7 @@
 ### [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)
 ### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
 ### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
+### [Lijstgegevens analyseren met de analysemodus](analysis-mode.md)
 ### [Financiële Business Intelligence](bi.md)
 
 ## Ingebouwde analyse 
@@ -1884,6 +1900,9 @@
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
 ### [Een Power Automate-stroom gebruiken voor waarschuwingen voor Dataverse-entiteitswijzigingen](admin-power-automate-flow-dataverse.md)
+## Hoofdgegevens synchroniseren tussen bedrijven
+### [Voorbereiden op het synchroniseren van hoofdgegevens](admin-set-up-data-sync.md)
+### [Synchronisatie van hoofdgegevens beheren](admin-sync-master-data.md)
 ## Ontwerpdetails
 ### [Overzicht van toepassingsontwerpdetails](design-details-application-design.md)
 ### Ontwerpdetails: Leveringsplanning
