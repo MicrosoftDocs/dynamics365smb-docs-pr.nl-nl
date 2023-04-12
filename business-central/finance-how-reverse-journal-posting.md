@@ -1,15 +1,12 @@
 ---
 title: Een boeking ongedaan maken door een tegenboeking te boeken
-description: 'Als u een foutieve boeking in het dagboek hebt gemaakt, kunt u vervolgens de functie Transactie tegenboeken gebruiken om de boeking ongedaan te maken met de juiste audittrail.'
+description: 'Als u een fout vindt in een geboekt dagboek, kunt u de actie Transactie storneren gebruiken om de boeking ongedaan te maken met een correcte audittrail.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Journaalboekingen tegenboeken en ontvangsten/zendingen ongedaan maken
 
@@ -93,6 +90,5 @@ De stappen zijn vergelijkbaar met de stappen voor geboekte ontvangsten.
 [Werken met diversendagboeken](ui-work-general-journals.md)  
 [Financiën](finance.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Gebruikers maken volgens licenties
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Dit artikel beschrijft hoe beheerders gebruikers maken en bepalen wie zich kan aanmelden bij [!INCLUDE[prod_short](includes/prod_short.md)]. U leert ook hoe u machtigingen toewijst aan verschillende gebruikers op basis van uw productlicenties.
 
@@ -37,7 +39,7 @@ Nadat gebruikersaccounts zijn gemaakt in het Microsoft 365-beheercentrum, zijn e
 
 - Een gebruikersaccount wordt automatisch geïmporteerd wanneer de gebruiker zich voor het eerst aanmeldt bij [!INCLUDE [prod_short](includes/prod_short.md)].
 
-- De beheerder kan gebruikers importeren door de actie  **Gebruikers bijwerken vanuit Microsoft 365** te kiezen op de pagina **Gebruikers* .
+- De beheerder kan gebruikers importeren door de actie  **Gebruikers bijwerken vanuit Microsoft 365**  te kiezen op de pagina **Gebruikers* .
 
 Beide benaderingen hebben hun eigen voordelen en u kunt ze tegelijkertijd gebruiken. Elke benadering stelt beheerders in staat om [!INCLUDE [prod_short](includes/prod_short.md)] proactief te configureren om de startmachtigingen, gebruikersgroepen en gebruikersprofielen toe te wijzen. Door de actie **Gebruikers bijwerken vanuit Microsoft 365** te gebruiken hebben beheerders meer controle over het aanpassen van machtigingen, gebruikersgroepen en profielen. Het is een ideale benadering wanneer u [!INCLUDE [prod_short](includes/prod_short.md)] voor het eerst instelt, voordat gebruikers inloggen of wanneer u een nieuw team gebruikers toevoegt.
 
@@ -90,8 +92,11 @@ Nadat u gebruikers heeft toegevoegd of gebruikersinformatie heeft gewijzigd in h
 2. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gebruikers** in en kies vervolgens de gerelateerde koppeling.  
 3. Kies **Gebruikers bijwerken vanuit Microsoft 365**.
 
+> [!IMPORTANT]  
+> Voor het uitvoeren van de synchronisatie van gebruikers van Microsoft 365 met behulp van de gids **Gebruikers bijwerken vanuit Microsoft 365** is de SUPER-machtigingenset vereist.
+
 > [!NOTE]
-> De actie **Gebruikers bijwerken vanuit Microsoft 365** actie werkt gebruikers niet bij aan wie geen licentie is toegewezen, zoals iemand die globale beheerder en Dynamics 365-beheerder is. Die gebruikers zullen de volgende keer dat ze inloggen op de omgeving updaten.
+> De gids **Gebruikers bijwerken vanuit Microsoft 365** werkt gebruikers niet bij aan wie geen licentie is toegewezen, zoals iemand die globale beheerder en Dynamics 365-beheerder is. Die gebruikers zullen de volgende keer dat ze inloggen op de omgeving updaten.
 
 Voor nieuw gemaakte gebruikers is de volgende stap het toewijzen van gebruikersgroepen en machtigingen. Ga naar [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md) voor informatie Als u een gebruiker bijwerkt en de update een licentiewijziging omvat, worden gebruikers toegewezen aan de juiste gebruikersgroep en worden hun machtigingensets bijgewerkt. Zie [Machtigingen beheren via gebruikersgroepen](ui-define-granular-permissions.md) voor meer informatie.  
 
@@ -101,7 +106,7 @@ Voor nieuw gemaakte gebruikers is de volgende stap het toewijzen van gebruikersg
 Voor meer informatie over het synchroniseren van gebruikersinformatie met Microsoft 365 gaat u naar de sectie [Synchronisatie met Microsoft 365](#m365).
 
 > [!NOTE]
-> Als u een externe auditor gebruikt om uw boeken en financiële rapportage te beheren, kunt u deze uitnodigen voor uw Business Central, zodat hij of zij met u kan werken aan uw fiscale gegevens. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).
+> Als u een externe auditor gebruikt om uw boeken en financiële rapportage beheren, kunt u deze uitnodigen voor uw [!INCLUDE[prod_short](includes/prod_short.md)], zodat hij of zij met u kan werken aan uw fiscale gegevens. Zie voor meer informatie [Uw externe accountant uitnodigen voor uw Business Central](finance-accounting.md#inviteaccountant).
 
 ### De toegang van een gebruiker tot het systeem verwijderen
 
@@ -134,9 +139,9 @@ Als u gebruikersgegevens wijzigt in Microsoft 365, kunt u [!INCLUDE[prod_short](
 
 Gebruikers hebben toegang tot Business Central-gegevens in [!INCLUDE[prod_short](includes/prod_short.md)]-records in Teams met alleen hun Microsoft 365-licentie. Wanneer toegang is ingeschakeld voor een omgeving, worden bij synchronisatie met de actie **Gebruikers bijwerken vanuit Microsoft 365** geen gebruikers opgenomen die alleen een Microsoft 365-licentie hebben. Om deze gebruikers in de synchronisatie op te nemen moet u eerst de omgevingsinstellingen bijwerken door een beveiligingsgroep toe te wijzen die gebruikers bevat met een [!INCLUDE[prod_short](includes/prod_short.md)]-licentie en gebruikers met alleen een Microsoft 365-licentie.
 
-Lees meer over het beveiligen van toegang tot omgevingen met behulp van beveiligingsgroepen op [Toegang beheren met Azure Active Directory-groepen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Lees meer over het beveiligen van toegang tot omgevingen met behulp van beveiligingsgroepen op [Toegang beheren met Azure Active Directory-groepen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Krijg een overzicht van toegang tot Business Central in Teams met Microsoft 365-licenties op [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Krijg een overzicht van toegang tot [!INCLUDE[prod_short](includes/prod_short.md)] in Teams met Microsoft 365-licenties op [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Gebruikers en licenties beheren in on-premises implementaties
 

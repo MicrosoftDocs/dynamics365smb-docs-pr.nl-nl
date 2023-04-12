@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Uw werkruimte personaliseren
 
-U kunt uw werkruimte aanpassen aan uw werk en voorkeuren. Wijzig pagina's zodat ze alleen de informatie weergeven die u nodig hebt, waar u die nodig hebt. De personalisatiewijzigingen die u maakt, hebben alleen effect op wat *u* ziet, niet wat andere gebruikers kunnen zien.
+U kunt uw werkruimte aanpassen aan uw werk en voorkeuren. Wijzig pagina's zodat ze alleen de informatie weergeven die u nodig hebt, waar u die nodig hebt. Personalisatie heeft alleen invloed op uw werkruimte. Het verandert niets aan hoe anderen werken.
 
-U kunt alle soorten pagina's personaliseren, inclusief de rolcentrumpagina. Zie voor meer informatie over rolcentra [Rolcentrum](ui-change-basic-settings.md#role-center).  
+U kunt alle soorten pagina's personaliseren, inclusief de rolcentrumpagina. Ga voor meer informatie over rolcentra naar [Rolcentrum](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 U kunt verschillende wijzigingen aanbrengen, zoals velden, kolommen, acties en hele delen verplaatsen of verbergen, en nieuwe velden toevoegen. De meeste personalisatie moet worden gedaan door eerst de banner **Personaliseren** te activeren. U kunt eenvoudige aanpassingen, zoals de kolombreedte, direct in elke lijst maken.
 
 > [!NOTE]
-> Beheerders kunnen dezelfde indelingswijzigingen uitvoeren als gebruikers door de werkruimte aan te passen voor een profiel dat aan meerdere gebruikers is toegewezen. Zie voor meer informatie [Pagina's aanpassen voor rollen](ui-personalization-manage.md).<br /><br />
+> Beheerders kunnen dezelfde indelingswijzigingen maken als gebruikers door de werkruimte aan te passen voor een profiel dat aan meerdere gebruikers is toegewezen. Ga voor meer informatie over pagina's voor rollen naar [Pagina's aanpassen voor rollen](ui-personalization-manage.md)<br /><br />
 Beheerders kunnen ook personalisering van gebruikers overschrijven of uitschakelen en ze kunnen definiëren welke functies zelfs door gebruikers in alle of specifieke bedrijven kunnen worden gezien. Zie [Business Central aanpassen](ui-customizing-overview.md) voor meer informatie.
 
-## Video-overzicht
+## Video
+
 De volgende video toont enkele manieren waarop u uw rolcentrum kunt personaliseren.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ Wat betreft andere personalisatie, worden de wijzigingen die u aanbrengt in de k
 
 Met personalisatie kunt u bepalen welke acties op de navigatie- en actiebalk en in rolcentra worden weergegeven en waar deze worden weergegeven. U kunt afzonderlijke acties of actiegroepen weergeven, verbergen of verplaatsen.
 
-In releasewave 2 van 2022 hebben we u meer manieren geboden om Business Central aan te passen. De volgende video laat zien hoe u acties op pagina's en rolcentra kunt personaliseren.
+De volgende video laat zien hoe u acties op pagina's en rolcentra kunt personaliseren.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -87,7 +88,7 @@ Er zijn enkele termen waarmee u vertrouwd moet zijn om actiepersonalisatie beter
 
 Een *actiegroep* is een element dat wordt vergroot om meer acties of groepen weer te geven. Op de pagina **Verkooporders** is één actiegroep bijvoorbeeld de actie **Functies**, die wordt weergegeven wanneer u de actie **Acties** kiest.
 
-Een *gepromoveerde categorie* is een actiegroep die vóór de verticale lijn `|` op de actiebalk wordt weergegeven. De categorieën omvatten meestal de meest gebruikte acties, zodat u deze snel kunt vinden. Bijvoorbeeld op de pagina **Verkooporders** zijn de acties **Order**, **Vrijgeven**en **Boeken** gepromoveerde categorieën.
+Een *gepromoveerde categorie* is een actiegroep die vóór de verticale lijn `|` op de actiebalk wordt weergegeven. De categorieën omvatten meestal de meest gebruikte acties, zodat u deze snel kunt vinden. Op de pagina **Verkooporders** zijn bijvoorbeeld de acties **Order**, **Vrijgeven**en **Boeken** gepromoveerde categorieën.
 
 > [!NOTE]  
 > Om personalisatie te wissen selecteert u de pijlpunt rond het ontwerpermenu van het onderdeel en kiest u vervolgens **Personalisatie wissen**.
@@ -126,6 +127,7 @@ Onderdelen zijn gebieden op een pagina die doorgaans zijn samengesteld uit meerd
 U kunt alle personalisatiewijzigingen die u in één onderdeel hebt aangebracht, wissen door de optie **Personalisatie wissen** te kiezen onder de pijlpunt van het onderdeel. Personalisatie van een onderdeel wissen heeft alleen invloed op wijzigingen in de inhoud van het onderdeel, niet op de plaatsing of zichtbaarheid van het onderdeel op de pagina.  
 
 ## Personalisatie wissen
+
 Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen ongedaan maken die u in de loop van de tijd op een pagina hebt aangebracht.
 
 1. Kies op de banner **Personaliseren** de actie **Personalisatie wissen**.
@@ -138,7 +140,7 @@ Op een bepaald moment wilt u mogelijk sommige of alle personalisatiewijzigingen 
 |------|------------
 |**Alleen navigatiemenu**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in het navigatiemenu dat wordt gedeeld door het rolcentrum en andere pagina's. Dergelijke wijzigingen omvatten alle nieuwe acties die als bladwijzers zijn toegevoegd en eventuele wijzigingen in koppelingen en groepen in het menu.|  
 |**Alleen acties**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht in de navigatie- of actiebalk op de pagina.|
-|**Alleen velden, kolommen en onderdelen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de navigatie- of actiebalk. Dergelijke wijzigingen omvatten wijzigingen in velden, kolommen, onderdelen en tegels. |
+|**Alleen velden en kolommen**|Wist alle personalisatiewijzigingen die u ooit hebt aangebracht op de pagina, behalve wijzigingen in de navigatie- of actiebalk. Dergelijke wijzigingen omvatten wijzigingen in velden, kolommen, onderdelen en tegels. |
 |**Alle**|Wist alle personalisatie die u ooit in de pagina hebt aangebracht, zodat de pagina weer de oorspronkelijke weergave krijgt. Dergelijke wijzigingen omvatten wijzigingen in de navigatie- en actiebalk, velden, kolommen, onderdelen en tegels.|
 
 ## Andere interessante zaken

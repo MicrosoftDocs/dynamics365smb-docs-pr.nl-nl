@@ -90,8 +90,12 @@ De eerste stap bij het werken met de XBRL-functie is het importeren van een taxo
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **XBRL-taxonomieën** in en kies vervolgens de gerelateerde koppeling  
 2. Maak op de pagina **XBRL-taxonomieën** een nieuwe regel en voer de naam en de omschrijving van de taxonomie in.  
 3. Kies de actie **Schema's** en voeg vervolgens de omschrijving van het schema in.  
-4. Om het schema te importeren, kiest u op de pagina **XBRL-schema's** de actie **Importeren** en selecteert u vervolgens een map en een XSD-bestand. Kies **Openen**.  
-5. Om de linkbase te importeren, kiest u op de pagina **XBRL-schema's** de actie **Linkbases** en selecteert u vervolgens een map en een XML-bestand. Kies **Openen**.  
+4. Om het schema te importeren, kiest u op de pgaina **XBRL-schema´s** de actie **Importeren** en voert u een van de volgende handelingen uit stappen om het bestand te uploaden:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Om de linkbase te importeren, kiest u op de pagina **XBRL-schema´s** de actie **Linkbases** en voert u een van de volgende handelingen uit stappen om het bestand te uploaden:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. U kunt de linkbase nu op het stelsel toepassen. Doe hetzelfde om de overige linkbases te importeren.  
 7. Kies de actie **Op taxonomie toepassen** om de linkbase op het schema toe te passen.  
 

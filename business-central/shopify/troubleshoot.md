@@ -1,7 +1,7 @@
 ---
 title: Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 description: Leer wat u moet doen als er iets mis gaat tijdens de synchronisatie van gegevens tussen Shopify en Business Central
-ms.date: 08/19/2022
+ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
@@ -12,15 +12,31 @@ ms.reviewer: solsen
 
 # Problemen oplossen met de synchronisatie tussen Shopify en Business Central
 
-Het is mogelijk om situaties tegen te komen waarin u problemen moet oplossen bij het synchroniseren van gegevens tussen Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)]. Deze pagina definieert stappen voor het oplossen van enkele veelvoorkomende probleemscenario's die zich kunnen voordoen.
+Mogelijk komt u situaties tegen waarin u problemen moet oplossen bij het synchroniseren van gegevens tussen Shopify en [!INCLUDE[prod_short](../includes/prod_short.md)]. Deze pagina definieert stappen voor het oplossen van enkele typische scenario's.
+
+## Taken op de voorgrond uitvoeren
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de winkel waarvoor u problemen wilt oplossen om de pagina **Shopify-winkelkaart** te openen.
+3. Zet de schakelaar **Synchronisatie op achtergrond toestaan** uit.
+
+Wanneer de synchronisatieactie wordt geactiveerd, wordt de taak op de voorgrond uitgevoerd en als er een fout optreedt, krijgt u een foutdialoogvenster met de koppeling **Details kopiëren** . Gebruik deze koppeling om aanvullende informatie naar een teksteditor te kopiëren voor verdere analyse.
 
 ## Logboeken
 
-Als een synchronisatietaak mislukt, kunt u logboekregistratie activeren door de schakelaar **Logboek inschakelen** in te schakelen op de pagina **Shopify-winkelkaart**. Dan kunt u de synchronisatietaak handmatig activeren en logboeken bekijken.
+Als een synchronisatietaak mislukt, kunt u de schakelaar **Logboek geactiveerd** inschakelen op de pagina **Shopify-winkelkaart** om de registratie te activeren. Dan kunt u de synchronisatietaak handmatig activeren en logboeken bekijken.
+
+### Registratie activeren
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-winkel** in en kies vervolgens de gerelateerde koppeling.
+2. Selecteer de winkel waarvoor u problemen wilt oplossen om de pagina **Shopify-winkelkaart** te openen.
+3. Zet de schakelaar **Logboek geactiveerd** aan.
+
+### Logboeken controleren
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Shopify-logposten** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer de gerelateerde logboekpost en open de pagina **Shopify-logpost**.
-3. Bekijk het verzoek, de statuscode, de beschrijving en de reactiewaarden.
+3. Bekijk het verzoek, de statuscode, de beschrijving en de reactiewaarden. U kunt de verzoek- en antwoordwaarden als bestanden in tekstindeling downloaden.
 
 Vergeet later niet logboekregistratie later uit te schakelen om negatieve invloed op de prestaties en een toename van de databasegrootte te voorkomen.
 
@@ -85,17 +101,38 @@ De volgende procedures beschrijven hoe u het toegangstoken kunt roteren dat word
 
 ## Bekende problemen
 
-### De *Bedrijfsboekingsgroep* kan niet nul of leeg zijn. Er moet een waarde in het klantveld staan
+### Fout: de verkoopkoptekst bestaat niet. Identificatievelden en waarden: Document Type='Quote',No.='YOU SHOPIFY STORE'
+
+Om prijzen te berekenen, creëert de Shopify Connector tijdelijk verkoopdocument (offerte) voor tijdelijke klant (winkelcode) en laat de standaardlogica voor prijsberekening zijn werk doen. Het is een typisch scenario wanneer een extensie van derden zich abonneert op gebeurtenissen in de verkoopregel, maar niet controleert of het record tijdelijk is, zodat de koptekst mogelijk niet toegankelijk is. Onze aanbeveling is om contact op te nemen met de leverancier van de extensie en hen te vragen hun code aan te passen om te controleren of records tijdelijk zijn. In sommige gevallen is het toevoegen van de methode `IsTemporary` op de juiste plek genoeg. Ga voor meer informatie over IsTemporary naar [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+
+Om te verifiëren dat het probleem wordt veroorzaakt door een extensie van derden, gebruikt u de koppeling **Informatie naar klembord kopiëren** in het foutbericht en kopieert u vervolgens de inhoud naar de teksteditor. De informatie bevat een **AL-aanroepstack**, waarbij de bovenste regel de regel is waar de fout is opgetreden. Het volgende is een voorbeeld van een AL-aanroepstack.
+
+AL-aanroepstack: 
+```AL
+[Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
+...
+"Sales Line"(Table 37)."No. - OnValidate"(Trigger) line 98 - Base Application by Microsoft
+"Shpfy Product Price Calc."(CodeUnit 30182).CalcPrice line 20 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateTempProduct line 137 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateProduct line 5 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).OnRun(Trigger) line 12 - Shopify Connector by Microsoft
+"Shpfy Add Item to Shopify"(Report 30106)."Item - OnAfterGetRecord"(Trigger) line 2 - Shopify Connector by Microsoft
+"Shpfy Products"(Page 30126)."AddItems - OnAction"(Trigger) line 5 - Shopify Connector by Microsoft
+```
+
+Vergeet niet om AL-aanroepstack-informatie te delen met de leverancier van de extensie.
+
+### Fout: Bedrijfsboekingsgroep moet een waarde hebben in Klant: 'YOU SHOPIFY STORE'. Het kan niet nul of leeg zijn
 
 Vul het veld **Klantensjablooncode** op de pagina **Shopify -winkelkaart** met de sjabloon waarin **Bedrijfsboekingsgroep** is ingevuld. De klantensjabloon wordt niet alleen gebruikt voor het maken van klanten, maar ook voor het berekenen van verkoopprijzen en tijdens het maken van verkoopdocumenten.
 
-### Gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen
+### Fout: gegevens importeren naar uw Shopify-winkel is niet ingeschakeld. Ga naar de winkelkaart om deze in te schakelen
 
-Zet in het venster **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie naar Shopify toestaan** aan. Deze schakelaar is bedoeld om de online winkel te beschermen tegen het verkrijgen van demogegevens van [!INCLUDE[prod_short](../includes/prod_short.md)].
+Zet in het venster **Shopify-winkelkaart** de schakelaar **Gegevenssynchronisatie naar Shopify** aan. Deze schakelaar is bedoeld om de online winkel te beschermen tegen het verkrijgen van demogegevens van [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Oauth-fout invalid_request: Kan Shopify API-toepassing niet vinden met api_key
+### Fout: Oauth-fout invalid_request: kan Shopify API-toepassing niet vinden met api_key
 
-Het lijkt erop dat u [App insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) gebruikt, waarbij de client-URL deze indeling heeft: `https://[application name].bc.dynamics.com`. De Shopify-connector werkt niet voor Insluiten-apps. Zie voor meer informatie [Voor welke Microsoft-producten is de Shopify connector beschikbaar](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
+Het lijkt erop dat u [App insluiten](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) gebruikt, waarbij de client-URL deze indeling heeft: `https://[application name].bc.dynamics.com`. De Shopify-connector werkt niet voor Insluiten-apps. Raadpleeg voor meer informatie [Voor welke Microsoft-producten is de Shopify-connector beschikbaar?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ## Zie ook
 

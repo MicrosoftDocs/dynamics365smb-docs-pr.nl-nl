@@ -48,18 +48,18 @@ In dit gedeelte worden de huidige beperkingen van de door AI gegenereerde tekstm
 
 - Door AI gegenereerde tekstsuggesties zijn alleen in het Engels.
 - Slechte suggesties kunnen het gevolg zijn wanneer vage of generieke productnamen worden gebruikt en details over een artikel ontbreken, zoals belangrijke kenmerken of een categorie.
-- Copilot wordt alleen ondersteund in Business Central online proef- en sandbox-omgevingen; niet in productieomgevingen, privécloudomgevingen of Business Central on-premises-omgevingen.
+- Copilot wordt alleen ondersteund op Business Central online; geen private cloudomgevingen of Business Central on-premises omgevingen.
 - Copilot wordt niet ondersteund via verbindingen met uw eigen Azure OpenAI-serviceresource in uw Azure-abonnement.
 - Partneruitbreidbaarheid van de AI-mogelijkheid met behulp van AL-code wordt niet ondersteund.
 
 ## Volgende stappen
 
-Om aan de slag te gaan, hebt u een speciale preview-versie van Business Central nodig die is ingeschakeld met Copilot.
+Om aan de slag te gaan, hebt u een Business Central versie 22-omgeving nodig die is ingeschakeld met Copilot.
 
-- Als u een bestaande Business Central-klant bent, moet uw Business Central-beheerder de preview-versie voor u instellen in een sandbox-omgeving.
+- Als u een bestaande Business Central-klant bent, moet uw Business Central-beheerder een versie 22-omgeving voor u opzetten.
 - Als u geen Business Central-klant bent, maar het wilt uitproberen, meld u dan aan voor een gratis proefversie.
 
-Ga voor meer informatie naar [De preview-versie van Business Central - Copilot-editie downloaden](ai-preview-getstarted.md).  
+Ga voor meer informatie naar [De preview-versie van Business Central](ai-preview-getstarted.md).  
 
 ## Zie ook
 

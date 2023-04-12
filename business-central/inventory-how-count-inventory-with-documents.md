@@ -83,10 +83,10 @@ Als de medewerkers de voorraadaantallen hebben geteld, moet u voorbereidingen tr
 4. Selecteer het selectievakje **Geregistreerd** op elke regel.
 5. Als u alle gegevens van een inventarisatieregistratie hebt ingevoerd, kiest u de actie **Voltooien**. Voor alle regels moet het selectievakje **Geregistreerd** zijn ingeschakeld.
 
-> [!NOTE]
-> Als u een inventarisatieregistratie voltooit, wordt elke regel overgebracht naar de regel in de gerelateerde inventarisatieorder die er exact mee overeenkomst. Voor een overeenkomst moeten de waarden in de velden **Artikelnr.**, **Variant**, **Vestiging**, en **Opslaglocatie** hetzelfde zijn voor de registratie en de orderregels.<br /><br />
-> Als geen overeenkomende inventarisatieorderregel bestaat, en als het selectievakje **Registratie zonder order toestaan** is ingeschakeld, wordt automatisch een nieuwe regel ingevoegd en wordt het selectievakje **Geregistreerd zonder order** op de gerelateerde inventarisatieorderregel geselecteerd. Anders wordt een foutbericht weergegeven en wordt het proces geannuleerd.<br /><br />
-> Als meer dan één inventarisatieregistratieregel overeenkomt met een inventarisatieorderregel, wordt een bericht weergegeven en wordt het proces geannuleerd. Als om welke reden dan ook twee identieke inventarisatieregels in de inventarisatieorder komen, kunt u een functie gebruiken om dit op te lossen. Zie voor meer informatie de sectie [Dubbele inventarisatieorderregels zoeken](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Als u een inventarisatieregistratie voltooit, wordt elke regel overgebracht naar de regel in de gerelateerde inventarisatieorder die er exact mee overeenkomst. Voor een overeenkomst moeten de waarden in de velden **Artikelnr.**, **Variant**, **Vestiging**, en **Opslaglocatie** hetzelfde zijn voor de registratie en de orderregels.<br /><br />
+    > Als geen overeenkomende inventarisatieorderregel bestaat, en als het selectievakje **Registratie zonder order toestaan** is ingeschakeld, wordt automatisch een nieuwe regel ingevoegd en wordt het selectievakje **Geregistreerd zonder order** op de gerelateerde inventarisatieorderregel geselecteerd. Anders wordt een foutbericht weergegeven en wordt het proces geannuleerd.<br /><br />
+    > Als meer dan één inventarisatieregistratieregel overeenkomt met een inventarisatieorderregel, wordt een bericht weergegeven en wordt het proces geannuleerd. Als om welke reden dan ook twee identieke inventarisatieregels in de inventarisatieorder komen, kunt u een functie gebruiken om dit op te lossen. Zie voor meer informatie de sectie [Dubbele inventarisatieorderregels zoeken](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Een inventarisatieorder voltooien
 
@@ -102,7 +102,7 @@ U kunt ook de actie **Verschillen van inventarisatieorder** kiezen om eventuele 
 2. Open de inventarisatieorder waarvoor u dubbele regels wilt weergeven.
 3. Kies de actie **Dubbele regels weergeven**.
 
-Alle dubbele inventarisatieorderregels worden weergegeven, zodat u deze kunt verwijderen en slechts één regel kunt behouden met een unieke set waarden in de velden **Artikelnr.**, **Variant**, **Vestiging** en **Opslaglocatie**.
+Dubbele inventarisatieorderregels worden weergegeven, zodat u deze kunt verwijderen en slechts één regel kunt behouden met een unieke set waarden in de velden **Artikelnr.**, **Variant**, **Vestiging** en **Opslaglocatie**.
 
 ### Een inventarisatieorder boeken
 
@@ -118,10 +118,12 @@ Na voltooiing van een inventarisatieorder en de wijziging van de status ervan in
     Op de pagina **Inventarisatieorder** ziet u het aantal dat is geregistreerd in het veld **Geregistreerd aantal (basis)**.
 3. Kies de actie **Voltooien**.
 
-    De waarde in het veld **Status** wordt gewijzigd in **Gereedgemeld** en u kunt de order nu alleen wijzigen door eerst de actie **Opnieuw openen** te kiezen.
+    De waarde in het veld **Status** is **Gereedgemeld**, en u kunt de order nu alleen wijzigen door eerst de actie **Opnieuw openen** te kiezen.
 4. Als u de order wilt boeken, kiest u de actie **Boeken** en kiest u vervolgens de knop **OK**.
 
-De betreffende artikelposten worden bijgewerkt samen met eventuele gerelateerde artikeltraceringsposten.
+    De artikelposten worden bijgewerkt samen met eventuele gerelateerde artikeltraceringsposten.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Geboekte inventarisatieorders weergeven
 
@@ -141,7 +143,7 @@ Het selectievakje **Artikeltracering gebruiken** op inventarisatieorderregels wo
 
 Neem een inventarisatie voor artikel A, dat in voorraad is opgeslagen als tien verschillende serienummers.
 1. Schakel op de registratieregel voor het artikel het selectievakje **Artikeltracering gebruiken** in.
-2.  Kies het veld **Serienummer**, selecteer het eerste serienummer dat in voorraad voor het artikel bestaat, en kies vervolgens de knop **OK**.
+2. Kies het veld **Serienummer**, selecteer het eerste serienummer dat in voorraad voor het artikel bestaat, en kies vervolgens de knop **OK**.
 
     Kopieer de regel voor het eerste artikel met artikeltracering om extra regels in te voegen die corresponderen met het aantal serienummers dat in voorraad is opgeslagen.
 
@@ -192,8 +194,8 @@ Op de pagina **Inventarisatieorder** bevat het veld **Negatief aantal (basis)** 
 
 De volgende soorten documenten zijn handig voor het beheren van uw magazijn:
 
-- Gebruik **Voorraadontvangsten** om positieve aanpassingen van artikelen te registreren op basis van kwaliteit, kwantiteit en kosten.
-- Gebruik **Voorraadzendingen** om ontbrekende of beschadigde goederen af te schrijven.
+* Gebruik **Voorraadontvangsten** om positieve aanpassingen van artikelen te registreren op basis van kwaliteit, kwantiteit en kosten.
+* Gebruik **Voorraadzendingen** om ontbrekende of beschadigde goederen af te schrijven.
 
 U kunt deze documenten in elk stadium afdrukken, vrijgeven en opnieuw openen, en gemeenschappelijke waarden, inclusief dimensies, toewijzen in de koptekst. Als u de documenten opnieuw wilt afdrukken nadat ze zijn geboekt, kunt u dat doen op de pagina's **Geboekte voorraadontvangst** en **Geboekte voorraadverzending**.
 
@@ -206,10 +208,11 @@ In de volgende procedure wordt beschreven hoe u nummering instelt voor voorraadd
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Voorraadinstellingen** in en kies vervolgens de gerelateerde koppeling.
 2. Geef op het sneltabblad **Nummering** in de volgende velden de reeks getallen voor documenten op:
-   - **Voorraadontvangstnrs.**  
-   - **Geboekte voorraadontvangstnrs.**  
-   - **Voorraadverzendingsnrs.**  
-   - **Geboekte voorraadverzendingsnrs.**  
+
+   * **Voorraadontvangstnrs.**  
+   * **Geboekte voorraadontvangstnrs.**  
+   * **Voorraadverzendingsnrs.**  
+   * **Geboekte voorraadverzendingsnrs.**  
 
 ### Een voorraaddocument maken en boeken
 
@@ -222,17 +225,19 @@ De volgende procedure laat zien hoe u een voorraadontvangst maakt, afdrukt en bo
 
 De volgende functies zijn beschikbaar op de pagina **Voorraadontvangst**:
 
-- Kies de actie **Vrijgeven** of **Opnieuw openen** om de status voor de volgende verwerkingsfase in te stellen  
-- Kies de actie **Boeken** om de voorraadontvangst te boeken of kies **Boeken en afdrukken** om de ontvangst te boeken en het testrapport af te drukken  
+* Kies de actie **Vrijgeven** of **Opnieuw openen** om de status voor de volgende verwerkingsfase in te stellen  
+* Kies de actie **Boeken** om de voorraadontvangst te boeken of kies **Boeken en afdrukken** om de ontvangst te boeken en het testrapport af te drukken  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Voorraaddocumenten afdrukken
 
 U kunt de rapporten specificeren die in verschillende stadia moeten worden afgedrukt door een van de volgende opties te kiezen in het veld **Gebruik** van de pagina **Rapportselectie - Voorraad**:
 
-- Voorraadontvangst
-- Voorraadverzending
-- Geboekte voorraadontvangst
-- Geboekte voorraadverzending
+* Voorraadontvangst
+* Voorraadverzending
+* Geboekte voorraadontvangst
+* Geboekte voorraadverzending
 
 > [!NOTE]
 > De beschikbare rapporten kunnen variëren, afhankelijk van de locatie van uw land/regio. De basistoepassing bevat geen lay-outs.

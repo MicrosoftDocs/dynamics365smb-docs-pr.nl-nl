@@ -39,7 +39,7 @@ U gebruikt een [preview-versie](ai-preview-getstarted.md) van Business Central d
 
 ## Volgende stappen
 
-Zodra u een sandbox of proefomgeving heeft, bent u klaar om Copilot uit te proberen op artikelen in Business Central. Ga naar [Marketingtekst aan artikelen toevoegen](item-marketing-text.md).  
+Nadat u de functie hebt ingeschakeld en goedgekeurd, bent u klaar om Copilot uit te proberen op artikelen in Business Central. Ga naar [Marketingtekst aan artikelen toevoegen](item-marketing-text.md).  
 
 ## Zie ook
 
