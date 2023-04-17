@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dbb57b6cf5c8d91838e100273c72922d35c6fbeb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145080"
 ---
-# <a name="submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a>Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling
+# Leveranciersbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling
 
 In de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u elektronische SEPA-leveranciersbetalingen (Single Euro Payments Area) ISO 20022 maken en verzenden.  
 
 Voordat u SEPA-leveranciersbetalingen kunt maken en verzenden, moet u SEPA-betalingen activeren. Zie [SEPA-betalingen activeren](how-to-activate-sepa-payments.md) voor meer informatie.  
 
-## <a name="to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format"></a>Leverancierbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling  
+## Leverancierbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.  
@@ -45,7 +39,7 @@ Voordat u SEPA-leveranciersbetalingen kunt maken en verzenden, moet u SEPA-betal
 
 De voorstelregels worden opgenomen op de pagina **Telebankierenvoorstel**.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   
  [Single EURO Payments Area (SEPA)](single-euro-payments-area-sepa-.md)   
 

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9396fb03b3f300c8c81c573c4920cfff88ebbdb0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148921"
 ---
-# <a name="import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren
+# Bankafschriften importeren en reconciliëren
 Banken bieden elektronische bankafschriften voor al uw financiële interacties. U kunt deze afschriften in het bank- of giroboek importeren.  
 
 Het importbankafschrift wordt ondersteund door de volgende protocollen:  
@@ -26,7 +20,7 @@ Het importbankafschrift wordt ondersteund door de volgende protocollen:
 - Rabobank ASCII  
 - SEPA CAMT  
 
-## <a name="to-import-and-reconcile-bank-statements"></a>Bankafschriften importeren en reconciliëren  
+## Bankafschriften importeren en reconciliëren  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/giroboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Bankafschrift importeren**, selecteer het vereiste importprotocol en kies vervolgens de knop **OK**.  
@@ -40,7 +34,7 @@ Het importbankafschrift wordt ondersteund door de volgende protocollen:
 
 Het elektronische bankafschrift wordt geïmporteerd in het bank- of giroboek. Zie voor meer informatie [Elektronisch bankieren voor Nederland](dutch-electronic-banking.md).  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Elektronisch bankieren voor Nederland](dutch-electronic-banking.md)   
 [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](../../receivables-apply-payments-auto-reconcile-bank-accounts.md)
 

@@ -1,22 +1,16 @@
 ---
 title: Betalingsscenario's
-description: Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.
+description: 'Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33518e5cbed2e9535feb33216df679ae7195616f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140027"
 ---
-# <a name="payment-scenarios"></a>Betalingsscenario's
+# Betalingsscenario's
 Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.  
 
 Met telebankieren kunt u met drie scenario's te maken krijgen:  
@@ -33,7 +27,7 @@ Met telebankieren kunt u met drie scenario's te maken krijgen:
 
     Zie voor meer informatie [Betalingsscenario 3 - Buitenlandse betalingen (LV naar VV)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md).  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Telebankieren](telebanking.md)
 
 

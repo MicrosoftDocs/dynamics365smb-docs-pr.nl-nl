@@ -1,26 +1,20 @@
 ---
-title: Grootboekposten vereffenen en de vereffening ervan ongedaan maken [NL]
+title: 'Grootboekposten vereffenen en de vereffening ervan ongedaan maken [NL]'
 description: Door tijdelijke grootboekposten te vereffenen kunnen bedrijven werken met tijdelijke rekeningen en transferrekeningen in het grootboek.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e7d8fc8191c248f941e95539234585be5f004c29
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133503"
 ---
-# <a name="apply-and-unapply-general-ledger-entries-in-the-dutch-version"></a>Grootboekposten in de Nederlandse versie toepassen en ongedaan maken
+# Grootboekposten in de Nederlandse versie toepassen en ongedaan maken
 
 [!INCLUDE [apply-unapply-general-ledger-entries](../includes/BENL/apply-unapply-general-ledger-entries.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Klantbetalingen handmatig vereffenen](../../receivables-how-apply-sales-transactions-manually.md)  
 [Verplichte beschrijvingen in grootboekpost](required-descriptions-in-g-l-entry.md)  

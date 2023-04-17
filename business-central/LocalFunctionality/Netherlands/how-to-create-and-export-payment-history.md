@@ -1,22 +1,16 @@
 ---
-title: Betalingsrun maken en exporteren [NL]
-description: Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken.
+title: 'Betalingsrun maken en exporteren [NL]'
+description: 'Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 1dbd3aa49a9b5955c00d3ea4a995dc19e3e84ba8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135529"
 ---
-# <a name="create-and-export-payment-history-in-the-dutch-version"></a>Maak en exporteer betalingsgeschiedenis in de Nederlandse versie
+# Maak en exporteer betalingsgeschiedenis in de Nederlandse versie
 Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kunt u het voorstel verwerken om een betaalrun te maken. Voorstellen kunnen handmatig worden gegenereerd of automatisch op basis van een leveranciers- of klantenpost. Zie [Voorstellen maken](how-to-create-proposals.md) voor meer informatie.  
 
  Voor het exporteren van betaalruns worden de volgende protocollen ondersteund:  
@@ -25,7 +19,7 @@ Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kun
 - BBV  
 - PAYMUL  
 
-## <a name="to-create-a-payment-history-for-a-proposal"></a>Een betaalrun voor een voorstel maken  
+## Een betaalrun voor een voorstel maken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -36,14 +30,14 @@ Nadat u een voorstel hebt gemaakt en eventuele wijzigingen hebt aangebracht, kun
 
 De pagina **Betaalrunlijst** verschijnt met de betaalrun die u zojuist hebt gemaakt.  
 
-## <a name="to-export-a-payment-history"></a>Een betaalrun exporteren  
+## Een betaalrun exporteren  
 
 - Kies op de pagina **Betaalrunlijst** de actie **Exporteren**.  
 
     > [!NOTE]  
     >  Er wordt een tekstbestand gemaakt. Dit bestand bevat het pad en de bestandsnaam zoals die in het veld **Standaardbestandsnamen** van het exportprotocol zijn gedefinieerd.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [Voorstellen maken](how-to-create-proposals.md)
 
 

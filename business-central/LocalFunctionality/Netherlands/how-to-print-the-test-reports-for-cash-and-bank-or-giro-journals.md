@@ -1,24 +1,18 @@
 ---
-title: De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
+title: 'De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken'
 description: U kunt het rapport KBG-boekingen - Test gebruiken om de afschriftregels te bewerken en het effect ervan te bekijken voordat u kasboeken en bank- of giroboeken boekt.
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e60b01309bf36787595d281fe838c7d41de3dc58
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145082"
 ---
-# <a name="print-the-test-reports-for-cash-and-bank-or-giro-journals"></a>De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
+# De controlelijsten afdrukken voor kasboeken, bankboeken of giroboeken
 U kunt het rapport **KBG-boekingen - Test** gebruiken om de afschriftregels te bewerken en het effect ervan te bekijken voordat u kasboeken en bank- of giroboeken boekt.  
 
 Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zie voor meer informatie de tabel Betaalrunregel en de pagina Bank-/Giroboek.  
 
-## <a name="to-print-the-test-report-for-cash-journal"></a>Het testrapport voor het kasboek afdrukken  
+## Het testrapport voor het kasboek afdrukken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kasboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies op de pagina **Kasboek** de actie **Testrapport**.  
@@ -31,7 +25,7 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
     U kunt de velden **Dagboeksjabloon** en **Nr.** selecteren als filters wanneer u dit rapport genereert.  
 5.  Kies de knop **Afdrukken** om de lijst af te drukken of kies de knop **Voorbeeld** om het op het scherm weer te geven.  
 
-## <a name="to-print-the-test-report-for-bank-or-giro-journal"></a>Het testrapport voor het bank- of giroboek afdrukken  
+## Het testrapport voor het bank- of giroboek afdrukken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/giroboek** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies de actie **Grootboek**.  
@@ -44,7 +38,7 @@ Dit rapport bevat de afschriftregels van een kasboek en bankboek of giroboek. Zi
 
 7.  Kies de knop **Afdrukken** om de lijst af te drukken of kies de knop **Voorbeeld** om het op het scherm weer te geven.  
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
  [Grootboekposten vereffenen en de vereffening ervan ongedaan maken](how-to-apply-and-unapply-general-ledger-entries.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 

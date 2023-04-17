@@ -1,5 +1,5 @@
 ---
-title: Elektronische btw- en ICP-aangiften [NL]
+title: 'Elektronische btw- en ICP-aangiften [NL]'
 description: Dit artikel beschrijft hoe u elektronische btw- en ICP-aangiften instelt in de Nederlandse versie.
 author: brentholtorf
 ms.author: bholtorf
@@ -8,20 +8,15 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: 0ae9deb7b68c08b654c5cdd8cfcc12470db906ab
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822568"
 ---
-# <a name="setting-up-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie
+
+# Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie
 
 Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden.
 
 Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar de belastingdienst te verzenden. Zie voor meer informatie [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md).  
 
-## <a name="to-set-up-electronic-declarations"></a>Elektronische aangiften instellen  
+## Elektronische aangiften instellen  
 
 Zorg ervoor dat u de certificaten hebt geüpload die nodig zijn om met Digipoort te communiceren. Gebruik de pagina **Certificaten** om een client- en een servicecertificaat te uploaden. Als ze zijn toegevoegd aan de lijst met certificaten kunt u doorgaan met het opzetten van elektronische aangiften.
 
@@ -48,7 +43,7 @@ Zorg ervoor dat u de certificaten hebt geüpload die nodig zijn om met Digipoort
     > [!NOTE]  
     > De ingestelde eindpunten worden geïmplementeerd in 21.1-tenants. Alle waarden zijn echter leeg, maar de Digipoort-oplossing werkt nog steeds door hardgecodeerde waarden te nemen als er geen waarden in de instellingen zijn. In release 21.2 [!INCLUDE [prod_short](../../includes/prod_short.md)] wordt er automatisch een upgrade uitgevoerd.
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 
 [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)

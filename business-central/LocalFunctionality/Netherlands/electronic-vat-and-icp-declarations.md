@@ -1,22 +1,16 @@
 ---
-title: Elektronische btw- en ICP-aangiften verzenden [NL]
+title: 'Elektronische btw- en ICP-aangiften verzenden [NL]'
 description: Met de eXtensible Business Reporting Language (XBRL) Reporter kunt u de aangifte van Intracommunautaire Leveringen (ICP) of de btw-aangifte in de vereiste XML-indeling verzenden.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8a82365d62534e95d6417d4918578d61326c5a74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147342"
 ---
-# <a name="submitting-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften verzenden in de Nederlandse versie
+# Elektronische btw- en ICP-aangiften verzenden in de Nederlandse versie
 Bedrijven moeten maandelijks periodieke btw-aangiften en ICP-aangiften (intracommunautaire leveringen) naar de belastingdienst versturen.  
 
 Btw aangiften moeten op een maandelijkse of driemaandelijkse basis worden verzonden.
@@ -32,7 +26,7 @@ U kunt de btw-aangiften en ICP-aangiften als volgt verzenden:
 
 - Maak een elektronische aangifte en verzend het versleutelde bestand via het Digipoort-kanaal naar het Nederlandse belastingkantoor. Digipoort is het elektronische postkantoor dat door de Nederlandse overheid voor bedrijven wordt geboden. Het bevat de gemeenschappelijke infrastructuur voor de communicatie van gegevens tussen bedrijven en de overheid, inclusief btw-aangiftes. De rapporten hebben de XBRL-indeling (eXtensible Business Reporting Language). Zie [Rapporten maken met XBRL](../../bi-create-reports-with-xbrl.md) voor meer informatie.
 
-## <a name="to-prepare-for-electronic-declaration"></a>Elektronische aangifte voorbereiden
+## Elektronische aangifte voorbereiden
 Voordat je elektronische aangiften kan versturen naar de belastingdienst moeten eerst de volgende taken zijn uitgevoerd:
 
 1. Controleer of u de certificaten van de overheid hebt ontvangen. Als dat niet zo is, voert u de volgende stappen uit om de certificaten te krijgen:
@@ -47,7 +41,7 @@ Voordat je elektronische aangiften kan versturen naar de belastingdienst moeten 
 
 3. Stel een btw-categoriecode in voor alle XML-elementen in de elektronische btw-aangifte. Zie [Btw-categorieën instellen](how-to-set-up-vat-categories.md) voor meer informatie.
 
-## <a name="to-create-an-electronic-declaration"></a>Een elektronische aangifte aanmaken
+## Een elektronische aangifte aanmaken
 1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Overzicht elektronische aangiften** de actie **Nieuw**.  
 3. Vul op de pagina **Elektronische aangifte** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](../../includes/tooltip-inline-tip_md.md)]  
@@ -57,7 +51,7 @@ De XML-elementen met de bijbehorende gegevens van de elektronische aangifte word
 
 De XBRL Reporter zorgt ervoor dat alle rekeningnummers die worden geïmporteerd van Business Central, aan de XBRL-elementen in een rapport worden toegewezen. De XBRL Reporter geeft ook een lijst weer met fouten wegens niet-toegewezen elementen of rekeningen.
 
-## <a name="to-submit-an-electronic-declaration"></a>Een elektronische aangifte versturen
+## Een elektronische aangifte versturen
 Met de XBRL Reporter kunt u de aangifte van intracommunautaire leveringen (ICP) of de btw-aangifte verzenden in de vereiste XML-indeling. Wanneer dit wordt verzonden, wordt het bestand verstuurd naar de belastingdienst zoals is gedefinieerd op de pagina **Elek. aangifte-instellingen**.
 
 1. Kies op de pagina **Elektronische aangiftekaart** de actie **Elektronische aangifte versturen**.
@@ -76,7 +70,7 @@ De elektronische aangifte wordt verstuurd naar de belastingdienst.
 > [!NOTE]  
 > Als er geen intracommunautaire leveringen zijn geweest in de aangifteperiode, dan wordt er een elektronische ICP-aangifte aangemaakt zonder XML-elementen voor de leveringen. Als u een dergelijke aangifte verzendt, wordt een foutbericht weergegeven.
 
-## <a name="to-import-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst importeren
+## Een responsbericht van de belastingdienst importeren
 De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. Deze responsberichten moeten worden opgehaald van de server van de belastingdienst en worden verwerkt. De eerste stap omvat het importeren van het responsbericht in [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
@@ -91,7 +85,7 @@ De belastingdienst zal voor elke ontvangen aangifte een responsbericht sturen. D
 
 4. Kies de knop **OK**.
 
-## <a name="to-process-a-response-message-from-the-tax-authorities"></a>Een responsbericht van de belastingdienst verwerken
+## Een responsbericht van de belastingdienst verwerken
 Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de inhoud te valideren aan de hand van de gerelateerde elektronische aangifte. Als er geen fouten worden gevonden in de elektronische aangifte en de gegevens zijn verwerkt door de belastingdienst, wordt het veld **Status** op de pagina **Elektronische aangiftekaart** gewijzigd in **Geaccepteerd**.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Responsberichten elektronische aangiften** in en kies vervolgens de gerelateerde koppeling.  
@@ -102,7 +96,7 @@ Wanneer een responsbericht is geïmporteerd, moet het worden verwerkt door de in
 
 4. Als u een bericht of bijlage wilt exporteren, kiest u op het tabblad **Responsbericht exporteren** de actie **Responsbijlage exporteren**.
 
-## <a name="see-also"></a>Zie ook  
+## Zie ook  
 [Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)  
 [Btw-categorieën instellen](how-to-set-up-vat-categories.md)  
 [Lijsten met XBRL maken](../../bi-create-reports-with-xbrl.md)  
