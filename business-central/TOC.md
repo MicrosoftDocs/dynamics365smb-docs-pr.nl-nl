@@ -428,6 +428,7 @@
 ### [Grootboekbudgetten maken](finance-how-create-budgets.md)
 ### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 ### [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)
+### [Export van controlebestand](finance-how-to-export-audit-files.md)
 ### [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)
 ### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
 ### [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)
@@ -809,6 +810,7 @@
 ##### [De boekingsperiode beperken](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [De werkdatum als boekingsdatum instellen](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Journaalsjablonen verplicht maken](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Uitstel in verkoop- en inkoopboekrapporten](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Lokale functionaliteit in de Canadese versie](LocalFunctionality/Canada/canada-local-functionality.md)
