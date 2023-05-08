@@ -39,15 +39,15 @@ Deze procedure bevat taken voor de volgende rollen:
 
 ## Scenario
 
- Phyllis is administrateur. Ze is administrateur en bepaalt welke klanten een aanbetaling moeten doen voordat artikelen worden gefabriceerd of verzonden. Phyllis stelt [!INCLUDE[prod_short](includes/prod_short.md)] in op het automatisch berekenen van vooruitbetalingen.  
+ Phyllis is administrateur en bepaalt welke klanten een aanbetaling moeten doen voordat artikelen worden gefabriceerd of verzonden. Phyllis stelt [!INCLUDE[prod_short](includes/prod_short.md)] in op het automatisch berekenen van vooruitbetalingen.  
 
- Susan is verkooporderverwerker. Als een klant belt om een order te plaatsen, voert ze de order in het systeem in terwijl ze de klant aan de telefoon heeft. Op deze manier kan ze prijzen en betalingsvoorwaarden meteen met de klant controleren en ze kan wijzigingen in de order aanbrengen terwijl ze met de klant onderhandelt.  
+ Susan is verkooporderverwerker. Als een klant belt om een order te plaatsen, voert Susan de order in het systeem in terwijl ze de klant aan de telefoon heeft. Op deze manier kan Susan prijzen en betalingsvoorwaarden meteen met de klant controleren en ze kan wijzigingen in de order aanbrengen terwijl ze met de klant onderhandelt.  
 
- Arnie werkt op de afdeling Vorderingen, waar hij facturen en betalingen boekt.  
+ Arnie werkt op de afdeling Vorderingen en boekt facturen en betalingen.  
 
  In dit scenario stelt Phyllis vooruitbetalingsvereisten op voor de klant Selangorian op basis van hun kredietgeschiedenis. Phyllis geeft Susan instructies voor het afhandelen van hun bestellingen.  
 
- Wanneer de klant belt, onderhandelt Susan met de klant totdat een overeenkomst wordt bereikt. Ze kan de vooruitbetaling vervolgens op verschillende manieren berekenen.  
+ Wanneer de klant belt, onderhandelt Susan met de klant totdat ze een overeenkomst bereiken. Ze kiest er vervolgens voor om de vooruitbetaling op verschillende manieren te berekenen.  
 
  Nadat Susan de vooruitbetalingsfactuur heeft verstuurd, bestelt te klant een extra artikel. Susan werkt de order bij en maakt een tweede vooruitbetalingsfactuur.  
 
@@ -75,9 +75,9 @@ In de volgende procedures wordt beschreven hoe de taken van Phyllis worden uitge
 
 Nu kunt u geen orders verzenden of factureren waarvoor een niet-betaald vooruitbetalingsbedrag openstaat.  
 
-Phyllis stelt in dat bij klant 20000 standaard een aanbetaling van 30% voor alle orders moet worden gefactureerd. Daarom voert ze een standaardpercentage voor vooruitbetaling in voor de klant.  
+Phyllis stelt in dat bij klant 20000 standaard een aanbetaling van 30% voor alle orders moet worden gefactureerd. Daarom voert Phyllis een standaardpercentage voor vooruitbetaling in voor de klant.  
 
-Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd voor artikel 1896-S. Klant 20000 heeft een slechte betalingsgeschiedenis, dus vereist ze van klant 20000 een aanbetaling van 40% voor artikel 1896-S. In de volgende procedure wordt beschreven hoe de aanbetalingspercentages worden ingesteld.  
+Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd voor artikel 1896-S. Klant 20000 heeft een slechte betalingsgeschiedenis, dus vereist Phyllis van klant 20000 een aanbetaling van 40% voor artikel 1896-S. In de volgende procedure wordt beschreven hoe de aanbetalingspercentages worden ingesteld.  
 
 ### Standaardpercentages voorvooruitbetaling toewijzen aan klanten en artikelen
 
@@ -110,7 +110,7 @@ Phyllis stelt in dat bij alle klanten een aanbetaling van 20% wordt gefactureerd
 
  In het volgende scenario maakt Susan, de orderprocessor, een order terwijl ze met een klant praat. Voor de artikelen die de klant bestelt, is een vooruitbetaling vereist. Bovendien heeft de klant in het verleden een aantal late betalingen gedaan. Susan heeft daarom de instructie gekregen om een vast bedrag van **800** als vooruitbetaling op de order te eisen.  
 
-De klant vraagt om 35% te betalen, waar Susan mee kan instemmen, dus wijzigt ze de bestelling.  
+De klant vraagt om 35% te betalen, waar Susan mee instemt, en dus wijzigt ze de order.  
 
 Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.  
 
@@ -134,7 +134,7 @@ Susan maakt de vooruitbetalingsfactuur en verzendt deze naar de klant.
     Het veld **Vooruitbetaling %** op de regel voor artikel **1896-S** is **40**. 40 is het percentage dat u hebt ingevoerd op de pagina **Vooruitbetalingspercentages verkoop** voor artikel **1896-S** en klant **20000**.  
 
     Zie voor meer informatie [Vooruitbetalingen instellen](finance-set-up-prepayments.md) voor meer informatie.  
-7. Kies bij de actie **Order** **Statistieken**.  
+7. Kies bij de actie **Order** de optie **Statistieken**.  
 8. Op het sneltabblad **Vooruitbetaling** bevat het veld **Vooruitbetalingsbedrag excl. btw** het bedrag **458,16**. Als u nu een vooruitbetalingsfactuur voor de order maakt, is 458,16 het bedrag op de factuur.  
 
     In dit scenario heeft Susan instructies ontvangen om een totale vooruitbetaling van **800** voor te stellen voor de order.  
@@ -165,7 +165,7 @@ Nadat de juiste vooruitbetalingswaarden voor de order zijn ingevoerd, maakt Susa
 
 ## Een extra vooruitbetalingsfactuur maken
 
-De volgende dag belt de klant op en vraagt Susan om een wijziging in de order te maken. De klant wil twee stuks van artikel 1896-S. Susan heropent de bestelling en werkt deze bij. Vervolgens maakt ze een tweede vooruitbetalingsfactuur voor de bestelling en stuurt deze naar de klant.  
+De volgende dag belt de klant op en vraagt Susan om een wijziging in de order te maken. De klant wil twee stuks van artikel 1896-S. Susan opent de order, wijzigt deze en maakt vervolgens een tweede vooruitbetalingsfactuur voor de order en stuurt deze naar de klant.  
 
 ### Een extra vooruitbetalingsfactuur maken
 

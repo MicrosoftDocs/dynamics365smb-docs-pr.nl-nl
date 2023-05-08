@@ -4,7 +4,7 @@ description: Krijg antwoorden op veelgestelde vragen over de door AI gegenereerd
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq
-ms.date: 03/16/2023
+ms.date: 04/03/2023
 ms.custom: bap-template
 author: jswymer
 ms.service: dynamics365-business-central
@@ -35,8 +35,7 @@ Copilot is alleen beschikbaar als aan de volgende vereisten wordt voldaan:
 - De taal die u gebruikt in Business Central moet Engels zijn. Alle beschikbare Engelse landinstellingen werken, zoals Engels (Verenigde Staten), Engels (Verenigd Koninkrijk) of Engels (Zuid-Afrika).
 
   Om de taal te wijzigen, selecteert u in de rechterbovenhoek het pictogram **Instellingen** ![Instellingen](media/ui-experience/settings_icon_small.png "Pictogram Instellingen voor rolcentrum"). > **Mijn instellingen** > **Taal**. Ga voor meer informatie naar [Basisinstellingen wijzigen](ui-change-basic-settings.md#language).
-- U moet Business Central online gebruiken als proefversie of in een sandbox.
-- Uw versie van Business Central moet **22.0.54157.54311 zijn (preview - Copilot-editie)**.
+- U moet de Business Central online versie 22 of hoger gebruiken (als u een bestaande klant bent) of een proefversie.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
 
    Selecteer het vraagteken in de rechterbovenhoek en vervolgens **Help en ondersteuning**. Zoek onder **Problemen oplossen** naar de toepassingsversie. Ga naar [Aan de slag met een preview-versie van Business Central - Copilot-editie](ai-preview-getstarted.md) voor informatie over het verkrijgen van de juiste preview-versie.
 - De functie **Op AI gebaseerde productbeschrijvingen maken met Copilot** moet zijn geactiveerd.
