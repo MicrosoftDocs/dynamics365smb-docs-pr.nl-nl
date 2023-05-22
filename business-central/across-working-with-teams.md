@@ -2,13 +2,13 @@
 title: Business Central-records delen in Microsoft Teams
 description: Lees hoe u de Business Central-app gebruikt voor Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Business Central-records en paginakoppelingen delen in Microsoft Teams
@@ -68,17 +68,16 @@ Met de Business Central-app voor Teams kunt u een koppeling kopiëren vanuit elk
 
     > [!TIP]
     > Als u een bericht krijgt als *Business Central wil een voorbeeld van deze koppeling laten zien.*, betekent dit dat u de Business Central-app voor Teams niet hebt geïnstalleerd. Als u de app wilt installeren, selecteert u **Voorbeeld weergeven** en volgt u de instructies.
-6. De eerste keer dat u een koppeling in een gesprek plakt, wordt u gevraagd u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)] en toestemming te geven aan de app om gegevens op te halen. Volg gewoon de instructies op het scherm.
 
     > [!NOTE]
-    > U hoeft deze stap maar één keer uit te voeren.
-7. Wacht even terwijl er een kaart wordt gegenereerd in het berichtvenster.
-8. Als de kaart verschijnt, controleert u de inhoud van de kaart zorgvuldig op gevoelige informatie voordat u het bericht verzendt. Deze stap is belangrijk omdat zodra u het bericht verzendt, iedereen in het gesprek de kaart kan zien.
-9. Selecteer als de kaart er goed uitziet **Verzenden** om de kaart bij het gesprek in te dienen.
+    > Afhankelijk van uw Business Central-versie kan u, de eerste keer dat u een koppeling in een gesprek plakt, worden gevraagd u aan te melden bij [!INCLUDE [prod_short](includes/prod_short.md)] en toestemming te geven aan de app om gegevens op te halen. Volg gewoon de instructies op het scherm. U hoeft deze stap maar één keer uit te voeren.
+6. Wacht even terwijl er een kaart wordt gegenereerd in het berichtvenster.
+7. Als de kaart verschijnt, controleert u de inhoud van de kaart zorgvuldig op gevoelige informatie voordat u het bericht verzendt. Deze stap is belangrijk omdat zodra u het bericht verzendt, iedereen in het gesprek de kaart kan zien.
+8. Selecteer als de kaart er goed uitziet **Verzenden** om de kaart bij het gesprek in te dienen.
 
     > [!TIP]
     > Nadat de kaart is verschenen en voordat u **Verzenden** selecteert, kunt u de geplakte URL desgewenst verwijderen.
-10. Selecteer om meer details te bekijken of wijzigingen aan te brengen in de record die op de kaart wordt weergegeven, **Details**. Zie de volgende sectie voor meer informatie.
+9. Selecteer om meer details te bekijken of wijzigingen aan te brengen in de record die op de kaart wordt weergegeven, **Details**. Zie de volgende sectie voor meer informatie.
 
 ### Kaartdetails weergeven
 

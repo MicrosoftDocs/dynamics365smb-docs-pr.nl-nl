@@ -232,13 +232,13 @@ Als u problemen ondervindt bij het gebruik van het SMTP-protocol om e-mail te ve
 
 ### [!INCLUDE[prod_short](includes/prod_short.md)] verbinden met uw app-registratie
 
-Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de begeleide instelling **AAD-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.
+Nadat u uw toepassing in Azure Portal hebt geregistreerd, gebruikt u in [!INCLUDE[prod_short](includes/prod_short.md)] de pagina **AAD-registratie van e-mailtoepassing** om [!INCLUDE[prod_short](includes/prod_short.md)] ermee te verbinden.
 
 1. Kies in [!INCLUDE[prod_short](includes/prod_short.md)] het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **AAD-registratie van e-mailtoepassing** in en kies vervolgens de gerelateerde koppeling.
 2. Vul de vereiste velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Als alternatief, als u voor de eerste keer verbinding maakt, kunt u de begeleide instelling **E-mail instellen** uitvoeren. De begeleide instelling heeft de informatie nodig om verbinding te maken met uw app-registratie. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Als alternatief, als u voor de eerste keer verbinding maakt, kunt u de begeleide instelling **E-mail instellen** uitvoeren. In dit geval bevat de guide ook de AAD-registratiepagina voor e-mailtoepassingen voor het toevoegen van de informatie voor het verbinden met uw app-registratie. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
