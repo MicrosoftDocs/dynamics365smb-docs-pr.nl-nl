@@ -1,13 +1,13 @@
 ---
 title: Synchroniseren en transacties en uitbetalingen
 description: Import van transacties en uitbetalingen vanuit Shopify instellen en uitvoeren.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Transacties en uitbetalingen
@@ -21,6 +21,8 @@ Als u Shopify Payment als betalingsprovider gebruikt, kunt u naast informatie ov
 De betalingstransacties die plaatsvinden in Shopify, worden gesynchroniseerd met de orders en kunnen worden bekeken op de pagina **Shopify-orders**.
 
 Als u alle transacties wilt bekijken, kiest u het ![Lampje dat de functie Vertel me 1 opent.](../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Transacties** in en selecteert u vervolgens de gerelateerde koppeling.
+
+Het veld **Nr. geboekte factuur** kan nuttig zijn in het reconciliatieproces.
 
 Als u de toewijzing van een betalingsmethode hebt geconfigureerd, wordt aan het gecreëerde verkoopdocument een betalingsmethodecode toegewezen. Zie voor meer informatie [Toewijzing van betalingsmethoden](#payment-method-mapping).
 
