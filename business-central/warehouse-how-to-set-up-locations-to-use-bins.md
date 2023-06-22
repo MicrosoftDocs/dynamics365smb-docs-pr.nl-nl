@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Locaties instellen om opslaglocaties te gebruiken
+# <a name="set-up-locations-to-use-bins" />Locaties instellen om opslaglocaties te gebruiken
 
 Opslaglocaties vertegenwoordigen de standaard magazijnstructuur en worden gebruikt voor het doen van voorstellen over de plaatsing van artikelen. Wanneer u uw opslaglocaties hebt gemaakt, kunt u de inhoud die u in de afzonderlijke opslaglocaties wilt plaatsen bijzonder gedetailleerde definiëren. De opslaglocatie kan echter ook functioneren als een vrije opslaglocatie zonder opgegeven inhoud.  
 
@@ -19,7 +19,7 @@ Als u de opslaglocatiefunctionaliteit op een locatie wilt gebruiken, moet u deze
 > [!NOTE]  
 >  Voordat u opslaglocatiecodes op de vestigingskaart kunt opgeven, moeten de opslaglocatiecodes worden gemaakt. Zie voor meer informatie [Opslaglocaties maken](warehouse-how-to-create-individual-bins.md).  
 
-## Een vestiging instellen voor het gebruik van opslaglocaties
+## <a name="to-set-up-a-location-to-use-bins" />Een vestiging instellen voor het gebruik van opslaglocaties
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Locaties** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de vestiging waarin u opslaglocaties wilt gebruiken.  
@@ -33,15 +33,15 @@ Als u de opslaglocatiefunctionaliteit op een locatie wilt gebruiken, moet u deze
 10. Vul de velden op het sneltabblad **Opslaglocatiebeleid** in als deze van toepassing zijn op uw magazijn. De belangrijkste velden zijn **Opslaglocatiecapaciteitsbeleid**, **Breakbulk toestaan** en **Opslagsjabloon**.  
 11. Vul op het sneltabblad **Magazijn** de velden **Uitslagtijd**, **Inslagtijd** en **Basisagendacode** in. Zie [Basisagenda's instellen](across-how-to-assign-base-calendars.md) voor meer informatie.
 
-## De verbruiksopslaglocatie vullen
+## <a name="fill-in-the-consumption-bin" />De verbruiksopslaglocatie vullen
 
 In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de productieordercomponentregels wordt ingevuld op basis van uw vestigingsinstellingen.
 
 ![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")  
 
-## Zie gerelateerde [Microsoft-training](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Zie gerelateerde [Microsoft-training](/training/modules/configure-bins-location/)
 
-## Zie ook
+## <a name="see-also" />Zie ook
 
 [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
 [Voorraad](inventory-manage-inventory.md)  
