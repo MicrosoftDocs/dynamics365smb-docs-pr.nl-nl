@@ -12,7 +12,7 @@ ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="payment-scenario----domestic-payments-lcy-to-lcy-in-the-dutch-version" />Betalingsscenario 1 - Buitenlandse betaling (LV naar LV) in de Nederlandse versie
+# <a name="payment-scenario-1---domestic-payments-lcy-to-lcy-in-the-dutch-version" />Betalingsscenario 1 - Buitenlandse betaling (LV naar LV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  
 
 De volgende lijst bevat de belangrijkste stappen:  

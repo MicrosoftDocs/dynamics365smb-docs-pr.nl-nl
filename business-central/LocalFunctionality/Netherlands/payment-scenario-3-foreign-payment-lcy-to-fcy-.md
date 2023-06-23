@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="payment-scenario----foreign-payment-lcy--to-fcy-in-the-dutch-version" />Scenario 3 - Buitenlandse betaling (LV naar VV) in de Nederlandse versie
+# <a name="payment-scenario-3---foreign-payment-lcy--to-fcy-in-the-dutch-version" />Scenario 3 - Buitenlandse betaling (LV naar VV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die een andere valuta dan uw lokale valuta gebruiken.  
 
 1.  Leverancier/klant maken.  

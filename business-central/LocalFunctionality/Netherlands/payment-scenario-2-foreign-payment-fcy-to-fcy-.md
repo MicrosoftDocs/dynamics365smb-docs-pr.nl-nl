@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/29/2021
 ms.author: edupont
 ---
-# <a name="payment-scenario----foreign-payment-fcy-to-fcy-in-the-dutch-version" />Betalingsscenario 2 - Buitenlandse betaling (VV naar VV) in de Nederlandse versie
+# <a name="payment-scenario-2---foreign-payment-fcy-to-fcy-in-the-dutch-version" />Betalingsscenario 2 - Buitenlandse betaling (VV naar VV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit onderwerp beschrijft een scenario waarin de handel met buitenlandse klanten en leveranciers geschiedt die dezelfde vreemde valuta gebruiken als waarvoor uw bankrekening is ingesteld.  
 
 De volgende lijst bevat de belangrijkste stappen:  

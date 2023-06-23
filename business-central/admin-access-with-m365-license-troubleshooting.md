@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Problemen met toegang met Microsoft 365-licenties oplossen
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Problemen met toegang met Microsoft 365-licenties oplossen
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />"Deze pagina gebruikt gegevens uit gerelateerde tabellen waartoe u geen toegang hebt" foutbericht
 
@@ -24,7 +24,7 @@ Wanneer u een record in Teams opent, krijgt u een foutmelding te zien in een tab
 
 U mist hoogstwaarschijnlijk objectmachtigingen voor tabellen waarnaar de huidige pagina of record verwijst.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365-toegang is ingeschakeld, maar gebruikers krijgen een toestemmingsfout
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365-toegang is ingeschakeld, maar gebruikers krijgen een toestemmingsfout
 
 ### <a name="symptoms" />Symptomen
 
