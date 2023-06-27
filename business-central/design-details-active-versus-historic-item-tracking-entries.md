@@ -16,7 +16,7 @@ ms.contentlocale: nl-NL
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8146771"
 ---
-# <a name="design-details-active-versus-historic-item-tracking-entries" /><a name="design-details-active-versus-historic-item-tracking-entries"></a>Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten
+# <a name="design-details-active-versus-historic-item-tracking-entries"></a><a name="design-details-active-versus-historic-item-tracking-entries"></a>Ontwerpdetails: Actieve tegenover historische artikeltraceringsposten
 Wanneer delen van een documentregelaantal worden geboekt, wordt alleen dat bepaalde aantal overgebracht naar de artikelposten en de bijbehorende artikeltraceringsnummers. U zult echter direct vanaf de actieve documentregel toegang willen tot alle relevante artikeltraceringsinformatie. U wilt dus niet alleen de posten bekijken die zijn gekoppeld aan het resterende aantal, u wilt ook informatie over de eenheden die zijn geboekt. Wanneer u de pagina **Artikeltraceringsregels** weergeeft of wijzigt, wordt de collectieve inhoud van de tabel **Traceringsspecificatie** (T336) en de tabel **Reserveringspost** (T337) weergegeven in een tijdelijke versie van T336. Hierdoor wordt gezorgd dat de historische en actieve artikeltraceringsgegevens gezamenlijk toegankelijk zijn.  
 
  De volgende tabel toont hoe T336 en T337 worden gebruikt in een inkoopscenario. De vet gedrukte cijfers vertegenwoordigen waarden die de gebruiker handmatig invoert op de pagina **Artikeltraceringsregels**.  
@@ -58,7 +58,7 @@ Wanneer delen van een documentregelaantal worden geboekt, wordt alleen dat bepaa
 |Pagina **Artikeltraceringsregels**|7|0|**5**|7|2|  
 |**T336**|7|0|0|7|7|  
 
-## <a name="see-also" /><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
  [Ontwerpdetails: Artikeltracering](design-details-item-tracking.md)   
  [Ontwerpdetails: Pagina Artikeltraceringsregels](design-details-item-tracking-lines-window.md)
 

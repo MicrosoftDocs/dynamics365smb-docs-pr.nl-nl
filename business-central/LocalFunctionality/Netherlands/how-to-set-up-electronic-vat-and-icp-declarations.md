@@ -10,13 +10,13 @@ ms.date: 12/01/2022
 ms.custom: bap-template
 ---
 
-# <a name="setting-up-electronic-vat-and-icp-declarations-in-the-dutch-version" />Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie
+# <a name="setting-up-electronic-vat-and-icp-declarations-in-the-dutch-version"></a>Elektronische btw- en ICP-aangiften instellen in de Nederlandse versie
 
 Als u elektronische btw- en ICP-aangiften wilt maken en met de belastingdienst wilt communiceren, moet u eerst algemene gegevens over elektronische belastingaangiften instellen. Uw bedrijf moet met de belastingdienst geregistreerd zijn voordat u elektronische aangiften kunt verzenden.
 
 Als de elektronische aangiften zijn ingesteld, kunt u beginnen btw en ICP naar de belastingdienst te verzenden. Zie voor meer informatie [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md).  
 
-## <a name="to-set-up-electronic-declarations" />Elektronische aangiften instellen
+## <a name="to-set-up-electronic-declarations"></a>Elektronische aangiften instellen
 
 Zorg ervoor dat u de certificaten hebt geüpload die nodig zijn om met Digipoort te communiceren. Gebruik de pagina **Certificaten** om een client- en een servicecertificaat te uploaden. Als ze zijn toegevoegd aan de lijst met certificaten kunt u doorgaan met het opzetten van elektronische aangiften.
 
@@ -43,7 +43,7 @@ Zorg ervoor dat u de certificaten hebt geüpload die nodig zijn om met Digipoort
     > [!NOTE]  
     > De ingestelde eindpunten worden geïmplementeerd in 21.1-tenants. Alle waarden zijn echter leeg, maar de Digipoort-oplossing werkt nog steeds door hardgecodeerde waarden te nemen als er geen waarden in de instellingen zijn. In release 21.2 [!INCLUDE [prod_short](../../includes/prod_short.md)] wordt er automatisch een upgrade uitgevoerd.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)

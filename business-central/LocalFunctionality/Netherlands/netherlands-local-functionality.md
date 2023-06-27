@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="netherlands-local-functionality" />Lokale functionaliteit voor Nederland
+# <a name="netherlands-local-functionality"></a>Lokale functionaliteit voor Nederland
 
 In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek is voor de Nederlandse versie van [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability" />Functiebeschikbaarheid
+## <a name="feature-availability"></a>Functiebeschikbaarheid
 
 * Btw
     * [Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md) **Nu beschikbaar**
@@ -55,11 +55,11 @@ In de volgende onderwerpen wordt de lokale functionaliteit beschreven die uniek 
     * [Postcodes importeren](how-to-import-post-codes.md) **Nu beschikbaar**
     * [Updates op postcodes importeren](how-to-import-post-code-updates.md) **Nu beschikbaar**  
 
-## <a name="future-legislation-requirements-being-investigated" />Toekomstige wettelijke vereisten worden onderzocht
+## <a name="future-legislation-requirements-being-investigated"></a>Toekomstige wettelijke vereisten worden onderzocht
 
 Momenteel zijn er geen nieuwe wettelijke functies of vereisten. Als u op de hoogte bent van toekomstige regelgevende functies, kunt u een [Waarschuwing over regelgevende functie](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u) indienen.
 
-## <a name="see-also" />Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Werken met [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Btw rapporteren aan de belastingdienst](../../finance-how-report-vat.md)  
