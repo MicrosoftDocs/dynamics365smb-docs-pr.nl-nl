@@ -46,7 +46,7 @@ Maak een bankrekening leverancier/klant en vul alle noodzakelijke gegevens in. B
 - **Valutacode**: stel in dit veld de vreemde valuta (VV) in.  
 - **Rekeninghouder**: zorg ervoor dat alle gegevens zijn ingevuld.  
 
-### <a name="example" />Opmerking
+### <a name="example-1" />Opmerking
 De bankrekening van Jannet Carter (code **JCBA**) wordt uitgedrukt in vreemde valuta (VV), in dit geval USD. Daarom vullen we op de bankrekeningkaart van leverancier Jannet Carter een geldig nummer in het veld **Bankrekeningnr.** in, stellen we het veld **Valutacode** in op **USD** en vullen we in de velden op het tabblad **Rekeninghouder** de juiste waarden in.  
 
 ## <a name="create-and-post-purchase-invoice-for-vendor-or-sales-invoice-for-customer" />Inkoopfactuur voor leverancier of verkoopfactuur voor klant maken en boeken
@@ -60,31 +60,31 @@ Standaard zijn in deze drie velden waarden ingevuld die zijn overgenomen uit de 
 
 Als de factuur is voltooid, kan deze worden geboekt.  
 
-### <a name="example" />Voorbeeld
+### <a name="example-2" />Voorbeeld
 Als we een inkoopfactuur voor Jannet Carter maken, vullen we **JANNET** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden overgenomen vanuit de leverancierskaart van Jannet Carter. Daarom is in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **USD**, **ABN-USD** en **JCBA** ingevuld. Deze waarden kunnen echter worden gewijzigd.  
 
 ## <a name="create-proposal" />Voorstel maken
 Open de pagina **Telebank - bankoverzicht** en blader naar de bank die we voor onze betaling willen gebruiken. Open de pagina **Voorstel** en genereer betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen**.  
 
-### <a name="example" />Opmerking
+### <a name="example-3" />Opmerking
 Door middel van de pagina **Telebank - bankoverzicht** openen we de pagina **Voorstel** voor onze bank, ABN-USD. Met de batchverwerking wordt één voorstelregel gemaakt voor de inkoopfactuur die we zojuist voor leverancier JANNET hebben gemaakt en geboekt.  
 
 ## <a name="create-payment-history" />Betaalrun maken
 Vanuit de pagina **Voorstel** verwerken we ons voorstel in een betaalrun. Het voorstel verdwijnt en kan worden gevonden op de pagina **Betaalrunoverzicht** voor dezelfde bank.  
 
-### <a name="example" />Opmerking
+### <a name="example-4" />Opmerking
 We verwerken ons voorstel met betrekking tot de betaling aan de leverancier JANNET en openen de pagina **Betaalrunoverzicht** voor onze bank, ABN-USD. De laatste betaalrun is de betaalrun die we zojuist hebben gemaakt.  
 
 ## <a name="export-payment-history" />Betaalrun exporteren
 Open de pagina **Betaalrunoverzicht**, blader naar de relevante betaalrun en kies de actie **Exporteren**. De exportbatchverwerking voor het exportprotocol dat aan deze betaling is gekoppeld, verschijnt. Voor deze export zijn de juiste filters al automatisch ingevuld. Controleer desgewenst velden van het sneltabblad **Opties** en kies vervolgens de knop **OK** om de betaling te exporteren. Er wordt een tekstbestand gegenereerd met een bestandsnaam zoals die is gedefinieerd in het veld **Standaardbestandsnamen** van het exportprotocol, dat nu gereed is voor verzending naar onze bank.  
 
-### <a name="example" />Voorbeeld
+### <a name="example-5" />Voorbeeld
 Aangezien de transactiewijze die aan onze betaling is gekoppeld ABN-USD is, verschijnt de batchverwerking **BBV** of **PAYMUL**.  
 
 ## <a name="import-bank-statement" />Bankafschrift importeren
 Nadat we elektronische bankafschriften van onze bank hebben ontvangen, kunnen we ze importeren door vanuit de pagina **Importprotocoloverzicht** het betreffende importprotocol uit te voeren.  
 
-### <a name="example" />Opmerking
+### <a name="example-6" />Opmerking
 Het bankafschrift met onze betaling aan Jannet Carter wordt door onze bank, ABN-USD, naar ons gestuurd. Daarom moeten we **OFFICE NET EXTRA** als het juiste importprotocol kiezen.  
 
 ## <a name="see-also" />Zie ook

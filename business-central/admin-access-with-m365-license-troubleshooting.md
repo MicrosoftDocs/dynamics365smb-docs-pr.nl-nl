@@ -26,11 +26,11 @@ U mist hoogstwaarschijnlijk objectmachtigingen voor tabellen waarnaar de huidige
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365-toegang is ingeschakeld, maar gebruikers krijgen een toestemmingsfout
 
-### <a name="symptoms" />Symptomen
+### <a name="symptoms-1" />Symptomen
 
 Toegang met Microsoft 365 is ingeschakeld in het Business Central-beheercentrum, maar gebruikers krijgen een toestemmingsfout bij het openen van een record.
 
-### <a name="cause" />Oorzaak
+### <a name="cause-1" />Oorzaak
 
 Als u toegang inschakelt in het Business Central-beheercentrum, maar geen machtigingen toewijst op de pagina **Licentieconfiguratie**, wordt voor iedereen die Business Central-records probeert te openen in Teams de gebruikersrecord ingericht zonder machtiging voor objecten. Business Central is van nature veilig: beheerders moeten eerst configureren welke gegevens toegankelijk zijn in Teams. 
 
@@ -40,25 +40,25 @@ Het aanpassen van machtigingen op de pagina Licentieconfiguratie heeft alleen in
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />U hebt een link gedeeld in Teams, maar gebruikers krijgen een bericht dat ze alleen gegevens kunnen inzien
 
-### <a name="symptoms" />Symptomen
+### <a name="symptoms-2" />Symptomen
 
 Als u een koppeling deel in Teams als gebruiker van Business Central, krijgen anderen de foutmelding "Wanneer u Business Central met enkel een Microsoft 365-licentie opent, kunt u alleen gegevens bekijken in Microsoft Teams".
 
-### <a name="cause" />Oorzaak
+### <a name="cause-2" />Oorzaak
 
 Bij het delen van een Business Central-koppeling naar een Teams-chat of -kanalen, verlaat u Microsoft Teams altijd wanneer u een koppeling opent. Daar zijn de gegevens niet meer toegankelijk voor iemand met een Microsoft 365-licentie.
 
-### <a name="resolution" />Oplossing
+### <a name="resolution-1" />Oplossing
 
 Neem bij het delen van pagina's of records het koppelingsvoorbeeld op als kaart of deel gegevens als een tabblad in de chat of het kanaal.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />Kaart van gedeelde link is minimaal en bevat geen Details-knop
 
-### <a name="symptoms" />Symptomen
+### <a name="symptoms-3" />Symptomen
 
 Wanneer een Microsoft 365-licentiehouder zonder Business Central-licentie een Business Central-link deelt in Teams, wordt deze automatisch uitgevouwen tot een kaart zonder bruikbare informatie en toont alleen Business Central zonder **Details**-knop.
 
-### <a name="cause" />Oorzaak
+### <a name="cause-3" />Oorzaak
 
 Gebruikers die een Microsoft 365-licentie hebben maar geen Business Central-licentie mogen geen links als kaarten delen. Als de gebruiker de Business Central-app voor Teams heeft geïnstalleerd en een koppeling in het opstelgebied plakt, wordt slechts een minimale kaart weergegeven. 
 

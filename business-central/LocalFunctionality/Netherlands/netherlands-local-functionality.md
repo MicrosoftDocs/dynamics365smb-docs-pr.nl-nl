@@ -65,7 +65,7 @@ Momenteel zijn er geen nieuwe wettelijke functies of vereisten. Als u op de hoog
 [Btw rapporteren aan de belastingdienst](../../finance-how-report-vat.md)  
 [Beschikbaarheid in landen/regio's en ondersteunde vertalingen](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,7 +48,7 @@ Maak een Bankrekening leverancier/klant en vul alle noodzakelijke gegevens in. B
 - **Valutacode**: laat dit veld leeg; het wordt ingesteld op de lokale valuta (LV).  
 - **Rekeninghouder**: zorg ervoor dat alle gegevens zijn ingevuld.  
 
-### <a name="example" />Opmerking
+### <a name="example-1" />Opmerking
 De bankrekening van Olek Johansson (code **OJBA**) wordt uitgedrukt in lokale valuta (LV). Daarom vullen we op de bankrekeningkaart van leverancier Olek Johansson een geldig nummer in het veld **Bankrekeningnr.** in, laten we het veld **Valutacode** leeg en vullen we in de velden op het sneltabblad **Rekeninghouder** de juiste waarden in.  
 
 ## <a name="create-and-post-purchase-invoice-for-vendor-or-sales-invoice-for-customer" />Inkoopfactuur voor leverancier of verkoopfactuur voor klant maken en boeken
@@ -62,19 +62,19 @@ Standaard zijn in deze drie velden waarden ingevuld die zijn overgenomen uit de 
 
 Als de factuur is voltooid, kan deze worden geboekt.  
 
-### <a name="example" />Voorbeeld
+### <a name="example-2" />Voorbeeld
 Als we een inkoopfactuur voor Olek Johansson maken, vullen we **OLEK** in het veld **Orderleveranciersnr.** in. Standaard zijn in de velden **Valutacode**, **Transactiewijze** en **Bankrekening** waarden ingevuld die zijn overgenomen uit de leverancierskaart van Olek Johansson. Daarom zijn de velden **Valutacode**, **Transactiewijze** en **Bankrekening** respectievelijk **\<empty\>**, **ABN** en **OJBA**. Deze waarden kunnen echter worden gewijzigd.  
 
 ## <a name="create-proposal" />Voorstel maken
 Open de pagina **Telebank - bankoverzicht** en blader naar de bank die we voor onze betaling willen gebruiken. Open de pagina **Voorstel** en genereer betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen**.  
 
-### <a name="example" />Opmerking
+### <a name="example-3" />Opmerking
 Door middel van de pagina **Telebank - bankoverzicht** openen we de pagina **Voorstel** voor onze bank, ABN. Met de batchverwerking wordt één voorstelregel gemaakt voor de inkoopfactuur die we zojuist voor leverancier OLEK hebben gemaakt en geboekt.  
 
 ## <a name="create-payment-history" />Betaalrun maken
 Vanuit de pagina **Voorstel** verwerken we ons voorstel in een betaalrun. Het voorstel verdwijnt en kan worden gevonden op de pagina **Betaalrunoverzicht** voor dezelfde bank.  
 
-### <a name="example" />Opmerking
+### <a name="example-4" />Opmerking
 We verwerken ons voorstel met betrekking tot de betaling aan leverancier OLEK en openen de pagina **Betaalrunoverzicht** voor onze bank, ABN. De laatste betaalrun is de betaalrun die we zojuist hebben gemaakt.  
 
 ## <a name="export-payment-history" />Betaalrun exporteren
@@ -83,7 +83,7 @@ Open de pagina **Betaalrunoverzicht**, blader naar de relevante betaalrun en kie
 ## <a name="import-bank-statement" />Bankafschrift importeren
 Nadat we elektronische bankafschriften van onze bank hebben ontvangen, kunnen we ze importeren door vanuit de pagina **Importprotocoloverzicht** het betreffende importprotocol uit te voeren.  
 
-### <a name="example" />Opmerking
+### <a name="example-5" />Opmerking
 Het bankafschrift met onze betaling aan Olek Johansson wordt door onze bank ABN naar ons gestuurd. Daarom moeten we **OFFICE NET EXTRA** als het juiste importprotocol kiezen.  
 
 ## <a name="see-also" />Zie ook

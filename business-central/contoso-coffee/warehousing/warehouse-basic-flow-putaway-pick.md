@@ -119,10 +119,10 @@ Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](../../design
 
 De volgende procedure geeft methode B in de vorige tabel weer.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Susan, de orderverwerker, maakt een verkooporder voor verschillende geroosterde bonen en geeft deze door aan het magazijn. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd. John beheert alle betrokken taken op de pagina **Voorraadpick**, die automatisch verwijst naar de opslaglocaties waar geroosterde bonen zijn opgeslagen.
 
-### <a name="steps" />Stappen
+### <a name="steps-1" />Stappen
 Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaardmagazijnconfiguraties](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Stel de pagina **Vestiging** in om de inkomende magazijnstromen van het bedrijf te definiëren.  
@@ -159,7 +159,7 @@ Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaard
 
 5. Kies de actie **Boeken**, selecteer **Verzenden** en kies de knop **OK**.  
 
-### <a name="results" />Resultaten
+### <a name="results-1" />Resultaten
  - de geroosterde bonen staan nu geregistreerd als gepickt uit gespecificeerde opslaglocaties
  - de **Geboekte voorraadpick** wordt gemaakt
  - de **geboekte verkoopverzending** wordt gemaakt

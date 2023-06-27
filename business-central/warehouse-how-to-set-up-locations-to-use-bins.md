@@ -39,7 +39,7 @@ In dit stroomdiagram wordt weergegeven hoe het veld **Opslaglocatie** op de prod
 
 ![Stroomdiagram Opslaglocatie.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Zie gerelateerde [Microsoft-training](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Zie gerelateerde [Microsoft-training](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Zie ook
 

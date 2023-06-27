@@ -92,10 +92,10 @@ Zie voor meer informatie [Ontwerpdetails: Uitgaande magazijnstroom](../../design
 
 De volgende procedure geeft methode D in de vorige tabel weer.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Susan, de orderverwerker, maakt verkooporders voor verschillende geroosterde bonen en geeft deze door aan het magazijn. Omdat alle orders van dezelfde klant komen, besluit Ellen, de magazijnbeheerder, ze samen te verzenden. De magazijnmedewerker John zorgt ervoor dat de verzending wordt voorbereid en aan de klant geleverd.
 
-### <a name="steps" />Stappen
+### <a name="steps-1" />Stappen
 Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaardmagazijnconfiguraties](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Verkooporders vrijgeven naar magazijn.  
@@ -137,7 +137,7 @@ Dit is een voortzetting van [Inkomende stroom: ontvangen en opslaan in standaard
     4. Kies de actie **Verzending boeken**.
     5. Bevestig de **Verzending**-optie.
 
-### <a name="results" />Resultaten
+### <a name="results-1" />Resultaten
  - de geroosterde bonen staan nu geregistreerd als gepickt 
  - de **geregistreerde magazijnpick** wordt gemaakt
  - de **geboekte magazijnverzending** wordt gemaakt

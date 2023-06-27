@@ -23,7 +23,7 @@ U kunt [!INCLUDE[prod_short](includes/prod_short.md)] wijzigen door apps te inst
 
 Als u de functionaliteit van een extensie wilt gebruiken, zoals pagina's openen, rapporten uitvoeren, acties selecteren, enzovoort, moeten aan u de machtigingensets zijn toegewezen die als onderdeel van de extensie zijn geïnstalleerd.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Een extensie installeren
+## <a name="install-an-extension" /><a name="install"></a>Een extensie installeren
 
 U beheert apps en extensies op de pagina **Extensiebeheer**. U kunt tot deze pagina toegang krijgen via de startpagina. Of kies het pictogram **Pagina of rapport zoeken** ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") in de rechterbovenhoek, voer **Extensie** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -104,7 +104,7 @@ Wanneer u een app verwijdert die u hebt gebruikt, worden de gegevens standaard b
 [[!INCLUDE[prod_short](includes/prod_short.md)] Extensies door andere providers](ui-extensions-other.md)  
 [Voorbereid zijn om zaken te doen](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
