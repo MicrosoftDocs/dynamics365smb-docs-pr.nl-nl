@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="single-euro-payments-area-sepa"></a>Single EURO Payments Area (SEPA)
+# <a name="single-euro-payments-area-sepa"></a><a name="single-euro-payments-area-sepa"></a>Single EURO Payments Area (SEPA)
 Single Euro Payments Area (SEPA) verenigt de betalingsmethoden in deelnemende Europese landen, zodat internationale betalingen even gemakkelijk te verwerken worden als binnenlandse betalingen. 300 miljoen Europese burgers en bedrijven kunnen betalingen in euro's verrichten en ontvangen, binnen of buiten nationale grenzen, onder dezelfde basisomstandigheden, -rechten en -verplichtingen, ongeacht de locatie.  
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] ondersteunt de Nederlandse vereisten voor verzending van SEPA-betalingen, krediettransfers en automatische incasso.  
@@ -30,7 +30,7 @@ Leveranciersbetalingen die met SEPA ISO 20022 worden verricht moeten aan de volg
 - Betalingen worden verricht binnen de Europese Economische Ruimte (EER).  
 - Het IBAN-nummer (International Bank Account Number) en de BIC-gegevens (Bank Identifier Code) van de bank van de leverancier gebruiken.  
 
-## <a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a>Zie ook
  [SEPA-betalingen activeren](how-to-activate-sepa-payments.md)   
  [Leverancierbetalingen elektronisch versturen in SEPA ISO 20022-betalingsindeling](how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)   
  [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)
