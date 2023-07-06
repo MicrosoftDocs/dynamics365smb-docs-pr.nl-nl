@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a><a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a>Een auditfile voor de Belastingdienst maken in de Nederlandse versie
+# <a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a><a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a><a name="create-an-audit-file-for-the-tax-authority-in-the-dutch-version"></a>Een auditfile voor de Belastingdienst maken in de Nederlandse versie
 Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur om gegevens over de basistransacties vanuit het grootboek voor dat boekjaar vragen. Basistransacties worden gewoonlijk via dagboekposten verwerkt. Daarom vormen de dagboekposten de basis voor het auditbestand.  
 
  De belastingdienst stimuleert bedrijven om het auditfile te gebruiken, maar dat is niet verplicht.  
 
  De auditfile kan tevens worden gebruikt om gegevens uit te wisselen tussen bedrijven. U kunt elke gewenste periode selecteren, maar de begindatum en einddatum van de opgegeven periode moeten in hetzelfde boekjaar liggen.  
 
-## <a name="to-make-an-audit-file"></a><a name="to-make-an-audit-file"></a>Een auditfile maken
+## <a name="to-make-an-audit-file"></a><a name="to-make-an-audit-file"></a><a name="to-make-an-audit-file"></a>Een auditfile maken
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Belastingdienst - Auditfile** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul op het sneltabblad **Opties** de velden in, zoals in de volgende tabel is beschreven.  
@@ -32,7 +32,7 @@ Tijdens een controle van de boeken voor een boekjaar kan een belastinginspecteur
 
 Wanneer u het rapport uitvoert, moet u de naam en locatie van het geëxporteerde bestand opgeven. De standaardbestandsnaam is **audit.xaf**, maar u kunt dat wijzigen. De bestandsextensie moet .xaf zijn.  
 
-## <a name="see-also"></a><a name="see-also"></a>Zie ook
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Zie ook
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)
 
 
