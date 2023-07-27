@@ -4,7 +4,7 @@ description: Import en verwerking van verkooporders vanuit Shopify instellen en 
 ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: andreipa
 ms.author: andreipa
 ms.reviewer: bholtorf
@@ -30,9 +30,12 @@ Schakel **Automatisch orders maken** in om automatisch verkoopdocumenten te make
 
 Als u automatisch een verkoopdocument wilt vrijgeven, schakelt u de schakelaar **Verkooporder automatisch vrijgeven** in.
 
-Het verkoopdocument binnen [!INCLUDE[prod_short](../includes/prod_short.md)] koppelt naar de Shopify-order, en u kunt een veld toevoegen dat nog niet op de pagina wordt weergegeven. Ga voor meer informatie over het toevoegen van een veld naar [Een pagina personaliseren via de banner **Personaliseren**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Als u het veld **Shopify-order-nr. op documentregel** selecteert, wordt deze informatie herhaald op de verkoopregels van het type **Opmerking**.
+Als u het veld **Shopify-order-nr. op documentregel** selecteert, wordt deze informatie door [!INCLUDE [prod_short](../includes/prod_short.md)] herhaald op de verkoopregels van het type **Opmerking**, met het Shopify-ordernummer.
 
-In het veld **Prioriteit van belastinggebied** kunt u de prioriteit definiëren voor het selecteren van de btw-gebiedscode voor adressen in de order. De geïmporteerde Shopify-order bevat informatie over belastingen. Belastingen worden opnieuw berekend wanneer u het verkoopdocument maakt, dus het is belangrijk dat de btw-/belastinginstellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)]. Voor meer informatie over belastingen zie [Belastingen instellen voor de Shopify-verbinding](setup-taxes.md).
+>[!NOTE]
+>Het verkoopdocument in [!INCLUDE[prod_short](../includes/prod_short.md)] linkt naar de Shopify-order en u kunt het **Shopify-ordernummer toevoegen** aan de lijst- of kaartpagina's voor verkooporders, facturen en verzendingen. Ga voor meer informatie over het toevoegen van een veld naar [Een pagina personaliseren via de banner **Personaliseren**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+
+In het veld **Prioriteit van belastinggebied** kunt u de prioriteit definiëren voor het selecteren van de btw-gebiedscode voor adressen in orders. De Shopify-order die u importeert, bevat informatie over belastingen. Belastingen worden opnieuw berekend wanneer u verkoopdocumenten maakt, dus het is belangrijk dat de btw-/belastinginstellingen correct zijn in [!INCLUDE[prod_short](../includes/prod_short.md)]. Voor meer informatie over belastingen zie [Belastingen instellen voor de Shopify-verbinding](setup-taxes.md).
 
 Specificeer hoe u retouren en terugbetalingen verwerkt:
 
@@ -96,6 +99,31 @@ U kunt ook zoeken naar de batchverwerking **Orders synchroniseren vanuit Shopify
 
 U kunt plannen dat de taak automatisch wordt uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
 
+### Onder de motorkap
+
+De Shopify-connector importeert orders in twee stappen:
+
+1.  Het importeert orderkoppen naar de tabel **Shopify - Te importeren orders** wanneer ze aan bepaalde voorwaarden voldoen:
+    
+* Ze worden niet gearchiveerd.
+* Ze zijn gemaakt of gewijzigd na de laatste synchronisatie.
+
+2.  Het importeert Shopify-orders en aanvullende informatie.
+* De Shopify-connector verwerkt alle records in de tabel **Shopify - Te importeren orders** die overeenkomen met de filtercriteria die u hebt gedefinieerd op de aanvraagpagina **Orders synchroniseren vanuit Shopify**. Bijvoorbeeld tags, kanaal of de afhandelingsstatus. Als u geen filters hebt opgegeven, worden alle records verwerkt.
+* Bij het importeren van een Shopify-order vraagt de Shopify-connector om aanvullende informatie vanuit Shopify:
+
+    * Orderkoptekst
+    * Orderregels
+    * Informatie over verzending en afhandeling
+    * Transacties
+    * Retourzendingen en terugbetalingen, indien geconfigureerd
+
+De pagina **Shopify - Te importeren orders** is handig voor het oplossen van problemen met het importeren van orders. U kunt de beschikbare orders beoordelen en de volgende stappen uitvoeren:
+
+* Controleer of een fout de import van een specifieke order heeft geblokkeerd en bekijk de details van de fout. Controleer het veld **Bevat fout**.
+* Verwerk alleen specifieke orders. U moet het veld **Winkelcode** invullen, een of meer orders selecteren en vervolgens de actie **Geselecteerde orders importeren** kiezen.
+* Verwijder orders van de pagina **Shopify - Te importeren orders** om ze uit te sluiten van de synchronisatie.
+
 ## Geïmporteerde bestellingen bekijken
 
 Zodra het importeren is voltooid, kunt u de Shopify-order verkennen en alle gerelateerde informatie zoeken, zoals de betalingstransacties, verzendkosten, risiconiveau, orderkenmerken en -tags of afhandelingen, als de order al is afgehandeld in Shopify. U kunt ook een orderbevestiging zien die naar de klant is verzonden door de actie **Shopify-statuspagina** te kiezen.
@@ -131,7 +159,7 @@ Als uw instellingen voorkomen dat automatisch een klant wordt gemaakt en geen ju
 
 De functie *Order importeren uit Shopify* probeert de klant in de volgende volgorde te selecteren:
 
-1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor de **Code van verzendland/regio**, dan het **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Meer informatie op [Klantensjabloon per land/regio](synchronize-customers.md#customer-template-per-country).
+1. Als het **Standaardklantnr.** veld is gedefinieerd in de **Shopify-klantsjabloon** voor de **Code van verzendland/regio**, dan het **Standaardklantnr.** wordt gebruikt, ongeacht de instellingen in de velden **Klant importeren uit Shopify** en **Type klanttoewijzing**. Meer informatie op [Klantensjabloon per land/regio](synchronize-customers.md#customer-template-per-countryregion).
 2. Als **Klant importeren uit Shopify** is ingesteld op *Geen* en het **Standaardklantnr.** is gedefinieerd op de pagina **Shopify-winkelkaart**, wordt het **Standaardklantnr.** gebruikt.
 
 De volgende stappen zijn afhankelijk van het **Type klanttoewijzing**.
