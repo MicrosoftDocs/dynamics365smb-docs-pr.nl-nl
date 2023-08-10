@@ -7,7 +7,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Validatie van inkoopbedragen instellen in de Nederlandse versie
+# <a name="set-up-validation-of-purchase-amounts-in-the-dutch-version"></a>Validatie van inkoopbedragen instellen in de Nederlandse versie
 In [!INCLUDE[prod_short](../../includes/prod_short.md)] kunt u de functie **Totaalbedragen documenten controleren** activeren om het totaalbedrag van inkoopdocumenten te valideren voordat een inkoopfactuur en inkoopcreditnota worden geboekt. Standaard wordt het totale inkoopdocumentbedrag gevalideerd wanneer u boekt. Het totale bedrag van de ingevoegde inkoopregels moet gelijk zijn aan het bedrag inclusief btw en het btw-bedrag. Als u het inkoopdocumentbedrag automatisch wilt valideren, moet u het documentbedrag inclusief btw en de btw van het documentbedrag op de pagina **Inkoopfactuur** of **Inkoopcreditnota** invoeren.  
 
 Als u slechts één inkoopregel of meer verkoopregels met hetzelfde btw-percentage hebt, wordt de juiste documentbedrag-btw automatisch berekend wanneer u de inkoopregels en het documentbedrag inclusief btw invoegt. Als u verschillende inkoopregels met verschillende btw-percentages hebt, moet de waarde van de documentbedrag-btw handmatig worden gewijzigd.  
@@ -26,7 +26,7 @@ U kunt deze optie alleen inschakelen als de inkoopfactuur of de inkoopcreditnota
 - Een minimum van één inkoopregel.  
 - Het aantalveld opgegeven.  
 
-## Validatie van totaalbedragen voor inkoopdocumenten instellen  
+## <a name="to-set-up-validation-of-total-amounts-for-purchase-documents"></a>Validatie van totaalbedragen voor inkoopdocumenten instellen
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkoopinstellingen** in en kies vervolgens de gerelateerde koppeling.  
 2.  Vul in het sneltabblad **Algemeen** de velden in, zoals in de volgende tabel is beschreven.  
@@ -38,7 +38,7 @@ U kunt deze optie alleen inschakelen als de inkoopfactuur of de inkoopcreditnota
 
 3.  Kies de knop **OK**.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 [Nederlandse lokale functionaliteit](netherlands-local-functionality.md)  
 [Inkopen instellen](../../sales-how-work-standard-lines.md)
 

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# Inkoopbedragen controleren in de Nederlandse versie
+# <a name="check-purchase-amounts-in-the-dutch-version"></a>Inkoopbedragen controleren in de Nederlandse versie
 Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedrag incl. btw en het btw-bedrag die vermeld staan op het inkooporderdocument, gelijk zijn aan het totaalbedrag van de ingevoegde inkoopregels. Hiervoor moeten de velden **Documentbedrag incl. btw** en **Btw documentbedrag** ingevuld zijn op de pagina **Inkoopfactuur** of **Inkoopcreditnota**.  
 
  Als er slechts één inkoopregel is of als alle regels vallen onder hetzelfde btw-percentage, wordt het juiste **Btw documentbedrag**-veld automatisch berekend wanneer u de inkoopregels en het veld **Documentbedrag incl. btw** hebt ingevoegd. In het geval dat verschillende regels met verschillende btw-percentages bestaan, moet het veld **Documentbedrag incl. btw** handmatig worden gewijzigd.  
@@ -24,7 +24,7 @@ Voordat u een inkoopfactuur of creditnota boekt, wordt gecontroleerd of het bedr
 > [!NOTE]  
 >  Als u dit veld activeert, moeten de totalen van alle inkoopfacturen en creditnota's worden herberekend. Dit kan een tijdrovend proces zijn, afhankelijk van het aantal documenten dat moet worden herberekend. U kunt dit veld niet activeren als er inkoopfacturen en/of creditnota's zijn zonder inkoopregels of als u inkoopfacturen en/of inkoopcreditnota's hebt waarbij geen aantal is opgegeven op de regels.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [Validatie van inkoopbedragen instellen](how-to-set-up-validation-of-purchase-amounts.md)
 
 
