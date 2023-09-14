@@ -1,21 +1,21 @@
 ---
 title: Btw-categorieën instellen
 description: 'Als u de elektronische btw-aangifte wilt gebruiken, moet u een btw-categoriecode voor alle XML-elementen in de elektronische btw-aangifte instellen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-vat-categories"></a>VAT-categorieën instellen
+# VAT-categorieën instellen
 Als u de elektronische btw-aangifte wilt gebruiken, moet u een btw-categoriecode voor alle XML-elementen in de elektronische btw-aangifte instellen.  
 
 U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XML-element in de elektronische btw-aangifte voorstellen. Vervolgens kunt u de btw-aangiftegegevens direct aan een XML-element toewijzen.  
 
-## <a name="to-set-up-a-vat-category"></a>Een btw-categorie instellen
+## Een btw-categorie instellen  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangifte btw-categorieën** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies op de pagina **Elektronische aangifte btw-categorieën** de actie **Nieuw**.  
@@ -36,7 +36,7 @@ U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XM
 
 U kunt nu de btw-aangiftegegevens direct aan een XML-element toewijzen.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
  [Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)
 
