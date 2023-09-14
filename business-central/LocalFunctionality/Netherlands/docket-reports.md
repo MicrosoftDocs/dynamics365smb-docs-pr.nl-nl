@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# Borderelrapporten in de Nederlandse versie
+# <a name="docket-reports-in-the-dutch-version"></a>Borderelrapporten in de Nederlandse versie
 Met de Nederlandse toepassing voor telebankieren kunt u posten voor dezelfde klant of leverancier die dezelfde transactiewijze hebben tot één betaal- of verzamelopdracht voor de bank combineren. Als zodanig wordt één totaalbedrag betaald aan of geïnd van de betreffende leverancier of klant. Mogelijk bevat deze gecombineerde betaling alle detailgegevens over de afzonderlijke betalingen of incasso's. Telebankieren biedt u de mogelijkheid om uw leverancier of klant gedetailleerd te informeren door een borderelrapport te genereren waarin de afzonderlijke betalingen worden beschreven waaruit het totale betaalde of geïnde bedrag bestaat.  
 
 Tijdens het genereren van betalingsvoorstellen met de batchverwerking **Voorstelposten ophalen** wordt het selectievakje **Borderel** van het voorstel automatisch ingeschakeld als:  
@@ -19,7 +19,7 @@ Tijdens het genereren van betalingsvoorstellen met de batchverwerking **Voorstel
 
 - De betaling niet is gebaseerd op een factuur.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [Telebankieren](telebanking.md)
 
 
