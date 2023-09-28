@@ -1,7 +1,7 @@
 ---
 title: Retouren of annuleringen verwerken
 description: Legt uit hoe u een inkoopcreditnota maakt en boekt wanneer u artikelen wilt retourneren aan een leverancier of ingekochte services wilt annuleren.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,7 +9,7 @@ ms.workload: na
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Inkoopretouren of annuleringen verwerken
 
@@ -180,8 +180,6 @@ Wanneer retourverzendingen zijn gecombineerd op een creditnota en zijn geboekt, 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Gefactureerde inkoopretourorders verwijderen** in en kies vervolgens de gerelateerde koppeling.  
 2. Vul de overige velden desgewenst in en kies de knop **OK**.  
 3. U kunt de afzonderlijke inkoopretourorders ook handmatig verwijderen.
-
-## Zie gerelateerde [Microsoft-training](/training/paths/return-items-dynamics-365-business-central/)
 
 ## Zie ook
 [Inkoop](purchasing-manage-purchasing.md)  

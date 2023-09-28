@@ -3,7 +3,7 @@ title: 'Projecten, prijzen en projectboekingsgroepen instellen'
 description: Beschrijft hoe u algemene informatie over taken instelt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ Eén aspect van het plannen van projecten is bepalen welke boekingsrekeningen mo
 | **Rekening projectomzetwaardering** |De tegenrekening voor de OHW-omzetrekening, die een resultatenrekening is. | Te ontvangen omzet|
 | **Rekening verantwoorde kosten** |De kostenrekening die de verantwoorde kosten voor het project bevat. Dit is normaliter een debetkostenrekening. | Verantwoorde kosten|
 | **Rekening verantwoorde omzet** |De resultatenrekening die de verantwoorde resultaten voor het project bevat. Dit is normaliter een creditresultatenrekening. | Verantwoorde verkoop|
-
-## Zie gerelateerde [Microsoft-training](/training/paths/set-up-jobs-resources/)
 
 ## Zie ook
 
