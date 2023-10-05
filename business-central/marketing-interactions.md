@@ -19,19 +19,19 @@ Uw toepassing instellen om interacties te registreren bestaat uit deze taken:
 * Interacties maken voor contacten of segmenten  
 * Geregistreerde interacties weergeven en beheren  
 
-## <a name="setting-up-interaction-templates"></a>Interactiesjablonen instellen
+## <a name="set-up-interaction-templates"></a>Interactiesjablonen instellen
 Voordat u interacties kunt maken en registreren moet u interactiesjablonen instellen. Wanneer u interacties maakt, moet u de interactiesjablonen opgeven waarop de interacties zijn gebaseerd. Een interactiesjabloon is een model dat de basiskenmerken van een interactie definieert.
 U stelt een interactiesjabloon op de pagina **Interactiesjablonen** in.
 
 Nadat u de gegevens voor de interactiesjabloon hebt ingevoerd, kunt u een bijlage maken, bijvoorbeeld een Microsoft Word-document. Herhaal de stappen om het gewenste aantal interactiesjablonen in te stellen.  
 
-## <a name="creating-interactions"></a>Interacties maken
+## <a name="create-interactions"></a>Interacties maken
 Er zijn twee manieren om interacties te registreren:
 
 * U kunt handmatig  interacties maken die zijn gekoppeld aan een enkel contact of een segment. Zie voor meer informatie [Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md).  
 * U kunt automatisch interacties registreren wanneer u acties uitvoert in de toepassing, bijvoorbeeld wanneer u een factuur of offerte afdrukt. Zie voor meer informatie [Automatisch interacties met contacten registreren](marketing-auto-record-interactions.md).
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren
+## <a name="view-and-manage-recorded-interactions"></a>Geregistreerde interacties weergeven en beheren
 U kunt alle geregistreerde interacties die niet zijn verwijderd, weergeven op de pagina **Interactielogposten**. U kunt deze pagina openen door:
 
 * Het pictogram **Zoeken naar pagina of rapport** gebruiken om te zoeken naar **Interactielogposten**.

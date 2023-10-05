@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-and-income"></a>Kosten en inkomsten toewijzen
+# <a name="allocate-recurring-costs-and-income"></a>Kosten en inkomsten toewijzen
 
 U kunt een post in een dagboek verdelen over verschillende rekeningen wanneer u het dagboek boekt. De verdeling kan plaatsvinden op basis van drie verschillende methoden.
 

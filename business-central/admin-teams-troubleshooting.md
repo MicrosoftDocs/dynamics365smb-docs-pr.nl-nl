@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Problemen met Microsoft Teams-integratie oplossen met [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -147,7 +147,7 @@ Als beheerder met Azure Active Directory-beheerdersmachtigingen kunt u de tegel 
 
 Wanneer u tekst in het berichtvenster plakt in het venster **Delen met Teams** wordt de tekst gedupliceerd. Dit probleem is bekend bij Microsoft en zal in een latere update worden verholpen. 
 
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Kan niet inloggen op het venster Delen met Teams
+## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Kan niet inloggen op het venster Delen met Teams
 
 Dit probleem kan verschillende oorzaken hebben. De identiteit die u gebruikt om in te loggen, moet bijvoorbeeld toegang hebben tot Microsoft Teams, bijvoorbeeld via een Microsoft 365-abonnement.
 
@@ -167,7 +167,7 @@ Hiervoor zijn een aantal redenen.
 
 Dit probleem wordt veroorzaakt doordat u de BC-app voor Teams niet hebt geïnstalleerd. Alleen mensen die de app hebben geïnstalleerd, zien Business Central-tabbladen.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Anderen zien een andere sortering of kolomindeling dan die de auteur van het tabblad ziet
+## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Anderen zien een andere sortering of kolomindeling dan die de auteur van het tabblad ziet
 
 Dit probleem wordt waarschijnlijk veroorzaakt doordat u een lijstweergave hebt gedeeld die een persoonlijke weergave is. Werk in dit geval samen met uw beheerder om rolspecifieke lijstweergaven te maken die de verschillende rollen in het kanaal/de chat beslaan of maak deze weergave voor de hele organisatie zodat iedereen een consistente weergave kan krijgen.
 

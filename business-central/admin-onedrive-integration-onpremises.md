@@ -22,7 +22,7 @@ Er zijn twee taken die moeten worden uitgevoerd om de OneDrive-integratie te con
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan alleen worden verbonden met OneDrive gehost door Microsoft in de cloud. [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinden met de My Sites-opslag van SharePoint Server wordt niet ondersteund.
 
-## <a name="register-an-app-in-azure-ad-for-onedrive-integration"></a><a name="registerapp"></a>Een app in Azure AD registreren voor OneDrive-integratie
+## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Een app in Azure AD registreren voor OneDrive-integratie
 
 In deze taak voegt u een geregistreerde app voor Business Central toe in de Azure AD-tenant van uw Microsoft 365-abonnement. Net als andere Azure-services die werken met Business Central, vereist OneDrive een geregistreerde app in Azure Active Directory (Azure AD). De geregistreerde app biedt verificatie- en autorisatieservices tussen Business Central en SharePoint, wat wordt gebruikt door OneDrive.
 

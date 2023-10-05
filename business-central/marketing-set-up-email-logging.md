@@ -110,7 +110,7 @@ Om verbinding te maken moet u **OAuth2** gebruiken als het **Verificatietype**. 
 
 U moet uw installatie instellen om HTTPS te gebruiken. Zie voor meer informatie [SSL configureren om de Business Central Web Client-verbinding te beveiligen](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Als u uw server instelt om een andere startpagina te hebben, kunt u de URL wijzigen. Het clientgeheim wordt opgeslagen als een versleutelde tekenreeks in uw database.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Exchange Online
+### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online"></a>Een toepassing registreren in Azure AD voor verbinding van Business Central met Exchange Online
 
 Bij de volgende stappen wordt ervan uitgegaan dat u Azure Active Directory gebruikt om identiteiten en toegang te beheren. Zie voor meer informatie [Snelle start: een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app). 
 

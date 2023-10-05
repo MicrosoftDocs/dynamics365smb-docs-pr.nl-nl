@@ -44,7 +44,7 @@ De volgende lijst toont de aanbevolen volgorde van de stappen die een beheerder 
 > [!NOTE]
 > Om verbinding te maken met de btw-groepsvertegenwoordiger, hebben groepsleden een gebruikersaccount nodig met toegang tot de [!INCLUDE[prod_short](includes/prod_short.md)] van de btw-groepsvertegenwoordiger. De btw-groepsvertegenwoordiger moet hiervoor minimaal één gebruiker maken. Om veiligheidsredenen raden we echter aan om voor elk lid van de btw-groep een gebruiker te maken, wat een systeemgebruikersaccount kan zijn die niet is gerelateerd aan een echte persoon. Zorg ervoor dat u de gebruikersgegevens op een veilige manier onder de leden van de btw-groep verspreidt.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory instellen voor groepsleden
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Azure Active Directory instellen voor groepsleden
 
 Wanneer de btw-groepsvertegenwoordiger gebruikmaakt van [!INCLUDE[prod_short](includes/prod_short.md)] online of on-premises, gebruiken leden van de btw-groep Azure Active Directory om gebruikers te verifiëren wanneer ze btw-aangiften indienen bij de btw-groepsvertegenwoordiger. Voor [!INCLUDE[prod_short](includes/prod_short.md)] on-premises moeten leden eenmalige aanmelding configureren. Zie voor meer informatie [Azure Active Directory-verificatie met WS-Federation configureren](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 

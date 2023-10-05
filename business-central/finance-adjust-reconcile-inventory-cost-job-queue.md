@@ -11,7 +11,7 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Taken plannen voor het aanpassen en afstemmen van voorraadkosten met het grootboek
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Taken plannen voor het aanpassen en afstemmen van voorraadkosten met het grootboek
 
 Om de ervaring te optimaliseren zijn automatische kostenaanpassing en boeking naar het grootboek standaard ingeschakeld. Aangezien gegevens zich in de loop van de tijd ophopen, kan dit echter van invloed zijn op de prestaties. Om de belasting van de toepassing te verminderen, is het vaak handig om opdrachten in de wachtrij te gebruiken om taken op de achtergrond uit te voeren.
 
