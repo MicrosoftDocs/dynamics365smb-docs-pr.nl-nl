@@ -44,8 +44,6 @@ Als u van gedachten verandert over een artikelcategorie, kunt u deze verwijderen
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Zie gerelateerde [Microsoft-training](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Zie ook
 
 [Werken met artikelkenmerken](inventory-how-work-item-attributes.md)  

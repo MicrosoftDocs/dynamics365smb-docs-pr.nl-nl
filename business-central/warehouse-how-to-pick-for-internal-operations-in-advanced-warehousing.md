@@ -2,13 +2,12 @@
 title: Picken voor interne bewerkingen in geavanceerde magazijnconfiguraties
 description: 'Als uw locaties picking en verzending gebruiken, pickt u componenten voor assemblage- en taakactiviteiten op de pagina Magazijnpick.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 09/02/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 09/12/2023
+ms.custom: bap-template
 ---
 # Picken voor productie, assemblage of taken in geavanceerde magazijnconfiguraties
 
@@ -54,6 +53,10 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 > De mogelijkheid om componenten voor taakplanningsregels te picken is toegevoegd aan [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 releasewave 2. Om de mogelijkheid te gebruiken, moet een beheerder **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** inschakelen op de pagina **Functiebeheer**.
 >
 > Projecten bieden geen ondersteuning voor geavanceerde configuraties waarbij de schakelaar **Gericht picken en opslaan** is ingeschakeld.
+
+## Controleer of artikelen beschikbaar zijn om te picken
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## Bulksgewijs pickdocumenten maken met het pickvoorstel
 

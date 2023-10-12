@@ -1,16 +1,16 @@
 ---
 title: Valutawisselkoersen bijwerken (bevat video)
-description: 'Als u bedragen in verschillende valuta''s bijhoudt, kunt u Business Central u laten helpen bij het aanpassen van wisselkoersen van geboekte posten via een externe service.'
+description: 'Als u bedragen in verschillende valuta''s bijhoudt, kunt u Business Central u laten helpen de wisselkoersen aan te passen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
-ms.date: 03/15/2022
+ms.date: 09/07/2023
 ms.author: bholtorf
 ---
 # Valutawisselkoersen bijwerken
 
-U kunt verschillende valuta's definiëren in [!INCLUDE [prod_short](includes/prod_short.md)], bijvoorbeeld als u handelt in andere valuta's dan uw lokale valuta. Om u te helpen wijzigingen in de wisselkoersen bij te houden, kunt u de valuta's handmatig beheren of u kunt een wisselkoersservice instellen.
+U kunt verschillende valuta's definiëren in [!INCLUDE [prod_short](includes/prod_short.md)], bijvoorbeeld als u handelt in andere valuta's dan uw lokale valuta. Om wijzigingen in wisselkoersen bij te houden kunt u de koersen handmatig beheren of u kunt een wisselkoersservice instellen.
 
 ## Valuta's
 
@@ -54,30 +54,43 @@ Het correctiewisselkoersbedrag of het relationele correctiekoersbedrag wordt geb
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Wisselkoersen corrigeren
+## Wisselkoersen herwaarderen
 
-Aangezien valutakoersen constant wisselen, moeten de extra valuta-equivalenten in uw systeem periodiek worden gecorrigeerd. Als deze correcties niet worden uitgevoerd, kunnen de bedragen die omgerekend zijn van vreemde (of extra) valuta's en geboekt zijn in het grootboek in LV misleidend zijn. Bovendien moeten dagelijkse posten die geboekt zijn doordat een dagwisselkoers is ingevoerd in de toepassing, worden bijgewerkt nadat de dagwisselkoersgegevens zijn ingevoerd.
+Aangezien wisselkoersen constant wisselen, moet u overige valuta-equivalenten periodiek aanpassen. Als u dit niet doet, kunnen de bedragen die u vanuit vreemde (of andere) valuta's hebt omgezet en in de lokale valuta naar het grootboek hebt geboekt, onjuist zijn. Bovendien moet u de dagelijks geboekte boekingen bijwerken voordat u een dagelijkse wisselkoers invoert.
 
-De batchverwerking **Wisselkoersen herwaarderen** wordt gebruikt om de wisselkoersen van de geboekte klanten-, leveranciers- en bankrekeningposten handmatig te corrigeren. U kunt er tevens extra rapportagevalutabedragen in grootboekposten mee bijwerken.  
+Gebruik de batchverwerking **Wisselkoersen herwaarderen** om de wisselkoersen van geboekte klanten-, leveranciers- en bankrekeningposten handmatig te corrigeren. Met de batchverwerking kunnen ook andere rapportagevalutabedragen in grootboekposten worden bijgewerkt.  
 
 > [!TIP]
 > U kunt een service gebruiken om de wisselkoersen in het systeem automatisch bij te werken. Zie [Een wisselkoersservice instellen](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service) voor meer informatie. Hiermee past u echter de wisselkoersen van reeds geboekte transacties niet aan. Als u de wisselkoersen van geboekte posten wilt bijwerken, moet u de batchtaak **Wisselkoersen herwaarderen** gebruiken.
 
-U kunt een voorbeeld bekijken van het effect dat een aanpassing heeft op het boeken voordat u daadwerkelijk boekt door **Voorbeeld** te kiezen op de pagina **Wisselkoersen aanpassen**. Daarnaast kunt u selecteren of de grootboekboeking gedetailleerd (per boeking) of samengevat (per valuta) wordt door **Belasting in een post** te kiezen. U kunt ook specificeren hoe dimensies voor boekingen van niet-gerealiseerde winsten en verliezen moeten worden verwerkt door een van de volgende opties te kiezen in het veld **Dimensiewaarden overdragen**:  
+U kunt ook specificeren hoe de herwaardering dimensies voor boekingen van niet-gerealiseerde winsten en verliezen verwerkt door een van de volgende opties te kiezen in het veld **Dimensieboeking**:  
 
-- **Bronpost**: bij grootboekposten voor niet-gerealiseerde winsten en verliezen worden dimensiewaarden overgenomen van de aangepaste post.
-- **Op grootboekrekening**: in grootboekposten voor niet-gerealiseerde winsten en verliezen worden dimensiewaarden overgedragen van de bronpost van de dimensie-instellingen van de grootboekrekening voor niet-gerealiseerde winsten en verliezen.
-- **Geen overdracht**: grootboekposten voor niet-gerealiseerde winsten en verliezen hebben geen dimensiewaarden.
+* **Dimensies van bronpost**: dimensiewaarden overdragen voor grootboekposten voor niet-gerealiseerde winsten en verliezen vanuit de post die u herwaardeert.  
+* **Geen dimensies**: dimensiewaarden voor niet-gerealiseerde winsten en verliezen niet overdragen naar grootboekposten. [!INCLUDE [prod_short](includes/prod_short.md)] zal nog steeds de standaarddimensie-instellingen gebruiken, bijvoorbeeld **Verplicht**, **Zelfde** of **Geen**. Als de brontransactieposten dimensiewaarden hebben, maakt de aanpassing posten zonder dimensiewaarden.  
+* **Dimensies van grootboekrekening**: dimensiewaarden van de bronpost van dimensie-instellingen van de grootboekrekening voor niet-gerealiseerd winsten en verliezen overdragen naar grootboekposten.
+
+> [!NOTE]
+> Als u de voorbeeldfunctie wilt gebruiken, moet u de functie **Functie-update: Gebruik van nieuwe uitbreidbare wisselkoerscorrectie, inclusief boekingcontrole, inschakelen** op de pagina **[Functiebeheer](https://businesscentral.dynamics.com/?page=2610)** inschakelen.
+
+> [!IMPORTANT]
+> Vanwege lokale vereisten in Zwitserland raden we u niet aan **Functie-update: Gebruik van nieuwe uitbreidbare wisselkoerscorrectie, inclusief boekingcontrole, inschakelen** in te schakelen in de Zwitserse landversie (CH).
+
+## Bekijk het effect van een aanpassing
+
+U kunt een voorbeeld bekijken van het effect dat een wisselkoersaanpassing heeft op het boeken voordat u daadwerkelijk boekt door de actie **Voorbeeld van boeking weergeven** te kiezen op de rapportlaanvraagpagina **Wisselkoersherwaardering** (rapport 596). Op de aanvraagpagina kunt u opgeven wat u in de preview wilt opnemen:
+
+* Een gedetailleerde boeking naar het grootboek krijgen per post
+* Ontvang een samengevatte boeking per valuta. Kies gewoon het veld **Herwaarderen per post** in het rapport **Wisselkoersherwaardering**.
 
 ### Effect op klanten en leveranciers
 
-Voor klanten- en leveranciersrekeningen wordt de valuta tijdens de batchverwerking met de wisselkoers die geldig is op de opgegeven boekingsdatum. Met de batchverwerking worden de verschillen voor de afzonderlijke valutasaldo's berekend en worden de bedragen geboekt naar de opgegeven grootboekrekening in het veld **Ongereal. koerswinstrekening** of **Ongereal. koersverliesrekening** in de tabel **Valuta's**. Tegenposten worden automatisch geboekt naar de liquiditeitsrekening in het grootboek.
+Voor klanten- en leveranciersrekeningen gebruikt de batchverwerking de wisselkoers die geldig was op de boekingsdatum die voor de batchverwerking is opgegeven, om de valuta te herwaarderen. Met de batchverwerking worden de verschillen voor de afzonderlijke valutasaldo's berekend en worden de bedragen geboekt naar de opgegeven grootboekrekening in het veld **Ongereal. koerswinstrekening** of **Ongereal. koersverliesrekening** in de tabel **Valuta's**. Tegenposten worden automatisch geboekt naar de liquiditeitsrekening in het grootboek.
 
-In de batchverwerking worden alle open klantenposten en leveranciersposten verwerkt. Als er sprake is van een wisselkoersverschil voor een post, wordt in de batchverwerking een nieuwe gedetailleerde klanten- of leverancierspost gemaakt. Deze post staat voor het aangepaste bedrag op de klanten- of leverancierspost.
+In de batchverwerking worden alle open klantenposten en leveranciersposten verwerkt. Als er een wisselkoersverschil is voor een post, maakt de batchverwerking een nieuwe gedetailleerde klanten- of leverancierspost. De nieuwe post weerspiegelt het aangepaste bedrag op de klanten- of leverancierspost.
 
 #### Dimensies in klanten- en leveranciersposten
 
-De herwaarderingsposten krijgen de dimensies van de klanten-/leveranciersposten toegewezen en de herwaarderingen worden geboekt per combinatie van dimensiewaarden.
+[!INCLUDE [prod_short](includes/prod_short.md)] wijst de dimensies van de klanten- of leveranciersposten toe aan de herwaarderingsposten en boekt herwaarderingen voor elke combinatie van dimensiewaarden.
 
 ### Effect op bankrekeningen
 
@@ -87,10 +100,12 @@ Voor bankrekeningen wordt de valuta tijdens de batchverwerking geherwaardeerd me
 
 De herwaarderingsposten voor de grootboekrekening van de bankrekening en voor de winst-/verliesrekening krijgen de standaarddimensies van de bankrekening toegewezen.
 
-### Effect op grootboekbankrekeningen
-Als u in een rapportagevaluta boekt, kunt u met de batchverwerking nieuwe posten boeken voor valutaherwaarderingen tussen de lokale valuta en de rapportagevaluta. Met de batchverwerking worden de verschillen voor elke grootboekpost berekend en wordt de grootboekpost voor elke grootboekrekening geherwaardeerd op basis van de inhoud van het veld **Wisselkoersherwaardering**.
+### Effect op grootboekrekeningen
 
-##### Dimensies op grootboekrekeningposten
+Als u in een andere rapportagevaluta boekt, kan de batchverwerking nieuwe grootboekposten boeken voor valutaherwaarderingen tussen de lokale valuta en de overige rapportagevaluta. Met de batchverwerking worden de verschillen voor elke grootboekpost berekend en wordt de grootboekpost voor elke grootboekrekening geherwaardeerd op basis van de inhoud van het veld **Wisselkoersherwaardering**.
+
+#### Dimensies op grootboekrekeningposten
+
 De herwaarderingsposten krijgen de standaarddimensies toegewezen van de rekeningen waarop ze worden geboekt.
 
 > [!Important]
@@ -99,6 +114,7 @@ De herwaarderingsposten krijgen de standaarddimensies toegewezen van de rekening
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## Een wisselkoersservice instellen
+
 U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, zoals FloatRates. 
 
 > [!NOTE]
@@ -117,6 +133,7 @@ U kunt een externe service gebruiken om valutawisselkoersen actueel te houden, z
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## Valutawisselkoersen bijwerken met een service
+
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Valuta's** in en kies vervolgens de gerelateerde koppeling.
 2. Kies de actie **Wisselkoersen bijwerken**.
 

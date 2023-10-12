@@ -3,10 +3,10 @@ title: Picken van artikelen voor magazijnverzending
 description: Ontdek hoe u magazijnpickdocumenten kunt gebruiken om pickinformatie te maken en te verwerken voordat u een magazijnverzending boekt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
@@ -38,6 +38,10 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 > Magazijnpickregels worden gemaakt voor de waarde in het veld **Resterend aantal** op de regels van de assemblageorder die is gekoppeld aan de verkooporderregel die wordt verzonden. Alle onderdelen worden in één actie gepickt. Zie voor meer informatie [Op-order-assembleren-artikelen in magazijnverzendingen afhandelen](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
 >  
 > Zie [Picken voor productie, assemblage of projecten in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor meer informatie over het picken van materialen voor assemblageorders, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
+
+## Controleer of artikelen beschikbaar zijn om te picken
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## Bulksgewijs pickdocumenten maken met het pickvoorstel
 

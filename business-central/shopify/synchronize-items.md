@@ -35,7 +35,7 @@ Een derde scenario is het beheren van gegevens in Shopify maar die artikelen in 
 |**Van Shopify**| Kies deze optie als u van plan bent producten in bulk te importeren vanuit Shopify; ofwel handmatig met behulp van de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Lees meer in de sectie [Artikelen importeren vanuit Shopify](synchronize-items.md#import-items-from-shopify).|
 
 > [!NOTE]
-> **Artikel synchroniseren** wijzigen van **Van Shopify** in **Naar Shopify** heeft alleen effect als u **Kan Shopify-producten bijwerken** inschakelt.
+> **Artikel synchroniseren** wijzigen van **Van Shopify** in **Naar Shopify** heeft alleen effect als u **Kan Shopify-producten bijwerken** inschakelt. 
 
 ## Artikelen importeren vanuit Shopify
 
@@ -89,11 +89,11 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |**Artikelkenmerken synchroniseren**|Selecteer dit veld om de artikelkenmerken te synchroniseren. Kenmerken worden opgemaakt als een tabel en opgenomen in het veld **Beschrijving** in Shopify.|
 |**Marketingtekst van synchronisatieartikel**|Selecteer dit veld om marketingtekst voor het artikel te synchroniseren. Hoewel marketingtekst een soort beschrijving is, is het anders dan het veld **Beschrijving**. Het veld **Beschrijving** wordt meestal gebruikt als een beknopte weergavenaam om het product snel te identificeren. De marketingtekst daarentegen rijker en meer beschrijvend. Het doel is om marketing- en promotionele inhoud toe te voegen. Deze tekst kan dan worden gepubliceerd bij het artikel in Shopify. Er zijn twee manieren om de marketingtekst te maken. Gebruik Copilot, dat door AI gegenereerde tekst voor u voorstelt, of begin helemaal opnieuw.|
 |**Taalcode**|Selecteer dit veld als u wilt dat de vertaalde versies worden gebruikt voor titel, kenmerken en uitgebreide tekst.|
-|**SKU-toewijzing**|Kies hoe u het SKU-veld wilt invullen in Shopify. Ondersteunde opties zijn:<br> - **Artikelnr.** om het artikelnummer te gebruiken voor zowel producten als varianten.<br> - **Artikelnr. + variant** om een SKU te maken door waarden van twee velden samen te voegen. Voor artikelen zonder varianten wordt alleen het artikelnr. gebruikt.<br>- **Artikelnr. leverancier** om het artikelleveranciersnummer te gebruiken dat is gedefinieerd op de **artikelkaart** voor zowel producten als varianten.<br> - **Barcode** om het barcodetype van **Artikelreferentie** te gebruiken. Deze optie respecteert varianten.|
+|**SKU-toewijzing**|Kies hoe u het SKU-veld wilt invullen in Shopify. Ondersteunde opties zijn:<br> - **Artikelnr.** om het artikelnummer te gebruiken voor zowel producten als varianten.<br> - **Artikelnr. + variant** om een SKU te maken door waarden van twee velden samen te voegen. Voor artikelen zonder varianten wordt alleen het artikelnr. gebruikt.<br>- **Artikelnr. leverancier** om het artikelleveranciersnummer te gebruiken dat is gedefinieerd op de **artikelkaart** voor zowel producten als varianten.<br> - **Barcode** om het barcodetype van **Artikelreferentie** te gebruiken. Deze optie respecteert varianten.<br>Als **Kan Shopify producten bijwerken** is ingeschakeld, worden wijzigingen in het veld **SKU-toewijzing** doorgegeven aan Shopify na de volgende synchronisatie voor alle producten en varianten die vermeld staan op de pagina **Shopify-producten** pagina voor de geselecteerde winkel.|
 |**SKU-veldscheidingsteken**|Definieer een scheidingsteken voor de optie **Artikelnr. + variant**.|
 |**Voorraad getraceerd**| Kies hoe het systeem het veld **Voorraad bijhouden** moet vullen voor producten die worden geëxporteerd naar Shopify. U kunt de beschikbaarheidsinformatie bijwerken vanuit [!INCLUDE[prod_short](../includes/prod_short.md)] voor producten in Shopify waarvan voorraad traceren is ingeschakeld. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify).|
-|**Standaardvoorraadbeleid**|Kies *Afwijzen* om negatieve voorraad aan de Shopify-kant te voorkomen.|
-|**Kan Shopify-producten bijwerken**|Definieer dit veld als [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.<br>**Kan Shopify-producten bijwerken** heeft geen invloed op de synchronisatie van prijzen, afbeeldingen of voorraadniveaus, die worden geconfigureerd door onafhankelijke besturingselementen.<br>Als **Kan Shopify-producten bijwerken** is ingeschakeld, worden de volgende velden aan de Shopify-zijde bijgewerkt op product- en indien nodig variantniveau: **SKU**, **Barcode** en **Gewicht**. De velden **Titel**, **Producttype**, **Leverancier** en **Beschrijving** op van productniveau worden ook bijgewerkt als geëxporteerde waarden niet leeg zijn. Voor de beschrijving betekent dit dat u een van de volgende schakelaars moet inschakelen: **Uitgebreide tekst voor synchronisatieartikel**, **Marketingtekst van synchronisatieartikel**, **Artikelkenmerken synchroniseren**. Bovendien moeten kenmerken, uitgebreide tekst of marketingtekst waarden hebben. Als het product varianten gebruikt, wordt indien nodig een variant toegevoegd of verwijderd.|
+|**Standaardvoorraadbeleid**|Kies *Afwijzen* om negatieve voorraad aan de Shopify-kant te voorkomen. <br>Als **Kan Shopify producten bijwerken** is ingeschakeld, worden wijzigingen in het veld **Standaardvoorraadbeleid** doorgegeven aan Shopify na de volgende synchronisatie voor alle producten en varianten die vermeld staan op de pagina **Shopify-producten** voor de geselecteerde winkel.|
+|**Kan Shopify-producten bijwerken**|Definieer dit veld als [!INCLUDE[prod_short](../includes/prod_short.md)] alleen artikelen kan maken of ook artikelen kan bijwerken. Selecteer deze optie als u nadat de eerste synchronisatie is geactiveerd door de actie **Artikel toevoegen**, producten handmatig wilt bijwerken met de actie **Product synchroniseren** of via de taakwachtrij voor periodieke updates. Vergeet niet **Naar Shopify** te selecteren in het veld **Artikel synchroniseren**.<br>**Kan Shopify-producten bijwerken** heeft geen invloed op de synchronisatie van prijzen, afbeeldingen of voorraadniveaus, die worden geconfigureerd door onafhankelijke besturingselementen.<br>Als **Kan Shopify-producten bijwerken** is ingeschakeld, worden de volgende velden aan de Shopify-zijde bijgewerkt op product- en indien nodig variantniveau: **SKU**, **Barcode** en **Gewicht**. De velden **Titel**, **Producttype**, **Leverancier** en **Beschrijving** op van productniveau worden ook bijgewerkt als geëxporteerde waarden niet leeg zijn. Voor de beschrijving betekent dit dat u een van de volgende schakelaars moet inschakelen: **Uitgebreide tekst voor synchronisatieartikel**, **Marketingtekst van synchronisatieartikel**, **Artikelkenmerken synchroniseren**. Bovendien moeten kenmerken, uitgebreide tekst of marketingtekst waarden hebben. Als het product varianten gebruikt, wordt indien nodig een variant toegevoegd of verwijderd. <br>Houd er rekening mee dat als het product in Shopify is geconfigureerd om een​variantmatrix te gebruiken die twee of meer opties combineert, de Shopify-connector geen variant voor dat product kan maken. Er is in [!INCLUDE[prod_short](../includes/prod_short.md)] geen manier om de optiematrix te definiëren. Daarom gebruikt de connector de **variantcode** als de enige optie. Shopify verwacht echter meerdere opties en weigert varianten te maken als informatie over tweede en andere opties ontbreekt. |
 
 ### Overzicht van veldtoewijzing
 
@@ -101,6 +101,7 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |------|-----------------|-----------------|
 |Status|Volgens het veld **Status voor gemaakte producten** op de **Shopify-winkelkaart**. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |Title | **Beschrijving**. Als de taalcode is gedefinieerd en er een corresponderende artikelvertaling bestaat, wordt de artikelvertaling gebruikt in plaats van de beschrijving.|**Beschrijving**|
+|Varianttitel | **Variantcode**.|**Beschrijving** van variant|
 |Omschrijving|Combineert uitgebreide teksten, marketingtekst en kenmerken als u de corresponderende schakelaars op de Shopify-winkelkaart inschakelt. Respecteert de taalcode.|Niet gebruikt.|
 |SEO-paginatitel|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
 |SEO-metabeschrijving|Vaste waarde: leeg. Lees meer in de sectie [Ad-hocupdates van Shopify-producten](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Niet gebruikt.|
@@ -110,13 +111,16 @@ U beheert het proces van het exporteren van artikelen met deze instellingen:
 |Kosten per artikel|**Kostprijs**|**Kostprijs**. De kostprijs wordt alleen geïmporteerd voor nieuw gemaakte artikelen en wordt niet bijgewerkt bij latere synchronisaties.|
 |SKU|Lees hierover onder **SKU-toewijzing** in de sectie [Artikelen exporteren naar Shopify](synchronize-items.md#export-items-to-shopify).|Lees hier meer over in de sectie [Effect van SKU's van Shopify producten en barcodes op het toewijzen en maken van artikelen en varianten in Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Barcode|**Artikelreferenties** van het type barcode.|**Artikelreferenties** van het type barcode.|
+|Voorraad wordt opgeslagen op| Afhankelijk van Shopify-winkelvestigingen. Als **Business Central-afhandelingsservices** het veld **Standaard** heeft ingeschakeld, wordt de voorraad opgeslagen en verzonden vanaf **Business Central-afhandelingsservices**, anders wordt de primaire Shopify-vestiging of meerdere vestigingen gebruikt.
+| Niet gebruikt.|
 |Te traceren aantal|Volgens het veld **Voorraad getraceerd** op de pagina **Shopify-winkelkaart**. Lees meer in de sectie [Voorraad](synchronize-items.md#sync-inventory-to-shopify). Alleen gebruikt wanneer u een product voor de eerste keer exporteert.|Niet gebruikt.|
-|Doorgaan met verkopen wanneer niet op voorraad|Volgens het **Standaardvoorraadbeleid** op de **Shopify-winkelkaart**. Alleen gebruikt wanneer u een product voor de eerste keer exporteert.|Niet gebruikt.|
+|Doorgaan met verkopen wanneer niet op voorraad|Volgens het **Standaardvoorraadbeleid** op de **Shopify-winkelkaart**.|Niet gebruikt.|
 |Type|**Beschrijving** van **Artikelcategoriecode**. Als het type niet is opgegeven in Shopify, wordt het toegevoegd als een aangepast type.|**Artikelcategoriecode**. Toewijzing op beschrijving.|
 |Leverancier|**Naam** van leverancier uit **Leveranciersnr.**|**Leveranciersnr.** Toewijzing op naam.|
 |Gewicht|**Brutogewicht**.|Niet gebruikt.|
 |Belastbaar|Vaste waarde: ingeschakeld.|Niet gebruikt.|
 |Belastingcodes|**Belastinggroepcode**. Alleen relevant voor omzetbelasting. Meer informatie op [Belastingen instellen](setup-taxes.md).|Niet gebruikt.|
+
 
 ### Labels
 
@@ -147,6 +151,10 @@ De resulterende artikelen worden automatisch in Shopify gemaakt met prijzen. Afh
 Of gebruik de actie **Producten synchroniseren** op de pagina **Shopify-producten** of zoek naar de batchverwerking **Producten synchroniseren**.
 
 U kunt de volgende taken plannen om geautomatiseerd te worden uitgevoerd. Zie voor meer informatie [Periodieke taken plannen](background.md#to-schedule-recurring-tasks).
+
+### URL en voorbeeld-URL
+
+Artikel toegevoegd aan Shopify of geïmporteerd uit Shopify heeft mogelijk de **URL** of **Voorbeeld-URL** ingevuld. Het veld **URL** is leeg als het product niet in de online winkel is gepubliceerd, bijvoorbeeld omdat de status concept is. De **URL** zal leeg zijn als de winkel met een wachtwoord is beveiligd, bijvoorbeeld omdat dit een ontwikkelingswinkel is. In de meeste gevallen kunt u **Voorbeeld-URL** gebruiken om te controleren hoe het product er na publicatie uit zal zien.
 
 ### Ad-hocupdates van Shopify-producten
 
@@ -204,7 +212,7 @@ U beheert het proces van het exporteren van prijzen met deze instellingen:
 |**Regelkorting toestaan**|Hiermee wordt opgegeven of u een regelkorting toestaat bij het berekenen van prijzen voor Shopify. Deze instelling is alleen van toepassing op prijzen van het artikel. Prijzen voor de klantprijsgroep hebben hun eigen schakelaar op regels.|
 |**Prijzen inclusief btw**|Specificeert of prijsberekeningen voor Shopify btw bevatten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
 |**Btw-bedrijfsboekingsgroepen**|Hiermee wordt opgegeven welke btw-bedrijfsboekingsgroep wordt gebruikt om de prijzen te berekenen in Shopify. Dit moet de groep zijn die u gebruikt voor binnenlandse klanten. Meer informatie op [Belastingen instellen](setup-taxes.md).|
-|**Valutacode**|Voer alleen een Valutacode in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDEprod_short], laat u het veld leeg.|
+|**Valutacode**|Voer alleen een Valutacode in als uw online winkel een andere valuta gebruikt dan de lokale valuta (LV). Voor de opgegeven valuta moeten wisselkoersen zijn geconfigureerd. Als uw online winkel dezelfde valuta gebruikt als [!INCLUDE[prod_short](../includes/prod_short.md)], laat u het veld leeg.|
 
 U kunt prijzen voor gesynchroniseerde artikelen exporteren op de twee hieronder beschreven manieren.
 
@@ -233,6 +241,8 @@ Voorraad synchronisatie kan worden geconfigureerd voor reeds gesynchroniseerde a
 4. Kies de actie **Shopify-vestigingen ophalen** om alle locaties te importeren die zijn gedefinieerd in Shopify. U vindt ze in de [**Vestigingen**](https://www.shopify.com/admin/settings/locations)-instellingen in uw **Shopify beheer**.
 5. Voeg in het veld **Locatiefilter** locaties toe als u alleen voorraad van specifieke locaties wilt opnemen. U kunt bijvoorbeeld *OOST|WEST* invoeren, om alleen voorraad van deze twee vestigingen beschikbaar te maken voor verkoop via de online winkel.
 6. Selecteer de voorraadberekeningsmethode die u wilt gebruiken voor de geselecteerde Shopify-vestigingen.
+7. Schakel **Standaard** in als u wilt dat de vestiging wordt gebruikt voor het maken van voorraadrecords en voor deelname aan de inventarissynchronisatie. Activeer **Standaard** voor **Business Central-afhandelingsservices** om een voorraadrecord te maken die de afhandelingsservice vertegenwoordigt, anders wordt er een voorraadrecord gemaakt voor de primaire Shopify-vestiging en alle normale vestigingen waar **Standaard** is ingeschakeld.
+
 
 U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initialiseren.
 
@@ -249,11 +259,11 @@ U kunt afbeeldingssynchronisatie op de hieronder beschreven twee manieren initia
 
 ### Opmerkingen over voorraad
 
-* De standaardvoorraadberekeningsmethode is **Voorspelde beschikbare voorraad op datum**. Met uitbreidbaarheid kunt u meer opties toevoegen. Ga voor meer informatie over uitbreidbaarheid naar [voorbeelden](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
+* De standaardvoorraadberekeningsmethode is **Voorspelde beschikbare voorraad op datum**. Met uitbreidbaarheid kunt u meer opties toevoegen. Ga voor meer informatie over uitbreidbaarheid naar [voorbeelden](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * U kunt de voorraadinformatie inspecteren die u hebt ontvangen van Shopify op de pagina **Feitenblok Shopify-voorraad**. In dit feitenblok krijgt u een overzicht van de Shopify-voorraad en de laatst berekende voorraad in [!INCLUDE[prod_short](../includes/prod_short.md)]. Er is één record per vestiging.
 * Als de voorraadinformatie in Shopify verschilt van **Voorspelde beschikbare voorraad** in [!INCLUDE[prod_short](../includes/prod_short.md)], wordt de voorraad bijgewerkt in Shopify.
 * Wanneer u een nieuwe locatie toevoegt in Shopify, moet u er ook inventarisrecords voor toevoegen. Shopify doet dat niet automatisch voor bestaande producten en varianten, en de connector synchroniseert geen voorraadniveaus voor dergelijke artikelen op een nieuwe vestiging. Ga voor meer informatie naar [Voorraad toewijzen aan vestigingen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
-* Voorraad en verzending van **Business Central-afhandelingsservices** worden niet ondersteund. Gebruik in plaats daarvan normale vestigingen.
+* Zowel **Business Central-afhandelingsservices** als normale vestigingen worden ondersteund en kunnen worden gebruikt voor verzending en voorraad.
 
 #### Voorbeeld van berekening van voorspeld beschikbaar saldo
 

@@ -1,11 +1,14 @@
 ---
 title: Overzicht van bedrijfsgegevens
 description: 'De pagina Bedrijfsgegevens bevat basisinformatie voor een zakelijke entiteit, zoals naam, adressen en verzendgegevens.'
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/31/2022
-ms.author: bholtorf
+ms.date: 09/24/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Overzicht van bedrijfsgegevens
@@ -33,6 +36,10 @@ Er zijn een paar functies die u kunt gebruiken om tussen bedrijven te schakelen 
 Als er meer dan één bedrijf of omgeving is, ziet u de bedrijfsschakelaar rechtsboven in de app-balk, naast het zoekpictogram in de app-balk. Standaard gebruikt de bedrijfswisselaar een standaard bedrijfspictogram, zoals ![bedrijfspictogram Launcher.](media/ui-experience/company-icon.png "Geeft het bedrijfsschakelaarpictogram weer dat wordt gebruikt wanneer er één omgeving is") en ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Geeft het bedrijfsschakelaarpictogram weer dat wordt gebruikt wanneer er meerdere omgevingen zijn").
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Toont het bedrijfsschakelaarpictogram in de kop van de Business Central-client.":::  
+
+Vanaf releasewave 2, versie 23 van 2023, verschijnt de bedrijfsbadge op het browsertabblad bij gebruik van de webclient. Het wordt ook opgenomen in paginakoppelingen die u [kopieert en plakt](across-share-data-features.md#copying-a-link) in rich-text-editors, zoals Word, Outlook en Teams.
+ 
+### De bedrijfsbadge instellen
 
 Met de pagina **Bedrijfsgegevens** kunt u het standaardbedrijfspictogram per bedrijf vervangen door een aangepaste badge per bedrijf als de bedrijfsbadge het voor gebruikers gemakkelijker maakt om het bedrijf waarin ze werken te identificeren.
 
