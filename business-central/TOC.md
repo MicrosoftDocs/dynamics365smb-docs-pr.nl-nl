@@ -6,6 +6,7 @@
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Leren
+### [Resources voor gebruikers](resources-for-users.md)
 ### [Business Central-trainingscatalogus](readiness/readiness-learning-catalog.md)
 ### [Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procedures voor bedrijfsprocessen
@@ -348,6 +349,12 @@
 #### [Werken met betalingstoleranties en contantkortingstoleranties](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [De extensie Voorspelling van te late betalingen](ui-extensions-late-payment-prediction.md)
 
+### E-documenten beheren
+#### [Overzicht van e-documenten](finance-edocuments-overview.md)
+#### [E-documenten instellen](finance-how-setup-edocuments.md)
+#### [E-documenten gebruiken bij verkoop en inkoop](finance-how-use-edocuments.md)
+#### [Functionaliteit van e-documenten uitbreiden](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Btw beheren
 #### [Overzicht van btw-beheer](finance-manage-vat.md)
 #### [EU-inkooptransacties van derde partijen](finance-how-to-eu3party-trade-purchase.md)
@@ -447,9 +454,10 @@
 ### [Transacties direct naar het grootboek boeken](finance-how-post-transactions-directly.md)
 ### [Journaalboekingen tegenboeken en ontvangsten/verzendingen ongedaan maken](finance-how-reverse-journal-posting.md)
 ### [Export van controlebestand](finance-how-to-export-audit-files.md)
-### [Kosten en inkomsten toewijzen](year-allocate-costs-income.md)
 ### [Kosten van werknemers registreren en terugbetalen](finance-how-record-reimburse-employee-expenses.md)
 ### [Inkomsten en kosten uitstellen](finance-how-defer-revenue-expenses.md)
+### [Periodieke kosten en inkomsten toewijzen](year-allocate-costs-income.md)
+### [Opbrengsten en kosten toewijzen aan meerdere grootboekrekeningen](finance-allocate-revenue-costs.md)
 ### [Valutawisselkoersen bijwerken](finance-how-update-currencies.md)
 ### [Salaristransacties importeren](finance-how-import-payroll-transactions.md)
 ### [Werken met btw op verkoop en inkoop](finance-work-with-vat.md)
@@ -582,9 +590,10 @@
 #### [Segmenten](marketing-segments.md)
 #### [Segmenten maken](marketing-how-create-segment.md)
 #### [Contacten toevoegen aan segmenten](marketing-add-contact-segment.md)
-#### [Interactie voor segmenten beheren](marketing-interaction-segments.md)
+#### [Interacties voor segmenten beheren](marketing-interaction-segments.md)
 ### Interacties beheren
 #### [Interacties](marketing-interactions-overview.md)
+#### [Bijlagen voor interacties](marketing-interaction-attachments.md)
 #### [Interacties met contacten vastleggen](marketing-interactions.md)
 #### [Interacties maken voor contacten en segmenten](marketing-how-create-interactions.md)
 #### [Automatisch interacties met contacten vastleggen](marketing-auto-record-interactions.md)
@@ -1545,6 +1554,7 @@
 #### [Verzendwijzen instellen](sales-how-set-up-shipment-methods.md)
 #### [Expediteurs instellen](sales-how-to-set-up-shipping-agents.md)
 #### [Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)
+#### [Documentdatums bijwerken met boekingsdatums](across-link-doc-dates-to-posting-dates.md)
 ### Inkoop instellen
 #### [Inkoop instellen](purchasing-setup-purchasing.md)
 #### [Nieuwe leveranciers registreren.](purchasing-how-register-new-vendors.md)
@@ -1552,8 +1562,9 @@
 #### [Prioriteit van leveranciers bepalen](purchasing-how-prioritize-vendors.md)
 #### [Inkopers instellen](purchasing-how-setup-purchasers.md)
 #### [Prijzen en kortingen instellen](across-prices-and-discounts.md)
-#### [Speciale verkoopprijzen en kortingen vastleggen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Speciale inkoopprijzen en kortingen vastleggen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Een beleid voor het boeken van facturen voor gebruikers definiëren](admin-setup-invoice-posting-policy.md)
+#### [Documentdatums bijwerken met boekingsdatums](across-link-doc-dates-to-posting-dates.md)
 ### Voorraad instellen
 #### [Voorraad instellen](inventory-setup-inventory.md)
 #### [Algemene voorraadgegevens instellen](inventory-how-setup-general.md)
@@ -1791,7 +1802,7 @@
 ### [Veelgestelde vragen over zoeken en filteren](ui-search-filter-faq.yml)
 ### [Paginagegevens analyseren in Excel](across-work-with-excel.md)
 ### [Rapportgegevens analyseren met Excel](report-analyze-excel.md)
-### [Lijstgegevens analyseren met de analysemodus](analysis-mode.md)
+### [Lijst- en querygegevens analyseren met de analysemodus](analysis-mode.md)
 ### [Financiële Business Intelligence](bi.md)
 
 ## Ingebouwde analyse 
@@ -1806,6 +1817,7 @@
 
 ## Gegevens analyseren in bedrijfsinformatietools
 ### [Overzicht](reports-external-analysis.md)
+### [Microsoft Fabric en Business Central](admin-fabric.md)
 ### [Power BI gebruiken met Business Central](admin-powerbi.md)
 ### [Financiële overzichten analyseren met Excel](finance-analyze-excel.md)
 ### [Gegevens extraheren naar data warehouses of data lakes](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
