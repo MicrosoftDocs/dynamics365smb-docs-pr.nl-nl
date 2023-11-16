@@ -101,8 +101,8 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 
     |Optie|Omschrijving|
     |-|-|
-    |Max. Nee Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
-    |Max. Nee pickbrondocumenten.|Maakt pickdocumenten die niet meer dan het opgegeven aantal brondocumenten hebben.|
+    |Max. Nr. Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
+    |Max. Nr. pickbrondocumenten.|Maakt pickdocumenten die niet meer dan het opgegeven aantal brondocumenten hebben.|
     |Toegewezen gebruikers-id|Maakt pickdocumenten alleen voor voorstelregels die zijn toegewezen aan de geselecteerde magazijnmedewerker.|
     |Sorteringsmethode voor pickregels|Selecteer uit de beschikbare opties om regels te sorteren in het gemaakte pickdocument.|
     |Breakbulkfilter plaatsen|Verbergt tussenliggende bulksplitsing pickregels wanneer een grotere eenheid wordt omgezet in een kleinere eenheid en volledig wordt gepickt.|

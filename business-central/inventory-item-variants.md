@@ -41,7 +41,7 @@ Op artikelkaarten heeft het veld **Variant verplicht indien aanwezig** de volgen
 |Veldwaarde |Omschrijving|
 |---------|----|
 |Standaard| De instelling van **Voorraadinstellingen** is van toepassing op dit artikel.|
-|Nr.| Gebruikers hoeven geen variant voor dit artikel op te geven.|
+|Nee| Gebruikers hoeven geen variant voor dit artikel op te geven.|
 |Ja| Als het artikel een of meer varianten heeft, moeten gebruikers de relevante variant opgeven. Als ze dat niet doen, kunnen ze de transactie niet boeken.|
 
 > [!NOTE]

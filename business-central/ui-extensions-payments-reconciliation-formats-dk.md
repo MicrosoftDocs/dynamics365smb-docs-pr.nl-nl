@@ -61,7 +61,7 @@ De volgende tabel bevat de combinaties van de betalingswijzen FIK en GIRO die do
 |----|--------|---------|---------|---------|
 |Girorekeningnr of FIK-crediteurennr? | Girorekeningnr | Girorekeningnr | FIK-crediteurennummer | FIK-crediteurennummer|
 |Bericht aan ontvanger toestaan? | Ja |Nee |Nee | Ja |
-|Bevat betalingreferentienummer? | Nr. | Ja, 16 cijfers. | Ja, 15 cijfers. | Nee|
+|Bevat betalingreferentienummer? | Nee | Ja, 16 cijfers. | Ja, 15 cijfers. | Nee|
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Leveranciers** in en kies vervolgens de gerelateerde koppeling.  
 2. Open de kaart, vouw het tabblad **Betalingen** uit, kies in het veld **Betalingswijze** de betalingswijze.  

@@ -71,8 +71,8 @@ De volgende tabel beschrijft de standaardregels voor betalingsvereffening in [!I
 | Laag              | 1        | Volledig                 | Nee                             | Geen overeenkomsten                     |
 | Laag              | 2        | Gedeeltelijk             | Nee                             | Meerdere overeenkomsten               |
 | Laag              | 3        | Gedeeltelijk             | Nee                             | Geen overeenkomsten                     |
-| Laag              | 4        | Nr.                    | Nr.                             | Eén overeenkomst                      |
-| Laag              | 5        | Nr.                    | Nr.                             | Meerdere overeenkomsten               |
+| Laag              | 4        | Nee                    | Nee                             | Eén overeenkomst                      |
+| Laag              | 5        | Nee                    | Nee                             | Meerdere overeenkomsten               |
 
 ## Zie ook
 [Betalingen reconciliëren met automatische vereffening](receivables-how-reconcile-payments-auto-application.md)  

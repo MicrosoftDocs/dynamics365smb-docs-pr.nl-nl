@@ -42,11 +42,11 @@ Ja, maar in tegenstelling tot [!INCLUDE[prod_short](includes/prod_short.md)] onl
 
 ## Maakt [!INCLUDE[prod_short](includes/prod_short.md)] on premises verbinding met SharePoint Server?
 
-Nr. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
+Nee. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
 
 ## Maakt [!INCLUDE[prod_short](includes/prod_short.md)] online verbinding met SharePoint Server?
 
-Nr. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
+Nee. Deze implementatiecombinatie wordt niet ondersteund, zelfs niet als SharePoint Server Mijn sites heeft ingeschakeld.  
 
 ## Hoe werkt dit in een organisatie met meerdere omgevingen?
 

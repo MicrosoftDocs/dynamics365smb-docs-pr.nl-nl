@@ -124,7 +124,7 @@ De volgende tabel toont het resultaat van het scenario op de waardeposten van he
 
 |Boekingsdatum|Artikelpostsoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|1|200.00||Nr.|1|1|  
+|01-01-20|Inkoop|1|200.00||Nee|1|1|  
 |01-01-20|Inkoop|1|1000.00||Nee|2|2|  
 |01-01-20|Inkoop|-1|-1000|2|Nee|3|3|  
 |01-01-20|Inkoop|1|100.00||Nee|4|4|  
@@ -136,7 +136,7 @@ De volgende tabel toont het resultaat van de waardeposten van het artikel als st
 
 |Boekingsdatum|Artikelboekingssoort|Gewaardeerd aantal|Tot. werk. kosten|Vereffeningsnr. artikelpost|Gewaardeerd volgens gem. ink.-prijs|Artikelpostnr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inkoop|1|200.00||Nr.|1|1|  
+|01-01-20|Inkoop|1|200.00||Nee|1|1|  
 |01-01-20|Inkoop|1|1000.00||Nee|2|2|  
 |01-01-20|Inkoop|-1|433,33||Ja|3|3|  
 |01-01-20|Inkoop|1|100.00||Nee|4|4|  

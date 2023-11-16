@@ -61,7 +61,7 @@ sections:
       - question: |
           Kan een gastgebruiker de app gebruiken om toegang te krijgen tot onze Business Central-oplossing?
         answer: |
-          Nr. Gastgebruikers zijn uitgenodigde gebruikers van een andere Microsoft Entra-tenant dan de uwe. In dit geval zal de app zich verifiëren bij de primaire Microsoft Entra-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  
+          Nee. Gastgebruikers zijn uitgenodigde gebruikers van een andere Microsoft Entra-tenant dan de uwe. In dit geval zal de app zich verifiëren bij de primaire Microsoft Entra-tenant van de gastgebruiker en proberen het Business Central-eindpunt op die tenant te openen in plaats van op die van u.  
 additionalContent: |
 
   ## Zie ook

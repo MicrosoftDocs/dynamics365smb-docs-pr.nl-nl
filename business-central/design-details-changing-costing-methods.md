@@ -123,7 +123,7 @@ Gebruik bij het maken van assemblageorders de informatie uit het inventarisatied
 |Veld  |In te voeren waarde  |
 |---------|---------|
 |Soort |Artikel |
-|Nee. |Het nummer van het oorspronkelijke artikel. |
+|Nr. |Het nummer van het oorspronkelijke artikel. |
 |Aantal per |1 |
 |Variant |Hetzelfde als in het fysieke voorraadjournaal. |
 |Vestiging |Hetzelfde als in het fysieke voorraadjournaal. |

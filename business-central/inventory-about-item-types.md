@@ -29,8 +29,8 @@ In de volgende tabel worden functies beschreven die de drie artikeltypen onderst
 |Artikelsoort|Verkoop|Inkopen|Projectverbruik|Serviceverbruik|Assemblageverbruik|Productieverbruik|Assemblage-uitvoer|Productieoutput|Locatietransfer|Fysieke telling|Voorraadherwaardering|Voorraadwaardering|Artikeltracering|Reservering|Magazijn|Planning|Orderplanning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Voorraad|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
-|Niet-voorraad|Ja|Ja|Ja|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
-|Onderhoud|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
+|Niet-voorraad|Ja|Ja|Ja|Ja|Ja|Ja|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Ja|
+|Onderhoud|Ja|Ja|Ja|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Nee|Ja|
 
 ## Waarderingsmethoden voor soorten artikelen
 Als u voorraadtransacties boekt, worden de gewijzigde voorraadaantallen en -waarden vastgelegd in respectievelijk de artikel- en waardeposten. 

@@ -86,7 +86,7 @@ sections:
       - question: |
           Moet ik Microsoft 365 aanschaffen?
         answer: |
-          Nr. Maar als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt uitproberen terwijl het volledig met Microsoft 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Microsoft 365 van een maand [hier](https://products.office.com/try).  
+          Nee. Maar als u [!INCLUDE[prod_short](includes/prod_short.md)] wilt uitproberen terwijl het volledig met Microsoft 365 is geïntegreerd, kunt u zich hier aanmelden voor een gratis proefversie van Microsoft 365 van een maand [hier](https://products.office.com/try).  
 
           Als u zich aanmeldt met een niet-Microsoft 365-werkaccount (bijvoorbeeld joe@mysolution.com), en u een Microsoft 365-abonnement hebt, kunt u uw domein (*mysolution.com*) koppelen aan het abonnement op Microsoft 365. Zie voor meer informatie [Wat is een domain?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) in de Microsoft 365-inhoud.  
 

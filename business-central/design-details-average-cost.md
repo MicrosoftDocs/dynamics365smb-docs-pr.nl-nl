@@ -69,10 +69,10 @@ De volgende tabel toont artikelposten voor het voorbeeldartikel van gemiddelde k
 
 | **Artikelnr.** | **Variant** | **Vestigingscode** | **Waarderingsdatum** | **Kostprijs geherwaardeerd** |
 |--|--|--|--|--|
-| ITEM1 |  | BLAUW | 01-01-23 |   Nr. |
-| ITEM1 |  | BLAUW | 01-02-23 |   Nr. |
-| ITEM1 |  | BLAUW | 02-02-23 |   Nr. |
-| ITEM1 |  | BLAUW | 03-02-23 |   Nr. |
+| ITEM1 |  | BLAUW | 01-01-23 |   Nee |
+| ITEM1 |  | BLAUW | 01-02-23 |   Nee |
+| ITEM1 |  | BLAUW | 02-02-23 |   Nee |
+| ITEM1 |  | BLAUW | 03-02-23 |   Nee |
 
  De volgende tabel toont dezelfde artikelposten nadat de batchverwerking **Kostprijs herwaarderen - Artikelposten** is uitgevoerd. De gemiddelde kosten per dag worden berekend en toegepast op de voorraadafnames.  
 
@@ -109,8 +109,8 @@ De volgende tabel toont de posten in de tabel **Gem. kostprijsaanpassing invoerh
 
 | **Artikelnr.** | **Variant** | **Vestigingscode** | **Waarderingsdatum** | **Kostprijs geherwaardeerd** |
 |--|--|--|--|--|
-| ITEM1 |  | BLAUW | 31-01-23 |   Nr. |
-| ITEM1 |  | BLAUW | 28-02-23 |   Nr. |
+| ITEM1 |  | BLAUW | 31-01-23 |   Nee |
+| ITEM1 |  | BLAUW | 28-02-23 |   Nee |
 
 > [!NOTE]  
 > De waarderingsdatum wordt ingesteld op de laatste dag in de periode voor gemiddelde kostprijsberekening, in dit geval de laatste dag van de maand.  

@@ -41,7 +41,7 @@ Ja. Het toevoegen van machtigingensets aan de Microsoft Teams-gebruikersgroep In
 
 ### Wanneer Business Central-gebruikers een record delen in Teams, verlenen ze dan nieuwe machtigingen?
 
-Nr. Deze actie is niet hetzelfde als het delen van een link naar een SharePoint-document waarbij de persoon die het document deelt kan kiezen om anderen toestemming te geven. In Business Central kunnen alleen beheerders machtigingen configureren en toewijzen. In vergelijking met SharePoint-documenten delen is dit het equivalent van het kiezen van de optie "Delen met personen met bestaande toegang".
+Nee. Deze actie is niet hetzelfde als het delen van een link naar een SharePoint-document waarbij de persoon die het document deelt kan kiezen om anderen toestemming te geven. In Business Central kunnen alleen beheerders machtigingen configureren en toewijzen. In vergelijking met SharePoint-documenten delen is dit het equivalent van het kiezen van de optie "Delen met personen met bestaande toegang".
 
 ### Ondersteunt deze functie beveiliging op rijniveau?
 
@@ -95,7 +95,7 @@ Om de productiviteit te maximaliseren en hun activiteiten te stroomlijnen, kopen
 
 ### Is dit 100% gratis?
  
-Nr. Voor toegang tot Business Central-gegevens in Microsoft Teams moet elke gebruiker een Business Central-licentie of een Microsoft 365-licentie uit de lijst met ondersteunde abonnementen hebben.
+Nee. Voor toegang tot Business Central-gegevens in Microsoft Teams moet elke gebruiker een Business Central-licentie of een Microsoft 365-licentie uit de lijst met ondersteunde abonnementen hebben.
 
 ### Werkt dit met Microsoft 365-proefversies en Business Central-proefversies?
 

@@ -19,42 +19,42 @@ De volgende tabel toont de relatie tussen verschillende soorten voorraadwaardepo
 |**Artikelboekingssoort**|**Waardeboekingssoort**|**Verschilsoort**|**Verwachte kosten**|**Rekening**|**Tegenrekening**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Inkoop|Directe kosten||Ja|Voorraad (Interim)|Voorraadcorrectiesrek. (tussenrek.)|  
-|Inkoop|Directe kosten||Nr.|Voorraad|Dekking directe kosten|  
-|Inkoop|Indirecte kosten||Nr.|Voorraad|Dekking overhead|  
-|Inkoop|Verschil|Inkoop|Nr.|Voorraad|Inkoopverschil|  
-|Inkoop|Herwaardering||Nr.|Voorraad|Voorraadherwaardering|  
-|Inkoop|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
+|Inkoop|Directe kosten||Nee|Voorraad|Dekking directe kosten|  
+|Inkoop|Indirecte kosten||Nee|Voorraad|Dekking overhead|  
+|Inkoop|Verschil|Inkoop|Nee|Voorraad|Inkoopverschil|  
+|Inkoop|Herwaardering||Nee|Voorraad|Voorraadherwaardering|  
+|Inkoop|Afronding||Nee|Voorraad|Voorraadherwaardering|  
 |Verkoop|Directe kosten||Ja|Voorraad (Interim)|KPV (Interim)|  
-|Verkoop|Directe kosten||Nr.|Voorraad|KPV|  
-|Verkoop|Herwaardering||Nr.|Voorraad|Voorraadherwaardering|  
-|Verkoop|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
-|Positieve correctie,Negatieve correctie, Transfer|Directe kosten||Nr.|Voorraad|Voorraadherwaardering|  
-|Positieve correctie,Negatieve correctie, Transfer|Herwaardering||Nr.|Voorraad|Voorraadherwaardering|  
-|Positieve correctie,Negatieve correctie, Transfer|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
-|(Productie) Verbruik|Directe kosten||Nr.|Voorraad|OHW|  
-|(Productie) Verbruik|Herwaardering||Nr.|Voorraad|Voorraadherwaardering|  
-|(Productie) Verbruik|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
-|Assemblageverbruik|Directe kosten||Nr.|Voorraad|Voorraadherwaardering|  
-|Assemblageverbruik|Directe kosten||Nr.|Dekking directe kosten|Voorraadherwaardering|  
-|Assemblageverbruik|Indirecte kosten||Nr.|Dekking overhead|Voorraadherwaardering|  
+|Verkoop|Directe kosten||Nee|Voorraad|KPV|  
+|Verkoop|Herwaardering||Nee|Voorraad|Voorraadherwaardering|  
+|Verkoop|Afronding||Nee|Voorraad|Voorraadherwaardering|  
+|Positieve correctie,Negatieve correctie, Transfer|Directe kosten||Nee|Voorraad|Voorraadherwaardering|  
+|Positieve correctie,Negatieve correctie, Transfer|Herwaardering||Nee|Voorraad|Voorraadherwaardering|  
+|Positieve correctie,Negatieve correctie, Transfer|Afronding||Nee|Voorraad|Voorraadherwaardering|  
+|(Productie) Verbruik|Directe kosten||Nee|Voorraad|OHW|  
+|(Productie) Verbruik|Herwaardering||Nee|Voorraad|Voorraadherwaardering|  
+|(Productie) Verbruik|Afronding||Nee|Voorraad|Voorraadherwaardering|  
+|Assemblageverbruik|Directe kosten||Nee|Voorraad|Voorraadherwaardering|  
+|Assemblageverbruik|Directe kosten||Nee|Dekking directe kosten|Voorraadherwaardering|  
+|Assemblageverbruik|Indirecte kosten||Nee|Dekking overhead|Voorraadherwaardering|  
 |(Productie)output|Directe kosten||Ja|Voorraad (Interim)|OHW|  
-|(Productie)output|Directe kosten||Nr.|Voorraad|OHW|  
-|(Productie)output|Indirecte kosten||Nr.|Voorraad|Dekking overhead|  
-|(Productie)output|Verschil|Materiaal|Nr.|Voorraad|Materiaalverschil|  
-|(Productie)output|Verschil|Capaciteit|Nr.|Voorraad|Capaciteitsverschil|  
-|(Productie)output|Verschil|Uitbesteed|Nr.|Voorraad|Uitbestedingsverschil|  
-|(Productie)output|Verschil|Capaciteitsoverhead|Nr.|Voorraad|Capaciteitsoverheadverschil|  
-|(Productie)output|Verschil|Productieoverhead|Nr.|Voorraad|Productieoverheadverschil|  
-|(Productie)output|Herwaardering||Nr.|Voorraad|Voorraadherwaardering|  
-|(Productie)output|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
-|Assemblage-uitvoer|Directe kosten||Nr.|Voorraad|Voorraadherwaardering|  
-|Assemblage-uitvoer|Herwaardering||Nr.|Voorraad|Voorraadherwaardering|  
-|Assemblage-uitvoer|Indirecte kosten||Nr.|Voorraad|Dekking overhead|  
-|Assemblage-uitvoer|Verschil|Materiaal|Nr.|Voorraad|Materiaalverschil|  
-|Assemblage-uitvoer|Verschil|Capaciteit|Nr.|Voorraad|Capaciteitsverschil|  
-|Assemblage-uitvoer|Verschil|Capaciteitsoverhead|Nr.|Voorraad|Capaciteitsoverheadverschil|  
-|Assemblage-uitvoer|Verschil|Productieoverhead|Nr.|Voorraad|Productieoverheadverschil|  
-|Assemblage-uitvoer|Afronding||Nr.|Voorraad|Voorraadherwaardering|  
+|(Productie)output|Directe kosten||Nee|Voorraad|OHW|  
+|(Productie)output|Indirecte kosten||Nee|Voorraad|Dekking overhead|  
+|(Productie)output|Verschil|Materiaal|Nee|Voorraad|Materiaalverschil|  
+|(Productie)output|Verschil|Capaciteit|Nee|Voorraad|Capaciteitsverschil|  
+|(Productie)output|Verschil|Uitbesteed|Nee|Voorraad|Uitbestedingsverschil|  
+|(Productie)output|Verschil|Capaciteitsoverhead|Nee|Voorraad|Capaciteitsoverheadverschil|  
+|(Productie)output|Verschil|Productieoverhead|Nee|Voorraad|Productieoverheadverschil|  
+|(Productie)output|Herwaardering||Nee|Voorraad|Voorraadherwaardering|  
+|(Productie)output|Afronding||Nee|Voorraad|Voorraadherwaardering|  
+|Assemblage-uitvoer|Directe kosten||Nee|Voorraad|Voorraadherwaardering|  
+|Assemblage-uitvoer|Herwaardering||Nee|Voorraad|Voorraadherwaardering|  
+|Assemblage-uitvoer|Indirecte kosten||Nee|Voorraad|Dekking overhead|  
+|Assemblage-uitvoer|Verschil|Materiaal|Nee|Voorraad|Materiaalverschil|  
+|Assemblage-uitvoer|Verschil|Capaciteit|Nee|Voorraad|Capaciteitsverschil|  
+|Assemblage-uitvoer|Verschil|Capaciteitsoverhead|Nee|Voorraad|Capaciteitsoverheadverschil|  
+|Assemblage-uitvoer|Verschil|Productieoverhead|Nee|Voorraad|Productieoverheadverschil|  
+|Assemblage-uitvoer|Afronding||Nee|Voorraad|Voorraadherwaardering|  
 
 ## Van het capaciteitsgrootboek  
  De volgende tabel toont de relatie tussen verschillende soorten capaciteitswaardeposten en de rekeningen en tegenrekeningen in het grootboek. Capaciteitsposten vertegenwoordigen arbeidstijd die is verbruikt in assemblage of productiewerk.  

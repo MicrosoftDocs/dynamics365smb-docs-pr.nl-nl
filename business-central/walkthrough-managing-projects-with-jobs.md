@@ -190,7 +190,7 @@ In de volgende procedure maakt u een taakjournaalbatch voor Tricia om het gebrui
 
 2. Maak planningsregels met de volgende informatie:  
 
-    | Regel | Regelsoort | Planningsdatum  | Soort        | Nee.   | Aantal | Eenheidsprijs |
+    | Regel | Regelsoort | Planningsdatum  | Soort        | Nr.   | Aantal | Eenheidsprijs |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Zowel Budget als Factureerbaar | (datum van vandaag) | Bron | Tricia | 40        |     |
     | 2    | Zowel Budget als Factureerbaar | (datum van vandaag) | Bron | Timothy | 40        |     |
@@ -199,7 +199,7 @@ In de volgende procedure maakt u een taakjournaalbatch voor Tricia om het gebrui
      Sluit de pagina. De totalen worden bijgewerkt op de pagina **Projecttaakregels**.  
 3. Selecteer regel 1020 en kies vervolgens de actie **Projectplanningsregels**. Geef de volgende informatie op:  
 
-    | Regel | Regelsoort | Planningsdatum  | Soort        | Nee.   | Aantal | Eenheidsprijs |
+    | Regel | Regelsoort | Planningsdatum  | Soort        | Nr.   | Aantal | Eenheidsprijs |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Zowel Budget als Factureerbaar | (datum van vandaag) | Bron | Tricia | 80        |     |
     | 2    | Zowel Budget als Factureerbaar | (datum van vandaag) | Artikel | 80201 (Grafisch programma) | 1 |     |
@@ -272,7 +272,7 @@ De regels worden nu geboekt.
 
 4. Selecteer op de pagina **Projecttaakregels** regel 1120 en kies de actie **Projectplanningsregels**. Maak een planningsregel met de volgende informatie:  
 
-    | Regel | Regelsoort | Soort        | Nee.   | Aantal |
+    | Regel | Regelsoort | Soort        | Nr.   | Aantal |
     |------|-----------|-------------|-------|----------|
     | 1    | Zowel Budget als Factureerbaar  | Bron | Tricia | 30 |
 
@@ -413,7 +413,7 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 
 6. Maak een planningsregel met de volgende informatie:  
 
-    | Regel | Regelsoort | Planningsdatum  | Soort        | Nee.   | Aantal | Eenheidsprijs |
+    | Regel | Regelsoort | Planningsdatum  | Soort        | Nr.   | Aantal | Eenheidsprijs |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Factureerbaar  | (datum van vandaag) | Grootboekrekening | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 
 8. Maak een planningsregel met de volgende informatie:
 
-    | Regel | Regelsoort | Planningsdatum  | Soort     | Nee.    | Aantal |
+    | Regel | Regelsoort | Planningsdatum  | Soort     | Nr.    | Aantal |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budget    | (datum van vandaag) | Bron | Tricia | 120      |
     | 2    | Budget    | (datum van vandaag) | Artikel     | 70104  | 10       |
@@ -434,7 +434,7 @@ De volgende procedures laten zien hoe u een nieuw project kunt maken, prijzen ku
 
 10. Maak een planningsregel met de volgende informatie:
 
-    | Regel | Regelsoort | Planningsdatum   | Soort        | Nee.   | Aantal | Eenheidsprijs |
+    | Regel | Regelsoort | Planningsdatum   | Soort        | Nr.   | Aantal | Eenheidsprijs |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Factureerbaar  | (een toekomstige datum) | Grootboekrekening | 40255 | 1        | 5000       |
 
