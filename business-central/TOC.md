@@ -116,13 +116,6 @@
 ### [Probleemoplossing voor aanmelden bij zelfservice](ui-troubleshoot-self-signup.md)
 ### [Uw proefversie uitbreiden](admin-extend-trial.md)
 ### [Business Central verwijderen of het abonnement erop stoppen](admin-cancel.md)
-### Door AI aangestuurde artikelmarketingtekst met copilot
-#### [Overzicht](ai-overview.md)
-#### [Preview-versie downloaden](ai-preview-getstarted.md)
-#### [Door AI aangestuurde artikelmarketingtekst configureren](enable-ai.md)
-#### [Door AI aangestuurde artikelmarketingtekst maken](item-marketing-text.md)
-#### [Veelgestelde vragen](ai-faq.md)
-
 ## Kopen
 ### [Aan de slag gaan met een abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Voorbereiden om aan de slag te gaan](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Bankrekeningen reconciliëren
 #### [Overzicht van bankreconciliatie](bank-manage-bank-accounts.md)
 #### [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md)
+#### [Bankrekeningen reconciliëren met Copilot (preview)](bank-reconciliation-with-copilot.md)
 #### [Betalingen automatisch vereffenen en bankrekeningen reconciliëren](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### IC-transacties beheren
@@ -1577,7 +1571,6 @@
 #### [SKU's instellen](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Artikelen categoriseren](inventory-how-categorize-items.md)
 #### [Meerdere artikelafbeeldingen importeren](inventory-how-import-item-pictures.md)
-#### [Door AI aangestuurde artikelmarketingtekst met copilot configureren](enable-ai.md)
 ### Projectbeheer instellen
 #### [Projecten instellen](projects-setup-projects.md)
 #### [Resources instellen](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Handleiding voor rapportontwikkeling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Handleiding voor het afstemmen van rapportprestaties](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- en AI-mogelijkheden
+## Copilot- en AI-mogelijkheden beheren
+### [Copilot- en AI-mogelijkheden configureren](enable-ai.md)
+### [Copilot-gegevensverplaatsing tussen geografieën](ai-copilot-data-movement.md)
+## Hulp bij reconciliatie van bankrekeningen (preview)
+### [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
+### [Veelgestelde vragen over hulp bij bankreconciliatie](faqs-bank-reconciliation.md)
+## Suggesties voor marketingteksten
+### [Overzicht van suggesties voor marketing](ai-overview.md)
+### [Marketing maken met Copilot](item-marketing-text.md)
+### [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)
 
 # Beveiliging, privacy en naleving
 ## Beveiliging en bescherming
@@ -1894,6 +1898,7 @@
 ### [Nieuwe functies van tevoren inschakelen](admin-feature-management.md)
 ### [Gebruikers onboarden met controlelijsten](admin-checklist.md)
 ### [Sandboxomgevingen](admin-sandbox-environments.md)
+## [Copilot- en AI-mogelijkheden](enable-ai.md)
 ## Business Central aanpassen
 ### [Overzicht van aanpassing](ui-customizing-overview.md)
 ### [Pagina's aanpassen voor profielen](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [VS/CA/VK/AU/NZ/ZA - Afdrachtsadvies verzenden](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-extensies van andere providers](ui-extensions-other.md)
-## Integreren met Dynamics 365 Sales
-### [Integreren met Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integreren met andere Dynamics 365-toepassingen
+### [Integreren met Dynamics 365 Sales via gegevenssynchronisatie](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integreren met Microsoft Dataverse
-### [Integreren met Microsoft Dataverse](admin-common-data-service.md)
-### [Modellen voor gegevenseigendom](admin-cds-company-concept.md)
-### [Gebruikersaccounts instellen voor integratie met Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
-### [Verbinding maken met Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integreren met Dataverse via gegevenssynchronisatie](admin-common-data-service.md)
+### [Modellen voor gegevenseigendom voor synchronisatie](admin-cds-company-concept.md)
+### [Gebruikersaccounts instellen voor Dataverse-integratie via gegevenssynchronisatie](admin-setting-up-integration-with-dynamics-sales.md)
+### [Verbinden met Dataverse voor gegevenssynchronisatie](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Central en Microsoft Dataverse synchroniseren](admin-synchronizing-business-central-and-sales.md)
 ### [De te synchroniseren tabellen en velden toewijzen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Handmatig tabeltoewijzingen synchroniseren](admin-manual-synchronization-of-table-mappings.md)
 ### [Een synchronisatie plannen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Problemen met synchronisatiefouten oplossen](admin-troubleshoot-sales-synchronization.md)
-### [Een Power Automate-stroom gebruiken voor waarschuwingen voor Dataverse-entiteitswijzigingen](admin-power-automate-flow-dataverse.md)
+### [Een Power Automate-stroom gebruiken om wijzigingen in Dataverse-entiteiten tijdig te synchroniseren](admin-power-automate-flow-dataverse.md)
 ## Hoofdgegevens synchroniseren tussen bedrijven
 ### [Voorbereiden op het synchroniseren van hoofdgegevens](admin-set-up-data-sync.md)
 ### [Synchronisatie van hoofdgegevens beheren](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Beveiliging en bescherming](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Prestaties](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Verwijderde of afgeschafte functies](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Verantwoordelijke AI
+## [Overzicht](responsible-ai-overview.md)
+## [Veelgestelde vragen over hulp bij bankreconciliatie (preview)](faqs-bank-reconciliation.md)
+## [Veelgestelde vragen over suggesties voor marketing](faqs-marketing-text.md)
