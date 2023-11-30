@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Leren
 ### [Resources voor gebruikers](resources-for-users.md)
-### [Business Central-trainingscatalogus](readiness/readiness-learning-catalog.md)
 ### [Business Central-training](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Procedures voor bedrijfsprocessen
 #### [Beschikbare procedures](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Bezoek onze videobibliotheek](across-videos.md)
 ### [Technische ondersteuning krijgen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Bedrijfsfunctionaliteit
 ## [Overzicht van bedrijfsfunctionaliteit](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Taakwachtrijen gebruiken om taken te plannen](admin-job-queues-schedule-tasks.md)
 ### [Business Central waarden laten voorstellen](ui-let-system-suggest-values.md)
 ### [Online kaarten gebruiken om locaties en routebeschrijvingen te vinden](across-online-maps.md)
+### [Digitale bonnen instellen](across-how-setup-digital-vouchers.md)
 
 ### Inkomende documenten
 #### [Overzicht van inkomende documenten](across-income-documents.md)
@@ -882,10 +869,12 @@
 
 ### Denemarken
 #### [Lokale functionaliteit in de Deense versie](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Bericht en registratie voor het NemHandelsregisteret in Denemarken](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### Btw
-##### [Btw-reconciliatierapport afdrukken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
+##### [Btw-reconciliatierapporten afdrukken](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Btw-Intracomm. rapporten](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Instelling van btw-registratienummer voor Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Btw-aangiften elektronisch indienen](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Bankieren en betalingen
 ##### [FIK-details in het betalingsreconciliatiedagboek](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [De extensie Betalingen en reconciliaties (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Elektronische documenten maken in een OIOUBL-indeling](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Salaris
 ##### [Loonlijstgegevensdefinities (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digitale bonnen
+##### [Digitale bonnen instellen in Denemarken](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Lokale functionaliteit in de Finse versie](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1838,6 +1829,7 @@
 ## Copilot- en AI-mogelijkheden beheren
 ### [Copilot- en AI-mogelijkheden configureren](enable-ai.md)
 ### [Copilot-gegevensverplaatsing tussen geografieën](ai-copilot-data-movement.md)
+### [Problemen oplossen met Copilot- en AI-mogelijkheden](ai-copilot-troubleshooting.md)
 ## Hulp bij reconciliatie van bankrekeningen (preview)
 ### [Bankrekeningen reconciliëren met Copilot](bank-reconciliation-with-copilot.md)
 ### [Veelgestelde vragen over hulp bij bankreconciliatie](faqs-bank-reconciliation.md)
