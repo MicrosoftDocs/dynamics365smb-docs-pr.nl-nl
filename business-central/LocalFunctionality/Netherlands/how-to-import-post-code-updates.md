@@ -7,13 +7,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/18/2021
+ms.date: 11/23/2023
 ms.author: bholtorf
 ---
-# <a name="import-post-code-updates-in-the-dutch-version"></a>Postcode-updates importeren in de Nederlandse versie
+# Postcode-updates importeren in de Nederlandse versie
 Elke maand ontvangt u een postcodebestand met alle postcodemutaties in een maand. Dit postcodebestand kan worden geïmporteerd en kan de relevante gegevens in de tabel **Postcodereeks** bijwerken.  
 
-## <a name="to-import-the-update-file"></a>Het updatebestand importeren
+## Het updatebestand importeren  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Postcode-updates** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies op de pagina **Postcode-updates** de actie **Postcodes-update importeren**.  
@@ -21,7 +21,7 @@ Elke maand ontvangt u een postcodebestand met alle postcodemutaties in een maand
 
 Als geen bestand met een volledige set postcodegegevens is geïmporteerd, verschijnt er een bericht.  
 
-Voordat de postcodes worden bijgewerkt, worden de volgende controles uitgevoerd:  
+Voordat u de postcodes bijwerkt, worden de volgende controles uitgevoerd:  
 
 - Is er al een updatebestand geïmporteerd met een recenter datumveld dan de datum van dit nieuwe updatebestand? Als dat het geval is, wordt het proces gestopt.  
 
@@ -29,7 +29,7 @@ Voordat de postcodes worden bijgewerkt, worden de volgende controles uitgevoerd:
 
 Gegevens over de geïmporteerde postcode worden opgeslagen in de tabel Postcode-update logpost.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Nederlandse postcodes](dutch-post-codes.md)
 
 
