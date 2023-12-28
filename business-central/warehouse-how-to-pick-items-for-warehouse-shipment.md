@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Picken van artikelen voor magazijnverzending
+# Picken van artikelen voor magazijnverzending
 
 In [!INCLUDE[prod_short](includes/prod_short.md)] gebeurt het ontvangen en opslaan op een van de volgende vier manieren, zoals beschreven in de volgende tabel.
 
@@ -39,11 +39,11 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 >  
 > Zie [Picken voor productie, assemblage of projecten in geavanceerde magazijnconfiguraties](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) voor meer informatie over het picken van materialen voor assemblageorders, met inbegrip van situaties waar de assemblage niet voor een verkoopverzending is.  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controleer of artikelen beschikbaar zijn om te picken
+## Controleer of artikelen beschikbaar zijn om te picken
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
+## Bulksgewijs pickdocumenten maken met het pickvoorstel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -83,8 +83,8 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
     |Optie|Omschrijving|
     |-|-|
-    |Max. Nr. Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
-    |Max. Nr. pickbrondocumenten.|Maakt pickdocumenten die ieder niet meer dan het opgegeven aantal brondocumenten hebben.|
+    |Max. Nee Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
+    |Max. Nee pickbrondocumenten.|Maakt pickdocumenten die ieder niet meer dan het opgegeven aantal brondocumenten hebben.|
     |Toegewezen gebruikers-id|Maakt pickdocumenten alleen voor voorstelregels die zijn toegewezen aan de geselecteerde magazijnmedewerker.|
     |Sorteringsmethode voor pickregels|Selecteer uit de beschikbare opties om regels te sorteren in het gemaakte pickdocument.|
     |Breakbulkfilter plaatsen|Verbergt tussenliggende bulksplitsing pickregels wanneer een grotere eenheid wordt omgezet in een kleinere eenheid en volledig wordt gepickt.|
@@ -93,7 +93,7 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
 8. Klik op **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] maakt de keuze op basis van uw selecties.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Picken van artikelen voor een magazijnverzending
+## Picken van artikelen voor een magazijnverzending
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Magazijnpicks** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -115,13 +115,13 @@ Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken dee
 
 U kunt nu de artikelen naar de afdeling voor verzending overbrengen en de verzending boeken, inclusief het gerelateerde brondocument, op de pagina **Mag. -verzending**. Zie voor meer informatie [Artikelen verzenden](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Overzicht van magazijnbeheer](design-details-warehouse-management.md)
-[Voorraad](inventory-manage-inventory.md)  
-[Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
-[Assemblagebeheer](assembly-assemble-items.md)    
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Overzicht van magazijnbeheer](design-details-warehouse-management.md)
+- [Voorraad beheren](inventory-manage-inventory.md)  
+- [Magazijnbeheer instellen](warehouse-setup-warehouse.md)     
+- [Assemblage](assembly-assemble-items.md)    
+- [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
