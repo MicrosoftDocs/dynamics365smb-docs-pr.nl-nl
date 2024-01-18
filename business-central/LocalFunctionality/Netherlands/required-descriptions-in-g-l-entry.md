@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 04/01/2021
+ms.date: 12/08/2023
 ms.author: bholtorf
 ---
-# <a name="required-descriptions-in-g-l-entry"></a>Verplichte beschrijvingen in grootboekpost
+# Verplichte beschrijvingen in grootboekpost
 
 Bij het invoeren van memoriaalregels in een formulier wordt het omschrijvingsveld automatisch ingevuld. Deze omschrijving wordt ook opgeslagen in de grootboekpost na het boeken van het dagboek. Voor een goede auditprocedure is een meer gedetailleerde omschrijving wenselijk wanneer u een dagboekregel van de soort Grootboekrekening boekt.  
 
@@ -21,7 +21,7 @@ Wanneer de dagboekregels worden geboekt, wordt door het systeem gecontroleerd of
 > [!NOTE]  
 > Het leeg laten van het omschrijvingsveld en controleren of alle omschrijvingsvelden zijn ingevuld vóór het boeken, wordt alleen gedaan in de memoriaalpagina's op verscheidene plaatsen in de module en op de pagina's van Kas, Bank, Giro.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Klantbetalingen handmatig vereffenen](../../receivables-how-apply-sales-transactions-manually.md)  
 [Een auditfile voor de belastingdienst maken](how-to-create-an-audit-file-for-the-tax-authority.md)  
