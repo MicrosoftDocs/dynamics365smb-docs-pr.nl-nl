@@ -3,14 +3,13 @@ title: Voorstellen maken
 description: Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-proposals"></a>Voorstellen maken
+# Voorstellen maken
 Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leveranciers- of klantenposten.  
 
 > [!IMPORTANT]  
@@ -19,7 +18,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 > [!NOTE]  
 >  U kunt op elk moment en op elk niveau, voorafgaand aan de verwerking van een voorstel, de transactiewijze en bankrekening wijzigen. Op het laagste niveau in de desbetreffende leveranciers- of klantenposten.  
 
-## <a name="to-create-proposals-manually"></a>Handmatig voorstellen maken
+## Handmatig voorstellen maken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Telebank - bankoverzicht** in en kies vervolgens de gerelateerde koppeling.  
 2.  Selecteer de betreffende bankrekening en kies vervolgens de actie **Voorstel**.  
@@ -27,7 +26,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 
 4.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. U keert weer terug naar het voorstel door de pagina **Voorsteldetailregel** te sluiten.  
 
-## <a name="to-create-proposals-automatically-from-sales"></a>Automatisch voorstellen maken op basis van verkoop
+## Automatisch voorstellen maken op basis van verkoop  
 
 1. Stel voor de klant die de factuur heeft verstuurd een kaart in met de juiste waarden voor de velden **Valutacode**, **Transactiewijze** en **Bankrekening**.
 2. Maak een verkoopfactuur of creditnota, vul de klant en relevante items in en boek de factuur.
@@ -44,7 +43,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 
 6.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. U keert weer terug naar het voorstel door de pagina **Voorsteldetailregel** te sluiten.  
 
-## <a name="to-create-proposals-automatically-from-purchases"></a>Automatisch voorstellen maken op basis van inkoop
+## Automatisch voorstellen maken op basis van inkoop  
 
 1.  Stel voor de leverancier die de factuur heeft verstuurd een kaart in met de juiste waarden voor de velden **Valutacode**, **Transactiewijze** en **Bankrekening**.  
 2.  Maak een inkoopfactuur of creditnota en voer de leverancier en relevante items in.
@@ -61,7 +60,7 @@ Voorstellen kunnen handmatig of automatisch worden gegenereerd op basis van leve
 
 6.  Als u de detailregels van het voorstel wilt bekijken of aanpassen, kiest u de actie **Detailinformatie**. U keert weer terug naar het voorstel door de pagina **Voorsteldetailregel** te sluiten.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Nieuwe klanten registreren](../../sales-how-register-new-customers.md)   
  [Verkopen factureren](../../sales-how-invoice-sales.md)   
  [Inkopen vastleggen](../../purchasing-how-record-purchases.md)   

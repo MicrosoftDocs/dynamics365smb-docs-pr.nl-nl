@@ -3,15 +3,14 @@ title: Bedrijf en andere instellingen in Teams wijzigen
 description: Lees meer over het wijzigen van de verbindingsinstellingen van Business Central vanuit Microsoft Teams.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Bedrijf en andere instellingen in Teams wijzigen
+# Bedrijf en andere instellingen in Teams wijzigen
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +26,7 @@ Er zijn twee manieren om de pagina **Instellingen** te openen: 1) vanuit het ber
 
    ![Instellingen voor Business Central vanuit het berichtvak.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  

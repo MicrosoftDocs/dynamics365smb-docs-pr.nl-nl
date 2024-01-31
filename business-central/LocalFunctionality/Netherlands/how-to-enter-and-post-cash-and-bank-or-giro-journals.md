@@ -3,14 +3,13 @@ title: 'Kasboeken, bankboeken of giroboeken invoeren en boeken'
 description: In Business Central kunt u het kas- en het bankboek gebruiken om de transacties in te voeren die van invloed zijn op de kas- en bankrekening door Kasboek en Bankboek te gebruiken.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="enter-and-post-cash-and-bankgiro-journals"></a>Kasboeken, bankboeken of giroboeken invoeren en boeken
+# Kasboeken, bankboeken of giroboeken invoeren en boeken
 Het kasboek en het bank/giro-boek helpen u transacties in het systeem te boeken op een gemakkelijkere en directere manier dan met het diversendagboek.  
 
 Daarnaast kunt u in combinatie met telebankieren elektronische bankafschriften op de pagina **Bank-/Giroboek** importeren. Desgewenst kunnen deze afschriften tijdens het importproces automatisch worden gereconcilieerd en kan worden vastgesteld of een afschrift kan worden vereffend met openstaande posten voor de betreffende leverancier/klant.
@@ -23,7 +22,7 @@ De pagina **Bank-/giroboek** registreert de instroom of uitstroom van de contant
 
 U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vorderingen. U kunt ook grootboektransacties invoeren om overige bedragen vast te leggen, zoals bankkosten of rente-inkomsten. Btw codes kunnen ook op deze transactieregels worden toegepast. U kunt een dagboek per bankrekening opgeven.  
 
-## <a name="to-post-cash-journals"></a>Kasjournalen boeken
+## Kasjournalen boeken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kasboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
@@ -46,7 +45,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
      De posten worden naar het grootboek geboekt. Zie Gootboekposten voor meer informatie.  
 
-## <a name="to-post-bank-or-giro-journals"></a>Bank- of giroboeken boeken
+## Bank- of giroboeken boeken  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Bank-/giroboek** in en kies vervolgens de gerelateerde koppeling.  
 2.  Kies de actie **Nieuw**.  
@@ -77,7 +76,7 @@ U kunt de betalingen van klanten vereffenen met de openstaande facturen van Vord
 
 De posten worden naar het grootboek geboekt. Zie Gootboekposten voor meer informatie.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [De testrapporten afdrukken voor kasboeken, bankboeken of giroboeken](how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)  
  [Telebankieren](telebanking.md)   
  [Kasboeken, bankboeken of giroboeken invoeren en boeken](how-to-enter-and-post-cash-and-bank-or-giro-journals.md)  
