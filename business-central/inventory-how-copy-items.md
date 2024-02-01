@@ -3,9 +3,7 @@ title: Bestaande items kopiëren naar nieuwe items
 description: 'Wanneer u een nieuw item toevoegt om tijd te besparen, kunt u de functie Item kopiëren gebruiken om een bestaand item te kopiëren om als sjabloon voor een nieuw item te gebruiken.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021

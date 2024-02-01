@@ -3,7 +3,6 @@ title: Integratie van Business Central en OneDrive voor Bedrijven
 description: 'U kunt OneDrive voor Bedrijven gebruiken om bestanden, zoals rapporten of bestandsbijlagen, op te slaan, te beheren en te delen. Ook als u het spelt als One Drive.'
 author: jswymer
 ms.topic: overview
-ms.workload: na
 ms.search.keywords: null
 ms.date: 02/28/2022
 ms.author: jswymer

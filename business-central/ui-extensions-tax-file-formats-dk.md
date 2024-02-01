@@ -3,12 +3,11 @@ title: De extensie Btw-bestandsindelingen (DK) gebruiken
 description: De extensie Tax-bestandsindelingen maakt het eenvoudig bestanden te exporteren die vooraf zijn ingedeeld om te voldoen aan de vereisten van de bank betreffende elektronische verzendingen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'extension, bank, formats'
 ms.date: 11/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # De extensie Btw-bestandsindelingen (DK)

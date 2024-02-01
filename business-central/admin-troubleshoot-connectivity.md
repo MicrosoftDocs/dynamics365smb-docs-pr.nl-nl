@@ -3,9 +3,7 @@ title: Problemen met connectiviteit oplossen
 description: Beschrijft hoe u de pagina Problemen met connectiviteit oplossen kunt gebruiken om problemen met verbinding met Business Central Online te identificeren en op te lossen.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'connectivity, troubleshooting, connection problems'
 ms.date: 11/24/2023
 ms.author: jswymer

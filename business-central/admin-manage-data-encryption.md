@@ -3,12 +3,11 @@ title: Gegevensversleuteling beheren | Microsoft Docs
 description: U kunt gegevens op de Business Central Server versleutelen door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u op de server inschakelt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Gegevensversleuteling beheren
 U kunt gegevens op de [!INCLUDE[prod_short](includes/prod_short.md)]-server versleutelen door nieuwe coderingssleutels te genereren of bestaande sleutels te importeren die u inschakelt op de [!INCLUDE[prod_short](includes/prod_short.md)]-serverinstantie die verbinding maakt met de database.

@@ -5,12 +5,11 @@ documentationcenter: ''
 author: brentholtorf
 services: project-madeira
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/29/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Betalingsscenario 1 - Buitenlandse betalingen (LV naar LV) in de Nederlandse versie
 U kunt telebankieren gebruiken voor handel met binnenlandse en buitenlandse klanten en leveranciers. Dit artikel beschrijft een scenario waarin de handel geschiedt met binnenlandse klanten en leveranciers.  

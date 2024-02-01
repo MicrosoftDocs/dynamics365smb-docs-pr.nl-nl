@@ -3,9 +3,7 @@ title: De Business Central-apps gebruiken in Power BI
 description: 'U kunt eenvoudig inzichten verwerven, bedrijfsinformatie genereren en KPI''s vaststellen op basis van uw Business Central-gegevens met de Business Central-apps voor Power BI.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.date: 09/07/2023
 ms.author: jswymer

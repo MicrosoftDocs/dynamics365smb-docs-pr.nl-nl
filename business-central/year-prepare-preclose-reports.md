@@ -3,9 +3,7 @@ title: Overzicht van vooraf sluiten van rapporten om rekeningnauwkeurigheid te v
 description: Biedt een overzicht van de rapporten die u kunt gebruiken om de nauwkeurigheid te verifiëren van rekeningen voordat de boeken worden gesloten aan het eind van een jaar of een periode.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer

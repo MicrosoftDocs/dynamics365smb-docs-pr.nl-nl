@@ -3,9 +3,7 @@ title: Rapporten gebruiken in het dagelijkse werk
 description: Biedt een overzicht van alle bedrijfsinformatie- en rapportagefuncties die worden ondersteund in het Business Central-product.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Kostenposten overbrengen en boeken
 description: 'Voordat u kostenverdelingen definieert, moet u de verschillende bronnen begrijpen waaruit kostenposten afkomstig zijn.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
 ms.author: bholtorf

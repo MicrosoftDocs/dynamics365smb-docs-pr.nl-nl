@@ -3,7 +3,6 @@ title: Goedkeuringswerkstroomberichten instellen
 description: In dit artikel wordt uitgelegd hoe u werkstroommeldingen instelt om een gebruiker te waarschuwen dat er een gebeurtenis is opgetreden waarop hij of zij moet reageren; een werkstroomreactie is vereist.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf

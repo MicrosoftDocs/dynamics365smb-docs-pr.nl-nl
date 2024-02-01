@@ -3,9 +3,7 @@ title: Boekingsdatum op correctiewaardepost in vergelijking met de bronpost
 description: 'Lees meer over het scenario "Boekingsdatum op Herwaarderingswaardepost versus Boekingsdatum op post die de correctie veroorzaakt, zoals Herwaardering of Artikeltoeslag." bij het uitvoeren van de batchverwerking Kostprijs herwaarderen - Artikelposten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: bholtorf

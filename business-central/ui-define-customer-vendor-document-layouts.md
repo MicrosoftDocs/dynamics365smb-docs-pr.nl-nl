@@ -3,9 +3,7 @@ title: Documentlay-outs aan klanten of leveranciers toewijzen
 description: Gebruik documentlay-outs om het uiterlijk en de indeling te bepalen van documenten zoals facturen en orders die u naar klanten en leveranciers verzendt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '21, 9650'
 ms.date: 04/07/2022

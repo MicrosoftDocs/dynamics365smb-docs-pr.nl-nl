@@ -3,12 +3,11 @@ title: Contacten zoeken vanuit Microsoft Teams
 description: 'Lees hoe u Business Central-klanten, -leveranciers en andere -contactpersonen opzoekt vanuit Microsoft Teams.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Zoeken naar klanten, leveranciers en andere contacten vanuit Microsoft Teams

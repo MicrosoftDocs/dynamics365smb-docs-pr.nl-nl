@@ -3,9 +3,7 @@ title: 'Ontwerpdetails: Artikeltracering en reserveringen'
 description: 'In dit onderwerp worden artikeltracering en -reserveringen, en de concepten achter de twee opties beschreven.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

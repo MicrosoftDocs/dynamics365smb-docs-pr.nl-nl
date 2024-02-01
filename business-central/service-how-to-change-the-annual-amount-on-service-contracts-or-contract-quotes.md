@@ -3,9 +3,7 @@ title: Het jaarlijkse bedrag van servicecontracten of servicecontractoffertes wi
 description: U kunt het bedrag wijzigen dat jaarlijks wordt gefactureerd in servicecontracten of servicecontractoffertes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

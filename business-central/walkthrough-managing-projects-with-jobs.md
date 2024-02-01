@@ -3,9 +3,7 @@ title: 'Procedure: Projecten plannen met taken'
 description: Deze procedure laat u kennismaken met de projectbeheerfuncties in projecten waarmee u het gebruik van de resources van uw bedrijf en meer kunt plannen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf

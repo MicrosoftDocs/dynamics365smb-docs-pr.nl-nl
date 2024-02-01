@@ -3,9 +3,7 @@ title: Betalingsontvangsten of terugbetalingen van leveranciers reconciliëren i
 description: 'Als u leveranciersbetalingen of terugbetalingen handmatig wilt verwerken, vereffent u het bedrag met een of meer openstaande leveranciersposten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment application, payment processing, match payments'
 ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021

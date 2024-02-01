@@ -3,9 +3,7 @@ title: Overzicht dagboekboekingsregel
 description: 'Dit onderwerp introduceert wijzigingen in Codeunit 12, Dagboek - Boekingsregel, en is de enige plaats om grootboek-, btw- en klant- en leveranciersposten in te voeren.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: bholtorf

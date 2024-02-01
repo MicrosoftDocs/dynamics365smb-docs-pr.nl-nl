@@ -3,9 +3,7 @@ title: Ontwerpdetails - Artikelvereffening | Microsoft Docs
 description: In dit onderwerp wordt beschreven waar het voorraadaantal en de voorraadwaarde worden geregistreerd wanneer u een voorraadtransactie boekt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf

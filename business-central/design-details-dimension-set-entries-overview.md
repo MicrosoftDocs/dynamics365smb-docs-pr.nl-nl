@@ -3,12 +3,11 @@ title: Overzicht dimensiesetposten
 description: Dit artikel geeft u een overzicht van hoe dimensiesetposten worden opgeslagen als dimensiesetposten en hoe ze worden geboekt.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Overzicht dimensiesetposten
 In dit onderwerp wordt beschreven hoe dimensiesetposten worden opgeslagen en geboekt in [!INCLUDE[prod_short](includes/prod_short.md)].  

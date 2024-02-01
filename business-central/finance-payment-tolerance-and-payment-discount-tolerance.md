@@ -3,9 +3,7 @@ title: Betalingstolerantie en contantkortingstolerantie
 description: In dit artikel wordt uitgelegd hoe u betalingstolerantie instelt om een factuur te sluiten wanneer de betaling het factuurbedrag niet volledig dekt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '118, 314, 395'
 ms.date: 04/03/2023
 ms.author: bholtorf

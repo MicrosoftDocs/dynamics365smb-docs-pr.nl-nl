@@ -3,9 +3,7 @@ title: Prijzen en kosten voor services instellen
 description: 'Leer hoe u prijsstellingsfuncties gebruikt om uw toepassing zo in te stellen en aan te passen dat u prijzen voor serviceartikelen, herstelbewerkingen en orders kunt toepassen en wijzigen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, cost, service order'
 ms.date: 06/25/2021
 ms.author: bholtorf

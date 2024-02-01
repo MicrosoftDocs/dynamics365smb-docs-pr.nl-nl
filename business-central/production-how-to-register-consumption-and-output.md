@@ -3,9 +3,7 @@ title: Verbruiksoutput registreren voor productieorder
 description: In dit onderwerp wordt uitgelegd hoe u verbruik en output registreert voor een vrijgegeven productieorderregel die wordt weergegeven op de pagina Productiedagboek.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: bholtorf

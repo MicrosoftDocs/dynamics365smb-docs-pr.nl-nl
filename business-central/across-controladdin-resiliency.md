@@ -4,11 +4,11 @@ description: Wat te doen als besturingselementinvoegtoepassingen of aangepaste b
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: conceptual
 author: brentholtorf
 ms.author: bholtorf
 ms.date: 12/12/2023
+ms.service: dynamics-365-business-central
 ---
 
 # De veerkracht van invoegtoepassingen beheersen in Business Central

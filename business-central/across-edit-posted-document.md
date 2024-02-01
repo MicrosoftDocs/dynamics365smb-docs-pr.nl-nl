@@ -3,9 +3,7 @@ title: Geboekte verkoop- en inkoopdocumenten bewerken
 description: 'In dit onderwerp wordt uitgelegd hoe u informatie in een geboekt document, zoals een verkoopverzending of inkoopfactuur, kunt bijwerken wanneer relevante informatie is gewijzigd.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'

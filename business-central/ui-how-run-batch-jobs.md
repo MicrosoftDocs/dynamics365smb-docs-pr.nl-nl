@@ -3,9 +3,7 @@ title: Batchtaken en XMLports uitvoeren
 description: U voert batchverwerkingen uit om gegevens te verwerken en gegevens bij te werken om bijvoorbeeld periodieke boekhoudactiviteiten uit te voeren en berekeningen uit te voeren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process'
 ms.search.form: '672, 676, 682'
 ms.date: 04/01/2021

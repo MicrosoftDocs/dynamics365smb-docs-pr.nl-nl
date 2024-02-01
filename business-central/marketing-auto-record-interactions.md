@@ -3,12 +3,11 @@ title: Automatische registratie van interacties instellen | Microsoft Docs
 description: 'U kunt uw klant- of cliëntinteracties automatisch registreren, bijvoorbeeld voor verkoop-, inkoop- en servicedocumenten of telefoongesprekken.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'marketing, relationship, prospect, contact, client, customer'
 ms.date: 12/12/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Interactie met contacten automatisch vastleggen
 U kunt de toepassing instellen om automatisch recordinteracties vast te leggen voor verkoop-, inkoop- en servicedocumenten, contactkaarten, e-mails, telefoongesprekken, zoals:

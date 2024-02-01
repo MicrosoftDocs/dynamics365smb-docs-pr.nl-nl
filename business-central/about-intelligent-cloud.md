@@ -3,9 +3,7 @@ title: Intelligente inzichten en cloudmigratie
 description: In Business Central online hebt u toegang tot andere online diensten en kunt u intelligente inzichten krijgen die bijvoorbeeld zijn gebaseerd op Azure AI. Lees verder als u overweegt om van on-premises naar de cloud te migreren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
 ms.search.form: 4010

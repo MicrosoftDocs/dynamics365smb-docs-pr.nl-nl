@@ -3,9 +3,7 @@ title: Planningsuggesties wijzigen in de grafische weergave
 description: Een typische planningsactiviteit is het wijzigen of toevoegen van planningsvoorstelregels om de voorgestelde voorzieningsorders te wijzigen voordat u de functie Planningsboodschap uitvoeren uitvoert.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/22/2023
 ms.author: bholtorf

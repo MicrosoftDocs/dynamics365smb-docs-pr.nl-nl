@@ -3,9 +3,7 @@ title: Power BI-integratieonderdeel en architectuuroverzicht voor Business Centr
 description: Lees meer over de verschillende aspecten van Power BI-integratie met Business Central.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.reviewer: bholtorf
 ms.date: 04/01/2021

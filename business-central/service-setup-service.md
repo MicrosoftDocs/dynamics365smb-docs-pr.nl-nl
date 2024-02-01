@@ -3,9 +3,7 @@ title: CRM - Service instellen | Microsoft Docs
 description: Overzicht van taken om CRM - Service in te stellen op een manier die past bij de manier waarop uw organisaties hun services beheren.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: bholtorf

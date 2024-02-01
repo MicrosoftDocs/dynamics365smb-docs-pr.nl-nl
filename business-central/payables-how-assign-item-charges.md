@@ -3,9 +3,7 @@ title: Artikeltoeslagen toewijzen aan verkoop en inkopen (bevat video)
 description: 'Wijs artikeltoeslagen toe wanneer u voorraadartikelen nodig hebt om extra kosten te dragen, zoals vracht en fysieke afhandeling.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 11/08/2023

@@ -3,9 +3,7 @@ title: Uw boekingen factureren in Business Central
 description: In dit onderwerp wordt uitgelegd hoe u bulkfacturering kunt uitvoeren vanuit Microsoft Bookings in Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'invoicing, bookings'
 ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
