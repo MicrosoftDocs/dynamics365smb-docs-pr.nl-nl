@@ -4,7 +4,7 @@ description: 'Leer hoe u de verbinding met Power BI instelt. Met Power BI-rappor
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -90,6 +90,12 @@ In dit gedeelte wordt uitgelegd wat de vereisten zijn voor de integratie van een
     Voordat eindgebruikers Power BI in [!INCLUDE[prod_short](includes/prod_short.md)] kunnen gebruiken, zal een Azure-applicatiebeheerder toestemming moeten geven voor de Power BI-service.
 
     Open om de eerste verbinding te maken [!INCLUDE[prod_short](includes/prod_short.md)] en voer **Aan de slag met Power BI** uit vanaf de startpagina. Deze actie leidt u door het toestemmingsproces en controleert uw Power BI-licentie. Meld u aan met een Microsoft Entra-beheerdersaccount wanneer daarom wordt gevraagd. Zie voor meer informatie [Verbinding maken met Power BI - eenmalig](across-working-with-powerbi.md#connect).
+
+## Gegevensstromen instellen
+
+Met gegevensstromen kunt u gegevens opnemen, transformeren en laden in een Power BI-werkruimte en de gegevens vervolgens gebruiken als basis voor uw rapporten. Deze gegevensstromen kunnen in sommige gevallen tijdelijke fouten ondervinden tijdens het uitvoeren van een geplande vernieuwing. De foutmelding ziet er als volgt uit: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Met PowerAutomate kunt u nieuwe pogingen voor deze situatie instellen. Zie [Een gegevensstroom automatisch opnieuw proberen bij een fout](/power-query/dataflows/automatically-retry-dataflow) voor meer informatie.
 
 ## Zie ook
 
