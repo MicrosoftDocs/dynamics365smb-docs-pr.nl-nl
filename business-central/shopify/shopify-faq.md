@@ -47,7 +47,7 @@ Met de Shopify-connector kunnen bedrijven hun Shopify winkel (of winkels) aan [!
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] werkt samen met Shopify om onze klanten te helpen een betere winkelervaring te creëren. Shopify biedt handelaren een eenvoudige handelsoplossing en [!INCLUDE[prod_short](../includes/prod_short.md)] is een alles-in-één oplossing voor bedrijfsmanagement waarmee bedrijven hun financiën, verkoop, service en activiteiten kunnen beheren. Gebruik de naadloze verbinding tussen de applicaties om orders, voorraad en klantinformatie te synchroniseren om orders sneller uit te voeren en klanten beter van dienst te zijn.
 
-## <a name="which-microsoft-products-are-the-shopify-connector-available-for"></a>Voor welke Microsoft-producten is de Shopify-connector beschikbaar?
+## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>Voor welke Microsoft-producten is de Shopify-connector beschikbaar?
 
 Deze functie is alleen beschikbaar voor [!INCLUDE[prod_short](../includes/prod_short.md)] online, te beginnen met versie 20.1. Het is niet beschikbaar voor on-premises implementaties. De connector wordt vooraf geïnstalleerd voor nieuwe omgevingen. Organisaties met bestaande omgevingen kunnen de connector downloaden en installeren vanaf AppSource. De organisatie moet zowel een [!INCLUDE [prod_short](../includes/prod_short.md)]-licentie als een Shopify-licentie hebben om de connector te kunnen gebruiken. Ga voor meer informatie over ondersteunde landen/regio's, talen en edities van [!INCLUDE[prod_short](../includes/prod_short.md)] naar [Shopify-connector op de AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
