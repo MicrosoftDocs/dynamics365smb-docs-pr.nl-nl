@@ -10,7 +10,7 @@ ms.date: 11/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Producten verkopen met een klantverkooporder
+# Producten verkopen met een klantverkooporder
 
 Dit artikel biedt gebruikers richtlijnen over wanneer u een klantverkooporder zou moeten gebruiken naast een factuur. Als uw verkoopproces vereist dat u alleen delen van een orderaantal verzendt, bijvoorbeeld omdat de volledige hoeveelheid niet in één keer beschikbaar is, moet u die verkoop verwerken door een verkooporder te maken.
 
@@ -22,7 +22,7 @@ In ondernemingsomgevingen waar de klant direct betaalt, bijvoorbeeld met PayPal 
 
 U kunt zelfs direct betaalde orders voor niet-geregistreerde klanten maken door eerst een kaart voor een contant betalende klant te maken, waarnaar u verwijst op de verkooporder. Meer informatie op [Contant betalende klanten instellen](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Een verkooporder maken
+## Een verkooporder maken
 
 > [!NOTE]  
 > Bij de volgende procedure wordt ervan uitgegaan dat de klant al is ingesteld. Voor instructies om dit te doen raadpleegt u [Nieuwe klanten registreren](sales-how-register-new-customers.md).
@@ -86,11 +86,11 @@ Het dialoogvenster **Boeken en verzenden bevestigen** geeft de manier aan waarop
 
 Het gerelateerde artikel en de gerelateerde klantposten worden nu gemaakt in het systeem en de verkooporder is uitvoer als een PDF-document. Zodra de verkooporder volledig is geboekt, wordt deze verwijderd uit de lijst met verkooporders en vervangen door nieuwe documenten in de lijst met verkoopfacturen en de lijst met verkoopverzendingen.  
 
-## <a name="external-document-number"></a>Externe documentnummer
+## Externe documentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Verkopen factureren](sales-how-invoice-sales.md)  
 [Verkopen boeken](ui-post-sales.md)  
