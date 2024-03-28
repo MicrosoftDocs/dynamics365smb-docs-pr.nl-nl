@@ -9,11 +9,11 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Grootboekposten in de Nederlandse versie toepassen en ongedaan maken
+# <a name="apply-and-unapply-general-ledger-entries-in-the-dutch-version"></a>Grootboekposten in de Nederlandse versie toepassen en ongedaan maken
 
 [!INCLUDE [apply-unapply-general-ledger-entries](../includes/BENL/apply-unapply-general-ledger-entries.md)]
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Klantbetalingen handmatig vereffenen](../../receivables-how-apply-sales-transactions-manually.md)  
 [Verplichte beschrijvingen in grootboekpost](required-descriptions-in-g-l-entry.md)  
