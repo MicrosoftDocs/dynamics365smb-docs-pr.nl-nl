@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 11/17/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="payment-scenarios"></a>Betalingsscenario's
+# Betalingsscenario's
 Op basis van een verkoop- of inkoopfactuur of van een creditnota kan een voorstel worden gegenereerd en geëxporteerd, zodat dat door onze bank kan worden verwerkt.  
 
 Met telebankieren kunt u met drie scenario's te maken krijgen:  
@@ -26,7 +27,7 @@ Met telebankieren kunt u met drie scenario's te maken krijgen:
 
     Zie voor meer informatie [Betalingsscenario 3 - Buitenlandse betalingen (LV naar VV)](payment-scenario-3-foreign-payment-lcy-to-fcy-.md).  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Telebankieren](telebanking.md)
 
 
