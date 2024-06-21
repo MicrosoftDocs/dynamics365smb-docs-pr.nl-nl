@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# VAT-categorieën instellen
+# <a name="set-up-vat-categories"></a>VAT-categorieën instellen
 Als u de elektronische btw-aangifte wilt gebruiken, moet u een btw-categoriecode voor alle XML-elementen in de elektronische btw-aangifte instellen.  
 
 U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XML-element in de elektronische btw-aangifte voorstellen. Vervolgens kunt u de btw-aangiftegegevens direct aan een XML-element toewijzen.  
 
-## Een btw-categorie instellen  
+## <a name="to-set-up-a-vat-category"></a>Een btw-categorie instellen
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](../../media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Elektronische aangifte btw-categorieën** in en kies vervolgens de gerelateerde koppeling  
 2.  Kies op de pagina **Elektronische aangifte btw-categorieën** de actie **Nieuw**.  
@@ -36,7 +36,7 @@ U moet alle mogelijke categorie- en subcategoriecombinaties instellen die een XM
 
 U kunt nu de btw-aangiftegegevens direct aan een XML-element toewijzen.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
  [Elektronische btw- en ICP-aangiften verzenden](electronic-vat-and-icp-declarations.md)  
  [Elektronische btw- en ICP-aangiften instellen](how-to-set-up-electronic-vat-and-icp-declarations.md)
 
