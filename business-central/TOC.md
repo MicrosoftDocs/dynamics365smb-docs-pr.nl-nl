@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [Btw-controlerapport](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Btw-rapporten](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Btw-correctie in lokale valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Niet-aftrekbare btw](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat voor Tsjechisch (extensie)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Vaste activa
@@ -1197,7 +1198,7 @@ ms.service: dynamics-365-business-central
 #### Boekingsstukinterface
 ##### [Overzicht van boekingsstukinterface](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Transactie van boekingsstukinterface](LocalFunctionality/India/Voucher-Interface-Transactions.md)
-#### Vast activum
+#### Vaste activa
 ##### [Overzicht van vaste activa](LocalFunctionality/India/FA_Overview.md)
 ##### [Afschrijving van vaste activa](LocalFunctionality/India/FA_Depreciation.md)
 #### Gate Entry
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Lokale functionaliteit in de Amerikaanse versie](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Belasting
 ##### [Elementaire belastinginstellingen](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Sales Tax rapporteren in de Verenigde Staten](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Omzetbelasting in de VS](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Inleiding bij IRS 1099-formulieren en hun functionaliteit](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Het IRS 1099-formulier instellen en gebruiken voor versie 24 (releasewave 1 van 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [IRS 1099-formulieren gebruiken](LocalFunctionality/UnitedStates/how-to-1099-use.md)
