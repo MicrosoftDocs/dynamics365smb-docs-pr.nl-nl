@@ -50,7 +50,7 @@ Er worden volledig vereffende leveranciersposten en bankposten gemaakt.
 > [!NOTE]  
 > Als u cheques in meerdere valuta's van verschillende bankrekeningen wilt afdrukken en betalen, moet u de batchverwerking **Cheque afdrukken** voor elke valuta afzonderlijk uitvoeren en de juiste bankrekening opgeven.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Afgedrukte cheques annuleren die niet zijn geboekt
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Afgedrukte cheques annuleren die niet zijn geboekt
 
 U kunt niet-geboekte cheques annuleren nadat ze zijn afgedrukt door de actie **Ongeldige cheque** op de pagina **Betalingsdagboek** te gebruiken.
 
