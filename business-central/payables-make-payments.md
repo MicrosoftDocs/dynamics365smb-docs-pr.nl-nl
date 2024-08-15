@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Betalingen uitvoeren
+# Betalingen doen
 
 U betaalt leveranciers of klanten of betaalt vergoedingen aan uw werknemers door betalingsregels te boeken op de pagina **Betalingsdagboek**. Het betalingsjournaal is een algemeen journaal dat is geoptimaliseerd voor het uitvoeren van betalingen en biedt veel krachtige acties. Bijvoorbeeld de actie **Leveranciersbetalingen voorstellen** die de verschuldigde leveranciersbetalingen vindt, en het rapport **Leverancier - Open posten** met een overzicht van verschuldigde leveranciersbetalingen.  
 
@@ -35,7 +35,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 | Een leverancier contant of per cheque betalen en de betaling boeken op het moment dat u de factuur boekt. |[Inkoopfacturen meteen vereffenen](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Om ervoor te zorgen dat uw bank alleen gevalideerde cheques en bedragen vrijgeeft, kunt u deze verzenden in een bestand dat gegevens over de leverancier, cheque en betaling bevat. |[Een Positive Pay-bestand exporteren](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Betalingsverplichtingen beheren](payables-manage-payables.md)  
 [Inkoop](purchasing-manage-purchasing.md)  
