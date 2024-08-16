@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 07/05/2024
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Het voorbereiden van afsluitende verklaringen
+
+# Het voorbereiden van slotverklaringen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt standaardrapporten aan waarmee u de informatie kunt verzamelen die u nodig hebt om de financiële overzichten van uw bedrijf op te stellen. In de volgende tabel worden de rapporten beschreven.  
 
@@ -21,16 +22,16 @@ ms.reviewer: jswymer
 | Krijg een overzicht van uw crediteuren. De ouderdom van bedragen wordt berekend vanaf de vervaldatum, boekingsdatum of documentdatum. |**Vervallen betalingen** |
 | De proefbalans te vergelijken met een budget. |**Proefbalans/Budget** |
 | Een proefbalansrapport af te drukken met saldo's en nettowijzigingen van grootboekrekeningen, berekend voor een aantal perioden. |**Proefbalans per periode** |
-| Druk een financieel rapport af om cijfers in grootboek-rekeningen te analyseren of vergelijk werkelijke grootboek-posten met grootboek-begrotingsposten. |**Financieel rapport** |
+| Druk een financieel rapport af om cijfers in grootboek-rekeningen te analyseren of vergelijk werkelijke grootboek-posten met grootboek-begrotingsposten. |**Financieel verslag** |
 | Te controleren of klant- en leveranciersposten overeenkomen met corresponderende grootboekposten. |**Recon. klant- en lev.-rek.** |
 
 Om een rapport te vinden, kiest u de ![gloeilamp die de Vertel het me-functie opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Jaren en perioden afsluiten](year-close-years-periods.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Bedrijfsinformatie](bi.md)
+[Afsluitende jaren en periodes](year-close-years-periods.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Bedrijfsinformatie](bi.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

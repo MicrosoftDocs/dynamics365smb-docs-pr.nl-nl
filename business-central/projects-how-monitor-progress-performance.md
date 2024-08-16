@@ -1,17 +1,18 @@
 ---
 title: Projectvoortgang en prestaties bewaken
-description: Beschrijft hoe u een OHW-methode (onderhanden werk) kunt maken en OHW kunt berekenen om de financiële waarde van projecten in te schatten terwijl ze bezig zijn.
+description: Beschrijft hoe u een WIP-methode (Work in Progress) kunt creëren en WIP kunt berekenen om de financiële waarde van lopende projecten te schatten.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 07/31/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# <a name="monitor-project-progress-and-performance"></a>Projectvoortgang en prestaties bewaken
+
+# Projectvoortgang en prestaties bewaken
 
 Met de functie Onderhanden werk (OHW) kunt u de financiële waarde van lopende projecten in het grootboek schatten.
 
@@ -28,28 +29,28 @@ U kunt het OHW-bedrag berekenen op basis van de volgende zaken:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-project-wip-method"></a>Een OHW-methode voor een project maken
+## Een OHW-methode voor een project maken
 
 Maak een OHW-methode voor een project taken die voldoet aan de behoeften van uw organisatie en stel deze in als standaard.  
 
 > [!NOTE]
 > Nadat u uw nieuwe methode hebt gebruikt om OHW-posten te maken, kunt u de methode niet meer verwijderen of wijzigen.  
 
-1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **OHW-methoden voor project** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), Pictogram, voer  **project WIP Methods** in en kies vervolgens de gerelateerde koppelen.  
 2. Kies de actie **Nieuw** en vul indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Sluit de pagina.   
-4. Om van deze nieuwe methode de standaard te maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Projectinstellingen** in en kiest u vervolgens de gerelateerde koppeling.  
+4. Om van deze nieuwe methode de standaard te maken, kiest u het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), Pictogram, ga naar  **projectinstellingen** en kies de gerelateerde koppelen.  
 5. Kies in het veld **Standaard OHW-methode** de methode uit de lijst.
 
-## <a name="define-a-wip-method-for-a-project"></a>Een OHW-methode voor een project definiëren
+## Een OHW-methode voor een project definiëren
 
 Wanneer u een nieuw project maakt, moet u opgeven welke OHW-methode voor het project van toepassing is. In sommige gevallen is de OHW-methode voor een project al als standaard ingesteld.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voert u **Projecten** in en kiest u vervolgens de gerelateerde koppeling.
 2. Kies de actie **Nieuw**. Zie voor meer informatie [Projecten maken](projects-how-create-jobs.md).  
-3. Selecteer op de pagina **Projectkaart** in het veld **OHW-methode** een OHW-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
+3. Selecteer op de pagina  **project kaart**  in het veld  **WIP-methode** op het sneltabblad  **Boeking** een WIP-methode uit de lijst. Als een standaardmethode is gedefinieerd, kunt u indien nodig een andere optie selecteren.  
 
-### <a name="define-a-wip-method-for-a-project-task"></a>Een OHW-methode voor een project definiëren
+### Een OHW-methode voor een project definiëren
 
 U kunt een OHW-methode definiëren voor een projecttaak, bepaalde projecttaken uitsluiten van de OHW-berekening of taken groeperen die samen moeten worden berekend. 
 
@@ -90,15 +91,15 @@ In het volgende voorbeeld zijn projecttaken verdeeld in twee OHW-totaalgroepen, 
 
 U zult merken:
 
-* *1000* t/m *1299*: OHW wordt afzonderlijk berekend voor deze reeks projecttaken. Houd er echter rekening mee dat twee van de taken, 1010 en 1110, zijn uitgesloten van de OHW-berekening omdat het soort projecttaak ervan **Boeken** is.
+* *1000* t/m *1299*: WIP wordt apart berekend voor deze groep projecttaken. Houd er echter rekening mee dat twee van de taken, 1010 en 1110, zijn uitgesloten van de OHW-berekening omdat het soort projecttaak ervan **Boeken** is.
 
-* *1300* t/m *1399*: OHW wordt afzonderlijk berekend voor deze reeks projecttaken.
+* *1300* t/m *1399*: WIP wordt apart berekend voor deze groep projecttaken.
 
-## <a name="calculate-wip"></a>OHW berekenen
+## OHW berekenen
 
 U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor eindrapportage van een periode. Gebruik hiervoor de batchverwerking **OHW voor project berekenen**.  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **OHW voor project berekenen** in en kiest u vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), Pictogram, voer  **project Calculate WIP** in en kies vervolgens de gerelateerde koppelen.  
 2. Kies de actie **OHW berekenen**.
 3. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.
 4. Kies de knop **Ok**.  
@@ -106,7 +107,7 @@ U kunt het OHW-bedrag bepalen dat moet worden geboekt naar balansrekeningen voor
 > [!NOTE]  
 > Met de batchverwerking voor het project wordt het OHW alleen berekend en niet naar het grootboek geboekt. Om het te boeken moet u de batchverwerking voor het project **OHW naar GB boeken** uitvoeren nadat u het OHW hebt berekend. Zie voor meer informatie de volgende procedure.
 
-## <a name="post-wip"></a>OHW boeken
+## OHW boeken
 
 Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de einddatumrapportage. Hiervoor gebruikt u de batchverwerking **Project-OHW naar GB boeken**.
 
@@ -114,24 +115,24 @@ Wanneer u OHW hebt berekend, kunt u het boeken naar balansrekeningen voor de ein
 2. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
 3. Kies de knop **Ok**.
 
-## <a name="calculate-and-post-project-completion-entries"></a>Projectvoltooiingsposten berekenen en boeken
+## Projectvoltooiingsposten berekenen en boeken
 
 Wanneer u alle activiteiten voor een project hebt uitgevoerd, waaronder gebruiksboekingen en -facturering, moet u de projectstatus bijwerken naar **Voltooid**. Vervolgens moet u eventueel OHW tegenboeken dat naar het grootboek is geboekt.
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voert u **Projecten** in en kiest u vervolgens de gerelateerde koppeling.  
 2. Selecteer een open project en kies vervolgens de actie **Bewerken**.
-3. Selecteer in het veld **Status** de optie **Voltooid**.
+3. Selecteer op het sneltabblad  **Berichten** in het veld  **Status** de optie  **Voltooid**.
 4. Volg de hulpstappen om de OHW te berekenen en te boeken, of volg stap 5 en 6 om dit handmatig te doen.  
 5. Kies de actie **OHW berekenen**.
 6. Vul op de pagina **OHW voor project berekenen** indien nodig de velden in.  
 
-     De OHW-posten voor het project die worden gemaakt door het uitvoeren van de batchverwerking, hebben nu een vinkje in het selectievak **Project voltooid** om aan te geven dat het voltooiingsposten zijn.  
+     Voor de project-WIP-vermeldingen die zijn gemaakt door de batchtaak uit te voeren, is het selectievakje  **project voltooid** aangevinkt om aan te geven dat het voltooiingsvermeldingen zijn.  
 7. Kies de actie **Project-OHW naar GB boeken**.
 8. Vul op de pagina **Project-OHW naar GB boeken** indien nodig de velden in.  
 
-     De OHW-grootboekposten voor het project die worden gemaakt door het uitvoeren van de batchverwerking hebben nu een vinkje in het selectievakje **Project voltooid** om aan te geven dat het voltooide posten zijn.
+     Voor de project WIP grootboek-items die zijn gemaakt door het uitvoeren van het batchproject, is het selectievakje  **project voltooid** aangevinkt om aan te geven dat het voltooide items zijn.
 
-## <a name="view-project-ledger-entries"></a>Projectposten weergeven
+## Projectposten weergeven
 
 Alle posten met betrekking tot een project worden in projectjournalen opgeslagen en sequentieel genummerd, te beginnen met 1. Vanuit het projectjournaal hebt u een overzicht van alle projectposten.    
 
@@ -140,15 +141,15 @@ Alle posten met betrekking tot een project worden in projectjournalen opgeslagen
 
 De pagina **Projectposten** wordt geopend, waarin u de posten die zijn gekoppeld aan een project, kunt bekijken.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Procedure - Onderhanden werk voor een project berekenen](walkthrough-calculating-work-in-process-for-a-job.md)
-[Projecten beheren](projects-manage-projects.md)  
-[Voorraadkosten beheren](finance-manage-inventory-costs.md)  
-[Financiën](finance.md)  
-[Inkoop](purchasing-manage-purchasing.md)  
-[Verkoop](sales-manage-sales.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Walkthrough - Berekenen van het werk in uitvoering voor een project](walkthrough-calculating-work-in-process-for-a-job.md)    
+[Projecten beheren](projects-manage-projects.md)    
+[Voorraadkosten beheren](finance-manage-inventory-costs.md)    
+[Financiën](finance.md)    
+[Inkoop](purchasing-manage-purchasing.md)    
+[Verkoop](sales-manage-sales.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,27 @@
 ---
 title: Picken voor interne bewerkingen in geavanceerde magazijnconfiguraties
-description: 'Als uw locaties picking en verzending gebruiken, pickt u componenten voor assemblage- en taakactiviteiten op de pagina Magazijnpick.'
+description: 'Als uw locaties gebruikmaken van picken en verzenden, kunt u componenten voor productie-, assemblage- en projectactiviteiten verzamelen op de pagina Magazijnpicken.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 04/23/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Picken voor productie, assembleren of projecten in geavanceerde magazijnconfiguraties
+# Selectie voor productie, assemblage of projecten in geavanceerde magazijnconfiguraties
 
-Hoe u materialen voor productie, projecten of assemblageorders verzamelt, is afhankelijk van de vestigingsinstellingen van uw magazijn. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
+Hoe u onderdelen voor productie-, project- of assemblageorders selecteert, hangt af van de locatie waarop uw magazijn is ingericht. Zie voor meer informatie [Magazijnbeheer instellen](warehouse-setup-warehouse.md).
 
-Zet in een geavanceerde magazijnconfiguratie voor de uitgaande stroom (pick) de schakelaars **Pick vereisen** en **Verzenden vereisen** aan op de pagina **Locatiekaart** voor de vestiging.
+In een geavanceerde magazijnconfiguratie voor de uitgaande stroom (picken) gebruikt u op de pagina  **Locatie kaart**  voor de locatie de volgende instellingen:
 
-Als voor de locatie magazijnpickverwerking en magazijnverzendingsverwerking is vereist, gebruikt u magazijnpickdocumenten om de pickinformatie te beheren voordat u het gebruik of verbruik van materialen boekt.  
+* Productie, in het veld **Prod. Consumption Whse. Handling** selecteert u **Warehouse Pick (optioneel)** of **Warehouse Pick (verplicht)**.
+* Assemblage, in het veld **Asm. Consumption Whse. Handling** selecteert u **Warehouse Pick (optioneel)** of **Warehouse Pick (verplicht)**.
+* Projectmanagement, selecteer in het veld **project Consumption Whse. Handling** de optie **Warehouse Pick (optioneel)** of **Warehouse Pick (verplicht)**.
+
+Wanneer de locatie is ingesteld om magazijnpickverwerking te vereisen, gebruikt u magazijnpickdocumenten om pickinformatie te maken en te verwerken voordat u het gebruik of verbruik van componenten boekt.  
 
 Vervolgens kunt u een compleet nieuw magazijnpickdocument maken. Picks maken deel uit van een werkstroom waarbij een persoon die een order verwerkt ze op een push-manier maakt, of de magazijnmedewerker maakt ze op een pull-manier:
 
@@ -29,10 +33,10 @@ Om materialen voor brondocumenten op een pull-manier te verzamelen of te verplaa
 |Brondocument|Vrijgavemethode|  
 |---------------------|--------------------|  
 |Productieorder|Wijzig de orderstatus in Vrijgegeven of maak direct een vrijgegeven productieorder.|  
-|Assemblageorder|Status wijzigen in Vrijgegeven.|
-|Projecten | Wijzig de status in Open of maak direct een project met de status Open.|  
+|Assemblyorder|Status wijzigen in Vrijgegeven.|
+|Projecten | Wijzig de status naar Open of maak direct een project met de status Open.|  
 
-## <a name="production"></a>Productie
+## Productie
 
 Gebruik **Magazijnpick**-documenten om productiematerialen in de stroom naar productie te picken.
 
@@ -41,32 +45,29 @@ Voor een locatie die opslaglocaties gebruikt om artikelen te verplaatsen naar gr
 * Voor een locatie die gestuurde opslag en pick gebruikt, volgt u de stappen in het artikel [Artikelen verplaatsen in geavanceerde magazijnconfiguraties](warehouse-how-to-move-items-in-advanced-warehousing.md) .
 * Voor andere vestigingen volgt u de stappen in het artikel [Artikelen intern verplaatsen in standaardmagazijnconfiguraties](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Assembleren
+## Assembleren  
 
 Gebruik **Magazijnpick**-documenten om assemblagematerialen naar het assemblagegebied te verplaatsen.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ondersteunt assemblagestromen van het type op voorraad assembleren en op order assembleren. Ga voor meer informatie over assembleren voor order in de uitgaande magazijnstroom naar [Artikelen voor assembleren voor order in magazijnverzendingen](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Projectbeheer
+## Projectbeheer  
 
-Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar projectbeheer te picken.
+Gebruik **Warehouse Pick** -documenten om projectonderdelen in de stroom naar projectmanagement te selecteren.
 
 > [!NOTE]
-> De mogelijkheid om componenten voor projectplanningsregels te picken is toegevoegd aan [!INCLUDE[d365fin](includes/d365fin_md.md)] in 2022 releasewave 2. Om de mogelijkheid te gebruiken, moet een beheerder **Functie-update: Voorraad- en magazijnpicks vanuit projecten inschakelen** inschakelen op de pagina **Functiebeheer**.
->
-> Projecten bieden geen ondersteuning voor geavanceerde configuraties waarbij de schakelaar **Gericht picken en opslaan** is ingeschakeld.
+> Het project ondersteunt geen geavanceerde configuraties waarbij de schakelaar  **Gerichte pick en Put-away** is ingeschakeld.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Controleer of artikelen beschikbaar zijn om te picken
+## Controleer of artikelen beschikbaar zijn om te picken
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Bulksgewijs pickdocumenten maken met het pickvoorstel
+## Bulksgewijs pickdocumenten maken met het pickvoorstel
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Pickvoorstel** in en kies vervolgens de gerelateerde koppeling.  
-
 2. Kies de actie **Magazijndocumenten ophalen**.  
 
-    De lijst toont de vrijgegeven productie, projecten, assemblageorders die zijn doorgestuurd naar de pickfunctie. De orders omvatten de orders waarvoor al pickinstructies zijn gemaakt. De lijst bevat geen documenten met pickregels die volledig zijn gepickt en geregistreerd.  
+    De lijst toont de vrijgegeven productie-, project- en assemblageorders die zijn doorgestuurd naar de pickfunctie. Tot de orders behoren de orders waarvoor al verzamelinstructies zijn aangemaakt. De lijst bevat geen documenten met pickregels die volledig zijn gepickt en geregistreerd.  
 3. Selecteer de orders waarvoor u een pick wilt voorbereiden.
 
     > [!NOTE]  
@@ -93,17 +94,17 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
     |Optie|Omschrijving|
     |-|-|
     |Per magazijn Document|Maakt afzonderlijke pickdocumenten voor regels van het werkblad met hetzelfde magazijn-brondocument.|
-    |Per klant/leverancier/vestiging|Maakt afzonderlijke pickdocumenten voor elke klant (projecten)|
+    |Per klant/leverancier/vestiging|Maakt voor elke klant (project) aparte pickdocumenten aan|
     |Per artikel|Maakt afzonderlijke pickdocumenten voor elk artikel in het pickvoorstel.|
     |Per Van zone|Maakt afzonderlijke pickdocumenten voor elke zone waar u de artikelen uit haalt.|
     |Per opslaglocatie|Maakt afzonderlijke pickdocumenten voor elke opslaglocatie waar u de artikelen uit haalt.|
     |Per vervaldatum|Maakt afzonderlijke pickdocumenten voor brondocumenten die dezelfde vervaldatum hebben.|
 
-    Geef op hoe de pickdocumenten moeten worden gemaakt door een selectie te maken uit de volgende opties.  
+    Gebruik de volgende opties om aan te geven hoe de pickdocumenten moeten worden gemaakt.  
 
     |Optie|Omschrijving|
     |-|-|
-    |Max. Nee Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
+    |Max. Nr. Pickregels|Maakt pickdocumenten die niet meer dan het opgegeven aantal regels in een document hebben.|
     |Max. Nee pickbrondocumenten.|Maakt pickdocumenten die niet meer dan het opgegeven aantal brondocumenten hebben.|
     |Toegewezen gebruikers-id|Maakt pickdocumenten alleen voor voorstelregels die zijn toegewezen aan de geselecteerde magazijnmedewerker.|
     |Sorteringsmethode voor pickregels|Selecteer uit de beschikbare opties om regels te sorteren in het gemaakte pickdocument.|
@@ -113,7 +114,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 
 8. Kies de knop **Ok**.  
 
-## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Artikelen picken voor een productieorder, assemblageorder, project
+## Om artikelen te verzamelen voor een productieorder, assemblageorder of project
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Picks** in en kies vervolgens de gerelateerde koppeling.  
 
@@ -123,7 +124,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
 
     Als het magazijn opslaglocaties gebruikt, worden de standaard opslaglocaties voor de artikelen voorgesteld om de artikelen uit te halen. De instructies bevatten minstens twee afzonderlijke regels voor de acties Nemen en Plaatsen.  
 
-    Bedrijfsruimten zoals productiewerkplaatsen hebben mogelijk een standaardbak voor de componenten die ze nodig hebben. Als dit het geval is, wordt de standaardmagazijncode toegevoegd aan het magazijnpickdocument om aan te geven waar de artikelen moeten worden geplaatst. Zie voor meer informatie de knopinfo voor het veld **Code verbruikslocatie**, **Opslaglocatie Naar-assemblage** of **Naar - Opslaglocatiecode van project**.
+    Bedrijfsruimten zoals productiewerkplaatsen hebben mogelijk een standaardbak voor de componenten die ze nodig hebben. Als dit het geval is, wordt de standaardmagazijncode toegevoegd aan het magazijnpickdocument om aan te geven waar de artikelen moeten worden geplaatst. Voor meer informatie, zie de tooltips voor de velden  **Naar-productie-bincode**,  **Naar-assemblage-bincode** en  **Naar-project-bincode** .
 
     Indien voor het magazijn gestuurde opslag en pick is ingesteld, wordt de opslaglocatievolgorde gebruikt voor het berekenen van de beste opslaglocaties waaruit gepickt kan worden. Die opslaglocaties worden voorgesteld op de pickregels. De instructies bevatten minstens twee afzonderlijke regels voor de acties Nemen en Plaatsen.  
 
@@ -141,7 +142,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
   > [!NOTE]  
   > Regels worden in oplopende volgorde gesorteerd op de geselecteerde criteria. Als u op document sorteert, wordt er eerst gesorteerd op documenttype op basis van het veld **Brondocument magazijnactiviteit**. Als u op verzending sorteert, wordt er eerst gesorteerd op bestemming op basis van het veld **Type magazijnbestemming**.
 
-4. Als u de pick hebt uitgevoerd en de artikelen op de productie-, assemblage- of projectlocatie of de opslaglocatie hebt geplaatst, kiest u de actie **Pick registreren**.  
+4. Nadat u de artikelen hebt verzameld en in het productie-, assemblage- of projectgebied of de bak hebt geplaatst, kiest u de actie  **Pick registreren** .  
 
     U kunt de artikelen nu naar het betreffende gebied brengen en het gebruik of verbruik van de gepickte materialen boeken door het verbruiksdagboek, de assemblageorder of het projectdagboek te boeken. De volgende artikelen bieden meer informatie:
 
@@ -149,7 +150,7 @@ Gebruik **Magazijnpick**-documenten om projectmaterialen in de stroom naar proje
     * [Artikelen assembleren](assembly-how-to-assemble-items.md)
     * [Verbruik of gebruik voor projecten registreren](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Materialen afboeken voor productie in een geavanceerde magazijnconfiguratie
+## Materialen afboeken voor productie in een geavanceerde magazijnconfiguratie
 
 Afboekingsmethoden hebben invloed op de stroom van materialen in productie. Zie voor meer informatie [Materialen afboeken op basis van de output van een bewerking](production-how-to-flush-components-according-to-operation-output.md). Afhankelijk van de geselecteerde afboekingsmethode kunt u op de volgende manieren materialen picken voor productie:
 
@@ -157,7 +158,7 @@ Afboekingsmethoden hebben invloed op de stroom van materialen in productie. Zie 
 * Gebruik een **Magazijnpick**-document om de pick vast te leggen voor artikelen die de afboekingsmethode **Picken + voorwaarts**, **Picken + achterwaarts** gebruiken. Het verbruik van de materialen gebeurt automatisch wanneer u de status van de productieorder wijzigt of door een bewerking te starten of te beëindigen. Alle vereiste materialen moeten beschikbaar zijn. Anders wordt afgeboekte verbruiksboeking voor dat materiaal gestopt.
 * Gebruik een **Magazijnverplaatsing**-document zonder een verwijzing naar een brondocument of andere manieren om de verplaatsing vast te leggen van materialen die gebruikmaken van de afboekingsmethode **Voorwaarts** of **Achterwaarts**. Het verbruik van de materialen gebeurt automatisch wanneer u de status van de productieorder wijzigt of een bewerking start of beëindigt. Alle vereiste materialen moeten beschikbaar zijn. Anders wordt het boeken van afgeboekte verbruiksboeking voor dat materiaal gestopt. Zie voor meer informatie [Artikelen verplaatsten](warehouse-move-items.md).
 
-### <a name="example"></a>Voorbeeld
+### Voorbeeld
 
 U hebt een productieorder voor 15 STUKS van artikel SP-SCM1004. Sommige artikelen op de materialenlijst moeten handmatig worden afgeboekt in een verbruiksdagboek. Andere artikelen kunnen automatisch worden gepickt en afgeboekt met behulp van de afboekingsmethode **Picken + Achterwaarts**.  
 
@@ -180,7 +181,7 @@ De volgende illustratie geeft aan wanneer het veld **Opslaglocatie** in de mater
 
 :::image type="content" source="media/binflow.png" alt-text="Overzicht van wanneer en hoe het veld Opslaglocatie wordt ingevuld.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Op order produceren productiemateriaal in een geavanceerde magazijnconfiguratie
+## Op order produceren productiemateriaal in een geavanceerde magazijnconfiguratie
 
 In scenario's waarin een geproduceerd artikel bestaat uit grondstoffen en halffabrikaten en het productiebeleid is ingesteld op **Op order produceren**, wordt de magazijnpick voor die halffabrikaten toegevoegd aan dezelfde productieorder waarbij het veld **Planningsniveau** is ingevuld. Er wordt verwacht dat de halffabrikaten onmiddellijk beschikbaar zijn voor verbruik en niet hoeven te worden gepickt. Daarom worden ze niet opgenomen in het magazijnpickdocument. De gemaakte magazijnpicks bevatten alleen grondstoffen voor geproduceerde artikelen en voor halffabrikaten.
 
@@ -188,7 +189,7 @@ Als er echter halffabrikaten op voorraad zijn, suggereert het planningssysteem d
 Een dergelijke opzet is niet compatibel met magazijnpicks en, afhankelijk van de frequentie, moet u het productiebeleid voor dergelijke halffabrikaten wijzigen in **Op voorraad produceren** of de componentenregel van de productieorder handmatig splitsen wanneer u de eerder geproduceerde halffabrikaten moet picken.
 
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 - [Voorraad beheren](inventory-manage-inventory.md)  
 - [Magazijnbeheer instellen](warehouse-setup-warehouse.md)  

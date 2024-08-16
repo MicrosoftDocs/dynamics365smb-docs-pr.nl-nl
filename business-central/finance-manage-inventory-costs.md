@@ -5,19 +5,20 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="managing-inventory-costs"></a>Voorraadkosten beheren
-Kostenbeheer heeft betrekking op het vastleggen en rapporteren van operationele bedrijfskosten. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).   
+
+# Voorraadkosten beheren
+Kostenbeheer, ook wel 'costing' genoemd, houdt zich bezig met het vastleggen en rapporteren van de operationele kosten van een bedrijf. Dit omvat de rapportage van productie- en voorraadkosten (dus de waarde van artikelen).   
 
 U dient de volgende centrale principes te begrijpen: met waarderingsmethoden wordt gedefinieerd hoe artikelen worden gewaardeerd wanneer ze de voorraad verlaten, met een herwaardering van kosten worden de kosten bijgewerkt van goederen die worden verkocht met gerelateerde inkoopkosten die na de verkoop zijn geboekt en de voorraadwaarden moeten regelmatig worden geboekt naar speciale grootboekrekeningen.
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-|**Als u dit wilt doen**|**Zie**|  
+|**Functie**|**Zie**|  
 |------------|-------------|  
 |Lees conceptuele informatie voor het begrip van de principes en definities die functionaliteit voor voorraadwaarderingsboekhouding in [!INCLUDE[prod_short](includes/prod_short.md)] beheren.|[Over voorraadwaardering](finance-learn-about-costing.md)|  
 |Zorg dat u de kosten van verzonden artikelen kent door toegevoegde artikelkosten op te tellen, zoals vracht, fysieke verwerking, verzekering en transport, die u maakt nadat u hebt verkocht.|[Artikeltoeslagen gebruiken om extra handelskosten te verantwoorden](payables-how-assign-item-charges.md)|
@@ -33,7 +34,7 @@ In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de b
 |Voer controle- en rapportagetaken uit voor een periode-einde, zoals het berekenen van de voorraadwaarde en het boeken van kosten in het grootboek.|[Kosten rapporteren en afstemmen met het grootboek](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Leer hoe u de taakwachtrij kunt gebruiken om de taken voor het aanpassen van voorraadkosten of het afstemmen met het grootboek naar de achtergrond te verplaatsen.|[Voorraadkosten aanpassen en afstemmen met grootboek met taakwachtrij](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
  [Financiën](finance.md)  
  [Voorraad](inventory-manage-inventory.md)   
  [Verkoop](sales-manage-sales.md)   

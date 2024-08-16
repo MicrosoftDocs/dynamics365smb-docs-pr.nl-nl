@@ -1,22 +1,22 @@
 ---
-title: Ongerealiseerde btw instellen
+title: Ongerealiseerde omzetbelasting instellen
 description: 'Als u op kas gebaseerde boekhouding gebruikt, kunt u opgeven hoe ongerealiseerde btw voor verkopen en inkopen moet worden verwerkt.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ongerealiseerde btw voor op kas gebaseerde boekhouding instellen
+# Niet-gerealiseerde btw instellen voor kasboekhouding
 
-Als u op kas gebaseerde boekhoudingsmethoden gebruikt, kunt u [!INCLUDE[prod_short](includes/prod_short.md)] instellen om ongerealiseerde btw te verwerken.
+Als u boekhoudmethoden op basis van contanten gebruikt, kunt u deze zo instellen dat niet-gerealiseerde btw wordt verwerkt. [!INCLUDE[prod_short](includes/prod_short.md)] 
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Grootboekrekeningen gebruiken voor ongerealiseerde btw
+## Grootboekrekeningen gebruiken voor ongerealiseerde btw
 
 U kunt ervoor kiezen btw-bedragen te laten berekenen en boeken naar een tijdelijke grootboekrekening wanneer een factuur wordt geboekt. Vervolgens wordt de factuur geboekt naar de juiste grootboekrekening en opgenomen in btw-aangiften wanneer de werkelijke betaling van de factuur is geboekt. Hiervoor moet u eerst de [btw-boekingsinstellingen](finance-setup-vat.md) voltooien.
 
@@ -31,7 +31,7 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 | Optie | Omschrijving |
 | --- | --- |
 | Leeg | Kies deze optie als u de functie voor ongerealiseerde btw niet wilt gebruiken. |
-| Percentage | Zowel het btw- als het factuurbedrag worden verrekend met de betalingen in verhouding tot het betalingspercentage van het resterende factuurbedrag. Het betaalde btw-bedrag wordt van de ongerealiseerde btw-rekening overgeboekt naar de gerealiseerde btw-rekening. |
+| Percentage | Betalingen omvatten zowel de btw als het factuurbedrag, in verhouding tot het te betalen percentage van het resterende factuurbedrag. Het betaalde btw-bedrag wordt van de ongerealiseerde btw-rekening overgeboekt naar de gerealiseerde btw-rekening. |
 | Eerste | Eerst wordt het btw-bedrag verrekend met de betalingen en dan het factuurbedrag. Het bedrag dat van de ongerealiseerde btw-rekening wordt overgemaakt naar de btw-rekening, is dan gelijk aan het betalingsbedrag totdat de volledige btw is betaald. |
 | Laatste | Eerst wordt het factuurbedrag verrekend met de betalingen en dan het btw-bedrag. In dit geval wordt er alleen een bedrag van de ongerealiseerde btw-rekening overgeboekt naar de btw-rekening als het volledige factuurbedrag, exclusief de btw, is betaald. |
 | Eerste (Voll. bet.) | Eerst wordt de btw verrekend met betalingen (zoals bij de optie _Eerste_), maar er wordt pas een bedrag naar de btw-rekening overgeboekt als het volledige btw-bedrag is betaald. |
@@ -46,7 +46,7 @@ Ga als volgt te werk om rekeningen voor ongerealiseerde btw te gebruiken:
 > [!NOTE]  
 > Het btw-bedrag wordt naar deze rekening geboekt en blijft daar tot de betaling van de klant is geboekt. Daarna wordt het bedrag overgeboekt naar de rekening voor inkoop-btw.
 
-## <a name="see-also"></a>Zie ook
-[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)
+## Zie ook
+[Berekeningen en boekingsmethoden voor btw instellen](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

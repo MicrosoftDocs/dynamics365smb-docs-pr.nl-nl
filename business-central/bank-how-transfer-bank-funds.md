@@ -1,23 +1,24 @@
 ---
-title: Bankfondsen overboeken
+title: Bankgeld overmaken
 description: 'U kunt bedragen overbrengen van de ene naar de andere bankrekening, inclusief andere valuta''s, door de transactie in het dagboek te boeken.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
-ms.date: 04/29/2021
+ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="transfer-bank-funds"></a>Bankfondsen overboeken
 
-Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!INCLUDE[prod_short](includes/prod_short.md)]. Als u dit wilt doen, moet u de transactie boeken op de pagina **Dagboek**. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
+# Bankgeld overmaken
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Een transfer boeken tussen bankrekeningen met dezelfde valutacode
+Soms moet u een bedrag overmaken van de ene bankrekening naar de andere. [!INCLUDE[prod_short](includes/prod_short.md)]  Om dit te doen, moet u de transactie op de pagina  **Algemene dagboeken**  boeken. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboek** in en kies vervolgens de gerelateerde koppeling.
+## Een transfer boeken tussen bankrekeningen met dezelfde valutacode
+
+1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op een dagboekregel de velden **Boekingsdatum** en **Documentnr.** in.
 3. Selecteer in het veld **Rekeningsoort** de optie **Bankrekening**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
@@ -28,11 +29,11 @@ Soms moet u een bedrag van de ene naar de andere bankrekening overboeken in [!IN
 7. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarnaar u de fondsen wilt overbrengen.
 8. Boek het dagboek.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Transfers boeken tussen bankrekeningen met verschillende valutacodes
+## Transfers boeken tussen bankrekeningen met verschillende valutacodes
 
 Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's gebruiken, moet u twee dagboekregels boeken.
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Dagboek** in en kies vervolgens de gerelateerde koppeling.
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Maak twee dagboekregels en vul de velden **Boekingsdatum** en **Documentnr.** in.
 3. Selecteer op de eerste dagboekregel **Bankrekening** in het veld **Soort**.
 4. Selecteer in het veld **Rekeningnr.** de bankrekening waarvan u de fondsen wilt overbrengen.
@@ -65,11 +66,11 @@ Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's g
     > Een bedrag zonder minteken is een debetbedrag, een bedrag met een minteken is een kredietbedrag.
 10. Boek het dagboek.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  
-[Werken met diversendagboeken](ui-work-general-journals.md)  
+[Werken met dagboeken](ui-work-general-journals.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

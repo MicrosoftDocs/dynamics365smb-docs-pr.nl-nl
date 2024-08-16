@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
-ms.date: 04/01/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="defining-and-allocating-costs"></a>Kosten definiëren en toewijzen
+
+# Kosten definiëren en toewijzen
 
 Tijdens kostenverdelingen worden kosten en opbrengsten verplaatst tussen kostensoorten , kostenplaatsen en kostenobjecten. U kunt zo veel verdelingen definiëren als u nodig hebt. Elke verdeling bestaat uit:  
 
@@ -26,13 +27,13 @@ Voor elk verdeeldoel moet u een verdelingbasis definiëren. De verdelingbasis ka
 - Statische toewijzingen zijn gebaseerd op een vaste waarde voor bijvoorbeeld oppervlak of een vastgestelde verdeelsleutel, zoals 5:2:4.  
 - Dynamische toewijzingen zijn afhankelijk van wijzigbare waarden, bijvoorbeeld het aantal werknemers in een kostenplaats of de omzet van een kostenobject gedurende een bepaalde periode.  
 
-In de volgende tabel wordt een reeks taken beschreven, met koppelingen naar de beschrijvende onderwerpen.
+De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen waarin deze worden beschreven.
 
-## <a name="set-up-allocation-source-and-targets"></a>Een verdelingsbron en doelen instellen
+## Toewijzingsbron en -doelen instellen
 
 Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De verdelingsbron definieert welke kosten worden toegerekend. De verdeeldoelen bepalen waaraan de kosten worden toegerekend.  
 
-### <a name="to-set-up-cost-allocations"></a>Kostenverdeling instellen
+### Kostenverdeling instellen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Kostenverdeling** de actie **Bewerken**.  
@@ -50,11 +51,11 @@ Elke toewijzing bestaat uit een verdelingsbron en een of meer verdeeldoelen. De 
 > [!NOTE]  
 > Selecteer het selectievakje **Geblokkeerd** om de toewijzingsinstelling te deactiveren.
 
-## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Filters instellen voor dynamische toewijzingsgrondslagen
+## Filters instellen voor dynamische toewijzingsbases
 
 De methode voor dynamische toewijzing is gebaseerd op wijzigbare waarden. Bijvoorbeeld het aantal werknemers in een kostenplaats, of de verkochte artikelen van een kostenobject in een bepaalde periode. Er zijn negen vooraf gedefinieerde toewijzingsgrondslagen en twaalf dynamische periodes. U stelt verschillende filters in op basis van de toewijzingsgrondslag.  
 
-### <a name="set-filters"></a>Filters instellen
+### Filters instellen
 
 De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende toewijzingsgrondslagen en welke waarden geldig zijn in de velden **Nr.-filter** en **Groepfilter**. Selecteer <kbd>F1</kbd> in het veld **Datumfiltercode** om gedetailleerde omschrijvingen te lezen.  
 
@@ -70,16 +71,16 @@ De volgende tabel laat zien welke filters mogelijk zijn voor de verschillende to
 |Artikelen verkocht (bedrag)|Artikelnr.|Ja|Ja|Ja|Voorraadboekingsgroep|  
 |Artikelen ingekocht (bedrag)|Artikelnr.|Ja|Ja|Ja|Voorraadboekingsgroep|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: statische toewijzingen op basis van de verdeelsleutel definiëren
+## Scenario 1: Statische toewijzingen definiëren op basis van toewijzingsverhouding
 
 De methode voor statische toewijzingen baseert zich op een vaste waarde voor bijvoorbeeld gebruikte vierkante meters of een vastgestelde verdeelsleutel, zoals 5:2:4.  
 
-In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobjecten kunt definiëren voor de verdelingsbron van kostenplaats PROD met behulp van de vastgestelde verdeelsleutel 5: 2: 4. De drie doelkostenobjecten zijn ACCESSO, VERF en TOEBEHOREN.  
+In dit artikel wordt beschreven hoe u drie nieuwe toewijzingsdoelkostenobjecten definieert voor de toewijzingsbron PROD-kostenplaats met behulp van de vastgestelde toewijzingsverhouding 5:2:4. De drie doelkostenobjecten zijn ACCESSO, VERF en TOEBEHOREN.  
 
 > [!NOTE]  
 > In het voorbeeld worden de demogegevens in de [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren
+### De verdelingsbron van kostenplaats PROD op het sneltabblad Algemeen definiëren  
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
@@ -89,7 +90,7 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 6. Voer in het veld **Kostenplaatscode** **PROD** in.  
 7. Voer in het veld **Credit naar kostensoort** het kostensoort **9903** in.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Verdeeldoelen voor kostenobjecten op de sneltabblad Regels definiëren
+### Verdeeldoelen voor kostenobjecten op de sneltabblad Regels definiëren  
 
 1. Voer op de eerste regel in het veld **Doelkostensoort** **9903** in.  
 2. Selecteer op de eerste regel in het veld **Doelkostenobject** **ACCESSO**.  
@@ -110,16 +111,16 @@ In dit onderwerp wordt beschreven hoe u drie nieuwe verdeeldoelen voor kostenobj
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] berekent automatisch het veld **Percentage** met een percentage dat wordt bepaald door alle drie de verdeelsleutels die zijn ingevoerd in het veld **Deel** voor alle drie de regels.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Dynamische toewijzingen op basis van de verkochte artikelen definiëren
+## Scenario 2: Dynamische toewijzingen definiëren op basis van verkochte artikelen
 
 Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behulp van de methode voor dynamische toewijzing. In het voorbeeld wijzigt u de dynamische toewijzing van de kosten voor kostenplaats VERKOOP ter ondersteuning van het nieuwe kostenobject IT-APPARATUUR. Pakketten voor IT-APPARATUUR hebben artikelnummers in het bereik van 8904-W t/m 8924-W. De verkoopcijfers van het vorige jaar kunt u gebruiken om het aandeel te berekenen. De toewijzing wordt geboekt op het ondersteunende kostensoort 9903.  
 
 > [!NOTE]  
 > In het voorbeeld worden de demogegevens in de [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt.  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht
+### Dynamische toewijzingen definiëren op basis van artikelen die het vorige jaar zijn verkocht  
 
-1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostenverdelingen** in en kies vervolgens de gerelateerde koppeling.  
+1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Kostenverdeling** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies op de pagina **Kostenverdeling** de actie **Nieuw**.  
 3. Selecteer in het veld **ID** op <kbd>Enter</kbd> of voer een id in.  
 4. Geef **1** op in het veld **Niveau**.  
@@ -137,7 +138,7 @@ Dit onderwerp bevat een voorbeeld van het definiëren van toewijzingen met behul
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] gebruikt de verkoopcijfers van de voorgaande jaren voor het berekenen van een aandeel van 1596,50 LV met 100 procent voor de pakketten voor IT-APPARATUUR. Dit betekent dat alle artikelen die vorig jaar zijn verkocht, worden toegewezen aan kostenobject IT-APPARATUUR.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)  
  [Kostenposten overbrengen en boeken](finance-transfer-and-post-cost-entries.md)  

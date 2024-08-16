@@ -1,20 +1,21 @@
 ---
-title: Overzicht van kosten verantwoorden
+title: Overzicht van de boekhouding van de kosten
 description: Kostprijsboekhouding helpt u begrijpen welke kosten er zijn verbonden aan het runnen van een bedrijf. Dit artikel bevat koppelingen naar andere artikelen met meer informatie.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 1123
-ms.date: 04/01/2021
+ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="accounting-for-costs"></a>Kosten verantwoorden
-Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Om aan de slag te gaan met kostprijsboekhouding kunt u de volgende onderwerpen raadplegen.  
 
-|Als u dit wilt doen|Zie|  
+# Kosten verantwoorden
+Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zijn aan het runnen van een bedrijf. Als u aan de slag wilt met kostprijsberekening, lees dan de volgende artikelen.  
+
+|Tot|Zie|  
 |--------|---------|  
 |De terminologie begrijpen die wordt gebruikt in kostprijsboekhouding.|[Terminologie in kostprijsboekhouding](finance-terminology-in-cost-accounting.md)|  
 |Een algemeen inzicht krijgen in kostprijsboekhouding.|[Kostprijsboekhouding](finance-about-cost-accounting.md)|  
@@ -24,7 +25,7 @@ Kostprijsboekhouding wordt gebruikt om te begrijpen welke kosten er verbonden zi
 |Op de hoogte zijn van de processen voor het maken van kostenbudgetten.|[Kostenbudgetten maken](finance-create-cost-budgets.md)|
 |Kostenbudgetposten uit het kostenbudgetregister annuleren.|[Kostenbudgetposten verwijderen](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>Zie ook
+## Zie ook  
 [Financiën](finance.md)  
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)  
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

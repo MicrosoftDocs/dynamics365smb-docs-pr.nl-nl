@@ -1,17 +1,18 @@
 ---
-title: Cashflows analyseren
+title: Kasstromen analyseren
 description: 'Beschrijft hoe u de diagrammen Cashcyclus, Inkomsten en uitgaven, Cashflow, en Cashflowprognose gebruikt om verleden en toekomstige stroom van geld in en uit uw bedrijf te analyseren.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
 ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
-ms.date: 12/20/2021
+ms.date: 07/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyze-cash-flow-in-your-company"></a>Cashflow in uw bedrijf analyseren
+
+# Analyseer de cashflow in uw bedrijf
 De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarvan u op een onderbouwde manier kunt bepalen wat u met uw contante geld moet doen.  
 
 | Ter beantwoording van vragen als onderstaande | Dit diagram gebruiken. |
@@ -19,7 +20,7 @@ De diagrammen in het rolcentrum Accountant bevatten inzichten aan de hand waarva
 | Hoe lang houdt het verkoopproces mijn contant geld vast?</br> Moet ik voorraadniveaus verhogen of verlagen? |Cashcyclus |
 | Wanneer is contant geld in en uit mijn bedrijf verplaatst?</br> Zijn sommige perioden beter dan andere? |Cashflow |
 | Lijken de getallen slecht voor een periode?</br> Moet ik dit onderzoeken? |Inkomsten en uitgaven |
-| Wanneer kan een kasoverschot of -tekort plaatsvinden?</br> Moet ik afbetalen of lenen om te voldoen aan verwachte kosten? |Cashflowprognoses |
+| Wanneer kan er sprake zijn van een kasoverschot of -tekort?</br> Moet ik afbetalen of lenen om te voldoen aan verwachte kosten? |Cashflowprognoses |
 
 In het rolcentrum Accountant vindt u onder **Rapportageschema** de diagrammen **Cashcyclus**, **Cashflow** en **Inkomsten en uitgaven** waarmee u cashflow kunt analyseren:  
 
@@ -36,18 +37,18 @@ Als u de prognose naast prognoseposten wilt onderzoeken, kunt u ook het cashflow
 * Schulden aftrekt en tegoeden optelt.  
 * Dubbele verkooporders en inkooporders overslaat.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Een cashflowvoorstel weergeven
+## Een cashflowvoorstel weergeven
 
 1. Zoek **Cashflowinstellingen** en kies vervolgens de verwante koppeling.  
 2. Kies een cashflowprognose en kies vervolgens de actie **Cashflowvoorstel**.  
 3. Kies op de pagina **Cashflowvoorstel** de actie **Voorstelregels voorstellen**.  
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
-[Financiën instellen](finance-setup-finance.md)  
-[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Cashflowanalyse instellen](finance-setup-cash-flow-analyses.md)  
-[Een prognose van uw cashflow geven in Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Cashflowprognoses instellen met Azure AI in Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
+[Financiën opzetten](finance-setup-finance.md)    
+[Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+[Cashflowanalyse opzetten](finance-setup-cash-flow-analyses.md)    
+[Voorspel uw cashflow in Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)    
+[Cashflowprognoses instellen met Azure AI in Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

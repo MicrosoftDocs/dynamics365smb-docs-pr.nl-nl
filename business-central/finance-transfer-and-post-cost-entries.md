@@ -1,16 +1,17 @@
 ---
-title: Kostenposten overbrengen en boeken
+title: Kostenposten overdragen en boeken
 description: 'Voordat u kostenverdelingen definieert, moet u de verschillende bronnen begrijpen waaruit kostenposten afkomstig zijn.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="transferring-and-posting-cost-entries"></a>Kostenposten overbrengen en boeken
+
+# Kostenposten overdragen en boeken
 
 Voordat u kostenverdelingen definieert, moet u begrijpen hoe kostenposten uit de volgende bronnen worden opgehaald:  
 
@@ -19,9 +20,9 @@ Voordat u kostenverdelingen definieert, moet u begrijpen hoe kostenposten uit de
 - Automatisch toegewezen boekingen voor werkelijke kosten.  
 - Overdracht van budgetposten naar werkelijke posten.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Criteria voor het overbrengen van grootboekposten naar kostenposten
+## Criteria voor het overdragen van grootboek-posten naar kostenposten
 
-Het is belangrijk dat u een goed begrip heeft van de criteria voor het overbrengen van grootboekposten naar kostenposten. Tijdens de overdracht maakt de batchverwerking **Grootboekposten overbrengen naar kostprijsboekhouding** gebruik van de volgende criteria om te bepalen of en hoe de grootboekposten worden overgebracht.  
+Het is belangrijk om de criteria voor het overdragen van grootboek-posten naar kostenposten te begrijpen. Tijdens de overdracht maakt de batchverwerking **Grootboekposten overbrengen naar kostprijsboekhouding** gebruik van de volgende criteria om te bepalen of en hoe de grootboekposten worden overgebracht.  
 
 Grootboekposten worden overgebracht in de volgende gevallen:  
 
@@ -30,23 +31,23 @@ Grootboekposten worden overgebracht in de volgende gevallen:
 - Het documentnummer in de posten is leeg, en wordt daarom weergegeven met documentnummer 0000 in de kostenposten.  
 - De posten worden overgebracht naar een kostensoort dat gecombineerde posten toestaat, en deze posten worden maandelijks of dagelijks overgebracht als een gecombineerde post.  
 
-Grootboekposten worden niet overgebracht in de volgende gevallen:  
+grootboek-items worden niet overgedragen als:  
 
-- De posten hebben dimensiewaarden die geen bijbehorende kostenplaats of kostenobject hebben.  
+- De vermeldingen hebben dimensiewaarden die niet overeenkomen met een kostenplaats of een kostenobject.  
 - De posten bevatten een bedrag met waarde nul.  
 - De posten zijn van een grootboekrekening die is verwijderd.  
-- De posten hebben een grootboekrekening die niet van het soort **Resultatenrekening** is.  
-- De posten hebben een grootboekrekening waaraan geen kostensoort is toegewezen.  
+- De posten hebben een rekening grootboek die niet van het type  **Winst- en verliesrekening is**.  
+- De boekingen hebben een rekening grootboek waaraan geen kostentype is toegewezen.  
 - De posten hebben een boekingsdatum vóór de **Begindatum voor GB-overdracht**.  
 - De posten zijn geboekt met een ultimodatum. Dit zijn meestal de posten die een negatief effect hebben op het saldo van de resultatenrekening aan het einde van het jaar.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Grootboekposten overbrengen naar kostenposten.
+## grootboek-posten overzetten naar kostenposten
 
 U kunt grootboekposten overbrengen naar kostenposten.  
 
 Voordat u begint met de bewerking om grootboekposten over te brengen naar kostenposten, moet u de overdracht voorbereiden zodat wordt voorkomen dat u fouten handmatig moet corrigeren die tijdens de boeking worden gemaakt.  
 
-### <a name="to-prepare-the-transfer"></a>De overdracht voorbereiden
+### De overdracht voorbereiden  
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Instelling kostprijsboekhouding** in en kies vervolgens de gerelateerde koppeling.  
 2.  Controleer op de pagina **Instelling kostprijsboekhouding** of het veld **Begindatum voor GB-overdracht** op de juiste waarde is ingesteld.  
@@ -56,14 +57,14 @@ Voordat u begint met de bewerking om grootboekposten over te brengen naar kosten
 6.  Voor elke gewenste grootboekrekening controleert u op de pagina **Grootboekrekening** of het veld **Nr. kostensoort** juist is gekoppeld aan een kostensoort. Zie [Kostenboekhouding instellen](finance-set-up-cost-accounting.md) voor meer informatie.  
 7.  Controleer of alle relevante grootboekposten over dimensiewaarden beschikken die overeenkomen met een kostenplaats en een kostenobject.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Grootboekposten overbrengen naar kostenposten.
+### Grootboekposten overbrengen naar kostenposten.
 
 1.  Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Grootboekposten overbrengen naar kostprijsboekhouding** in en kies vervolgens de gerelateerde koppeling.  
-2.  Klik op **Ja** om de overdracht te starten. Tijdens de bewerking worden alle grootboekposten overgebracht die niet al zijn overgebracht.  
+2.  Klik op **Ja** om de overdracht te starten. Het proces draagt alle grootboek-vermeldingen over die nog niet zijn overgedragen.  
 
 Tijdens de overdracht worden door het proces verbindingen in de posten in de tabel **Kostenpost** en de tabel **Kostenregister** gemaakt. Hierdoor kunt de bron van de kostenposten traceren.
 
-## <a name="automatic-transfer-and-combined-entries"></a>Automatische overdracht en gecombineerde posten
+## Automatische overdracht en gecombineerde boekingen
 
 In kostprijsboekhouding kunt u grootboekposten overbrengen naar een kostensoort door middel van een gecombineerde boeking. U kunt opgeven of een kostensoort gecombineerde posten ontvangt in het veld **Posten combineren** in de definitie van het kostensoort. De volgende tabel beschrijft de verschillende opties.  
 
@@ -76,15 +77,15 @@ In kostprijsboekhouding kunt u grootboekposten overbrengen naar een kostensoort 
 > [!IMPORTANT]  
 >  Als u het selectievakje **Automatisch overdragen van GB** op de pagina **Instelling kostprijsboekhouding** hebt ingeschakeld, wordt de kostprijsboekhouding automatisch bijgewerkt in [!INCLUDE[prod_short](includes/prod_short.md)] na elke boeking in het grootboek. Gecombineerde posten zijn niet mogelijk.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultaten van het overbrengen van grootboekposten naar kostenposten
+## Resultaten van het overbrengen van grootboek-posten naar kostenposten
 
 Tijdens de overdracht van grootboekposten naar kostenposten, maakt [!INCLUDE[prod_short](includes/prod_short.md)] verbindingen aan in de posten in de tabel **Grootboekpost**, de tabel **Kostenpost** en de tabel **Kostenregister** om de verbindingen tussen kostenposten en grootboekposten te kunnen traceren.  
 
-### <a name="general-ledger-entries"></a>Grootboekposten
+### Grootboekposten
 
 Voor elke grootboekpost die wordt overgebracht naar kostprijsboekhouding, vult [!INCLUDE[prod_short](includes/prod_short.md)] de kosten in het veld **Postnr.** in.  
 
-### <a name="cost-entries"></a>Kostenposten
+### Kostenposten
 
 Voor elke kostenpost slaat [!INCLUDE[prod_short](includes/prod_short.md)] het nummer van de bijbehorende grootboekpost op in het veld **Grootboekpostnr.** in de tabel **Kostenpost**.  
 
@@ -94,11 +95,11 @@ Het veld **Grootboekrekening** in de tabel **Kostenpost** bevat het nummer van d
 
 Voor enkele kostenposten wordt de boekingstekst door [!INCLUDE[prod_short](includes/prod_short.md)] uit de grootboekpost overgebracht naar het tekstveld **Beschrijving**. Voor gecombineerde posten laat dit tekstveld zien dat deze posten als gecombineerde posten zijn overgebracht. Voor een gecombineerde post voor de maand oktober 2013 luidt de tekst mogelijk bijvoorbeeld **Gecombineerde posten, oktober 2013**.  
 
-### <a name="cost-register"></a>Kostenregister
+### Kostenregister
 
-In de tabel **Kostenregister**, wordt door [!INCLUDE[prod_short](includes/prod_short.md)] een post gemaakt met de bronoverdracht van het grootboek. Door de post worden de eerste en laatste nummers van de overgebrachte grootboekposten vastgelegd, evenals de eerste en laatste nummers van de kostenposten die zijn gemaakt.
+In de tabel **Kostenregister**, wordt door [!INCLUDE[prod_short](includes/prod_short.md)] een post gemaakt met de bronoverdracht van het grootboek. In deze boeking worden de eerste en laatste boekingsnummers vastgelegd van de grootboek-boekingen die worden overgedragen, naast de eerste en laatste boekingsnummers van de kostenboekingen die worden aangemaakt.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
  [Over kostprijsboekhouding](finance-about-cost-accounting.md)  
  [Kostenboekhouding instellen](finance-set-up-cost-accounting.md)  
