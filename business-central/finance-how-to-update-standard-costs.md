@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Standaardkosten bijwerken
+# <a name="update-standard-costs"></a>Standaardkosten bijwerken
 U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken en de nieuwe kosten tot aan het hoofdartikel berekenen. Het proces bestaat meestal uit de volgende vier stappen:  
 
 1.  Kosten bijwerken op het niveau van onderdeel en capaciteit. Zie voor meer informatie de batchverwerking **Vaste verrekenprijs artikel voorstellen**.  
@@ -21,7 +21,7 @@ U moet regelmatig de vaste verrekenprijzen van onderdelen bijwerken en de nieuwe
 
 Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) voor nadere informatie.
   
-## Vaste verrekenprijs aanpassen
+## <a name="to-update-standard-costs"></a>Vaste verrekenprijs aanpassen
 
 1.  Voer de batchverwerking **Kostprijs herwaarderen - Artikelposten** uit. Als u de batchverwerking wilt starten, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Kostprijs herwaarderen - Artikelposten** in en kies vervolgens de gerelateerde koppeling. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Bekijk de resultaten en breng desgewenst wijzigingen aan.  
 2.  Voer de batchverwerking **Voorraadwaarde boeken** uit. Als u de batchverwerking wilt starten, kiest u het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Voorraadwaarde boeken naar GB** in en kies vervolgens de gerelateerde koppeling. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Bekijk de resultaten en breng desgewenst wijzigingen aan.  
@@ -36,7 +36,7 @@ Zie [Vaste verrekenprijs berekenen](finance-about-calculating-standard-cost.md) 
     7.  Voer de batchverwerking **Vaste verrekenprijswijzigingen doorvoeren** uit.  
 4.  Controleer en publiceer de pagina  **Artikelherwaarderingsjournalen**, die is gevuld met posten uit de vorige stappen in dit proces.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
  [Informatie over het berekenen van vaste verrekenprijzen](finance-about-calculating-standard-cost.md)   
  [Voorraadkosten beheren](finance-manage-inventory-costs.md)   

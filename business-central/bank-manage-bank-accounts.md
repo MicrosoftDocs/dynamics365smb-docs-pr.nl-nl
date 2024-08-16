@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Beheer en stem uw bankrekeningen af
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Beheer en stem uw bankrekeningen af
 
 Voor al uw bankrekeningen moet op gezette tijden een bankafstemming worden uitgevoerd om ervoor te zorgen dat de kasgegevens van het bedrijf correct zijn. U doet dit door boekingen op uw interne bankrekeningen te vergelijken en af te stemmen met banktransacties bij uw bank en vervolgens de saldi op uw interne bankrekeningen te boeken om totalen beschikbaar te stellen voor financiële managers. Bankafstemming is ook een praktische manier om ontbrekende betalingen en boekhoudfouten te ontdekken en op te lossen.
 
@@ -33,7 +33,7 @@ De volgende tabel beschrijft een reeks taken, met koppelingen naar de artikelen 
 > [!TIP]
 > Gebruik bankreconciliatie om te controleren of uw boeken up-to-date zijn en boek de reconciliatie pas als u er tevreden mee bent.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bankieren instellen](bank-setup-banking.md)  
 [Bankrekeningen reconciliëren](bank-how-reconcile-bank-accounts-separately.md)  

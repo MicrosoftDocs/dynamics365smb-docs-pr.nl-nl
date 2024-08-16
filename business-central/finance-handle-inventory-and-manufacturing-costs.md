@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Omgaan met voorraad- en productiekosten
+# <a name="handling-inventory-and-manufacturing-costs"></a>Omgaan met voorraad- en productiekosten
 
 Hoewel een groot deel van de functionaliteit voor kostenberekening tot uitdrukking komt in onderliggende processen zonder gebruikersinteractie, zoals invoertoepassingen en automatische kostenaanpassingen, zijn veel velden, pagina's en rapporten bedoeld voor gebruikers die direct of indirect de kosten van artikelen of bewerkingen beheren.  
 
@@ -30,7 +30,7 @@ Hoewel een groot deel van de functionaliteit voor kostenberekening tot uitdrukki
 |Een artikelvereffening handmatig ongedaan maken of door de toepassing gemaakte artikelposten opnieuw vereffenen.|[Artikelposten verwijderen en opnieuw toepassen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Gebruik het veld **Vereffenen van post** in het artikeldagboek om een vaste vereffening tussen een inkomende transactie en de oorspronkelijke uitgaande transactie te maken.|[Open artikelposten die uit een vaste vereffening in het artikeldagboek voortkomen sluiten](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraadkosten beheren](finance-manage-inventory-costs.md)    
 [Ontwerpdetails: Voorraadwaardering](design-details-inventory-costing.md)    

@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Plaats de jaarafsluiting
+# <a name="post-the-year-end-closing-entry"></a>Plaats de jaarafsluiting
 
 Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaareinde-ultimopost of -posten te boeken, moet u het dagboek openen dat u in de batchverwerking hebt opgegeven en vervolgens de posten herzien en boeken.  
 
 > [!TIP]
 > Afhankelijk van de werkprocessen van uw organisatie, kunt u ervoor kiezen om boekhoudkundige perioden en boekjaren wel of niet af te sluiten in [!INCLUDE [prod_short](includes/prod_short.md)]. Bij de volgende procedure wordt ervan uitgegaan dat u het boekjaar hebt afgesloten met de optie *Boekhoudperioden*, een jaarafsluitingspost hebt gegenereerd met behulp van de batchverwerking **Resultatenrekeningen sluiten** en nu klaar bent om de jaarafsluitingspost te boeken samen met de uitstellende vermogensrekeningboekingen. Uw organisatie kan ervoor kiezen om anders te werken, zoals het boeken van de jaarafsluitingspost als onderdeel van het afsluiten van het boekjaar.
 
-## De jaareinde-ultimopost boeken
+## <a name="to-post-the-year-end-closing-entry"></a>De jaareinde-ultimopost boeken
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Selecteer op de pagina  **Algemene dagboeken**  in het veld  **Batchnaam**  de batch die de sluitende posten bevat.
@@ -28,7 +28,7 @@ Nadat u de batchverwerking **Afsluiten WenV-rekening** hebt gebruikt om de jaare
 > [!NOTE]  
 > Als een fout wordt gedetecteerd, wordt een foutbericht weergegeven. Als de boeking is geslaagd, worden de geboekte posten uit het dagboek gehaald. Nadat de boeking is voltooid, wordt een post geboekt in elke resultatenrekening zodat het saldo nul wordt en het jaarresultaat wordt overgebracht naar de balans.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Sluiten Boekhoudperioden](year-close-account-periods.md)    
 [Boeken sluiten](year-close-books.md)    

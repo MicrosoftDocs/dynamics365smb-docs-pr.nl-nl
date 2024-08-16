@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Het voorbereiden van slotverklaringen
+# <a name="preparing-closing-statements"></a>Het voorbereiden van slotverklaringen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt standaardrapporten aan waarmee u de informatie kunt verzamelen die u nodig hebt om de financiële overzichten van uw bedrijf op te stellen. In de volgende tabel worden de rapporten beschreven.  
 
@@ -27,7 +27,7 @@ ms.reviewer: jswymer
 
 Om een rapport te vinden, kiest u de ![gloeilamp die de Vertel het me-functie opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") typt u de naam zoals deze in de tabel wordt weergegeven en kiest u vervolgens de gerelateerde koppeling.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Afsluitende jaren en periodes](year-close-years-periods.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

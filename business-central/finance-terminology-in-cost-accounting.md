@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Terminologie in kostenberekening
+# <a name="terminology-in-cost-accounting"></a>Terminologie in kostenberekening
 
 In dit artikel worden de belangrijkste termen gedefinieerd die in de kostprijsberekening worden gebruikt.  
 
-## Kernbegrippen
+## <a name="key-terms"></a>Kernbegrippen
 
  De volgende tabel bevat definities van belangrijke termen in kostprijsboekhouding.  
 
@@ -44,7 +44,7 @@ In dit artikel worden de belangrijkste termen gedefinieerd die in de kostprijsbe
 |Variabele kosten|Variabele kosten zijn kosten die wijzigen in relatie met de activiteiten van een bedrijf. Variabele kosten zijn de som van de marginale kosten over alle geproduceerde eenheden. Vaste en variabele kosten vormen de twee onderdelen van de totale kosten.|  
 |Variant|Een variant wordt gebruikt als een optioneel door de gebruiker gedefinieerd label voor toewijzingen. Het doel van het label is toegewezen groepen filteren.|  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
  [Over kostprijsboekhouding](finance-about-cost-accounting.md)  
  [Kosten verantwoorden](finance-manage-cost-accounting.md)  

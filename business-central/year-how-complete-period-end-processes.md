@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Overzicht van taken voor Sluiten boekhoudperioden
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Overzicht van taken voor Sluiten boekhoudperioden
 
 [!INCLUDE[prod_short](includes/prod_short.md)] dwingt u niet tot Sluiten-periodes, maar er zijn veel activiteiten aan het einde van de periode (maandeinde) die u kunt doen. Dit artikel biedt een overzicht van optionele processen en activiteiten voor afsluitingsperioden.  
 
-## Grootboek
+## <a name="general-ledger"></a>Grootboek
 
 * Geef de boekingsperioden voor het gehele systeem of een specifieke gebruiker op.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 * Voer financiële rapporten als volgt uit:  
   * Open de pagina **Financiële rapporten** en kies de actie **Afdrukken**.  
 
-## Verkopen en tegoeden
+## <a name="sales-and-receivables"></a>Verkopen en tegoeden
 
 * Boek alle verkooporders, facturen, creditnota's en retourorders.  
 * Boek alle ontvangstendagboeken.  
@@ -34,7 +34,7 @@ ms.reviewer: jswymer
 * Reconcilieer klanten met het grootboek.  
 * Voer de batchverwerking **Gefactureerde verkooporders verwijderen** uit.  
 
-## Inkopen en schulden
+## <a name="purchases-and-payables"></a>Inkopen en schulden
 
 * Boek alle inkooporders, facturen, creditnota's en retourorders.  
 * Boek alle betalingsdagboeken.  
@@ -42,7 +42,7 @@ ms.reviewer: jswymer
 * Voer het rapport **Vervallen betalingen** uit en reconcilieer leveranciers met het grootboek.  
 * Voer de batchverwerking **Gefactureerde inkooporders verwijderen** uit.  
 
-## Vaste activa
+## <a name="fixed-assets"></a>Vaste activa
 
 * Boek alle onderhoudskosten die zijn geboekt via de VA-dagboeken of -facturen.
 * Boek herwaarderingen.
@@ -50,15 +50,15 @@ ms.reviewer: jswymer
 * Boek afschrijving.
 * Wijzig en boek het periodiek VA-dagboek.
 
-## Intercomp
+## <a name="intercompany"></a>Intercomp
 
 * IC-transacties verwerken.
 
-## Btw berekenen en verwerken
+## <a name="calculate-and-process-sales-tax"></a>Btw berekenen en verwerken
 
 * Belastingaangiften invullen.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Jaren en perioden afsluiten](year-close-years-periods.md)  
 [Boeken afsluiten](year-close-books.md)  
