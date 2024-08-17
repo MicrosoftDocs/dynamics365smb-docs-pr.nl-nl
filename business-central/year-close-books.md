@@ -12,12 +12,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="closing-the-books"></a>De boeken sluiten
+# De boeken sluiten
 Nadat gezorgd hebt dat alle rekeningen actueel zijn, en u kosten en inkomsten hebt verdeeld, kunt u de boeken van een boekhoudperiode of boekjaar sluiten.
 
 U bent niet verplicht om Sluiten een jaar lang te gebruiken, maar het maakt het werken in het systeem wel makkelijker voor u, omdat u gebruik kunt maken van de handige filteropties die worden geboden. Bovendien hoeft u zich geen zorgen te maken over het verlies van transactiedetails wanneer u het jaar afsluit omdat alle details behouden blijven, zelfs nadat u het jaar hebt afgesloten.
 
-## <a name="closing-book-process"></a>Sluitingsproces van het boek
+## Sluitingsproces van het boek
 Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
 1. De boekingsperiode afsluiten.
@@ -39,7 +39,7 @@ Bij het proces voor het afsluiten van boeken zijn drie hoofdtaken betrokken:
 
     Zie [Jaareinde-ultimopost boeken](year-how-post-year-end-close-entry.md) voor meer informatie.
 
-## <a name="what-happens-when-you-close"></a>Wat er gebeurt wanneer u afsluit
+## Wat er gebeurt wanneer u afsluit
 
 Wanneer u het boekjaar aan het einde van het jaar afsluit, verplaatst het systeem uw resultaten van de berekende resultaten. Het systeem markeert tevens het boekjaar als "afgesloten," en markeert alle volgende posten voor het afgesloten jaar als "posten van het vorige jaar."
 
@@ -47,7 +47,7 @@ Het systeem genereert vervolgens een afsluitende boeking, maar boekt de boeking 
 
 U kunt in een eerder boekjaar boeken, zelfs nadat de resultatenrekeningen zijn gesloten, als u nadien nogmaals de batchverwerking Afsluiten WenV-rekening uitvoert.
 
-## <a name="see-also"></a>Zie ook
+## Zie ook
 
 [Werken met boekhoudperioden en boekjaren](finance-accounting-periods-and-fiscal-years.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
