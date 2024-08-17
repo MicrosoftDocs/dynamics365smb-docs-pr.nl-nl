@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Bankgeld overmaken
+# <a name="transfer-bank-funds"></a>Bankgeld overmaken
 
 Soms moet u een bedrag overmaken van de ene bankrekening naar de andere. [!INCLUDE[prod_short](includes/prod_short.md)]  Om dit te doen, moet u de transactie op de pagina  **Algemene dagboeken**  boeken. De taak verschilt afhankelijk van of de bankrekeningen dezelfde valuta gebruiken of niet.
 
-## Een transfer boeken tussen bankrekeningen met dezelfde valutacode
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Een transfer boeken tussen bankrekeningen met dezelfde valutacode
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Financiële dagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op een dagboekregel de velden **Boekingsdatum** en **Documentnr.** in.
@@ -29,7 +29,7 @@ Soms moet u een bedrag overmaken van de ene bankrekening naar de andere. [!INCLU
 7. Selecteer in het veld **Tegenrekeningnr.** de bankrekening waarnaar u de fondsen wilt overbrengen.
 8. Boek het dagboek.
 
-## Transfers boeken tussen bankrekeningen met verschillende valutacodes
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Transfers boeken tussen bankrekeningen met verschillende valutacodes
 
 Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's gebruiken, moet u twee dagboekregels boeken.
 
@@ -66,7 +66,7 @@ Als u gelden wilt overbrengen tussen bankrekeningen die verschillende valuta's g
     > Een bedrag zonder minteken is een debetbedrag, een bedrag met een minteken is een kredietbedrag.
 10. Boek het dagboek.
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Bankrekeningen reconciliëren](bank-manage-bank-accounts.md)  
 [Bankieren instellen](bank-setup-banking.md)  

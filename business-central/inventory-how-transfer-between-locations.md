@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# Voorraad overbrengen tussen vestigingen
+# <a name="transfer-inventory-between-locations"></a>Voorraad overbrengen tussen vestigingen
 
 U kunt voorraadartikelen tussen vestigingen overbrengen door transferorders te maken. U kunt ook het artikelherindelingsdagboek gebruiken.
 
 > [!NOTE]
 > Als u artikelen wilt overbrengen, moet u locaties en transferroutes instellen. Ga naar  [Locaties instellen voor meer informatie over het instellen van locaties](inventory-how-setup-locations.md). U kunt geen transferorders gebruiken voor *lege* locaties.
 
-## Transferorders
+## <a name="transfer-orders"></a>Transferorders
 
 U kunt een uitgaande transfer vanuit de ene vestiging verzenden en een inkomende transfer op de bestemming ontvangen. U kunt het volgende doen:
 
@@ -28,7 +28,7 @@ U kunt een uitgaande transfer vanuit de ene vestiging verzenden en een inkomende
 * Gebruik verschillende magazijnfuncties voor inkomende en uitgaande locaties.
 * Gebruik met enkele beperkingen transferorders voor directe transfers.
 
-## Artikelherindelingsdagboeken
+## <a name="item-reclassification-journals"></a>Artikelherindelingsdagboeken
 
 U kunt de pagina **Artikelherindelingsdagboek** gebruiken voor het volgende:
 
@@ -39,7 +39,7 @@ U kunt de pagina **Artikelherindelingsdagboek** gebruiken voor het volgende:
 * Herindeel artikelen van een lege locatie naar een daadwerkelijke locatie.
 * Magazijnposten maken als u geen magazijnactiviteiten beheert.
 
-## Artikelen overbrengen met een transferorder
+## <a name="to-transfer-items-with-a-transfer-order"></a>Artikelen overbrengen met een transferorder
 
 1. Kies het pictogram ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Transferorders** in en kies vervolgens de gerelateerde koppeling
 2. Vul op de pagina **Transferorder** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ U kunt de pagina **Artikelherindelingsdagboek** gebruiken voor het volgende:
     Als magazijnmedewerker op de aflevervestiging gaat u verder om de artikelen te ontvangen. De tranferorderregels zijn dezelfde als bij verzending en kunnen niet worden bewerkt.
 5. Kies de actie **Boeken**, kies de optie **Ontvangen** en kies vervolgens de knop **OK**.
 
-### Een transferverzending ongedaan maken
+### <a name="undo-a-transfer-shipment"></a>Een transferverzending ongedaan maken
 
 Als u een fout vindt in een hoeveelheid op een geboekte transferorder, kunt u de hoeveelheid eenvoudig corrigeren zolang de zending niet is ontvangen. Op de pagina  **Geboekte overdrachtszending** maakt de actie  **Zending ongedaan maken** correctieregels aan, als volgt:
 
@@ -76,7 +76,7 @@ Als de verzonden hoeveelheid in een magazijnzending is, wordt er een correctiere
 
 Om de correctie te voltooien, heropent u de transferorder, voert u het juiste aantal in en boekt u de order. Als u een magazijnverzending gebruikt om de bestelling te verzenden, maakt en boekt u een nieuwe magazijnverzending.
 
-### Meerdere overboekingsopdrachten in een batch boeken
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Meerdere overboekingsopdrachten in een batch boeken
 
 In de volgende procedure wordt uitgelegd hoe u transferorders in een batch boekt.
 
@@ -96,7 +96,7 @@ In de volgende procedure wordt uitgelegd hoe u transferorders in een batch boekt
     > [!NOTE]
     > Het boeken van meerdere documenten kan enige tijd duren en andere gebruikers blokkeren. Overweeg om boeken op de achtergrond in te schakelen. Zie voor meer informatie [Gebruik van taakwachtrijen om taken te plannen](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Plan een taakwachtrijpost om meerdere documenten in een batch te boeken
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Plan een taakwachtrijpost om meerdere documenten in een batch te boeken
 
 U kunt ook de taakwachtrij gebruiken om boekingen te plannen op een tijdstip dat het uw organisatie uitkomt. Het kan bijvoorbeeld zinvol zijn voor uw bedrijf om bepaalde routines uit te voeren wanneer de meeste gegevensinvoer voor die dag is gedaan.
 
@@ -116,7 +116,7 @@ In de volgende procedure wordt getoond hoe u het rapport **Transferorders per ba
 8. Voer in het veld **Starttijd** de waarde **4 PM** in.
 9. Kies de actie **Status instellen op Gereed**.
 
-### Vergelijking van verschillende instellingen voor overdrachtsopdrachten
+### <a name="comparison-of-different-settings-for-transfer-orders"></a>Vergelijking van verschillende instellingen voor overdrachtsopdrachten
 
 U kunt overdrachtsopdrachten op verschillende manieren plaatsen, met of zonder een in-transitlocatie. Schakel de schakelaar  **Directe overdracht** uit en selecteer de tijdelijke locatie in het veld  **In transitcode** op de pagina  **Overdrachtsopdracht** . Wanneer u de verzending van een overdrachtsorder boekt die gebruikmaakt van de locatie 'in transit', zijn de artikelen op de regel niet langer beschikbaar op een van uw locaties omdat ze onderweg zijn. Directe boeking zorgt ervoor dat er geen gebruik wordt gemaakt van een in-transitlocatie en dat het verzend- en ontvangstproces gelijktijdig plaatsvinden. Het exacte gedrag van directe boeking kan verschillen, afhankelijk van de waarde die is geselecteerd in het veld  **Directe overboeking** op de pagina  **Voorraadinstellingen** .
 
@@ -153,7 +153,7 @@ Ongeacht de methode worden de verzend- en ontvangsttransacties uitgevoerd. U kun
 
 Voor meer informatie over magazijnbeheer, zie  [Overzicht magazijnbeheer](design-details-warehouse-management.md).
 
-## Artikelen overbrengen met het artikelherindelingsdagboek
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Artikelen overbrengen met het artikelherindelingsdagboek
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Artikelherindelingsdagboeken** in en kies vervolgens de gerelateerde koppeling.
 2. Vul op de pagina **Artikelherindelingsdagboeken** indien nodig de velden in. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Voor meer informatie over magazijnbeheer, zie  [Overzicht magazijnbeheer](design
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Voorraad beheren](inventory-manage-inventory.md)  
 [Vestigingen instellen](inventory-how-setup-locations.md)  

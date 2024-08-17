@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Correcte vooruitbetalingen
+# <a name="correct-prepayments"></a>Correcte vooruitbetalingen
 
 Nadat u een vooruitbetalingsfactuur voor de order hebt geboekt, kunt u een correctie aanbrengen op een order. U kunt nieuwe regels aan een order toevoegen nadat u een vooruitbetaling hebt gedaan. Vervolgens kunt u een nieuwe vooruitbetalingsfactuur boeken. U kunt echter geen regel uit een order verwijderen nadat er al een vooruitbetaling voor de regel is gefactureerd.  
 
 > [!TIP]
 > Als u een vooruitbetalingsfactuur hebt geboekt voor een verkoopfactuur die u vervolgens corrigeert of annuleert, moet u de vooruitbetaling ook corrigeren of annuleren.
 
-## Een vooruitbetalingen storneren
+## <a name="to-correct-a-prepayment"></a>Een vooruitbetalingen storneren
 
 De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om alle gefactureerde vooruitbetalingen voor een verkooporder te annuleren.  
 
@@ -33,7 +33,7 @@ De volgende procedure toont hoe u een vooruitbetalingscreditnota verzendt om all
 5. Als u een vooruitbetalingsfactuur wilt maken voor nieuwe regels in de verkoopcreditnota, kiest u de actie **Vooruitbetaling** en kiest u vervolgens de actie **Vooruitbetalingsfactuur boeken** of **Vooruitbetalingsfactuur boeken en afdrukken**.  
 6. Als u een extra vooruitbetalingsfactuur wilt verzenden, verhoogt u het vooruitbetalingsbedrag op een of meer regels en past u de vooruitbetalingsfactuur aan. Er wordt een nieuwe factuur gemaakt voor het verschil tussen de tot nu toe gefactureerde vooruitbetalingsbedragen en de nieuwe vooruitbetalingsbedragen.  
 
-## Zie ook
+## <a name="see-also"></a>Zie ook
 
 [Vooruitbetalingen factureren](finance-invoice-prepayments.md)  
 [Procedure: Vooruitbetalingen verkoop instellen en factureren](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
