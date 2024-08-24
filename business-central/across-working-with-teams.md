@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 12/12/2023
+ms.date: 08/14/2024
 ms.author: jswymer
 ms.custom: bap-template
 ---
@@ -17,22 +17,9 @@ ms.custom: bap-template
 
 [!INCLUDE [prod_short](includes/prod_short.md)] biedt een aantal manieren om gegevens uit Business Central rechtstreeks te delen in een Microsoft Teams-gesprek:
 
-<!-- 
-## Overview
-In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
-The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
-[!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
-
--->
 - Met de [!INCLUDE [prod_short](includes/prod_short.md)]-app geïnstalleerd in Teams kunt u een interactieve kaart van een Business Central-record opnemen in een Teams-gesprek.
 
-<!--   Copy a link from any Business Central record, like a customer or sales order, then paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
-
-  [![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)-->
-
 - Met of zonder de [!INCLUDE [prod_short](includes/prod_short.md)]-app geïnstalleerd kunt u een koppeling vanuit pagina's in Business Central naar een Teams-gesprek delen.
-
-  <!-- ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 In de volgende secties worden de verschillende manieren gedetailleerd beschreven.
 
@@ -40,7 +27,7 @@ In de volgende secties worden de verschillende manieren gedetailleerd beschreven
 
 Met de Business Central-app voor Teams kunt u een koppeling kopiëren vanuit elke Business Central-record, zoals een klant of verkooporder, en de koppeling in een Teams-gesprek plakken. De app maakt verbindt Microsoft Teams met uw bedrijfsgegevens in [!INCLUDE [prod_short](includes/prod_short.md)]\. De koppeling wordt vervolgens uitgebreid tot een compacte, interactieve kaart die informatie over de record weergeeft. Eenmaal in het gesprek kunnen u en collega's meer details over de record bekijken, gegevens bewerken en actie ondernemen&mdash;zonder Teams te verlaten.
 
-[![Teams-integratie met Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
+[![Teams-integratie met Business Central.](media/teams-intro-vBC24.png)](media/teams-intro-vBC24.png#lightbox)
 
 ### Vereisten
 
@@ -48,7 +35,7 @@ Met de Business Central-app voor Teams kunt u een koppeling kopiëren vanuit elk
 - U hebt de [!INCLUDE [prod_short](includes/prod_short.md)]-app in Teams geïnstalleerd. Zie voor meer informatie [De [!INCLUDE [prod_short](includes/prod_short.md)]-app voor Microsoft Teams](across-install-app-for-teams.md) installeren
 
 > [!NOTE]
-> Alle deelnemers aan een Teams-gesprek kunnen kaarten bekijken voor Business Central-records die u indient bij het gesprek. Maar om meer details over records te bekijken door de knop **Details** of **Nieuw venster** op een kaart te gebruiken, hebben ze toegang nodig tot [!INCLUDE [prod_short](includes/prod_short.md)]. Zie voor meer informatie [Microsoft Teams-integratie beheren](admin-teams-integration.md#minimum-requirements-1).
+> Alle deelnemers aan een Teams-gesprek kunnen kaarten bekijken voor Business Central-records die u indient bij het gesprek. Maar om meer details over records te bekijken door de knop **Details** of **Nieuw venster** op een kaart te gebruiken, hebben ze toegang nodig tot [!INCLUDE [prod_short](includes/prod_short.md)]. Meer informatie vindt u in [Integratie beheren Microsoft Teams](admin-teams-integration.md#minimum-requirements-1).
 
 ### Een Business Central-kaart opnemen in een Teams-gesprek
 
@@ -64,7 +51,7 @@ Met de Business Central-app voor Teams kunt u een koppeling kopiëren vanuit elk
 4. Ga naar Teams en start een gesprek. Dat kan chatten met een persoon, een groep personen of een teamkanaal zijn.
 5. Plak de koppeling (URL) in het berichtvak waarin u een bericht opstelt.
 
-    ![Plak de Business Central-URL in Teams.](media/teams-paste-url-v2.png)
+    ![Plak de Business Central-URL in Teams.](media/teams-paste-url-v3.png)
 
     > [!TIP]
     > Als u een bericht krijgt als *Business Central wil een voorbeeld van deze koppeling laten zien.*, betekent dit dat u de Business Central-app voor Teams niet hebt geïnstalleerd. Als u de app wilt installeren, selecteert u **Voorbeeld weergeven** en volgt u de instructies.
@@ -90,7 +77,7 @@ Hier zijn een paar dingen waarmee u rekening moet houden wanneer u met de kaartg
 - Om de kaartdetails te openen moeten gebruikers de machtiging op de pagina en de gegevens ervan hebben in [!INCLUDE [prod_short](includes/prod_short.md)]\..
 - Kaarten in Teams-chats worden niet automatisch bijgewerkt met wijzigingen. Alle wijzigingen die u opslaat in een record in het detailvenster, worden opgeslagen in [!INCLUDE [prod_short](includes/prod_short.md)]\.. Maar de kaart in Teams geeft de wijzigingen in de conversie pas weer als u de koppeling opnieuw plakt.
 
-Zie voor meer informatie over het werken met kaarten en kaartdetails [Veelgestelde vragen over Teams](teams-faq.md).
+Meer informatie over het werken met Kaarten en details over kaart vindt u in de  [Teams FAQ](teams-faq.md).
 
 ## <a name="share-link"></a>Een koppeling naar een pagina vanuit Business Central delen met Teams
 
@@ -116,7 +103,7 @@ Rechtstreeks vanuit de meeste collectiepagina's, zoals de pagina **Artikelen** e
    Voeg eventueel meer informatie toe en kies dan **Delen**.
 6. De link is nu gedeeld. Als u naar het gesprek wilt gaan, kiest u **Ga naar Teams**.
 
-## Zie ook
+## Gerelateerde informatie
 
 [Integratieoverzicht van Business Central en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
