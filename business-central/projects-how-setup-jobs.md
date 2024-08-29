@@ -30,7 +30,7 @@ Geef voor elk project verschillende informatie op:
 > [!NOTE]
 > Met de schakelaar **Gebruikslink standaard toepassen** op de pagina **Projectinstellingen** wordt aangegeven of projectposten standaard zijn gekoppeld aan projectplanningsregels. Schakel de schakelaar in om deze instelling toe te passen op alle nieuwe projecten. U kunt het bijhouden van het projectgebruik voor een specifiek project in- of uitschakelen door de schakelaar **Gebruikslink toepassen** op de pagina **Projectkaart** aan of uit te zetten.
 
-### <a name="specify-a-default-location-for-project-items"></a>Geef een standaardlocatie op voor projectartikelen
+### <a name="to-set-up-project-usage-tracking"></a>Geef een standaardlocatie op voor projectartikelen
 
 U kunt tijd besparen bij het invoeren van gegevens door een standaardlocatie en opslaglocatie voor projecten op te geven op de  pagina **Projectkaart**. Wanneer u projecttaken, projectplanningsregels en projectdagboekregels voor het project aanmaakt, worden de standaardlocatie en de opslaglocatie automatisch toegewezen. U kunt echter indien nodig de locatiecode en de opslaglocatie voor taken en regels wijzigen.
 
@@ -48,7 +48,7 @@ Er zijn een paar dingen die u moet weten over het gebruik van standaardlocaties:
 
 Wanneer bij projecten meerdere klanten betrokken zijn, kan het een uitdaging zijn om de juiste klanten voor de juiste taken te factureren. [!INCLUDE [prod_short](includes/prod_short.md)] maakt facturering minder complex doordat u op elke projecttaakregel de factuur- en orderklanten kunt specificeren, zodat u automatisch facturen voor de juiste klanten kunt genereren. Voor meer informatie over het factureren van meerdere klanten gaat u naar [Een of meer klanten factureren voor projecttaken](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### <a name="to-set-up-project-usage-tracking"></a>Bijhouden van projectgebruik instellen
+### <a name="synchronize-the-cost-of-used-items"></a>Bijhouden van projectgebruik instellen
 
 Als u aan een project werkt, wilt u wellicht weten in hoeverre uw gebruik overeenkomt met uw plan. Om gebruik te verkennen kunt u een koppeling tussen uw projectplanningsregels en het werkelijke verbruik maken. Met de koppeling kunt u uw kosten volgen en begrijpen hoeveel werk er nog is. Standaard is het soort projectplanningsregel **Budget**, maar als u het regelsoort **Budget en factureerbaar** gebruikt, heeft dat een soortgelijk effect.
 

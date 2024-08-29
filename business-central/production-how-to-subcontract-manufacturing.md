@@ -11,7 +11,7 @@ ms.date: 06/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Productie uitbesteden
+# <a name="subcontract-manufacturing"></a>Productie uitbesteden
 
 Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitbesteden kan een eenmalig gebeuren zijn of een integraal onderdeel uitmaken van alle productieprocessen.
 
@@ -21,11 +21,11 @@ Veel productiebedrijven besteden bepaalde bewerkingen uit aan leveranciers. Uitb
 - Afdelingskosten gebaseerd op eenheden of tijd: met behulp van deze functie kunt u opgeven of kosten die samenhangen met de afdeling worden gebaseerd op de productietijd of een vaste toeslag per eenheid. Hoewel toeleveranciers gewoonlijk werken met een vaste toeslag per eenheid die in rekening wordt gebracht voor hun diensten, kan de toepassing overweg met beide opties (productietijd en vaste toeslag per eenheid).  
 - Uitbestedingsvoorstel: met behulp van deze functie kunt u de productieorders vinden met materiaal dat gereed is om naar een toeleverancier te worden gezonden en automatisch inkooporders opstellen voor uitbestedingsbewerkingen op basis van productieorderbewerkingsplannen. De toepassing boekt vervolgens automatisch de inkoopordertoeslagen naar de productieorder tijdens het boeken van de inkooporder. Alleen productieorders met de status Vrijgegeven zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
 
-## Werkcentra voor onderaanneming  
+## <a name="subcontract-work-centers"></a>Werkcentra voor onderaanneming
 
 Uitbestedingsafdelingen worden op dezelfde manier ingesteld as normale afdelingen met aanvullende informatie. Ze worden op dezelfde manier als andere werkcentra aan routes toegewezen.  
 
-### Onderaannemingswerkcentrumvelden  
+### <a name="subcontract-work-center-fields"></a>Onderaannemingswerkcentrumvelden
 
 Dit veld **Toeleveranciersnr.** geeft aan dat de afdeling een uitbestedingsafdeling is. U kunt het nummer invoeren van de toeleverancier die de afdeling levert. Dit veld kan worden gebruikt voor het beheren van werkcentra die niet intern zijn, maar verwerking op contractbasis uitvoeren.  
 
@@ -33,7 +33,7 @@ Als u elk proces uitbesteedt voor een ander tarief bij de leverancier, schakelt 
 
 Als u tegen één tarief per leverancier uitbesteedt, laat u het veld **Specifieke kostprijs** leeg. De kosten worden ingesteld door de velden  **Directe eenheidskosten**,  **Indirecte kosten %** en  **Overheadtarief**  in te vullen.  
 
-### Routes die gebruikmaken van onderaannemingswerkcentra
+### <a name="routings-that-use-subcontract-work-centers"></a>Routes die gebruikmaken van onderaannemingswerkcentra
 
 Uitbestedingsafdelingen kunnen op dezelfde manier als reguliere afdelingen worden gebruikt voor bewerkingen in bewerkingsplannen.  
 
@@ -41,7 +41,7 @@ U kunt een bewerkingsplan instellen dat gebruikmaakt van een externe afdeling al
 
 Zie voor meer informatie [Bewerkingsplannen maken](production-how-to-create-routings.md).  
 
-## Bereken onderaannemingswerkbladen en maak onderaannemingsinkooporders  
+## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Bereken onderaannemingswerkbladen en maak onderaannemingsinkooporders
 
 Nadat u het onderaannemingswerkblad hebt berekend, wordt het bijbehorende document aangemaakt. In dit geval een inkooporder.  
 
@@ -50,7 +50,7 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
 > [!NOTE]  
 > Alleen productieorders met de status **Vrijgegeven** zijn toegankelijk en kunnen worden gebruikt vanuit een uitbestedingsvoorstel.  
 
-### Het uitbestedingsvoorstel berekenen  
+### <a name="to-calculate-the-subcontracting-worksheet"></a>Het uitbestedingsvoorstel berekenen
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Als u het voorstel wilt berekenen, klikt u op de actie **Uitbestedingen berekenen**.  
@@ -59,7 +59,7 @@ De pagina **Uitbestedingsvoorstel** werkt als het **Planningsvoorstel** door de 
 
     Bekijk de regels op de pagina **Uitbestedingsvoorstel**. De informatie in dit voorstel is afkomstig van de productieorder en de productieorderbewerkingsplanregels en gaat naar de inkooporder op het moment dat dit document wordt aangemaakt. U kunt een rij uit het voorstel verwijderen zonder dat dit gevolgen heeft voor de oorspronkelijke informatie, net zoals u met andere voorstellen kunt. De informatie verschijnt opnieuw de volgende keer dat u de functie **Uitbestedingen berekenen** uitvoert.  
 
-### De uitbestedingsinkooporder genereren  
+### <a name="to-create-the-subcontract-purchase-order"></a>De uitbestedingsinkooporder genereren
 
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen") voer **Uitbestedingsvoorstel** in en kies vervolgens de gerelateerde koppeling.  
 2. Kies de actie **Planningsboodschap uitvoeren**.  
@@ -70,11 +70,11 @@ Als alle uitbestede bewerkingen naar dezelfde leveranciersvestiging worden gestu
 
 De voorstelregel waarvan een inkooporder is gemaakt, wordt verwijderd uit het voorstel. Nadat een inkooporder is aangemaakt, verschijnt deze niet meer in het werkblad.  
 
-## Het boeken van onderaannemingsinkooporders  
+## <a name="posting-subcontract-purchase-orders"></a>Het boeken van onderaannemingsinkooporders
 
 Nadat de inkooporders voor onderaannemers zijn aangemaakt, kunnen ze worden geboekt. Bij ontvangst van de order wordt een capaciteitspost geboekt op de productieorder en bij het factureren van de order worden de directe kosten van de inkooporder geboekt op de productieorder.  
 
-## Een uitbestedingsinkooporder boeken
+## <a name="to-post-a-subcontract-purchase-order"></a>Een uitbestedingsinkooporder boeken
  
 1. Kies het ![Lampje dat de functie Vertel me opent.](media/ui-search/search_small.png "Vertel me wat u wilt doen"), voer **Inkooporders** in en selecteer vervolgens de gerelateerde koppeling  
 2. Open een inkooporder die op basis van het uitbestedingsvoorstel is gemaakt.  
@@ -95,7 +95,7 @@ Wanneer de inkooporder wordt geboekt als gefactureerd, worden de directe kosten 
 > [!NOTE]  
 > Verwachte kosten worden alleen beheerd voor artikeltransacties. Verwachte kosten gelden niet voor immateriële transactietypen, zoals capaciteit die is geboekt via inkooporders voor onderaanneming. Raak niet in de war door het feit dat het posten van een ontvangstbewijs kan leiden tot trigger posten van de uitvoer. Deze transacties zijn gescheiden en de verwachte kosten van de output worden onafhankelijk berekend.  
 
-## Zie ook  
+## <a name="see-also"></a>Zie ook
 
 [Productie](production-manage-manufacturing.md)    
 [Productie instellen](production-configure-production-processes.md)  

@@ -12,15 +12,15 @@ ms.service: dynamics-365-business-central
 ms.search.form: 2718_Primary
 ---
 
-# Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
+# <a name="managing-microsoft-teams-integration-with-"></a>Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] beheren
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Dit artikel geeft een overzicht van wat u als beheerder kunt doen om Microsoft Teams-integratie met [!INCLUDE [prod_short](includes/prod_short.md)] te beheren.
 
-## In Microsoft Teams
+## <a name="in-microsoft-teams"></a>In Microsoft Teams
 
-### Minimumvereisten
+### <a name="minimum-requirements"></a>Minimumvereisten
 
 In dit gedeelte worden de minimumvereisten voor de functies van de [!INCLUDE [prod_short](includes/prod_short.md)]-app beschreven om in Teams te werken.
 
@@ -43,7 +43,7 @@ In dit gedeelte worden de minimumvereisten voor de functies van de [!INCLUDE [pr
 
     Beleidsinstelling **URL-voorbeelden toestaan** moet zijn ingeschakeld. Anders kan er geen kaart worden gegenereerd voor [!INCLUDE [prod_short](includes/prod_short.md)]-koppelingen die in een Teams-gesprek worden geplakt. Meer informatie over deze instelling vindt u in [Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams).
 
-### De [!INCLUDE [prod_short](includes/prod_short.md)]-app beheren (optioneel)
+### <a name="managing-the--app-optional"></a>De [!INCLUDE [prod_short](includes/prod_short.md)]-app beheren (optioneel)
 
 Als Teams-beheerder kunt u alle apps voor uw organisatie beheren, inclusief de [!INCLUDE [prod_short](includes/prod_short.md)]-app. U kunt de [!INCLUDE [prod_short](includes/prod_short.md)]-app voor uw organisatie beheren, gebruikers blokkeren tegen het installeren van de app en meer.
 
@@ -52,9 +52,9 @@ Meer informatie vindt u in de Microsoft Teams documentatie op:
 - [Uw apps beheren in het Microsoft Teams-beheercentrum](/MicrosoftTeams/manage-apps)
 - [Installatiebeleid voor apps beheren in Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## In [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-"></a>In [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### Minimumvereisten
+### <a name="minimum-requirements-1"></a>Minimumvereisten
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-versie:
 
@@ -76,7 +76,7 @@ Meer informatie vindt u in de Microsoft Teams documentatie op:
     
     Meer informatie vindt u in [Machtigingen toewijzen aan gebruikers en groepen](ui-define-granular-permissions.md).
 
-## De Business Central-app installeren met behulp van gecentraliseerde implementatie
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>De Business Central-app installeren met behulp van gecentraliseerde implementatie
 
 In het Microsoft Teams-beheercentrum configureert u het installatiebeleid voor Teams-apps voor de organisatie. In het Teams-beheercentrum kunt u de functie Gecentraliseerde implementatie gebruiken om de Business Central-app automatisch in Teams te installeren voor alle gebruikers in uw organisatie, specifieke groepen of individuele gebruikers.
 
@@ -100,18 +100,18 @@ In het Microsoft Teams-beheercentrum configureert u het installatiebeleid voor T
 > [!IMPORTANT]
 > Het kan tot 24 uur duren voordat het app-instellingsbeleid is toegepast en de app is geïmplementeerd voor gebruikers.
 
-## Beheer van privacy en compliance 
+## <a name="managing-privacy-and-compliance"></a>Beheer van privacy en compliance
 
 Microsoft Teams biedt uitgebreide controles voor naleving en beheer van gevoelige of persoonlijk identificeerbare gegevens&mdash;inclusief gegevens die zijn toegevoegd aan chats en kanalen door de [!INCLUDE [prod_short](includes/prod_short.md)]-app.
 
-### Begrijpen waar [!INCLUDE [prod_short](includes/prod_short.md)]-kaarten worden opgeslagen
+### <a name="understanding-where--cards-are-stored"></a>Begrijpen waar [!INCLUDE [prod_short](includes/prod_short.md)]-kaarten worden opgeslagen
 
 Nadat een kaart naar een chat is verzonden, worden de kaart en de velden op de kaart gekopieerd naar Teams. Deze informatie valt onder het Teams-beleid voor uw organisatie, zoals het beleid voor het bewaren van gegevens. Bij het weergeven van kaartdetails wordt geen van de gegevens in het detailvenster opgeslagen in Teams. De gegevens blijven opgeslagen in [!INCLUDE [prod_short](includes/prod_short.md)] en worden alleen opgehaald door Teams wanneer de gebruiker ervoor kiest om de details te bekijken. 
 
 - Meer informatie over waar Teams die gegevens opslaat [Locatie van de gegevens in Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Meer informatie over bewaarbeleid in Teams vindt u op  [Bewaarbeleid in Microsoft Teams](/microsoftteams/retention-policies).
 
-### Het delen van kaarten beperken 
+### <a name="restricting-sharing-of-cards"></a>Het delen van kaarten beperken
 
 U voorkomt dat specifieke gebruikers of groepen kaarten naar chats of kanalen sturen door berichtenbeleid in te stellen dat de instelling **URL-voorbeelden** uitschakelt. Zie voor meer informatie over deze instelling [Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -119,7 +119,7 @@ U kunt ook informatiebarrières gebruiken om te voorkomen dat personen of groepe
 
 Functies voor het voorkomen van gegevensverlies in het Microsoft 365 Security & Compliance Center kunnen niet specifiek op kaarten worden toegepast. Maar ze kunnen worden toegepast op de chatberichten die de kaarten bevatten.
 
-### Reageren op gegevensaanvragen
+### <a name="responding-to-data-requests"></a>Reageren op gegevensaanvragen
 
 U staat teamleden en teameigenaren toe om berichten te verwijderen die gevoelige kaarten bevatten door een berichtenbeleid in te stellen, zoals: **Eigenaren kunnen verzonden berichten verwijderen** en **Gebruikers kunnen verzonden berichten verwijderen**. Meer informatie vindt u op [Berichtenbeleid beheren in Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -127,7 +127,7 @@ Functies voor het zoeken van inhoud en eDiscovery-naleving in het Microsoft 365 
 
 Omdat kaartgegevens in Teams een kopie zijn van gegevens in [!INCLUDE [prod_short](includes/prod_short.md)], kunt u ook [!INCLUDE [prod_short](includes/prod_short.md)]-functies gebruiken om gegevens van een klant op verzoek te exporteren. Meer informatie over privacy vindt u in [!INCLUDE [prod_short](includes/prod_short.md)] in [Veelgestelde vragen over privacy voor Business Central-klanten](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## Toon of verberg recordgegevens op kaarten
+## <a name="show-or-hide-record-data-on-cards"></a>Toon of verberg recordgegevens op kaarten
 
 Wanneer een record wordt gedeeld met anderen in een Teams-chat of -kanaal, wordt een kaart weergegeven met velden die gegevens over de record bevatten. Alle ontvangers kunnen deze gegevens (of recordsamenvatting) standaard bekijken, ongeacht hun licentie of machtigingen in Business Central. Als u een beheerder bent, kunt u de begeleide instelling **Kaartinstellingen** gebruiken om het recordoverzicht te verbergen voor weergave op kaarten in Teams. Als u het recordoverzicht verbergt, worden alle velden en afbeeldingen verwijderd, maar blijven de knop **Details** en andere, niet-recordinformatie op de kaart wel zichtbaar.
 
@@ -146,7 +146,7 @@ U configureert de instelling per omgeving. Dus wanneer u het recordoverzicht in-
 4. Zet op de pagina **Zichtbaarheid van gegevens** de schakelaar **Recordoverzicht weergeven** aan om de gegevens op de kaart weer te geven of uit om deze te verbergen.
 5. Selecteer **Volgende** en volg de instructies om de installatiegids te voltooien.
 
-## Gerelateerde informatie
+## <a name="related-information"></a>Gerelateerde informatie
 
 Overzicht van integratie tussen [[!INCLUDE [prod_short](includes/prod_short.md)] en Microsoft Teams](across-teams-overview.md)  
 [De [!INCLUDE [prod_short](includes/prod_short.md)]-app installeren voor Microsoft Teams](across-install-app-for-teams.md)  
