@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Overzicht van btw-beheer
+# <a name="vat-management-overview"></a>Overzicht van btw-beheer
 Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wordt geheven in elke fase van de toeleveringsketen waar waarde wordt toegevoegd vanaf de eerste productie tot aan het verkooppunt. Wilt u aan de slag met btw-beheer? Bekijk dan de volgende artikelen.  
 
 |  Artikel  |  Omschrijving  |  
@@ -31,7 +31,7 @@ Btw is een indirecte belasting op het verbruik van goederen en diensten. Btw wor
 | [Meerdere btw-registratienummers](finance-how-use-multiple-vat-registrations.md) | Ontdek hoe u meerdere btw-registratienummers (als alternatief btw-tarief) kunt instellen voor uw klanten die in verschillende landen/regio's actief zijn. |
 
 
-## Zie ook 
+## <a name="see-also"></a>Zie ook
 [Financiën](finance.md)    
 [Werken met [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
